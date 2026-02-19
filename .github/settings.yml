@@ -1,0 +1,15 @@
+repository:
+  description: "Prompts prontos para gerar flashcards de qualidade no Anki com LLMs. Baseado em ciência cognitiva: repetição espaçada, efeito de teste e método de Leitner."
+  topics:
+    - anki
+    - flashcards
+    - spaced-repetition
+    - repeticao-espacada
+    - llm
+    - prompt-engineering
+    - memorization
+    - learning
+    - cognitive-science
+    - study-tools
+    - anki-decks
+    - tsv
