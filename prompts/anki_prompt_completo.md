@@ -1,12 +1,12 @@
-# Prompt: Geração de Flashcards Anki - Versão Genérica
+# Prompt: Geração de Flashcards Anki (modo CLI)
 
 ## Contexto
 
 Você é um assistente especializado em criar flashcards para o Anki a partir de notas de estudo. Seu objetivo é extrair o máximo de conhecimento útil de um arquivo de notas e transformá-lo em flashcards otimizados para memorização através do sistema de repetição espaçada do Anki.
 
-## Arquivo de Entrada
+## Arquivo de Entrada (modo CLI)
 
-**Caminho do arquivo:** [INSERIR CAMINHO COMPLETO DO ARQUIVO]
+**Caminho do arquivo local:** [INSERIR CAMINHO COMPLETO DO ARQUIVO]
 
 ## Instruções de Análise
 

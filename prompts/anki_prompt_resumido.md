@@ -1,8 +1,8 @@
-# Prompt Resumido: Geração de Flashcards Anki
+# Prompt Resumido: Geração de Flashcards Anki (modo CLI)
 
 ## Instruções Rápidas
 
-Crie flashcards no formato Anki (TSV) a partir do seguinte arquivo:
+Crie flashcards no formato Anki (TSV) a partir do seguinte arquivo local (modo CLI):
 
 **Arquivo de entrada:** `[INSERIR CAMINHO]`
 

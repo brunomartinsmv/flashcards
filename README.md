@@ -55,20 +55,27 @@ Spaced repetition funciona, mas criar bons flashcards e dificil. Cards ruins ger
 ## O que este repo oferece
 
 - Prompts detalhados para gerar flashcards no formato TSV do Anki
-- Prompt resumido para uso rapido
+- Prompt resumido para uso rapido (modo CLI)
+- Prompt para uso direto em chat web (sem caminho de arquivo)
 - Exemplo completo (entrada .md e saida .tsv)
 - Materiais visuais para explicar o metodo
 
 ## Como usar
 
+**Escolha seu modo**
+- **CLI / arquivo local:** use `prompts/anki_prompt_completo.md` (ou `prompts/anki_prompt_resumido.md`) e informe o caminho do arquivo
+- **Web / chat:** use `prompts/anki_prompt_web.md` e cole o conteudo no chat ou anexe o arquivo
+
 1. Prepare um arquivo de notas em `.md` ou `.txt`
 2. Escolha o prompt em `prompts/`
-3. Cole o prompt em um LLM, junto com o caminho do seu arquivo
-4. Gere o arquivo `.tsv` e importe no Anki
+3. Cole o prompt em um LLM
+4. Siga o modo escolhido (caminho do arquivo ou conteudo colado/anexado)
+5. Gere o arquivo `.tsv` e importe no Anki
 
 Prompts disponiveis:
-- `prompts/anki_prompt_completo.md`
-- `prompts/anki_prompt_resumido.md`
+- `prompts/anki_prompt_completo.md` (modo CLI)
+- `prompts/anki_prompt_resumido.md` (modo CLI)
+- `prompts/anki_prompt_web.md`
 
 ## Exemplo completo
 
