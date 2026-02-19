@@ -1,4 +1,4 @@
-# Flashcards com Ciencia (prontos para o Anki)
+# Flashcards prontos para o Anki
 
 Transforme notas em flashcards de qualidade, com base em ciencia cognitiva. Este repo existe para reduzir o trabalho chato de criar bons cards e acelerar sua aprendizagem com repeticao espacada.
 
@@ -114,10 +114,6 @@ Arquivos completos do exemplo:
 - `examples/` exemplo completo de entrada e saida
 - `docs/` notas curtas e explicacoes
 - `archive/` materiais de referencia antigos (nao usados no README)
-
-## Licenca
-
-MIT. Veja `LICENSE`.
 
 ## Referencias (artigos e fontes)
 
