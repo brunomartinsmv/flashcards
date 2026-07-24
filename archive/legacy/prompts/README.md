@@ -1,6 +1,10 @@
-# Prompts de geracao de flashcards
+# Prompts genéricos de flashcards (legado)
 
-Use estes prompts para gerar flashcards no formato TSV do Anki.
+Estes prompts pertencem ao fluxo genérico anterior e foram preservados para
+consulta. Para o fluxo ES→PT atual, use
+`../../../skills/spanish-anki-flashcards/SKILL.md`.
+
+Eles geram flashcards no formato TSV do Anki a partir de notas.
 
 ## Prompts disponiveis
 
@@ -17,3 +21,5 @@ Use estes prompts para gerar flashcards no formato TSV do Anki.
 - Respostas curtas e objetivas
 - Formato TSV com 3 campos (PERGUNTA, RESPOSTA, TAGS)
 - 2 a 5 tags por card
+
+O exemplo correspondente está em `../examples/`.

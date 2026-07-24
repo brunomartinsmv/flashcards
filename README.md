@@ -1,28 +1,48 @@
-# Flashcards prontos para o Anki
+# Flashcards
 
-Transforme notas em flashcards de qualidade, com base em ciência cognitiva. Este repo existe para reduzir o trabalho chato de criar bons cards e acelerar sua aprendizagem com repetição espaçada.
+Este repositório mantém o fluxo pessoal do Bruno para gerar, validar e importar
+flashcards com base em ciência cognitiva e repetição espaçada. Hoje o foco é
+espanhol e inglês rumo à fluência; outros idiomas entram no mesmo padrão depois.
+
+Domínio: [`CONTEXT.md`](CONTEXT.md). Decisões: [`docs/adr/`](docs/adr/).
 
 ## Por que funciona (versão técnica)
 
-A memória humana sofre decaimento ao longo do tempo quando não há revisão. A curva do esquecimento, descrita por Hermann Ebbinghaus, caracteriza essa perda de informação e motivou a ideia de revisar em momentos estratégicos.
+A memória humana sofre decaimento ao longo do tempo quando não há revisão. A
+curva do esquecimento, descrita por Hermann Ebbinghaus, caracteriza essa perda
+de informação e motivou a ideia de revisar em momentos estratégicos.
 
 Dois efeitos robustos sustentam a repetição espaçada:
 
 ### 1) Spacing effect (prática distribuída)
 
-Revisões espaçadas superam revisões concentradas (massed practice). A meta-análise clássica de Cepeda et al. (2006) sintetiza centenas de estudos e mostra que a distribuição temporal melhora a retenção. Um resultado central é que o intervalo ideal entre revisões (ISI) aumenta conforme o intervalo até o teste final aumenta. Ou seja, quanto maior o prazo até a avaliação, mais espaçado deve ser o estudo.
+Revisões espaçadas superam revisões concentradas (massed practice). A
+meta-análise clássica de Cepeda et al. (2006) sintetiza centenas de estudos e
+mostra que a distribuição temporal melhora a retenção. Um resultado central é
+que o intervalo ideal entre revisões (ISI) aumenta conforme o intervalo até o
+teste final aumenta. Ou seja, quanto maior o prazo até a avaliação, mais
+espaçado deve ser o estudo.
 
 ### 2) Testing effect (recuperação ativa)
 
-Testar-se (recuperar ativamente) melhora a retenção de longo prazo mais do que apenas reler, mesmo quando a releitura aumenta a confiança imediata. Em estudos com atrasos de dias a semanas, testes anteriores produzem retenção superior em comparação à releitura repetida.
+Testar-se (recuperar ativamente) melhora a retenção de longo prazo mais do que
+apenas reler, mesmo quando a releitura aumenta a confiança imediata. Em estudos
+com atrasos de dias a semanas, testes anteriores produzem retenção superior em
+comparação à releitura repetida.
 
 ### 3) Otimização de intervalos
 
-Estudos posteriores mapearam o espaçamento ao longo de semanas e meses, mostrando que existe um "ridgeline" temporal: intervalos muito curtos desperdiçam esforço, e intervalos muito longos deixam a informação se perder antes da revisão. O melhor intervalo depende do tempo até a prova, reforçando a ideia de espaçamento adaptativo.
+Estudos posteriores mapearam o espaçamento ao longo de semanas e meses,
+mostrando que existe um "ridgeline" temporal: intervalos muito curtos
+desperdiçam esforço, e intervalos muito longos deixam a informação se perder
+antes da revisão. O melhor intervalo depende do tempo até a prova, reforçando a
+ideia de espaçamento adaptativo.
 
 ![Curva do esquecimento](assets/ForgettingCurve.svg)
 
-O método de Leitner operacionaliza esses efeitos com simplicidade: cards corretos avançam para caixas com intervalos maiores; cards errados voltam para revisões frequentes.
+O método de Leitner operacionaliza esses efeitos com simplicidade: cards
+corretos avançam para caixas com intervalos maiores; cards errados voltam para
+revisões frequentes.
 
 ![Sistema de Leitner](assets/Leitner_system_alternative.svg)
 
@@ -42,78 +62,79 @@ Referências principais:
 
 ## Evidências e limites
 
-Spaced repetition é robusta, mas não é uma fórmula mágica. A meta-análise de prática distribuída mostra que o ganho depende do intervalo entre sessões e do tempo até o teste final: intervalos muito curtos ou muito longos reduzem a eficiência. Estudos posteriores mostram a mesma relação em prazos longos (semanas a meses), sugerindo que o espaçamento deve ser ajustado ao horizonte de retenção.
+Spaced repetition é robusta, mas não é uma fórmula mágica. A meta-análise de
+prática distribuída mostra que o ganho depende do intervalo entre sessões e do
+tempo até o teste final: intervalos muito curtos ou muito longos reduzem a
+eficiência. Estudos posteriores mostram a mesma relação em prazos longos
+(semanas a meses), sugerindo que o espaçamento deve ser ajustado ao horizonte
+de retenção.
 
-O testing effect também tem limites: recuperar ativamente pode parecer mais difícil e pode reduzir a confiança imediata, mesmo quando melhora a retenção no longo prazo. Isso implica que o usuário pode sentir que está \"indo pior\" no curto prazo, quando na verdade está aprendendo mais.
+O testing effect também tem limites: recuperar ativamente pode parecer mais
+difícil e pode reduzir a confiança imediata, mesmo quando melhora a retenção no
+longo prazo. Isso implica que o usuário pode sentir que está "indo pior" no
+curto prazo, quando na verdade está aprendendo mais.
 
-Na prática, flashcards são excelentes para fatos, definições, fórmulas e discriminações simples. Para habilidades complexas, eles ajudam na base conceitual, mas não substituem prática deliberada (resolver problemas, escrever, programar, etc.). Use flashcards como camada de memória, não como única estratégia.
+Na prática, flashcards são excelentes para fatos, definições, fórmulas e
+discriminações simples. Para habilidades complexas, eles ajudam na base
+conceitual, mas não substituem prática deliberada (resolver problemas,
+escrever, programar, etc.). Use flashcards como camada de memória, não como
+única estratégia.
 
-## O problema real
+## Fluxo atual (idiomas)
 
-Spaced repetition funciona, mas criar bons flashcards é difícil. Cards ruins geram revisões ineficientes: perguntas vagas, respostas longas e sem tags. Esse repo resolve isso com prompts que orientam a criação de cards claros, objetivos e prontos para o Anki.
+Pipeline por **Lote** (ver Process Skill + profile do idioma):
 
-## O que este repo oferece
+1. **Inventory Gate** — export do Deck com ≤ 7 dias
+   (`idioms__spanish.txt` / `idioms__english.txt` em `Documents/`).
+2. Gerar seguindo
+   [`skills/language-anki-flashcards/SKILL.md`](skills/language-anki-flashcards/SKILL.md)
+   e o profile em `skills/language-anki-flashcards/profiles/`.
+3. Salvar em `flashcards/<language>/anki_<slug>_YYYY-MM-DD_cloze.tsv`.
+4. Validar:
 
-- Prompts detalhados para gerar flashcards no formato TSV do Anki
-- Prompt resumido para uso rápido (modo CLI)
-- Prompt para uso direto em chat web (sem caminho de arquivo)
-- Exemplo completo (entrada .md e saída .tsv)
-- Materiais visuais para explicar o método
+   ```bash
+   python3 skills/language-anki-flashcards/scripts/validate_flashcards.py \
+     flashcards/spanish/anki_espanhol_YYYY-MM-DD_cloze.tsv
+   ```
 
-## Como usar
+5. **Review Gate** — editar/rejeitar cards.
+6. **Prompt Import** — importar no Anki em seguida (lote menor se New estiver alto).
 
-**Escolha seu modo**
-- **CLI / arquivo local:** use `prompts/anki_prompt_completo.md` (ou `prompts/anki_prompt_resumido.md`) e informe o caminho do arquivo
-- **Web / chat:** use `prompts/anki_prompt_web.md` e cole o conteúdo no chat ou anexe o arquivo
+Espanhol e inglês rodam em paralelo. Input da semana tem prioridade sobre os
+temas default do profile.
 
-1. Prepare um arquivo de notas em `.md` ou `.txt`
-2. Escolha o prompt em `prompts/`
-3. Cole o prompt em um LLM
-4. Siga o modo escolhido (caminho do arquivo ou conteúdo colado/anexado)
-5. Gere o arquivo `.tsv` e importe no Anki
+## Formato ativo
 
-Prompts disponíveis:
-- `prompts/anki_prompt_completo.md` (modo CLI)
-- `prompts/anki_prompt_resumido.md` (modo CLI)
-- `prompts/anki_prompt_web.md`
+Novos lotes usam o note type **Cloze** e quatro colunas separadas por tab:
 
-## Exemplo completo
+1. `Text`: frase no idioma-alvo com um `{{c1::Target}}`;
+2. `Extra`: Support (PT e/ou sentido na frase — ver profile);
+3. `Notas`: regência, contraste ou variante (pode ficar vazio);
+4. `Tags`: tags separadas por espaços.
 
-Entrada (trecho):
+No Anki, use Cloze com campo `Notas` (ou ignore essa coluna) e mapeie a quarta
+coluna para Tags.
 
-```md
-## Conta-corrente
-A conta-corrente e o tipo de conta mais comum e a mais completa oferecida pelos bancos.
+O arquivo `anki_espanhol_2026-07-24_producao.tsv` é Basic de transição e não é
+modelo. Lotes antigos em `flashcards/spanish/` entram no inventário anti-duplicata.
 
-## Conta-salario
-E de responsabilidade do empregador realizar a abertura desse tipo de conta.
+## Estrutura
+
+```text
+flashcards/spanish/                 Lotes ES
+flashcards/english/                 Lotes EN
+skills/language-anki-flashcards/    Process Skill, profiles, validador
+CONTEXT.md                          glossário do domínio
+docs/adr/                           decisões estruturais
+assets/                             diagramas deste README
+archive/legacy/                     prompts/exemplo genéricos antigos
+archive/spaced-repetition/          docs e fontes científicas
 ```
 
-Saída (trecho TSV):
+## Dependência externa
 
-```tsv
-O que e conta-corrente?	E o tipo de conta mais comum e completa oferecida pelos bancos, aberta por qualquer pessoa para receber pagamentos, pagar contas, fazer transferencias, ter cartao de credito e cheque, e sacar dinheiro.	#conta-corrente #conceitos
-Quem e responsavel pela abertura de uma conta-salario?	O empregador - empresa ou orgao publico.	#conta-salario #conceitos
-```
-
-Arquivos completos do exemplo:
-- `examples/servicos_bancarios.md`
-- `examples/flashcards_servicos_bancarios.tsv`
-
-## Importar no Anki (checklist rápido)
-
-- Tipo: texto separado por tabulações
-- Campo 1 -> Frente
-- Campo 2 -> Verso
-- Campo 3 -> Tags
-
-## Estrutura do repo
-
-- `assets/` imagens usadas no README
-- `prompts/` prompts de geração de flashcards
-- `examples/` exemplo completo de entrada e saída
-- `docs/` notas curtas e explicações
-- `archive/` materiais de referência antigos (não usados no README)
+Exports vivos ficam fora do repo (`Documents/idioms__*.txt`). Sem export fresco
+o validador falha no Inventory Gate (`--skip-inventory-gate` só para debug).
 
 ## Referências (artigos e fontes)
 
