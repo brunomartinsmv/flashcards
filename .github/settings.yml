@@ -1,15 +1,19 @@
 repository:
-  description: "Prompts prontos para gerar flashcards de qualidade no Anki com LLMs. Baseado em ciência cognitiva: repetição espaçada, efeito de teste e método de Leitner."
+  description: >-
+    Workshop pessoal para gerar, validar e importar Lotes Cloze de idiomas
+    no Anki (ES/EN→fluência), com Process Skill, inventário e repetição espaçada.
   topics:
     - anki
     - flashcards
+    - cloze
     - spaced-repetition
-    - repeticao-espacada
-    - llm
-    - prompt-engineering
-    - memorization
-    - learning
-    - cognitive-science
-    - study-tools
+    - language-learning
+    - spanish
+    - english
     - anki-decks
+    - memorization
+    - fluency
+    - cognitive-science
+    - learning
     - tsv
+    - agent-skills
