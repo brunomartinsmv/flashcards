@@ -1,3 +1,9 @@
 .DS_Store
 __pycache__/
 *.py[cod]
+
+# gemini-cli settings
+.gemini/
+
+# GitHub App credentials
+gha-creds-*.json
