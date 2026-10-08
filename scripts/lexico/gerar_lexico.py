@@ -80,7 +80,7 @@ def generate():
                 omitted.append({'termo': front, 'portugues': back, 'motivo': 'Já está em um arquivo anterior do idioma.'})
                 continue
             if folder_name == 'italian' and word == 'nipote':
-                back += '; também pode significar neto, neta ou sobrinha, conforme o contexto.'
+                back += '; também pode significar neto, conforme o contexto.'
             deck = f'idioms::{folder_name}::Léxico::{level}::{number} {theme}'
             tags = f'lexico idioma::{slug(language)} tema::{slug(theme)} nivel::{slug(level)}'
             card = [front, back, tags, deck]

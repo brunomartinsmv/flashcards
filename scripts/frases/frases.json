@@ -1746,7 +1746,7 @@
   {
     "nivel": "intermediario",
     "tema": "03",
-    "pt": "Não quero pressionar você; só preciso saber se ainda conta comigo.",
+    "pt": "Não quero pressionar você; só preciso saber se ainda posso contar com você.",
     "it": "Non voglio metterti pressione; ho solo bisogno di sapere se posso ancora contare su di te.",
     "es": "No quiero presionarte; solo necesito saber si todavía cuento contigo.",
     "en": "I don't want to pressure you; I just need to know whether I can still count on you."
@@ -3531,7 +3531,7 @@
     "nivel": "avancado",
     "tema": "05",
     "pt": "Se repetirmos a análise com outra janela temporal, veremos se o padrão persiste.",
-    "it": "Se ripetiamo l'analisi con un'altra finestra temporale, vedremo se il modello persiste.",
+    "it": "Se ripetiamo l'analisi con un'altra finestra temporale, vedremo se lo stesso andamento persiste.",
     "es": "Si repetimos el análisis con otra ventana temporal, veremos si persiste el patrón.",
     "en": "If we rerun the analysis with a different time window, we'll see whether the pattern holds."
   },

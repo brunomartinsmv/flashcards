@@ -24,6 +24,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Destinos dos novos cartões de idiomas dentro de `idioms::italian`, `idioms::spanish` e `idioms::english`, com subdecks por nível e tema.
 - README principal e descrição do repositório atualizados para a biblioteca pessoal compartilhada.
 
+### Fixed
+
+- Traduções de padrão estatístico em italiano, direção de “contar com alguém” e gênero de `il nipote`.
+- Requisitos de isenção de rendimentos de FII corrigidos com referência complementar à Lei 11.033/2004.
+- Guia de origem CPA esclarece que o gerador e o relatório dos TXT anteriores não estão disponíveis.
+
 ### Removed
 
 - PDF de referência científica da árvore publicada. A referência bibliográfica permanece; o histórico Git anterior não foi reescrito.

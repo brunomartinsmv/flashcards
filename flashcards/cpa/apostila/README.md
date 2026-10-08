@@ -1,6 +1,6 @@
 # Coleção CPA baseada na apostila
 
-Coleção de cartões Basic para as tarefas CPA03 a CPA33, criada somente a partir de `flashcards/cpa/fontes/apostila_cpa.txt`, extraído de `livros/Apostila_CPA.pdf` (edição janeiro/2026). As perguntas foram contextualizadas e parafraseadas. Cada verso traz a página impressa e a página PDF usada como fonte.
+Coleção de cartões Basic para as tarefas CPA03 a CPA33, criada a partir de `flashcards/cpa/fontes/apostila_cpa.txt`, extraído de `livros/Apostila_CPA.pdf` (edição janeiro/2026). As perguntas foram contextualizadas e parafraseadas. Cada verso traz a página impressa e a página PDF usada como fonte.
 
 O PDF e sua extração são fontes locais privadas e não são distribuídos. Para executar os scripts, prepare a extração conforme o [guia das fontes](../fontes/README.md). Para importar os cartões, ela não é necessária.
 
@@ -25,6 +25,9 @@ Cada nota recebe `cpa::apostila`, a tag da tarefa (`cpa::03`, por exemplo) e uma
 As tarefas CPA34, CPA36 e CPA38 pedem simulados completos. A coleção não cria simulados nem substitui questões em condições de prova. CPA35 e CPA37 dependem das respostas erradas ou marcadas com dúvida nos simulados pessoais, que não foram fornecidas. Para corrigir essas tarefas, associe cada erro ao tema e à página da apostila, revise o deck correspondente e crie um cartão próprio que explique o erro. CPA39 pode selecionar todas as tags temáticas e os cartões pessoais de erro.
 
 ## Regras e cálculos
+
+O cartão de isenção de rendimentos de FII corrige uma imprecisão da apostila e complementa os requisitos com a [Lei 11.033/2004, art. 3º, § 1º](https://www2.camara.leg.br/legin/fed/lei/2004/lei-11033-21-dezembro-2004-535177-normaatualizada-pl.html). O verso identifica essa exceção à fonte principal.
+
 
 Valores tributários, limites e outras regras regulatórias aparecem identificados como "Segundo a apostila (edição janeiro/2026)". A coleção não verifica se esses dados continuam vigentes. Use a edição indicada como material de estudo, não como confirmação de regra atual.
 

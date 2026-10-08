@@ -34,6 +34,6 @@ A classificação normativa/supervisora é didática. Supervisores também edita
 
 ## Verificação
 
-Os arquivos foram reabertos como texto UTF-8 e analisados como dados tabulados. Foram conferidos os 115 cartões, três colunas por nota, campos preenchidos, frentes únicas e quantidade de casos. O relatório está em validacao.json. Não foi feita importação em uma instalação do Anki.
+Na preparação original, os arquivos 01 e 02 foram reabertos como UTF-8 e analisados como dados tabulados: 115 cartões, três campos preenchidos por nota, frentes únicas e contagem de casos. O relatório `validacao.json` e o gerador `criar_decks.py` usados naquela preparação não estão disponíveis neste repositório. Esta seção registra a verificação original, sem oferecer um comando de regeneração desses dois decks.
 
-Para regenerar os arquivos e repetir a validação estrutural, execute python3 criar_decks.py nesta pasta.
+Os scripts em [apostila/scripts/](apostila/scripts/README.md) geram e validam apenas a coleção posterior baseada na apostila. Eles não regeneram os TXT 01 e 02. Para importar os TXT, confira os campos na prévia do Anki conforme as instruções acima.
