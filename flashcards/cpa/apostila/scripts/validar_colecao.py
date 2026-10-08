@@ -68,6 +68,8 @@ reviews = {r['Tarefa']: r for r in coverage}
 assert 'cpa::01' in reviews['CPA 08']['Cobertura/procedimento']
 assert '01_sfn_orgaos.txt' in reviews['CPA 08']['Deck/seleção']
 assert 'cpa::21' not in reviews['CPA 20']['Cobertura/procedimento']
+assert 'CPR' in answers['Quais investimentos de renda fixa a apostila lista como isentos de IR para pessoa física?']
+assert 'Resolução CVM 175' in answers['Qual é o quórum de instalação da assembleia de cotistas de fundos (Resolução CVM 175)?']
 assert all(not any(c in path.name for c in '<>:"\\|?*') for path in BASE.glob('*.csv'))
 
 assert round((1.15 / 1.05 - 1) * 100, 2) == 9.52

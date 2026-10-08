@@ -26,6 +26,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Fixed
 
+- Quórum de instalação de assembleia geral de fundos alinhado à Resolução CVM 175 e sigla CPR corrigida na isenção de renda fixa.
+- Frases de idiomas com aviso prévio em inglês e prazo prometido de reparo em italiano.
 - Tradução de entrega antecipada em inglês, cálculos de resgate líquido e duration e seleções das revisões CPA08 e CPA20.
 - Nomes de CSVs CPA compatíveis com Windows e leitura explícita de UTF-8 no gerador de léxico.
 

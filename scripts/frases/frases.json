@@ -1789,7 +1789,7 @@
     "pt": "Eu preferiria que você me avisasse antes de compartilhar a mensagem.",
     "it": "Preferirei che mi avvisassi prima di condividere il messaggio.",
     "es": "Preferiría que me avisaras antes de compartir el mensaje.",
-    "en": "I'd prefer it if you checked with me before sharing the message."
+    "en": "I'd prefer it if you let me know before sharing the message."
   },
   {
     "nivel": "intermediario",
@@ -2611,7 +2611,7 @@
     "nivel": "avancado",
     "tema": "01",
     "pt": "Caso o reparo demore mais do que prometeram, precisaremos combinar outra solução.",
-    "it": "Se la riparazione richiede più tempo del previsto, dovremo trovare un'altra soluzione.",
+    "it": "Se la riparazione richiede più tempo di quanto promesso, dovremo trovare un'altra soluzione.",
     "es": "Si la reparación tarda más de lo que prometieron, tendremos que buscar otra solución.",
     "en": "If the repair takes longer than promised, we'll need to work out another solution."
   },

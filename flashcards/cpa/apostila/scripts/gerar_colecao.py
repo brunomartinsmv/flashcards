@@ -278,7 +278,7 @@ add(11,[
 ('Como o IOF de renda fixa incide antes de 30 dias?','Segundo a apostila (edição janeiro/2026), incide sobre o rendimento, não sobre o principal, com alíquota regressiva diária; no 30º dia a alíquota chega a zero.','189','tributacao iof'),
 ('Qual é a alíquota de IOF indicada para resgate no 15º dia?','Segundo a apostila (edição janeiro/2026), a alíquota é 50% do rendimento. Em ganho de R$ 100,00, o IOF é R$ 50,00.','190','tributacao iof'),
 ('Como calcular IR e IOF para R$ 100 de rendimento resgatado no 15º dia?','Segundo o exemplo da apostila (edição janeiro/2026): IOF = 50%×R$100 = R$50; base líquida = R$50; IR = 22,5%×R$50 = R$11,25. Sobre aplicação de R$100.000 com saldo bruto de R$100.100, o líquido após tributos é R$100.038,75.','191','tributacao calculo'),
-('Quais investimentos de renda fixa a apostila lista como isentos de IR para pessoa física?','Segundo a apostila (edição janeiro/2026), a lista inclui poupança, debêntures incentivadas, CRI, LH, LCI, LCA, CRA e CRP. O ganho de capital na alienação ou cessão desses títulos não fica isento pela mesma regra.','189','tributacao isencao'),
+('Quais investimentos de renda fixa a apostila lista como isentos de IR para pessoa física?','Segundo a apostila (edição janeiro/2026), a lista inclui poupança, debêntures incentivadas, CRI, LH, LCI, LCA, CRA e CPR. O ganho de capital na alienação ou cessão desses títulos não fica isento pela mesma regra.','189','tributacao isencao'),
 ('O COE conta com cobertura do FGC?','Não. A apostila informa que COE não conta com garantia do FGC; resgate antecipado pode ocorrer sujeito à marcação a mercado e sem garantia do principal.','188','coe fgc riscos'),
 ])
 add(15,[
@@ -376,7 +376,7 @@ add(15,[
 ('O administrador de fundo pode garantir rentabilidade predeterminada?','Não. A apostila lista como vedado aos administradores e gestores garantir retornos predeterminados aos cotistas.','260','fundos participantes'),
 ('Qual é o principal dever do gestor quanto à carteira?','Decidir compra e venda de ativos e observar limites de composição, concentração e fatores de risco definidos para a classe.','261','fundos participantes'),
 ('Como marcação a mercado protege cotistas?','Registra ativos por preços correntes ou estimativas adequadas quando não há preço observável, refletindo variações na cota e reduzindo transferência de riqueza entre quem entra e sai.','270','fundos marcacao_mercado'),
-('Qual é o mínimo de cotistas necessário para assembleia segundo o trecho da apostila?','A apostila indica presença representando no mínimo 5% do patrimônio líquido para deliberação e cotistas com ao menos 5% podendo solicitar convocação. Ver regras específicas da classe e do regulamento.','256','fundos assembleia'),
+('Qual é o quórum de instalação da assembleia de cotistas de fundos (Resolução CVM 175)?','A assembleia geral instala-se com qualquer número de cotistas presentes (art. 74 da Resolução CVM 175). A regra de 5% das cotas emitidas aplica-se à iniciativa para solicitar sua convocação, e não ao quórum de instalação (o trecho da apostila indica 5% para deliberação de forma imprecisa).','256','fundos assembleia'),
 ])
 add(17,[
 ('Qual benefício fiscal o PGBL pode oferecer na fase de contribuição?','Segundo a apostila (edição janeiro/2026), contribuições ao PGBL podem ser deduzidas até 12% da renda bruta tributável anual, quando atendidos os requisitos da declaração completa e contribuição à previdência oficial.','307','previdencia pgbl tributacao'),
