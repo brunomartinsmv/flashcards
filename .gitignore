@@ -1,3 +1,22 @@
+# Arquivos locais e Python
 .DS_Store
 __pycache__/
 *.py[cod]
+
+# Livros, apostilas e cópias de fontes. Manter apenas no computador.
+livros/
+books/
+apostilas/
+*.pdf
+*.epub
+*.mobi
+*.azw
+*.azw3
+*.djvu
+flashcards/*/fontes/*_extraido.txt
+flashcards/cpa/fontes/apostila_cpa.txt
+
+# Exportações pessoais e relatórios da coleção Anki
+scripts/**/importacoes/
+anki-stats-*
+flashcards/cpa/CPA ANBIMA.csv

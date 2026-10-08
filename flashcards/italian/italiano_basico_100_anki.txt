@@ -1,0 +1,104 @@
+#separator:Tab
+#html:false
+#tags column:3
+#columns:Italiano	Português	Tags
+Ciao!	Oi! / Tchau! (informal)	italiano::basico::cumprimentos
+Buongiorno!	Bom dia!	italiano::basico::cumprimentos
+Buonasera!	Boa noite! (ao cumprimentar alguém)	italiano::basico::cumprimentos
+Buonanotte!	Boa noite! (ao se despedir para dormir)	italiano::basico::cumprimentos
+Arrivederci!	Até logo!	italiano::basico::cumprimentos
+A presto!	Até breve!	italiano::basico::cumprimentos
+Come stai?	Como você está? (informal)	italiano::basico::cumprimentos
+Sto bene, grazie.	Estou bem, obrigado(a).	italiano::basico::cumprimentos
+E tu?	E você? (informal)	italiano::basico::cumprimentos
+Piacere!	Prazer! (ao conhecer alguém)	italiano::basico::cumprimentos
+Per favore.	Por favor.	italiano::basico::gentileza
+Grazie!	Obrigado(a)!	italiano::basico::gentileza
+Grazie mille!	Muito obrigado(a)!	italiano::basico::gentileza
+Prego.	De nada. (em resposta a um agradecimento)	italiano::basico::gentileza
+Scusa.	Desculpa. / Com licença. (informal)	italiano::basico::gentileza
+Mi scusi.	Desculpe. / Com licença. (formal)	italiano::basico::gentileza
+Mi dispiace.	Sinto muito.	italiano::basico::gentileza
+Sì.	Sim.	italiano::basico::gentileza
+No.	Não.	italiano::basico::gentileza
+Va bene.	Está bem. / Tudo bem. (para concordar)	italiano::basico::gentileza
+Come ti chiami?	Como você se chama? (informal)	italiano::basico::apresentacao
+Mi chiamo Bruno.	Eu me chamo Bruno.	italiano::basico::apresentacao
+Di dove sei?	De onde você é? (informal)	italiano::basico::apresentacao
+Sono brasiliano.	Sou brasileiro. (uma mulher diz: Sono brasiliana.)	italiano::basico::apresentacao
+Vengo dal Brasile.	Venho do Brasil.	italiano::basico::apresentacao
+Abito in Brasile.	Moro no Brasil.	italiano::basico::apresentacao
+Quanti anni hai?	Quantos anos você tem? (informal)	italiano::basico::apresentacao
+Ho venti anni.	Tenho vinte anos.	italiano::basico::apresentacao
+Sono uno studente.	Sou estudante. (uma mulher diz: Sono una studentessa.)	italiano::basico::apresentacao
+Parlo portoghese.	Falo português.	italiano::basico::apresentacao
+Non capisco.	Não entendo.	italiano::basico::comunicacao
+Non lo so.	Não sei.	italiano::basico::comunicacao
+Puoi ripetere, per favore?	Você pode repetir, por favor? (informal)	italiano::basico::comunicacao
+Può parlare più lentamente?	Pode falar mais devagar? (formal)	italiano::basico::comunicacao
+Come si dice questo in italiano?	Como se diz isto em italiano?	italiano::basico::comunicacao
+Che cosa significa?	O que significa?	italiano::basico::comunicacao
+Parli inglese?	Você fala inglês? (informal)	italiano::basico::comunicacao
+Parlo un po' di italiano.	Falo um pouco de italiano.	italiano::basico::comunicacao
+Sto imparando l'italiano.	Estou aprendendo italiano.	italiano::basico::comunicacao
+Come si scrive?	Como se escreve?	italiano::basico::comunicacao
+uno	um	italiano::basico::numeros
+due	dois	italiano::basico::numeros
+tre	três	italiano::basico::numeros
+quattro	quatro	italiano::basico::numeros
+cinque	cinco	italiano::basico::numeros
+sei	seis	italiano::basico::numeros
+sette	sete	italiano::basico::numeros
+otto	oito	italiano::basico::numeros
+nove	nove	italiano::basico::numeros
+dieci	dez	italiano::basico::numeros
+oggi	hoje	italiano::basico::tempo
+domani	amanhã	italiano::basico::tempo
+ieri	ontem	italiano::basico::tempo
+adesso	agora	italiano::basico::tempo
+la mattina	a manhã	italiano::basico::tempo
+il pomeriggio	a tarde	italiano::basico::tempo
+la sera	o período do fim da tarde e da noite, antes de dormir	italiano::basico::tempo
+la notte	a noite (período noturno, especialmente o de dormir)	italiano::basico::tempo
+Che ore sono?	Que horas são?	italiano::basico::tempo
+A che ora?	A que horas?	italiano::basico::tempo
+l'acqua	a água	italiano::basico::comida
+il pane	o pão	italiano::basico::comida
+il caffè	o café	italiano::basico::comida
+il latte	o leite	italiano::basico::comida
+il tè	o chá	italiano::basico::comida
+la pasta	a massa (como macarrão)	italiano::basico::comida
+Ho fame.	Estou com fome.	italiano::basico::comida
+Ho sete.	Estou com sede.	italiano::basico::comida
+Vorrei un caffè, per favore.	Eu gostaria de um café, por favor.	italiano::basico::comida
+Il conto, per favore.	A conta, por favor.	italiano::basico::comida
+Dov'è il bagno?	Onde fica o banheiro?	italiano::basico::viagem
+Dov'è la stazione?	Onde fica a estação?	italiano::basico::viagem
+Dov'è la fermata dell'autobus?	Onde fica o ponto de ônibus?	italiano::basico::viagem
+Un biglietto, per favore.	Uma passagem / um ingresso, por favor.	italiano::basico::viagem
+a destra	à direita	italiano::basico::viagem
+a sinistra	à esquerda	italiano::basico::viagem
+sempre dritto	sempre em frente (ao dar uma direção)	italiano::basico::viagem
+È vicino?	É perto?	italiano::basico::viagem
+È lontano?	É longe?	italiano::basico::viagem
+Ho una prenotazione.	Tenho uma reserva.	italiano::basico::viagem
+Quanto costa?	Quanto custa?	italiano::basico::compras
+Posso pagare con la carta?	Posso pagar com cartão?	italiano::basico::compras
+Posso pagare in contanti?	Posso pagar em dinheiro?	italiano::basico::compras
+È troppo caro.	É caro demais.	italiano::basico::compras
+Vorrei questo.	Eu gostaria disto. (ao indicar um item)	italiano::basico::compras
+Posso provarlo?	Posso experimentar? (referindo-se a um item masculino)	italiano::basico::compras
+Avete una taglia più grande?	Vocês têm um tamanho maior?	italiano::basico::compras
+Avete una taglia più piccola?	Vocês têm um tamanho menor?	italiano::basico::compras
+Sto solo guardando, grazie.	Estou só olhando, obrigado(a).	italiano::basico::compras
+La ricevuta, per favore.	O recibo, por favor.	italiano::basico::compras
+Aiuto!	Socorro!	italiano::basico::necessidades
+Ho bisogno di aiuto.	Preciso de ajuda.	italiano::basico::necessidades
+Mi sono perso.	Estou perdido. (uma mulher diz: Mi sono persa.)	italiano::basico::necessidades
+Non mi sento bene.	Não estou me sentindo bem.	italiano::basico::necessidades
+Ho bisogno di un medico.	Preciso de um médico.	italiano::basico::necessidades
+Dov'è la farmacia?	Onde fica a farmácia?	italiano::basico::necessidades
+Chiamate un'ambulanza!	Chamem uma ambulância!	italiano::basico::necessidades
+Sono allergico alle arachidi.	Sou alérgico a amendoim. (uma mulher diz: Sono allergica alle arachidi.)	italiano::basico::necessidades
+Il mio telefono non funziona.	Meu telefone não funciona.	italiano::basico::necessidades
+Mi piace.	Eu gosto. / Gosto disso.	italiano::basico::necessidades

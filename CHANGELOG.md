@@ -7,6 +7,32 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.1.0] - 2026-10-08
+
+### Added
+
+- Coleções de italiano, espanhol e inglês com mais de 500 palavras simples por idioma e 450 frases por idioma, divididas em três níveis e cinco temas por nível.
+- Coleção CPA com 317 notas da apostila em 27 temas, quatro decks anteriores e índices de cobertura do plano de estudos.
+- Consolidados dos lotes anteriores de idiomas e scripts de geração das coleções.
+- READMEs por conteúdo, declaração do uso de IA e instruções de importação.
+- CC BY 4.0 para os flashcards novos e a documentação autoral nova, com exemplo de atribuição e NOTICE. Apache 2.0 preservada nos scripts e materiais anteriores.
+
+### Changed
+
+- Escopo do repositório ampliado para todos os flashcards usados pelo autor.
+- Arquivos importáveis organizados diretamente na pasta de cada conteúdo.
+- Destinos dos novos cartões de idiomas dentro de `idioms::italian`, `idioms::spanish` e `idioms::english`, com subdecks por nível e tema.
+- README principal e descrição do repositório atualizados para a biblioteca pessoal compartilhada.
+
+### Removed
+
+- PDF de referência científica da árvore publicada. A referência bibliográfica permanece; o histórico Git anterior não foi reescrito.
+
+### Security
+
+- Livros, apostilas, formatos de e-book, PDFs, extração integral da apostila CPA e relatórios pessoais do Anki excluídos da publicação por regras do `.gitignore`.
+
+
 ## [1.0.0] - 2026-07-24
 
 ### Added
@@ -45,6 +71,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Portuguese spelling and diacritics in the README.
 
-[Unreleased]: https://github.com/brunomartinsmv/flashcards/compare/v1.0.0...HEAD
+[Unreleased]: https://github.com/brunomartinsmv/flashcards/compare/v1.1.0...HEAD
 [1.0.0]: https://github.com/brunomartinsmv/flashcards/compare/v0.1.0...v1.0.0
 [0.1.0]: https://github.com/brunomartinsmv/flashcards/releases/tag/v0.1.0
+
+[1.1.0]: https://github.com/brunomartinsmv/flashcards/compare/v1.0.0...v1.1.0

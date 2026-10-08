@@ -1,3 +1,13 @@
+# Escopo atual da biblioteca
+
+Desde 2026-10-08, o repositório reúne todos os flashcards usados por Bruno Martins, incluindo idiomas e CPA. O conteúdo novo pode usar Basic ou Cloze conforme o objetivo do cartão. Arquivos importáveis ficam diretamente em `flashcards/<conteúdo>/`.
+
+As coleções são preparadas com auxílio de IA sob instruções editoriais do autor. Livros e suas extrações integrais ficam locais. Conteúdo autoral novo usa CC BY 4.0; scripts e materiais anteriores preservam Apache 2.0. O README principal apresenta importação, créditos e limites.
+
+As decisões abaixo documentam o fluxo de idiomas estabelecido em julho de 2026. As definições de escopo exclusivo de idiomas e Cloze para todos os cartões novos foram superadas pela ampliação acima. Os gates de inventário e revisão continuam aplicáveis ao fluxo de lotes descrito na skill.
+
+---
+
 # Flashcards (language study)
 
 Personal workshop for creating Anki flashcards that support Bruno's path to fluency in languages he is learning.

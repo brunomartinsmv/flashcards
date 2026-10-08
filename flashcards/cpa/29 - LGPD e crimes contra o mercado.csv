@@ -1,0 +1,11 @@
+#separator:Comma
+#html:true
+#tags column:3
+#deck:CPA::29 LGPD e crimes contra o mercado
+#deck column:4
+#columns:Frente,Verso,Tags,Deck
+O que é dado pessoal segundo a LGPD?,"Informação relacionada a pessoa natural identificada ou identificável. Dado pessoal sensível é categoria específica sujeita a proteção reforçada.<br><small>Fonte: Apostila CPA, ed. janeiro/2026, p. impressa 412 (PDF 412).</small>",cpa::apostila cpa::29 tema::lgpd tema::dados,CPA::29 LGPD e crimes contra o mercado
+Quais princípios da LGPD orientam o tratamento de dados de clientes?,"Finalidade, adequação, necessidade, transparência, segurança, prevenção, não discriminação e responsabilização, entre outros princípios legais.<br><small>Fonte: Apostila CPA, ed. janeiro/2026, p. impressa 413 (PDF 413).</small>",cpa::apostila cpa::29 tema::lgpd tema::principios,CPA::29 LGPD e crimes contra o mercado
+O que caracteriza insider trading?,"Negociar valores mobiliários usando informação relevante ainda não divulgada ao mercado, ou repassá-la indevidamente, obtendo vantagem ou evitando perda.<br><small>Fonte: Apostila CPA, ed. janeiro/2026, p. impressa 415 (PDF 415).</small>",cpa::apostila cpa::29 tema::crimes tema::mercado tema::insider,CPA::29 LGPD e crimes contra o mercado
+O que é spoofing no mercado?,"Inserir ordens sem intenção real de execução para criar falsa impressão de oferta ou demanda e induzir outros participantes.<br><small>Fonte: Apostila CPA, ed. janeiro/2026, p. impressa 417 (PDF 417).</small>",cpa::apostila cpa::29 tema::crimes tema::mercado tema::spoofing,CPA::29 LGPD e crimes contra o mercado
+O que caracteriza front running?,"Negociar por conta própria antes de executar ordem relevante de cliente, aproveitando-se da informação sobre a ordem e prejudicando o cliente.<br><small>Fonte: Apostila CPA, ed. janeiro/2026, p. impressa 419 (PDF 419).</small>",cpa::apostila cpa::29 tema::crimes tema::mercado tema::front_running,CPA::29 LGPD e crimes contra o mercado

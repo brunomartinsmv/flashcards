@@ -1,145 +1,55 @@
-# Flashcards
+# Meus flashcards
 
-Este repositório mantém o fluxo pessoal do Bruno para gerar, validar e importar
-flashcards com base em ciência cognitiva e repetição espaçada. Hoje o foco é
-espanhol e inglês rumo à fluência; outros idiomas entram no mesmo padrão depois.
+Este repositório reúne os flashcards que eu uso para estudar. Começou com idiomas e agora também recebe CPA e outros conteúdos que fizerem parte dos meus estudos.
 
-Domínio: [`CONTEXT.md`](CONTEXT.md). Decisões: [`docs/adr/`](docs/adr/).
+Os cartões refletem minhas escolhas de assunto, a forma como prefiro perguntar e responder e a organização que uso no Anki. Qualquer pessoa pode aproveitar o material, adaptar os cartões e compartilhar suas versões, respeitando a licença e os créditos.
 
-## Por que funciona (versão técnica)
+## Coleções
 
-A memória humana sofre decaimento ao longo do tempo quando não há revisão. A
-curva do esquecimento, descrita por Hermann Ebbinghaus, caracteriza essa perda
-de informação e motivou a ideia de revisar em momentos estratégicos.
+| Conteúdo | Material | Guia |
+| --- | --- | --- |
+| Italiano | 587 cartões de léxico, 450 frases e coleção básica anterior | [Italiano](flashcards/italian/README.md) |
+| Espanhol | 600 cartões de léxico, 450 frases e lotes anteriores Basic e Cloze | [Espanhol](flashcards/spanish/README.md) |
+| Inglês | 600 cartões de léxico, 450 frases e lotes anteriores Cloze | [Inglês](flashcards/english/README.md) |
+| CPA | 317 notas da apostila em 27 temas e quatro coleções anteriores | [CPA](flashcards/cpa/README.md) |
+| Consolidados antigos | Lotes anteriores reunidos por idioma e modelo | [Consolidados](flashcards/consolidados/README.md) |
 
-Dois efeitos robustos sustentam a repetição espaçada:
+Esses números descrevem os arquivos distribuídos. As versões por tema e os arquivos completos repetem a mesma coleção; não devem ser somados nem importados juntos.
 
-### 1) Spacing effect (prática distribuída)
+## Como importar no Anki
 
-Revisões espaçadas superam revisões concentradas (massed practice). A
-meta-análise clássica de Cepeda et al. (2006) sintetiza centenas de estudos e
-mostra que a distribuição temporal melhora a retenção. Um resultado central é
-que o intervalo ideal entre revisões (ISI) aumenta conforme o intervalo até o
-teste final aumenta. Ou seja, quanto maior o prazo até a avaliação, mais
-espaçado deve ser o estudo.
+1. Escolha uma coleção e leia o README da pasta.
+2. Importe o arquivo completo ou os arquivos por tema. Use apenas uma dessas opções.
+3. Confira o separador, o tipo de nota e o mapeamento dos campos na prévia do Anki.
 
-### 2) Testing effect (recuperação ativa)
+CSV, TSV e TXT são formatos de texto. Os cabeçalhos de cada arquivo indicam o separador, o uso de HTML, as tags e, quando presente, o deck de destino. Basic usa pergunta e resposta. Cloze usa lacunas como `{{c1::palavra}}` dentro de uma frase.
 
-Testar-se (recuperar ativamente) melhora a retenção de longo prazo mais do que
-apenas reler, mesmo quando a releitura aumenta a confiança imediata. Em estudos
-com atrasos de dias a semanas, testes anteriores produzem retenção superior em
-comparação à releitura repetida.
+Nos cartões novos de idiomas, a frente fica no idioma estudado e o verso em português. O destino fica em `idioms::italian`, `idioms::spanish` ou `idioms::english`, com subdecks por coleção, nível e tema. CPA usa `CPA::<número e tema>`. A coluna especial Deck cria os subdecks para cartões novos. Atualizações de notas existentes preservam o deck atual no Anki.
 
-### 3) Otimização de intervalos
+## Uso de IA e autoria
 
-Estudos posteriores mapearam o espaçamento ao longo de semanas e meses,
-mostrando que existe um "ridgeline" temporal: intervalos muito curtos
-desperdiçam esforço, e intervalos muito longos deixam a informação se perder
-antes da revisão. O melhor intervalo depende do tempo até a prova, reforçando a
-ideia de espaçamento adaptativo.
+Usei IA para ajudar a gerar, traduzir e organizar os flashcards, seguindo as instruções e o formato que eu escolhi. A seleção dos assuntos, a direção dos cartões e a estrutura dos decks seguem minha visão pessoal de estudo. A IA participa como ferramenta de produção; a coleção registra minhas escolhas editoriais e autorais.
 
-![Curva do esquecimento](assets/ForgettingCurve.svg)
+Isso não significa que cada cartão tenha passado por revisão manual individual. Podem existir erros ou traduções que precisem de contexto. Confira o material durante o estudo e sugira correções por issue ou pull request. As regras de CPA devem ser lidas junto da edição da fonte indicada no verso.
 
-O método de Leitner operacionaliza esses efeitos com simplicidade: cards
-corretos avançam para caixas com intervalos maiores; cards errados voltam para
-revisões frequentes.
+## Organização e fontes
 
-![Sistema de Leitner](assets/Leitner_system_alternative.svg)
+Salve os arquivos importáveis diretamente em `flashcards/<conteúdo>/`. Use número e tema no nome quando houver uma ordem de estudo. Subpastas guardam scripts, índices e documentação de apoio.
 
-### Implicações práticas para flashcards
+Livros e apostilas ficam apenas no computador. O `.gitignore` exclui `livros/`, `books/`, `apostilas/`, formatos de livros e PDFs, além da extração textual da apostila CPA e de relatórios pessoais do Anki. Publique referências bibliográficas e perguntas próprias, sem distribuir o texto integral das fontes. Um arquivo já rastreado pelo Git não passa a ser ignorado automaticamente.
 
-- **Um card = um conceito**: facilita recuperação ativa.
-- **Respostas curtas**: minimiza carga cognitiva e evita ambiguidades.
-- **Tags**: permitem organizar revisões por tema e prioridade.
-- **Revisão em ciclos**: aumenta o espaçamento conforme a lembrança estabiliza.
+Os scripts e instruções de geração ficam em [scripts/](scripts/README.md) e [skills/](skills/README.md). O [CONTEXT.md](CONTEXT.md) descreve as decisões atuais; os [ADRs](docs/adr/README.md) e o [arquivo histórico](archive/README.md) preservam o fluxo anterior de idiomas.
 
-Referências principais:
-- [Hermann Ebbinghaus e a curva do esquecimento (Britannica)](https://www.britannica.com/biography/Hermann-Ebbinghaus)
-- [Meta-análise do spacing effect (Psychological Bulletin, 2006)](https://pubmed.ncbi.nlm.nih.gov/16719566/)
-- [Testing effect: test-enhanced learning (Psychological Science, 2006)](https://pubmed.ncbi.nlm.nih.gov/16507066/)
-- [Otimização de intervalos (Psychological Science, 2008)](https://pubmed.ncbi.nlm.nih.gov/19076480/)
-- [Método de Leitner](https://en.wikipedia.org/wiki/Leitner_system)
+## Licença e créditos
 
-## Evidências e limites
+Copyright © 2026 Bruno Martins ([brunomartinsmv](https://github.com/brunomartinsmv)). Os novos flashcards desta release e a documentação autoral nova estão sob [Creative Commons Attribution 4.0 International, CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). A licença permite copiar, adaptar e compartilhar, inclusive comercialmente, com atribuição, link da licença e indicação das alterações.
 
-Spaced repetition é robusta, mas não é uma fórmula mágica. A meta-análise de
-prática distribuída mostra que o ganho depende do intervalo entre sessões e do
-tempo até o teste final: intervalos muito curtos ou muito longos reduzem a
-eficiência. Estudos posteriores mostram a mesma relação em prazos longos
-(semanas a meses), sugerindo que o espaçamento deve ser ajustado ao horizonte
-de retenção.
+Exemplo de crédito:
 
-O testing effect também tem limites: recuperar ativamente pode parecer mais
-difícil e pode reduzir a confiança imediata, mesmo quando melhora a retenção no
-longo prazo. Isso implica que o usuário pode sentir que está "indo pior" no
-curto prazo, quando na verdade está aprendendo mais.
+> Flashcards de Bruno Martins, https://github.com/brunomartinsmv/flashcards, CC BY 4.0. Adaptado por [seu nome]; alterações: [descrição].
 
-Na prática, flashcards são excelentes para fatos, definições, fórmulas e
-discriminações simples. Para habilidades complexas, eles ajudam na base
-conceitual, mas não substituem prática deliberada (resolver problemas,
-escrever, programar, etc.). Use flashcards como camada de memória, não como
-única estratégia.
+Os scripts e os materiais anteriores mantêm a licença Apache 2.0 já existente, salvo indicação própria. Créditos e licenças de terceiros continuam válidos e não são substituídos pela licença da coleção. A licença só alcança os direitos que o autor pode conceder. Consulte [LICENSE-CONTENT.md](LICENSE-CONTENT.md), [LICENSE](LICENSE) e [NOTICE](NOTICE).
 
-## Fluxo atual (idiomas)
+## Histórico
 
-Pipeline por **Lote** (ver Process Skill + profile do idioma):
-
-1. **Inventory Gate** — export do Deck com ≤ 7 dias
-   (`idioms__spanish.txt` / `idioms__english.txt` em `Documents/`).
-2. Gerar seguindo
-   [`skills/language-anki-flashcards/SKILL.md`](skills/language-anki-flashcards/SKILL.md)
-   e o profile em `skills/language-anki-flashcards/profiles/`.
-3. Salvar em `flashcards/<language>/anki_<slug>_YYYY-MM-DD_cloze.tsv`.
-4. Validar:
-
-   ```bash
-   python3 skills/language-anki-flashcards/scripts/validate_flashcards.py \
-     flashcards/spanish/anki_espanhol_YYYY-MM-DD_cloze.tsv
-   ```
-
-5. **Review Gate** — editar/rejeitar cards.
-6. **Prompt Import** — importar no Anki em seguida (lote menor se New estiver alto).
-
-Espanhol e inglês rodam em paralelo. Input da semana tem prioridade sobre os
-temas default do profile.
-
-## Formato ativo
-
-Novos lotes usam o note type **Cloze** e quatro colunas separadas por tab:
-
-1. `Text`: frase no idioma-alvo com um `{{c1::Target}}`;
-2. `Extra`: Support (PT e/ou sentido na frase — ver profile);
-3. `Notas`: regência, contraste ou variante (pode ficar vazio);
-4. `Tags`: tags separadas por espaços.
-
-No Anki, use Cloze com campo `Notas` (ou ignore essa coluna) e mapeie a quarta
-coluna para Tags.
-
-O arquivo `anki_espanhol_2026-07-24_producao.tsv` é Basic de transição e não é
-modelo. Lotes antigos em `flashcards/spanish/` entram no inventário anti-duplicata.
-
-## Estrutura
-
-```text
-flashcards/spanish/                 Lotes ES
-flashcards/english/                 Lotes EN
-skills/language-anki-flashcards/    Process Skill, profiles, validador
-CONTEXT.md                          glossário do domínio
-docs/adr/                           decisões estruturais
-assets/                             diagramas deste README
-archive/legacy/                     prompts/exemplo genéricos antigos
-archive/spaced-repetition/          docs e fontes científicas
-```
-
-## Dependência externa
-
-Exports vivos ficam fora do repo (`Documents/idioms__*.txt`). Sem export fresco
-o validador falha no Inventory Gate (`--skip-inventory-gate` só para debug).
-
-## Referências (artigos e fontes)
-
-- Ebbinghaus, H. (2013, reimp.). *Memory: A Contribution to Experimental Psychology*. Annals of Neurosciences. https://doi.org/10.5214/ans.0972.7531.200408
-- Cepeda, N. J., Pashler, H., Vul, E., Wixted, J. T., & Rohrer, D. (2006). *Distributed practice in verbal recall tasks: A review and quantitative synthesis*. Psychological Bulletin. https://doi.org/10.1037/0033-2909.132.3.354
-- Roediger, H. L., & Karpicke, J. D. (2006). *Test-enhanced learning: Taking memory tests improves long-term retention*. Psychological Science. https://doi.org/10.1111/j.1467-9280.2006.01693.x
-- Cepeda, N. J., Vul, E., Rohrer, D., Wixted, J. T., & Pashler, H. (2008). *Spacing effects in learning: A temporal ridgeline of optimal retention*. Psychological Science. https://doi.org/10.1111/j.1467-9280.2008.02209.x
-- *Método de Leitner* (visão geral). https://en.wikipedia.org/wiki/Leitner_system
+As mudanças de cada versão ficam no [CHANGELOG.md](CHANGELOG.md), no formato [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).

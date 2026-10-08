@@ -1,0 +1,150 @@
+[
+  {
+    "titulo": "CPA 03 — Riscos, mitigação e autorregulação",
+    "descricao": "Estudar riscos e mitigação, autorreguladores, garantidores e Código de Distribuição. Fechar com questões contextualizadas e Anki curto."
+  },
+  {
+    "titulo": "CPA 04 — Matemática financeira: HP-12C, taxas e juros",
+    "descricao": "Reconstruir a base de HP-12C/app equivalente, taxa de juros, rentabilidades e juros compostos. Resolver aplicações e registrar no Anki só fórmulas/conceitos que precisem de retenção."
+  },
+  {
+    "titulo": "CPA 05 — Sistemas Price e SAC",
+    "descricao": "Estudar amortização Price e SAC, diferenças de fluxo e aplicações. Fechar com exercícios e Anki curto."
+  },
+  {
+    "titulo": "CPA 06 — WACC, duration, desconto e análise de investimento",
+    "descricao": "Estudar WACC, duration, desconto, análise de investimento, payback e payback descontado. Priorizar compreensão do mecanismo e resolução de questões."
+  },
+  {
+    "titulo": "CPA 07 — PIB, inflação, Selic e políticas econômicas",
+    "descricao": "Estudar tipos de mercado, PIB, inflação e indicadores, Copom/Selic, política monetária, fiscal e cambial. Fechar com questões contextualizadas e Anki."
+  },
+  {
+    "titulo": "CPA 08 — Revisão do Módulo 1",
+    "descricao": "Revisar SFN, matemática financeira e economia pelo Anki e pelos erros. Fazer simulado/questões do módulo e corrigir imediatamente."
+  },
+  {
+    "titulo": "CPA 09 — Renda fixa e títulos públicos",
+    "descricao": "Estudar características de renda fixa e títulos públicos. Resolver questões de aplicação e atualizar Anki."
+  },
+  {
+    "titulo": "CPA 10 — Títulos bancários, FGC/FGCoop e corporativos",
+    "descricao": "Estudar títulos bancários, garantias FGC/FGCoop e títulos corporativos. Fechar com questões contextualizadas e Anki."
+  },
+  {
+    "titulo": "CPA 11 — COE e tributação de renda fixa",
+    "descricao": "Estudar COE e tributação em renda fixa, incluindo lógica de IR e IOF. Resolver casos de comparação entre produtos."
+  },
+  {
+    "titulo": "CPA 12 — Oferta pública, governança e ações",
+    "descricao": "Estudar oferta pública, IPO/follow-on, governança corporativa e fundamentos de ações. Fechar com questões contextualizadas."
+  },
+  {
+    "titulo": "CPA 13 — Índices e tributação de renda variável",
+    "descricao": "Estudar índices de mercado e tributação de renda variável. Resolver questões de aplicação e atualizar Anki."
+  },
+  {
+    "titulo": "CPA 14 — Fundos: características e estrutura",
+    "descricao": "Estudar características de fundos, estratégias, riscos e estrutura sob a Resolução CVM 175. Fechar com questões contextualizadas."
+  },
+  {
+    "titulo": "CPA 15 — Fundos: participantes, taxas e FIF",
+    "descricao": "Estudar assembleia, participantes, taxas e Fundos de Investimento Financeiro. Fechar com questões e Anki."
+  },
+  {
+    "titulo": "CPA 16 — FII e tributação de fundos",
+    "descricao": "Estudar fundos imobiliários e tributação de fundos. Priorizar casos de escolha de produto e consequências tributárias."
+  },
+  {
+    "titulo": "CPA 17 — Previdência: fases, PGBL e VGBL",
+    "descricao": "Estudar fases de diferimento e benefício, PGBL versus VGBL e adequação ao perfil do cliente. Fechar com questões contextualizadas."
+  },
+  {
+    "titulo": "CPA 18 — Tributação de previdência e introdução ao crédito",
+    "descricao": "Estudar tributação em previdência e iniciar as principais operações de crédito. Fechar com questões e Anki."
+  },
+  {
+    "titulo": "CPA 19 — Revisão leve: renda fixa e fundos",
+    "descricao": "Semana da Física Ambiental. Sessão reduzida: Anki + questões dos pontos mais frágeis de renda fixa e fundos. Sem conteúdo novo."
+  },
+  {
+    "titulo": "CPA 20 — Revisão leve: ações, previdência e crédito",
+    "descricao": "Semana da Física Ambiental. Sessão reduzida: Anki + questões dos pontos mais frágeis de ações, previdência e crédito. Sem conteúdo novo."
+  },
+  {
+    "titulo": "CPA 21 — Crédito imobiliário, consórcio e serviços bancários",
+    "descricao": "Retomar conteúdo novo. Estudar crédito imobiliário, consórcio e serviços bancários. Fechar com questões contextualizadas."
+  },
+  {
+    "titulo": "CPA 22 — Seguros + revisão do Módulo 2",
+    "descricao": "Estudar seguros e encerrar Produtos com revisão orientada por erros, questões/simulado modular e Anki."
+  },
+  {
+    "titulo": "CPA 23 — Ciclo de vida, planejamento, orçamento e fluxo de caixa",
+    "descricao": "Iniciar Relacionamento com o Cliente. Estudar ciclo de vida, planejamento financeiro, orçamento e fluxo de caixa. Fechar com casos contextualizados."
+  },
+  {
+    "titulo": "CPA 24 — Dívidas, crédito e reserva de emergência",
+    "descricao": "Estudar gestão de dívidas e crédito, capacidade de pagamento e reserva de emergência. Priorizar situações de atendimento ao cliente."
+  },
+  {
+    "titulo": "CPA 25 — Balanço patrimonial pessoal e indicadores",
+    "descricao": "Estudar balanço patrimonial pessoal/familiar, liquidez, cobertura de despesas, endividamento e patrimônio líquido. Fechar com questões e Anki."
+  },
+  {
+    "titulo": "CPA 26 — IRPF básico e tipos de investidores",
+    "descricao": "Estudar conceitos básicos de IRPF relevantes à prova, classificação de rendimentos e tipos de pessoas investidoras. Fechar com questões e Anki."
+  },
+  {
+    "titulo": "CPA 27 — Ética, Código de Conduta e suitability/API",
+    "descricao": "Estudar Código de Conduta Ética ANBIMA, ética profissional, atendimento ao cliente e suitability/API. Priorizar cenários de adequação de produto."
+  },
+  {
+    "titulo": "CPA 28 — KYC e PLDFT",
+    "descricao": "Estudar Conheça seu Cliente, prevenção à lavagem de dinheiro e financiamento do terrorismo. Fechar com questões contextualizadas e Anki."
+  },
+  {
+    "titulo": "CPA 29 — LGPD e crimes contra o mercado",
+    "descricao": "Estudar LGPD aplicada ao relacionamento financeiro e crimes/ilícitos de mercado. Fechar com casos contextualizados e Anki."
+  },
+  {
+    "titulo": "CPA 30 — Revisão do Módulo 3",
+    "descricao": "Revisar finanças pessoais, suitability, ética, KYC, PLDFT, LGPD e ilícitos pelo Anki e pelos erros. Fazer questões/simulado modular e corrigir."
+  },
+  {
+    "titulo": "CPA 31 — ESG e investimentos sustentáveis",
+    "descricao": "Estudar conceitos ESG/ASG, aplicação no mercado financeiro e investimentos sustentáveis. Fechar com questões contextualizadas."
+  },
+  {
+    "titulo": "CPA 32 — Blockchain, criptoativos, tokenização e smart contracts",
+    "descricao": "Estudar blockchain, criptoativos, tokenização e smart contracts conforme o conteúdo da CPA. Fechar com questões de aplicação e Anki."
+  },
+  {
+    "titulo": "CPA 33 — Fintechs, Open Finance e IA",
+    "descricao": "Estudar novas estruturas de negociação, fintechs, meios de pagamento, Open Finance, Open Investment, Open Insurance e inteligência artificial. Fechar com revisão do Módulo 4."
+  },
+  {
+    "titulo": "CPA 34 — Simulado completo 1",
+    "descricao": "Fazer um simulado completo em condições de prova. Se os simulados da plataforma estiverem esgotados, usar uma bateria contextualizada preparada no ChatGPT. Registrar apenas os erros úteis no Anki."
+  },
+  {
+    "titulo": "CPA 35 — Correção do simulado 1",
+    "descricao": "Revisar as questões erradas e as acertadas por dúvida. Voltar à apostila somente nos pontos necessários e ajustar o Anki."
+  },
+  {
+    "titulo": "CPA 36 — Simulado completo 2",
+    "descricao": "Segundo simulado completo em condições de prova, com foco em ritmo, leitura dos casos e tomada de decisão. Corrigir depois sem abrir conteúdo novo."
+  },
+  {
+    "titulo": "CPA 37 — Correção do simulado 2 + revisão direcionada",
+    "descricao": "Revisar gaps do segundo simulado. Priorizar os temas que ainda geram erro ou hesitação e usar Anki para retenção final."
+  },
+  {
+    "titulo": "CPA 38 — Simulado completo 3",
+    "descricao": "Último simulado completo em condições de prova. Tratar como ensaio geral, inclusive controle de tempo e questões de árvore de diálogo."
+  },
+  {
+    "titulo": "CPA 39 — Revisão final leve",
+    "descricao": "Sem conteúdo novo. Revisar Anki, fórmulas, pegadinhas e pontos recorrentes dos simulados. Se a prova já estiver agendada para antes desta data, adaptar esta tarefa para a véspera."
+  }
+]

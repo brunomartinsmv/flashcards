@@ -7,10 +7,9 @@ Conteúdo preservado para consulta, fora do fluxo de idiomas atual.
 - `legacy/examples/`: entrada e saída do exemplo de serviços bancários usado
   por esses prompts.
 - `spaced-repetition/docs/`: resumo sobre repetição espaçada.
-- `spaced-repetition/sources/`: cópias locais de fontes científicas e páginas
-  de referência.
+- `spaced-repetition/sources/`: páginas de referência históricas. PDFs ficam locais; o resumo
+  mantém os links bibliográficos.
 
-Os diagramas da curva do esquecimento e de Leitner ficam em `/assets/` e são
-usados no README principal.
+Os diagramas da curva do esquecimento e de Leitner ficam em `/assets/` e permanecem disponíveis para consulta.
 
 Nada nesta pasta é lido pelo validador de idiomas.

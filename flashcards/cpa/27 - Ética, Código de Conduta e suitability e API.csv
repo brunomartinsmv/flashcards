@@ -1,0 +1,10 @@
+#separator:Comma
+#html:true
+#tags column:3
+#deck:CPA::27 Ética, Código de Conduta e suitability e API
+#deck column:4
+#columns:Frente,Verso,Tags,Deck
+Que princípios devem orientar a conduta ética no mercado financeiro?,"Honestidade, equidade, diligência, independência, transparência, competência e preservação do sigilo, conforme o dever aplicável ao profissional.<br><small>Fonte: Apostila CPA, ed. janeiro/2026, p. impressa 394 (PDF 394).</small>",cpa::apostila cpa::27 tema::etica,"CPA::27 Ética, Código de Conduta e suitability e API"
+O que significa suitability?,"Processo de verificar se produto, serviço ou operação é compatível com objetivos, situação financeira e conhecimento/experiência do cliente, além de seu perfil de risco.<br><small>Fonte: Apostila CPA, ed. janeiro/2026, p. impressa 395 (PDF 395).</small>",cpa::apostila cpa::27 tema::suitability tema::api,"CPA::27 Ética, Código de Conduta e suitability e API"
+O que fazer quando o cliente insiste em operação incompatível com seu perfil?,"Explicar a incompatibilidade e os riscos, seguir os procedimentos de alerta e registro previstos e não apresentar a operação como adequada. As regras específicas determinam quando a execução pode ocorrer.<br><small>Fonte: Apostila CPA, ed. janeiro/2026, p. impressa 397 (PDF 397).</small>",cpa::apostila cpa::27 tema::suitability,"CPA::27 Ética, Código de Conduta e suitability e API"
+Como a escuta ativa melhora o atendimento?,"Ajuda a identificar objetivos, restrições e compreensão do cliente antes de propor soluções, permitindo explicar alternativas em linguagem adequada e confirmar entendimento.<br><small>Fonte: Apostila CPA, ed. janeiro/2026, p. impressa 398 (PDF 398).</small>",cpa::apostila cpa::27 tema::atendimento,"CPA::27 Ética, Código de Conduta e suitability e API"

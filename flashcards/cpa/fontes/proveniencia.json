@@ -1,0 +1,24 @@
+{
+  "fontes": [
+    {
+      "arquivo": "livros/Apostila_CPA.pdf",
+      "sha256": "dcfc2377ceff45c3f7320d6ef09923036fa55240b8c683ca73d04b01bbe6cd6b",
+      "bytes": 29080294
+    },
+    {
+      "arquivo": "flashcards/cpa/CPA ANBIMA.csv",
+      "sha256": "e4a1477640e579c844c6fbf8dbf538e83d66d6f913583c94138e299417319da9",
+      "bytes": 10750
+    }
+  ],
+  "apostila": {
+    "edicao_declarada": "Janeiro 2026",
+    "paginas_pdf": 464
+  },
+  "extracao": {
+    "arquivo": "flashcards/cpa/fontes/apostila_cpa.txt",
+    "ferramenta": "pdftotext -layout",
+    "separador_paginas": "form feed (\\f)",
+    "numeracao": "Página PDF igual à numeração impressa nas páginas conferidas (10, 37, 65, 83, 151, 345)."
+  }
+}

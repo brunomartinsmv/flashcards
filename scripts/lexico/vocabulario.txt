@@ -1,0 +1,624 @@
+@01|Pessoas e família|Básico
+pessoa|la persona|la persona|person
+homem|l'uomo|el hombre|man
+mulher|la donna|la mujer|woman
+criança|il bambino|el niño|child
+bebê|il neonato|el bebé|baby
+adolescente|l'adolescente|el adolescente|teenager
+adulto|l'adulto|el adulto|adult
+família|la famiglia|la familia|family
+mãe|la madre|la madre|mother
+pai|il padre|el padre|father
+filho|il figlio|el hijo|son
+filha|la figlia|la hija|daughter
+irmão|il fratello|el hermano|brother
+irmã|la sorella|la hermana|sister
+avô|il nonno|el abuelo|grandfather
+avó|la nonna|la abuela|grandmother
+tio|lo zio|el tío|uncle
+tia|la zia|la tía|aunt
+primo|il cugino|el primo|cousin
+sobrinho|il nipote|el sobrino|nephew
+marido|il marito|el marido|husband
+esposa|la moglie|la esposa|wife
+amigo|l'amico|el amigo|friend
+vizinho|il vicino|el vecino|neighbor
+casal|la coppia|la pareja|couple
+@02|Corpo|Básico
+corpo|il corpo|el cuerpo|body
+cabeça|la testa|la cabeza|head
+rosto|il viso|el rostro|face
+cabelo (conjunto)|i capelli|el cabello|hair
+olho|l'occhio|el ojo|eye
+orelha|l'orecchio|la oreja|ear
+nariz|il naso|la nariz|nose
+boca|la bocca|la boca|mouth
+dente|il dente|el diente|tooth
+língua (órgão)|la lingua|la lengua|tongue
+pescoço|il collo|el cuello|neck
+ombro|la spalla|el hombro|shoulder
+braço|il braccio|el brazo|arm
+cotovelo|il gomito|el codo|elbow
+mão|la mano|la mano|hand
+dedo da mão|il dito|el dedo|finger
+unha|l'unghia|la uña|nail
+peito|il petto|el pecho|chest
+costas|la schiena|la espalda|back
+estômago|lo stomaco|el estómago|stomach
+perna|la gamba|la pierna|leg
+joelho|il ginocchio|la rodilla|knee
+pé|il piede|el pie|foot
+pele|la pelle|la piel|skin
+coração|il cuore|el corazón|heart
+@03|Saúde|Intermediário
+saúde|la salute|la salud|health
+doença|la malattia|la enfermedad|illness
+dor|il dolore|el dolor|pain
+febre|la febbre|la fiebre|fever
+tosse|la tosse|la tos|cough
+resfriado|il raffreddore|el resfriado|cold (illness)
+gripe|l'influenza|la gripe|flu
+alergia|l'allergia|la alergia|allergy
+ferida|la ferita|la herida|wound
+remédio|il farmaco|el medicamento|medicine
+comprimido|la compressa|la pastilla|pill
+receita médica|la ricetta|la receta|prescription
+tratamento|il trattamento|el tratamiento|treatment
+cirurgia|l'intervento|la cirugía|surgery
+vacina|il vaccino|la vacuna|vaccine
+sintoma|il sintomo|el síntoma|symptom
+infecção|l'infezione|la infección|infection
+sangue|il sangue|la sangre|blood
+pulmão|il polmone|el pulmón|lung
+osso|l'osso|el hueso|bone
+músculo|il muscolo|el músculo|muscle
+respiração|la respirazione|la respiración|breathing
+ambulância|l'ambulanza|la ambulancia|ambulance
+emergência|l'emergenza|la emergencia|emergency
+recuperação|la guarigione|la recuperación|recovery
+@04|Casa|Básico
+casa|la casa|la casa|house
+apartamento|l'appartamento|el apartamento|apartment
+quarto|la camera|el dormitorio|bedroom
+sala de estar|il soggiorno|la sala|living room
+cozinha|la cucina|la cocina|kitchen
+banheiro|il bagno|el baño|bathroom
+porta|la porta|la puerta|door
+janela|la finestra|la ventana|window
+parede|la parete|la pared|wall
+piso|il pavimento|el suelo|floor
+teto interno|il soffitto|el techo|ceiling
+telhado|il tetto|el tejado|roof
+escada|la scala|la escalera|staircase
+cama|il letto|la cama|bed
+travesseiro|il cuscino|la almohada|pillow
+cobertor|la coperta|la manta|blanket
+mesa|il tavolo|la mesa|table
+cadeira|la sedia|la silla|chair
+sofá|il divano|el sofá|sofa
+armário|l'armadio|el armario|wardrobe
+espelho|lo specchio|el espejo|mirror
+tapete|il tappeto|la alfombra|carpet
+chave|la chiave|la llave|key
+varanda|il balcone|el balcón|balcony
+jardim|il giardino|el jardín|garden
+@05|Cozinha e utensílios|Básico
+prato|il piatto|el plato|plate
+copo|il bicchiere|el vaso|glass
+xícara|la tazza|la taza|cup
+garfo|la forchetta|el tenedor|fork
+faca|il coltello|el cuchillo|knife
+colher|il cucchiaio|la cuchara|spoon
+panela|la pentola|la olla|pot
+frigideira|la padella|la sartén|pan
+forno|il forno|el horno|oven
+fogão|il fornello|la estufa|stove
+geladeira|il frigorifero|el refrigerador|refrigerator
+congelador|il congelatore|el congelador|freezer
+pia|il lavello|el fregadero|sink
+torneira|il rubinetto|el grifo|faucet
+garrafa|la bottiglia|la botella|bottle
+tigela|la ciotola|el tazón|bowl
+bandeja|il vassoio|la bandeja|tray
+guardanapo|il tovagliolo|la servilleta|napkin
+toalha de mesa|la tovaglia|el mantel|tablecloth
+tampa|il coperchio|la tapa|lid
+esponja|la spugna|la esponja|sponge
+detergente|il detersivo|el detergente|detergent
+ralador|la grattugia|el rallador|grater
+chaleira|il bollitore|el hervidor|kettle
+liquidificador|il frullatore|la licuadora|blender
+@06|Alimentos básicos|Básico
+água|l'acqua|el agua|water
+pão|il pane|el pan|bread
+arroz|il riso|el arroz|rice
+massa alimentícia|la pasta|la pasta|pasta
+carne|la carne|la carne|meat
+frango (carne)|il pollo|el pollo|chicken
+peixe (alimento)|il pesce|el pescado|fish
+ovo|l'uovo|el huevo|egg
+leite|il latte|la leche|milk
+queijo|il formaggio|el queso|cheese
+manteiga|il burro|la mantequilla|butter
+óleo|l'olio|el aceite|oil
+sal|il sale|la sal|salt
+açúcar|lo zucchero|el azúcar|sugar
+farinha|la farina|la harina|flour
+café|il caffè|el café|coffee
+chá|il tè|el té|tea
+suco|il succo|el jugo|juice
+vinho|il vino|el vino|wine
+cerveja|la birra|la cerveza|beer
+sopa|la zuppa|la sopa|soup
+salada|l'insalata|la ensalada|salad
+mel|il miele|la miel|honey
+chocolate|il cioccolato|el chocolate|chocolate
+iogurte|lo yogurt|el yogur|yogurt
+@07|Frutas e vegetais|Básico
+maçã|la mela|la manzana|apple
+banana|la banana|el plátano|banana
+laranja|l'arancia|la naranja|orange
+limão amarelo (siciliano)|il limone|el limón|lemon
+pera|la pera|la pera|pear
+uva|l'uva|la uva|grape
+morango|la fragola|la fresa|strawberry
+pêssego|la pesca|el durazno|peach
+abacaxi|l'ananas|la piña|pineapple
+melancia|l'anguria|la sandía|watermelon
+melão|il melone|el melón|melon
+cereja|la ciliegia|la cereza|cherry
+ameixa|la prugna|la ciruela|plum
+abacate|l'avocado|el aguacate|avocado
+tomate|il pomodoro|el tomate|tomato
+batata|la patata|la papa|potato
+cenoura|la carota|la zanahoria|carrot
+cebola|la cipolla|la cebolla|onion
+alho|l'aglio|el ajo|garlic
+alface|la lattuga|la lechuga|lettuce
+pepino|il cetriolo|el pepino|cucumber
+pimentão|il peperone|el pimiento|pepper
+berinjela|la melanzana|la berenjena|eggplant
+abóbora|la zucca|la calabaza|pumpkin
+feijão (grão)|il fagiolo|el frijol|bean
+@08|Roupas|Básico
+roupa (conjunto)|l'abbigliamento|la ropa|clothing
+camisa|la camicia|la camisa|shirt
+camiseta|la maglietta|la camiseta|T-shirt
+calça|i pantaloni|los pantalones|pants
+saia|la gonna|la falda|skirt
+vestido|il vestito|el vestido|dress
+casaco|il cappotto|el abrigo|coat
+jaqueta|la giacca|la chaqueta|jacket
+suéter|il maglione|el suéter|sweater
+sapato|la scarpa|el zapato|shoe
+bota|lo stivale|la bota|boot
+sandália|il sandalo|la sandalia|sandal
+meia|il calzino|el calcetín|sock
+chapéu|il cappello|el sombrero|hat
+boné|il berretto|la gorra|cap
+cachecol|la sciarpa|la bufanda|scarf
+luva|il guanto|el guante|glove
+cinto|la cintura|el cinturón|belt
+bolsa|la borsa|el bolso|handbag
+mochila|lo zaino|la mochila|backpack
+relógio de pulso|l'orologio|el reloj|watch
+anel|l'anello|el anillo|ring
+brinco|l'orecchino|el arete|earring
+colar|la collana|el collar|necklace
+bolso|la tasca|el bolsillo|pocket
+@09|Cidade e serviços|Básico
+cidade|la città|la ciudad|city
+vila (povoado)|il villaggio|el pueblo|village
+rua|la strada|la calle|street
+avenida|il viale|la avenida|avenue
+praça|la piazza|la plaza|square (place)
+ponte|il ponte|el puente|bridge
+prédio|l'edificio|el edificio|building
+loja|il negozio|la tienda|store
+mercado|il mercato|el mercado|market
+supermercado|il supermercato|el supermercado|supermarket
+banco (instituição)|la banca|el banco|bank
+farmácia|la farmacia|la farmacia|pharmacy
+hospital|l'ospedale|el hospital|hospital
+escola|la scuola|la escuela|school
+universidade|l'università|la universidad|university
+biblioteca|la biblioteca|la biblioteca|library
+museu|il museo|el museo|museum
+cinema|il cinema|el cine|cinema
+teatro|il teatro|el teatro|theater
+igreja|la chiesa|la iglesia|church
+parque|il parco|el parque|park
+restaurante|il ristorante|el restaurante|restaurant
+padaria|il panificio|la panadería|bakery
+prefeitura (sede)|il municipio|el ayuntamiento|city hall
+esquina|l'angolo|la esquina|corner
+@10|Transporte e viagens|Básico
+carro|l'auto|el auto|car
+ônibus|l'autobus|el autobús|bus
+trem|il treno|el tren|train
+metrô|la metropolitana|el metro|subway
+bicicleta|la bicicletta|la bicicleta|bicycle
+moto|la motocicletta|la motocicleta|motorcycle
+caminhão|il camion|el camión|truck
+avião|l'aereo|el avión|airplane
+barco|la barca|el barco|boat
+navio|la nave|el buque|ship
+aeroporto|l'aeroporto|el aeropuerto|airport
+estação|la stazione|la estación|station
+passagem (bilhete)|il biglietto|el boleto|ticket
+passaporte|il passaporto|el pasaporte|passport
+mala|la valigia|la maleta|suitcase
+bagagem|il bagaglio|el equipaje|luggage
+hotel|l'albergo|el hotel|hotel
+reserva (agendamento)|la prenotazione|la reserva|reservation
+viagem|il viaggio|el viaje|trip
+mapa|la mappa|el mapa|map
+fronteira|il confine|la frontera|border
+destino|la destinazione|el destino|destination
+trânsito|il traffico|el tráfico|traffic
+motorista|l'autista|el conductor|driver
+passageiro|il passeggero|el pasajero|passenger
+@11|Natureza e clima|Básico
+sol|il sole|el sol|sun
+lua|la luna|la luna|moon
+estrela|la stella|la estrella|star
+céu|il cielo|el cielo|sky
+nuvem|la nuvola|la nube|cloud
+chuva|la pioggia|la lluvia|rain
+neve|la neve|la nieve|snow
+vento|il vento|el viento|wind
+tempestade|la tempesta|la tormenta|storm
+neblina|la nebbia|la niebla|fog
+clima|il clima|el clima|climate
+temperatura|la temperatura|la temperatura|temperature
+mar|il mare|el mar|sea
+oceano|l'oceano|el océano|ocean
+rio|il fiume|el río|river
+lago|il lago|el lago|lake
+montanha|la montagna|la montaña|mountain
+floresta|la foresta|el bosque|forest
+árvore|l'albero|el árbol|tree
+flor|il fiore|la flor|flower
+folha (planta)|la foglia|la hoja|leaf
+raiz|la radice|la raíz|root
+areia|la sabbia|la arena|sand
+pedra|la pietra|la piedra|stone
+ilha|l'isola|la isla|island
+@12|Animais|Básico
+cachorro|il cane|el perro|dog
+gato|il gatto|el gato|cat
+cavalo|il cavallo|el caballo|horse
+vaca|la mucca|la vaca|cow
+porco|il maiale|el cerdo|pig
+ovelha|la pecora|la oveja|sheep
+cabra|la capra|la cabra|goat
+coelho|il coniglio|el conejo|rabbit
+camundongo|il topo|el ratón|mouse
+urso|l'orso|el oso|bear
+lobo|il lupo|el lobo|wolf
+raposa|la volpe|el zorro|fox
+leão|il leone|el león|lion
+tigre|la tigre|el tigre|tiger
+elefante|l'elefante|el elefante|elephant
+girafa|la giraffa|la jirafa|giraffe
+macaco|la scimmia|el mono|monkey
+pássaro|l'uccello|el pájaro|bird
+pato|l'anatra|el pato|duck
+galinha|la gallina|la gallina|hen
+águia|l'aquila|el águila|eagle
+cobra|il serpente|la serpiente|snake
+tartaruga|la tartaruga|la tortuga|turtle
+sapo|il rospo|el sapo|toad
+borboleta|la farfalla|la mariposa|butterfly
+@13|Tempo e calendário|Básico
+tempo (duração)|il tempo|el tiempo|time
+dia|il giorno|el día|day
+noite|la notte|la noche|night
+manhã|la mattina|la mañana|morning
+tarde (período)|il pomeriggio|la tarde|afternoon
+semana|la settimana|la semana|week
+mês|il mese|el mes|month
+ano|l'anno|el año|year
+hora|l'ora|la hora|hour
+minuto|il minuto|el minuto|minute
+segundo (unidade)|il secondo|el segundo|second
+hoje|oggi|hoy|today
+ontem|ieri|ayer|yesterday
+amanhã|domani|mañana|tomorrow
+cedo|presto|temprano|early
+tarde (atrasado)|tardi|tarde|late
+sempre|sempre|siempre|always
+nunca|mai|nunca|never
+agora|adesso|ahora|now
+depois|dopo|después|afterward
+antes|prima|antes|before
+verão|l'estate|el verano|summer
+inverno|l'inverno|el invierno|winter
+primavera|la primavera|la primavera|spring
+outono|l'autunno|el otoño|autumn
+@14|Trabalho e profissões|Intermediário
+trabalho (atividade)|il lavoro|el trabajo|work (noun)
+emprego|l'impiego|el empleo|job
+empresa|l'azienda|la empresa|company
+escritório|l'ufficio|la oficina|office
+colega de trabalho|il collega|el colega|coworker
+chefe|il capo|el jefe|boss
+funcionário|il dipendente|el empleado|employee
+cliente|il cliente|el cliente|customer
+salário|lo stipendio|el salario|salary
+reunião|la riunione|la reunión|meeting
+contrato|il contratto|el contrato|contract
+projeto|il progetto|el proyecto|project
+tarefa|il compito|la tarea|task
+prazo final|la scadenza|la fecha límite|deadline
+carreira|la carriera|la carrera|career
+médico|il medico|el médico|doctor
+enfermeiro|l'infermiere|el enfermero|nurse
+professor|l'insegnante|el profesor|teacher
+engenheiro|l'ingegnere|el ingeniero|engineer
+advogado|l'avvocato|el abogado|lawyer
+cozinheiro|il cuoco|el cocinero|cook (noun)
+garçom|il cameriere|el mesero|waiter
+agricultor|l'agricoltore|el agricultor|farmer
+arquiteto|l'architetto|el arquitecto|architect
+policial|il poliziotto|el policía|police officer
+@15|Estudo e aprendizagem|Intermediário
+livro|il libro|el libro|book
+caderno|il quaderno|el cuaderno|notebook
+caneta|la penna|el bolígrafo|pen
+lápis|la matita|el lápiz|pencil
+borracha de apagar|la gomma|la goma|eraser
+papel|la carta|el papel|paper
+página|la pagina|la página|page
+palavra|la parola|la palabra|word
+frase|la frase|la frase|sentence
+pergunta|la domanda|la pregunta|question
+resposta|la risposta|la respuesta|answer
+lição|la lezione|la lección|lesson
+curso|il corso|el curso|course
+exame|l'esame|el examen|exam
+nota (avaliação)|il voto|la calificación|grade
+aluno|lo studente|el estudiante|student
+conhecimento|la conoscenza|el conocimiento|knowledge
+memória (capacidade)|la memoria|la memoria|memory
+exercício|l'esercizio|el ejercicio|exercise
+pesquisa|la ricerca|la investigación|research
+ciência|la scienza|la ciencia|science
+história (disciplina)|la storia|la historia|history
+matemática|la matematica|la matemática|mathematics
+gramática|la grammatica|la gramática|grammar
+dicionário|il dizionario|el diccionario|dictionary
+@16|Tecnologia e comunicação|Intermediário
+computador|il computer|la computadora|computer
+teclado|la tastiera|el teclado|keyboard
+tela|lo schermo|la pantalla|screen
+celular|il cellulare|el celular|cellphone
+telefone|il telefono|el teléfono|telephone
+mensagem|il messaggio|el mensaje|message
+arquivo digital|il file|el archivo|file
+pasta digital|la cartella|la carpeta|folder
+senha|la password|la contraseña|password
+rede|la rete|la red|network
+conexão|la connessione|la conexión|connection
+aplicativo|l'applicazione|la aplicación|application
+software (programas de computador)|il software|el software|software
+impressora|la stampante|la impresora|printer
+carregador|il caricabatterie|el cargador|charger
+bateria|la batteria|la batería|battery
+vídeo|il video|el video|video
+fotografia|la fotografia|la fotografía|photograph
+câmera|la fotocamera|la cámara|camera
+notícia; notícias|la notizia|la noticia|news
+jornal|il giornale|el periódico|newspaper
+revista|la rivista|la revista|magazine
+anúncio publicitário|la pubblicità|el anuncio|advertisement
+entrevista|l'intervista|la entrevista|interview
+conversa|la conversazione|la conversación|conversation
+@17|Dinheiro e compras|Intermediário
+dinheiro|il denaro|el dinero|money
+moeda|la moneta|la moneda|coin
+cédula|la banconota|el billete de banco|banknote
+preço|il prezzo|el precio|price
+custo|il costo|el costo|cost
+desconto|lo sconto|el descuento|discount
+pagamento|il pagamento|el pago|payment
+troco|il resto|el cambio|change
+recibo|la ricevuta|el recibo|receipt
+fatura|la fattura|la factura|invoice
+conta (bancária)|il conto|la cuenta|account
+cartão (pagamento)|la carta di pagamento|la tarjeta|card
+dívida|il debito|la deuda|debt
+empréstimo|il prestito|el préstamo|loan
+poupança (economias)|il risparmio|el ahorro|savings
+lucro|il profitto|la ganancia|profit
+perda|la perdita|la pérdida|loss
+imposto|l'imposta|el impuesto|tax
+orçamento|il bilancio|el presupuesto|budget
+compra|l'acquisto|la compra|purchase
+venda|la vendita|la venta|sale
+produto|il prodotto|el producto|product
+garantia|la garanzia|la garantía|warranty
+qualidade|la qualità|la calidad|quality
+valor (monetário)|il valore|el valor (economía)|value
+@18|Ações cotidianas|Básico
+ser (identidade)|essere|ser|be
+ter|avere|tener|have
+fazer (realizar)|fare|hacer|do
+ir|andare|ir|go
+vir|venire|venir|come
+comer|mangiare|comer|eat
+beber|bere|beber|drink
+dormir|dormire|dormir|sleep
+acordar|svegliarsi|despertarse|wake
+levantar-se|alzarsi|levantarse|get up
+lavar|lavare|lavar|wash
+limpar|pulire|limpiar|clean
+cozinhar|cucinare|cocinar|cook (verb)
+comprar|comprare|comprar|buy
+vender|vendere|vender|sell
+pagar|pagare|pagar|pay
+trabalhar|lavorare|trabajar|work (verb)
+estudar|studiare|estudiar|study
+ler|leggere|leer|read
+escrever|scrivere|escribir|write
+falar|parlare|hablar|speak
+ouvir|sentire|oír|hear
+escutar com atenção|ascoltare|escuchar|listen
+ver|vedere|ver|see
+olhar|guardare|mirar|look
+@19|Movimento e interação|Intermediário
+caminhar|camminare|caminar|walk
+correr|correre|correr|run
+nadar|nuotare|nadar|swim
+voar|volare|volar|fly
+viajar|viaggiare|viajar|travel
+dirigir|guidare|conducir|drive
+entrar|entrare|entrar|enter
+sair|uscire|salir|leave
+chegar|arrivare|llegar|arrive
+voltar|tornare|volver|return
+subir (escalar)|salire|subir|climb
+descer (mover para baixo)|scendere|bajar|descend
+abrir|aprire|abrir|open
+fechar|chiudere|cerrar|close
+sentar-se|sedersi|sentarse|sit
+esperar (aguardar)|aspettare|esperar|wait
+ajudar|aiutare|ayudar|help
+pedir (solicitar)|chiedere|pedir|ask
+responder|rispondere|responder|reply
+dar|dare|dar|give
+receber|ricevere|recibir|receive
+trazer|portare|traer|bring
+enviar|inviare|enviar|send
+encontrar (achar)|trovare|encontrar|find
+conhecer (ter familiaridade)|conoscere|conocer|know
+@20|Qualidades e descrições|Básico
+grande|grande|grande|big
+pequeno|piccolo|pequeño|small
+alto (estatura)|alto|alto|tall
+baixo (estatura)|basso|bajo|short
+comprido|lungo|largo|long
+breve (duração ou extensão)|breve|breve|brief
+novo|nuovo|nuevo|new
+velho|vecchio|viejo|old
+jovem|giovane|joven|young
+bom|buono|bueno|good
+ruim|cattivo|malo|bad
+bonito|bello|bonito|beautiful
+feio|brutto|feo|ugly
+fácil|facile|fácil|easy
+difícil|difficile|difícil|difficult
+rápido|veloce|rápido|fast
+lento|lento|lento|slow
+quente|caldo|caliente|hot
+frio (temperatura)|freddo|frío|cold (temperature)
+cheio|pieno|lleno|full
+vazio|vuoto|vacío|empty
+forte|forte|fuerte|strong
+fraco|debole|débil|weak
+caro|caro|caro|expensive
+barato|economico|barato|cheap
+@21|Emoções e sentimentos|Intermediário
+alegria|la gioia|la alegría|joy
+tristeza|la tristezza|la tristeza|sadness
+medo|la paura|el miedo|fear
+raiva|la rabbia|la ira|anger
+surpresa|la sorpresa|la sorpresa|surprise
+vergonha|la vergogna|la vergüenza|shame
+orgulho|l'orgoglio|el orgullo|pride
+esperança|la speranza|la esperanza|hope
+amor|l'amore|el amor|love
+ódio|l'odio|el odio|hatred
+ansiedade|l'ansia|la ansiedad|anxiety
+calma|la calma|la calma|calm
+confiança|la fiducia|la confianza|trust
+preocupação|la preoccupazione|la preocupación|worry
+entusiasmo|l'entusiasmo|el entusiasmo|enthusiasm
+solidão|la solitudine|la soledad|loneliness
+ciúme|la gelosia|los celos|jealousy
+inveja|l'invidia|la envidia|envy
+gratidão|la gratitudine|la gratitud|gratitude
+culpa|la colpa|la culpa|guilt
+respeito|il rispetto|el respeto|respect
+paciência|la pazienza|la paciencia|patience
+coragem|il coraggio|el valor (coraje)|courage
+alívio|il sollievo|el alivio|relief
+decepção|la delusione|la decepción|disappointment
+@22|Ideias e planejamento|Intermediário
+ideia|l'idea|la idea|idea
+opinião|l'opinione|la opinión|opinion
+decisão|la decisione|la decisión|decision
+escolha|la scelta|la elección|choice
+objetivo|l'obiettivo|el objetivo|goal
+plano|il piano|el plan|plan
+proposta|la proposta|la propuesta|proposal
+solução|la soluzione|la solución|solution
+problema|il problema|el problema|problem
+motivo|il motivo|el motivo|reason
+consequência|la conseguenza|la consecuencia|consequence
+causa|la causa|la causa|cause
+resultado|il risultato|el resultado|result
+vantagem|il vantaggio|la ventaja|advantage
+desvantagem|lo svantaggio|la desventaja|disadvantage
+risco|il rischio|el riesgo|risk
+oportunidade|l'opportunità|la oportunidad|opportunity
+possibilidade|la possibilità|la posibilidad|possibility
+necessidade|la necessità|la necesidad|need
+prioridade|la priorità|la prioridad|priority
+evidência|la prova|la evidencia|evidence
+hipótese|l'ipotesi|la hipótesis|hypothesis
+dúvida|il dubbio|la duda|doubt
+acordo|l'accordo|el acuerdo|agreement
+compromisso (obrigação assumida)|l'impegno|el compromiso|commitment
+@23|Cores e dimensões|Básico
+vermelho|rosso|rojo|red
+azul|blu|azul|blue
+verde|verde|verde|green
+amarelo|giallo|amarillo|yellow
+preto|nero|negro|black
+branco|bianco|blanco|white
+cinza|grigio|gris|gray
+marrom|marrone|marrón|brown
+roxo|viola|morado|purple
+cor-de-rosa|rosa|rosado|pink
+transparente|trasparente|transparente|transparent
+claro (tonalidade)|chiaro|claro|light
+escuro|scuro|oscuro|dark
+largo (largura)|largo|ancho|wide
+estreito|stretto|estrecho|narrow
+grosso|spesso|grueso|thick
+fino (espessura)|sottile|delgado|thin
+pesado|pesante|pesado|heavy
+leve (peso)|leggero|ligero|lightweight
+redondo|rotondo|redondo|round
+quadrado|quadrato|cuadrado|square (shape)
+reto|dritto|recto|straight
+curvo|curvo|curvo|curved
+profundo|profondo|profundo|deep
+raso|poco profondo|poco profundo|shallow
+@24|Cultura e lazer|Intermediário
+música|la musica|la música|music
+canção|la canzone|la canción|song
+filme|il film|la película|film
+dança|la danza|la danza|dance
+arte|l'arte|el arte|art
+pintura (obra artística)|il dipinto|la pintura|painting
+desenho|il disegno|el dibujo|drawing
+escultura|la scultura|la escultura|sculpture
+romance (gênero literário)|il romanzo|la novela|novel
+poema|la poesia|el poema|poem
+autor|l'autore|el autor|author
+ator|l'attore|el actor|actor
+atriz|l'attrice|la actriz|actress
+cantor|il cantante|el cantante|singer
+instrumento musical|lo strumento|el instrumento|instrument
+violão; guitarra|la chitarra|la guitarra|guitar
+violino|il violino|el violín|violin
+tambor|il tamburo|el tambor|drum
+concerto|il concerto|el concierto|concert
+festival|il festival|el festival|festival
+esporte|lo sport|el deporte|sport
+jogo|il gioco|el juego|game
+futebol|il calcio|el fútbol|soccer
+natação|il nuoto|la natación|swimming
+caminhada (passeio)|la passeggiata|el paseo|stroll
