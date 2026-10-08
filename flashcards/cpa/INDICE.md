@@ -3,7 +3,7 @@
 Arquivos CSV em ordem numérica do planejamento. Cada arquivo contém Frente, Verso, Tags e Deck. A coluna Deck cria os subdecks dentro de CPA automaticamente ao importar novos cartões no Anki.
 
 - [03 - Riscos, mitigação e autorregulação.csv](<03 - Riscos, mitigação e autorregulação.csv>): 17 cartões.
-- [04 - Matemática financeira: HP-12C, taxas e juros.csv](<04 - Matemática financeira: HP-12C, taxas e juros.csv>): 16 cartões.
+- [04 - Matemática financeira -  HP-12C, taxas e juros.csv](<04 - Matemática financeira -  HP-12C, taxas e juros.csv>): 16 cartões.
 - [05 - Sistemas Price e SAC.csv](<05 - Sistemas Price e SAC.csv>): 5 cartões.
 - [06 - WACC, duration, desconto e análise de investimento.csv](<06 - WACC, duration, desconto e análise de investimento.csv>): 19 cartões.
 - [07 - PIB, inflação, Selic e políticas econômicas.csv](<07 - PIB, inflação, Selic e políticas econômicas.csv>): 18 cartões.
@@ -12,10 +12,10 @@ Arquivos CSV em ordem numérica do planejamento. Cada arquivo contém Frente, Ve
 - [11 - COE e tributação de renda fixa.csv](<11 - COE e tributação de renda fixa.csv>): 13 cartões.
 - [12 - Oferta pública, governança e ações.csv](<12 - Oferta pública, governança e ações.csv>): 13 cartões.
 - [13 - Índices e tributação de renda variável.csv](<13 - Índices e tributação de renda variável.csv>): 19 cartões.
-- [14 - Fundos: características e estrutura.csv](<14 - Fundos: características e estrutura.csv>): 12 cartões.
-- [15 - Fundos: participantes, taxas e FIF.csv](<15 - Fundos: participantes, taxas e FIF.csv>): 28 cartões.
+- [14 - Fundos -  características e estrutura.csv](<14 - Fundos -  características e estrutura.csv>): 12 cartões.
+- [15 - Fundos -  participantes, taxas e FIF.csv](<15 - Fundos -  participantes, taxas e FIF.csv>): 28 cartões.
 - [16 - FII e tributação de fundos.csv](<16 - FII e tributação de fundos.csv>): 12 cartões.
-- [17 - Previdência: fases, PGBL e VGBL.csv](<17 - Previdência: fases, PGBL e VGBL.csv>): 8 cartões.
+- [17 - Previdência -  fases, PGBL e VGBL.csv](<17 - Previdência -  fases, PGBL e VGBL.csv>): 8 cartões.
 - [18 - Tributação de previdência e introdução ao crédito.csv](<18 - Tributação de previdência e introdução ao crédito.csv>): 9 cartões.
 - [21 - Crédito imobiliário, consórcio e serviços bancários.csv](<21 - Crédito imobiliário, consórcio e serviços bancários.csv>): 12 cartões.
 - [22 - Seguros + revisão do Módulo 2.csv](<22 - Seguros + revisão do Módulo 2.csv>): 14 cartões.

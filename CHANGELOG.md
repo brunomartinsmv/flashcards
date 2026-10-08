@@ -26,6 +26,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Fixed
 
+- Tradução de entrega antecipada em inglês, cálculos de resgate líquido e duration e seleções das revisões CPA08 e CPA20.
+- Nomes de CSVs CPA compatíveis com Windows e leitura explícita de UTF-8 no gerador de léxico.
+
 - Traduções de padrão estatístico em italiano, direção de “contar com alguém” e gênero de `il nipote`.
 - Requisitos de isenção de rendimentos de FII corrigidos com referência complementar à Lei 11.033/2004.
 - Guia de origem CPA esclarece que o gerador e o relatório dos TXT anteriores não estão disponíveis.

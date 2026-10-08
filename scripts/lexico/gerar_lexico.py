@@ -28,7 +28,7 @@ def lemma(value):
 
 def load_vocabulary():
     records = []
-    for line in (Path(__file__).parent / 'vocabulario.txt').read_text().splitlines():
+    for line in (Path(__file__).parent / 'vocabulario.txt').read_text(encoding='utf-8').splitlines():
         if line.startswith('@'):
             number, theme, level = line[1:].split('|')
         elif line:

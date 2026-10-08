@@ -55,6 +55,21 @@ assert inventory and all(int(r['Quantidade de cartões']) > 0 and r['IDs/cartõe
 
 # Numeric examples used in the cards.
 assert round(1500 * 1.014**6, 2) == 1630.49
+net = 1500 + (1500 * 1.014**6 - 1500) * 0.8
+assert round(net, 2) == 1604.39
+flows = [(t, 80 if t < 5 else 1080) for t in range(1, 6)]
+pv = sum(flow / 1.06**t for t, flow in flows)
+weighted = sum(t * flow / 1.06**t for t, flow in flows)
+assert round(pv, 2) == 1084.25 and round(weighted, 2) == 4708.04
+answers = {r[0]: r[1] for r in consolidated_notes}
+assert 'R$1.604,39' in answers['Qual o montante de R$ 1.500 aplicados por 6 meses a 1,4% ao mês?']
+assert 'R$1.084,25' in answers['Qual é a duration aproximada do título de R$1.000, cupom anual de 8%, vencimento em 5 anos e yield de 6%?']
+reviews = {r['Tarefa']: r for r in coverage}
+assert 'cpa::01' in reviews['CPA 08']['Cobertura/procedimento']
+assert '01_sfn_orgaos.txt' in reviews['CPA 08']['Deck/seleção']
+assert 'cpa::21' not in reviews['CPA 20']['Cobertura/procedimento']
+assert all(not any(c in path.name for c in '<>:"\\|?*') for path in BASE.glob('*.csv'))
+
 assert round((1.15 / 1.05 - 1) * 100, 2) == 9.52
 assert round(((1.04**12) - 1) * 100, 2) == 60.10
 assert round(12000000 * 0.006 / 252, 2) == 285.71

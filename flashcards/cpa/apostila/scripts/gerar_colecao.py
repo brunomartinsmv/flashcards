@@ -310,12 +310,12 @@ add(4,[
 ('Como comparar uma taxa bruta de fundo com uma taxa líquida?','Desconte tributos e encargos aplicáveis da rentabilidade bruta antes de comparar com produto isento ou já líquido. No exemplo da apostila, 0,75% bruto com IR de 22,5% sobre o rendimento resulta em cerca de 0,5812% líquido.','78','rentabilidade tributacao'),
 ('Quanto capital é necessário para gerar renda perpétua de R$ 5.000 por mês a 0,5% ao mês?','Capital = renda mensal/taxa mensal = R$ 5.000/0,005 = R$ 1.000.000, supondo taxa constante e preservação do principal.','79','perpetuidade calculo'),
 ('Que cuidados tomar ao calcular valor presente e valor futuro na HP-12C?','Limpe os registros financeiros, alinhe taxa e prazo, informe entradas e saídas com sinais opostos e use PV/FV para resolver. A apostila usa a convenção exponencial.','80','hp12c tvm'),
-('Qual o montante de R$ 1.500 aplicados por 6 meses a 1,4% ao mês?','FV = 1.500×(1,014)^6 = R$ 1.630,49. Com IR de 20% sobre ganho de R$130,49, o resgate líquido do exemplo é R$1.604,55.','82','juros compostos calculo'),
+('Qual o montante de R$ 1.500 aplicados por 6 meses a 1,4% ao mês?','FV = 1.500×(1,014)^6 = R$ 1.630,49. Com IR de 20% sobre ganho de R$130,49, o resgate líquido do exemplo é R$1.604,39.','82','juros compostos calculo'),
 ])
 add(6,[
 ('Qual é o WACC aproximado de empresa com PL R$100 mi a custo de 15%, dívida R$30 mi a 10% e IR de 30%?','WACC = (100/130)×15% + (30/130)×10%×(1−30%) ≈ 13,15% a.a. O benefício fiscal reduz o custo ponderado da dívida no exemplo.','95','wacc calculo'),
 ('Como calcular a duration de Macaulay?','Some cada fluxo de caixa descontado multiplicado pelo período em que será recebido e divida pela soma dos valores presentes: D = Σ[t×PV(FC_t)]/ΣPV(FC_t).','96','duration formula'),
-('Qual é a duration aproximada do título de R$1.000, cupom anual de 8%, vencimento em 5 anos e yield de 6%?','A apostila calcula PV total de R$1.084,50 e soma ponderada de R$4.709,31; duration = 4.709,31/1.084,50 ≈ 4,34 anos.','97','duration calculo'),
+('Qual é a duration aproximada do título de R$1.000, cupom anual de 8%, vencimento em 5 anos e yield de 6%?','Recalculando os fluxos da apostila: R$80 nos anos 1 a 4 e R$1.080 no ano 5, descontados a 6% a.a., dão PV total de R$1.084,25 e soma ponderada de R$4.708,04; duration = 4.708,04/1.084,25 ≈ 4,34 anos.','97','duration calculo'),
 ('O que estima a duration modificada de 4,10?','A aproximação é que o preço varia cerca de −4,10% quando a taxa sobe 1 ponto percentual, ou +4,10% quando cai 1 ponto, para pequenas mudanças e mantidas as demais condições.','99','duration modificada'),
 ('Como imunizar uma obrigação de 5 anos com títulos de duration 3 e 8 anos?','Iguale a duration da carteira a 5 anos: 3wA+8wB=5 e wA+wB=1. Resulta em 60% no título A e 40% no B.','101','duration imunizacao calculo'),
 ('Como diferem desconto racional e desconto comercial simples?','Racional “por dentro” calcula juros sobre o valor atual: VP=N/(1+i×n). Comercial “por fora” calcula D=N×d×n sobre o nominal e libera N−D antes de tarifas/tributos.','102','desconto'),
@@ -501,7 +501,8 @@ for item in plan:
  cards=[x for x in C if x[0]==n]
  if not cards: continue
  title=re.split(r'\s+—\s+',item['titulo'],maxsplit=1)[1].replace('/',' e ')
- filename=f'{n:02d} - {title}.csv'
+ portable_title=re.sub(r'[<>:"\\|?*]', ' - ', title).rstrip(' .')
+ filename=f'{n:02d} - {portable_title}.csv'
  build(cards,topic_dir/filename,delimiter=',')
  topic_files.append((filename,len(cards)))
 with (topic_dir/'INDICE.md').open('w',encoding='utf-8') as f:
@@ -509,7 +510,7 @@ with (topic_dir/'INDICE.md').open('w',encoding='utf-8') as f:
  for filename,count in topic_files:
   f.write(f'- [{filename}](<{filename}>): {count} cartões.\n')
  f.write('\nImporte estes CSVs ou o consolidado desta pasta. Os dois contêm os mesmos cartões. As tarefas de revisão e simulado estão mapeadas em `apostila/cobertura.csv`.\n')
-review_tags={8:['cpa::03','cpa::04','cpa::05','cpa::06','cpa::07'],19:['cpa::09','cpa::10','cpa::11','cpa::14','cpa::15','cpa::16'],20:['cpa::12','cpa::13','cpa::17','cpa::18','cpa::21'],30:['cpa::23','cpa::24','cpa::25','cpa::26','cpa::27','cpa::28','cpa::29'],39:['cpa::03','cpa::04','cpa::05','cpa::06','cpa::07','cpa::09','cpa::10','cpa::11','cpa::12','cpa::13','cpa::14','cpa::15','cpa::16','cpa::17','cpa::18','cpa::21','cpa::22','cpa::23','cpa::24','cpa::25','cpa::26','cpa::27','cpa::28','cpa::29','cpa::31','cpa::32','cpa::33']}
+review_tags={8:['cpa::01','cpa::02','cpa::03','cpa::04','cpa::05','cpa::06','cpa::07'],19:['cpa::09','cpa::10','cpa::11','cpa::14','cpa::15','cpa::16'],20:['cpa::12','cpa::13','cpa::17','cpa::18'],30:['cpa::23','cpa::24','cpa::25','cpa::26','cpa::27','cpa::28','cpa::29'],39:['cpa::01','cpa::02','cpa::03','cpa::04','cpa::05','cpa::06','cpa::07','cpa::09','cpa::10','cpa::11','cpa::12','cpa::13','cpa::14','cpa::15','cpa::16','cpa::17','cpa::18','cpa::21','cpa::22','cpa::23','cpa::24','cpa::25','cpa::26','cpa::27','cpa::28','cpa::29','cpa::31','cpa::32','cpa::33']}
 rows=[]
 for ix,item in enumerate(plan):
  n=int(re.search(r'CPA\s+(\d+)',item['titulo']).group(1)); title=item['titulo']; desc=item['descricao']
@@ -521,7 +522,7 @@ for ix,item in enumerate(plan):
  elif n in review_tags:
   tags=review_tags[n]
   selection='; '.join(tags)
-  deck='Seleção nos decks temáticos: '+', '.join(f'cpa_{int(tag[-2:]):02d}.tsv' for tag in tags)
+  deck='Seleção nos decks temáticos: '+', '.join(({1:'01_sfn_orgaos.txt',2:'02_participantes_spb_pagamentos.txt'}.get(int(tag[-2:])) or f'cpa_{int(tag[-2:]):02d}.tsv') for tag in tags)
   status='Seleção dos cartões existentes por tags; sem cartões de revisão artificiais.'
   if n==39: status='Revisão cumulativa opcional por tags e erros pessoais; adapte à data real da prova.'
  elif n in [34,36,38]:
