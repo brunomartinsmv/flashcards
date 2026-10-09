@@ -29,3 +29,4 @@ Referencias (artigos e fontes):
 - Roediger, H. L., & Karpicke, J. D. (2006). *Test-enhanced learning: Taking memory tests improves long-term retention*. Psychological Science. https://doi.org/10.1111/j.1467-9280.2006.01693.x
 - Cepeda, N. J., Vul, E., Rohrer, D., Wixted, J. T., & Pashler, H. (2008). *Spacing effects in learning: A temporal ridgeline of optimal retention*. Psychological Science. https://doi.org/10.1111/j.1467-9280.2008.02209.x
 - *Metodo de Leitner* (visao geral). https://en.wikipedia.org/wiki/Leitner_system
+- Páginas da Wikipedia no arquivo: [wikipedia.md](wikipedia.md)
