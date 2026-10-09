@@ -47,6 +47,13 @@ consolidated_notes = [r for r in consolidated if r and not r[0].startswith('#')]
 assert len(consolidated_notes) == len(all_rows)
 assert {tuple(r) for r in consolidated_notes} == {tuple(r) for r in all_rows}
 assert len(consolidated_notes) == len(fronts)
+earlier_fronts = set()
+for path in sorted(BASE.glob('0[1-4]_*.txt')):
+    for row in rows(path):
+        if row and not row[0].startswith('#'):
+            earlier_fronts.add(row[0])
+collisions = fronts & earlier_fronts
+assert not collisions, ('duplicate front vs TXT decks', collisions)
 coverage = list(csv.DictReader((BASE / 'apostila/cobertura.csv').open(encoding='utf-8-sig', newline='')))
 assert len(coverage) == 37, len(coverage)
 assert {r['Tarefa'] for r in coverage} == {f'CPA {i:02d}' for i in range(3, 40)}
@@ -80,6 +87,10 @@ assert 'igual ou superior a 5 anos' in ima
 ibov = answers['Como diferem Ibovespa e IBrX segundo a apostila?']
 assert 'ambos ponderam pelo valor de mercado do free float' in ibov
 assert 'IBrX 100 seleciona os 100 ativos de maior IN' in ibov
+assert 'Como a apostila define risco de concentração?' in answers
+assert 'Como a apostila define um arranjo de pagamento?' in answers
+assert 'O que é risco de concentração?' not in answers
+assert 'O que é um arranjo de pagamento?' not in answers
 assert 'Resolução CVM 175' in answers['Qual é o quórum de instalação da assembleia de cotistas de fundos (Resolução CVM 175)?']
 assert all(not any(c in path.name for c in '<>:"\\|?*') for path in BASE.glob('*.csv'))
 

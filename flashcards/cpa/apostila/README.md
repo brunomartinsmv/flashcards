@@ -47,7 +47,7 @@ Taxas e prazos foram escritos com unidade explícita. Exemplos numéricos deriva
 - `cobertura.csv`: mapeamento de todas as tarefas CPA03 a CPA39.
 - `inventario_subtopicos.csv`: índice de tags, cartões e referências de página.
 - `scripts/gerar_colecao.py`: fonte estruturada dos cartões e gerador dos TSVs/índices.
-- `scripts/validar_colecao.py`: verifica cabeçalhos e campos, frentes únicas, tags, referências e rodapés de página, cobertura das 37 tarefas e cálculos selecionados.
+- `scripts/validar_colecao.py`: verifica cabeçalhos e campos, frentes únicas entre si e em relação aos TXT anteriores, tags, referências e rodapés de página, cobertura das 37 tarefas e cálculos selecionados.
 
 ## Validação executada
 

@@ -26,6 +26,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Fixed
 
+- Frentes da apostila CPA diferenciadas das dos TXT anteriores (arranjo de pagamento e risco de concentração), para importação conjunta no mesmo tipo Basic.
+- Versos de `la notizia` e `la noticia` restritos ao singular `notícia`; inglês `news` mantém `notícia; notícias`.
 - Corte de IMA-B 5 / IMA-B 5+ alinhado à metodologia ANBIMA (inferior vs igual ou superior a 5 anos).
 - Distinção Ibovespa × IBrX corrigida: ambos ponderam por free float; negociabilidade na seleção e tetos no Ibovespa.
 - Condicional `se` preservada nas traduções do cartão do alarme; inglês de `com mais calma` passado para `more calmly`.

@@ -7,7 +7,7 @@ Flashcards para meus estudos de CPA, com perguntas em português, respostas, tag
 - Os quatro TXT `01_sfn_orgaos.txt`, `02_participantes_spb_pagamentos.txt`, `03_riscos_mitigacao_autorregulacao.txt` e `04_matematica_financeira_hp12c.txt` são coleções anteriores, com fontes indicadas nos versos.
 - [cpa_apostila_completo.tsv](cpa_apostila_completo.tsv) reúne 317 notas da apostila, em 27 temas. Como alternativa, use os CSVs numerados por tema ou os `cpa_XX.tsv`. São versões equivalentes; escolha uma delas.
 
-Os TXT anteriores e a coleção da apostila podem ter assuntos em comum. Confira notas existentes antes de importar. [INDICE.md](INDICE.md) apresenta a ordem dos temas. [Guia da apostila](apostila/README.md) detalha cobertura, geração e limites.
+Os TXT anteriores e a coleção da apostila podem ter assuntos em comum, mas as frentes da apostila foram diferenciadas das dos TXT para permitir importação conjunta no mesmo tipo Basic. [INDICE.md](INDICE.md) apresenta a ordem dos temas. [Guia da apostila](apostila/README.md) detalha cobertura, geração e limites.
 
 ## Formato e fontes
 

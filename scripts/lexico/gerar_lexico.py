@@ -79,6 +79,10 @@ def generate():
             if word in known:
                 omitted.append({'termo': front, 'portugues': back, 'motivo': 'Já está em um arquivo anterior do idioma.'})
                 continue
+            if folder_name in {'italian', 'spanish'} and word in {'notizia', 'noticia'}:
+                back = 'notícia'
+            elif folder_name == 'english' and word == 'news':
+                back = 'notícia; notícias'
             if folder_name == 'italian' and word == 'nipote':
                 back += '; também pode significar neto, conforme o contexto.'
             deck = f'idioms::{folder_name}::Léxico::{level}::{number} {theme}'
@@ -90,6 +94,10 @@ def generate():
         single_words = {word for word in distinct_words if ' ' not in word}
         assert len(single_words) >= 500, (language, len(single_words))
         assert len({r[0] for r in cards}) == len(cards), language
+        if folder_name in {'italian', 'spanish'}:
+            for card in cards:
+                if lemma(card[0]) in {'notizia', 'noticia'}:
+                    assert card[1] == 'notícia', card
         for (number, theme, level), group in themes.items():
             path = folder / f'Léxico {number} - {level} - {theme}.csv'
             write_cards(path, group, group[0][3])

@@ -327,7 +327,7 @@ add(6,[
 ])
 add(3,[
 ('Como diferenciar risco de inadimplência e risco de degradação da qualidade de crédito?','Inadimplência é o não pagamento de uma obrigação. A deterioração da qualidade de crédito pode surgir antes, com piora de rating, indicadores financeiros ou capacidade de pagamento do devedor.','43','riscos credito'),
-('O que é risco de concentração?','Perda potencial ampliada pela exposição excessiva a um mesmo emissor, setor, contraparte, região ou fator de risco; limites e diversificação ajudam a reduzir essa dependência.','44','riscos concentracao'),
+('Como a apostila define risco de concentração?','Perda potencial ampliada pela exposição excessiva a um mesmo emissor, setor, contraparte, região ou fator de risco; limites e diversificação ajudam a reduzir essa dependência.','44','riscos concentracao'),
 ('O que significa risco sistemático?','Risco ligado a fatores amplos que afetam o mercado e não é eliminado apenas pela diversificação de ativos dentro daquele mercado.','44','riscos mercado'),
 ])
 add(7,[
@@ -428,7 +428,7 @@ add(25,[
 ])
 
 add(21,[
-('O que é um arranjo de pagamento?','Conjunto de regras e procedimentos que organiza como recursos passam do pagador ao recebedor e define participantes, fluxos e padrões de segurança.','452','servicos_bancarios pagamentos'),
+('Como a apostila define um arranjo de pagamento?','Conjunto de regras e procedimentos que organiza como recursos passam do pagador ao recebedor e define participantes, fluxos e padrões de segurança.','452','servicos_bancarios pagamentos'),
 ('Que etapas o adquirente executa em uma compra com cartão?','Credencia o estabelecimento, captura e processa a transação junto ao emissor e participa da liquidação do valor ao lojista.','453','servicos_bancarios pagamentos'),
 ('Quando um pequeno comércio pode usar um subadquirente?','Quando precisa aceitar pagamentos eletrônicos por uma plataforma simplificada; o subadquirente conecta o comerciante ao adquirente e demais participantes do arranjo.','454','servicos_bancarios pagamentos'),
 ('Como diferem depósito à vista e depósito a prazo?','Depósito à vista pode ser movimentado a qualquer momento; depósito a prazo é aplicado por condições e vencimento pactuados, podendo haver restrição de resgate antecipado.','335','servicos_bancarios depositos'),
@@ -469,6 +469,13 @@ for n,q,a,p,t in C:
  for page in page_list: assert re.search(rf'(?m)^\s*{page}\s*$',pages[page-1]), ('footer',p,q)
 # unique fronts and no empty content
 assert len({x[1] for x in C})==len(C)
+earlier_fronts=set()
+for path in sorted(DECK_ROOT.glob('0[1-4]_*.txt')):
+ with path.open(encoding='utf-8-sig',newline='') as f:
+  for row in csv.reader(f,delimiter='\t'):
+   if row and not row[0].startswith('#'): earlier_fronts.add(row[0])
+collisions={x[1] for x in C}&earlier_fronts
+assert not collisions, collisions
 for n in [3,4,5,6,7,*range(9,19),*range(21,30),31,32,33]: assert any(x[0]==n for x in C), n
 # Emit one unique consolidated set and per-topic decks.
 def build(rows,path,delimiter='\t'):

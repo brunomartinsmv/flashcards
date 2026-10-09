@@ -408,7 +408,7 @@ bateria|la batteria|la batería|battery
 vídeo|il video|el video|video
 fotografia|la fotografia|la fotografía|photograph
 câmera|la fotocamera|la cámara|camera
-notícia; notícias|la notizia|la noticia|news
+notícia|la notizia|la noticia|news
 jornal|il giornale|el periódico|newspaper
 revista|la rivista|la revista|magazine
 anúncio publicitário|la pubblicità|el anuncio|advertisement
