@@ -68,7 +68,12 @@ reviews = {r['Tarefa']: r for r in coverage}
 assert 'cpa::01' in reviews['CPA 08']['Cobertura/procedimento']
 assert '01_sfn_orgaos.txt' in reviews['CPA 08']['Deck/seleção']
 assert 'cpa::21' not in reviews['CPA 20']['Cobertura/procedimento']
-assert 'CPR' in answers['Quais investimentos de renda fixa a apostila lista como isentos de IR para pessoa física?']
+cpr = answers['Quais investimentos de renda fixa a apostila lista como isentos de IR para pessoa física?']
+assert 'CPR' in cpr
+assert 'liquidação financeira' in cpr
+assert 'negociada no mercado financeiro' in cpr
+assert 'art. 2º, § 2º' in cpr
+assert '181 a 360' in answers['Qual o montante de R$ 1.500 aplicados por 6 meses a 1,4% ao mês?']
 assert 'Resolução CVM 175' in answers['Qual é o quórum de instalação da assembleia de cotistas de fundos (Resolução CVM 175)?']
 assert all(not any(c in path.name for c in '<>:"\\|?*') for path in BASE.glob('*.csv'))
 

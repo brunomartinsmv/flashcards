@@ -11,7 +11,7 @@ Há 150 notas em cada faixa didática: Básico, Intermediário e Avançado. Cada
 - [Intermediário](Frases%2002%20-%20Intermedi%C3%A1rio%20-%20Completo.csv)
 - [Avançado](Frases%2003%20-%20Avan%C3%A7ado%20-%20Completo.csv)
 
-Os CSVs temáticos ficam nesta pasta e seguem o padrão `Frases NN - nível - TT tema.csv`. Todos usam quatro campos: frente, verso em português, tags e destino do deck. Os cartões recebem tags de idioma, faixa e tema.
+Os CSVs temáticos ficam nesta pasta e seguem o padrão `Frases NN - nível - TT tema.csv`. Todos usam quatro campos: frente, verso em português, tags e destino do deck. Os cartões recebem tags de idioma (`idioma::ingles`), faixa e tema, iguais às do léxico.
 
 ## Importação no Anki
 

@@ -2763,8 +2763,8 @@
     "nivel": "avancado",
     "tema": "02",
     "pt": "A reserva está no meu sobrenome, embora a confirmação tenha sido enviada ao endereço da empresa.",
-    "it": "La prenotazione è a mio cognome, anche se la conferma è stata inviata all'indirizzo aziendale.",
-    "es": "La reserva está a mi apellido, aunque la confirmación se envió al correo de la empresa.",
+    "it": "La prenotazione è a nome mio, anche se la conferma è stata inviata all'indirizzo aziendale.",
+    "es": "La reserva está a nombre mío, aunque la confirmación se envió al correo de la empresa.",
     "en": "The reservation is under my last name, though the confirmation went to my work email."
   },
   {

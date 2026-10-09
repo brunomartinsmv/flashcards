@@ -28,8 +28,9 @@ As tarefas CPA34, CPA36 e CPA38 pedem simulados completos. A coleção não cria
 
 O cartão de isenção de rendimentos de FII corrige uma imprecisão da apostila e complementa os requisitos com a [Lei 11.033/2004, art. 3º, § 1º](https://www2.camara.leg.br/legin/fed/lei/2004/lei-11033-21-dezembro-2004-535177-normaatualizada-pl.html). O verso identifica essa exceção à fonte principal.
 
-O cartão de quórum de instalação de assembleia de fundos esclarece que a assembleia geral se instala com a presença de qualquer número de cotistas ([Resolução CVM 175, art. 74](https://conteudo.cvm.gov.br/export/sites/cvm/legislacao/resolucoes/anexos/100/resol175consolid.pdf)), reservando o piso de 5% das cotas emitidas ao direito de solicitar sua convocação.
+O cartão que lista investimentos de renda fixa isentos para pessoa física mantém a lista da apostila e restringe a CPR: a [Lei 11.033/2004, art. 3º, V](https://www2.camara.leg.br/legin/fed/lei/2004/lei-11033-21-dezembro-2004-535177-normaatualizada-pl.html) cobre a remuneração da CPR com liquidação financeira negociada no mercado financeiro; a [Lei 8.929/1994, art. 2º, § 2º](https://www2.camara.leg.br/legin/fed/lei/1994/lei-8929-22-agosto-1994-349613-normaatualizada-pl.html) exclui a CPR dos emissores do art. 2º, II.
 
+O cartão de quórum de instalação de assembleia de fundos esclarece que a assembleia geral se instala com a presença de qualquer número de cotistas ([Resolução CVM 175, art. 74](https://conteudo.cvm.gov.br/export/sites/cvm/legislacao/resolucoes/anexos/100/resol175consolid.pdf)), reservando o piso de 5% das cotas emitidas ao direito de solicitar sua convocação.
 
 Valores tributários, limites e outras regras regulatórias aparecem identificados como "Segundo a apostila (edição janeiro/2026)". A coleção não verifica se esses dados continuam vigentes. Use a edição indicada como material de estudo, não como confirmação de regra atual.
 

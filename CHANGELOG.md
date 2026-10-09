@@ -26,11 +26,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Fixed
 
+- Isenção de CPR restringida às condições da Lei 11.033/2004, art. 3º, V, e da Lei 8.929/1994, art. 2º, § 2º.
+- Tags `idioma::italiano`, `idioma::espanhol` e `idioma::ingles` unificadas entre os geradores de frases e de léxico.
+- Reserva hoteleira em italiano e espanhol passada para `a nome mio` e `a nombre mío`.
+- Importação do léxico orientada a um tipo de nota Basic por idioma, para evitar colisão de frentes iguais.
+- Exemplo de resgate em 6 meses alinhado à faixa de 181 a 360 dias da tabela regressiva.
 - Quórum de instalação de assembleia geral de fundos alinhado à Resolução CVM 175 e sigla CPR corrigida na isenção de renda fixa.
 - Frases de idiomas com aviso prévio em inglês e prazo prometido de reparo em italiano.
 - Tradução de entrega antecipada em inglês, cálculos de resgate líquido e duration e seleções das revisões CPA08 e CPA20.
 - Nomes de CSVs CPA compatíveis com Windows e leitura explícita de UTF-8 no gerador de léxico.
-
 - Traduções de padrão estatístico em italiano, direção de “contar com alguém” e gênero de `il nipote`.
 - Requisitos de isenção de rendimentos de FII corrigidos com referência complementar à Lei 11.033/2004.
 - Guia de origem CPA esclarece que o gerador e o relatório dos TXT anteriores não estão disponíveis.

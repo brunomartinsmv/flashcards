@@ -8,7 +8,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[2]
 BASE = ROOT / 'scripts' / 'frases'
 DATA = BASE / 'frases.json'
-LANGS = {'it': ('italian', 'Italiano'), 'es': ('spanish', 'Espanhol'), 'en': ('english', 'Inglês')}
+LANGS = {'it': ('italian', 'Italiano', 'italiano'), 'es': ('spanish', 'Espanhol', 'espanhol'), 'en': ('english', 'Inglês', 'ingles')}
 NIVEIS = {'basico': ('01', 'Básico'), 'intermediario': ('02', 'Intermediário'), 'avancado': ('03', 'Avançado')}
 TEMAS = {'01': 'Rotina e organização', '02': 'Serviços compras e viagens', '03': 'Relações e comunicação', '04': 'Trabalho e colaboração', '05': 'Estudos e projetos'}
 HEAD = ['#separator:Comma', '#html:false', '#tags column:3', '#deck column:4', '#columns:Frente,Verso,Tags,Deck']
@@ -25,7 +25,7 @@ def main() -> None:
     assert set(ids) == {(n,t) for n in NIVEIS for t in TEMAS}
     assert all(v == 30 for v in ids.values()), ids
     all_counts = {}
-    for lang, (folder, lang_name) in LANGS.items():
+    for lang, (folder, lang_name, idioma_tag) in LANGS.items():
         fronts = [r[lang].strip() for r in rows]
         assert all(fronts), f'Frente vazia: {lang}'
         dup = [k for k,v in Counter(map(norm, fronts)).items() if v > 1]
@@ -44,7 +44,7 @@ def main() -> None:
                 cards = []
                 deck = f'idioms::{folder}::Frases::{nnum} {nlabel}::{tema} {tlabel}'
                 for r in selected:
-                    tags = f'frases idioma::{folder} nivel::{nnum}_{nivel} tema::{tema}_{tema_slug(tlabel)}'
+                    tags = f'frases idioma::{idioma_tag} nivel::{nnum}_{nivel} tema::{tema}_{tema_slug(tlabel)}'
                     cards.append([r[lang], r['pt'], tags, deck])
                 name = f'Frases {nnum} - {nlabel} - {tema} {tlabel}.csv'
                 write_csv(target/name, cards, deck)

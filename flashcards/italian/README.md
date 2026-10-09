@@ -10,7 +10,7 @@ Cartões de vocabulário e frases para o meu estudo de italiano. Nos arquivos no
 
 ## Importação
 
-Use Basic para as coleções novas. Mapeie Frente, Verso, Tags e a coluna especial Deck. Os CSVs usam vírgula, UTF-8 e `#html:false`. Os subdecks novos ficam em `idioms::italian::Léxico` e `idioms::italian::Frases`. Os níveis são faixas didáticas, sem certificação CEFR.
+Use um tipo de nota Basic específico deste idioma, com Frente e Verso. O Anki identifica notas pelo primeiro campo no mesmo tipo; o léxico italiano e o espanhol compartilham frentes como `la casa`. Mapeie Frente, Verso, Tags e a coluna especial Deck. Os CSVs usam vírgula, UTF-8 e `#html:false`. Os subdecks novos ficam em `idioms::italian::Léxico` e `idioms::italian::Frases`. Os níveis são faixas didáticas, sem certificação CEFR.
 
 O Anki pode reconhecer notas já existentes pelo primeiro campo, mas a normalização de HTML ou mudanças de redação podem afetar essa comparação. Confira a prévia antes de importar. Ao atualizar uma nota, o deck atual é preservado.
 

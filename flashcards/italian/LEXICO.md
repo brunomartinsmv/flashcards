@@ -2,7 +2,7 @@
 
 587 cartões, com 585 palavras simples distintas, em 24 temas. Frente no idioma estudado; verso em português.
 
-Escolha os CSVs por tema ou `Léxico - Completo.csv`. Os dois formatos contêm os mesmos cartões. A coluna especial Deck cria os subdecks na importação dos cartões novos. Use um tipo de nota Basic com Frente e Verso.
+Escolha os CSVs por tema ou `Léxico - Completo.csv`. Os dois formatos contêm os mesmos cartões. A coluna especial Deck cria os subdecks na importação dos cartões novos. Use um tipo de nota Basic específico deste idioma, com Frente e Verso. O Anki identifica notas pelo primeiro campo no mesmo tipo; italiano e espanhol compartilham frentes como `la casa` e `verde`.
 
 Básico e Intermediário são faixas didáticas desta coleção, atribuídas por tema. Não são níveis CEFR certificados por palavra. Nos substantivos de italiano e espanhol, o artigo ajuda a memorizar gênero e número. Em espanhol, `el agua` e `el águila` são femininos apesar do artigo `el` no singular. Os adjetivos aparecem na forma masculina singular quando há variação.
 
