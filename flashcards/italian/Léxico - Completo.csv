@@ -1,0 +1,592 @@
+#separator:Comma
+#html:false
+#tags column:3
+#deck column:4
+#columns:Frente,Verso,Tags,Deck
+la persona,pessoa,lexico idioma::italiano tema::pessoas_e_familia nivel::basico,idioms::italian::Léxico::Básico::01 Pessoas e família
+l'uomo,homem,lexico idioma::italiano tema::pessoas_e_familia nivel::basico,idioms::italian::Léxico::Básico::01 Pessoas e família
+la donna,mulher,lexico idioma::italiano tema::pessoas_e_familia nivel::basico,idioms::italian::Léxico::Básico::01 Pessoas e família
+il bambino,criança,lexico idioma::italiano tema::pessoas_e_familia nivel::basico,idioms::italian::Léxico::Básico::01 Pessoas e família
+il neonato,bebê,lexico idioma::italiano tema::pessoas_e_familia nivel::basico,idioms::italian::Léxico::Básico::01 Pessoas e família
+l'adolescente,adolescente,lexico idioma::italiano tema::pessoas_e_familia nivel::basico,idioms::italian::Léxico::Básico::01 Pessoas e família
+l'adulto,adulto,lexico idioma::italiano tema::pessoas_e_familia nivel::basico,idioms::italian::Léxico::Básico::01 Pessoas e família
+la famiglia,família,lexico idioma::italiano tema::pessoas_e_familia nivel::basico,idioms::italian::Léxico::Básico::01 Pessoas e família
+la madre,mãe,lexico idioma::italiano tema::pessoas_e_familia nivel::basico,idioms::italian::Léxico::Básico::01 Pessoas e família
+il padre,pai,lexico idioma::italiano tema::pessoas_e_familia nivel::basico,idioms::italian::Léxico::Básico::01 Pessoas e família
+il figlio,filho,lexico idioma::italiano tema::pessoas_e_familia nivel::basico,idioms::italian::Léxico::Básico::01 Pessoas e família
+la figlia,filha,lexico idioma::italiano tema::pessoas_e_familia nivel::basico,idioms::italian::Léxico::Básico::01 Pessoas e família
+il fratello,irmão,lexico idioma::italiano tema::pessoas_e_familia nivel::basico,idioms::italian::Léxico::Básico::01 Pessoas e família
+la sorella,irmã,lexico idioma::italiano tema::pessoas_e_familia nivel::basico,idioms::italian::Léxico::Básico::01 Pessoas e família
+il nonno,avô,lexico idioma::italiano tema::pessoas_e_familia nivel::basico,idioms::italian::Léxico::Básico::01 Pessoas e família
+la nonna,avó,lexico idioma::italiano tema::pessoas_e_familia nivel::basico,idioms::italian::Léxico::Básico::01 Pessoas e família
+lo zio,tio,lexico idioma::italiano tema::pessoas_e_familia nivel::basico,idioms::italian::Léxico::Básico::01 Pessoas e família
+la zia,tia,lexico idioma::italiano tema::pessoas_e_familia nivel::basico,idioms::italian::Léxico::Básico::01 Pessoas e família
+il cugino,primo,lexico idioma::italiano tema::pessoas_e_familia nivel::basico,idioms::italian::Léxico::Básico::01 Pessoas e família
+il nipote,"sobrinho; também pode significar neto, conforme o contexto.",lexico idioma::italiano tema::pessoas_e_familia nivel::basico,idioms::italian::Léxico::Básico::01 Pessoas e família
+il marito,marido,lexico idioma::italiano tema::pessoas_e_familia nivel::basico,idioms::italian::Léxico::Básico::01 Pessoas e família
+la moglie,esposa,lexico idioma::italiano tema::pessoas_e_familia nivel::basico,idioms::italian::Léxico::Básico::01 Pessoas e família
+l'amico,amigo,lexico idioma::italiano tema::pessoas_e_familia nivel::basico,idioms::italian::Léxico::Básico::01 Pessoas e família
+il vicino,vizinho,lexico idioma::italiano tema::pessoas_e_familia nivel::basico,idioms::italian::Léxico::Básico::01 Pessoas e família
+la coppia,casal,lexico idioma::italiano tema::pessoas_e_familia nivel::basico,idioms::italian::Léxico::Básico::01 Pessoas e família
+il corpo,corpo,lexico idioma::italiano tema::corpo nivel::basico,idioms::italian::Léxico::Básico::02 Corpo
+la testa,cabeça,lexico idioma::italiano tema::corpo nivel::basico,idioms::italian::Léxico::Básico::02 Corpo
+il viso,rosto,lexico idioma::italiano tema::corpo nivel::basico,idioms::italian::Léxico::Básico::02 Corpo
+i capelli,cabelo (conjunto),lexico idioma::italiano tema::corpo nivel::basico,idioms::italian::Léxico::Básico::02 Corpo
+l'occhio,olho,lexico idioma::italiano tema::corpo nivel::basico,idioms::italian::Léxico::Básico::02 Corpo
+l'orecchio,orelha,lexico idioma::italiano tema::corpo nivel::basico,idioms::italian::Léxico::Básico::02 Corpo
+il naso,nariz,lexico idioma::italiano tema::corpo nivel::basico,idioms::italian::Léxico::Básico::02 Corpo
+la bocca,boca,lexico idioma::italiano tema::corpo nivel::basico,idioms::italian::Léxico::Básico::02 Corpo
+il dente,dente,lexico idioma::italiano tema::corpo nivel::basico,idioms::italian::Léxico::Básico::02 Corpo
+la lingua,língua (órgão),lexico idioma::italiano tema::corpo nivel::basico,idioms::italian::Léxico::Básico::02 Corpo
+il collo,pescoço,lexico idioma::italiano tema::corpo nivel::basico,idioms::italian::Léxico::Básico::02 Corpo
+la spalla,ombro,lexico idioma::italiano tema::corpo nivel::basico,idioms::italian::Léxico::Básico::02 Corpo
+il braccio,braço,lexico idioma::italiano tema::corpo nivel::basico,idioms::italian::Léxico::Básico::02 Corpo
+il gomito,cotovelo,lexico idioma::italiano tema::corpo nivel::basico,idioms::italian::Léxico::Básico::02 Corpo
+la mano,mão,lexico idioma::italiano tema::corpo nivel::basico,idioms::italian::Léxico::Básico::02 Corpo
+il dito,dedo da mão,lexico idioma::italiano tema::corpo nivel::basico,idioms::italian::Léxico::Básico::02 Corpo
+l'unghia,unha,lexico idioma::italiano tema::corpo nivel::basico,idioms::italian::Léxico::Básico::02 Corpo
+il petto,peito,lexico idioma::italiano tema::corpo nivel::basico,idioms::italian::Léxico::Básico::02 Corpo
+la schiena,costas,lexico idioma::italiano tema::corpo nivel::basico,idioms::italian::Léxico::Básico::02 Corpo
+lo stomaco,estômago,lexico idioma::italiano tema::corpo nivel::basico,idioms::italian::Léxico::Básico::02 Corpo
+la gamba,perna,lexico idioma::italiano tema::corpo nivel::basico,idioms::italian::Léxico::Básico::02 Corpo
+il ginocchio,joelho,lexico idioma::italiano tema::corpo nivel::basico,idioms::italian::Léxico::Básico::02 Corpo
+il piede,pé,lexico idioma::italiano tema::corpo nivel::basico,idioms::italian::Léxico::Básico::02 Corpo
+la pelle,pele,lexico idioma::italiano tema::corpo nivel::basico,idioms::italian::Léxico::Básico::02 Corpo
+il cuore,coração,lexico idioma::italiano tema::corpo nivel::basico,idioms::italian::Léxico::Básico::02 Corpo
+la salute,saúde,lexico idioma::italiano tema::saude nivel::intermediario,idioms::italian::Léxico::Intermediário::03 Saúde
+la malattia,doença,lexico idioma::italiano tema::saude nivel::intermediario,idioms::italian::Léxico::Intermediário::03 Saúde
+il dolore,dor,lexico idioma::italiano tema::saude nivel::intermediario,idioms::italian::Léxico::Intermediário::03 Saúde
+la febbre,febre,lexico idioma::italiano tema::saude nivel::intermediario,idioms::italian::Léxico::Intermediário::03 Saúde
+la tosse,tosse,lexico idioma::italiano tema::saude nivel::intermediario,idioms::italian::Léxico::Intermediário::03 Saúde
+il raffreddore,resfriado,lexico idioma::italiano tema::saude nivel::intermediario,idioms::italian::Léxico::Intermediário::03 Saúde
+l'influenza,gripe,lexico idioma::italiano tema::saude nivel::intermediario,idioms::italian::Léxico::Intermediário::03 Saúde
+l'allergia,alergia,lexico idioma::italiano tema::saude nivel::intermediario,idioms::italian::Léxico::Intermediário::03 Saúde
+la ferita,ferida,lexico idioma::italiano tema::saude nivel::intermediario,idioms::italian::Léxico::Intermediário::03 Saúde
+il farmaco,remédio,lexico idioma::italiano tema::saude nivel::intermediario,idioms::italian::Léxico::Intermediário::03 Saúde
+la compressa,comprimido,lexico idioma::italiano tema::saude nivel::intermediario,idioms::italian::Léxico::Intermediário::03 Saúde
+la ricetta,receita médica,lexico idioma::italiano tema::saude nivel::intermediario,idioms::italian::Léxico::Intermediário::03 Saúde
+il trattamento,tratamento,lexico idioma::italiano tema::saude nivel::intermediario,idioms::italian::Léxico::Intermediário::03 Saúde
+l'intervento,cirurgia,lexico idioma::italiano tema::saude nivel::intermediario,idioms::italian::Léxico::Intermediário::03 Saúde
+il vaccino,vacina,lexico idioma::italiano tema::saude nivel::intermediario,idioms::italian::Léxico::Intermediário::03 Saúde
+il sintomo,sintoma,lexico idioma::italiano tema::saude nivel::intermediario,idioms::italian::Léxico::Intermediário::03 Saúde
+l'infezione,infecção,lexico idioma::italiano tema::saude nivel::intermediario,idioms::italian::Léxico::Intermediário::03 Saúde
+il sangue,sangue,lexico idioma::italiano tema::saude nivel::intermediario,idioms::italian::Léxico::Intermediário::03 Saúde
+il polmone,pulmão,lexico idioma::italiano tema::saude nivel::intermediario,idioms::italian::Léxico::Intermediário::03 Saúde
+l'osso,osso,lexico idioma::italiano tema::saude nivel::intermediario,idioms::italian::Léxico::Intermediário::03 Saúde
+il muscolo,músculo,lexico idioma::italiano tema::saude nivel::intermediario,idioms::italian::Léxico::Intermediário::03 Saúde
+la respirazione,respiração,lexico idioma::italiano tema::saude nivel::intermediario,idioms::italian::Léxico::Intermediário::03 Saúde
+l'ambulanza,ambulância,lexico idioma::italiano tema::saude nivel::intermediario,idioms::italian::Léxico::Intermediário::03 Saúde
+l'emergenza,emergência,lexico idioma::italiano tema::saude nivel::intermediario,idioms::italian::Léxico::Intermediário::03 Saúde
+la guarigione,recuperação,lexico idioma::italiano tema::saude nivel::intermediario,idioms::italian::Léxico::Intermediário::03 Saúde
+la casa,casa,lexico idioma::italiano tema::casa nivel::basico,idioms::italian::Léxico::Básico::04 Casa
+l'appartamento,apartamento,lexico idioma::italiano tema::casa nivel::basico,idioms::italian::Léxico::Básico::04 Casa
+la camera,quarto,lexico idioma::italiano tema::casa nivel::basico,idioms::italian::Léxico::Básico::04 Casa
+il soggiorno,sala de estar,lexico idioma::italiano tema::casa nivel::basico,idioms::italian::Léxico::Básico::04 Casa
+la cucina,cozinha,lexico idioma::italiano tema::casa nivel::basico,idioms::italian::Léxico::Básico::04 Casa
+il bagno,banheiro,lexico idioma::italiano tema::casa nivel::basico,idioms::italian::Léxico::Básico::04 Casa
+la porta,porta,lexico idioma::italiano tema::casa nivel::basico,idioms::italian::Léxico::Básico::04 Casa
+la finestra,janela,lexico idioma::italiano tema::casa nivel::basico,idioms::italian::Léxico::Básico::04 Casa
+la parete,parede,lexico idioma::italiano tema::casa nivel::basico,idioms::italian::Léxico::Básico::04 Casa
+il pavimento,piso,lexico idioma::italiano tema::casa nivel::basico,idioms::italian::Léxico::Básico::04 Casa
+il soffitto,teto interno,lexico idioma::italiano tema::casa nivel::basico,idioms::italian::Léxico::Básico::04 Casa
+il tetto,telhado,lexico idioma::italiano tema::casa nivel::basico,idioms::italian::Léxico::Básico::04 Casa
+la scala,escada,lexico idioma::italiano tema::casa nivel::basico,idioms::italian::Léxico::Básico::04 Casa
+il letto,cama,lexico idioma::italiano tema::casa nivel::basico,idioms::italian::Léxico::Básico::04 Casa
+il cuscino,travesseiro,lexico idioma::italiano tema::casa nivel::basico,idioms::italian::Léxico::Básico::04 Casa
+la coperta,cobertor,lexico idioma::italiano tema::casa nivel::basico,idioms::italian::Léxico::Básico::04 Casa
+il tavolo,mesa,lexico idioma::italiano tema::casa nivel::basico,idioms::italian::Léxico::Básico::04 Casa
+la sedia,cadeira,lexico idioma::italiano tema::casa nivel::basico,idioms::italian::Léxico::Básico::04 Casa
+il divano,sofá,lexico idioma::italiano tema::casa nivel::basico,idioms::italian::Léxico::Básico::04 Casa
+l'armadio,armário,lexico idioma::italiano tema::casa nivel::basico,idioms::italian::Léxico::Básico::04 Casa
+lo specchio,espelho,lexico idioma::italiano tema::casa nivel::basico,idioms::italian::Léxico::Básico::04 Casa
+il tappeto,tapete,lexico idioma::italiano tema::casa nivel::basico,idioms::italian::Léxico::Básico::04 Casa
+la chiave,chave,lexico idioma::italiano tema::casa nivel::basico,idioms::italian::Léxico::Básico::04 Casa
+il balcone,varanda,lexico idioma::italiano tema::casa nivel::basico,idioms::italian::Léxico::Básico::04 Casa
+il giardino,jardim,lexico idioma::italiano tema::casa nivel::basico,idioms::italian::Léxico::Básico::04 Casa
+il piatto,prato,lexico idioma::italiano tema::cozinha_e_utensilios nivel::basico,idioms::italian::Léxico::Básico::05 Cozinha e utensílios
+il bicchiere,copo,lexico idioma::italiano tema::cozinha_e_utensilios nivel::basico,idioms::italian::Léxico::Básico::05 Cozinha e utensílios
+la tazza,xícara,lexico idioma::italiano tema::cozinha_e_utensilios nivel::basico,idioms::italian::Léxico::Básico::05 Cozinha e utensílios
+la forchetta,garfo,lexico idioma::italiano tema::cozinha_e_utensilios nivel::basico,idioms::italian::Léxico::Básico::05 Cozinha e utensílios
+il coltello,faca,lexico idioma::italiano tema::cozinha_e_utensilios nivel::basico,idioms::italian::Léxico::Básico::05 Cozinha e utensílios
+il cucchiaio,colher,lexico idioma::italiano tema::cozinha_e_utensilios nivel::basico,idioms::italian::Léxico::Básico::05 Cozinha e utensílios
+la pentola,panela,lexico idioma::italiano tema::cozinha_e_utensilios nivel::basico,idioms::italian::Léxico::Básico::05 Cozinha e utensílios
+la padella,frigideira,lexico idioma::italiano tema::cozinha_e_utensilios nivel::basico,idioms::italian::Léxico::Básico::05 Cozinha e utensílios
+il forno,forno,lexico idioma::italiano tema::cozinha_e_utensilios nivel::basico,idioms::italian::Léxico::Básico::05 Cozinha e utensílios
+il fornello,fogão,lexico idioma::italiano tema::cozinha_e_utensilios nivel::basico,idioms::italian::Léxico::Básico::05 Cozinha e utensílios
+il frigorifero,geladeira,lexico idioma::italiano tema::cozinha_e_utensilios nivel::basico,idioms::italian::Léxico::Básico::05 Cozinha e utensílios
+il congelatore,congelador,lexico idioma::italiano tema::cozinha_e_utensilios nivel::basico,idioms::italian::Léxico::Básico::05 Cozinha e utensílios
+il lavello,pia,lexico idioma::italiano tema::cozinha_e_utensilios nivel::basico,idioms::italian::Léxico::Básico::05 Cozinha e utensílios
+il rubinetto,torneira,lexico idioma::italiano tema::cozinha_e_utensilios nivel::basico,idioms::italian::Léxico::Básico::05 Cozinha e utensílios
+la bottiglia,garrafa,lexico idioma::italiano tema::cozinha_e_utensilios nivel::basico,idioms::italian::Léxico::Básico::05 Cozinha e utensílios
+la ciotola,tigela,lexico idioma::italiano tema::cozinha_e_utensilios nivel::basico,idioms::italian::Léxico::Básico::05 Cozinha e utensílios
+il vassoio,bandeja,lexico idioma::italiano tema::cozinha_e_utensilios nivel::basico,idioms::italian::Léxico::Básico::05 Cozinha e utensílios
+il tovagliolo,guardanapo,lexico idioma::italiano tema::cozinha_e_utensilios nivel::basico,idioms::italian::Léxico::Básico::05 Cozinha e utensílios
+la tovaglia,toalha de mesa,lexico idioma::italiano tema::cozinha_e_utensilios nivel::basico,idioms::italian::Léxico::Básico::05 Cozinha e utensílios
+il coperchio,tampa,lexico idioma::italiano tema::cozinha_e_utensilios nivel::basico,idioms::italian::Léxico::Básico::05 Cozinha e utensílios
+la spugna,esponja,lexico idioma::italiano tema::cozinha_e_utensilios nivel::basico,idioms::italian::Léxico::Básico::05 Cozinha e utensílios
+il detersivo,detergente,lexico idioma::italiano tema::cozinha_e_utensilios nivel::basico,idioms::italian::Léxico::Básico::05 Cozinha e utensílios
+la grattugia,ralador,lexico idioma::italiano tema::cozinha_e_utensilios nivel::basico,idioms::italian::Léxico::Básico::05 Cozinha e utensílios
+il bollitore,chaleira,lexico idioma::italiano tema::cozinha_e_utensilios nivel::basico,idioms::italian::Léxico::Básico::05 Cozinha e utensílios
+il frullatore,liquidificador,lexico idioma::italiano tema::cozinha_e_utensilios nivel::basico,idioms::italian::Léxico::Básico::05 Cozinha e utensílios
+il riso,arroz,lexico idioma::italiano tema::alimentos_basicos nivel::basico,idioms::italian::Léxico::Básico::06 Alimentos básicos
+la carne,carne,lexico idioma::italiano tema::alimentos_basicos nivel::basico,idioms::italian::Léxico::Básico::06 Alimentos básicos
+il pollo,frango (carne),lexico idioma::italiano tema::alimentos_basicos nivel::basico,idioms::italian::Léxico::Básico::06 Alimentos básicos
+il pesce,peixe (alimento),lexico idioma::italiano tema::alimentos_basicos nivel::basico,idioms::italian::Léxico::Básico::06 Alimentos básicos
+l'uovo,ovo,lexico idioma::italiano tema::alimentos_basicos nivel::basico,idioms::italian::Léxico::Básico::06 Alimentos básicos
+il formaggio,queijo,lexico idioma::italiano tema::alimentos_basicos nivel::basico,idioms::italian::Léxico::Básico::06 Alimentos básicos
+il burro,manteiga,lexico idioma::italiano tema::alimentos_basicos nivel::basico,idioms::italian::Léxico::Básico::06 Alimentos básicos
+l'olio,óleo,lexico idioma::italiano tema::alimentos_basicos nivel::basico,idioms::italian::Léxico::Básico::06 Alimentos básicos
+il sale,sal,lexico idioma::italiano tema::alimentos_basicos nivel::basico,idioms::italian::Léxico::Básico::06 Alimentos básicos
+lo zucchero,açúcar,lexico idioma::italiano tema::alimentos_basicos nivel::basico,idioms::italian::Léxico::Básico::06 Alimentos básicos
+la farina,farinha,lexico idioma::italiano tema::alimentos_basicos nivel::basico,idioms::italian::Léxico::Básico::06 Alimentos básicos
+il succo,suco,lexico idioma::italiano tema::alimentos_basicos nivel::basico,idioms::italian::Léxico::Básico::06 Alimentos básicos
+il vino,vinho,lexico idioma::italiano tema::alimentos_basicos nivel::basico,idioms::italian::Léxico::Básico::06 Alimentos básicos
+la birra,cerveja,lexico idioma::italiano tema::alimentos_basicos nivel::basico,idioms::italian::Léxico::Básico::06 Alimentos básicos
+la zuppa,sopa,lexico idioma::italiano tema::alimentos_basicos nivel::basico,idioms::italian::Léxico::Básico::06 Alimentos básicos
+l'insalata,salada,lexico idioma::italiano tema::alimentos_basicos nivel::basico,idioms::italian::Léxico::Básico::06 Alimentos básicos
+il miele,mel,lexico idioma::italiano tema::alimentos_basicos nivel::basico,idioms::italian::Léxico::Básico::06 Alimentos básicos
+il cioccolato,chocolate,lexico idioma::italiano tema::alimentos_basicos nivel::basico,idioms::italian::Léxico::Básico::06 Alimentos básicos
+lo yogurt,iogurte,lexico idioma::italiano tema::alimentos_basicos nivel::basico,idioms::italian::Léxico::Básico::06 Alimentos básicos
+la mela,maçã,lexico idioma::italiano tema::frutas_e_vegetais nivel::basico,idioms::italian::Léxico::Básico::07 Frutas e vegetais
+la banana,banana,lexico idioma::italiano tema::frutas_e_vegetais nivel::basico,idioms::italian::Léxico::Básico::07 Frutas e vegetais
+l'arancia,laranja,lexico idioma::italiano tema::frutas_e_vegetais nivel::basico,idioms::italian::Léxico::Básico::07 Frutas e vegetais
+il limone,limão amarelo (siciliano),lexico idioma::italiano tema::frutas_e_vegetais nivel::basico,idioms::italian::Léxico::Básico::07 Frutas e vegetais
+la pera,pera,lexico idioma::italiano tema::frutas_e_vegetais nivel::basico,idioms::italian::Léxico::Básico::07 Frutas e vegetais
+l'uva,uva,lexico idioma::italiano tema::frutas_e_vegetais nivel::basico,idioms::italian::Léxico::Básico::07 Frutas e vegetais
+la fragola,morango,lexico idioma::italiano tema::frutas_e_vegetais nivel::basico,idioms::italian::Léxico::Básico::07 Frutas e vegetais
+la pesca,pêssego,lexico idioma::italiano tema::frutas_e_vegetais nivel::basico,idioms::italian::Léxico::Básico::07 Frutas e vegetais
+l'ananas,abacaxi,lexico idioma::italiano tema::frutas_e_vegetais nivel::basico,idioms::italian::Léxico::Básico::07 Frutas e vegetais
+l'anguria,melancia,lexico idioma::italiano tema::frutas_e_vegetais nivel::basico,idioms::italian::Léxico::Básico::07 Frutas e vegetais
+il melone,melão,lexico idioma::italiano tema::frutas_e_vegetais nivel::basico,idioms::italian::Léxico::Básico::07 Frutas e vegetais
+la ciliegia,cereja,lexico idioma::italiano tema::frutas_e_vegetais nivel::basico,idioms::italian::Léxico::Básico::07 Frutas e vegetais
+la prugna,ameixa,lexico idioma::italiano tema::frutas_e_vegetais nivel::basico,idioms::italian::Léxico::Básico::07 Frutas e vegetais
+l'avocado,abacate,lexico idioma::italiano tema::frutas_e_vegetais nivel::basico,idioms::italian::Léxico::Básico::07 Frutas e vegetais
+il pomodoro,tomate,lexico idioma::italiano tema::frutas_e_vegetais nivel::basico,idioms::italian::Léxico::Básico::07 Frutas e vegetais
+la patata,batata,lexico idioma::italiano tema::frutas_e_vegetais nivel::basico,idioms::italian::Léxico::Básico::07 Frutas e vegetais
+la carota,cenoura,lexico idioma::italiano tema::frutas_e_vegetais nivel::basico,idioms::italian::Léxico::Básico::07 Frutas e vegetais
+la cipolla,cebola,lexico idioma::italiano tema::frutas_e_vegetais nivel::basico,idioms::italian::Léxico::Básico::07 Frutas e vegetais
+l'aglio,alho,lexico idioma::italiano tema::frutas_e_vegetais nivel::basico,idioms::italian::Léxico::Básico::07 Frutas e vegetais
+la lattuga,alface,lexico idioma::italiano tema::frutas_e_vegetais nivel::basico,idioms::italian::Léxico::Básico::07 Frutas e vegetais
+il cetriolo,pepino,lexico idioma::italiano tema::frutas_e_vegetais nivel::basico,idioms::italian::Léxico::Básico::07 Frutas e vegetais
+il peperone,pimentão,lexico idioma::italiano tema::frutas_e_vegetais nivel::basico,idioms::italian::Léxico::Básico::07 Frutas e vegetais
+la melanzana,berinjela,lexico idioma::italiano tema::frutas_e_vegetais nivel::basico,idioms::italian::Léxico::Básico::07 Frutas e vegetais
+la zucca,abóbora,lexico idioma::italiano tema::frutas_e_vegetais nivel::basico,idioms::italian::Léxico::Básico::07 Frutas e vegetais
+il fagiolo,feijão (grão),lexico idioma::italiano tema::frutas_e_vegetais nivel::basico,idioms::italian::Léxico::Básico::07 Frutas e vegetais
+l'abbigliamento,roupa (conjunto),lexico idioma::italiano tema::roupas nivel::basico,idioms::italian::Léxico::Básico::08 Roupas
+la camicia,camisa,lexico idioma::italiano tema::roupas nivel::basico,idioms::italian::Léxico::Básico::08 Roupas
+la maglietta,camiseta,lexico idioma::italiano tema::roupas nivel::basico,idioms::italian::Léxico::Básico::08 Roupas
+i pantaloni,calça,lexico idioma::italiano tema::roupas nivel::basico,idioms::italian::Léxico::Básico::08 Roupas
+la gonna,saia,lexico idioma::italiano tema::roupas nivel::basico,idioms::italian::Léxico::Básico::08 Roupas
+il vestito,vestido,lexico idioma::italiano tema::roupas nivel::basico,idioms::italian::Léxico::Básico::08 Roupas
+il cappotto,casaco,lexico idioma::italiano tema::roupas nivel::basico,idioms::italian::Léxico::Básico::08 Roupas
+la giacca,jaqueta,lexico idioma::italiano tema::roupas nivel::basico,idioms::italian::Léxico::Básico::08 Roupas
+il maglione,suéter,lexico idioma::italiano tema::roupas nivel::basico,idioms::italian::Léxico::Básico::08 Roupas
+la scarpa,sapato,lexico idioma::italiano tema::roupas nivel::basico,idioms::italian::Léxico::Básico::08 Roupas
+lo stivale,bota,lexico idioma::italiano tema::roupas nivel::basico,idioms::italian::Léxico::Básico::08 Roupas
+il sandalo,sandália,lexico idioma::italiano tema::roupas nivel::basico,idioms::italian::Léxico::Básico::08 Roupas
+il calzino,meia,lexico idioma::italiano tema::roupas nivel::basico,idioms::italian::Léxico::Básico::08 Roupas
+il cappello,chapéu,lexico idioma::italiano tema::roupas nivel::basico,idioms::italian::Léxico::Básico::08 Roupas
+il berretto,boné,lexico idioma::italiano tema::roupas nivel::basico,idioms::italian::Léxico::Básico::08 Roupas
+la sciarpa,cachecol,lexico idioma::italiano tema::roupas nivel::basico,idioms::italian::Léxico::Básico::08 Roupas
+il guanto,luva,lexico idioma::italiano tema::roupas nivel::basico,idioms::italian::Léxico::Básico::08 Roupas
+la cintura,cinto,lexico idioma::italiano tema::roupas nivel::basico,idioms::italian::Léxico::Básico::08 Roupas
+la borsa,bolsa,lexico idioma::italiano tema::roupas nivel::basico,idioms::italian::Léxico::Básico::08 Roupas
+lo zaino,mochila,lexico idioma::italiano tema::roupas nivel::basico,idioms::italian::Léxico::Básico::08 Roupas
+l'orologio,relógio de pulso,lexico idioma::italiano tema::roupas nivel::basico,idioms::italian::Léxico::Básico::08 Roupas
+l'anello,anel,lexico idioma::italiano tema::roupas nivel::basico,idioms::italian::Léxico::Básico::08 Roupas
+l'orecchino,brinco,lexico idioma::italiano tema::roupas nivel::basico,idioms::italian::Léxico::Básico::08 Roupas
+la collana,colar,lexico idioma::italiano tema::roupas nivel::basico,idioms::italian::Léxico::Básico::08 Roupas
+la tasca,bolso,lexico idioma::italiano tema::roupas nivel::basico,idioms::italian::Léxico::Básico::08 Roupas
+la città,cidade,lexico idioma::italiano tema::cidade_e_servicos nivel::basico,idioms::italian::Léxico::Básico::09 Cidade e serviços
+il villaggio,vila (povoado),lexico idioma::italiano tema::cidade_e_servicos nivel::basico,idioms::italian::Léxico::Básico::09 Cidade e serviços
+la strada,rua,lexico idioma::italiano tema::cidade_e_servicos nivel::basico,idioms::italian::Léxico::Básico::09 Cidade e serviços
+il viale,avenida,lexico idioma::italiano tema::cidade_e_servicos nivel::basico,idioms::italian::Léxico::Básico::09 Cidade e serviços
+la piazza,praça,lexico idioma::italiano tema::cidade_e_servicos nivel::basico,idioms::italian::Léxico::Básico::09 Cidade e serviços
+il ponte,ponte,lexico idioma::italiano tema::cidade_e_servicos nivel::basico,idioms::italian::Léxico::Básico::09 Cidade e serviços
+l'edificio,prédio,lexico idioma::italiano tema::cidade_e_servicos nivel::basico,idioms::italian::Léxico::Básico::09 Cidade e serviços
+il negozio,loja,lexico idioma::italiano tema::cidade_e_servicos nivel::basico,idioms::italian::Léxico::Básico::09 Cidade e serviços
+il mercato,mercado,lexico idioma::italiano tema::cidade_e_servicos nivel::basico,idioms::italian::Léxico::Básico::09 Cidade e serviços
+il supermercato,supermercado,lexico idioma::italiano tema::cidade_e_servicos nivel::basico,idioms::italian::Léxico::Básico::09 Cidade e serviços
+la banca,banco (instituição),lexico idioma::italiano tema::cidade_e_servicos nivel::basico,idioms::italian::Léxico::Básico::09 Cidade e serviços
+la farmacia,farmácia,lexico idioma::italiano tema::cidade_e_servicos nivel::basico,idioms::italian::Léxico::Básico::09 Cidade e serviços
+l'ospedale,hospital,lexico idioma::italiano tema::cidade_e_servicos nivel::basico,idioms::italian::Léxico::Básico::09 Cidade e serviços
+la scuola,escola,lexico idioma::italiano tema::cidade_e_servicos nivel::basico,idioms::italian::Léxico::Básico::09 Cidade e serviços
+l'università,universidade,lexico idioma::italiano tema::cidade_e_servicos nivel::basico,idioms::italian::Léxico::Básico::09 Cidade e serviços
+la biblioteca,biblioteca,lexico idioma::italiano tema::cidade_e_servicos nivel::basico,idioms::italian::Léxico::Básico::09 Cidade e serviços
+il museo,museu,lexico idioma::italiano tema::cidade_e_servicos nivel::basico,idioms::italian::Léxico::Básico::09 Cidade e serviços
+il cinema,cinema,lexico idioma::italiano tema::cidade_e_servicos nivel::basico,idioms::italian::Léxico::Básico::09 Cidade e serviços
+il teatro,teatro,lexico idioma::italiano tema::cidade_e_servicos nivel::basico,idioms::italian::Léxico::Básico::09 Cidade e serviços
+la chiesa,igreja,lexico idioma::italiano tema::cidade_e_servicos nivel::basico,idioms::italian::Léxico::Básico::09 Cidade e serviços
+il parco,parque,lexico idioma::italiano tema::cidade_e_servicos nivel::basico,idioms::italian::Léxico::Básico::09 Cidade e serviços
+il ristorante,restaurante,lexico idioma::italiano tema::cidade_e_servicos nivel::basico,idioms::italian::Léxico::Básico::09 Cidade e serviços
+il panificio,padaria,lexico idioma::italiano tema::cidade_e_servicos nivel::basico,idioms::italian::Léxico::Básico::09 Cidade e serviços
+il municipio,prefeitura (sede),lexico idioma::italiano tema::cidade_e_servicos nivel::basico,idioms::italian::Léxico::Básico::09 Cidade e serviços
+l'angolo,esquina,lexico idioma::italiano tema::cidade_e_servicos nivel::basico,idioms::italian::Léxico::Básico::09 Cidade e serviços
+l'auto,carro,lexico idioma::italiano tema::transporte_e_viagens nivel::basico,idioms::italian::Léxico::Básico::10 Transporte e viagens
+l'autobus,ônibus,lexico idioma::italiano tema::transporte_e_viagens nivel::basico,idioms::italian::Léxico::Básico::10 Transporte e viagens
+il treno,trem,lexico idioma::italiano tema::transporte_e_viagens nivel::basico,idioms::italian::Léxico::Básico::10 Transporte e viagens
+la metropolitana,metrô,lexico idioma::italiano tema::transporte_e_viagens nivel::basico,idioms::italian::Léxico::Básico::10 Transporte e viagens
+la bicicletta,bicicleta,lexico idioma::italiano tema::transporte_e_viagens nivel::basico,idioms::italian::Léxico::Básico::10 Transporte e viagens
+la motocicletta,moto,lexico idioma::italiano tema::transporte_e_viagens nivel::basico,idioms::italian::Léxico::Básico::10 Transporte e viagens
+il camion,caminhão,lexico idioma::italiano tema::transporte_e_viagens nivel::basico,idioms::italian::Léxico::Básico::10 Transporte e viagens
+l'aereo,avião,lexico idioma::italiano tema::transporte_e_viagens nivel::basico,idioms::italian::Léxico::Básico::10 Transporte e viagens
+la barca,barco,lexico idioma::italiano tema::transporte_e_viagens nivel::basico,idioms::italian::Léxico::Básico::10 Transporte e viagens
+la nave,navio,lexico idioma::italiano tema::transporte_e_viagens nivel::basico,idioms::italian::Léxico::Básico::10 Transporte e viagens
+l'aeroporto,aeroporto,lexico idioma::italiano tema::transporte_e_viagens nivel::basico,idioms::italian::Léxico::Básico::10 Transporte e viagens
+la stazione,estação,lexico idioma::italiano tema::transporte_e_viagens nivel::basico,idioms::italian::Léxico::Básico::10 Transporte e viagens
+il biglietto,passagem (bilhete),lexico idioma::italiano tema::transporte_e_viagens nivel::basico,idioms::italian::Léxico::Básico::10 Transporte e viagens
+il passaporto,passaporte,lexico idioma::italiano tema::transporte_e_viagens nivel::basico,idioms::italian::Léxico::Básico::10 Transporte e viagens
+la valigia,mala,lexico idioma::italiano tema::transporte_e_viagens nivel::basico,idioms::italian::Léxico::Básico::10 Transporte e viagens
+il bagaglio,bagagem,lexico idioma::italiano tema::transporte_e_viagens nivel::basico,idioms::italian::Léxico::Básico::10 Transporte e viagens
+l'albergo,hotel,lexico idioma::italiano tema::transporte_e_viagens nivel::basico,idioms::italian::Léxico::Básico::10 Transporte e viagens
+la prenotazione,reserva (agendamento),lexico idioma::italiano tema::transporte_e_viagens nivel::basico,idioms::italian::Léxico::Básico::10 Transporte e viagens
+il viaggio,viagem,lexico idioma::italiano tema::transporte_e_viagens nivel::basico,idioms::italian::Léxico::Básico::10 Transporte e viagens
+la mappa,mapa,lexico idioma::italiano tema::transporte_e_viagens nivel::basico,idioms::italian::Léxico::Básico::10 Transporte e viagens
+il confine,fronteira,lexico idioma::italiano tema::transporte_e_viagens nivel::basico,idioms::italian::Léxico::Básico::10 Transporte e viagens
+la destinazione,destino,lexico idioma::italiano tema::transporte_e_viagens nivel::basico,idioms::italian::Léxico::Básico::10 Transporte e viagens
+il traffico,trânsito,lexico idioma::italiano tema::transporte_e_viagens nivel::basico,idioms::italian::Léxico::Básico::10 Transporte e viagens
+l'autista,motorista,lexico idioma::italiano tema::transporte_e_viagens nivel::basico,idioms::italian::Léxico::Básico::10 Transporte e viagens
+il passeggero,passageiro,lexico idioma::italiano tema::transporte_e_viagens nivel::basico,idioms::italian::Léxico::Básico::10 Transporte e viagens
+il sole,sol,lexico idioma::italiano tema::natureza_e_clima nivel::basico,idioms::italian::Léxico::Básico::11 Natureza e clima
+la luna,lua,lexico idioma::italiano tema::natureza_e_clima nivel::basico,idioms::italian::Léxico::Básico::11 Natureza e clima
+la stella,estrela,lexico idioma::italiano tema::natureza_e_clima nivel::basico,idioms::italian::Léxico::Básico::11 Natureza e clima
+il cielo,céu,lexico idioma::italiano tema::natureza_e_clima nivel::basico,idioms::italian::Léxico::Básico::11 Natureza e clima
+la nuvola,nuvem,lexico idioma::italiano tema::natureza_e_clima nivel::basico,idioms::italian::Léxico::Básico::11 Natureza e clima
+la pioggia,chuva,lexico idioma::italiano tema::natureza_e_clima nivel::basico,idioms::italian::Léxico::Básico::11 Natureza e clima
+la neve,neve,lexico idioma::italiano tema::natureza_e_clima nivel::basico,idioms::italian::Léxico::Básico::11 Natureza e clima
+il vento,vento,lexico idioma::italiano tema::natureza_e_clima nivel::basico,idioms::italian::Léxico::Básico::11 Natureza e clima
+la tempesta,tempestade,lexico idioma::italiano tema::natureza_e_clima nivel::basico,idioms::italian::Léxico::Básico::11 Natureza e clima
+la nebbia,neblina,lexico idioma::italiano tema::natureza_e_clima nivel::basico,idioms::italian::Léxico::Básico::11 Natureza e clima
+il clima,clima,lexico idioma::italiano tema::natureza_e_clima nivel::basico,idioms::italian::Léxico::Básico::11 Natureza e clima
+la temperatura,temperatura,lexico idioma::italiano tema::natureza_e_clima nivel::basico,idioms::italian::Léxico::Básico::11 Natureza e clima
+il mare,mar,lexico idioma::italiano tema::natureza_e_clima nivel::basico,idioms::italian::Léxico::Básico::11 Natureza e clima
+l'oceano,oceano,lexico idioma::italiano tema::natureza_e_clima nivel::basico,idioms::italian::Léxico::Básico::11 Natureza e clima
+il fiume,rio,lexico idioma::italiano tema::natureza_e_clima nivel::basico,idioms::italian::Léxico::Básico::11 Natureza e clima
+il lago,lago,lexico idioma::italiano tema::natureza_e_clima nivel::basico,idioms::italian::Léxico::Básico::11 Natureza e clima
+la montagna,montanha,lexico idioma::italiano tema::natureza_e_clima nivel::basico,idioms::italian::Léxico::Básico::11 Natureza e clima
+la foresta,floresta,lexico idioma::italiano tema::natureza_e_clima nivel::basico,idioms::italian::Léxico::Básico::11 Natureza e clima
+l'albero,árvore,lexico idioma::italiano tema::natureza_e_clima nivel::basico,idioms::italian::Léxico::Básico::11 Natureza e clima
+il fiore,flor,lexico idioma::italiano tema::natureza_e_clima nivel::basico,idioms::italian::Léxico::Básico::11 Natureza e clima
+la foglia,folha (planta),lexico idioma::italiano tema::natureza_e_clima nivel::basico,idioms::italian::Léxico::Básico::11 Natureza e clima
+la radice,raiz,lexico idioma::italiano tema::natureza_e_clima nivel::basico,idioms::italian::Léxico::Básico::11 Natureza e clima
+la sabbia,areia,lexico idioma::italiano tema::natureza_e_clima nivel::basico,idioms::italian::Léxico::Básico::11 Natureza e clima
+la pietra,pedra,lexico idioma::italiano tema::natureza_e_clima nivel::basico,idioms::italian::Léxico::Básico::11 Natureza e clima
+l'isola,ilha,lexico idioma::italiano tema::natureza_e_clima nivel::basico,idioms::italian::Léxico::Básico::11 Natureza e clima
+il cane,cachorro,lexico idioma::italiano tema::animais nivel::basico,idioms::italian::Léxico::Básico::12 Animais
+il gatto,gato,lexico idioma::italiano tema::animais nivel::basico,idioms::italian::Léxico::Básico::12 Animais
+il cavallo,cavalo,lexico idioma::italiano tema::animais nivel::basico,idioms::italian::Léxico::Básico::12 Animais
+la mucca,vaca,lexico idioma::italiano tema::animais nivel::basico,idioms::italian::Léxico::Básico::12 Animais
+il maiale,porco,lexico idioma::italiano tema::animais nivel::basico,idioms::italian::Léxico::Básico::12 Animais
+la pecora,ovelha,lexico idioma::italiano tema::animais nivel::basico,idioms::italian::Léxico::Básico::12 Animais
+la capra,cabra,lexico idioma::italiano tema::animais nivel::basico,idioms::italian::Léxico::Básico::12 Animais
+il coniglio,coelho,lexico idioma::italiano tema::animais nivel::basico,idioms::italian::Léxico::Básico::12 Animais
+il topo,camundongo,lexico idioma::italiano tema::animais nivel::basico,idioms::italian::Léxico::Básico::12 Animais
+l'orso,urso,lexico idioma::italiano tema::animais nivel::basico,idioms::italian::Léxico::Básico::12 Animais
+il lupo,lobo,lexico idioma::italiano tema::animais nivel::basico,idioms::italian::Léxico::Básico::12 Animais
+la volpe,raposa,lexico idioma::italiano tema::animais nivel::basico,idioms::italian::Léxico::Básico::12 Animais
+il leone,leão,lexico idioma::italiano tema::animais nivel::basico,idioms::italian::Léxico::Básico::12 Animais
+la tigre,tigre,lexico idioma::italiano tema::animais nivel::basico,idioms::italian::Léxico::Básico::12 Animais
+l'elefante,elefante,lexico idioma::italiano tema::animais nivel::basico,idioms::italian::Léxico::Básico::12 Animais
+la giraffa,girafa,lexico idioma::italiano tema::animais nivel::basico,idioms::italian::Léxico::Básico::12 Animais
+la scimmia,macaco,lexico idioma::italiano tema::animais nivel::basico,idioms::italian::Léxico::Básico::12 Animais
+l'uccello,pássaro,lexico idioma::italiano tema::animais nivel::basico,idioms::italian::Léxico::Básico::12 Animais
+l'anatra,pato,lexico idioma::italiano tema::animais nivel::basico,idioms::italian::Léxico::Básico::12 Animais
+la gallina,galinha,lexico idioma::italiano tema::animais nivel::basico,idioms::italian::Léxico::Básico::12 Animais
+l'aquila,águia,lexico idioma::italiano tema::animais nivel::basico,idioms::italian::Léxico::Básico::12 Animais
+il serpente,cobra,lexico idioma::italiano tema::animais nivel::basico,idioms::italian::Léxico::Básico::12 Animais
+la tartaruga,tartaruga,lexico idioma::italiano tema::animais nivel::basico,idioms::italian::Léxico::Básico::12 Animais
+il rospo,sapo,lexico idioma::italiano tema::animais nivel::basico,idioms::italian::Léxico::Básico::12 Animais
+la farfalla,borboleta,lexico idioma::italiano tema::animais nivel::basico,idioms::italian::Léxico::Básico::12 Animais
+il tempo,tempo (duração),lexico idioma::italiano tema::tempo_e_calendario nivel::basico,idioms::italian::Léxico::Básico::13 Tempo e calendário
+il giorno,dia,lexico idioma::italiano tema::tempo_e_calendario nivel::basico,idioms::italian::Léxico::Básico::13 Tempo e calendário
+la settimana,semana,lexico idioma::italiano tema::tempo_e_calendario nivel::basico,idioms::italian::Léxico::Básico::13 Tempo e calendário
+il mese,mês,lexico idioma::italiano tema::tempo_e_calendario nivel::basico,idioms::italian::Léxico::Básico::13 Tempo e calendário
+l'anno,ano,lexico idioma::italiano tema::tempo_e_calendario nivel::basico,idioms::italian::Léxico::Básico::13 Tempo e calendário
+l'ora,hora,lexico idioma::italiano tema::tempo_e_calendario nivel::basico,idioms::italian::Léxico::Básico::13 Tempo e calendário
+il minuto,minuto,lexico idioma::italiano tema::tempo_e_calendario nivel::basico,idioms::italian::Léxico::Básico::13 Tempo e calendário
+il secondo,segundo (unidade),lexico idioma::italiano tema::tempo_e_calendario nivel::basico,idioms::italian::Léxico::Básico::13 Tempo e calendário
+presto,cedo,lexico idioma::italiano tema::tempo_e_calendario nivel::basico,idioms::italian::Léxico::Básico::13 Tempo e calendário
+tardi,tarde (atrasado),lexico idioma::italiano tema::tempo_e_calendario nivel::basico,idioms::italian::Léxico::Básico::13 Tempo e calendário
+sempre,sempre,lexico idioma::italiano tema::tempo_e_calendario nivel::basico,idioms::italian::Léxico::Básico::13 Tempo e calendário
+mai,nunca,lexico idioma::italiano tema::tempo_e_calendario nivel::basico,idioms::italian::Léxico::Básico::13 Tempo e calendário
+dopo,depois,lexico idioma::italiano tema::tempo_e_calendario nivel::basico,idioms::italian::Léxico::Básico::13 Tempo e calendário
+prima,antes,lexico idioma::italiano tema::tempo_e_calendario nivel::basico,idioms::italian::Léxico::Básico::13 Tempo e calendário
+l'estate,verão,lexico idioma::italiano tema::tempo_e_calendario nivel::basico,idioms::italian::Léxico::Básico::13 Tempo e calendário
+l'inverno,inverno,lexico idioma::italiano tema::tempo_e_calendario nivel::basico,idioms::italian::Léxico::Básico::13 Tempo e calendário
+la primavera,primavera,lexico idioma::italiano tema::tempo_e_calendario nivel::basico,idioms::italian::Léxico::Básico::13 Tempo e calendário
+l'autunno,outono,lexico idioma::italiano tema::tempo_e_calendario nivel::basico,idioms::italian::Léxico::Básico::13 Tempo e calendário
+il lavoro,trabalho (atividade),lexico idioma::italiano tema::trabalho_e_profissoes nivel::intermediario,idioms::italian::Léxico::Intermediário::14 Trabalho e profissões
+l'impiego,emprego,lexico idioma::italiano tema::trabalho_e_profissoes nivel::intermediario,idioms::italian::Léxico::Intermediário::14 Trabalho e profissões
+l'azienda,empresa,lexico idioma::italiano tema::trabalho_e_profissoes nivel::intermediario,idioms::italian::Léxico::Intermediário::14 Trabalho e profissões
+l'ufficio,escritório,lexico idioma::italiano tema::trabalho_e_profissoes nivel::intermediario,idioms::italian::Léxico::Intermediário::14 Trabalho e profissões
+il collega,colega de trabalho,lexico idioma::italiano tema::trabalho_e_profissoes nivel::intermediario,idioms::italian::Léxico::Intermediário::14 Trabalho e profissões
+il capo,chefe,lexico idioma::italiano tema::trabalho_e_profissoes nivel::intermediario,idioms::italian::Léxico::Intermediário::14 Trabalho e profissões
+il dipendente,funcionário,lexico idioma::italiano tema::trabalho_e_profissoes nivel::intermediario,idioms::italian::Léxico::Intermediário::14 Trabalho e profissões
+il cliente,cliente,lexico idioma::italiano tema::trabalho_e_profissoes nivel::intermediario,idioms::italian::Léxico::Intermediário::14 Trabalho e profissões
+lo stipendio,salário,lexico idioma::italiano tema::trabalho_e_profissoes nivel::intermediario,idioms::italian::Léxico::Intermediário::14 Trabalho e profissões
+la riunione,reunião,lexico idioma::italiano tema::trabalho_e_profissoes nivel::intermediario,idioms::italian::Léxico::Intermediário::14 Trabalho e profissões
+il contratto,contrato,lexico idioma::italiano tema::trabalho_e_profissoes nivel::intermediario,idioms::italian::Léxico::Intermediário::14 Trabalho e profissões
+il progetto,projeto,lexico idioma::italiano tema::trabalho_e_profissoes nivel::intermediario,idioms::italian::Léxico::Intermediário::14 Trabalho e profissões
+il compito,tarefa,lexico idioma::italiano tema::trabalho_e_profissoes nivel::intermediario,idioms::italian::Léxico::Intermediário::14 Trabalho e profissões
+la scadenza,prazo final,lexico idioma::italiano tema::trabalho_e_profissoes nivel::intermediario,idioms::italian::Léxico::Intermediário::14 Trabalho e profissões
+la carriera,carreira,lexico idioma::italiano tema::trabalho_e_profissoes nivel::intermediario,idioms::italian::Léxico::Intermediário::14 Trabalho e profissões
+il medico,médico,lexico idioma::italiano tema::trabalho_e_profissoes nivel::intermediario,idioms::italian::Léxico::Intermediário::14 Trabalho e profissões
+l'infermiere,enfermeiro,lexico idioma::italiano tema::trabalho_e_profissoes nivel::intermediario,idioms::italian::Léxico::Intermediário::14 Trabalho e profissões
+l'insegnante,professor,lexico idioma::italiano tema::trabalho_e_profissoes nivel::intermediario,idioms::italian::Léxico::Intermediário::14 Trabalho e profissões
+l'ingegnere,engenheiro,lexico idioma::italiano tema::trabalho_e_profissoes nivel::intermediario,idioms::italian::Léxico::Intermediário::14 Trabalho e profissões
+l'avvocato,advogado,lexico idioma::italiano tema::trabalho_e_profissoes nivel::intermediario,idioms::italian::Léxico::Intermediário::14 Trabalho e profissões
+il cuoco,cozinheiro,lexico idioma::italiano tema::trabalho_e_profissoes nivel::intermediario,idioms::italian::Léxico::Intermediário::14 Trabalho e profissões
+il cameriere,garçom,lexico idioma::italiano tema::trabalho_e_profissoes nivel::intermediario,idioms::italian::Léxico::Intermediário::14 Trabalho e profissões
+l'agricoltore,agricultor,lexico idioma::italiano tema::trabalho_e_profissoes nivel::intermediario,idioms::italian::Léxico::Intermediário::14 Trabalho e profissões
+l'architetto,arquiteto,lexico idioma::italiano tema::trabalho_e_profissoes nivel::intermediario,idioms::italian::Léxico::Intermediário::14 Trabalho e profissões
+il poliziotto,policial,lexico idioma::italiano tema::trabalho_e_profissoes nivel::intermediario,idioms::italian::Léxico::Intermediário::14 Trabalho e profissões
+il libro,livro,lexico idioma::italiano tema::estudo_e_aprendizagem nivel::intermediario,idioms::italian::Léxico::Intermediário::15 Estudo e aprendizagem
+il quaderno,caderno,lexico idioma::italiano tema::estudo_e_aprendizagem nivel::intermediario,idioms::italian::Léxico::Intermediário::15 Estudo e aprendizagem
+la penna,caneta,lexico idioma::italiano tema::estudo_e_aprendizagem nivel::intermediario,idioms::italian::Léxico::Intermediário::15 Estudo e aprendizagem
+la matita,lápis,lexico idioma::italiano tema::estudo_e_aprendizagem nivel::intermediario,idioms::italian::Léxico::Intermediário::15 Estudo e aprendizagem
+la gomma,borracha de apagar,lexico idioma::italiano tema::estudo_e_aprendizagem nivel::intermediario,idioms::italian::Léxico::Intermediário::15 Estudo e aprendizagem
+la carta,papel,lexico idioma::italiano tema::estudo_e_aprendizagem nivel::intermediario,idioms::italian::Léxico::Intermediário::15 Estudo e aprendizagem
+la pagina,página,lexico idioma::italiano tema::estudo_e_aprendizagem nivel::intermediario,idioms::italian::Léxico::Intermediário::15 Estudo e aprendizagem
+la parola,palavra,lexico idioma::italiano tema::estudo_e_aprendizagem nivel::intermediario,idioms::italian::Léxico::Intermediário::15 Estudo e aprendizagem
+la frase,frase,lexico idioma::italiano tema::estudo_e_aprendizagem nivel::intermediario,idioms::italian::Léxico::Intermediário::15 Estudo e aprendizagem
+la domanda,pergunta,lexico idioma::italiano tema::estudo_e_aprendizagem nivel::intermediario,idioms::italian::Léxico::Intermediário::15 Estudo e aprendizagem
+la risposta,resposta,lexico idioma::italiano tema::estudo_e_aprendizagem nivel::intermediario,idioms::italian::Léxico::Intermediário::15 Estudo e aprendizagem
+la lezione,lição,lexico idioma::italiano tema::estudo_e_aprendizagem nivel::intermediario,idioms::italian::Léxico::Intermediário::15 Estudo e aprendizagem
+il corso,curso,lexico idioma::italiano tema::estudo_e_aprendizagem nivel::intermediario,idioms::italian::Léxico::Intermediário::15 Estudo e aprendizagem
+l'esame,exame,lexico idioma::italiano tema::estudo_e_aprendizagem nivel::intermediario,idioms::italian::Léxico::Intermediário::15 Estudo e aprendizagem
+il voto,nota (avaliação),lexico idioma::italiano tema::estudo_e_aprendizagem nivel::intermediario,idioms::italian::Léxico::Intermediário::15 Estudo e aprendizagem
+lo studente,aluno,lexico idioma::italiano tema::estudo_e_aprendizagem nivel::intermediario,idioms::italian::Léxico::Intermediário::15 Estudo e aprendizagem
+la conoscenza,conhecimento,lexico idioma::italiano tema::estudo_e_aprendizagem nivel::intermediario,idioms::italian::Léxico::Intermediário::15 Estudo e aprendizagem
+la memoria,memória (capacidade),lexico idioma::italiano tema::estudo_e_aprendizagem nivel::intermediario,idioms::italian::Léxico::Intermediário::15 Estudo e aprendizagem
+l'esercizio,exercício,lexico idioma::italiano tema::estudo_e_aprendizagem nivel::intermediario,idioms::italian::Léxico::Intermediário::15 Estudo e aprendizagem
+la ricerca,pesquisa,lexico idioma::italiano tema::estudo_e_aprendizagem nivel::intermediario,idioms::italian::Léxico::Intermediário::15 Estudo e aprendizagem
+la scienza,ciência,lexico idioma::italiano tema::estudo_e_aprendizagem nivel::intermediario,idioms::italian::Léxico::Intermediário::15 Estudo e aprendizagem
+la storia,história (disciplina),lexico idioma::italiano tema::estudo_e_aprendizagem nivel::intermediario,idioms::italian::Léxico::Intermediário::15 Estudo e aprendizagem
+la matematica,matemática,lexico idioma::italiano tema::estudo_e_aprendizagem nivel::intermediario,idioms::italian::Léxico::Intermediário::15 Estudo e aprendizagem
+la grammatica,gramática,lexico idioma::italiano tema::estudo_e_aprendizagem nivel::intermediario,idioms::italian::Léxico::Intermediário::15 Estudo e aprendizagem
+il dizionario,dicionário,lexico idioma::italiano tema::estudo_e_aprendizagem nivel::intermediario,idioms::italian::Léxico::Intermediário::15 Estudo e aprendizagem
+il computer,computador,lexico idioma::italiano tema::tecnologia_e_comunicacao nivel::intermediario,idioms::italian::Léxico::Intermediário::16 Tecnologia e comunicação
+la tastiera,teclado,lexico idioma::italiano tema::tecnologia_e_comunicacao nivel::intermediario,idioms::italian::Léxico::Intermediário::16 Tecnologia e comunicação
+lo schermo,tela,lexico idioma::italiano tema::tecnologia_e_comunicacao nivel::intermediario,idioms::italian::Léxico::Intermediário::16 Tecnologia e comunicação
+il cellulare,celular,lexico idioma::italiano tema::tecnologia_e_comunicacao nivel::intermediario,idioms::italian::Léxico::Intermediário::16 Tecnologia e comunicação
+il telefono,telefone,lexico idioma::italiano tema::tecnologia_e_comunicacao nivel::intermediario,idioms::italian::Léxico::Intermediário::16 Tecnologia e comunicação
+il messaggio,mensagem,lexico idioma::italiano tema::tecnologia_e_comunicacao nivel::intermediario,idioms::italian::Léxico::Intermediário::16 Tecnologia e comunicação
+il file,arquivo digital,lexico idioma::italiano tema::tecnologia_e_comunicacao nivel::intermediario,idioms::italian::Léxico::Intermediário::16 Tecnologia e comunicação
+la cartella,pasta digital,lexico idioma::italiano tema::tecnologia_e_comunicacao nivel::intermediario,idioms::italian::Léxico::Intermediário::16 Tecnologia e comunicação
+la password,senha,lexico idioma::italiano tema::tecnologia_e_comunicacao nivel::intermediario,idioms::italian::Léxico::Intermediário::16 Tecnologia e comunicação
+la rete,rede,lexico idioma::italiano tema::tecnologia_e_comunicacao nivel::intermediario,idioms::italian::Léxico::Intermediário::16 Tecnologia e comunicação
+la connessione,conexão,lexico idioma::italiano tema::tecnologia_e_comunicacao nivel::intermediario,idioms::italian::Léxico::Intermediário::16 Tecnologia e comunicação
+l'applicazione,aplicativo,lexico idioma::italiano tema::tecnologia_e_comunicacao nivel::intermediario,idioms::italian::Léxico::Intermediário::16 Tecnologia e comunicação
+il software,software (programas de computador),lexico idioma::italiano tema::tecnologia_e_comunicacao nivel::intermediario,idioms::italian::Léxico::Intermediário::16 Tecnologia e comunicação
+la stampante,impressora,lexico idioma::italiano tema::tecnologia_e_comunicacao nivel::intermediario,idioms::italian::Léxico::Intermediário::16 Tecnologia e comunicação
+il caricabatterie,carregador,lexico idioma::italiano tema::tecnologia_e_comunicacao nivel::intermediario,idioms::italian::Léxico::Intermediário::16 Tecnologia e comunicação
+la batteria,bateria,lexico idioma::italiano tema::tecnologia_e_comunicacao nivel::intermediario,idioms::italian::Léxico::Intermediário::16 Tecnologia e comunicação
+il video,vídeo,lexico idioma::italiano tema::tecnologia_e_comunicacao nivel::intermediario,idioms::italian::Léxico::Intermediário::16 Tecnologia e comunicação
+la fotografia,fotografia,lexico idioma::italiano tema::tecnologia_e_comunicacao nivel::intermediario,idioms::italian::Léxico::Intermediário::16 Tecnologia e comunicação
+la fotocamera,câmera,lexico idioma::italiano tema::tecnologia_e_comunicacao nivel::intermediario,idioms::italian::Léxico::Intermediário::16 Tecnologia e comunicação
+la notizia,notícia,lexico idioma::italiano tema::tecnologia_e_comunicacao nivel::intermediario,idioms::italian::Léxico::Intermediário::16 Tecnologia e comunicação
+il giornale,jornal,lexico idioma::italiano tema::tecnologia_e_comunicacao nivel::intermediario,idioms::italian::Léxico::Intermediário::16 Tecnologia e comunicação
+la rivista,revista,lexico idioma::italiano tema::tecnologia_e_comunicacao nivel::intermediario,idioms::italian::Léxico::Intermediário::16 Tecnologia e comunicação
+la pubblicità,anúncio publicitário,lexico idioma::italiano tema::tecnologia_e_comunicacao nivel::intermediario,idioms::italian::Léxico::Intermediário::16 Tecnologia e comunicação
+l'intervista,entrevista,lexico idioma::italiano tema::tecnologia_e_comunicacao nivel::intermediario,idioms::italian::Léxico::Intermediário::16 Tecnologia e comunicação
+la conversazione,conversa,lexico idioma::italiano tema::tecnologia_e_comunicacao nivel::intermediario,idioms::italian::Léxico::Intermediário::16 Tecnologia e comunicação
+il denaro,dinheiro,lexico idioma::italiano tema::dinheiro_e_compras nivel::intermediario,idioms::italian::Léxico::Intermediário::17 Dinheiro e compras
+la moneta,moeda,lexico idioma::italiano tema::dinheiro_e_compras nivel::intermediario,idioms::italian::Léxico::Intermediário::17 Dinheiro e compras
+la banconota,cédula,lexico idioma::italiano tema::dinheiro_e_compras nivel::intermediario,idioms::italian::Léxico::Intermediário::17 Dinheiro e compras
+il prezzo,preço,lexico idioma::italiano tema::dinheiro_e_compras nivel::intermediario,idioms::italian::Léxico::Intermediário::17 Dinheiro e compras
+il costo,custo,lexico idioma::italiano tema::dinheiro_e_compras nivel::intermediario,idioms::italian::Léxico::Intermediário::17 Dinheiro e compras
+lo sconto,desconto,lexico idioma::italiano tema::dinheiro_e_compras nivel::intermediario,idioms::italian::Léxico::Intermediário::17 Dinheiro e compras
+il pagamento,pagamento,lexico idioma::italiano tema::dinheiro_e_compras nivel::intermediario,idioms::italian::Léxico::Intermediário::17 Dinheiro e compras
+il resto,troco,lexico idioma::italiano tema::dinheiro_e_compras nivel::intermediario,idioms::italian::Léxico::Intermediário::17 Dinheiro e compras
+la ricevuta,recibo,lexico idioma::italiano tema::dinheiro_e_compras nivel::intermediario,idioms::italian::Léxico::Intermediário::17 Dinheiro e compras
+la fattura,fatura,lexico idioma::italiano tema::dinheiro_e_compras nivel::intermediario,idioms::italian::Léxico::Intermediário::17 Dinheiro e compras
+il conto,conta (bancária),lexico idioma::italiano tema::dinheiro_e_compras nivel::intermediario,idioms::italian::Léxico::Intermediário::17 Dinheiro e compras
+la carta di pagamento,cartão (pagamento),lexico idioma::italiano tema::dinheiro_e_compras nivel::intermediario,idioms::italian::Léxico::Intermediário::17 Dinheiro e compras
+il debito,dívida,lexico idioma::italiano tema::dinheiro_e_compras nivel::intermediario,idioms::italian::Léxico::Intermediário::17 Dinheiro e compras
+il prestito,empréstimo,lexico idioma::italiano tema::dinheiro_e_compras nivel::intermediario,idioms::italian::Léxico::Intermediário::17 Dinheiro e compras
+il risparmio,poupança (economias),lexico idioma::italiano tema::dinheiro_e_compras nivel::intermediario,idioms::italian::Léxico::Intermediário::17 Dinheiro e compras
+il profitto,lucro,lexico idioma::italiano tema::dinheiro_e_compras nivel::intermediario,idioms::italian::Léxico::Intermediário::17 Dinheiro e compras
+la perdita,perda,lexico idioma::italiano tema::dinheiro_e_compras nivel::intermediario,idioms::italian::Léxico::Intermediário::17 Dinheiro e compras
+l'imposta,imposto,lexico idioma::italiano tema::dinheiro_e_compras nivel::intermediario,idioms::italian::Léxico::Intermediário::17 Dinheiro e compras
+il bilancio,orçamento,lexico idioma::italiano tema::dinheiro_e_compras nivel::intermediario,idioms::italian::Léxico::Intermediário::17 Dinheiro e compras
+l'acquisto,compra,lexico idioma::italiano tema::dinheiro_e_compras nivel::intermediario,idioms::italian::Léxico::Intermediário::17 Dinheiro e compras
+la vendita,venda,lexico idioma::italiano tema::dinheiro_e_compras nivel::intermediario,idioms::italian::Léxico::Intermediário::17 Dinheiro e compras
+il prodotto,produto,lexico idioma::italiano tema::dinheiro_e_compras nivel::intermediario,idioms::italian::Léxico::Intermediário::17 Dinheiro e compras
+la garanzia,garantia,lexico idioma::italiano tema::dinheiro_e_compras nivel::intermediario,idioms::italian::Léxico::Intermediário::17 Dinheiro e compras
+la qualità,qualidade,lexico idioma::italiano tema::dinheiro_e_compras nivel::intermediario,idioms::italian::Léxico::Intermediário::17 Dinheiro e compras
+il valore,valor (monetário),lexico idioma::italiano tema::dinheiro_e_compras nivel::intermediario,idioms::italian::Léxico::Intermediário::17 Dinheiro e compras
+essere,ser (identidade),lexico idioma::italiano tema::acoes_cotidianas nivel::basico,idioms::italian::Léxico::Básico::18 Ações cotidianas
+avere,ter,lexico idioma::italiano tema::acoes_cotidianas nivel::basico,idioms::italian::Léxico::Básico::18 Ações cotidianas
+fare,fazer (realizar),lexico idioma::italiano tema::acoes_cotidianas nivel::basico,idioms::italian::Léxico::Básico::18 Ações cotidianas
+andare,ir,lexico idioma::italiano tema::acoes_cotidianas nivel::basico,idioms::italian::Léxico::Básico::18 Ações cotidianas
+venire,vir,lexico idioma::italiano tema::acoes_cotidianas nivel::basico,idioms::italian::Léxico::Básico::18 Ações cotidianas
+mangiare,comer,lexico idioma::italiano tema::acoes_cotidianas nivel::basico,idioms::italian::Léxico::Básico::18 Ações cotidianas
+bere,beber,lexico idioma::italiano tema::acoes_cotidianas nivel::basico,idioms::italian::Léxico::Básico::18 Ações cotidianas
+dormire,dormir,lexico idioma::italiano tema::acoes_cotidianas nivel::basico,idioms::italian::Léxico::Básico::18 Ações cotidianas
+svegliarsi,acordar,lexico idioma::italiano tema::acoes_cotidianas nivel::basico,idioms::italian::Léxico::Básico::18 Ações cotidianas
+alzarsi,levantar-se,lexico idioma::italiano tema::acoes_cotidianas nivel::basico,idioms::italian::Léxico::Básico::18 Ações cotidianas
+lavare,lavar,lexico idioma::italiano tema::acoes_cotidianas nivel::basico,idioms::italian::Léxico::Básico::18 Ações cotidianas
+pulire,limpar,lexico idioma::italiano tema::acoes_cotidianas nivel::basico,idioms::italian::Léxico::Básico::18 Ações cotidianas
+cucinare,cozinhar,lexico idioma::italiano tema::acoes_cotidianas nivel::basico,idioms::italian::Léxico::Básico::18 Ações cotidianas
+comprare,comprar,lexico idioma::italiano tema::acoes_cotidianas nivel::basico,idioms::italian::Léxico::Básico::18 Ações cotidianas
+vendere,vender,lexico idioma::italiano tema::acoes_cotidianas nivel::basico,idioms::italian::Léxico::Básico::18 Ações cotidianas
+pagare,pagar,lexico idioma::italiano tema::acoes_cotidianas nivel::basico,idioms::italian::Léxico::Básico::18 Ações cotidianas
+lavorare,trabalhar,lexico idioma::italiano tema::acoes_cotidianas nivel::basico,idioms::italian::Léxico::Básico::18 Ações cotidianas
+studiare,estudar,lexico idioma::italiano tema::acoes_cotidianas nivel::basico,idioms::italian::Léxico::Básico::18 Ações cotidianas
+leggere,ler,lexico idioma::italiano tema::acoes_cotidianas nivel::basico,idioms::italian::Léxico::Básico::18 Ações cotidianas
+scrivere,escrever,lexico idioma::italiano tema::acoes_cotidianas nivel::basico,idioms::italian::Léxico::Básico::18 Ações cotidianas
+parlare,falar,lexico idioma::italiano tema::acoes_cotidianas nivel::basico,idioms::italian::Léxico::Básico::18 Ações cotidianas
+sentire,ouvir,lexico idioma::italiano tema::acoes_cotidianas nivel::basico,idioms::italian::Léxico::Básico::18 Ações cotidianas
+ascoltare,escutar com atenção,lexico idioma::italiano tema::acoes_cotidianas nivel::basico,idioms::italian::Léxico::Básico::18 Ações cotidianas
+vedere,ver,lexico idioma::italiano tema::acoes_cotidianas nivel::basico,idioms::italian::Léxico::Básico::18 Ações cotidianas
+guardare,olhar,lexico idioma::italiano tema::acoes_cotidianas nivel::basico,idioms::italian::Léxico::Básico::18 Ações cotidianas
+camminare,caminhar,lexico idioma::italiano tema::movimento_e_interacao nivel::intermediario,idioms::italian::Léxico::Intermediário::19 Movimento e interação
+correre,correr,lexico idioma::italiano tema::movimento_e_interacao nivel::intermediario,idioms::italian::Léxico::Intermediário::19 Movimento e interação
+nuotare,nadar,lexico idioma::italiano tema::movimento_e_interacao nivel::intermediario,idioms::italian::Léxico::Intermediário::19 Movimento e interação
+volare,voar,lexico idioma::italiano tema::movimento_e_interacao nivel::intermediario,idioms::italian::Léxico::Intermediário::19 Movimento e interação
+viaggiare,viajar,lexico idioma::italiano tema::movimento_e_interacao nivel::intermediario,idioms::italian::Léxico::Intermediário::19 Movimento e interação
+guidare,dirigir,lexico idioma::italiano tema::movimento_e_interacao nivel::intermediario,idioms::italian::Léxico::Intermediário::19 Movimento e interação
+entrare,entrar,lexico idioma::italiano tema::movimento_e_interacao nivel::intermediario,idioms::italian::Léxico::Intermediário::19 Movimento e interação
+uscire,sair,lexico idioma::italiano tema::movimento_e_interacao nivel::intermediario,idioms::italian::Léxico::Intermediário::19 Movimento e interação
+arrivare,chegar,lexico idioma::italiano tema::movimento_e_interacao nivel::intermediario,idioms::italian::Léxico::Intermediário::19 Movimento e interação
+tornare,voltar,lexico idioma::italiano tema::movimento_e_interacao nivel::intermediario,idioms::italian::Léxico::Intermediário::19 Movimento e interação
+salire,subir (escalar),lexico idioma::italiano tema::movimento_e_interacao nivel::intermediario,idioms::italian::Léxico::Intermediário::19 Movimento e interação
+scendere,descer (mover para baixo),lexico idioma::italiano tema::movimento_e_interacao nivel::intermediario,idioms::italian::Léxico::Intermediário::19 Movimento e interação
+aprire,abrir,lexico idioma::italiano tema::movimento_e_interacao nivel::intermediario,idioms::italian::Léxico::Intermediário::19 Movimento e interação
+chiudere,fechar,lexico idioma::italiano tema::movimento_e_interacao nivel::intermediario,idioms::italian::Léxico::Intermediário::19 Movimento e interação
+sedersi,sentar-se,lexico idioma::italiano tema::movimento_e_interacao nivel::intermediario,idioms::italian::Léxico::Intermediário::19 Movimento e interação
+aspettare,esperar (aguardar),lexico idioma::italiano tema::movimento_e_interacao nivel::intermediario,idioms::italian::Léxico::Intermediário::19 Movimento e interação
+aiutare,ajudar,lexico idioma::italiano tema::movimento_e_interacao nivel::intermediario,idioms::italian::Léxico::Intermediário::19 Movimento e interação
+chiedere,pedir (solicitar),lexico idioma::italiano tema::movimento_e_interacao nivel::intermediario,idioms::italian::Léxico::Intermediário::19 Movimento e interação
+rispondere,responder,lexico idioma::italiano tema::movimento_e_interacao nivel::intermediario,idioms::italian::Léxico::Intermediário::19 Movimento e interação
+dare,dar,lexico idioma::italiano tema::movimento_e_interacao nivel::intermediario,idioms::italian::Léxico::Intermediário::19 Movimento e interação
+ricevere,receber,lexico idioma::italiano tema::movimento_e_interacao nivel::intermediario,idioms::italian::Léxico::Intermediário::19 Movimento e interação
+portare,trazer,lexico idioma::italiano tema::movimento_e_interacao nivel::intermediario,idioms::italian::Léxico::Intermediário::19 Movimento e interação
+inviare,enviar,lexico idioma::italiano tema::movimento_e_interacao nivel::intermediario,idioms::italian::Léxico::Intermediário::19 Movimento e interação
+trovare,encontrar (achar),lexico idioma::italiano tema::movimento_e_interacao nivel::intermediario,idioms::italian::Léxico::Intermediário::19 Movimento e interação
+conoscere,conhecer (ter familiaridade),lexico idioma::italiano tema::movimento_e_interacao nivel::intermediario,idioms::italian::Léxico::Intermediário::19 Movimento e interação
+grande,grande,lexico idioma::italiano tema::qualidades_e_descricoes nivel::basico,idioms::italian::Léxico::Básico::20 Qualidades e descrições
+piccolo,pequeno,lexico idioma::italiano tema::qualidades_e_descricoes nivel::basico,idioms::italian::Léxico::Básico::20 Qualidades e descrições
+alto,alto (estatura),lexico idioma::italiano tema::qualidades_e_descricoes nivel::basico,idioms::italian::Léxico::Básico::20 Qualidades e descrições
+basso,baixo (estatura),lexico idioma::italiano tema::qualidades_e_descricoes nivel::basico,idioms::italian::Léxico::Básico::20 Qualidades e descrições
+lungo,comprido,lexico idioma::italiano tema::qualidades_e_descricoes nivel::basico,idioms::italian::Léxico::Básico::20 Qualidades e descrições
+breve,breve (duração ou extensão),lexico idioma::italiano tema::qualidades_e_descricoes nivel::basico,idioms::italian::Léxico::Básico::20 Qualidades e descrições
+nuovo,novo,lexico idioma::italiano tema::qualidades_e_descricoes nivel::basico,idioms::italian::Léxico::Básico::20 Qualidades e descrições
+vecchio,velho,lexico idioma::italiano tema::qualidades_e_descricoes nivel::basico,idioms::italian::Léxico::Básico::20 Qualidades e descrições
+giovane,jovem,lexico idioma::italiano tema::qualidades_e_descricoes nivel::basico,idioms::italian::Léxico::Básico::20 Qualidades e descrições
+buono,bom,lexico idioma::italiano tema::qualidades_e_descricoes nivel::basico,idioms::italian::Léxico::Básico::20 Qualidades e descrições
+cattivo,ruim,lexico idioma::italiano tema::qualidades_e_descricoes nivel::basico,idioms::italian::Léxico::Básico::20 Qualidades e descrições
+bello,bonito,lexico idioma::italiano tema::qualidades_e_descricoes nivel::basico,idioms::italian::Léxico::Básico::20 Qualidades e descrições
+brutto,feio,lexico idioma::italiano tema::qualidades_e_descricoes nivel::basico,idioms::italian::Léxico::Básico::20 Qualidades e descrições
+facile,fácil,lexico idioma::italiano tema::qualidades_e_descricoes nivel::basico,idioms::italian::Léxico::Básico::20 Qualidades e descrições
+difficile,difícil,lexico idioma::italiano tema::qualidades_e_descricoes nivel::basico,idioms::italian::Léxico::Básico::20 Qualidades e descrições
+veloce,rápido,lexico idioma::italiano tema::qualidades_e_descricoes nivel::basico,idioms::italian::Léxico::Básico::20 Qualidades e descrições
+lento,lento,lexico idioma::italiano tema::qualidades_e_descricoes nivel::basico,idioms::italian::Léxico::Básico::20 Qualidades e descrições
+caldo,quente,lexico idioma::italiano tema::qualidades_e_descricoes nivel::basico,idioms::italian::Léxico::Básico::20 Qualidades e descrições
+freddo,frio (temperatura),lexico idioma::italiano tema::qualidades_e_descricoes nivel::basico,idioms::italian::Léxico::Básico::20 Qualidades e descrições
+pieno,cheio,lexico idioma::italiano tema::qualidades_e_descricoes nivel::basico,idioms::italian::Léxico::Básico::20 Qualidades e descrições
+vuoto,vazio,lexico idioma::italiano tema::qualidades_e_descricoes nivel::basico,idioms::italian::Léxico::Básico::20 Qualidades e descrições
+forte,forte,lexico idioma::italiano tema::qualidades_e_descricoes nivel::basico,idioms::italian::Léxico::Básico::20 Qualidades e descrições
+debole,fraco,lexico idioma::italiano tema::qualidades_e_descricoes nivel::basico,idioms::italian::Léxico::Básico::20 Qualidades e descrições
+caro,caro,lexico idioma::italiano tema::qualidades_e_descricoes nivel::basico,idioms::italian::Léxico::Básico::20 Qualidades e descrições
+economico,barato,lexico idioma::italiano tema::qualidades_e_descricoes nivel::basico,idioms::italian::Léxico::Básico::20 Qualidades e descrições
+la gioia,alegria,lexico idioma::italiano tema::emocoes_e_sentimentos nivel::intermediario,idioms::italian::Léxico::Intermediário::21 Emoções e sentimentos
+la tristezza,tristeza,lexico idioma::italiano tema::emocoes_e_sentimentos nivel::intermediario,idioms::italian::Léxico::Intermediário::21 Emoções e sentimentos
+la paura,medo,lexico idioma::italiano tema::emocoes_e_sentimentos nivel::intermediario,idioms::italian::Léxico::Intermediário::21 Emoções e sentimentos
+la rabbia,raiva,lexico idioma::italiano tema::emocoes_e_sentimentos nivel::intermediario,idioms::italian::Léxico::Intermediário::21 Emoções e sentimentos
+la sorpresa,surpresa,lexico idioma::italiano tema::emocoes_e_sentimentos nivel::intermediario,idioms::italian::Léxico::Intermediário::21 Emoções e sentimentos
+la vergogna,vergonha,lexico idioma::italiano tema::emocoes_e_sentimentos nivel::intermediario,idioms::italian::Léxico::Intermediário::21 Emoções e sentimentos
+l'orgoglio,orgulho,lexico idioma::italiano tema::emocoes_e_sentimentos nivel::intermediario,idioms::italian::Léxico::Intermediário::21 Emoções e sentimentos
+la speranza,esperança,lexico idioma::italiano tema::emocoes_e_sentimentos nivel::intermediario,idioms::italian::Léxico::Intermediário::21 Emoções e sentimentos
+l'amore,amor,lexico idioma::italiano tema::emocoes_e_sentimentos nivel::intermediario,idioms::italian::Léxico::Intermediário::21 Emoções e sentimentos
+l'odio,ódio,lexico idioma::italiano tema::emocoes_e_sentimentos nivel::intermediario,idioms::italian::Léxico::Intermediário::21 Emoções e sentimentos
+l'ansia,ansiedade,lexico idioma::italiano tema::emocoes_e_sentimentos nivel::intermediario,idioms::italian::Léxico::Intermediário::21 Emoções e sentimentos
+la calma,calma,lexico idioma::italiano tema::emocoes_e_sentimentos nivel::intermediario,idioms::italian::Léxico::Intermediário::21 Emoções e sentimentos
+la fiducia,confiança,lexico idioma::italiano tema::emocoes_e_sentimentos nivel::intermediario,idioms::italian::Léxico::Intermediário::21 Emoções e sentimentos
+la preoccupazione,preocupação,lexico idioma::italiano tema::emocoes_e_sentimentos nivel::intermediario,idioms::italian::Léxico::Intermediário::21 Emoções e sentimentos
+l'entusiasmo,entusiasmo,lexico idioma::italiano tema::emocoes_e_sentimentos nivel::intermediario,idioms::italian::Léxico::Intermediário::21 Emoções e sentimentos
+la solitudine,solidão,lexico idioma::italiano tema::emocoes_e_sentimentos nivel::intermediario,idioms::italian::Léxico::Intermediário::21 Emoções e sentimentos
+la gelosia,ciúme,lexico idioma::italiano tema::emocoes_e_sentimentos nivel::intermediario,idioms::italian::Léxico::Intermediário::21 Emoções e sentimentos
+l'invidia,inveja,lexico idioma::italiano tema::emocoes_e_sentimentos nivel::intermediario,idioms::italian::Léxico::Intermediário::21 Emoções e sentimentos
+la gratitudine,gratidão,lexico idioma::italiano tema::emocoes_e_sentimentos nivel::intermediario,idioms::italian::Léxico::Intermediário::21 Emoções e sentimentos
+la colpa,culpa,lexico idioma::italiano tema::emocoes_e_sentimentos nivel::intermediario,idioms::italian::Léxico::Intermediário::21 Emoções e sentimentos
+il rispetto,respeito,lexico idioma::italiano tema::emocoes_e_sentimentos nivel::intermediario,idioms::italian::Léxico::Intermediário::21 Emoções e sentimentos
+la pazienza,paciência,lexico idioma::italiano tema::emocoes_e_sentimentos nivel::intermediario,idioms::italian::Léxico::Intermediário::21 Emoções e sentimentos
+il coraggio,coragem,lexico idioma::italiano tema::emocoes_e_sentimentos nivel::intermediario,idioms::italian::Léxico::Intermediário::21 Emoções e sentimentos
+il sollievo,alívio,lexico idioma::italiano tema::emocoes_e_sentimentos nivel::intermediario,idioms::italian::Léxico::Intermediário::21 Emoções e sentimentos
+la delusione,decepção,lexico idioma::italiano tema::emocoes_e_sentimentos nivel::intermediario,idioms::italian::Léxico::Intermediário::21 Emoções e sentimentos
+l'idea,ideia,lexico idioma::italiano tema::ideias_e_planejamento nivel::intermediario,idioms::italian::Léxico::Intermediário::22 Ideias e planejamento
+l'opinione,opinião,lexico idioma::italiano tema::ideias_e_planejamento nivel::intermediario,idioms::italian::Léxico::Intermediário::22 Ideias e planejamento
+la decisione,decisão,lexico idioma::italiano tema::ideias_e_planejamento nivel::intermediario,idioms::italian::Léxico::Intermediário::22 Ideias e planejamento
+la scelta,escolha,lexico idioma::italiano tema::ideias_e_planejamento nivel::intermediario,idioms::italian::Léxico::Intermediário::22 Ideias e planejamento
+l'obiettivo,objetivo,lexico idioma::italiano tema::ideias_e_planejamento nivel::intermediario,idioms::italian::Léxico::Intermediário::22 Ideias e planejamento
+il piano,plano,lexico idioma::italiano tema::ideias_e_planejamento nivel::intermediario,idioms::italian::Léxico::Intermediário::22 Ideias e planejamento
+la proposta,proposta,lexico idioma::italiano tema::ideias_e_planejamento nivel::intermediario,idioms::italian::Léxico::Intermediário::22 Ideias e planejamento
+la soluzione,solução,lexico idioma::italiano tema::ideias_e_planejamento nivel::intermediario,idioms::italian::Léxico::Intermediário::22 Ideias e planejamento
+il problema,problema,lexico idioma::italiano tema::ideias_e_planejamento nivel::intermediario,idioms::italian::Léxico::Intermediário::22 Ideias e planejamento
+il motivo,motivo,lexico idioma::italiano tema::ideias_e_planejamento nivel::intermediario,idioms::italian::Léxico::Intermediário::22 Ideias e planejamento
+la conseguenza,consequência,lexico idioma::italiano tema::ideias_e_planejamento nivel::intermediario,idioms::italian::Léxico::Intermediário::22 Ideias e planejamento
+la causa,causa,lexico idioma::italiano tema::ideias_e_planejamento nivel::intermediario,idioms::italian::Léxico::Intermediário::22 Ideias e planejamento
+il risultato,resultado,lexico idioma::italiano tema::ideias_e_planejamento nivel::intermediario,idioms::italian::Léxico::Intermediário::22 Ideias e planejamento
+il vantaggio,vantagem,lexico idioma::italiano tema::ideias_e_planejamento nivel::intermediario,idioms::italian::Léxico::Intermediário::22 Ideias e planejamento
+lo svantaggio,desvantagem,lexico idioma::italiano tema::ideias_e_planejamento nivel::intermediario,idioms::italian::Léxico::Intermediário::22 Ideias e planejamento
+il rischio,risco,lexico idioma::italiano tema::ideias_e_planejamento nivel::intermediario,idioms::italian::Léxico::Intermediário::22 Ideias e planejamento
+l'opportunità,oportunidade,lexico idioma::italiano tema::ideias_e_planejamento nivel::intermediario,idioms::italian::Léxico::Intermediário::22 Ideias e planejamento
+la possibilità,possibilidade,lexico idioma::italiano tema::ideias_e_planejamento nivel::intermediario,idioms::italian::Léxico::Intermediário::22 Ideias e planejamento
+la necessità,necessidade,lexico idioma::italiano tema::ideias_e_planejamento nivel::intermediario,idioms::italian::Léxico::Intermediário::22 Ideias e planejamento
+la priorità,prioridade,lexico idioma::italiano tema::ideias_e_planejamento nivel::intermediario,idioms::italian::Léxico::Intermediário::22 Ideias e planejamento
+la prova,evidência,lexico idioma::italiano tema::ideias_e_planejamento nivel::intermediario,idioms::italian::Léxico::Intermediário::22 Ideias e planejamento
+l'ipotesi,hipótese,lexico idioma::italiano tema::ideias_e_planejamento nivel::intermediario,idioms::italian::Léxico::Intermediário::22 Ideias e planejamento
+il dubbio,dúvida,lexico idioma::italiano tema::ideias_e_planejamento nivel::intermediario,idioms::italian::Léxico::Intermediário::22 Ideias e planejamento
+l'accordo,acordo,lexico idioma::italiano tema::ideias_e_planejamento nivel::intermediario,idioms::italian::Léxico::Intermediário::22 Ideias e planejamento
+l'impegno,compromisso (obrigação assumida),lexico idioma::italiano tema::ideias_e_planejamento nivel::intermediario,idioms::italian::Léxico::Intermediário::22 Ideias e planejamento
+rosso,vermelho,lexico idioma::italiano tema::cores_e_dimensoes nivel::basico,idioms::italian::Léxico::Básico::23 Cores e dimensões
+blu,azul,lexico idioma::italiano tema::cores_e_dimensoes nivel::basico,idioms::italian::Léxico::Básico::23 Cores e dimensões
+verde,verde,lexico idioma::italiano tema::cores_e_dimensoes nivel::basico,idioms::italian::Léxico::Básico::23 Cores e dimensões
+giallo,amarelo,lexico idioma::italiano tema::cores_e_dimensoes nivel::basico,idioms::italian::Léxico::Básico::23 Cores e dimensões
+nero,preto,lexico idioma::italiano tema::cores_e_dimensoes nivel::basico,idioms::italian::Léxico::Básico::23 Cores e dimensões
+bianco,branco,lexico idioma::italiano tema::cores_e_dimensoes nivel::basico,idioms::italian::Léxico::Básico::23 Cores e dimensões
+grigio,cinza,lexico idioma::italiano tema::cores_e_dimensoes nivel::basico,idioms::italian::Léxico::Básico::23 Cores e dimensões
+marrone,marrom,lexico idioma::italiano tema::cores_e_dimensoes nivel::basico,idioms::italian::Léxico::Básico::23 Cores e dimensões
+viola,roxo,lexico idioma::italiano tema::cores_e_dimensoes nivel::basico,idioms::italian::Léxico::Básico::23 Cores e dimensões
+rosa,cor-de-rosa,lexico idioma::italiano tema::cores_e_dimensoes nivel::basico,idioms::italian::Léxico::Básico::23 Cores e dimensões
+trasparente,transparente,lexico idioma::italiano tema::cores_e_dimensoes nivel::basico,idioms::italian::Léxico::Básico::23 Cores e dimensões
+chiaro,claro (tonalidade),lexico idioma::italiano tema::cores_e_dimensoes nivel::basico,idioms::italian::Léxico::Básico::23 Cores e dimensões
+scuro,escuro,lexico idioma::italiano tema::cores_e_dimensoes nivel::basico,idioms::italian::Léxico::Básico::23 Cores e dimensões
+largo,largo (largura),lexico idioma::italiano tema::cores_e_dimensoes nivel::basico,idioms::italian::Léxico::Básico::23 Cores e dimensões
+stretto,estreito,lexico idioma::italiano tema::cores_e_dimensoes nivel::basico,idioms::italian::Léxico::Básico::23 Cores e dimensões
+spesso,grosso,lexico idioma::italiano tema::cores_e_dimensoes nivel::basico,idioms::italian::Léxico::Básico::23 Cores e dimensões
+sottile,fino (espessura),lexico idioma::italiano tema::cores_e_dimensoes nivel::basico,idioms::italian::Léxico::Básico::23 Cores e dimensões
+pesante,pesado,lexico idioma::italiano tema::cores_e_dimensoes nivel::basico,idioms::italian::Léxico::Básico::23 Cores e dimensões
+leggero,leve (peso),lexico idioma::italiano tema::cores_e_dimensoes nivel::basico,idioms::italian::Léxico::Básico::23 Cores e dimensões
+rotondo,redondo,lexico idioma::italiano tema::cores_e_dimensoes nivel::basico,idioms::italian::Léxico::Básico::23 Cores e dimensões
+quadrato,quadrado,lexico idioma::italiano tema::cores_e_dimensoes nivel::basico,idioms::italian::Léxico::Básico::23 Cores e dimensões
+dritto,reto,lexico idioma::italiano tema::cores_e_dimensoes nivel::basico,idioms::italian::Léxico::Básico::23 Cores e dimensões
+curvo,curvo,lexico idioma::italiano tema::cores_e_dimensoes nivel::basico,idioms::italian::Léxico::Básico::23 Cores e dimensões
+profondo,profundo,lexico idioma::italiano tema::cores_e_dimensoes nivel::basico,idioms::italian::Léxico::Básico::23 Cores e dimensões
+poco profondo,raso,lexico idioma::italiano tema::cores_e_dimensoes nivel::basico,idioms::italian::Léxico::Básico::23 Cores e dimensões
+la musica,música,lexico idioma::italiano tema::cultura_e_lazer nivel::intermediario,idioms::italian::Léxico::Intermediário::24 Cultura e lazer
+la canzone,canção,lexico idioma::italiano tema::cultura_e_lazer nivel::intermediario,idioms::italian::Léxico::Intermediário::24 Cultura e lazer
+il film,filme,lexico idioma::italiano tema::cultura_e_lazer nivel::intermediario,idioms::italian::Léxico::Intermediário::24 Cultura e lazer
+la danza,dança,lexico idioma::italiano tema::cultura_e_lazer nivel::intermediario,idioms::italian::Léxico::Intermediário::24 Cultura e lazer
+l'arte,arte,lexico idioma::italiano tema::cultura_e_lazer nivel::intermediario,idioms::italian::Léxico::Intermediário::24 Cultura e lazer
+il dipinto,pintura (obra artística),lexico idioma::italiano tema::cultura_e_lazer nivel::intermediario,idioms::italian::Léxico::Intermediário::24 Cultura e lazer
+il disegno,desenho,lexico idioma::italiano tema::cultura_e_lazer nivel::intermediario,idioms::italian::Léxico::Intermediário::24 Cultura e lazer
+la scultura,escultura,lexico idioma::italiano tema::cultura_e_lazer nivel::intermediario,idioms::italian::Léxico::Intermediário::24 Cultura e lazer
+il romanzo,romance (gênero literário),lexico idioma::italiano tema::cultura_e_lazer nivel::intermediario,idioms::italian::Léxico::Intermediário::24 Cultura e lazer
+la poesia,poema,lexico idioma::italiano tema::cultura_e_lazer nivel::intermediario,idioms::italian::Léxico::Intermediário::24 Cultura e lazer
+l'autore,autor,lexico idioma::italiano tema::cultura_e_lazer nivel::intermediario,idioms::italian::Léxico::Intermediário::24 Cultura e lazer
+l'attore,ator,lexico idioma::italiano tema::cultura_e_lazer nivel::intermediario,idioms::italian::Léxico::Intermediário::24 Cultura e lazer
+l'attrice,atriz,lexico idioma::italiano tema::cultura_e_lazer nivel::intermediario,idioms::italian::Léxico::Intermediário::24 Cultura e lazer
+il cantante,cantor,lexico idioma::italiano tema::cultura_e_lazer nivel::intermediario,idioms::italian::Léxico::Intermediário::24 Cultura e lazer
+lo strumento,instrumento musical,lexico idioma::italiano tema::cultura_e_lazer nivel::intermediario,idioms::italian::Léxico::Intermediário::24 Cultura e lazer
+la chitarra,violão; guitarra,lexico idioma::italiano tema::cultura_e_lazer nivel::intermediario,idioms::italian::Léxico::Intermediário::24 Cultura e lazer
+il violino,violino,lexico idioma::italiano tema::cultura_e_lazer nivel::intermediario,idioms::italian::Léxico::Intermediário::24 Cultura e lazer
+il tamburo,tambor,lexico idioma::italiano tema::cultura_e_lazer nivel::intermediario,idioms::italian::Léxico::Intermediário::24 Cultura e lazer
+il concerto,concerto,lexico idioma::italiano tema::cultura_e_lazer nivel::intermediario,idioms::italian::Léxico::Intermediário::24 Cultura e lazer
+il festival,festival,lexico idioma::italiano tema::cultura_e_lazer nivel::intermediario,idioms::italian::Léxico::Intermediário::24 Cultura e lazer
+lo sport,esporte,lexico idioma::italiano tema::cultura_e_lazer nivel::intermediario,idioms::italian::Léxico::Intermediário::24 Cultura e lazer
+il gioco,jogo,lexico idioma::italiano tema::cultura_e_lazer nivel::intermediario,idioms::italian::Léxico::Intermediário::24 Cultura e lazer
+il calcio,futebol,lexico idioma::italiano tema::cultura_e_lazer nivel::intermediario,idioms::italian::Léxico::Intermediário::24 Cultura e lazer
+il nuoto,natação,lexico idioma::italiano tema::cultura_e_lazer nivel::intermediario,idioms::italian::Léxico::Intermediário::24 Cultura e lazer
+la passeggiata,caminhada (passeio),lexico idioma::italiano tema::cultura_e_lazer nivel::intermediario,idioms::italian::Léxico::Intermediário::24 Cultura e lazer

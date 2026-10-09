@@ -1,0 +1,605 @@
+#separator:Comma
+#html:false
+#tags column:3
+#deck column:4
+#columns:Frente,Verso,Tags,Deck
+person,pessoa,lexico idioma::ingles tema::pessoas_e_familia nivel::basico,idioms::english::Léxico::Básico::01 Pessoas e família
+man,homem,lexico idioma::ingles tema::pessoas_e_familia nivel::basico,idioms::english::Léxico::Básico::01 Pessoas e família
+woman,mulher,lexico idioma::ingles tema::pessoas_e_familia nivel::basico,idioms::english::Léxico::Básico::01 Pessoas e família
+child,criança,lexico idioma::ingles tema::pessoas_e_familia nivel::basico,idioms::english::Léxico::Básico::01 Pessoas e família
+baby,bebê,lexico idioma::ingles tema::pessoas_e_familia nivel::basico,idioms::english::Léxico::Básico::01 Pessoas e família
+teenager,adolescente,lexico idioma::ingles tema::pessoas_e_familia nivel::basico,idioms::english::Léxico::Básico::01 Pessoas e família
+adult,adulto,lexico idioma::ingles tema::pessoas_e_familia nivel::basico,idioms::english::Léxico::Básico::01 Pessoas e família
+family,família,lexico idioma::ingles tema::pessoas_e_familia nivel::basico,idioms::english::Léxico::Básico::01 Pessoas e família
+mother,mãe,lexico idioma::ingles tema::pessoas_e_familia nivel::basico,idioms::english::Léxico::Básico::01 Pessoas e família
+father,pai,lexico idioma::ingles tema::pessoas_e_familia nivel::basico,idioms::english::Léxico::Básico::01 Pessoas e família
+son,filho,lexico idioma::ingles tema::pessoas_e_familia nivel::basico,idioms::english::Léxico::Básico::01 Pessoas e família
+daughter,filha,lexico idioma::ingles tema::pessoas_e_familia nivel::basico,idioms::english::Léxico::Básico::01 Pessoas e família
+brother,irmão,lexico idioma::ingles tema::pessoas_e_familia nivel::basico,idioms::english::Léxico::Básico::01 Pessoas e família
+sister,irmã,lexico idioma::ingles tema::pessoas_e_familia nivel::basico,idioms::english::Léxico::Básico::01 Pessoas e família
+grandfather,avô,lexico idioma::ingles tema::pessoas_e_familia nivel::basico,idioms::english::Léxico::Básico::01 Pessoas e família
+grandmother,avó,lexico idioma::ingles tema::pessoas_e_familia nivel::basico,idioms::english::Léxico::Básico::01 Pessoas e família
+uncle,tio,lexico idioma::ingles tema::pessoas_e_familia nivel::basico,idioms::english::Léxico::Básico::01 Pessoas e família
+aunt,tia,lexico idioma::ingles tema::pessoas_e_familia nivel::basico,idioms::english::Léxico::Básico::01 Pessoas e família
+cousin,primo,lexico idioma::ingles tema::pessoas_e_familia nivel::basico,idioms::english::Léxico::Básico::01 Pessoas e família
+nephew,sobrinho,lexico idioma::ingles tema::pessoas_e_familia nivel::basico,idioms::english::Léxico::Básico::01 Pessoas e família
+husband,marido,lexico idioma::ingles tema::pessoas_e_familia nivel::basico,idioms::english::Léxico::Básico::01 Pessoas e família
+wife,esposa,lexico idioma::ingles tema::pessoas_e_familia nivel::basico,idioms::english::Léxico::Básico::01 Pessoas e família
+friend,amigo,lexico idioma::ingles tema::pessoas_e_familia nivel::basico,idioms::english::Léxico::Básico::01 Pessoas e família
+neighbor,vizinho,lexico idioma::ingles tema::pessoas_e_familia nivel::basico,idioms::english::Léxico::Básico::01 Pessoas e família
+couple,casal,lexico idioma::ingles tema::pessoas_e_familia nivel::basico,idioms::english::Léxico::Básico::01 Pessoas e família
+body,corpo,lexico idioma::ingles tema::corpo nivel::basico,idioms::english::Léxico::Básico::02 Corpo
+head,cabeça,lexico idioma::ingles tema::corpo nivel::basico,idioms::english::Léxico::Básico::02 Corpo
+face,rosto,lexico idioma::ingles tema::corpo nivel::basico,idioms::english::Léxico::Básico::02 Corpo
+hair,cabelo (conjunto),lexico idioma::ingles tema::corpo nivel::basico,idioms::english::Léxico::Básico::02 Corpo
+eye,olho,lexico idioma::ingles tema::corpo nivel::basico,idioms::english::Léxico::Básico::02 Corpo
+ear,orelha,lexico idioma::ingles tema::corpo nivel::basico,idioms::english::Léxico::Básico::02 Corpo
+nose,nariz,lexico idioma::ingles tema::corpo nivel::basico,idioms::english::Léxico::Básico::02 Corpo
+mouth,boca,lexico idioma::ingles tema::corpo nivel::basico,idioms::english::Léxico::Básico::02 Corpo
+tooth,dente,lexico idioma::ingles tema::corpo nivel::basico,idioms::english::Léxico::Básico::02 Corpo
+tongue,língua (órgão),lexico idioma::ingles tema::corpo nivel::basico,idioms::english::Léxico::Básico::02 Corpo
+neck,pescoço,lexico idioma::ingles tema::corpo nivel::basico,idioms::english::Léxico::Básico::02 Corpo
+shoulder,ombro,lexico idioma::ingles tema::corpo nivel::basico,idioms::english::Léxico::Básico::02 Corpo
+arm,braço,lexico idioma::ingles tema::corpo nivel::basico,idioms::english::Léxico::Básico::02 Corpo
+elbow,cotovelo,lexico idioma::ingles tema::corpo nivel::basico,idioms::english::Léxico::Básico::02 Corpo
+hand,mão,lexico idioma::ingles tema::corpo nivel::basico,idioms::english::Léxico::Básico::02 Corpo
+finger,dedo da mão,lexico idioma::ingles tema::corpo nivel::basico,idioms::english::Léxico::Básico::02 Corpo
+nail,unha,lexico idioma::ingles tema::corpo nivel::basico,idioms::english::Léxico::Básico::02 Corpo
+chest,peito,lexico idioma::ingles tema::corpo nivel::basico,idioms::english::Léxico::Básico::02 Corpo
+back,costas,lexico idioma::ingles tema::corpo nivel::basico,idioms::english::Léxico::Básico::02 Corpo
+stomach,estômago,lexico idioma::ingles tema::corpo nivel::basico,idioms::english::Léxico::Básico::02 Corpo
+leg,perna,lexico idioma::ingles tema::corpo nivel::basico,idioms::english::Léxico::Básico::02 Corpo
+knee,joelho,lexico idioma::ingles tema::corpo nivel::basico,idioms::english::Léxico::Básico::02 Corpo
+foot,pé,lexico idioma::ingles tema::corpo nivel::basico,idioms::english::Léxico::Básico::02 Corpo
+skin,pele,lexico idioma::ingles tema::corpo nivel::basico,idioms::english::Léxico::Básico::02 Corpo
+heart,coração,lexico idioma::ingles tema::corpo nivel::basico,idioms::english::Léxico::Básico::02 Corpo
+health,saúde,lexico idioma::ingles tema::saude nivel::intermediario,idioms::english::Léxico::Intermediário::03 Saúde
+illness,doença,lexico idioma::ingles tema::saude nivel::intermediario,idioms::english::Léxico::Intermediário::03 Saúde
+pain,dor,lexico idioma::ingles tema::saude nivel::intermediario,idioms::english::Léxico::Intermediário::03 Saúde
+fever,febre,lexico idioma::ingles tema::saude nivel::intermediario,idioms::english::Léxico::Intermediário::03 Saúde
+cough,tosse,lexico idioma::ingles tema::saude nivel::intermediario,idioms::english::Léxico::Intermediário::03 Saúde
+cold (illness),resfriado,lexico idioma::ingles tema::saude nivel::intermediario,idioms::english::Léxico::Intermediário::03 Saúde
+flu,gripe,lexico idioma::ingles tema::saude nivel::intermediario,idioms::english::Léxico::Intermediário::03 Saúde
+allergy,alergia,lexico idioma::ingles tema::saude nivel::intermediario,idioms::english::Léxico::Intermediário::03 Saúde
+wound,ferida,lexico idioma::ingles tema::saude nivel::intermediario,idioms::english::Léxico::Intermediário::03 Saúde
+medicine,remédio,lexico idioma::ingles tema::saude nivel::intermediario,idioms::english::Léxico::Intermediário::03 Saúde
+pill,comprimido,lexico idioma::ingles tema::saude nivel::intermediario,idioms::english::Léxico::Intermediário::03 Saúde
+prescription,receita médica,lexico idioma::ingles tema::saude nivel::intermediario,idioms::english::Léxico::Intermediário::03 Saúde
+treatment,tratamento,lexico idioma::ingles tema::saude nivel::intermediario,idioms::english::Léxico::Intermediário::03 Saúde
+surgery,cirurgia,lexico idioma::ingles tema::saude nivel::intermediario,idioms::english::Léxico::Intermediário::03 Saúde
+vaccine,vacina,lexico idioma::ingles tema::saude nivel::intermediario,idioms::english::Léxico::Intermediário::03 Saúde
+symptom,sintoma,lexico idioma::ingles tema::saude nivel::intermediario,idioms::english::Léxico::Intermediário::03 Saúde
+infection,infecção,lexico idioma::ingles tema::saude nivel::intermediario,idioms::english::Léxico::Intermediário::03 Saúde
+blood,sangue,lexico idioma::ingles tema::saude nivel::intermediario,idioms::english::Léxico::Intermediário::03 Saúde
+lung,pulmão,lexico idioma::ingles tema::saude nivel::intermediario,idioms::english::Léxico::Intermediário::03 Saúde
+bone,osso,lexico idioma::ingles tema::saude nivel::intermediario,idioms::english::Léxico::Intermediário::03 Saúde
+muscle,músculo,lexico idioma::ingles tema::saude nivel::intermediario,idioms::english::Léxico::Intermediário::03 Saúde
+breathing,respiração,lexico idioma::ingles tema::saude nivel::intermediario,idioms::english::Léxico::Intermediário::03 Saúde
+ambulance,ambulância,lexico idioma::ingles tema::saude nivel::intermediario,idioms::english::Léxico::Intermediário::03 Saúde
+emergency,emergência,lexico idioma::ingles tema::saude nivel::intermediario,idioms::english::Léxico::Intermediário::03 Saúde
+recovery,recuperação,lexico idioma::ingles tema::saude nivel::intermediario,idioms::english::Léxico::Intermediário::03 Saúde
+house,casa,lexico idioma::ingles tema::casa nivel::basico,idioms::english::Léxico::Básico::04 Casa
+apartment,apartamento,lexico idioma::ingles tema::casa nivel::basico,idioms::english::Léxico::Básico::04 Casa
+bedroom,quarto,lexico idioma::ingles tema::casa nivel::basico,idioms::english::Léxico::Básico::04 Casa
+living room,sala de estar,lexico idioma::ingles tema::casa nivel::basico,idioms::english::Léxico::Básico::04 Casa
+kitchen,cozinha,lexico idioma::ingles tema::casa nivel::basico,idioms::english::Léxico::Básico::04 Casa
+bathroom,banheiro,lexico idioma::ingles tema::casa nivel::basico,idioms::english::Léxico::Básico::04 Casa
+door,porta,lexico idioma::ingles tema::casa nivel::basico,idioms::english::Léxico::Básico::04 Casa
+window,janela,lexico idioma::ingles tema::casa nivel::basico,idioms::english::Léxico::Básico::04 Casa
+wall,parede,lexico idioma::ingles tema::casa nivel::basico,idioms::english::Léxico::Básico::04 Casa
+floor,piso,lexico idioma::ingles tema::casa nivel::basico,idioms::english::Léxico::Básico::04 Casa
+ceiling,teto interno,lexico idioma::ingles tema::casa nivel::basico,idioms::english::Léxico::Básico::04 Casa
+roof,telhado,lexico idioma::ingles tema::casa nivel::basico,idioms::english::Léxico::Básico::04 Casa
+staircase,escada,lexico idioma::ingles tema::casa nivel::basico,idioms::english::Léxico::Básico::04 Casa
+bed,cama,lexico idioma::ingles tema::casa nivel::basico,idioms::english::Léxico::Básico::04 Casa
+pillow,travesseiro,lexico idioma::ingles tema::casa nivel::basico,idioms::english::Léxico::Básico::04 Casa
+blanket,cobertor,lexico idioma::ingles tema::casa nivel::basico,idioms::english::Léxico::Básico::04 Casa
+table,mesa,lexico idioma::ingles tema::casa nivel::basico,idioms::english::Léxico::Básico::04 Casa
+chair,cadeira,lexico idioma::ingles tema::casa nivel::basico,idioms::english::Léxico::Básico::04 Casa
+sofa,sofá,lexico idioma::ingles tema::casa nivel::basico,idioms::english::Léxico::Básico::04 Casa
+wardrobe,armário,lexico idioma::ingles tema::casa nivel::basico,idioms::english::Léxico::Básico::04 Casa
+mirror,espelho,lexico idioma::ingles tema::casa nivel::basico,idioms::english::Léxico::Básico::04 Casa
+carpet,tapete,lexico idioma::ingles tema::casa nivel::basico,idioms::english::Léxico::Básico::04 Casa
+key,chave,lexico idioma::ingles tema::casa nivel::basico,idioms::english::Léxico::Básico::04 Casa
+balcony,varanda,lexico idioma::ingles tema::casa nivel::basico,idioms::english::Léxico::Básico::04 Casa
+garden,jardim,lexico idioma::ingles tema::casa nivel::basico,idioms::english::Léxico::Básico::04 Casa
+plate,prato,lexico idioma::ingles tema::cozinha_e_utensilios nivel::basico,idioms::english::Léxico::Básico::05 Cozinha e utensílios
+glass,copo,lexico idioma::ingles tema::cozinha_e_utensilios nivel::basico,idioms::english::Léxico::Básico::05 Cozinha e utensílios
+cup,xícara,lexico idioma::ingles tema::cozinha_e_utensilios nivel::basico,idioms::english::Léxico::Básico::05 Cozinha e utensílios
+fork,garfo,lexico idioma::ingles tema::cozinha_e_utensilios nivel::basico,idioms::english::Léxico::Básico::05 Cozinha e utensílios
+knife,faca,lexico idioma::ingles tema::cozinha_e_utensilios nivel::basico,idioms::english::Léxico::Básico::05 Cozinha e utensílios
+spoon,colher,lexico idioma::ingles tema::cozinha_e_utensilios nivel::basico,idioms::english::Léxico::Básico::05 Cozinha e utensílios
+pot,panela,lexico idioma::ingles tema::cozinha_e_utensilios nivel::basico,idioms::english::Léxico::Básico::05 Cozinha e utensílios
+pan,frigideira,lexico idioma::ingles tema::cozinha_e_utensilios nivel::basico,idioms::english::Léxico::Básico::05 Cozinha e utensílios
+oven,forno,lexico idioma::ingles tema::cozinha_e_utensilios nivel::basico,idioms::english::Léxico::Básico::05 Cozinha e utensílios
+stove,fogão,lexico idioma::ingles tema::cozinha_e_utensilios nivel::basico,idioms::english::Léxico::Básico::05 Cozinha e utensílios
+refrigerator,geladeira,lexico idioma::ingles tema::cozinha_e_utensilios nivel::basico,idioms::english::Léxico::Básico::05 Cozinha e utensílios
+freezer,congelador,lexico idioma::ingles tema::cozinha_e_utensilios nivel::basico,idioms::english::Léxico::Básico::05 Cozinha e utensílios
+sink,pia,lexico idioma::ingles tema::cozinha_e_utensilios nivel::basico,idioms::english::Léxico::Básico::05 Cozinha e utensílios
+faucet,torneira,lexico idioma::ingles tema::cozinha_e_utensilios nivel::basico,idioms::english::Léxico::Básico::05 Cozinha e utensílios
+bottle,garrafa,lexico idioma::ingles tema::cozinha_e_utensilios nivel::basico,idioms::english::Léxico::Básico::05 Cozinha e utensílios
+bowl,tigela,lexico idioma::ingles tema::cozinha_e_utensilios nivel::basico,idioms::english::Léxico::Básico::05 Cozinha e utensílios
+tray,bandeja,lexico idioma::ingles tema::cozinha_e_utensilios nivel::basico,idioms::english::Léxico::Básico::05 Cozinha e utensílios
+napkin,guardanapo,lexico idioma::ingles tema::cozinha_e_utensilios nivel::basico,idioms::english::Léxico::Básico::05 Cozinha e utensílios
+tablecloth,toalha de mesa,lexico idioma::ingles tema::cozinha_e_utensilios nivel::basico,idioms::english::Léxico::Básico::05 Cozinha e utensílios
+lid,tampa,lexico idioma::ingles tema::cozinha_e_utensilios nivel::basico,idioms::english::Léxico::Básico::05 Cozinha e utensílios
+sponge,esponja,lexico idioma::ingles tema::cozinha_e_utensilios nivel::basico,idioms::english::Léxico::Básico::05 Cozinha e utensílios
+detergent,detergente,lexico idioma::ingles tema::cozinha_e_utensilios nivel::basico,idioms::english::Léxico::Básico::05 Cozinha e utensílios
+grater,ralador,lexico idioma::ingles tema::cozinha_e_utensilios nivel::basico,idioms::english::Léxico::Básico::05 Cozinha e utensílios
+kettle,chaleira,lexico idioma::ingles tema::cozinha_e_utensilios nivel::basico,idioms::english::Léxico::Básico::05 Cozinha e utensílios
+blender,liquidificador,lexico idioma::ingles tema::cozinha_e_utensilios nivel::basico,idioms::english::Léxico::Básico::05 Cozinha e utensílios
+water,água,lexico idioma::ingles tema::alimentos_basicos nivel::basico,idioms::english::Léxico::Básico::06 Alimentos básicos
+bread,pão,lexico idioma::ingles tema::alimentos_basicos nivel::basico,idioms::english::Léxico::Básico::06 Alimentos básicos
+rice,arroz,lexico idioma::ingles tema::alimentos_basicos nivel::basico,idioms::english::Léxico::Básico::06 Alimentos básicos
+pasta,massa alimentícia,lexico idioma::ingles tema::alimentos_basicos nivel::basico,idioms::english::Léxico::Básico::06 Alimentos básicos
+meat,carne,lexico idioma::ingles tema::alimentos_basicos nivel::basico,idioms::english::Léxico::Básico::06 Alimentos básicos
+chicken,frango (carne),lexico idioma::ingles tema::alimentos_basicos nivel::basico,idioms::english::Léxico::Básico::06 Alimentos básicos
+fish,peixe (alimento),lexico idioma::ingles tema::alimentos_basicos nivel::basico,idioms::english::Léxico::Básico::06 Alimentos básicos
+egg,ovo,lexico idioma::ingles tema::alimentos_basicos nivel::basico,idioms::english::Léxico::Básico::06 Alimentos básicos
+milk,leite,lexico idioma::ingles tema::alimentos_basicos nivel::basico,idioms::english::Léxico::Básico::06 Alimentos básicos
+cheese,queijo,lexico idioma::ingles tema::alimentos_basicos nivel::basico,idioms::english::Léxico::Básico::06 Alimentos básicos
+butter,manteiga,lexico idioma::ingles tema::alimentos_basicos nivel::basico,idioms::english::Léxico::Básico::06 Alimentos básicos
+oil,óleo,lexico idioma::ingles tema::alimentos_basicos nivel::basico,idioms::english::Léxico::Básico::06 Alimentos básicos
+salt,sal,lexico idioma::ingles tema::alimentos_basicos nivel::basico,idioms::english::Léxico::Básico::06 Alimentos básicos
+sugar,açúcar,lexico idioma::ingles tema::alimentos_basicos nivel::basico,idioms::english::Léxico::Básico::06 Alimentos básicos
+flour,farinha,lexico idioma::ingles tema::alimentos_basicos nivel::basico,idioms::english::Léxico::Básico::06 Alimentos básicos
+coffee,café,lexico idioma::ingles tema::alimentos_basicos nivel::basico,idioms::english::Léxico::Básico::06 Alimentos básicos
+tea,chá,lexico idioma::ingles tema::alimentos_basicos nivel::basico,idioms::english::Léxico::Básico::06 Alimentos básicos
+juice,suco,lexico idioma::ingles tema::alimentos_basicos nivel::basico,idioms::english::Léxico::Básico::06 Alimentos básicos
+wine,vinho,lexico idioma::ingles tema::alimentos_basicos nivel::basico,idioms::english::Léxico::Básico::06 Alimentos básicos
+beer,cerveja,lexico idioma::ingles tema::alimentos_basicos nivel::basico,idioms::english::Léxico::Básico::06 Alimentos básicos
+soup,sopa,lexico idioma::ingles tema::alimentos_basicos nivel::basico,idioms::english::Léxico::Básico::06 Alimentos básicos
+salad,salada,lexico idioma::ingles tema::alimentos_basicos nivel::basico,idioms::english::Léxico::Básico::06 Alimentos básicos
+honey,mel,lexico idioma::ingles tema::alimentos_basicos nivel::basico,idioms::english::Léxico::Básico::06 Alimentos básicos
+chocolate,chocolate,lexico idioma::ingles tema::alimentos_basicos nivel::basico,idioms::english::Léxico::Básico::06 Alimentos básicos
+yogurt,iogurte,lexico idioma::ingles tema::alimentos_basicos nivel::basico,idioms::english::Léxico::Básico::06 Alimentos básicos
+apple,maçã,lexico idioma::ingles tema::frutas_e_vegetais nivel::basico,idioms::english::Léxico::Básico::07 Frutas e vegetais
+banana,banana,lexico idioma::ingles tema::frutas_e_vegetais nivel::basico,idioms::english::Léxico::Básico::07 Frutas e vegetais
+orange,laranja,lexico idioma::ingles tema::frutas_e_vegetais nivel::basico,idioms::english::Léxico::Básico::07 Frutas e vegetais
+lemon,limão amarelo (siciliano),lexico idioma::ingles tema::frutas_e_vegetais nivel::basico,idioms::english::Léxico::Básico::07 Frutas e vegetais
+pear,pera,lexico idioma::ingles tema::frutas_e_vegetais nivel::basico,idioms::english::Léxico::Básico::07 Frutas e vegetais
+grape,uva,lexico idioma::ingles tema::frutas_e_vegetais nivel::basico,idioms::english::Léxico::Básico::07 Frutas e vegetais
+strawberry,morango,lexico idioma::ingles tema::frutas_e_vegetais nivel::basico,idioms::english::Léxico::Básico::07 Frutas e vegetais
+peach,pêssego,lexico idioma::ingles tema::frutas_e_vegetais nivel::basico,idioms::english::Léxico::Básico::07 Frutas e vegetais
+pineapple,abacaxi,lexico idioma::ingles tema::frutas_e_vegetais nivel::basico,idioms::english::Léxico::Básico::07 Frutas e vegetais
+watermelon,melancia,lexico idioma::ingles tema::frutas_e_vegetais nivel::basico,idioms::english::Léxico::Básico::07 Frutas e vegetais
+melon,melão,lexico idioma::ingles tema::frutas_e_vegetais nivel::basico,idioms::english::Léxico::Básico::07 Frutas e vegetais
+cherry,cereja,lexico idioma::ingles tema::frutas_e_vegetais nivel::basico,idioms::english::Léxico::Básico::07 Frutas e vegetais
+plum,ameixa,lexico idioma::ingles tema::frutas_e_vegetais nivel::basico,idioms::english::Léxico::Básico::07 Frutas e vegetais
+avocado,abacate,lexico idioma::ingles tema::frutas_e_vegetais nivel::basico,idioms::english::Léxico::Básico::07 Frutas e vegetais
+tomato,tomate,lexico idioma::ingles tema::frutas_e_vegetais nivel::basico,idioms::english::Léxico::Básico::07 Frutas e vegetais
+potato,batata,lexico idioma::ingles tema::frutas_e_vegetais nivel::basico,idioms::english::Léxico::Básico::07 Frutas e vegetais
+carrot,cenoura,lexico idioma::ingles tema::frutas_e_vegetais nivel::basico,idioms::english::Léxico::Básico::07 Frutas e vegetais
+onion,cebola,lexico idioma::ingles tema::frutas_e_vegetais nivel::basico,idioms::english::Léxico::Básico::07 Frutas e vegetais
+garlic,alho,lexico idioma::ingles tema::frutas_e_vegetais nivel::basico,idioms::english::Léxico::Básico::07 Frutas e vegetais
+lettuce,alface,lexico idioma::ingles tema::frutas_e_vegetais nivel::basico,idioms::english::Léxico::Básico::07 Frutas e vegetais
+cucumber,pepino,lexico idioma::ingles tema::frutas_e_vegetais nivel::basico,idioms::english::Léxico::Básico::07 Frutas e vegetais
+pepper,pimentão,lexico idioma::ingles tema::frutas_e_vegetais nivel::basico,idioms::english::Léxico::Básico::07 Frutas e vegetais
+eggplant,berinjela,lexico idioma::ingles tema::frutas_e_vegetais nivel::basico,idioms::english::Léxico::Básico::07 Frutas e vegetais
+pumpkin,abóbora,lexico idioma::ingles tema::frutas_e_vegetais nivel::basico,idioms::english::Léxico::Básico::07 Frutas e vegetais
+bean,feijão (grão),lexico idioma::ingles tema::frutas_e_vegetais nivel::basico,idioms::english::Léxico::Básico::07 Frutas e vegetais
+clothing,roupa (conjunto),lexico idioma::ingles tema::roupas nivel::basico,idioms::english::Léxico::Básico::08 Roupas
+shirt,camisa,lexico idioma::ingles tema::roupas nivel::basico,idioms::english::Léxico::Básico::08 Roupas
+T-shirt,camiseta,lexico idioma::ingles tema::roupas nivel::basico,idioms::english::Léxico::Básico::08 Roupas
+pants,calça,lexico idioma::ingles tema::roupas nivel::basico,idioms::english::Léxico::Básico::08 Roupas
+skirt,saia,lexico idioma::ingles tema::roupas nivel::basico,idioms::english::Léxico::Básico::08 Roupas
+dress,vestido,lexico idioma::ingles tema::roupas nivel::basico,idioms::english::Léxico::Básico::08 Roupas
+coat,casaco,lexico idioma::ingles tema::roupas nivel::basico,idioms::english::Léxico::Básico::08 Roupas
+jacket,jaqueta,lexico idioma::ingles tema::roupas nivel::basico,idioms::english::Léxico::Básico::08 Roupas
+sweater,suéter,lexico idioma::ingles tema::roupas nivel::basico,idioms::english::Léxico::Básico::08 Roupas
+shoe,sapato,lexico idioma::ingles tema::roupas nivel::basico,idioms::english::Léxico::Básico::08 Roupas
+boot,bota,lexico idioma::ingles tema::roupas nivel::basico,idioms::english::Léxico::Básico::08 Roupas
+sandal,sandália,lexico idioma::ingles tema::roupas nivel::basico,idioms::english::Léxico::Básico::08 Roupas
+sock,meia,lexico idioma::ingles tema::roupas nivel::basico,idioms::english::Léxico::Básico::08 Roupas
+hat,chapéu,lexico idioma::ingles tema::roupas nivel::basico,idioms::english::Léxico::Básico::08 Roupas
+cap,boné,lexico idioma::ingles tema::roupas nivel::basico,idioms::english::Léxico::Básico::08 Roupas
+scarf,cachecol,lexico idioma::ingles tema::roupas nivel::basico,idioms::english::Léxico::Básico::08 Roupas
+glove,luva,lexico idioma::ingles tema::roupas nivel::basico,idioms::english::Léxico::Básico::08 Roupas
+belt,cinto,lexico idioma::ingles tema::roupas nivel::basico,idioms::english::Léxico::Básico::08 Roupas
+handbag,bolsa,lexico idioma::ingles tema::roupas nivel::basico,idioms::english::Léxico::Básico::08 Roupas
+backpack,mochila,lexico idioma::ingles tema::roupas nivel::basico,idioms::english::Léxico::Básico::08 Roupas
+watch,relógio de pulso,lexico idioma::ingles tema::roupas nivel::basico,idioms::english::Léxico::Básico::08 Roupas
+ring,anel,lexico idioma::ingles tema::roupas nivel::basico,idioms::english::Léxico::Básico::08 Roupas
+earring,brinco,lexico idioma::ingles tema::roupas nivel::basico,idioms::english::Léxico::Básico::08 Roupas
+necklace,colar,lexico idioma::ingles tema::roupas nivel::basico,idioms::english::Léxico::Básico::08 Roupas
+pocket,bolso,lexico idioma::ingles tema::roupas nivel::basico,idioms::english::Léxico::Básico::08 Roupas
+city,cidade,lexico idioma::ingles tema::cidade_e_servicos nivel::basico,idioms::english::Léxico::Básico::09 Cidade e serviços
+village,vila (povoado),lexico idioma::ingles tema::cidade_e_servicos nivel::basico,idioms::english::Léxico::Básico::09 Cidade e serviços
+street,rua,lexico idioma::ingles tema::cidade_e_servicos nivel::basico,idioms::english::Léxico::Básico::09 Cidade e serviços
+avenue,avenida,lexico idioma::ingles tema::cidade_e_servicos nivel::basico,idioms::english::Léxico::Básico::09 Cidade e serviços
+square (place),praça,lexico idioma::ingles tema::cidade_e_servicos nivel::basico,idioms::english::Léxico::Básico::09 Cidade e serviços
+bridge,ponte,lexico idioma::ingles tema::cidade_e_servicos nivel::basico,idioms::english::Léxico::Básico::09 Cidade e serviços
+building,prédio,lexico idioma::ingles tema::cidade_e_servicos nivel::basico,idioms::english::Léxico::Básico::09 Cidade e serviços
+store,loja,lexico idioma::ingles tema::cidade_e_servicos nivel::basico,idioms::english::Léxico::Básico::09 Cidade e serviços
+market,mercado,lexico idioma::ingles tema::cidade_e_servicos nivel::basico,idioms::english::Léxico::Básico::09 Cidade e serviços
+supermarket,supermercado,lexico idioma::ingles tema::cidade_e_servicos nivel::basico,idioms::english::Léxico::Básico::09 Cidade e serviços
+bank,banco (instituição),lexico idioma::ingles tema::cidade_e_servicos nivel::basico,idioms::english::Léxico::Básico::09 Cidade e serviços
+pharmacy,farmácia,lexico idioma::ingles tema::cidade_e_servicos nivel::basico,idioms::english::Léxico::Básico::09 Cidade e serviços
+hospital,hospital,lexico idioma::ingles tema::cidade_e_servicos nivel::basico,idioms::english::Léxico::Básico::09 Cidade e serviços
+school,escola,lexico idioma::ingles tema::cidade_e_servicos nivel::basico,idioms::english::Léxico::Básico::09 Cidade e serviços
+university,universidade,lexico idioma::ingles tema::cidade_e_servicos nivel::basico,idioms::english::Léxico::Básico::09 Cidade e serviços
+library,biblioteca,lexico idioma::ingles tema::cidade_e_servicos nivel::basico,idioms::english::Léxico::Básico::09 Cidade e serviços
+museum,museu,lexico idioma::ingles tema::cidade_e_servicos nivel::basico,idioms::english::Léxico::Básico::09 Cidade e serviços
+cinema,cinema,lexico idioma::ingles tema::cidade_e_servicos nivel::basico,idioms::english::Léxico::Básico::09 Cidade e serviços
+theater,teatro,lexico idioma::ingles tema::cidade_e_servicos nivel::basico,idioms::english::Léxico::Básico::09 Cidade e serviços
+church,igreja,lexico idioma::ingles tema::cidade_e_servicos nivel::basico,idioms::english::Léxico::Básico::09 Cidade e serviços
+park,parque,lexico idioma::ingles tema::cidade_e_servicos nivel::basico,idioms::english::Léxico::Básico::09 Cidade e serviços
+restaurant,restaurante,lexico idioma::ingles tema::cidade_e_servicos nivel::basico,idioms::english::Léxico::Básico::09 Cidade e serviços
+bakery,padaria,lexico idioma::ingles tema::cidade_e_servicos nivel::basico,idioms::english::Léxico::Básico::09 Cidade e serviços
+city hall,prefeitura (sede),lexico idioma::ingles tema::cidade_e_servicos nivel::basico,idioms::english::Léxico::Básico::09 Cidade e serviços
+corner,esquina,lexico idioma::ingles tema::cidade_e_servicos nivel::basico,idioms::english::Léxico::Básico::09 Cidade e serviços
+car,carro,lexico idioma::ingles tema::transporte_e_viagens nivel::basico,idioms::english::Léxico::Básico::10 Transporte e viagens
+bus,ônibus,lexico idioma::ingles tema::transporte_e_viagens nivel::basico,idioms::english::Léxico::Básico::10 Transporte e viagens
+train,trem,lexico idioma::ingles tema::transporte_e_viagens nivel::basico,idioms::english::Léxico::Básico::10 Transporte e viagens
+subway,metrô,lexico idioma::ingles tema::transporte_e_viagens nivel::basico,idioms::english::Léxico::Básico::10 Transporte e viagens
+bicycle,bicicleta,lexico idioma::ingles tema::transporte_e_viagens nivel::basico,idioms::english::Léxico::Básico::10 Transporte e viagens
+motorcycle,moto,lexico idioma::ingles tema::transporte_e_viagens nivel::basico,idioms::english::Léxico::Básico::10 Transporte e viagens
+truck,caminhão,lexico idioma::ingles tema::transporte_e_viagens nivel::basico,idioms::english::Léxico::Básico::10 Transporte e viagens
+airplane,avião,lexico idioma::ingles tema::transporte_e_viagens nivel::basico,idioms::english::Léxico::Básico::10 Transporte e viagens
+boat,barco,lexico idioma::ingles tema::transporte_e_viagens nivel::basico,idioms::english::Léxico::Básico::10 Transporte e viagens
+ship,navio,lexico idioma::ingles tema::transporte_e_viagens nivel::basico,idioms::english::Léxico::Básico::10 Transporte e viagens
+airport,aeroporto,lexico idioma::ingles tema::transporte_e_viagens nivel::basico,idioms::english::Léxico::Básico::10 Transporte e viagens
+station,estação,lexico idioma::ingles tema::transporte_e_viagens nivel::basico,idioms::english::Léxico::Básico::10 Transporte e viagens
+ticket,passagem (bilhete),lexico idioma::ingles tema::transporte_e_viagens nivel::basico,idioms::english::Léxico::Básico::10 Transporte e viagens
+passport,passaporte,lexico idioma::ingles tema::transporte_e_viagens nivel::basico,idioms::english::Léxico::Básico::10 Transporte e viagens
+suitcase,mala,lexico idioma::ingles tema::transporte_e_viagens nivel::basico,idioms::english::Léxico::Básico::10 Transporte e viagens
+luggage,bagagem,lexico idioma::ingles tema::transporte_e_viagens nivel::basico,idioms::english::Léxico::Básico::10 Transporte e viagens
+hotel,hotel,lexico idioma::ingles tema::transporte_e_viagens nivel::basico,idioms::english::Léxico::Básico::10 Transporte e viagens
+reservation,reserva (agendamento),lexico idioma::ingles tema::transporte_e_viagens nivel::basico,idioms::english::Léxico::Básico::10 Transporte e viagens
+trip,viagem,lexico idioma::ingles tema::transporte_e_viagens nivel::basico,idioms::english::Léxico::Básico::10 Transporte e viagens
+map,mapa,lexico idioma::ingles tema::transporte_e_viagens nivel::basico,idioms::english::Léxico::Básico::10 Transporte e viagens
+border,fronteira,lexico idioma::ingles tema::transporte_e_viagens nivel::basico,idioms::english::Léxico::Básico::10 Transporte e viagens
+destination,destino,lexico idioma::ingles tema::transporte_e_viagens nivel::basico,idioms::english::Léxico::Básico::10 Transporte e viagens
+traffic,trânsito,lexico idioma::ingles tema::transporte_e_viagens nivel::basico,idioms::english::Léxico::Básico::10 Transporte e viagens
+driver,motorista,lexico idioma::ingles tema::transporte_e_viagens nivel::basico,idioms::english::Léxico::Básico::10 Transporte e viagens
+passenger,passageiro,lexico idioma::ingles tema::transporte_e_viagens nivel::basico,idioms::english::Léxico::Básico::10 Transporte e viagens
+sun,sol,lexico idioma::ingles tema::natureza_e_clima nivel::basico,idioms::english::Léxico::Básico::11 Natureza e clima
+moon,lua,lexico idioma::ingles tema::natureza_e_clima nivel::basico,idioms::english::Léxico::Básico::11 Natureza e clima
+star,estrela,lexico idioma::ingles tema::natureza_e_clima nivel::basico,idioms::english::Léxico::Básico::11 Natureza e clima
+sky,céu,lexico idioma::ingles tema::natureza_e_clima nivel::basico,idioms::english::Léxico::Básico::11 Natureza e clima
+cloud,nuvem,lexico idioma::ingles tema::natureza_e_clima nivel::basico,idioms::english::Léxico::Básico::11 Natureza e clima
+rain,chuva,lexico idioma::ingles tema::natureza_e_clima nivel::basico,idioms::english::Léxico::Básico::11 Natureza e clima
+snow,neve,lexico idioma::ingles tema::natureza_e_clima nivel::basico,idioms::english::Léxico::Básico::11 Natureza e clima
+wind,vento,lexico idioma::ingles tema::natureza_e_clima nivel::basico,idioms::english::Léxico::Básico::11 Natureza e clima
+storm,tempestade,lexico idioma::ingles tema::natureza_e_clima nivel::basico,idioms::english::Léxico::Básico::11 Natureza e clima
+fog,neblina,lexico idioma::ingles tema::natureza_e_clima nivel::basico,idioms::english::Léxico::Básico::11 Natureza e clima
+climate,clima,lexico idioma::ingles tema::natureza_e_clima nivel::basico,idioms::english::Léxico::Básico::11 Natureza e clima
+temperature,temperatura,lexico idioma::ingles tema::natureza_e_clima nivel::basico,idioms::english::Léxico::Básico::11 Natureza e clima
+sea,mar,lexico idioma::ingles tema::natureza_e_clima nivel::basico,idioms::english::Léxico::Básico::11 Natureza e clima
+ocean,oceano,lexico idioma::ingles tema::natureza_e_clima nivel::basico,idioms::english::Léxico::Básico::11 Natureza e clima
+river,rio,lexico idioma::ingles tema::natureza_e_clima nivel::basico,idioms::english::Léxico::Básico::11 Natureza e clima
+lake,lago,lexico idioma::ingles tema::natureza_e_clima nivel::basico,idioms::english::Léxico::Básico::11 Natureza e clima
+mountain,montanha,lexico idioma::ingles tema::natureza_e_clima nivel::basico,idioms::english::Léxico::Básico::11 Natureza e clima
+forest,floresta,lexico idioma::ingles tema::natureza_e_clima nivel::basico,idioms::english::Léxico::Básico::11 Natureza e clima
+tree,árvore,lexico idioma::ingles tema::natureza_e_clima nivel::basico,idioms::english::Léxico::Básico::11 Natureza e clima
+flower,flor,lexico idioma::ingles tema::natureza_e_clima nivel::basico,idioms::english::Léxico::Básico::11 Natureza e clima
+leaf,folha (planta),lexico idioma::ingles tema::natureza_e_clima nivel::basico,idioms::english::Léxico::Básico::11 Natureza e clima
+root,raiz,lexico idioma::ingles tema::natureza_e_clima nivel::basico,idioms::english::Léxico::Básico::11 Natureza e clima
+sand,areia,lexico idioma::ingles tema::natureza_e_clima nivel::basico,idioms::english::Léxico::Básico::11 Natureza e clima
+stone,pedra,lexico idioma::ingles tema::natureza_e_clima nivel::basico,idioms::english::Léxico::Básico::11 Natureza e clima
+island,ilha,lexico idioma::ingles tema::natureza_e_clima nivel::basico,idioms::english::Léxico::Básico::11 Natureza e clima
+dog,cachorro,lexico idioma::ingles tema::animais nivel::basico,idioms::english::Léxico::Básico::12 Animais
+cat,gato,lexico idioma::ingles tema::animais nivel::basico,idioms::english::Léxico::Básico::12 Animais
+horse,cavalo,lexico idioma::ingles tema::animais nivel::basico,idioms::english::Léxico::Básico::12 Animais
+cow,vaca,lexico idioma::ingles tema::animais nivel::basico,idioms::english::Léxico::Básico::12 Animais
+pig,porco,lexico idioma::ingles tema::animais nivel::basico,idioms::english::Léxico::Básico::12 Animais
+sheep,ovelha,lexico idioma::ingles tema::animais nivel::basico,idioms::english::Léxico::Básico::12 Animais
+goat,cabra,lexico idioma::ingles tema::animais nivel::basico,idioms::english::Léxico::Básico::12 Animais
+rabbit,coelho,lexico idioma::ingles tema::animais nivel::basico,idioms::english::Léxico::Básico::12 Animais
+mouse,camundongo,lexico idioma::ingles tema::animais nivel::basico,idioms::english::Léxico::Básico::12 Animais
+bear,urso,lexico idioma::ingles tema::animais nivel::basico,idioms::english::Léxico::Básico::12 Animais
+wolf,lobo,lexico idioma::ingles tema::animais nivel::basico,idioms::english::Léxico::Básico::12 Animais
+fox,raposa,lexico idioma::ingles tema::animais nivel::basico,idioms::english::Léxico::Básico::12 Animais
+lion,leão,lexico idioma::ingles tema::animais nivel::basico,idioms::english::Léxico::Básico::12 Animais
+tiger,tigre,lexico idioma::ingles tema::animais nivel::basico,idioms::english::Léxico::Básico::12 Animais
+elephant,elefante,lexico idioma::ingles tema::animais nivel::basico,idioms::english::Léxico::Básico::12 Animais
+giraffe,girafa,lexico idioma::ingles tema::animais nivel::basico,idioms::english::Léxico::Básico::12 Animais
+monkey,macaco,lexico idioma::ingles tema::animais nivel::basico,idioms::english::Léxico::Básico::12 Animais
+bird,pássaro,lexico idioma::ingles tema::animais nivel::basico,idioms::english::Léxico::Básico::12 Animais
+duck,pato,lexico idioma::ingles tema::animais nivel::basico,idioms::english::Léxico::Básico::12 Animais
+hen,galinha,lexico idioma::ingles tema::animais nivel::basico,idioms::english::Léxico::Básico::12 Animais
+eagle,águia,lexico idioma::ingles tema::animais nivel::basico,idioms::english::Léxico::Básico::12 Animais
+snake,cobra,lexico idioma::ingles tema::animais nivel::basico,idioms::english::Léxico::Básico::12 Animais
+turtle,tartaruga,lexico idioma::ingles tema::animais nivel::basico,idioms::english::Léxico::Básico::12 Animais
+toad,sapo,lexico idioma::ingles tema::animais nivel::basico,idioms::english::Léxico::Básico::12 Animais
+butterfly,borboleta,lexico idioma::ingles tema::animais nivel::basico,idioms::english::Léxico::Básico::12 Animais
+time,tempo (duração),lexico idioma::ingles tema::tempo_e_calendario nivel::basico,idioms::english::Léxico::Básico::13 Tempo e calendário
+day,dia,lexico idioma::ingles tema::tempo_e_calendario nivel::basico,idioms::english::Léxico::Básico::13 Tempo e calendário
+night,noite,lexico idioma::ingles tema::tempo_e_calendario nivel::basico,idioms::english::Léxico::Básico::13 Tempo e calendário
+morning,manhã,lexico idioma::ingles tema::tempo_e_calendario nivel::basico,idioms::english::Léxico::Básico::13 Tempo e calendário
+afternoon,tarde (período),lexico idioma::ingles tema::tempo_e_calendario nivel::basico,idioms::english::Léxico::Básico::13 Tempo e calendário
+week,semana,lexico idioma::ingles tema::tempo_e_calendario nivel::basico,idioms::english::Léxico::Básico::13 Tempo e calendário
+month,mês,lexico idioma::ingles tema::tempo_e_calendario nivel::basico,idioms::english::Léxico::Básico::13 Tempo e calendário
+year,ano,lexico idioma::ingles tema::tempo_e_calendario nivel::basico,idioms::english::Léxico::Básico::13 Tempo e calendário
+hour,hora,lexico idioma::ingles tema::tempo_e_calendario nivel::basico,idioms::english::Léxico::Básico::13 Tempo e calendário
+minute,minuto,lexico idioma::ingles tema::tempo_e_calendario nivel::basico,idioms::english::Léxico::Básico::13 Tempo e calendário
+second,segundo (unidade),lexico idioma::ingles tema::tempo_e_calendario nivel::basico,idioms::english::Léxico::Básico::13 Tempo e calendário
+today,hoje,lexico idioma::ingles tema::tempo_e_calendario nivel::basico,idioms::english::Léxico::Básico::13 Tempo e calendário
+yesterday,ontem,lexico idioma::ingles tema::tempo_e_calendario nivel::basico,idioms::english::Léxico::Básico::13 Tempo e calendário
+tomorrow,amanhã,lexico idioma::ingles tema::tempo_e_calendario nivel::basico,idioms::english::Léxico::Básico::13 Tempo e calendário
+early,cedo,lexico idioma::ingles tema::tempo_e_calendario nivel::basico,idioms::english::Léxico::Básico::13 Tempo e calendário
+late,tarde (atrasado),lexico idioma::ingles tema::tempo_e_calendario nivel::basico,idioms::english::Léxico::Básico::13 Tempo e calendário
+always,sempre,lexico idioma::ingles tema::tempo_e_calendario nivel::basico,idioms::english::Léxico::Básico::13 Tempo e calendário
+never,nunca,lexico idioma::ingles tema::tempo_e_calendario nivel::basico,idioms::english::Léxico::Básico::13 Tempo e calendário
+now,agora,lexico idioma::ingles tema::tempo_e_calendario nivel::basico,idioms::english::Léxico::Básico::13 Tempo e calendário
+afterward,depois,lexico idioma::ingles tema::tempo_e_calendario nivel::basico,idioms::english::Léxico::Básico::13 Tempo e calendário
+before,antes,lexico idioma::ingles tema::tempo_e_calendario nivel::basico,idioms::english::Léxico::Básico::13 Tempo e calendário
+summer,verão,lexico idioma::ingles tema::tempo_e_calendario nivel::basico,idioms::english::Léxico::Básico::13 Tempo e calendário
+winter,inverno,lexico idioma::ingles tema::tempo_e_calendario nivel::basico,idioms::english::Léxico::Básico::13 Tempo e calendário
+spring,primavera,lexico idioma::ingles tema::tempo_e_calendario nivel::basico,idioms::english::Léxico::Básico::13 Tempo e calendário
+autumn,outono,lexico idioma::ingles tema::tempo_e_calendario nivel::basico,idioms::english::Léxico::Básico::13 Tempo e calendário
+work (noun),trabalho (atividade),lexico idioma::ingles tema::trabalho_e_profissoes nivel::intermediario,idioms::english::Léxico::Intermediário::14 Trabalho e profissões
+job,emprego,lexico idioma::ingles tema::trabalho_e_profissoes nivel::intermediario,idioms::english::Léxico::Intermediário::14 Trabalho e profissões
+company,empresa,lexico idioma::ingles tema::trabalho_e_profissoes nivel::intermediario,idioms::english::Léxico::Intermediário::14 Trabalho e profissões
+office,escritório,lexico idioma::ingles tema::trabalho_e_profissoes nivel::intermediario,idioms::english::Léxico::Intermediário::14 Trabalho e profissões
+coworker,colega de trabalho,lexico idioma::ingles tema::trabalho_e_profissoes nivel::intermediario,idioms::english::Léxico::Intermediário::14 Trabalho e profissões
+boss,chefe,lexico idioma::ingles tema::trabalho_e_profissoes nivel::intermediario,idioms::english::Léxico::Intermediário::14 Trabalho e profissões
+employee,funcionário,lexico idioma::ingles tema::trabalho_e_profissoes nivel::intermediario,idioms::english::Léxico::Intermediário::14 Trabalho e profissões
+customer,cliente,lexico idioma::ingles tema::trabalho_e_profissoes nivel::intermediario,idioms::english::Léxico::Intermediário::14 Trabalho e profissões
+salary,salário,lexico idioma::ingles tema::trabalho_e_profissoes nivel::intermediario,idioms::english::Léxico::Intermediário::14 Trabalho e profissões
+meeting,reunião,lexico idioma::ingles tema::trabalho_e_profissoes nivel::intermediario,idioms::english::Léxico::Intermediário::14 Trabalho e profissões
+contract,contrato,lexico idioma::ingles tema::trabalho_e_profissoes nivel::intermediario,idioms::english::Léxico::Intermediário::14 Trabalho e profissões
+project,projeto,lexico idioma::ingles tema::trabalho_e_profissoes nivel::intermediario,idioms::english::Léxico::Intermediário::14 Trabalho e profissões
+task,tarefa,lexico idioma::ingles tema::trabalho_e_profissoes nivel::intermediario,idioms::english::Léxico::Intermediário::14 Trabalho e profissões
+deadline,prazo final,lexico idioma::ingles tema::trabalho_e_profissoes nivel::intermediario,idioms::english::Léxico::Intermediário::14 Trabalho e profissões
+career,carreira,lexico idioma::ingles tema::trabalho_e_profissoes nivel::intermediario,idioms::english::Léxico::Intermediário::14 Trabalho e profissões
+doctor,médico,lexico idioma::ingles tema::trabalho_e_profissoes nivel::intermediario,idioms::english::Léxico::Intermediário::14 Trabalho e profissões
+nurse,enfermeiro,lexico idioma::ingles tema::trabalho_e_profissoes nivel::intermediario,idioms::english::Léxico::Intermediário::14 Trabalho e profissões
+teacher,professor,lexico idioma::ingles tema::trabalho_e_profissoes nivel::intermediario,idioms::english::Léxico::Intermediário::14 Trabalho e profissões
+engineer,engenheiro,lexico idioma::ingles tema::trabalho_e_profissoes nivel::intermediario,idioms::english::Léxico::Intermediário::14 Trabalho e profissões
+lawyer,advogado,lexico idioma::ingles tema::trabalho_e_profissoes nivel::intermediario,idioms::english::Léxico::Intermediário::14 Trabalho e profissões
+cook (noun),cozinheiro,lexico idioma::ingles tema::trabalho_e_profissoes nivel::intermediario,idioms::english::Léxico::Intermediário::14 Trabalho e profissões
+waiter,garçom,lexico idioma::ingles tema::trabalho_e_profissoes nivel::intermediario,idioms::english::Léxico::Intermediário::14 Trabalho e profissões
+farmer,agricultor,lexico idioma::ingles tema::trabalho_e_profissoes nivel::intermediario,idioms::english::Léxico::Intermediário::14 Trabalho e profissões
+architect,arquiteto,lexico idioma::ingles tema::trabalho_e_profissoes nivel::intermediario,idioms::english::Léxico::Intermediário::14 Trabalho e profissões
+police officer,policial,lexico idioma::ingles tema::trabalho_e_profissoes nivel::intermediario,idioms::english::Léxico::Intermediário::14 Trabalho e profissões
+book,livro,lexico idioma::ingles tema::estudo_e_aprendizagem nivel::intermediario,idioms::english::Léxico::Intermediário::15 Estudo e aprendizagem
+notebook,caderno,lexico idioma::ingles tema::estudo_e_aprendizagem nivel::intermediario,idioms::english::Léxico::Intermediário::15 Estudo e aprendizagem
+pen,caneta,lexico idioma::ingles tema::estudo_e_aprendizagem nivel::intermediario,idioms::english::Léxico::Intermediário::15 Estudo e aprendizagem
+pencil,lápis,lexico idioma::ingles tema::estudo_e_aprendizagem nivel::intermediario,idioms::english::Léxico::Intermediário::15 Estudo e aprendizagem
+eraser,borracha de apagar,lexico idioma::ingles tema::estudo_e_aprendizagem nivel::intermediario,idioms::english::Léxico::Intermediário::15 Estudo e aprendizagem
+paper,papel,lexico idioma::ingles tema::estudo_e_aprendizagem nivel::intermediario,idioms::english::Léxico::Intermediário::15 Estudo e aprendizagem
+page,página,lexico idioma::ingles tema::estudo_e_aprendizagem nivel::intermediario,idioms::english::Léxico::Intermediário::15 Estudo e aprendizagem
+word,palavra,lexico idioma::ingles tema::estudo_e_aprendizagem nivel::intermediario,idioms::english::Léxico::Intermediário::15 Estudo e aprendizagem
+sentence,frase,lexico idioma::ingles tema::estudo_e_aprendizagem nivel::intermediario,idioms::english::Léxico::Intermediário::15 Estudo e aprendizagem
+question,pergunta,lexico idioma::ingles tema::estudo_e_aprendizagem nivel::intermediario,idioms::english::Léxico::Intermediário::15 Estudo e aprendizagem
+answer,resposta,lexico idioma::ingles tema::estudo_e_aprendizagem nivel::intermediario,idioms::english::Léxico::Intermediário::15 Estudo e aprendizagem
+lesson,lição,lexico idioma::ingles tema::estudo_e_aprendizagem nivel::intermediario,idioms::english::Léxico::Intermediário::15 Estudo e aprendizagem
+course,curso,lexico idioma::ingles tema::estudo_e_aprendizagem nivel::intermediario,idioms::english::Léxico::Intermediário::15 Estudo e aprendizagem
+exam,exame,lexico idioma::ingles tema::estudo_e_aprendizagem nivel::intermediario,idioms::english::Léxico::Intermediário::15 Estudo e aprendizagem
+grade,nota (avaliação),lexico idioma::ingles tema::estudo_e_aprendizagem nivel::intermediario,idioms::english::Léxico::Intermediário::15 Estudo e aprendizagem
+student,aluno,lexico idioma::ingles tema::estudo_e_aprendizagem nivel::intermediario,idioms::english::Léxico::Intermediário::15 Estudo e aprendizagem
+knowledge,conhecimento,lexico idioma::ingles tema::estudo_e_aprendizagem nivel::intermediario,idioms::english::Léxico::Intermediário::15 Estudo e aprendizagem
+memory,memória (capacidade),lexico idioma::ingles tema::estudo_e_aprendizagem nivel::intermediario,idioms::english::Léxico::Intermediário::15 Estudo e aprendizagem
+exercise,exercício,lexico idioma::ingles tema::estudo_e_aprendizagem nivel::intermediario,idioms::english::Léxico::Intermediário::15 Estudo e aprendizagem
+research,pesquisa,lexico idioma::ingles tema::estudo_e_aprendizagem nivel::intermediario,idioms::english::Léxico::Intermediário::15 Estudo e aprendizagem
+science,ciência,lexico idioma::ingles tema::estudo_e_aprendizagem nivel::intermediario,idioms::english::Léxico::Intermediário::15 Estudo e aprendizagem
+history,história (disciplina),lexico idioma::ingles tema::estudo_e_aprendizagem nivel::intermediario,idioms::english::Léxico::Intermediário::15 Estudo e aprendizagem
+mathematics,matemática,lexico idioma::ingles tema::estudo_e_aprendizagem nivel::intermediario,idioms::english::Léxico::Intermediário::15 Estudo e aprendizagem
+grammar,gramática,lexico idioma::ingles tema::estudo_e_aprendizagem nivel::intermediario,idioms::english::Léxico::Intermediário::15 Estudo e aprendizagem
+dictionary,dicionário,lexico idioma::ingles tema::estudo_e_aprendizagem nivel::intermediario,idioms::english::Léxico::Intermediário::15 Estudo e aprendizagem
+computer,computador,lexico idioma::ingles tema::tecnologia_e_comunicacao nivel::intermediario,idioms::english::Léxico::Intermediário::16 Tecnologia e comunicação
+keyboard,teclado,lexico idioma::ingles tema::tecnologia_e_comunicacao nivel::intermediario,idioms::english::Léxico::Intermediário::16 Tecnologia e comunicação
+screen,tela,lexico idioma::ingles tema::tecnologia_e_comunicacao nivel::intermediario,idioms::english::Léxico::Intermediário::16 Tecnologia e comunicação
+cellphone,celular,lexico idioma::ingles tema::tecnologia_e_comunicacao nivel::intermediario,idioms::english::Léxico::Intermediário::16 Tecnologia e comunicação
+telephone,telefone,lexico idioma::ingles tema::tecnologia_e_comunicacao nivel::intermediario,idioms::english::Léxico::Intermediário::16 Tecnologia e comunicação
+message,mensagem,lexico idioma::ingles tema::tecnologia_e_comunicacao nivel::intermediario,idioms::english::Léxico::Intermediário::16 Tecnologia e comunicação
+file,arquivo digital,lexico idioma::ingles tema::tecnologia_e_comunicacao nivel::intermediario,idioms::english::Léxico::Intermediário::16 Tecnologia e comunicação
+folder,pasta digital,lexico idioma::ingles tema::tecnologia_e_comunicacao nivel::intermediario,idioms::english::Léxico::Intermediário::16 Tecnologia e comunicação
+password,senha,lexico idioma::ingles tema::tecnologia_e_comunicacao nivel::intermediario,idioms::english::Léxico::Intermediário::16 Tecnologia e comunicação
+network,rede,lexico idioma::ingles tema::tecnologia_e_comunicacao nivel::intermediario,idioms::english::Léxico::Intermediário::16 Tecnologia e comunicação
+connection,conexão,lexico idioma::ingles tema::tecnologia_e_comunicacao nivel::intermediario,idioms::english::Léxico::Intermediário::16 Tecnologia e comunicação
+application,aplicativo,lexico idioma::ingles tema::tecnologia_e_comunicacao nivel::intermediario,idioms::english::Léxico::Intermediário::16 Tecnologia e comunicação
+software,software (programas de computador),lexico idioma::ingles tema::tecnologia_e_comunicacao nivel::intermediario,idioms::english::Léxico::Intermediário::16 Tecnologia e comunicação
+printer,impressora,lexico idioma::ingles tema::tecnologia_e_comunicacao nivel::intermediario,idioms::english::Léxico::Intermediário::16 Tecnologia e comunicação
+charger,carregador,lexico idioma::ingles tema::tecnologia_e_comunicacao nivel::intermediario,idioms::english::Léxico::Intermediário::16 Tecnologia e comunicação
+battery,bateria,lexico idioma::ingles tema::tecnologia_e_comunicacao nivel::intermediario,idioms::english::Léxico::Intermediário::16 Tecnologia e comunicação
+video,vídeo,lexico idioma::ingles tema::tecnologia_e_comunicacao nivel::intermediario,idioms::english::Léxico::Intermediário::16 Tecnologia e comunicação
+photograph,fotografia,lexico idioma::ingles tema::tecnologia_e_comunicacao nivel::intermediario,idioms::english::Léxico::Intermediário::16 Tecnologia e comunicação
+camera,câmera,lexico idioma::ingles tema::tecnologia_e_comunicacao nivel::intermediario,idioms::english::Léxico::Intermediário::16 Tecnologia e comunicação
+news,notícia; notícias,lexico idioma::ingles tema::tecnologia_e_comunicacao nivel::intermediario,idioms::english::Léxico::Intermediário::16 Tecnologia e comunicação
+newspaper,jornal,lexico idioma::ingles tema::tecnologia_e_comunicacao nivel::intermediario,idioms::english::Léxico::Intermediário::16 Tecnologia e comunicação
+magazine,revista,lexico idioma::ingles tema::tecnologia_e_comunicacao nivel::intermediario,idioms::english::Léxico::Intermediário::16 Tecnologia e comunicação
+advertisement,anúncio publicitário,lexico idioma::ingles tema::tecnologia_e_comunicacao nivel::intermediario,idioms::english::Léxico::Intermediário::16 Tecnologia e comunicação
+interview,entrevista,lexico idioma::ingles tema::tecnologia_e_comunicacao nivel::intermediario,idioms::english::Léxico::Intermediário::16 Tecnologia e comunicação
+conversation,conversa,lexico idioma::ingles tema::tecnologia_e_comunicacao nivel::intermediario,idioms::english::Léxico::Intermediário::16 Tecnologia e comunicação
+money,dinheiro,lexico idioma::ingles tema::dinheiro_e_compras nivel::intermediario,idioms::english::Léxico::Intermediário::17 Dinheiro e compras
+coin,moeda,lexico idioma::ingles tema::dinheiro_e_compras nivel::intermediario,idioms::english::Léxico::Intermediário::17 Dinheiro e compras
+banknote,cédula,lexico idioma::ingles tema::dinheiro_e_compras nivel::intermediario,idioms::english::Léxico::Intermediário::17 Dinheiro e compras
+price,preço,lexico idioma::ingles tema::dinheiro_e_compras nivel::intermediario,idioms::english::Léxico::Intermediário::17 Dinheiro e compras
+cost,custo,lexico idioma::ingles tema::dinheiro_e_compras nivel::intermediario,idioms::english::Léxico::Intermediário::17 Dinheiro e compras
+discount,desconto,lexico idioma::ingles tema::dinheiro_e_compras nivel::intermediario,idioms::english::Léxico::Intermediário::17 Dinheiro e compras
+payment,pagamento,lexico idioma::ingles tema::dinheiro_e_compras nivel::intermediario,idioms::english::Léxico::Intermediário::17 Dinheiro e compras
+change,troco,lexico idioma::ingles tema::dinheiro_e_compras nivel::intermediario,idioms::english::Léxico::Intermediário::17 Dinheiro e compras
+receipt,recibo,lexico idioma::ingles tema::dinheiro_e_compras nivel::intermediario,idioms::english::Léxico::Intermediário::17 Dinheiro e compras
+invoice,fatura,lexico idioma::ingles tema::dinheiro_e_compras nivel::intermediario,idioms::english::Léxico::Intermediário::17 Dinheiro e compras
+account,conta (bancária),lexico idioma::ingles tema::dinheiro_e_compras nivel::intermediario,idioms::english::Léxico::Intermediário::17 Dinheiro e compras
+card,cartão (pagamento),lexico idioma::ingles tema::dinheiro_e_compras nivel::intermediario,idioms::english::Léxico::Intermediário::17 Dinheiro e compras
+debt,dívida,lexico idioma::ingles tema::dinheiro_e_compras nivel::intermediario,idioms::english::Léxico::Intermediário::17 Dinheiro e compras
+loan,empréstimo,lexico idioma::ingles tema::dinheiro_e_compras nivel::intermediario,idioms::english::Léxico::Intermediário::17 Dinheiro e compras
+savings,poupança (economias),lexico idioma::ingles tema::dinheiro_e_compras nivel::intermediario,idioms::english::Léxico::Intermediário::17 Dinheiro e compras
+profit,lucro,lexico idioma::ingles tema::dinheiro_e_compras nivel::intermediario,idioms::english::Léxico::Intermediário::17 Dinheiro e compras
+loss,perda,lexico idioma::ingles tema::dinheiro_e_compras nivel::intermediario,idioms::english::Léxico::Intermediário::17 Dinheiro e compras
+tax,imposto,lexico idioma::ingles tema::dinheiro_e_compras nivel::intermediario,idioms::english::Léxico::Intermediário::17 Dinheiro e compras
+budget,orçamento,lexico idioma::ingles tema::dinheiro_e_compras nivel::intermediario,idioms::english::Léxico::Intermediário::17 Dinheiro e compras
+purchase,compra,lexico idioma::ingles tema::dinheiro_e_compras nivel::intermediario,idioms::english::Léxico::Intermediário::17 Dinheiro e compras
+sale,venda,lexico idioma::ingles tema::dinheiro_e_compras nivel::intermediario,idioms::english::Léxico::Intermediário::17 Dinheiro e compras
+product,produto,lexico idioma::ingles tema::dinheiro_e_compras nivel::intermediario,idioms::english::Léxico::Intermediário::17 Dinheiro e compras
+warranty,garantia,lexico idioma::ingles tema::dinheiro_e_compras nivel::intermediario,idioms::english::Léxico::Intermediário::17 Dinheiro e compras
+quality,qualidade,lexico idioma::ingles tema::dinheiro_e_compras nivel::intermediario,idioms::english::Léxico::Intermediário::17 Dinheiro e compras
+value,valor (monetário),lexico idioma::ingles tema::dinheiro_e_compras nivel::intermediario,idioms::english::Léxico::Intermediário::17 Dinheiro e compras
+be,ser (identidade),lexico idioma::ingles tema::acoes_cotidianas nivel::basico,idioms::english::Léxico::Básico::18 Ações cotidianas
+have,ter,lexico idioma::ingles tema::acoes_cotidianas nivel::basico,idioms::english::Léxico::Básico::18 Ações cotidianas
+do,fazer (realizar),lexico idioma::ingles tema::acoes_cotidianas nivel::basico,idioms::english::Léxico::Básico::18 Ações cotidianas
+go,ir,lexico idioma::ingles tema::acoes_cotidianas nivel::basico,idioms::english::Léxico::Básico::18 Ações cotidianas
+come,vir,lexico idioma::ingles tema::acoes_cotidianas nivel::basico,idioms::english::Léxico::Básico::18 Ações cotidianas
+eat,comer,lexico idioma::ingles tema::acoes_cotidianas nivel::basico,idioms::english::Léxico::Básico::18 Ações cotidianas
+drink,beber,lexico idioma::ingles tema::acoes_cotidianas nivel::basico,idioms::english::Léxico::Básico::18 Ações cotidianas
+sleep,dormir,lexico idioma::ingles tema::acoes_cotidianas nivel::basico,idioms::english::Léxico::Básico::18 Ações cotidianas
+wake,acordar,lexico idioma::ingles tema::acoes_cotidianas nivel::basico,idioms::english::Léxico::Básico::18 Ações cotidianas
+get up,levantar-se,lexico idioma::ingles tema::acoes_cotidianas nivel::basico,idioms::english::Léxico::Básico::18 Ações cotidianas
+wash,lavar,lexico idioma::ingles tema::acoes_cotidianas nivel::basico,idioms::english::Léxico::Básico::18 Ações cotidianas
+clean,limpar,lexico idioma::ingles tema::acoes_cotidianas nivel::basico,idioms::english::Léxico::Básico::18 Ações cotidianas
+cook (verb),cozinhar,lexico idioma::ingles tema::acoes_cotidianas nivel::basico,idioms::english::Léxico::Básico::18 Ações cotidianas
+buy,comprar,lexico idioma::ingles tema::acoes_cotidianas nivel::basico,idioms::english::Léxico::Básico::18 Ações cotidianas
+sell,vender,lexico idioma::ingles tema::acoes_cotidianas nivel::basico,idioms::english::Léxico::Básico::18 Ações cotidianas
+pay,pagar,lexico idioma::ingles tema::acoes_cotidianas nivel::basico,idioms::english::Léxico::Básico::18 Ações cotidianas
+work (verb),trabalhar,lexico idioma::ingles tema::acoes_cotidianas nivel::basico,idioms::english::Léxico::Básico::18 Ações cotidianas
+study,estudar,lexico idioma::ingles tema::acoes_cotidianas nivel::basico,idioms::english::Léxico::Básico::18 Ações cotidianas
+read,ler,lexico idioma::ingles tema::acoes_cotidianas nivel::basico,idioms::english::Léxico::Básico::18 Ações cotidianas
+write,escrever,lexico idioma::ingles tema::acoes_cotidianas nivel::basico,idioms::english::Léxico::Básico::18 Ações cotidianas
+speak,falar,lexico idioma::ingles tema::acoes_cotidianas nivel::basico,idioms::english::Léxico::Básico::18 Ações cotidianas
+hear,ouvir,lexico idioma::ingles tema::acoes_cotidianas nivel::basico,idioms::english::Léxico::Básico::18 Ações cotidianas
+listen,escutar com atenção,lexico idioma::ingles tema::acoes_cotidianas nivel::basico,idioms::english::Léxico::Básico::18 Ações cotidianas
+see,ver,lexico idioma::ingles tema::acoes_cotidianas nivel::basico,idioms::english::Léxico::Básico::18 Ações cotidianas
+look,olhar,lexico idioma::ingles tema::acoes_cotidianas nivel::basico,idioms::english::Léxico::Básico::18 Ações cotidianas
+walk,caminhar,lexico idioma::ingles tema::movimento_e_interacao nivel::intermediario,idioms::english::Léxico::Intermediário::19 Movimento e interação
+run,correr,lexico idioma::ingles tema::movimento_e_interacao nivel::intermediario,idioms::english::Léxico::Intermediário::19 Movimento e interação
+swim,nadar,lexico idioma::ingles tema::movimento_e_interacao nivel::intermediario,idioms::english::Léxico::Intermediário::19 Movimento e interação
+fly,voar,lexico idioma::ingles tema::movimento_e_interacao nivel::intermediario,idioms::english::Léxico::Intermediário::19 Movimento e interação
+travel,viajar,lexico idioma::ingles tema::movimento_e_interacao nivel::intermediario,idioms::english::Léxico::Intermediário::19 Movimento e interação
+drive,dirigir,lexico idioma::ingles tema::movimento_e_interacao nivel::intermediario,idioms::english::Léxico::Intermediário::19 Movimento e interação
+enter,entrar,lexico idioma::ingles tema::movimento_e_interacao nivel::intermediario,idioms::english::Léxico::Intermediário::19 Movimento e interação
+leave,sair,lexico idioma::ingles tema::movimento_e_interacao nivel::intermediario,idioms::english::Léxico::Intermediário::19 Movimento e interação
+arrive,chegar,lexico idioma::ingles tema::movimento_e_interacao nivel::intermediario,idioms::english::Léxico::Intermediário::19 Movimento e interação
+return,voltar,lexico idioma::ingles tema::movimento_e_interacao nivel::intermediario,idioms::english::Léxico::Intermediário::19 Movimento e interação
+climb,subir (escalar),lexico idioma::ingles tema::movimento_e_interacao nivel::intermediario,idioms::english::Léxico::Intermediário::19 Movimento e interação
+descend,descer (mover para baixo),lexico idioma::ingles tema::movimento_e_interacao nivel::intermediario,idioms::english::Léxico::Intermediário::19 Movimento e interação
+open,abrir,lexico idioma::ingles tema::movimento_e_interacao nivel::intermediario,idioms::english::Léxico::Intermediário::19 Movimento e interação
+close,fechar,lexico idioma::ingles tema::movimento_e_interacao nivel::intermediario,idioms::english::Léxico::Intermediário::19 Movimento e interação
+sit,sentar-se,lexico idioma::ingles tema::movimento_e_interacao nivel::intermediario,idioms::english::Léxico::Intermediário::19 Movimento e interação
+wait,esperar (aguardar),lexico idioma::ingles tema::movimento_e_interacao nivel::intermediario,idioms::english::Léxico::Intermediário::19 Movimento e interação
+help,ajudar,lexico idioma::ingles tema::movimento_e_interacao nivel::intermediario,idioms::english::Léxico::Intermediário::19 Movimento e interação
+ask,pedir (solicitar),lexico idioma::ingles tema::movimento_e_interacao nivel::intermediario,idioms::english::Léxico::Intermediário::19 Movimento e interação
+reply,responder,lexico idioma::ingles tema::movimento_e_interacao nivel::intermediario,idioms::english::Léxico::Intermediário::19 Movimento e interação
+give,dar,lexico idioma::ingles tema::movimento_e_interacao nivel::intermediario,idioms::english::Léxico::Intermediário::19 Movimento e interação
+receive,receber,lexico idioma::ingles tema::movimento_e_interacao nivel::intermediario,idioms::english::Léxico::Intermediário::19 Movimento e interação
+bring,trazer,lexico idioma::ingles tema::movimento_e_interacao nivel::intermediario,idioms::english::Léxico::Intermediário::19 Movimento e interação
+send,enviar,lexico idioma::ingles tema::movimento_e_interacao nivel::intermediario,idioms::english::Léxico::Intermediário::19 Movimento e interação
+find,encontrar (achar),lexico idioma::ingles tema::movimento_e_interacao nivel::intermediario,idioms::english::Léxico::Intermediário::19 Movimento e interação
+know,conhecer (ter familiaridade),lexico idioma::ingles tema::movimento_e_interacao nivel::intermediario,idioms::english::Léxico::Intermediário::19 Movimento e interação
+big,grande,lexico idioma::ingles tema::qualidades_e_descricoes nivel::basico,idioms::english::Léxico::Básico::20 Qualidades e descrições
+small,pequeno,lexico idioma::ingles tema::qualidades_e_descricoes nivel::basico,idioms::english::Léxico::Básico::20 Qualidades e descrições
+tall,alto (estatura),lexico idioma::ingles tema::qualidades_e_descricoes nivel::basico,idioms::english::Léxico::Básico::20 Qualidades e descrições
+short,baixo (estatura),lexico idioma::ingles tema::qualidades_e_descricoes nivel::basico,idioms::english::Léxico::Básico::20 Qualidades e descrições
+long,comprido,lexico idioma::ingles tema::qualidades_e_descricoes nivel::basico,idioms::english::Léxico::Básico::20 Qualidades e descrições
+brief,breve (duração ou extensão),lexico idioma::ingles tema::qualidades_e_descricoes nivel::basico,idioms::english::Léxico::Básico::20 Qualidades e descrições
+new,novo,lexico idioma::ingles tema::qualidades_e_descricoes nivel::basico,idioms::english::Léxico::Básico::20 Qualidades e descrições
+old,velho,lexico idioma::ingles tema::qualidades_e_descricoes nivel::basico,idioms::english::Léxico::Básico::20 Qualidades e descrições
+young,jovem,lexico idioma::ingles tema::qualidades_e_descricoes nivel::basico,idioms::english::Léxico::Básico::20 Qualidades e descrições
+good,bom,lexico idioma::ingles tema::qualidades_e_descricoes nivel::basico,idioms::english::Léxico::Básico::20 Qualidades e descrições
+bad,ruim,lexico idioma::ingles tema::qualidades_e_descricoes nivel::basico,idioms::english::Léxico::Básico::20 Qualidades e descrições
+beautiful,bonito,lexico idioma::ingles tema::qualidades_e_descricoes nivel::basico,idioms::english::Léxico::Básico::20 Qualidades e descrições
+ugly,feio,lexico idioma::ingles tema::qualidades_e_descricoes nivel::basico,idioms::english::Léxico::Básico::20 Qualidades e descrições
+easy,fácil,lexico idioma::ingles tema::qualidades_e_descricoes nivel::basico,idioms::english::Léxico::Básico::20 Qualidades e descrições
+difficult,difícil,lexico idioma::ingles tema::qualidades_e_descricoes nivel::basico,idioms::english::Léxico::Básico::20 Qualidades e descrições
+fast,rápido,lexico idioma::ingles tema::qualidades_e_descricoes nivel::basico,idioms::english::Léxico::Básico::20 Qualidades e descrições
+slow,lento,lexico idioma::ingles tema::qualidades_e_descricoes nivel::basico,idioms::english::Léxico::Básico::20 Qualidades e descrições
+hot,quente,lexico idioma::ingles tema::qualidades_e_descricoes nivel::basico,idioms::english::Léxico::Básico::20 Qualidades e descrições
+cold (temperature),frio (temperatura),lexico idioma::ingles tema::qualidades_e_descricoes nivel::basico,idioms::english::Léxico::Básico::20 Qualidades e descrições
+full,cheio,lexico idioma::ingles tema::qualidades_e_descricoes nivel::basico,idioms::english::Léxico::Básico::20 Qualidades e descrições
+empty,vazio,lexico idioma::ingles tema::qualidades_e_descricoes nivel::basico,idioms::english::Léxico::Básico::20 Qualidades e descrições
+strong,forte,lexico idioma::ingles tema::qualidades_e_descricoes nivel::basico,idioms::english::Léxico::Básico::20 Qualidades e descrições
+weak,fraco,lexico idioma::ingles tema::qualidades_e_descricoes nivel::basico,idioms::english::Léxico::Básico::20 Qualidades e descrições
+expensive,caro,lexico idioma::ingles tema::qualidades_e_descricoes nivel::basico,idioms::english::Léxico::Básico::20 Qualidades e descrições
+cheap,barato,lexico idioma::ingles tema::qualidades_e_descricoes nivel::basico,idioms::english::Léxico::Básico::20 Qualidades e descrições
+joy,alegria,lexico idioma::ingles tema::emocoes_e_sentimentos nivel::intermediario,idioms::english::Léxico::Intermediário::21 Emoções e sentimentos
+sadness,tristeza,lexico idioma::ingles tema::emocoes_e_sentimentos nivel::intermediario,idioms::english::Léxico::Intermediário::21 Emoções e sentimentos
+fear,medo,lexico idioma::ingles tema::emocoes_e_sentimentos nivel::intermediario,idioms::english::Léxico::Intermediário::21 Emoções e sentimentos
+anger,raiva,lexico idioma::ingles tema::emocoes_e_sentimentos nivel::intermediario,idioms::english::Léxico::Intermediário::21 Emoções e sentimentos
+surprise,surpresa,lexico idioma::ingles tema::emocoes_e_sentimentos nivel::intermediario,idioms::english::Léxico::Intermediário::21 Emoções e sentimentos
+shame,vergonha,lexico idioma::ingles tema::emocoes_e_sentimentos nivel::intermediario,idioms::english::Léxico::Intermediário::21 Emoções e sentimentos
+pride,orgulho,lexico idioma::ingles tema::emocoes_e_sentimentos nivel::intermediario,idioms::english::Léxico::Intermediário::21 Emoções e sentimentos
+hope,esperança,lexico idioma::ingles tema::emocoes_e_sentimentos nivel::intermediario,idioms::english::Léxico::Intermediário::21 Emoções e sentimentos
+love,amor,lexico idioma::ingles tema::emocoes_e_sentimentos nivel::intermediario,idioms::english::Léxico::Intermediário::21 Emoções e sentimentos
+hatred,ódio,lexico idioma::ingles tema::emocoes_e_sentimentos nivel::intermediario,idioms::english::Léxico::Intermediário::21 Emoções e sentimentos
+anxiety,ansiedade,lexico idioma::ingles tema::emocoes_e_sentimentos nivel::intermediario,idioms::english::Léxico::Intermediário::21 Emoções e sentimentos
+calm,calma,lexico idioma::ingles tema::emocoes_e_sentimentos nivel::intermediario,idioms::english::Léxico::Intermediário::21 Emoções e sentimentos
+trust,confiança,lexico idioma::ingles tema::emocoes_e_sentimentos nivel::intermediario,idioms::english::Léxico::Intermediário::21 Emoções e sentimentos
+worry,preocupação,lexico idioma::ingles tema::emocoes_e_sentimentos nivel::intermediario,idioms::english::Léxico::Intermediário::21 Emoções e sentimentos
+enthusiasm,entusiasmo,lexico idioma::ingles tema::emocoes_e_sentimentos nivel::intermediario,idioms::english::Léxico::Intermediário::21 Emoções e sentimentos
+loneliness,solidão,lexico idioma::ingles tema::emocoes_e_sentimentos nivel::intermediario,idioms::english::Léxico::Intermediário::21 Emoções e sentimentos
+jealousy,ciúme,lexico idioma::ingles tema::emocoes_e_sentimentos nivel::intermediario,idioms::english::Léxico::Intermediário::21 Emoções e sentimentos
+envy,inveja,lexico idioma::ingles tema::emocoes_e_sentimentos nivel::intermediario,idioms::english::Léxico::Intermediário::21 Emoções e sentimentos
+gratitude,gratidão,lexico idioma::ingles tema::emocoes_e_sentimentos nivel::intermediario,idioms::english::Léxico::Intermediário::21 Emoções e sentimentos
+guilt,culpa,lexico idioma::ingles tema::emocoes_e_sentimentos nivel::intermediario,idioms::english::Léxico::Intermediário::21 Emoções e sentimentos
+respect,respeito,lexico idioma::ingles tema::emocoes_e_sentimentos nivel::intermediario,idioms::english::Léxico::Intermediário::21 Emoções e sentimentos
+patience,paciência,lexico idioma::ingles tema::emocoes_e_sentimentos nivel::intermediario,idioms::english::Léxico::Intermediário::21 Emoções e sentimentos
+courage,coragem,lexico idioma::ingles tema::emocoes_e_sentimentos nivel::intermediario,idioms::english::Léxico::Intermediário::21 Emoções e sentimentos
+relief,alívio,lexico idioma::ingles tema::emocoes_e_sentimentos nivel::intermediario,idioms::english::Léxico::Intermediário::21 Emoções e sentimentos
+disappointment,decepção,lexico idioma::ingles tema::emocoes_e_sentimentos nivel::intermediario,idioms::english::Léxico::Intermediário::21 Emoções e sentimentos
+idea,ideia,lexico idioma::ingles tema::ideias_e_planejamento nivel::intermediario,idioms::english::Léxico::Intermediário::22 Ideias e planejamento
+opinion,opinião,lexico idioma::ingles tema::ideias_e_planejamento nivel::intermediario,idioms::english::Léxico::Intermediário::22 Ideias e planejamento
+decision,decisão,lexico idioma::ingles tema::ideias_e_planejamento nivel::intermediario,idioms::english::Léxico::Intermediário::22 Ideias e planejamento
+choice,escolha,lexico idioma::ingles tema::ideias_e_planejamento nivel::intermediario,idioms::english::Léxico::Intermediário::22 Ideias e planejamento
+goal,objetivo,lexico idioma::ingles tema::ideias_e_planejamento nivel::intermediario,idioms::english::Léxico::Intermediário::22 Ideias e planejamento
+plan,plano,lexico idioma::ingles tema::ideias_e_planejamento nivel::intermediario,idioms::english::Léxico::Intermediário::22 Ideias e planejamento
+proposal,proposta,lexico idioma::ingles tema::ideias_e_planejamento nivel::intermediario,idioms::english::Léxico::Intermediário::22 Ideias e planejamento
+solution,solução,lexico idioma::ingles tema::ideias_e_planejamento nivel::intermediario,idioms::english::Léxico::Intermediário::22 Ideias e planejamento
+problem,problema,lexico idioma::ingles tema::ideias_e_planejamento nivel::intermediario,idioms::english::Léxico::Intermediário::22 Ideias e planejamento
+reason,motivo,lexico idioma::ingles tema::ideias_e_planejamento nivel::intermediario,idioms::english::Léxico::Intermediário::22 Ideias e planejamento
+consequence,consequência,lexico idioma::ingles tema::ideias_e_planejamento nivel::intermediario,idioms::english::Léxico::Intermediário::22 Ideias e planejamento
+cause,causa,lexico idioma::ingles tema::ideias_e_planejamento nivel::intermediario,idioms::english::Léxico::Intermediário::22 Ideias e planejamento
+result,resultado,lexico idioma::ingles tema::ideias_e_planejamento nivel::intermediario,idioms::english::Léxico::Intermediário::22 Ideias e planejamento
+advantage,vantagem,lexico idioma::ingles tema::ideias_e_planejamento nivel::intermediario,idioms::english::Léxico::Intermediário::22 Ideias e planejamento
+disadvantage,desvantagem,lexico idioma::ingles tema::ideias_e_planejamento nivel::intermediario,idioms::english::Léxico::Intermediário::22 Ideias e planejamento
+risk,risco,lexico idioma::ingles tema::ideias_e_planejamento nivel::intermediario,idioms::english::Léxico::Intermediário::22 Ideias e planejamento
+opportunity,oportunidade,lexico idioma::ingles tema::ideias_e_planejamento nivel::intermediario,idioms::english::Léxico::Intermediário::22 Ideias e planejamento
+possibility,possibilidade,lexico idioma::ingles tema::ideias_e_planejamento nivel::intermediario,idioms::english::Léxico::Intermediário::22 Ideias e planejamento
+need,necessidade,lexico idioma::ingles tema::ideias_e_planejamento nivel::intermediario,idioms::english::Léxico::Intermediário::22 Ideias e planejamento
+priority,prioridade,lexico idioma::ingles tema::ideias_e_planejamento nivel::intermediario,idioms::english::Léxico::Intermediário::22 Ideias e planejamento
+evidence,evidência,lexico idioma::ingles tema::ideias_e_planejamento nivel::intermediario,idioms::english::Léxico::Intermediário::22 Ideias e planejamento
+hypothesis,hipótese,lexico idioma::ingles tema::ideias_e_planejamento nivel::intermediario,idioms::english::Léxico::Intermediário::22 Ideias e planejamento
+doubt,dúvida,lexico idioma::ingles tema::ideias_e_planejamento nivel::intermediario,idioms::english::Léxico::Intermediário::22 Ideias e planejamento
+agreement,acordo,lexico idioma::ingles tema::ideias_e_planejamento nivel::intermediario,idioms::english::Léxico::Intermediário::22 Ideias e planejamento
+commitment,compromisso (obrigação assumida),lexico idioma::ingles tema::ideias_e_planejamento nivel::intermediario,idioms::english::Léxico::Intermediário::22 Ideias e planejamento
+red,vermelho,lexico idioma::ingles tema::cores_e_dimensoes nivel::basico,idioms::english::Léxico::Básico::23 Cores e dimensões
+blue,azul,lexico idioma::ingles tema::cores_e_dimensoes nivel::basico,idioms::english::Léxico::Básico::23 Cores e dimensões
+green,verde,lexico idioma::ingles tema::cores_e_dimensoes nivel::basico,idioms::english::Léxico::Básico::23 Cores e dimensões
+yellow,amarelo,lexico idioma::ingles tema::cores_e_dimensoes nivel::basico,idioms::english::Léxico::Básico::23 Cores e dimensões
+black,preto,lexico idioma::ingles tema::cores_e_dimensoes nivel::basico,idioms::english::Léxico::Básico::23 Cores e dimensões
+white,branco,lexico idioma::ingles tema::cores_e_dimensoes nivel::basico,idioms::english::Léxico::Básico::23 Cores e dimensões
+gray,cinza,lexico idioma::ingles tema::cores_e_dimensoes nivel::basico,idioms::english::Léxico::Básico::23 Cores e dimensões
+brown,marrom,lexico idioma::ingles tema::cores_e_dimensoes nivel::basico,idioms::english::Léxico::Básico::23 Cores e dimensões
+purple,roxo,lexico idioma::ingles tema::cores_e_dimensoes nivel::basico,idioms::english::Léxico::Básico::23 Cores e dimensões
+pink,cor-de-rosa,lexico idioma::ingles tema::cores_e_dimensoes nivel::basico,idioms::english::Léxico::Básico::23 Cores e dimensões
+transparent,transparente,lexico idioma::ingles tema::cores_e_dimensoes nivel::basico,idioms::english::Léxico::Básico::23 Cores e dimensões
+light,claro (tonalidade),lexico idioma::ingles tema::cores_e_dimensoes nivel::basico,idioms::english::Léxico::Básico::23 Cores e dimensões
+dark,escuro,lexico idioma::ingles tema::cores_e_dimensoes nivel::basico,idioms::english::Léxico::Básico::23 Cores e dimensões
+wide,largo (largura),lexico idioma::ingles tema::cores_e_dimensoes nivel::basico,idioms::english::Léxico::Básico::23 Cores e dimensões
+narrow,estreito,lexico idioma::ingles tema::cores_e_dimensoes nivel::basico,idioms::english::Léxico::Básico::23 Cores e dimensões
+thick,grosso,lexico idioma::ingles tema::cores_e_dimensoes nivel::basico,idioms::english::Léxico::Básico::23 Cores e dimensões
+thin,fino (espessura),lexico idioma::ingles tema::cores_e_dimensoes nivel::basico,idioms::english::Léxico::Básico::23 Cores e dimensões
+heavy,pesado,lexico idioma::ingles tema::cores_e_dimensoes nivel::basico,idioms::english::Léxico::Básico::23 Cores e dimensões
+lightweight,leve (peso),lexico idioma::ingles tema::cores_e_dimensoes nivel::basico,idioms::english::Léxico::Básico::23 Cores e dimensões
+round,redondo,lexico idioma::ingles tema::cores_e_dimensoes nivel::basico,idioms::english::Léxico::Básico::23 Cores e dimensões
+square (shape),quadrado,lexico idioma::ingles tema::cores_e_dimensoes nivel::basico,idioms::english::Léxico::Básico::23 Cores e dimensões
+straight,reto,lexico idioma::ingles tema::cores_e_dimensoes nivel::basico,idioms::english::Léxico::Básico::23 Cores e dimensões
+curved,curvo,lexico idioma::ingles tema::cores_e_dimensoes nivel::basico,idioms::english::Léxico::Básico::23 Cores e dimensões
+deep,profundo,lexico idioma::ingles tema::cores_e_dimensoes nivel::basico,idioms::english::Léxico::Básico::23 Cores e dimensões
+shallow,raso,lexico idioma::ingles tema::cores_e_dimensoes nivel::basico,idioms::english::Léxico::Básico::23 Cores e dimensões
+music,música,lexico idioma::ingles tema::cultura_e_lazer nivel::intermediario,idioms::english::Léxico::Intermediário::24 Cultura e lazer
+song,canção,lexico idioma::ingles tema::cultura_e_lazer nivel::intermediario,idioms::english::Léxico::Intermediário::24 Cultura e lazer
+film,filme,lexico idioma::ingles tema::cultura_e_lazer nivel::intermediario,idioms::english::Léxico::Intermediário::24 Cultura e lazer
+dance,dança,lexico idioma::ingles tema::cultura_e_lazer nivel::intermediario,idioms::english::Léxico::Intermediário::24 Cultura e lazer
+art,arte,lexico idioma::ingles tema::cultura_e_lazer nivel::intermediario,idioms::english::Léxico::Intermediário::24 Cultura e lazer
+painting,pintura (obra artística),lexico idioma::ingles tema::cultura_e_lazer nivel::intermediario,idioms::english::Léxico::Intermediário::24 Cultura e lazer
+drawing,desenho,lexico idioma::ingles tema::cultura_e_lazer nivel::intermediario,idioms::english::Léxico::Intermediário::24 Cultura e lazer
+sculpture,escultura,lexico idioma::ingles tema::cultura_e_lazer nivel::intermediario,idioms::english::Léxico::Intermediário::24 Cultura e lazer
+novel,romance (gênero literário),lexico idioma::ingles tema::cultura_e_lazer nivel::intermediario,idioms::english::Léxico::Intermediário::24 Cultura e lazer
+poem,poema,lexico idioma::ingles tema::cultura_e_lazer nivel::intermediario,idioms::english::Léxico::Intermediário::24 Cultura e lazer
+author,autor,lexico idioma::ingles tema::cultura_e_lazer nivel::intermediario,idioms::english::Léxico::Intermediário::24 Cultura e lazer
+actor,ator,lexico idioma::ingles tema::cultura_e_lazer nivel::intermediario,idioms::english::Léxico::Intermediário::24 Cultura e lazer
+actress,atriz,lexico idioma::ingles tema::cultura_e_lazer nivel::intermediario,idioms::english::Léxico::Intermediário::24 Cultura e lazer
+singer,cantor,lexico idioma::ingles tema::cultura_e_lazer nivel::intermediario,idioms::english::Léxico::Intermediário::24 Cultura e lazer
+instrument,instrumento musical,lexico idioma::ingles tema::cultura_e_lazer nivel::intermediario,idioms::english::Léxico::Intermediário::24 Cultura e lazer
+guitar,violão; guitarra,lexico idioma::ingles tema::cultura_e_lazer nivel::intermediario,idioms::english::Léxico::Intermediário::24 Cultura e lazer
+violin,violino,lexico idioma::ingles tema::cultura_e_lazer nivel::intermediario,idioms::english::Léxico::Intermediário::24 Cultura e lazer
+drum,tambor,lexico idioma::ingles tema::cultura_e_lazer nivel::intermediario,idioms::english::Léxico::Intermediário::24 Cultura e lazer
+concert,concerto,lexico idioma::ingles tema::cultura_e_lazer nivel::intermediario,idioms::english::Léxico::Intermediário::24 Cultura e lazer
+festival,festival,lexico idioma::ingles tema::cultura_e_lazer nivel::intermediario,idioms::english::Léxico::Intermediário::24 Cultura e lazer
+sport,esporte,lexico idioma::ingles tema::cultura_e_lazer nivel::intermediario,idioms::english::Léxico::Intermediário::24 Cultura e lazer
+game,jogo,lexico idioma::ingles tema::cultura_e_lazer nivel::intermediario,idioms::english::Léxico::Intermediário::24 Cultura e lazer
+soccer,futebol,lexico idioma::ingles tema::cultura_e_lazer nivel::intermediario,idioms::english::Léxico::Intermediário::24 Cultura e lazer
+swimming,natação,lexico idioma::ingles tema::cultura_e_lazer nivel::intermediario,idioms::english::Léxico::Intermediário::24 Cultura e lazer
+stroll,caminhada (passeio),lexico idioma::ingles tema::cultura_e_lazer nivel::intermediario,idioms::english::Léxico::Intermediário::24 Cultura e lazer

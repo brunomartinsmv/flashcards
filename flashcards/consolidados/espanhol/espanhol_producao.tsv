@@ -1,0 +1,234 @@
+#separator:Tab
+#html:true
+#tags column:4
+#columns:Frente	Verso	Notas	Tags
+Me duele la cabeza desde _____.	anoche<br><br>Me duele la cabeza desde anoche.<br>A dor de cabeça começou ontem à noite.	desde + momento	saude b1 lote_2026_07_24
+Necesito _____ con el médico.	pedir una cita<br><br>Necesito pedir una cita con el médico.<br>Preciso marcar uma consulta com o médico.	pedir una cita = marcar consulta	saude b1 lote_2026_07_24
+¿Puede _____ esta receta, por favor?	rellenar<br><br>¿Puede rellenar esta receta, por favor?<br>Pode aviar/preencher esta receita, por favor?	farmacia: rellenar una receta	saude b1 lote_2026_07_24
+Tomo este jarabe _____.	cada ocho horas<br><br>Tomo este jarabe cada ocho horas.<br>Tomo este xarope de oito em oito horas.	frequência de dose	saude b1 lote_2026_07_24
+Me siento _____ desde ayer.	nauseabundo<br><br>Me siento nauseabundo desde ayer.<br>Estou enjoado desde ontem.		saude b1 lote_2026_07_24
+Creo que me _____ la garganta.	irrité<br><br>Creo que me irrité la garganta.<br>Acho que irritei a garganta.	pretérito	saude b1 lote_2026_07_24
+¿Esto causa _____?	somnolencia<br><br>¿Esto causa somnolencia?<br>Isso causa sonolência?	bula/efeitos	saude b1 lote_2026_07_24
+Tengo fiebre y _____.	escalofríos<br><br>Tengo fiebre y escalofríos.<br>Estou com febre e calafrios.		saude b1 lote_2026_07_24
+Me torcí el tobillo _____.	al bajar<br><br>Me torcí el tobillo al bajar.<br>Torci o tornozelo ao descer.	al + infinitivo	saude b1 lote_2026_07_24
+El médico me dijo que _____ reposo.	hiciera<br><br>El médico me dijo que hiciera reposo.<br>O médico disse que eu fizesse repouso.	subjuntivo após decir que	saude b1 lote_2026_07_24
+¿Es contagioso o _____?	es alérgico<br><br>¿Es contagioso o es alérgico?<br>É contagioso ou é alérgico?		saude b1 lote_2026_07_24
+No tolero bien _____.	la penicilina<br><br>No tolero bien la penicilina.<br>Não tolero bem a penicilina.		saude b1 lote_2026_07_24
+Voy a _____ la presión.	tomarme<br><br>Voy a tomarme la presión.<br>Vou medir a minha pressão.	tomarse la presión	saude b1 lote_2026_07_24
+Siento un _____ en el pecho.	pinchazo<br><br>Siento un pinchazo en el pecho.<br>Sinto uma pontada no peito.		saude b1 lote_2026_07_24
+Me mareé _____ del autobús.	al bajarme<br><br>Me mareé al bajarme del autobús.<br>Fiquei tonto ao descer do ônibus.		saude b1 lote_2026_07_24
+¿Cuánto tarda en _____ el efecto?	hacer<br><br>¿Cuánto tarda en hacer el efecto?<br>Quanto tempo demora para fazer efeito?	hacer efecto	saude b1 lote_2026_07_24
+Estoy _____ por el antibiótico.	estreñido<br><br>Estoy estreñido por el antibiótico.<br>Estou constipado por causa do antibiótico.	false friend: estreñido ≠ estranho	saude b1 lote_2026_07_24
+Me pusieron una _____ en el brazo.	inyección<br><br>Me pusieron una inyección en el brazo.<br>Me deram uma injeção no braço.		saude b1 lote_2026_07_24
+Tengo _____ en las muelas.	sensibilidad<br><br>Tengo sensibilidad en las muelas.<br>Tenho sensibilidade nos dentes.		saude b1 lote_2026_07_24
+¿Hay algún _____ sin cita?	turno<br><br>¿Hay algún turno sin cita?<br>Há algum horário/vaga sem consulta marcada?	turno ≈ vaga	saude b1 lote_2026_07_24
+Me duele al _____.	tragar<br><br>Me duele al tragar.<br>Dói ao engolir.		saude b1 lote_2026_07_24
+El resultado _____ la próxima semana.	sale<br><br>El resultado sale la próxima semana.<br>O resultado sai na próxima semana.	salir = ser publicado	saude b1 lote_2026_07_24
+Prefiero un analgésico _____.	de venta libre<br><br>Prefiero un analgésico de venta libre.<br>Prefiro um analgésico sem receita.		saude b1 lote_2026_07_24
+Me _____ el oído derecho.	zumba<br><br>Me zumba el oído derecho.<br>O ouvido direito está zunindo.		saude b1 lote_2026_07_24
+Tuve que _____ por la tos.	ausentarme<br><br>Tuve que ausentarme por la tos.<br>Tive que me ausentar por causa da tosse.	ausentarse	saude b1 lote_2026_07_24
+No estoy de acuerdo _____.	del todo<br><br>No estoy de acuerdo del todo.<br>Não concordo completamente.	no del todo	social b1 lote_2026_07_24
+_____, pero entiendo tu punto.	Discrepo<br><br>Discrepo, pero entiendo tu punto.<br>Discordo, mas entendo o seu ponto.		social b1 lote_2026_07_24
+No era mi intención _____.	ofenderte<br><br>No era mi intención ofenderte.<br>Não era minha intenção te ofender.		social b1 lote_2026_07_24
+¿Podemos _____ esto con calma?	hablar de<br><br>¿Podemos hablar de esto con calma?<br>Podemos falar disso com calma?		social b1 lote_2026_07_24
+Me molesta que _____ interrumpiendo.	sigas<br><br>Me molesta que sigas interrumpiendo.<br>Me incomoda que você continue interrompendo.	subjuntivo com molestar que	social b1 lote_2026_07_24
+Prefiero no _____ en eso.	entrometerme<br><br>Prefiero no entrometerme en eso.<br>Prefiro não me intrometer nisso.		social b1 lote_2026_07_24
+_____ lo que dijiste ayer.	Malinterpreté<br><br>Malinterpreté lo que dijiste ayer.<br>Interpretei mal o que você disse ontem.		social b1 lote_2026_07_24
+¿Te importa si _____ un momento?	opino<br><br>¿Te importa si opino un momento?<br>Você se importa se eu der minha opinião um momento?		social b1 lote_2026_07_24
+Eso me parece _____.	poco razonable<br><br>Eso me parece poco razonable.<br>Isso me parece pouco razoável.		social b1 lote_2026_07_24
+No quiero _____ la discusión.	escalar<br><br>No quiero escalar la discusión.<br>Não quero escalar a discussão.		social b1 lote_2026_07_24
+Te pido disculpas _____.	de verdad<br><br>Te pido disculpas de verdad.<br>Peço desculpas de verdade.		social b1 lote_2026_07_24
+Dejemos este tema _____.	de lado<br><br>Dejemos este tema de lado.<br>Vamos deixar esse assunto de lado.	dejar de lado	social b1 lote_2026_07_24
+No me _____ que hables así.	parece bien<br><br>No me parece bien que hables así.<br>Não me parece bem que você fale assim.		social b1 lote_2026_07_24
+¿Qué quieres decir _____?	con eso<br><br>¿Qué quieres decir con eso?<br>O que você quer dizer com isso?		social b1 lote_2026_07_24
+Me siento _____ cuando no me escuchas.	ignorado<br><br>Me siento ignorado cuando no me escuchas.<br>Me sinto ignorado quando você não me escuta.		social b1 lote_2026_07_24
+Podemos _____ en algo intermedio.	quedar<br><br>Podemos quedar en algo intermedio.<br>Podemos combinar algo no meio-termo.	quedar en = combinar	social b1 lote_2026_07_24
+No es personal, _____ del proceso.	es una crítica<br><br>No es personal, es una crítica del proceso.<br>Não é pessoal, é uma crítica ao processo.		social b1 lote_2026_07_24
+_____ tu frontera, gracias.	Respeto<br><br>Respeto tu frontera, gracias.<br>Respeito o seu limite, obrigado.		social b1 lote_2026_07_24
+¿Podrías _____ un ejemplo?	poner<br><br>¿Podrías poner un ejemplo?<br>Você poderia dar um exemplo?	poner un ejemplo	social b1 lote_2026_07_24
+Hablo en serio: _____.	necesito espacio<br><br>Hablo en serio: necesito espacio.<br>Falo sério: preciso de espaço.		social b1 lote_2026_07_24
+No quiero que _____ a mal.	lo tomes<br><br>No quiero que lo tomes a mal.<br>Não quero que você leve a mal.	tomar a mal	social b1 lote_2026_07_24
+Cambié de opinión _____.	después de pensarlo<br><br>Cambié de opinión después de pensarlo.<br>Mudei de ideia depois de pensar.		social b1 lote_2026_07_24
+Eso cruza un _____ para mí.	límite<br><br>Eso cruza un límite para mí.<br>Isso ultrapassa um limite para mim.		social b1 lote_2026_07_24
+Vamos a _____ y mañana seguimos.	enfriarnos<br><br>Vamos a enfriarnos y mañana seguimos.<br>Vamos esfriar a cabeça e amanhã seguimos.		social b1 lote_2026_07_24
+Agradezco la franqueza, _____.	aunque duela<br><br>Agradezco la franqueza, aunque duela.<br>Agradeço a franqueza, embora doa.	aunque + subjuntivo	social b1 lote_2026_07_24
+Vine a _____ un reclamo.	presentar<br><br>Vine a presentar un reclamo.<br>Vim apresentar uma reclamação.		servicos b1 lote_2026_07_24
+¿Cuáles son los _____ para el trámite?	requisitos<br><br>¿Cuáles son los requisitos para el trámite?<br>Quais são os requisitos para o trâmite?		servicos b1 lote_2026_07_24
+Me falta una _____ del documento.	fotocopia<br><br>Me falta una fotocopia del documento.<br>Falta uma fotocópia do documento.		servicos b1 lote_2026_07_24
+El plazo _____ el viernes.	vence<br><br>El plazo vence el viernes.<br>O prazo vence na sexta-feira.		servicos b1 lote_2026_07_24
+Necesito _____ mi dirección.	actualizar<br><br>Necesito actualizar mi dirección.<br>Preciso atualizar meu endereço.	es-419: actualizar	servicos b1 lote_2026_07_24
+¿Puedo _____ el formulario en línea?	llenar<br><br>¿Puedo llenar el formulario en línea?<br>Posso preencher o formulário online?	llenar ≠ encher só	servicos b1 lote_2026_07_24
+Me dieron un _____ de espera.	número<br><br>Me dieron un número de espera.<br>Me deram uma senha/número de espera.		servicos b1 lote_2026_07_24
+Quiero _____ este producto.	devolver<br><br>Quiero devolver este producto.<br>Quero devolver este produto.		servicos b1 lote_2026_07_24
+Conservo la _____ por si acaso.	boleta<br><br>Conservo la boleta por si acaso.<br>Guardo a nota fiscal por precaução.	boleta/factura	servicos b1 lote_2026_07_24
+El envío _____ tres días hábiles.	tarda<br><br>El envío tarda tres días hábiles.<br>A entrega demora três dias úteis.		servicos b1 lote_2026_07_24
+¿Atienden _____ o solo con turno?	sin cita<br><br>¿Atienden sin cita o solo con turno?<br>Atendem sem hora marcada ou só com agendamento?		servicos b1 lote_2026_07_24
+Me cobraron de _____.	más<br><br>Me cobraron de más.<br>Me cobraram a mais.	de más	servicos b1 lote_2026_07_24
+Quiero hablar con un _____.	supervisor<br><br>Quiero hablar con un supervisor.<br>Quero falar com um supervisor.		servicos b1 lote_2026_07_24
+El sistema _____ mi solicitud.	rechazó<br><br>El sistema rechazó mi solicitud.<br>O sistema rejeitou minha solicitação.		servicos b1 lote_2026_07_24
+¿Dónde _____ la firma?	va<br><br>¿Dónde va la firma?<br>Onde vai a assinatura?		servicos b1 lote_2026_07_24
+Necesito una constancia _____.	de domicilio<br><br>Necesito una constancia de domicilio.<br>Preciso de um comprovante de residência.		servicos b1 lote_2026_07_24
+Pagué el _____ esta mañana.	arancel<br><br>Pagué el arancel esta mañana.<br>Paguei a taxa esta manhã.	arancel = taxa	servicos b1 lote_2026_07_24
+El paquete está _____ en aduana.	retenido<br><br>El paquete está retenido en aduana.<br>O pacote está retido na alfândega.		servicos b1 lote_2026_07_24
+Voy a _____ el caso por escrito.	dejar asentado<br><br>Voy a dejar asentado el caso por escrito.<br>Vou deixar o caso registrado por escrito.		servicos b1 lote_2026_07_24
+¿Pueden _____ el monto?	desglosar<br><br>¿Pueden desglosar el monto?<br>Podem discriminar/detalhar o valor?		servicos b1 lote_2026_07_24
+Me _____ del contrato el mes pasado.	di de baja<br><br>Me di de baja del contrato el mes pasado.<br>Cancelei o contrato no mês passado.	darse de baja	servicos b1 lote_2026_07_24
+La garantía _____ seis meses.	cubre<br><br>La garantía cubre seis meses.<br>A garantia cobre seis meses.		servicos b1 lote_2026_07_24
+Exijo una _____ por escrito.	respuesta<br><br>Exijo una respuesta por escrito.<br>Exijo uma resposta por escrito.		servicos b1 lote_2026_07_24
+El cajero _____ mi tarjeta.	retuvo<br><br>El cajero retuvo mi tarjeta.<br>O caixa reteve meu cartão.		servicos b1 lote_2026_07_24
+Quiero _____ a otra sucursal.	transferirme<br><br>Quiero transferirme a otra sucursal.<br>Quero me transferir para outra agência.		servicos b1 lote_2026_07_24
+¿Me puede traer la _____, por favor?	cuenta<br><br>¿Me puede traer la cuenta, por favor?<br>Pode trazer a conta, por favor?	já pode existir conta noutro sentido — frase distinta	restaurante b1 lote_2026_07_24
+¿Esto lleva _____?	gluten<br><br>¿Esto lleva gluten?<br>Isso leva glúten?		restaurante b1 lote_2026_07_24
+Lo quiero _____, no muy hecho.	al punto<br><br>Lo quiero al punto, no muy hecho.<br>Quero ao ponto, não muito passado.	punto de cocción	restaurante b1 lote_2026_07_24
+¿Tienen menú _____?	del día<br><br>¿Tienen menú del día?<br>Vocês têm o prato/menu do dia?		restaurante b1 lote_2026_07_24
+Pedí sin cebolla y _____.	igual vino<br><br>Pedí sin cebolla y igual vino.<br>Pedi sem cebola e mesmo assim veio.	igual = mesmo assim	restaurante b1 lote_2026_07_24
+Esto está _____; ¿pueden cambiarlo?	soso<br><br>Esto está soso; ¿pueden cambiarlo?<br>Isto está sem sal/insosso; podem trocar?		restaurante b1 lote_2026_07_24
+¿La propina _____ incluida?	viene<br><br>¿La propina viene incluida?<br>A gorjeta já vem incluída?		restaurante b1 lote_2026_07_24
+Para mí, _____ el agua.	solo<br><br>Para mí, solo el agua.<br>Para mim, só a água.		restaurante b1 lote_2026_07_24
+¿Me puede _____ un poco más?	servir<br><br>¿Me puede servir un poco más?<br>Pode servir um pouco mais?		restaurante b1 lote_2026_07_24
+Estamos _____; ¿hay mesa para dos?	de paso<br><br>Estamos de paso; ¿hay mesa para dos?<br>Estamos de passagem; tem mesa para dois?		restaurante b1 lote_2026_07_24
+El plato _____ más abundante.	se veía<br><br>El plato se veía más abundante.<br>O prato parecia mais abundante.	apariência vs realidade	restaurante b1 lote_2026_07_24
+¿Pueden _____ la cuenta?	separar<br><br>¿Pueden separar la cuenta?<br>Podem separar a conta?		restaurante b1 lote_2026_07_24
+Me equivoqué de _____.	pedido<br><br>Me equivoqué de pedido.<br>Errei o pedido.		restaurante b1 lote_2026_07_24
+¿Hay opción _____ en el menú?	vegetariana<br><br>¿Hay opción vegetariana en el menú?<br>Há opção vegetariana no cardápio?		restaurante b1 lote_2026_07_24
+Esto pica _____ para mí.	demasiado<br><br>Esto pica demasiado para mí.<br>Isto arde/apimenta demais para mim.	picar = arder	restaurante b1 lote_2026_07_24
+Quisiera _____ con aceite de oliva.	el aderezo<br><br>Quisiera el aderezo con aceite de oliva.<br>Gostaria do molho com azeite.		restaurante b1 lote_2026_07_24
+¿Me guarda la mesa _____?	cinco minutos<br><br>¿Me guarda la mesa cinco minutos?<br>Guarda a mesa por cinco minutos?		restaurante b1 lote_2026_07_24
+La cocina ya _____.	cerró<br><br>La cocina ya cerró.<br>A cozinha já fechou.		restaurante b1 lote_2026_07_24
+Voy a _____ el postre.	repetir<br><br>Voy a repetir el postre.<br>Vou repetir a sobremesa.	repetir = pedir de novo	restaurante b1 lote_2026_07_24
+¿Aceptan _____ o solo efectivo?	tarjeta<br><br>¿Aceptan tarjeta o solo efectivo?<br>Aceitam cartão ou só dinheiro?		restaurante b1 lote_2026_07_24
+Se me _____ la batería.	agotó<br><br>Se me agotó la batería.<br>A bateria acabou.	agotarse	tech b1 lote_2026_07_24
+No me _____ la contraseña.	acuerdo de<br><br>No me acuerdo de la contraseña.<br>Não me lembro da senha.	acordarse de	tech b1 lote_2026_07_24
+El archivo no _____ a abrirse.	logra<br><br>El archivo no logra a abrirse.<br>O arquivo não consegue abrir.		tech b1 lote_2026_07_24
+¿Puedes _____ la pantalla?	compartir<br><br>¿Puedes compartir la pantalla?<br>Pode compartilhar a tela?		tech b1 lote_2026_07_24
+Perdí la _____ del Wi-Fi.	señal<br><br>Perdí la señal del Wi-Fi.<br>Perdi o sinal do Wi-Fi.		tech b1 lote_2026_07_24
+Tengo que _____ el sistema.	reiniciar<br><br>Tengo que reiniciar el sistema.<br>Tenho que reiniciar o sistema.		tech b1 lote_2026_07_24
+El enlace _____.	está caído<br><br>El enlace está caído.<br>O link está fora do ar.		tech b1 lote_2026_07_24
+Subí el archivo a la _____.	nube<br><br>Subí el archivo a la nube.<br>Enviei o arquivo para a nuvem.		tech b1 lote_2026_07_24
+Me _____ dos veces el mensaje.	llegó<br><br>Me llegó dos veces el mensaje.<br>A mensagem me chegou duas vezes.		tech b1 lote_2026_07_24
+Activa la _____ de dos pasos.	verificación<br><br>Activa la verificación de dos pasos.<br>Ative a verificação em duas etapas.		tech b1 lote_2026_07_24
+El micrófono _____ bien.	no se oye<br><br>El micrófono no se oye bien.<br>O microfone não se ouve bem.		tech b1 lote_2026_07_24
+Voy a _____ una copia de seguridad.	hacer<br><br>Voy a hacer una copia de seguridad.<br>Vou fazer um backup.	hacer una copia de seguridad	tech b1 lote_2026_07_24
+Se _____ la ventana del navegador.	congeló<br><br>Se congeló la ventana del navegador.<br>A janela do navegador travou.		tech b1 lote_2026_07_24
+¿Me puedes _____ el archivo?	adjuntar<br><br>¿Me puedes adjuntar el archivo?<br>Pode anexar o arquivo?		tech b1 lote_2026_07_24
+Borré sin querer _____.	el borrador<br><br>Borré sin querer el borrador.<br>Apaguei o rascunho sem querer.		tech b1 lote_2026_07_24
+Me _____ de la noticia.	alegré<br><br>Me alegré de la noticia.<br>Fiquei feliz com a notícia.	alegrarse de	emocoes b1 lote_2026_07_24
+Estoy _____ por lo que pasó.	apenado<br><br>Estoy apenado por lo que pasó.<br>Estou chateado/triste pelo que aconteceu.		emocoes b1 lote_2026_07_24
+Me da _____ pedir ayuda.	vergüenza<br><br>Me da vergüenza pedir ayuda.<br>Tenho vergonha de pedir ajuda.	dar vergüenza	emocoes b1 lote_2026_07_24
+No doy _____ con tanta presión.	abasto<br><br>No doy abasto con tanta presión.<br>Não dou conta com tanta pressão.	no dar abasto	emocoes b1 lote_2026_07_24
+Me _____ cuando llega tarde.	impaciento<br><br>Me impaciento cuando llega tarde.<br>Fico impaciente quando ele/ela chega atrasado.		emocoes b1 lote_2026_07_24
+Siento un _____ raro en el estómago.	nudo<br><br>Siento un nudo raro en el estómago.<br>Sinto um nó estranho no estômago.		emocoes b1 lote_2026_07_24
+Estoy _____ entre dos opciones.	indeciso<br><br>Estoy indeciso entre dos opciones.<br>Estou indeciso entre duas opções.		emocoes b1 lote_2026_07_24
+Me _____ su sinceridad.	conmovió<br><br>Me conmovió su sinceridad.<br>A sinceridade dele/dela me comoveu.		emocoes b1 lote_2026_07_24
+Ando _____ estos días.	sensible<br><br>Ando sensible estos días.<br>Ando sensível nestes dias.		emocoes b1 lote_2026_07_24
+Me _____ el alivio después.	invadió<br><br>Me invadió el alivio después.<br>O alívio me invadiu depois.		emocoes b1 lote_2026_07_24
+Tengo _____ de decepcionarlos.	miedo<br><br>Tengo miedo de decepcionarlos.<br>Tenho medo de decepcioná-los.		emocoes b1 lote_2026_07_24
+Estoy _____ de esperar noticias.	harto<br><br>Estoy harto de esperar noticias.<br>Estou farto de esperar notícias.	harto de	emocoes b1 lote_2026_07_24
+Me _____ el comentario.	dolió<br><br>Me dolió el comentario.<br>O comentário me doeu.		emocoes b1 lote_2026_07_24
+Siento _____ por no haber ido.	culpa<br><br>Siento culpa por no haber ido.<br>Sinto culpa por não ter ido.		emocoes b1 lote_2026_07_24
+Hoy amanecí _____.	motivado<br><br>Hoy amanecí motivado.<br>Hoje acordei motivado.	amanecer + adjetivo	emocoes b1 lote_2026_07_24
+Me bajé _____ y caminé.	una parada antes<br><br>Me bajé una parada antes y caminé.<br>Desci uma parada antes e caminhei.		cidade b1 lote_2026_07_24
+El metro va _____ a esta hora.	a reventar<br><br>El metro va a reventar a esta hora.<br>O metrô vai lotado a esta hora.		cidade b1 lote_2026_07_24
+¿Este colectivo _____ al centro?	pasa<br><br>¿Este colectivo pasa al centro?<br>Este ônibus passa no centro?	colectivo (es-419)	cidade b1 lote_2026_07_24
+Hay obras; hay que _____.	desviar<br><br>Hay obras; hay que desviar.<br>Há obras; é preciso desviar.		cidade b1 lote_2026_07_24
+Pedí un viaje _____ la app.	por<br><br>Pedí un viaje por la app.<br>Pedi uma corrida pelo app.		cidade b1 lote_2026_07_24
+El conductor _____ de golpe.	frenó<br><br>El conductor frenó de golpe.<br>O motorista freou de repente.		cidade b1 lote_2026_07_24
+Quedamos _____ de la estación.	enfrente<br><br>Quedamos enfrente de la estación.<br>Marcamos de encontrar em frente à estação.		cidade b1 lote_2026_07_24
+El semáforo _____ en amarillo.	parpadea<br><br>El semáforo parpadea en amarillo.<br>O semáforo pisca no amarelo.		cidade b1 lote_2026_07_24
+No hay _____ en esta cuadra.	estacionamiento<br><br>No hay estacionamiento en esta cuadra.<br>Não há estacionamento nesta quadra.		cidade b1 lote_2026_07_24
+Me perdí _____ del mapa.	a pesar<br><br>Me perdí a pesar del mapa.<br>Me perdi apesar do mapa.	a pesar de	cidade b1 lote_2026_07_24
+El cruce está _____.	peatonalizado<br><br>El cruce está peatonalizado.<br>O cruzamento foi pedonalizado.		cidade b1 lote_2026_07_24
+¿Cuánto _____ hasta allá?	se tarda<br><br>¿Cuánto se tarda hasta allá?<br>Quanto se demora até lá?		cidade b1 lote_2026_07_24
+Tomé el sentido _____.	contrario<br><br>Tomé el sentido contrario.<br>Peguei o sentido contrário.		cidade b1 lote_2026_07_24
+Hay un tope; _____ despacio.	pasa<br><br>Hay un tope; pasa despacio.<br>Há uma lombada; passe devagar.	tope = lombada (MX/latam)	cidade b1 lote_2026_07_24
+La ciclovía _____ aquí.	empieza<br><br>La ciclovía empieza aquí.<br>A ciclovia começa aqui.		cidade b1 lote_2026_07_24
+Te escribo _____ de la reunión.	con respecto<br><br>Te escribo con respecto de la reunión.<br>Escrevo a respeito da reunião.	con respecto a	trabalho b1 lote_2026_07_24
+Adjunto el archivo _____.	solicitado<br><br>Adjunto el archivo solicitado.<br>Anexo o arquivo solicitado.		trabalho b1 lote_2026_07_24
+Quedo _____ de tus comentarios.	a la espera<br><br>Quedo a la espera de tus comentarios.<br>Fico no aguardo dos seus comentários.	quedar a la espera	trabalho b1 lote_2026_07_24
+El informe quedó _____.	pendiente de revisión<br><br>El informe quedó pendiente de revisión.<br>O relatório ficou pendente de revisão.		trabalho b1 lote_2026_07_24
+Voy a _____ el punto en el acta.	dejar constancia de<br><br>Voy a dejar constancia de el punto en el acta.<br>Vou deixar o ponto registrado na ata.		trabalho b1 lote_2026_07_24
+¿Quién _____ de este tema?	se encarga<br><br>¿Quién se encarga de este tema?<br>Quem fica responsável por este tema?	encargarse de	trabalho b1 lote_2026_07_24
+Necesito tu _____ antes de enviar.	visto bueno<br><br>Necesito tu visto bueno antes de enviar.<br>Preciso do seu ok/aprovação antes de enviar.		trabalho b1 lote_2026_07_24
+La reunión se _____ para el jueves.	aplazó<br><br>La reunión se aplazó para el jueves.<br>A reunião foi adiada para quinta.	aplazar	trabalho b1 lote_2026_07_24
+Te _____ en copia a Ana.	incluyo<br><br>Te incluyo en copia a Ana.<br>Te incluo em cópia com a Ana.		trabalho b1 lote_2026_07_24
+Esto _____ mi área.	escapa de<br><br>Esto escapa de mi área.<br>Isto foge da minha área.	escapar de	trabalho b1 lote_2026_07_24
+Hagamos un _____ de cinco minutos.	receso<br><br>Hagamos un receso de cinco minutos.<br>Vamos fazer um intervalo de cinco minutos.		trabalho b1 lote_2026_07_24
+El cliente pidió un _____.	adelanto<br><br>El cliente pidió un adelanto.<br>O cliente pediu um adiantamento.		trabalho b1 lote_2026_07_24
+Voy a _____ la propuesta.	redactar<br><br>Voy a redactar la propuesta.<br>Vou redigir a proposta.		trabalho b1 lote_2026_07_24
+Quedó _____ en el aire.	esa duda<br><br>Quedó esa duda en el aire.<br>Essa dúvida ficou no ar.		trabalho b1 lote_2026_07_24
+Envíame un _____ después.	resumen ejecutivo<br><br>Envíame un resumen ejecutivo después.<br>Me envie um resumo executivo depois.		trabalho b1 lote_2026_07_24
+No puedo _____ ese plazo.	comprometer<br><br>No puedo comprometer ese plazo.<br>Não posso me comprometer com esse prazo.	comprometerse	trabalho b1 lote_2026_07_24
+El correo me _____ spam.	cayó en<br><br>El correo me cayó en spam.<br>O e-mail caiu no spam.		trabalho b1 lote_2026_07_24
+Vamos a _____ prioridades.	alinear<br><br>Vamos a alinear prioridades.<br>Vamos alinhar prioridades.		trabalho b1 lote_2026_07_24
+Te confirmo _____ mi asistencia.	por este medio<br><br>Te confirmo por este medio mi asistencia.<br>Confirmo por este meio a minha presença.		trabalho b1 lote_2026_07_24
+Ayer _____ tres capítulos.	releí<br><br>Ayer releí tres capítulos.<br>Ontem reli três capítulos.	pretérito irregular	preterito b1 lote_2026_07_24
+Cuando llegué, ya _____.	habían cerrado<br><br>Cuando llegué, ya habían cerrado.<br>Quando cheguei, já tinham fechado.	pluscuamperfecto	preterito b1 lote_2026_07_24
+Estuve _____ toda la tarde.	corrigiendo<br><br>Estuve corrigiendo toda la tarde.<br>Fiquei corrigindo a tarde toda.	estar + gerundio	preterito b1 lote_2026_07_24
+De niño _____ cerca del río.	vivía<br><br>De niño vivía cerca del río.<br>Quando criança eu morava perto do rio.	imperfecto = hábito	preterito b1 lote_2026_07_24
+De pronto _____ llover.	se puso a<br><br>De pronto se puso a llover.<br>De repente pôs-se a chover.	ponerse a	preterito b1 lote_2026_07_24
+Todavía no _____ la respuesta.	había recibido<br><br>Todavía no había recibido la respuesta.<br>Ainda não tinha recebido a resposta.		preterito b1 lote_2026_07_24
+Ese día _____ más temprano.	salimos<br><br>Ese día salimos más temprano.<br>Naquele dia saímos mais cedo.		preterito b1 lote_2026_07_24
+Mientras cocinaba, _____ un podcast.	escuchaba<br><br>Mientras cocinaba, escuchaba un podcast.<br>Enquanto cozinhava, escutava um podcast.	imperfecto paralelo	preterito b1 lote_2026_07_24
+Nunca _____ semejante error.	había cometido<br><br>Nunca había cometido semejante error.<br>Nunca tinha cometido erro semelhante.		preterito b1 lote_2026_07_24
+En cuanto _____, te avisé.	supe<br><br>En cuanto supe, te avisé.<br>Assim que soube, avisei você.	en cuanto + pretérito	preterito b1 lote_2026_07_24
+Llevaba una semana _____.	sin dormir bien<br><br>Llevaba una semana sin dormir bien.<br>Já fazia uma semana sem dormir bem.	llevar + gerundio/sin	preterito b1 lote_2026_07_24
+Se me _____ la hora.	pasó<br><br>Se me pasó la hora.<br>O tempo passou sem eu perceber.	pasársele la hora	preterito b1 lote_2026_07_24
+Volví a casa y _____ dormido.	me quedé<br><br>Volví a casa y me quedé dormido.<br>Voltei para casa e acabei dormindo.	quedarse + adj	preterito b1 lote_2026_07_24
+No _____ abrirme la puerta.	lograron<br><br>No lograron abrirme la puerta.<br>Não conseguiram me abrir a porta.		preterito b1 lote_2026_07_24
+Aquella noche _____ hasta tarde.	charlamos<br><br>Aquella noche charlamos hasta tarde.<br>Naquela noite conversamos até tarde.		preterito b1 lote_2026_07_24
+Espero que _____ a tiempo.	llegues<br><br>Espero que llegues a tiempo.<br>Espero que você chegue a tempo.	esperar que + subjuntivo	gramatica b1 lote_2026_07_24
+Dudo que _____ tan barato.	sea<br><br>Dudo que sea tan barato.<br>Duvido que seja tão barato.	dudar que + subj	gramatica b1 lote_2026_07_24
+Cuando _____, avísame.	termines<br><br>Cuando termines, avísame.<br>Quando terminar, me avise.	cuando futuro → subj	gramatica b1 lote_2026_07_24
+Te lo digo _____ te preocupes.	para que no<br><br>Te lo digo para que no te preocupes.<br>Digo isso para que você não se preocupe.	para que + subjuntivo	gramatica b1 lote_2026_07_24
+Pasé _____ tu casa sin detenerme.	por delante de<br><br>Pasé por delante de tu casa sin detenerme.<br>Passei na frente da sua casa sem parar.	por = trajeto	gramatica b1 lote_2026_07_24
+Vine _____ resolver el problema.	con el fin de<br><br>Vine con el fin de resolver el problema.<br>Vim com o objetivo de resolver o problema.	con el fin de ≈ para	gramatica b1 lote_2026_07_24
+Lo hice _____.	por accidente<br><br>Lo hice por accidente.<br>Fiz por acidente.	por = causa	gramatica b1 lote_2026_07_24
+El informe _____ listo; yo estoy cansado.	está<br><br>El informe está listo; yo estoy cansado.<br>O relatório está pronto; eu estou cansado.	estar estados	gramatica b1 lote_2026_07_24
+Ella _____ ingeniera civil.	es<br><br>Ella es ingeniera civil.<br>Ela é engenheira civil.	ser profesión	gramatica b1 lote_2026_07_24
+No creo que _____ necesario.	sea<br><br>No creo que sea necesario.<br>Não acho que seja necessário.	no creer que + subj	gramatica b1 lote_2026_07_24
+Ojalá _____ mañana.	no llueva<br><br>Ojalá no llueva mañana.<br>Tomara que não chova amanhã.	ojalá + subj	gramatica b1 lote_2026_07_24
+Aunque _____, iré.	esté cansado<br><br>Aunque esté cansado, iré.<br>Mesmo que eu esteja cansado, irei.	aunque + subj = hipótese	gramatica b1 lote_2026_07_24
+Quiero que me _____ la verdad.	digas<br><br>Quiero que me digas la verdad.<br>Quero que você me diga a verdade.		gramatica b1 lote_2026_07_24
+Es importante que _____ temprano.	salgamos<br><br>Es importante que salgamos temprano.<br>É importante que saiamos cedo.	es + adj + que + subj	gramatica b1 lote_2026_07_24
+Tal vez _____ razón.	tengas<br><br>Tal vez tengas razón.<br>Talvez você tenha razão.	tal vez + subj	gramatica b1 lote_2026_07_24
+Me alegra que _____ venido.	hayas<br><br>Me alegra que hayas venido.<br>Fico feliz que você tenha vindo.	subjuntivo perfecto	gramatica b1 lote_2026_07_24
+Voy _____ agua, no por drama.	por un vaso de<br><br>Voy por un vaso de agua, no por drama.<br>Vou buscar um copo d’água, não por drama.	ir por = buscar	gramatica b1 lote_2026_07_24
+Esto es _____.	para ti<br><br>Esto es para ti.<br>Isto é para você.	para = destinatário	gramatica b1 lote_2026_07_24
+Como si _____ años aquí.	llevara<br><br>Como si llevara años aquí.<br>Como se eu levasse anos aqui.	como si + imperfecto subj	gramatica b1 lote_2026_07_24
+No hay quien _____ eso.	entienda<br><br>No hay quien entienda eso.<br>Não há quem entenda isso.	no hay quien + subj	gramatica b1 lote_2026_07_24
+"No digas _____ para ""escritório""."	"escritorio<br><br>No digas escritorio para ""escritório"".<br>Escritorio = escrivaninha; escritório = oficina."	oficina = escritório	falsos b1 lote_2026_07_24
+Pedí _____, no pasta.	una carpeta<br><br>Pedí una carpeta, no pasta.<br>Pedi uma pasta (arquivo), não massa.	carpeta vs pasta	falsos b1 lote_2026_07_24
+La _____ está en la oficina.	junta<br><br>La junta está en la oficina.<br>A reunião está no escritório.	"junta = reunião; não ""junta"" PT"	falsos b1 lote_2026_07_24
+Eso fue una _____, no un crimen.	falta<br><br>Eso fue una falta, no un crimen.<br>Isso foi uma falta/erro, não um crime.	falta ≠ falta PT só	falsos b1 lote_2026_07_24
+El _____ del libro es aburrido.	argumento<br><br>El argumento del libro es aburrido.<br>O enredo do livro é chato.	argumento = enredo	falsos b1 lote_2026_07_24
+Voy a la _____ a sacar dinero.	sucursal<br><br>Voy a la sucursal a sacar dinero.<br>Vou à agência sacar dinheiro.	sucursal = agência	falsos b1 lote_2026_07_24
+Me dio un _____ el precio.	susto<br><br>Me dio un susto el precio.<br>O preço me deu um susto.		falsos b1 lote_2026_07_24
+Ella es muy _____ con los detalles.	rara<br><br>Ella es muy rara con los detalles.<br>Ela é muito estranha/particular com detalhes.	rara ≠ rare	falsos b1 lote_2026_07_24
+"No confundas _____ con ""ajuda""."	"auxilio<br><br>No confundas auxilio con ""ajuda"".<br>Auxilio = socorro; ajuda = ayuda."		falsos b1 lote_2026_07_24
+El _____ llega mañana.	presupuesto<br><br>El presupuesto llega mañana.<br>O orçamento chega amanhã.	presupuesto ≠ pressuposto acadêmico só	falsos b1 lote_2026_07_24
+Esa película es un _____.	éxito<br><br>Esa película es un éxito.<br>Esse filme é um sucesso.	éxito ≠ êxito só formal	falsos b1 lote_2026_07_24
+Trabajo en una _____ pequeña.	empresa<br><br>Trabajo en una empresa pequeña.<br>Trabalho numa empresa pequena.	empresa ≠ empregada	falsos b1 lote_2026_07_24
+¿Me pasas la _____?	goma<br><br>¿Me pasas la goma?<br>Pode me passar a borracha?	goma = borracha (ES)	falsos b1 lote_2026_07_24
+No me _____ de su nombre.	acuerdo<br><br>No me acuerdo de su nombre.<br>Não me lembro do nome dele/dela.	acordarse de	chunks b1 lote_2026_07_24
+Al final me _____ la razón.	dio<br><br>Al final me dio la razón.<br>No fim ele/ela me deu razão.	dar la razón	chunks b1 lote_2026_07_24
+No _____ de pedirme ayuda.	dejes<br><br>No dejes de pedirme ayuda.<br>Não deixe de me pedir ajuda.	no dejar de + inf	chunks b1 lote_2026_07_24
+Se me _____ felicitarte.	olvidó<br><br>Se me olvidó felicitarte.<br>Esqueci de te felicitar.	olvidársele	chunks b1 lote_2026_07_24
+Eso _____ de sentido.	carece<br><br>Eso carece de sentido.<br>Isso carece de sentido.		chunks b1 lote_2026_07_24
+Voy a _____ el tema.	tocar<br><br>Voy a tocar el tema.<br>Vou tocar no assunto.	tocar un tema	chunks b1 lote_2026_07_24
+Me _____ enterar tarde.	llegó a<br><br>Me llegó a enterar tarde.<br>Acabei ficando sabendo tarde.	llegar a + inf	chunks b1 lote_2026_07_24
+No _____ más remedio que aceptar.	hubo<br><br>No hubo más remedio que aceptar.<br>Não houve outro remédio senão aceitar.	no haber más remedio	chunks b1 lote_2026_07_24
+Ella _____ de que fuera fácil.	desconfió<br><br>Ella desconfió de que fuera fácil.<br>Ela desconfiou que fosse fácil.	desconfiar de que + subj	chunks b1 lote_2026_07_24
+Me _____ a la idea con el tiempo.	fui acostumbrando<br><br>Me fui acostumbrando a la idea con el tiempo.<br>Fui me acostumando à ideia com o tempo.		chunks b1 lote_2026_07_24
+Eso me _____ indiferente.	resulta<br><br>Eso me resulta indiferente.<br>Isso me resulta indiferente.	resultar + adj	chunks b1 lote_2026_07_24
+No sé _____ salió tan bien.	cómo<br><br>No sé cómo salió tan bien.<br>Não sei como saiu tão bem.		chunks b1 lote_2026_07_24
+Me _____ el día libre.	sacaron<br><br>Me sacaron el día libre.<br>Me deram o dia de folga.	sacar un día libre	chunks b1 lote_2026_07_24
+Eso _____ a discusión.	queda<br><br>Eso queda a discusión.<br>Isso fica em discussão.		chunks b1 lote_2026_07_24
+Voy a _____ un vistazo.	echar<br><br>Voy a echar un vistazo.<br>Vou dar uma olhada.	echar un vistazo	chunks b1 lote_2026_07_24
+No _____ a la altura.	estuvo<br><br>No estuvo a la altura.<br>Não esteve à altura.	estar a la altura	chunks b1 lote_2026_07_24
+Me _____ el sueño con el ruido.	quitó<br><br>Me quitó el sueño con el ruido.<br>O barulho me tirou o sono.	quitar el sueño	chunks b1 lote_2026_07_24
+¿Podemos _____ la fecha?	reprogramar<br><br>¿Podemos reprogramar la fecha?<br>Podemos remarcar a data?	reprogramar / aplazar	trabalho b1 lote_2026_07_24
+_____ el ruido de la ciudad.	Echo de menos<br><br>Echo de menos el ruido de la ciudad.<br>Sinto falta do barulho da cidade.	echar de menos	chunks b1 lote_2026_07_24
+Eso no me _____.	convence del todo<br><br>Eso no me convence del todo.<br>Isso não me convence completamente.	convencer	chunks b1 lote_2026_07_24
+Ella está _____; el bebé nace en octubre.	embarazada<br><br>Ella está embarazada; el bebé nace en octubre.<br>Ela está grávida; o bebê nasce em outubro.	embarazada = grávida ≠ embaraçada	falsos b1 lote_2026_07_24
+_____ el vaso con cuidado.	Agarra<br><br>Agarra el vaso con cuidado.<br>Pegue o copo com cuidado.	agarrar / tomar	falsos b1 lote_2026_07_24
+Hay que _____ el toro por los cuernos.	tomar<br><br>Hay que tomar el toro por los cuernos.<br>É preciso pegar o touro pelos chifres.	idiom	chunks b1 lote_2026_07_24

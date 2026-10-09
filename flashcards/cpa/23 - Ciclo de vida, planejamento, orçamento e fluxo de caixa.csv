@@ -1,0 +1,10 @@
+#separator:Comma
+#html:true
+#tags column:3
+#deck:CPA::23 Ciclo de vida, planejamento, orçamento e fluxo de caixa
+#deck column:4
+#columns:Frente,Verso,Tags,Deck
+Como o ciclo de vida ajuda a organizar o planejamento financeiro?,"Relaciona objetivos, renda, responsabilidades e horizonte de cada fase, ajudando a priorizar acumulação, proteção e uso de recursos conforme as necessidades mudam.<br><small>Fonte: Apostila CPA, ed. janeiro/2026, p. impressa 349 (PDF 349).</small>",cpa::apostila cpa::23 tema::planejamento tema::ciclo_vida,"CPA::23 Ciclo de vida, planejamento, orçamento e fluxo de caixa"
+O que deve constar em um orçamento pessoal?,"Fontes de renda, despesas fixas e variáveis, compromissos financeiros e metas de poupança. O registro permite comparar plano e realizado e ajustar decisões.<br><small>Fonte: Apostila CPA, ed. janeiro/2026, p. impressa 351 (PDF 351).</small>",cpa::apostila cpa::23 tema::orcamento,"CPA::23 Ciclo de vida, planejamento, orçamento e fluxo de caixa"
+Como calcular o percentual de poupança?,"Percentual de poupança = (renda líquida − despesas/consumo) ÷ renda líquida × 100. Defina o mesmo período para numerador e denominador.<br><small>Fonte: Apostila CPA, ed. janeiro/2026, p. impressa 353 (PDF 353).</small>",cpa::apostila cpa::23 tema::fluxo_caixa tema::calculo,"CPA::23 Ciclo de vida, planejamento, orçamento e fluxo de caixa"
+Que função cumpre o fluxo de caixa pessoal?,"Registra entradas e saídas ao longo do tempo para revelar sobras, déficits e datas de maior pressão financeira.<br><small>Fonte: Apostila CPA, ed. janeiro/2026, p. impressa 352 (PDF 352).</small>",cpa::apostila cpa::23 tema::fluxo_caixa,"CPA::23 Ciclo de vida, planejamento, orçamento e fluxo de caixa"

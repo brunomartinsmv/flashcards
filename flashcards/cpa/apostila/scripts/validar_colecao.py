@@ -1,0 +1,103 @@
+from pathlib import Path
+import csv, re
+
+BASE = Path('flashcards/cpa')
+SOURCE = Path('flashcards/cpa/fontes/apostila_cpa.txt')
+pages = SOURCE.read_text(encoding='utf-8').split('\f')
+
+def rows(path):
+    with path.open(encoding='utf-8', newline='') as f:
+        return list(csv.reader(f, delimiter='\t'))
+
+files = sorted(BASE.glob('cpa_[0-9][0-9].tsv'))
+assert len(files) == 27, len(files)
+all_rows = []
+fronts = set()
+for path in files:
+    data = rows(path)
+    assert data[:3] == [
+        ['#separator:Tab'], ['#html:true'], ['#tags column:3'],
+    ], (path, data[:3])
+    assert ['#deck column:4'] in data
+    assert ['#columns:Frente', 'Verso', 'Tags', 'Deck'] in data
+    notes = [r for r in data if r and not r[0].startswith('#')]
+    assert notes, path
+    for row in notes:
+        assert len(row) == 4 and all(row), (path, row)
+        front, back, tags, deck = row
+        assert deck.startswith(f'CPA::{path.stem[-2:]} '), (path, deck)
+        assert [f'#deck:{deck}'] in data, (path, deck)
+        assert front not in fronts, ('duplicate front', front)
+        fronts.add(front)
+        assert 'cpa::apostila' in tags.split(), (path, tags)
+        assert f'cpa::{path.stem[-2:]}' in tags.split(), (path, tags)
+        refs = re.findall(r'p\. impressa ([0-9]+(?: e [0-9]+)*) \(PDF ([0-9]+(?: e [0-9]+)*)\)', back)
+        assert refs, ('missing page ref', front)
+        for printed, pdf in refs:
+            printed_pages = [int(x) for x in printed.split(' e ')]
+            pdf_pages = [int(x) for x in pdf.split(' e ')]
+            assert printed_pages == pdf_pages, (front, printed_pages, pdf_pages)
+            for page in pdf_pages:
+                assert pages[page - 1].strip(), ('empty cited page', front, page)
+                assert re.search(rf'(?m)^\s*{page}\s*$', pages[page - 1]), ('footer mismatch', front, page)
+    all_rows.extend(notes)
+consolidated = rows(BASE / 'cpa_apostila_completo.tsv')
+assert ['#deck column:4'] in consolidated
+consolidated_notes = [r for r in consolidated if r and not r[0].startswith('#')]
+assert len(consolidated_notes) == len(all_rows)
+assert {tuple(r) for r in consolidated_notes} == {tuple(r) for r in all_rows}
+assert len(consolidated_notes) == len(fronts)
+earlier_fronts = set()
+for path in sorted(BASE.glob('0[1-4]_*.txt')):
+    for row in rows(path):
+        if row and not row[0].startswith('#'):
+            earlier_fronts.add(row[0])
+collisions = fronts & earlier_fronts
+assert not collisions, ('duplicate front vs TXT decks', collisions)
+coverage = list(csv.DictReader((BASE / 'apostila/cobertura.csv').open(encoding='utf-8-sig', newline='')))
+assert len(coverage) == 37, len(coverage)
+assert {r['Tarefa'] for r in coverage} == {f'CPA {i:02d}' for i in range(3, 40)}
+inventory = list(csv.DictReader((BASE / 'apostila/inventario_subtopicos.csv').open(encoding='utf-8-sig', newline='')))
+assert inventory and all(int(r['Quantidade de cartões']) > 0 and r['IDs/cartões vinculados'] for r in inventory)
+
+# Numeric examples used in the cards.
+assert round(1500 * 1.014**6, 2) == 1630.49
+net = 1500 + (1500 * 1.014**6 - 1500) * 0.8
+assert round(net, 2) == 1604.39
+flows = [(t, 80 if t < 5 else 1080) for t in range(1, 6)]
+pv = sum(flow / 1.06**t for t, flow in flows)
+weighted = sum(t * flow / 1.06**t for t, flow in flows)
+assert round(pv, 2) == 1084.25 and round(weighted, 2) == 4708.04
+answers = {r[0]: r[1] for r in consolidated_notes}
+assert 'R$1.604,39' in answers['Qual o montante de R$ 1.500 aplicados por 6 meses a 1,4% ao mês?']
+assert 'R$1.084,25' in answers['Qual é a duration aproximada do título de R$1.000, cupom anual de 8%, vencimento em 5 anos e yield de 6%?']
+reviews = {r['Tarefa']: r for r in coverage}
+assert 'cpa::01' in reviews['CPA 08']['Cobertura/procedimento']
+assert '01_sfn_orgaos.txt' in reviews['CPA 08']['Deck/seleção']
+assert 'cpa::21' not in reviews['CPA 20']['Cobertura/procedimento']
+cpr = answers['Quais investimentos de renda fixa a apostila lista como isentos de IR para pessoa física?']
+assert 'CPR' in cpr
+assert 'liquidação financeira' in cpr
+assert 'negociada no mercado financeiro' in cpr
+assert 'art. 2º, § 2º' in cpr
+assert '181 a 360' in answers['Qual o montante de R$ 1.500 aplicados por 6 meses a 1,4% ao mês?']
+ima = answers['Quais segmentos de renda fixa o IMA-B 5 e o IMA-B 5+ representam?']
+assert 'inferior a 5 anos' in ima
+assert 'igual ou superior a 5 anos' in ima
+ibov = answers['Como diferem Ibovespa e IBrX segundo a apostila?']
+assert 'ambos ponderam pelo valor de mercado do free float' in ibov
+assert 'IBrX 100 seleciona os 100 ativos de maior IN' in ibov
+assert 'Como a apostila define risco de concentração?' in answers
+assert 'Como a apostila define um arranjo de pagamento?' in answers
+assert 'O que é risco de concentração?' not in answers
+assert 'O que é um arranjo de pagamento?' not in answers
+assert 'Resolução CVM 175' in answers['Qual é o quórum de instalação da assembleia de cotistas de fundos (Resolução CVM 175)?']
+assert all(not any(c in path.name for c in '<>:"\\|?*') for path in BASE.glob('*.csv'))
+
+assert round((1.15 / 1.05 - 1) * 100, 2) == 9.52
+assert round(((1.04**12) - 1) * 100, 2) == 60.10
+assert round(12000000 * 0.006 / 252, 2) == 285.71
+assert round(50000 * 0 + 25000/1.08 + 20000/1.08**2 + 15000/1.08**3 - 50000, 2) == 2202.41
+assert round(100*10 + 100*12) / 200 == 11
+assert round(27000 * 0.15, 2) == 4050
+print(f'OK: {len(files)} topical decks, {len(fronts)} unique notes, {len(coverage)} study tasks, {len(inventory)} indexed subtopics; cited page footers and numeric examples verified.')

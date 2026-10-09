@@ -1,0 +1,605 @@
+#separator:Comma
+#html:false
+#tags column:3
+#deck column:4
+#columns:Frente,Verso,Tags,Deck
+la persona,pessoa,lexico idioma::espanhol tema::pessoas_e_familia nivel::basico,idioms::spanish::Léxico::Básico::01 Pessoas e família
+el hombre,homem,lexico idioma::espanhol tema::pessoas_e_familia nivel::basico,idioms::spanish::Léxico::Básico::01 Pessoas e família
+la mujer,mulher,lexico idioma::espanhol tema::pessoas_e_familia nivel::basico,idioms::spanish::Léxico::Básico::01 Pessoas e família
+el niño,criança,lexico idioma::espanhol tema::pessoas_e_familia nivel::basico,idioms::spanish::Léxico::Básico::01 Pessoas e família
+el bebé,bebê,lexico idioma::espanhol tema::pessoas_e_familia nivel::basico,idioms::spanish::Léxico::Básico::01 Pessoas e família
+el adolescente,adolescente,lexico idioma::espanhol tema::pessoas_e_familia nivel::basico,idioms::spanish::Léxico::Básico::01 Pessoas e família
+el adulto,adulto,lexico idioma::espanhol tema::pessoas_e_familia nivel::basico,idioms::spanish::Léxico::Básico::01 Pessoas e família
+la familia,família,lexico idioma::espanhol tema::pessoas_e_familia nivel::basico,idioms::spanish::Léxico::Básico::01 Pessoas e família
+la madre,mãe,lexico idioma::espanhol tema::pessoas_e_familia nivel::basico,idioms::spanish::Léxico::Básico::01 Pessoas e família
+el padre,pai,lexico idioma::espanhol tema::pessoas_e_familia nivel::basico,idioms::spanish::Léxico::Básico::01 Pessoas e família
+el hijo,filho,lexico idioma::espanhol tema::pessoas_e_familia nivel::basico,idioms::spanish::Léxico::Básico::01 Pessoas e família
+la hija,filha,lexico idioma::espanhol tema::pessoas_e_familia nivel::basico,idioms::spanish::Léxico::Básico::01 Pessoas e família
+el hermano,irmão,lexico idioma::espanhol tema::pessoas_e_familia nivel::basico,idioms::spanish::Léxico::Básico::01 Pessoas e família
+la hermana,irmã,lexico idioma::espanhol tema::pessoas_e_familia nivel::basico,idioms::spanish::Léxico::Básico::01 Pessoas e família
+el abuelo,avô,lexico idioma::espanhol tema::pessoas_e_familia nivel::basico,idioms::spanish::Léxico::Básico::01 Pessoas e família
+la abuela,avó,lexico idioma::espanhol tema::pessoas_e_familia nivel::basico,idioms::spanish::Léxico::Básico::01 Pessoas e família
+el tío,tio,lexico idioma::espanhol tema::pessoas_e_familia nivel::basico,idioms::spanish::Léxico::Básico::01 Pessoas e família
+la tía,tia,lexico idioma::espanhol tema::pessoas_e_familia nivel::basico,idioms::spanish::Léxico::Básico::01 Pessoas e família
+el primo,primo,lexico idioma::espanhol tema::pessoas_e_familia nivel::basico,idioms::spanish::Léxico::Básico::01 Pessoas e família
+el sobrino,sobrinho,lexico idioma::espanhol tema::pessoas_e_familia nivel::basico,idioms::spanish::Léxico::Básico::01 Pessoas e família
+el marido,marido,lexico idioma::espanhol tema::pessoas_e_familia nivel::basico,idioms::spanish::Léxico::Básico::01 Pessoas e família
+la esposa,esposa,lexico idioma::espanhol tema::pessoas_e_familia nivel::basico,idioms::spanish::Léxico::Básico::01 Pessoas e família
+el amigo,amigo,lexico idioma::espanhol tema::pessoas_e_familia nivel::basico,idioms::spanish::Léxico::Básico::01 Pessoas e família
+el vecino,vizinho,lexico idioma::espanhol tema::pessoas_e_familia nivel::basico,idioms::spanish::Léxico::Básico::01 Pessoas e família
+la pareja,casal,lexico idioma::espanhol tema::pessoas_e_familia nivel::basico,idioms::spanish::Léxico::Básico::01 Pessoas e família
+el cuerpo,corpo,lexico idioma::espanhol tema::corpo nivel::basico,idioms::spanish::Léxico::Básico::02 Corpo
+la cabeza,cabeça,lexico idioma::espanhol tema::corpo nivel::basico,idioms::spanish::Léxico::Básico::02 Corpo
+el rostro,rosto,lexico idioma::espanhol tema::corpo nivel::basico,idioms::spanish::Léxico::Básico::02 Corpo
+el cabello,cabelo (conjunto),lexico idioma::espanhol tema::corpo nivel::basico,idioms::spanish::Léxico::Básico::02 Corpo
+el ojo,olho,lexico idioma::espanhol tema::corpo nivel::basico,idioms::spanish::Léxico::Básico::02 Corpo
+la oreja,orelha,lexico idioma::espanhol tema::corpo nivel::basico,idioms::spanish::Léxico::Básico::02 Corpo
+la nariz,nariz,lexico idioma::espanhol tema::corpo nivel::basico,idioms::spanish::Léxico::Básico::02 Corpo
+la boca,boca,lexico idioma::espanhol tema::corpo nivel::basico,idioms::spanish::Léxico::Básico::02 Corpo
+el diente,dente,lexico idioma::espanhol tema::corpo nivel::basico,idioms::spanish::Léxico::Básico::02 Corpo
+la lengua,língua (órgão),lexico idioma::espanhol tema::corpo nivel::basico,idioms::spanish::Léxico::Básico::02 Corpo
+el cuello,pescoço,lexico idioma::espanhol tema::corpo nivel::basico,idioms::spanish::Léxico::Básico::02 Corpo
+el hombro,ombro,lexico idioma::espanhol tema::corpo nivel::basico,idioms::spanish::Léxico::Básico::02 Corpo
+el brazo,braço,lexico idioma::espanhol tema::corpo nivel::basico,idioms::spanish::Léxico::Básico::02 Corpo
+el codo,cotovelo,lexico idioma::espanhol tema::corpo nivel::basico,idioms::spanish::Léxico::Básico::02 Corpo
+la mano,mão,lexico idioma::espanhol tema::corpo nivel::basico,idioms::spanish::Léxico::Básico::02 Corpo
+el dedo,dedo da mão,lexico idioma::espanhol tema::corpo nivel::basico,idioms::spanish::Léxico::Básico::02 Corpo
+la uña,unha,lexico idioma::espanhol tema::corpo nivel::basico,idioms::spanish::Léxico::Básico::02 Corpo
+el pecho,peito,lexico idioma::espanhol tema::corpo nivel::basico,idioms::spanish::Léxico::Básico::02 Corpo
+la espalda,costas,lexico idioma::espanhol tema::corpo nivel::basico,idioms::spanish::Léxico::Básico::02 Corpo
+el estómago,estômago,lexico idioma::espanhol tema::corpo nivel::basico,idioms::spanish::Léxico::Básico::02 Corpo
+la pierna,perna,lexico idioma::espanhol tema::corpo nivel::basico,idioms::spanish::Léxico::Básico::02 Corpo
+la rodilla,joelho,lexico idioma::espanhol tema::corpo nivel::basico,idioms::spanish::Léxico::Básico::02 Corpo
+el pie,pé,lexico idioma::espanhol tema::corpo nivel::basico,idioms::spanish::Léxico::Básico::02 Corpo
+la piel,pele,lexico idioma::espanhol tema::corpo nivel::basico,idioms::spanish::Léxico::Básico::02 Corpo
+el corazón,coração,lexico idioma::espanhol tema::corpo nivel::basico,idioms::spanish::Léxico::Básico::02 Corpo
+la salud,saúde,lexico idioma::espanhol tema::saude nivel::intermediario,idioms::spanish::Léxico::Intermediário::03 Saúde
+la enfermedad,doença,lexico idioma::espanhol tema::saude nivel::intermediario,idioms::spanish::Léxico::Intermediário::03 Saúde
+el dolor,dor,lexico idioma::espanhol tema::saude nivel::intermediario,idioms::spanish::Léxico::Intermediário::03 Saúde
+la fiebre,febre,lexico idioma::espanhol tema::saude nivel::intermediario,idioms::spanish::Léxico::Intermediário::03 Saúde
+la tos,tosse,lexico idioma::espanhol tema::saude nivel::intermediario,idioms::spanish::Léxico::Intermediário::03 Saúde
+el resfriado,resfriado,lexico idioma::espanhol tema::saude nivel::intermediario,idioms::spanish::Léxico::Intermediário::03 Saúde
+la gripe,gripe,lexico idioma::espanhol tema::saude nivel::intermediario,idioms::spanish::Léxico::Intermediário::03 Saúde
+la alergia,alergia,lexico idioma::espanhol tema::saude nivel::intermediario,idioms::spanish::Léxico::Intermediário::03 Saúde
+la herida,ferida,lexico idioma::espanhol tema::saude nivel::intermediario,idioms::spanish::Léxico::Intermediário::03 Saúde
+el medicamento,remédio,lexico idioma::espanhol tema::saude nivel::intermediario,idioms::spanish::Léxico::Intermediário::03 Saúde
+la pastilla,comprimido,lexico idioma::espanhol tema::saude nivel::intermediario,idioms::spanish::Léxico::Intermediário::03 Saúde
+la receta,receita médica,lexico idioma::espanhol tema::saude nivel::intermediario,idioms::spanish::Léxico::Intermediário::03 Saúde
+el tratamiento,tratamento,lexico idioma::espanhol tema::saude nivel::intermediario,idioms::spanish::Léxico::Intermediário::03 Saúde
+la cirugía,cirurgia,lexico idioma::espanhol tema::saude nivel::intermediario,idioms::spanish::Léxico::Intermediário::03 Saúde
+la vacuna,vacina,lexico idioma::espanhol tema::saude nivel::intermediario,idioms::spanish::Léxico::Intermediário::03 Saúde
+el síntoma,sintoma,lexico idioma::espanhol tema::saude nivel::intermediario,idioms::spanish::Léxico::Intermediário::03 Saúde
+la infección,infecção,lexico idioma::espanhol tema::saude nivel::intermediario,idioms::spanish::Léxico::Intermediário::03 Saúde
+la sangre,sangue,lexico idioma::espanhol tema::saude nivel::intermediario,idioms::spanish::Léxico::Intermediário::03 Saúde
+el pulmón,pulmão,lexico idioma::espanhol tema::saude nivel::intermediario,idioms::spanish::Léxico::Intermediário::03 Saúde
+el hueso,osso,lexico idioma::espanhol tema::saude nivel::intermediario,idioms::spanish::Léxico::Intermediário::03 Saúde
+el músculo,músculo,lexico idioma::espanhol tema::saude nivel::intermediario,idioms::spanish::Léxico::Intermediário::03 Saúde
+la respiración,respiração,lexico idioma::espanhol tema::saude nivel::intermediario,idioms::spanish::Léxico::Intermediário::03 Saúde
+la ambulancia,ambulância,lexico idioma::espanhol tema::saude nivel::intermediario,idioms::spanish::Léxico::Intermediário::03 Saúde
+la emergencia,emergência,lexico idioma::espanhol tema::saude nivel::intermediario,idioms::spanish::Léxico::Intermediário::03 Saúde
+la recuperación,recuperação,lexico idioma::espanhol tema::saude nivel::intermediario,idioms::spanish::Léxico::Intermediário::03 Saúde
+la casa,casa,lexico idioma::espanhol tema::casa nivel::basico,idioms::spanish::Léxico::Básico::04 Casa
+el apartamento,apartamento,lexico idioma::espanhol tema::casa nivel::basico,idioms::spanish::Léxico::Básico::04 Casa
+el dormitorio,quarto,lexico idioma::espanhol tema::casa nivel::basico,idioms::spanish::Léxico::Básico::04 Casa
+la sala,sala de estar,lexico idioma::espanhol tema::casa nivel::basico,idioms::spanish::Léxico::Básico::04 Casa
+la cocina,cozinha,lexico idioma::espanhol tema::casa nivel::basico,idioms::spanish::Léxico::Básico::04 Casa
+el baño,banheiro,lexico idioma::espanhol tema::casa nivel::basico,idioms::spanish::Léxico::Básico::04 Casa
+la puerta,porta,lexico idioma::espanhol tema::casa nivel::basico,idioms::spanish::Léxico::Básico::04 Casa
+la ventana,janela,lexico idioma::espanhol tema::casa nivel::basico,idioms::spanish::Léxico::Básico::04 Casa
+la pared,parede,lexico idioma::espanhol tema::casa nivel::basico,idioms::spanish::Léxico::Básico::04 Casa
+el suelo,piso,lexico idioma::espanhol tema::casa nivel::basico,idioms::spanish::Léxico::Básico::04 Casa
+el techo,teto interno,lexico idioma::espanhol tema::casa nivel::basico,idioms::spanish::Léxico::Básico::04 Casa
+el tejado,telhado,lexico idioma::espanhol tema::casa nivel::basico,idioms::spanish::Léxico::Básico::04 Casa
+la escalera,escada,lexico idioma::espanhol tema::casa nivel::basico,idioms::spanish::Léxico::Básico::04 Casa
+la cama,cama,lexico idioma::espanhol tema::casa nivel::basico,idioms::spanish::Léxico::Básico::04 Casa
+la almohada,travesseiro,lexico idioma::espanhol tema::casa nivel::basico,idioms::spanish::Léxico::Básico::04 Casa
+la manta,cobertor,lexico idioma::espanhol tema::casa nivel::basico,idioms::spanish::Léxico::Básico::04 Casa
+la mesa,mesa,lexico idioma::espanhol tema::casa nivel::basico,idioms::spanish::Léxico::Básico::04 Casa
+la silla,cadeira,lexico idioma::espanhol tema::casa nivel::basico,idioms::spanish::Léxico::Básico::04 Casa
+el sofá,sofá,lexico idioma::espanhol tema::casa nivel::basico,idioms::spanish::Léxico::Básico::04 Casa
+el armario,armário,lexico idioma::espanhol tema::casa nivel::basico,idioms::spanish::Léxico::Básico::04 Casa
+el espejo,espelho,lexico idioma::espanhol tema::casa nivel::basico,idioms::spanish::Léxico::Básico::04 Casa
+la alfombra,tapete,lexico idioma::espanhol tema::casa nivel::basico,idioms::spanish::Léxico::Básico::04 Casa
+la llave,chave,lexico idioma::espanhol tema::casa nivel::basico,idioms::spanish::Léxico::Básico::04 Casa
+el balcón,varanda,lexico idioma::espanhol tema::casa nivel::basico,idioms::spanish::Léxico::Básico::04 Casa
+el jardín,jardim,lexico idioma::espanhol tema::casa nivel::basico,idioms::spanish::Léxico::Básico::04 Casa
+el plato,prato,lexico idioma::espanhol tema::cozinha_e_utensilios nivel::basico,idioms::spanish::Léxico::Básico::05 Cozinha e utensílios
+el vaso,copo,lexico idioma::espanhol tema::cozinha_e_utensilios nivel::basico,idioms::spanish::Léxico::Básico::05 Cozinha e utensílios
+la taza,xícara,lexico idioma::espanhol tema::cozinha_e_utensilios nivel::basico,idioms::spanish::Léxico::Básico::05 Cozinha e utensílios
+el tenedor,garfo,lexico idioma::espanhol tema::cozinha_e_utensilios nivel::basico,idioms::spanish::Léxico::Básico::05 Cozinha e utensílios
+el cuchillo,faca,lexico idioma::espanhol tema::cozinha_e_utensilios nivel::basico,idioms::spanish::Léxico::Básico::05 Cozinha e utensílios
+la cuchara,colher,lexico idioma::espanhol tema::cozinha_e_utensilios nivel::basico,idioms::spanish::Léxico::Básico::05 Cozinha e utensílios
+la olla,panela,lexico idioma::espanhol tema::cozinha_e_utensilios nivel::basico,idioms::spanish::Léxico::Básico::05 Cozinha e utensílios
+la sartén,frigideira,lexico idioma::espanhol tema::cozinha_e_utensilios nivel::basico,idioms::spanish::Léxico::Básico::05 Cozinha e utensílios
+el horno,forno,lexico idioma::espanhol tema::cozinha_e_utensilios nivel::basico,idioms::spanish::Léxico::Básico::05 Cozinha e utensílios
+la estufa,fogão,lexico idioma::espanhol tema::cozinha_e_utensilios nivel::basico,idioms::spanish::Léxico::Básico::05 Cozinha e utensílios
+el refrigerador,geladeira,lexico idioma::espanhol tema::cozinha_e_utensilios nivel::basico,idioms::spanish::Léxico::Básico::05 Cozinha e utensílios
+el congelador,congelador,lexico idioma::espanhol tema::cozinha_e_utensilios nivel::basico,idioms::spanish::Léxico::Básico::05 Cozinha e utensílios
+el fregadero,pia,lexico idioma::espanhol tema::cozinha_e_utensilios nivel::basico,idioms::spanish::Léxico::Básico::05 Cozinha e utensílios
+el grifo,torneira,lexico idioma::espanhol tema::cozinha_e_utensilios nivel::basico,idioms::spanish::Léxico::Básico::05 Cozinha e utensílios
+la botella,garrafa,lexico idioma::espanhol tema::cozinha_e_utensilios nivel::basico,idioms::spanish::Léxico::Básico::05 Cozinha e utensílios
+el tazón,tigela,lexico idioma::espanhol tema::cozinha_e_utensilios nivel::basico,idioms::spanish::Léxico::Básico::05 Cozinha e utensílios
+la bandeja,bandeja,lexico idioma::espanhol tema::cozinha_e_utensilios nivel::basico,idioms::spanish::Léxico::Básico::05 Cozinha e utensílios
+la servilleta,guardanapo,lexico idioma::espanhol tema::cozinha_e_utensilios nivel::basico,idioms::spanish::Léxico::Básico::05 Cozinha e utensílios
+el mantel,toalha de mesa,lexico idioma::espanhol tema::cozinha_e_utensilios nivel::basico,idioms::spanish::Léxico::Básico::05 Cozinha e utensílios
+la tapa,tampa,lexico idioma::espanhol tema::cozinha_e_utensilios nivel::basico,idioms::spanish::Léxico::Básico::05 Cozinha e utensílios
+la esponja,esponja,lexico idioma::espanhol tema::cozinha_e_utensilios nivel::basico,idioms::spanish::Léxico::Básico::05 Cozinha e utensílios
+el detergente,detergente,lexico idioma::espanhol tema::cozinha_e_utensilios nivel::basico,idioms::spanish::Léxico::Básico::05 Cozinha e utensílios
+el rallador,ralador,lexico idioma::espanhol tema::cozinha_e_utensilios nivel::basico,idioms::spanish::Léxico::Básico::05 Cozinha e utensílios
+el hervidor,chaleira,lexico idioma::espanhol tema::cozinha_e_utensilios nivel::basico,idioms::spanish::Léxico::Básico::05 Cozinha e utensílios
+la licuadora,liquidificador,lexico idioma::espanhol tema::cozinha_e_utensilios nivel::basico,idioms::spanish::Léxico::Básico::05 Cozinha e utensílios
+el agua,água,lexico idioma::espanhol tema::alimentos_basicos nivel::basico,idioms::spanish::Léxico::Básico::06 Alimentos básicos
+el pan,pão,lexico idioma::espanhol tema::alimentos_basicos nivel::basico,idioms::spanish::Léxico::Básico::06 Alimentos básicos
+el arroz,arroz,lexico idioma::espanhol tema::alimentos_basicos nivel::basico,idioms::spanish::Léxico::Básico::06 Alimentos básicos
+la pasta,massa alimentícia,lexico idioma::espanhol tema::alimentos_basicos nivel::basico,idioms::spanish::Léxico::Básico::06 Alimentos básicos
+la carne,carne,lexico idioma::espanhol tema::alimentos_basicos nivel::basico,idioms::spanish::Léxico::Básico::06 Alimentos básicos
+el pollo,frango (carne),lexico idioma::espanhol tema::alimentos_basicos nivel::basico,idioms::spanish::Léxico::Básico::06 Alimentos básicos
+el pescado,peixe (alimento),lexico idioma::espanhol tema::alimentos_basicos nivel::basico,idioms::spanish::Léxico::Básico::06 Alimentos básicos
+el huevo,ovo,lexico idioma::espanhol tema::alimentos_basicos nivel::basico,idioms::spanish::Léxico::Básico::06 Alimentos básicos
+la leche,leite,lexico idioma::espanhol tema::alimentos_basicos nivel::basico,idioms::spanish::Léxico::Básico::06 Alimentos básicos
+el queso,queijo,lexico idioma::espanhol tema::alimentos_basicos nivel::basico,idioms::spanish::Léxico::Básico::06 Alimentos básicos
+la mantequilla,manteiga,lexico idioma::espanhol tema::alimentos_basicos nivel::basico,idioms::spanish::Léxico::Básico::06 Alimentos básicos
+el aceite,óleo,lexico idioma::espanhol tema::alimentos_basicos nivel::basico,idioms::spanish::Léxico::Básico::06 Alimentos básicos
+la sal,sal,lexico idioma::espanhol tema::alimentos_basicos nivel::basico,idioms::spanish::Léxico::Básico::06 Alimentos básicos
+el azúcar,açúcar,lexico idioma::espanhol tema::alimentos_basicos nivel::basico,idioms::spanish::Léxico::Básico::06 Alimentos básicos
+la harina,farinha,lexico idioma::espanhol tema::alimentos_basicos nivel::basico,idioms::spanish::Léxico::Básico::06 Alimentos básicos
+el café,café,lexico idioma::espanhol tema::alimentos_basicos nivel::basico,idioms::spanish::Léxico::Básico::06 Alimentos básicos
+el té,chá,lexico idioma::espanhol tema::alimentos_basicos nivel::basico,idioms::spanish::Léxico::Básico::06 Alimentos básicos
+el jugo,suco,lexico idioma::espanhol tema::alimentos_basicos nivel::basico,idioms::spanish::Léxico::Básico::06 Alimentos básicos
+el vino,vinho,lexico idioma::espanhol tema::alimentos_basicos nivel::basico,idioms::spanish::Léxico::Básico::06 Alimentos básicos
+la cerveza,cerveja,lexico idioma::espanhol tema::alimentos_basicos nivel::basico,idioms::spanish::Léxico::Básico::06 Alimentos básicos
+la sopa,sopa,lexico idioma::espanhol tema::alimentos_basicos nivel::basico,idioms::spanish::Léxico::Básico::06 Alimentos básicos
+la ensalada,salada,lexico idioma::espanhol tema::alimentos_basicos nivel::basico,idioms::spanish::Léxico::Básico::06 Alimentos básicos
+la miel,mel,lexico idioma::espanhol tema::alimentos_basicos nivel::basico,idioms::spanish::Léxico::Básico::06 Alimentos básicos
+el chocolate,chocolate,lexico idioma::espanhol tema::alimentos_basicos nivel::basico,idioms::spanish::Léxico::Básico::06 Alimentos básicos
+el yogur,iogurte,lexico idioma::espanhol tema::alimentos_basicos nivel::basico,idioms::spanish::Léxico::Básico::06 Alimentos básicos
+la manzana,maçã,lexico idioma::espanhol tema::frutas_e_vegetais nivel::basico,idioms::spanish::Léxico::Básico::07 Frutas e vegetais
+el plátano,banana,lexico idioma::espanhol tema::frutas_e_vegetais nivel::basico,idioms::spanish::Léxico::Básico::07 Frutas e vegetais
+la naranja,laranja,lexico idioma::espanhol tema::frutas_e_vegetais nivel::basico,idioms::spanish::Léxico::Básico::07 Frutas e vegetais
+el limón,limão amarelo (siciliano),lexico idioma::espanhol tema::frutas_e_vegetais nivel::basico,idioms::spanish::Léxico::Básico::07 Frutas e vegetais
+la pera,pera,lexico idioma::espanhol tema::frutas_e_vegetais nivel::basico,idioms::spanish::Léxico::Básico::07 Frutas e vegetais
+la uva,uva,lexico idioma::espanhol tema::frutas_e_vegetais nivel::basico,idioms::spanish::Léxico::Básico::07 Frutas e vegetais
+la fresa,morango,lexico idioma::espanhol tema::frutas_e_vegetais nivel::basico,idioms::spanish::Léxico::Básico::07 Frutas e vegetais
+el durazno,pêssego,lexico idioma::espanhol tema::frutas_e_vegetais nivel::basico,idioms::spanish::Léxico::Básico::07 Frutas e vegetais
+la piña,abacaxi,lexico idioma::espanhol tema::frutas_e_vegetais nivel::basico,idioms::spanish::Léxico::Básico::07 Frutas e vegetais
+la sandía,melancia,lexico idioma::espanhol tema::frutas_e_vegetais nivel::basico,idioms::spanish::Léxico::Básico::07 Frutas e vegetais
+el melón,melão,lexico idioma::espanhol tema::frutas_e_vegetais nivel::basico,idioms::spanish::Léxico::Básico::07 Frutas e vegetais
+la cereza,cereja,lexico idioma::espanhol tema::frutas_e_vegetais nivel::basico,idioms::spanish::Léxico::Básico::07 Frutas e vegetais
+la ciruela,ameixa,lexico idioma::espanhol tema::frutas_e_vegetais nivel::basico,idioms::spanish::Léxico::Básico::07 Frutas e vegetais
+el aguacate,abacate,lexico idioma::espanhol tema::frutas_e_vegetais nivel::basico,idioms::spanish::Léxico::Básico::07 Frutas e vegetais
+el tomate,tomate,lexico idioma::espanhol tema::frutas_e_vegetais nivel::basico,idioms::spanish::Léxico::Básico::07 Frutas e vegetais
+la papa,batata,lexico idioma::espanhol tema::frutas_e_vegetais nivel::basico,idioms::spanish::Léxico::Básico::07 Frutas e vegetais
+la zanahoria,cenoura,lexico idioma::espanhol tema::frutas_e_vegetais nivel::basico,idioms::spanish::Léxico::Básico::07 Frutas e vegetais
+la cebolla,cebola,lexico idioma::espanhol tema::frutas_e_vegetais nivel::basico,idioms::spanish::Léxico::Básico::07 Frutas e vegetais
+el ajo,alho,lexico idioma::espanhol tema::frutas_e_vegetais nivel::basico,idioms::spanish::Léxico::Básico::07 Frutas e vegetais
+la lechuga,alface,lexico idioma::espanhol tema::frutas_e_vegetais nivel::basico,idioms::spanish::Léxico::Básico::07 Frutas e vegetais
+el pepino,pepino,lexico idioma::espanhol tema::frutas_e_vegetais nivel::basico,idioms::spanish::Léxico::Básico::07 Frutas e vegetais
+el pimiento,pimentão,lexico idioma::espanhol tema::frutas_e_vegetais nivel::basico,idioms::spanish::Léxico::Básico::07 Frutas e vegetais
+la berenjena,berinjela,lexico idioma::espanhol tema::frutas_e_vegetais nivel::basico,idioms::spanish::Léxico::Básico::07 Frutas e vegetais
+la calabaza,abóbora,lexico idioma::espanhol tema::frutas_e_vegetais nivel::basico,idioms::spanish::Léxico::Básico::07 Frutas e vegetais
+el frijol,feijão (grão),lexico idioma::espanhol tema::frutas_e_vegetais nivel::basico,idioms::spanish::Léxico::Básico::07 Frutas e vegetais
+la ropa,roupa (conjunto),lexico idioma::espanhol tema::roupas nivel::basico,idioms::spanish::Léxico::Básico::08 Roupas
+la camisa,camisa,lexico idioma::espanhol tema::roupas nivel::basico,idioms::spanish::Léxico::Básico::08 Roupas
+la camiseta,camiseta,lexico idioma::espanhol tema::roupas nivel::basico,idioms::spanish::Léxico::Básico::08 Roupas
+los pantalones,calça,lexico idioma::espanhol tema::roupas nivel::basico,idioms::spanish::Léxico::Básico::08 Roupas
+la falda,saia,lexico idioma::espanhol tema::roupas nivel::basico,idioms::spanish::Léxico::Básico::08 Roupas
+el vestido,vestido,lexico idioma::espanhol tema::roupas nivel::basico,idioms::spanish::Léxico::Básico::08 Roupas
+el abrigo,casaco,lexico idioma::espanhol tema::roupas nivel::basico,idioms::spanish::Léxico::Básico::08 Roupas
+la chaqueta,jaqueta,lexico idioma::espanhol tema::roupas nivel::basico,idioms::spanish::Léxico::Básico::08 Roupas
+el suéter,suéter,lexico idioma::espanhol tema::roupas nivel::basico,idioms::spanish::Léxico::Básico::08 Roupas
+el zapato,sapato,lexico idioma::espanhol tema::roupas nivel::basico,idioms::spanish::Léxico::Básico::08 Roupas
+la bota,bota,lexico idioma::espanhol tema::roupas nivel::basico,idioms::spanish::Léxico::Básico::08 Roupas
+la sandalia,sandália,lexico idioma::espanhol tema::roupas nivel::basico,idioms::spanish::Léxico::Básico::08 Roupas
+el calcetín,meia,lexico idioma::espanhol tema::roupas nivel::basico,idioms::spanish::Léxico::Básico::08 Roupas
+el sombrero,chapéu,lexico idioma::espanhol tema::roupas nivel::basico,idioms::spanish::Léxico::Básico::08 Roupas
+la gorra,boné,lexico idioma::espanhol tema::roupas nivel::basico,idioms::spanish::Léxico::Básico::08 Roupas
+la bufanda,cachecol,lexico idioma::espanhol tema::roupas nivel::basico,idioms::spanish::Léxico::Básico::08 Roupas
+el guante,luva,lexico idioma::espanhol tema::roupas nivel::basico,idioms::spanish::Léxico::Básico::08 Roupas
+el cinturón,cinto,lexico idioma::espanhol tema::roupas nivel::basico,idioms::spanish::Léxico::Básico::08 Roupas
+el bolso,bolsa,lexico idioma::espanhol tema::roupas nivel::basico,idioms::spanish::Léxico::Básico::08 Roupas
+la mochila,mochila,lexico idioma::espanhol tema::roupas nivel::basico,idioms::spanish::Léxico::Básico::08 Roupas
+el reloj,relógio de pulso,lexico idioma::espanhol tema::roupas nivel::basico,idioms::spanish::Léxico::Básico::08 Roupas
+el anillo,anel,lexico idioma::espanhol tema::roupas nivel::basico,idioms::spanish::Léxico::Básico::08 Roupas
+el arete,brinco,lexico idioma::espanhol tema::roupas nivel::basico,idioms::spanish::Léxico::Básico::08 Roupas
+el collar,colar,lexico idioma::espanhol tema::roupas nivel::basico,idioms::spanish::Léxico::Básico::08 Roupas
+el bolsillo,bolso,lexico idioma::espanhol tema::roupas nivel::basico,idioms::spanish::Léxico::Básico::08 Roupas
+la ciudad,cidade,lexico idioma::espanhol tema::cidade_e_servicos nivel::basico,idioms::spanish::Léxico::Básico::09 Cidade e serviços
+el pueblo,vila (povoado),lexico idioma::espanhol tema::cidade_e_servicos nivel::basico,idioms::spanish::Léxico::Básico::09 Cidade e serviços
+la calle,rua,lexico idioma::espanhol tema::cidade_e_servicos nivel::basico,idioms::spanish::Léxico::Básico::09 Cidade e serviços
+la avenida,avenida,lexico idioma::espanhol tema::cidade_e_servicos nivel::basico,idioms::spanish::Léxico::Básico::09 Cidade e serviços
+la plaza,praça,lexico idioma::espanhol tema::cidade_e_servicos nivel::basico,idioms::spanish::Léxico::Básico::09 Cidade e serviços
+el puente,ponte,lexico idioma::espanhol tema::cidade_e_servicos nivel::basico,idioms::spanish::Léxico::Básico::09 Cidade e serviços
+el edificio,prédio,lexico idioma::espanhol tema::cidade_e_servicos nivel::basico,idioms::spanish::Léxico::Básico::09 Cidade e serviços
+la tienda,loja,lexico idioma::espanhol tema::cidade_e_servicos nivel::basico,idioms::spanish::Léxico::Básico::09 Cidade e serviços
+el mercado,mercado,lexico idioma::espanhol tema::cidade_e_servicos nivel::basico,idioms::spanish::Léxico::Básico::09 Cidade e serviços
+el supermercado,supermercado,lexico idioma::espanhol tema::cidade_e_servicos nivel::basico,idioms::spanish::Léxico::Básico::09 Cidade e serviços
+el banco,banco (instituição),lexico idioma::espanhol tema::cidade_e_servicos nivel::basico,idioms::spanish::Léxico::Básico::09 Cidade e serviços
+la farmacia,farmácia,lexico idioma::espanhol tema::cidade_e_servicos nivel::basico,idioms::spanish::Léxico::Básico::09 Cidade e serviços
+el hospital,hospital,lexico idioma::espanhol tema::cidade_e_servicos nivel::basico,idioms::spanish::Léxico::Básico::09 Cidade e serviços
+la escuela,escola,lexico idioma::espanhol tema::cidade_e_servicos nivel::basico,idioms::spanish::Léxico::Básico::09 Cidade e serviços
+la universidad,universidade,lexico idioma::espanhol tema::cidade_e_servicos nivel::basico,idioms::spanish::Léxico::Básico::09 Cidade e serviços
+la biblioteca,biblioteca,lexico idioma::espanhol tema::cidade_e_servicos nivel::basico,idioms::spanish::Léxico::Básico::09 Cidade e serviços
+el museo,museu,lexico idioma::espanhol tema::cidade_e_servicos nivel::basico,idioms::spanish::Léxico::Básico::09 Cidade e serviços
+el cine,cinema,lexico idioma::espanhol tema::cidade_e_servicos nivel::basico,idioms::spanish::Léxico::Básico::09 Cidade e serviços
+el teatro,teatro,lexico idioma::espanhol tema::cidade_e_servicos nivel::basico,idioms::spanish::Léxico::Básico::09 Cidade e serviços
+la iglesia,igreja,lexico idioma::espanhol tema::cidade_e_servicos nivel::basico,idioms::spanish::Léxico::Básico::09 Cidade e serviços
+el parque,parque,lexico idioma::espanhol tema::cidade_e_servicos nivel::basico,idioms::spanish::Léxico::Básico::09 Cidade e serviços
+el restaurante,restaurante,lexico idioma::espanhol tema::cidade_e_servicos nivel::basico,idioms::spanish::Léxico::Básico::09 Cidade e serviços
+la panadería,padaria,lexico idioma::espanhol tema::cidade_e_servicos nivel::basico,idioms::spanish::Léxico::Básico::09 Cidade e serviços
+el ayuntamiento,prefeitura (sede),lexico idioma::espanhol tema::cidade_e_servicos nivel::basico,idioms::spanish::Léxico::Básico::09 Cidade e serviços
+la esquina,esquina,lexico idioma::espanhol tema::cidade_e_servicos nivel::basico,idioms::spanish::Léxico::Básico::09 Cidade e serviços
+el auto,carro,lexico idioma::espanhol tema::transporte_e_viagens nivel::basico,idioms::spanish::Léxico::Básico::10 Transporte e viagens
+el autobús,ônibus,lexico idioma::espanhol tema::transporte_e_viagens nivel::basico,idioms::spanish::Léxico::Básico::10 Transporte e viagens
+el tren,trem,lexico idioma::espanhol tema::transporte_e_viagens nivel::basico,idioms::spanish::Léxico::Básico::10 Transporte e viagens
+el metro,metrô,lexico idioma::espanhol tema::transporte_e_viagens nivel::basico,idioms::spanish::Léxico::Básico::10 Transporte e viagens
+la bicicleta,bicicleta,lexico idioma::espanhol tema::transporte_e_viagens nivel::basico,idioms::spanish::Léxico::Básico::10 Transporte e viagens
+la motocicleta,moto,lexico idioma::espanhol tema::transporte_e_viagens nivel::basico,idioms::spanish::Léxico::Básico::10 Transporte e viagens
+el camión,caminhão,lexico idioma::espanhol tema::transporte_e_viagens nivel::basico,idioms::spanish::Léxico::Básico::10 Transporte e viagens
+el avión,avião,lexico idioma::espanhol tema::transporte_e_viagens nivel::basico,idioms::spanish::Léxico::Básico::10 Transporte e viagens
+el barco,barco,lexico idioma::espanhol tema::transporte_e_viagens nivel::basico,idioms::spanish::Léxico::Básico::10 Transporte e viagens
+el buque,navio,lexico idioma::espanhol tema::transporte_e_viagens nivel::basico,idioms::spanish::Léxico::Básico::10 Transporte e viagens
+el aeropuerto,aeroporto,lexico idioma::espanhol tema::transporte_e_viagens nivel::basico,idioms::spanish::Léxico::Básico::10 Transporte e viagens
+la estación,estação,lexico idioma::espanhol tema::transporte_e_viagens nivel::basico,idioms::spanish::Léxico::Básico::10 Transporte e viagens
+el boleto,passagem (bilhete),lexico idioma::espanhol tema::transporte_e_viagens nivel::basico,idioms::spanish::Léxico::Básico::10 Transporte e viagens
+el pasaporte,passaporte,lexico idioma::espanhol tema::transporte_e_viagens nivel::basico,idioms::spanish::Léxico::Básico::10 Transporte e viagens
+la maleta,mala,lexico idioma::espanhol tema::transporte_e_viagens nivel::basico,idioms::spanish::Léxico::Básico::10 Transporte e viagens
+el equipaje,bagagem,lexico idioma::espanhol tema::transporte_e_viagens nivel::basico,idioms::spanish::Léxico::Básico::10 Transporte e viagens
+el hotel,hotel,lexico idioma::espanhol tema::transporte_e_viagens nivel::basico,idioms::spanish::Léxico::Básico::10 Transporte e viagens
+la reserva,reserva (agendamento),lexico idioma::espanhol tema::transporte_e_viagens nivel::basico,idioms::spanish::Léxico::Básico::10 Transporte e viagens
+el viaje,viagem,lexico idioma::espanhol tema::transporte_e_viagens nivel::basico,idioms::spanish::Léxico::Básico::10 Transporte e viagens
+el mapa,mapa,lexico idioma::espanhol tema::transporte_e_viagens nivel::basico,idioms::spanish::Léxico::Básico::10 Transporte e viagens
+la frontera,fronteira,lexico idioma::espanhol tema::transporte_e_viagens nivel::basico,idioms::spanish::Léxico::Básico::10 Transporte e viagens
+el destino,destino,lexico idioma::espanhol tema::transporte_e_viagens nivel::basico,idioms::spanish::Léxico::Básico::10 Transporte e viagens
+el tráfico,trânsito,lexico idioma::espanhol tema::transporte_e_viagens nivel::basico,idioms::spanish::Léxico::Básico::10 Transporte e viagens
+el conductor,motorista,lexico idioma::espanhol tema::transporte_e_viagens nivel::basico,idioms::spanish::Léxico::Básico::10 Transporte e viagens
+el pasajero,passageiro,lexico idioma::espanhol tema::transporte_e_viagens nivel::basico,idioms::spanish::Léxico::Básico::10 Transporte e viagens
+el sol,sol,lexico idioma::espanhol tema::natureza_e_clima nivel::basico,idioms::spanish::Léxico::Básico::11 Natureza e clima
+la luna,lua,lexico idioma::espanhol tema::natureza_e_clima nivel::basico,idioms::spanish::Léxico::Básico::11 Natureza e clima
+la estrella,estrela,lexico idioma::espanhol tema::natureza_e_clima nivel::basico,idioms::spanish::Léxico::Básico::11 Natureza e clima
+el cielo,céu,lexico idioma::espanhol tema::natureza_e_clima nivel::basico,idioms::spanish::Léxico::Básico::11 Natureza e clima
+la nube,nuvem,lexico idioma::espanhol tema::natureza_e_clima nivel::basico,idioms::spanish::Léxico::Básico::11 Natureza e clima
+la lluvia,chuva,lexico idioma::espanhol tema::natureza_e_clima nivel::basico,idioms::spanish::Léxico::Básico::11 Natureza e clima
+la nieve,neve,lexico idioma::espanhol tema::natureza_e_clima nivel::basico,idioms::spanish::Léxico::Básico::11 Natureza e clima
+el viento,vento,lexico idioma::espanhol tema::natureza_e_clima nivel::basico,idioms::spanish::Léxico::Básico::11 Natureza e clima
+la tormenta,tempestade,lexico idioma::espanhol tema::natureza_e_clima nivel::basico,idioms::spanish::Léxico::Básico::11 Natureza e clima
+la niebla,neblina,lexico idioma::espanhol tema::natureza_e_clima nivel::basico,idioms::spanish::Léxico::Básico::11 Natureza e clima
+el clima,clima,lexico idioma::espanhol tema::natureza_e_clima nivel::basico,idioms::spanish::Léxico::Básico::11 Natureza e clima
+la temperatura,temperatura,lexico idioma::espanhol tema::natureza_e_clima nivel::basico,idioms::spanish::Léxico::Básico::11 Natureza e clima
+el mar,mar,lexico idioma::espanhol tema::natureza_e_clima nivel::basico,idioms::spanish::Léxico::Básico::11 Natureza e clima
+el océano,oceano,lexico idioma::espanhol tema::natureza_e_clima nivel::basico,idioms::spanish::Léxico::Básico::11 Natureza e clima
+el río,rio,lexico idioma::espanhol tema::natureza_e_clima nivel::basico,idioms::spanish::Léxico::Básico::11 Natureza e clima
+el lago,lago,lexico idioma::espanhol tema::natureza_e_clima nivel::basico,idioms::spanish::Léxico::Básico::11 Natureza e clima
+la montaña,montanha,lexico idioma::espanhol tema::natureza_e_clima nivel::basico,idioms::spanish::Léxico::Básico::11 Natureza e clima
+el bosque,floresta,lexico idioma::espanhol tema::natureza_e_clima nivel::basico,idioms::spanish::Léxico::Básico::11 Natureza e clima
+el árbol,árvore,lexico idioma::espanhol tema::natureza_e_clima nivel::basico,idioms::spanish::Léxico::Básico::11 Natureza e clima
+la flor,flor,lexico idioma::espanhol tema::natureza_e_clima nivel::basico,idioms::spanish::Léxico::Básico::11 Natureza e clima
+la hoja,folha (planta),lexico idioma::espanhol tema::natureza_e_clima nivel::basico,idioms::spanish::Léxico::Básico::11 Natureza e clima
+la raíz,raiz,lexico idioma::espanhol tema::natureza_e_clima nivel::basico,idioms::spanish::Léxico::Básico::11 Natureza e clima
+la arena,areia,lexico idioma::espanhol tema::natureza_e_clima nivel::basico,idioms::spanish::Léxico::Básico::11 Natureza e clima
+la piedra,pedra,lexico idioma::espanhol tema::natureza_e_clima nivel::basico,idioms::spanish::Léxico::Básico::11 Natureza e clima
+la isla,ilha,lexico idioma::espanhol tema::natureza_e_clima nivel::basico,idioms::spanish::Léxico::Básico::11 Natureza e clima
+el perro,cachorro,lexico idioma::espanhol tema::animais nivel::basico,idioms::spanish::Léxico::Básico::12 Animais
+el gato,gato,lexico idioma::espanhol tema::animais nivel::basico,idioms::spanish::Léxico::Básico::12 Animais
+el caballo,cavalo,lexico idioma::espanhol tema::animais nivel::basico,idioms::spanish::Léxico::Básico::12 Animais
+la vaca,vaca,lexico idioma::espanhol tema::animais nivel::basico,idioms::spanish::Léxico::Básico::12 Animais
+el cerdo,porco,lexico idioma::espanhol tema::animais nivel::basico,idioms::spanish::Léxico::Básico::12 Animais
+la oveja,ovelha,lexico idioma::espanhol tema::animais nivel::basico,idioms::spanish::Léxico::Básico::12 Animais
+la cabra,cabra,lexico idioma::espanhol tema::animais nivel::basico,idioms::spanish::Léxico::Básico::12 Animais
+el conejo,coelho,lexico idioma::espanhol tema::animais nivel::basico,idioms::spanish::Léxico::Básico::12 Animais
+el ratón,camundongo,lexico idioma::espanhol tema::animais nivel::basico,idioms::spanish::Léxico::Básico::12 Animais
+el oso,urso,lexico idioma::espanhol tema::animais nivel::basico,idioms::spanish::Léxico::Básico::12 Animais
+el lobo,lobo,lexico idioma::espanhol tema::animais nivel::basico,idioms::spanish::Léxico::Básico::12 Animais
+el zorro,raposa,lexico idioma::espanhol tema::animais nivel::basico,idioms::spanish::Léxico::Básico::12 Animais
+el león,leão,lexico idioma::espanhol tema::animais nivel::basico,idioms::spanish::Léxico::Básico::12 Animais
+el tigre,tigre,lexico idioma::espanhol tema::animais nivel::basico,idioms::spanish::Léxico::Básico::12 Animais
+el elefante,elefante,lexico idioma::espanhol tema::animais nivel::basico,idioms::spanish::Léxico::Básico::12 Animais
+la jirafa,girafa,lexico idioma::espanhol tema::animais nivel::basico,idioms::spanish::Léxico::Básico::12 Animais
+el mono,macaco,lexico idioma::espanhol tema::animais nivel::basico,idioms::spanish::Léxico::Básico::12 Animais
+el pájaro,pássaro,lexico idioma::espanhol tema::animais nivel::basico,idioms::spanish::Léxico::Básico::12 Animais
+el pato,pato,lexico idioma::espanhol tema::animais nivel::basico,idioms::spanish::Léxico::Básico::12 Animais
+la gallina,galinha,lexico idioma::espanhol tema::animais nivel::basico,idioms::spanish::Léxico::Básico::12 Animais
+el águila,águia,lexico idioma::espanhol tema::animais nivel::basico,idioms::spanish::Léxico::Básico::12 Animais
+la serpiente,cobra,lexico idioma::espanhol tema::animais nivel::basico,idioms::spanish::Léxico::Básico::12 Animais
+la tortuga,tartaruga,lexico idioma::espanhol tema::animais nivel::basico,idioms::spanish::Léxico::Básico::12 Animais
+el sapo,sapo,lexico idioma::espanhol tema::animais nivel::basico,idioms::spanish::Léxico::Básico::12 Animais
+la mariposa,borboleta,lexico idioma::espanhol tema::animais nivel::basico,idioms::spanish::Léxico::Básico::12 Animais
+el tiempo,tempo (duração),lexico idioma::espanhol tema::tempo_e_calendario nivel::basico,idioms::spanish::Léxico::Básico::13 Tempo e calendário
+el día,dia,lexico idioma::espanhol tema::tempo_e_calendario nivel::basico,idioms::spanish::Léxico::Básico::13 Tempo e calendário
+la noche,noite,lexico idioma::espanhol tema::tempo_e_calendario nivel::basico,idioms::spanish::Léxico::Básico::13 Tempo e calendário
+la mañana,manhã,lexico idioma::espanhol tema::tempo_e_calendario nivel::basico,idioms::spanish::Léxico::Básico::13 Tempo e calendário
+la tarde,tarde (período),lexico idioma::espanhol tema::tempo_e_calendario nivel::basico,idioms::spanish::Léxico::Básico::13 Tempo e calendário
+la semana,semana,lexico idioma::espanhol tema::tempo_e_calendario nivel::basico,idioms::spanish::Léxico::Básico::13 Tempo e calendário
+el mes,mês,lexico idioma::espanhol tema::tempo_e_calendario nivel::basico,idioms::spanish::Léxico::Básico::13 Tempo e calendário
+el año,ano,lexico idioma::espanhol tema::tempo_e_calendario nivel::basico,idioms::spanish::Léxico::Básico::13 Tempo e calendário
+la hora,hora,lexico idioma::espanhol tema::tempo_e_calendario nivel::basico,idioms::spanish::Léxico::Básico::13 Tempo e calendário
+el minuto,minuto,lexico idioma::espanhol tema::tempo_e_calendario nivel::basico,idioms::spanish::Léxico::Básico::13 Tempo e calendário
+el segundo,segundo (unidade),lexico idioma::espanhol tema::tempo_e_calendario nivel::basico,idioms::spanish::Léxico::Básico::13 Tempo e calendário
+hoy,hoje,lexico idioma::espanhol tema::tempo_e_calendario nivel::basico,idioms::spanish::Léxico::Básico::13 Tempo e calendário
+ayer,ontem,lexico idioma::espanhol tema::tempo_e_calendario nivel::basico,idioms::spanish::Léxico::Básico::13 Tempo e calendário
+mañana,amanhã,lexico idioma::espanhol tema::tempo_e_calendario nivel::basico,idioms::spanish::Léxico::Básico::13 Tempo e calendário
+temprano,cedo,lexico idioma::espanhol tema::tempo_e_calendario nivel::basico,idioms::spanish::Léxico::Básico::13 Tempo e calendário
+tarde,tarde (atrasado),lexico idioma::espanhol tema::tempo_e_calendario nivel::basico,idioms::spanish::Léxico::Básico::13 Tempo e calendário
+siempre,sempre,lexico idioma::espanhol tema::tempo_e_calendario nivel::basico,idioms::spanish::Léxico::Básico::13 Tempo e calendário
+nunca,nunca,lexico idioma::espanhol tema::tempo_e_calendario nivel::basico,idioms::spanish::Léxico::Básico::13 Tempo e calendário
+ahora,agora,lexico idioma::espanhol tema::tempo_e_calendario nivel::basico,idioms::spanish::Léxico::Básico::13 Tempo e calendário
+después,depois,lexico idioma::espanhol tema::tempo_e_calendario nivel::basico,idioms::spanish::Léxico::Básico::13 Tempo e calendário
+antes,antes,lexico idioma::espanhol tema::tempo_e_calendario nivel::basico,idioms::spanish::Léxico::Básico::13 Tempo e calendário
+el verano,verão,lexico idioma::espanhol tema::tempo_e_calendario nivel::basico,idioms::spanish::Léxico::Básico::13 Tempo e calendário
+el invierno,inverno,lexico idioma::espanhol tema::tempo_e_calendario nivel::basico,idioms::spanish::Léxico::Básico::13 Tempo e calendário
+la primavera,primavera,lexico idioma::espanhol tema::tempo_e_calendario nivel::basico,idioms::spanish::Léxico::Básico::13 Tempo e calendário
+el otoño,outono,lexico idioma::espanhol tema::tempo_e_calendario nivel::basico,idioms::spanish::Léxico::Básico::13 Tempo e calendário
+el trabajo,trabalho (atividade),lexico idioma::espanhol tema::trabalho_e_profissoes nivel::intermediario,idioms::spanish::Léxico::Intermediário::14 Trabalho e profissões
+el empleo,emprego,lexico idioma::espanhol tema::trabalho_e_profissoes nivel::intermediario,idioms::spanish::Léxico::Intermediário::14 Trabalho e profissões
+la empresa,empresa,lexico idioma::espanhol tema::trabalho_e_profissoes nivel::intermediario,idioms::spanish::Léxico::Intermediário::14 Trabalho e profissões
+la oficina,escritório,lexico idioma::espanhol tema::trabalho_e_profissoes nivel::intermediario,idioms::spanish::Léxico::Intermediário::14 Trabalho e profissões
+el colega,colega de trabalho,lexico idioma::espanhol tema::trabalho_e_profissoes nivel::intermediario,idioms::spanish::Léxico::Intermediário::14 Trabalho e profissões
+el jefe,chefe,lexico idioma::espanhol tema::trabalho_e_profissoes nivel::intermediario,idioms::spanish::Léxico::Intermediário::14 Trabalho e profissões
+el empleado,funcionário,lexico idioma::espanhol tema::trabalho_e_profissoes nivel::intermediario,idioms::spanish::Léxico::Intermediário::14 Trabalho e profissões
+el cliente,cliente,lexico idioma::espanhol tema::trabalho_e_profissoes nivel::intermediario,idioms::spanish::Léxico::Intermediário::14 Trabalho e profissões
+el salario,salário,lexico idioma::espanhol tema::trabalho_e_profissoes nivel::intermediario,idioms::spanish::Léxico::Intermediário::14 Trabalho e profissões
+la reunión,reunião,lexico idioma::espanhol tema::trabalho_e_profissoes nivel::intermediario,idioms::spanish::Léxico::Intermediário::14 Trabalho e profissões
+el contrato,contrato,lexico idioma::espanhol tema::trabalho_e_profissoes nivel::intermediario,idioms::spanish::Léxico::Intermediário::14 Trabalho e profissões
+el proyecto,projeto,lexico idioma::espanhol tema::trabalho_e_profissoes nivel::intermediario,idioms::spanish::Léxico::Intermediário::14 Trabalho e profissões
+la tarea,tarefa,lexico idioma::espanhol tema::trabalho_e_profissoes nivel::intermediario,idioms::spanish::Léxico::Intermediário::14 Trabalho e profissões
+la fecha límite,prazo final,lexico idioma::espanhol tema::trabalho_e_profissoes nivel::intermediario,idioms::spanish::Léxico::Intermediário::14 Trabalho e profissões
+la carrera,carreira,lexico idioma::espanhol tema::trabalho_e_profissoes nivel::intermediario,idioms::spanish::Léxico::Intermediário::14 Trabalho e profissões
+el médico,médico,lexico idioma::espanhol tema::trabalho_e_profissoes nivel::intermediario,idioms::spanish::Léxico::Intermediário::14 Trabalho e profissões
+el enfermero,enfermeiro,lexico idioma::espanhol tema::trabalho_e_profissoes nivel::intermediario,idioms::spanish::Léxico::Intermediário::14 Trabalho e profissões
+el profesor,professor,lexico idioma::espanhol tema::trabalho_e_profissoes nivel::intermediario,idioms::spanish::Léxico::Intermediário::14 Trabalho e profissões
+el ingeniero,engenheiro,lexico idioma::espanhol tema::trabalho_e_profissoes nivel::intermediario,idioms::spanish::Léxico::Intermediário::14 Trabalho e profissões
+el abogado,advogado,lexico idioma::espanhol tema::trabalho_e_profissoes nivel::intermediario,idioms::spanish::Léxico::Intermediário::14 Trabalho e profissões
+el cocinero,cozinheiro,lexico idioma::espanhol tema::trabalho_e_profissoes nivel::intermediario,idioms::spanish::Léxico::Intermediário::14 Trabalho e profissões
+el mesero,garçom,lexico idioma::espanhol tema::trabalho_e_profissoes nivel::intermediario,idioms::spanish::Léxico::Intermediário::14 Trabalho e profissões
+el agricultor,agricultor,lexico idioma::espanhol tema::trabalho_e_profissoes nivel::intermediario,idioms::spanish::Léxico::Intermediário::14 Trabalho e profissões
+el arquitecto,arquiteto,lexico idioma::espanhol tema::trabalho_e_profissoes nivel::intermediario,idioms::spanish::Léxico::Intermediário::14 Trabalho e profissões
+el policía,policial,lexico idioma::espanhol tema::trabalho_e_profissoes nivel::intermediario,idioms::spanish::Léxico::Intermediário::14 Trabalho e profissões
+el libro,livro,lexico idioma::espanhol tema::estudo_e_aprendizagem nivel::intermediario,idioms::spanish::Léxico::Intermediário::15 Estudo e aprendizagem
+el cuaderno,caderno,lexico idioma::espanhol tema::estudo_e_aprendizagem nivel::intermediario,idioms::spanish::Léxico::Intermediário::15 Estudo e aprendizagem
+el bolígrafo,caneta,lexico idioma::espanhol tema::estudo_e_aprendizagem nivel::intermediario,idioms::spanish::Léxico::Intermediário::15 Estudo e aprendizagem
+el lápiz,lápis,lexico idioma::espanhol tema::estudo_e_aprendizagem nivel::intermediario,idioms::spanish::Léxico::Intermediário::15 Estudo e aprendizagem
+la goma,borracha de apagar,lexico idioma::espanhol tema::estudo_e_aprendizagem nivel::intermediario,idioms::spanish::Léxico::Intermediário::15 Estudo e aprendizagem
+el papel,papel,lexico idioma::espanhol tema::estudo_e_aprendizagem nivel::intermediario,idioms::spanish::Léxico::Intermediário::15 Estudo e aprendizagem
+la página,página,lexico idioma::espanhol tema::estudo_e_aprendizagem nivel::intermediario,idioms::spanish::Léxico::Intermediário::15 Estudo e aprendizagem
+la palabra,palavra,lexico idioma::espanhol tema::estudo_e_aprendizagem nivel::intermediario,idioms::spanish::Léxico::Intermediário::15 Estudo e aprendizagem
+la frase,frase,lexico idioma::espanhol tema::estudo_e_aprendizagem nivel::intermediario,idioms::spanish::Léxico::Intermediário::15 Estudo e aprendizagem
+la pregunta,pergunta,lexico idioma::espanhol tema::estudo_e_aprendizagem nivel::intermediario,idioms::spanish::Léxico::Intermediário::15 Estudo e aprendizagem
+la respuesta,resposta,lexico idioma::espanhol tema::estudo_e_aprendizagem nivel::intermediario,idioms::spanish::Léxico::Intermediário::15 Estudo e aprendizagem
+la lección,lição,lexico idioma::espanhol tema::estudo_e_aprendizagem nivel::intermediario,idioms::spanish::Léxico::Intermediário::15 Estudo e aprendizagem
+el curso,curso,lexico idioma::espanhol tema::estudo_e_aprendizagem nivel::intermediario,idioms::spanish::Léxico::Intermediário::15 Estudo e aprendizagem
+el examen,exame,lexico idioma::espanhol tema::estudo_e_aprendizagem nivel::intermediario,idioms::spanish::Léxico::Intermediário::15 Estudo e aprendizagem
+la calificación,nota (avaliação),lexico idioma::espanhol tema::estudo_e_aprendizagem nivel::intermediario,idioms::spanish::Léxico::Intermediário::15 Estudo e aprendizagem
+el estudiante,aluno,lexico idioma::espanhol tema::estudo_e_aprendizagem nivel::intermediario,idioms::spanish::Léxico::Intermediário::15 Estudo e aprendizagem
+el conocimiento,conhecimento,lexico idioma::espanhol tema::estudo_e_aprendizagem nivel::intermediario,idioms::spanish::Léxico::Intermediário::15 Estudo e aprendizagem
+la memoria,memória (capacidade),lexico idioma::espanhol tema::estudo_e_aprendizagem nivel::intermediario,idioms::spanish::Léxico::Intermediário::15 Estudo e aprendizagem
+el ejercicio,exercício,lexico idioma::espanhol tema::estudo_e_aprendizagem nivel::intermediario,idioms::spanish::Léxico::Intermediário::15 Estudo e aprendizagem
+la investigación,pesquisa,lexico idioma::espanhol tema::estudo_e_aprendizagem nivel::intermediario,idioms::spanish::Léxico::Intermediário::15 Estudo e aprendizagem
+la ciencia,ciência,lexico idioma::espanhol tema::estudo_e_aprendizagem nivel::intermediario,idioms::spanish::Léxico::Intermediário::15 Estudo e aprendizagem
+la historia,história (disciplina),lexico idioma::espanhol tema::estudo_e_aprendizagem nivel::intermediario,idioms::spanish::Léxico::Intermediário::15 Estudo e aprendizagem
+la matemática,matemática,lexico idioma::espanhol tema::estudo_e_aprendizagem nivel::intermediario,idioms::spanish::Léxico::Intermediário::15 Estudo e aprendizagem
+la gramática,gramática,lexico idioma::espanhol tema::estudo_e_aprendizagem nivel::intermediario,idioms::spanish::Léxico::Intermediário::15 Estudo e aprendizagem
+el diccionario,dicionário,lexico idioma::espanhol tema::estudo_e_aprendizagem nivel::intermediario,idioms::spanish::Léxico::Intermediário::15 Estudo e aprendizagem
+la computadora,computador,lexico idioma::espanhol tema::tecnologia_e_comunicacao nivel::intermediario,idioms::spanish::Léxico::Intermediário::16 Tecnologia e comunicação
+el teclado,teclado,lexico idioma::espanhol tema::tecnologia_e_comunicacao nivel::intermediario,idioms::spanish::Léxico::Intermediário::16 Tecnologia e comunicação
+la pantalla,tela,lexico idioma::espanhol tema::tecnologia_e_comunicacao nivel::intermediario,idioms::spanish::Léxico::Intermediário::16 Tecnologia e comunicação
+el celular,celular,lexico idioma::espanhol tema::tecnologia_e_comunicacao nivel::intermediario,idioms::spanish::Léxico::Intermediário::16 Tecnologia e comunicação
+el teléfono,telefone,lexico idioma::espanhol tema::tecnologia_e_comunicacao nivel::intermediario,idioms::spanish::Léxico::Intermediário::16 Tecnologia e comunicação
+el mensaje,mensagem,lexico idioma::espanhol tema::tecnologia_e_comunicacao nivel::intermediario,idioms::spanish::Léxico::Intermediário::16 Tecnologia e comunicação
+el archivo,arquivo digital,lexico idioma::espanhol tema::tecnologia_e_comunicacao nivel::intermediario,idioms::spanish::Léxico::Intermediário::16 Tecnologia e comunicação
+la carpeta,pasta digital,lexico idioma::espanhol tema::tecnologia_e_comunicacao nivel::intermediario,idioms::spanish::Léxico::Intermediário::16 Tecnologia e comunicação
+la contraseña,senha,lexico idioma::espanhol tema::tecnologia_e_comunicacao nivel::intermediario,idioms::spanish::Léxico::Intermediário::16 Tecnologia e comunicação
+la red,rede,lexico idioma::espanhol tema::tecnologia_e_comunicacao nivel::intermediario,idioms::spanish::Léxico::Intermediário::16 Tecnologia e comunicação
+la conexión,conexão,lexico idioma::espanhol tema::tecnologia_e_comunicacao nivel::intermediario,idioms::spanish::Léxico::Intermediário::16 Tecnologia e comunicação
+la aplicación,aplicativo,lexico idioma::espanhol tema::tecnologia_e_comunicacao nivel::intermediario,idioms::spanish::Léxico::Intermediário::16 Tecnologia e comunicação
+el software,software (programas de computador),lexico idioma::espanhol tema::tecnologia_e_comunicacao nivel::intermediario,idioms::spanish::Léxico::Intermediário::16 Tecnologia e comunicação
+la impresora,impressora,lexico idioma::espanhol tema::tecnologia_e_comunicacao nivel::intermediario,idioms::spanish::Léxico::Intermediário::16 Tecnologia e comunicação
+el cargador,carregador,lexico idioma::espanhol tema::tecnologia_e_comunicacao nivel::intermediario,idioms::spanish::Léxico::Intermediário::16 Tecnologia e comunicação
+la batería,bateria,lexico idioma::espanhol tema::tecnologia_e_comunicacao nivel::intermediario,idioms::spanish::Léxico::Intermediário::16 Tecnologia e comunicação
+el video,vídeo,lexico idioma::espanhol tema::tecnologia_e_comunicacao nivel::intermediario,idioms::spanish::Léxico::Intermediário::16 Tecnologia e comunicação
+la fotografía,fotografia,lexico idioma::espanhol tema::tecnologia_e_comunicacao nivel::intermediario,idioms::spanish::Léxico::Intermediário::16 Tecnologia e comunicação
+la cámara,câmera,lexico idioma::espanhol tema::tecnologia_e_comunicacao nivel::intermediario,idioms::spanish::Léxico::Intermediário::16 Tecnologia e comunicação
+la noticia,notícia,lexico idioma::espanhol tema::tecnologia_e_comunicacao nivel::intermediario,idioms::spanish::Léxico::Intermediário::16 Tecnologia e comunicação
+el periódico,jornal,lexico idioma::espanhol tema::tecnologia_e_comunicacao nivel::intermediario,idioms::spanish::Léxico::Intermediário::16 Tecnologia e comunicação
+la revista,revista,lexico idioma::espanhol tema::tecnologia_e_comunicacao nivel::intermediario,idioms::spanish::Léxico::Intermediário::16 Tecnologia e comunicação
+el anuncio,anúncio publicitário,lexico idioma::espanhol tema::tecnologia_e_comunicacao nivel::intermediario,idioms::spanish::Léxico::Intermediário::16 Tecnologia e comunicação
+la entrevista,entrevista,lexico idioma::espanhol tema::tecnologia_e_comunicacao nivel::intermediario,idioms::spanish::Léxico::Intermediário::16 Tecnologia e comunicação
+la conversación,conversa,lexico idioma::espanhol tema::tecnologia_e_comunicacao nivel::intermediario,idioms::spanish::Léxico::Intermediário::16 Tecnologia e comunicação
+el dinero,dinheiro,lexico idioma::espanhol tema::dinheiro_e_compras nivel::intermediario,idioms::spanish::Léxico::Intermediário::17 Dinheiro e compras
+la moneda,moeda,lexico idioma::espanhol tema::dinheiro_e_compras nivel::intermediario,idioms::spanish::Léxico::Intermediário::17 Dinheiro e compras
+el billete de banco,cédula,lexico idioma::espanhol tema::dinheiro_e_compras nivel::intermediario,idioms::spanish::Léxico::Intermediário::17 Dinheiro e compras
+el precio,preço,lexico idioma::espanhol tema::dinheiro_e_compras nivel::intermediario,idioms::spanish::Léxico::Intermediário::17 Dinheiro e compras
+el costo,custo,lexico idioma::espanhol tema::dinheiro_e_compras nivel::intermediario,idioms::spanish::Léxico::Intermediário::17 Dinheiro e compras
+el descuento,desconto,lexico idioma::espanhol tema::dinheiro_e_compras nivel::intermediario,idioms::spanish::Léxico::Intermediário::17 Dinheiro e compras
+el pago,pagamento,lexico idioma::espanhol tema::dinheiro_e_compras nivel::intermediario,idioms::spanish::Léxico::Intermediário::17 Dinheiro e compras
+el cambio,troco,lexico idioma::espanhol tema::dinheiro_e_compras nivel::intermediario,idioms::spanish::Léxico::Intermediário::17 Dinheiro e compras
+el recibo,recibo,lexico idioma::espanhol tema::dinheiro_e_compras nivel::intermediario,idioms::spanish::Léxico::Intermediário::17 Dinheiro e compras
+la factura,fatura,lexico idioma::espanhol tema::dinheiro_e_compras nivel::intermediario,idioms::spanish::Léxico::Intermediário::17 Dinheiro e compras
+la cuenta,conta (bancária),lexico idioma::espanhol tema::dinheiro_e_compras nivel::intermediario,idioms::spanish::Léxico::Intermediário::17 Dinheiro e compras
+la tarjeta,cartão (pagamento),lexico idioma::espanhol tema::dinheiro_e_compras nivel::intermediario,idioms::spanish::Léxico::Intermediário::17 Dinheiro e compras
+la deuda,dívida,lexico idioma::espanhol tema::dinheiro_e_compras nivel::intermediario,idioms::spanish::Léxico::Intermediário::17 Dinheiro e compras
+el préstamo,empréstimo,lexico idioma::espanhol tema::dinheiro_e_compras nivel::intermediario,idioms::spanish::Léxico::Intermediário::17 Dinheiro e compras
+el ahorro,poupança (economias),lexico idioma::espanhol tema::dinheiro_e_compras nivel::intermediario,idioms::spanish::Léxico::Intermediário::17 Dinheiro e compras
+la ganancia,lucro,lexico idioma::espanhol tema::dinheiro_e_compras nivel::intermediario,idioms::spanish::Léxico::Intermediário::17 Dinheiro e compras
+la pérdida,perda,lexico idioma::espanhol tema::dinheiro_e_compras nivel::intermediario,idioms::spanish::Léxico::Intermediário::17 Dinheiro e compras
+el impuesto,imposto,lexico idioma::espanhol tema::dinheiro_e_compras nivel::intermediario,idioms::spanish::Léxico::Intermediário::17 Dinheiro e compras
+el presupuesto,orçamento,lexico idioma::espanhol tema::dinheiro_e_compras nivel::intermediario,idioms::spanish::Léxico::Intermediário::17 Dinheiro e compras
+la compra,compra,lexico idioma::espanhol tema::dinheiro_e_compras nivel::intermediario,idioms::spanish::Léxico::Intermediário::17 Dinheiro e compras
+la venta,venda,lexico idioma::espanhol tema::dinheiro_e_compras nivel::intermediario,idioms::spanish::Léxico::Intermediário::17 Dinheiro e compras
+el producto,produto,lexico idioma::espanhol tema::dinheiro_e_compras nivel::intermediario,idioms::spanish::Léxico::Intermediário::17 Dinheiro e compras
+la garantía,garantia,lexico idioma::espanhol tema::dinheiro_e_compras nivel::intermediario,idioms::spanish::Léxico::Intermediário::17 Dinheiro e compras
+la calidad,qualidade,lexico idioma::espanhol tema::dinheiro_e_compras nivel::intermediario,idioms::spanish::Léxico::Intermediário::17 Dinheiro e compras
+el valor (economía),valor (monetário),lexico idioma::espanhol tema::dinheiro_e_compras nivel::intermediario,idioms::spanish::Léxico::Intermediário::17 Dinheiro e compras
+ser,ser (identidade),lexico idioma::espanhol tema::acoes_cotidianas nivel::basico,idioms::spanish::Léxico::Básico::18 Ações cotidianas
+tener,ter,lexico idioma::espanhol tema::acoes_cotidianas nivel::basico,idioms::spanish::Léxico::Básico::18 Ações cotidianas
+hacer,fazer (realizar),lexico idioma::espanhol tema::acoes_cotidianas nivel::basico,idioms::spanish::Léxico::Básico::18 Ações cotidianas
+ir,ir,lexico idioma::espanhol tema::acoes_cotidianas nivel::basico,idioms::spanish::Léxico::Básico::18 Ações cotidianas
+venir,vir,lexico idioma::espanhol tema::acoes_cotidianas nivel::basico,idioms::spanish::Léxico::Básico::18 Ações cotidianas
+comer,comer,lexico idioma::espanhol tema::acoes_cotidianas nivel::basico,idioms::spanish::Léxico::Básico::18 Ações cotidianas
+beber,beber,lexico idioma::espanhol tema::acoes_cotidianas nivel::basico,idioms::spanish::Léxico::Básico::18 Ações cotidianas
+dormir,dormir,lexico idioma::espanhol tema::acoes_cotidianas nivel::basico,idioms::spanish::Léxico::Básico::18 Ações cotidianas
+despertarse,acordar,lexico idioma::espanhol tema::acoes_cotidianas nivel::basico,idioms::spanish::Léxico::Básico::18 Ações cotidianas
+levantarse,levantar-se,lexico idioma::espanhol tema::acoes_cotidianas nivel::basico,idioms::spanish::Léxico::Básico::18 Ações cotidianas
+lavar,lavar,lexico idioma::espanhol tema::acoes_cotidianas nivel::basico,idioms::spanish::Léxico::Básico::18 Ações cotidianas
+limpiar,limpar,lexico idioma::espanhol tema::acoes_cotidianas nivel::basico,idioms::spanish::Léxico::Básico::18 Ações cotidianas
+cocinar,cozinhar,lexico idioma::espanhol tema::acoes_cotidianas nivel::basico,idioms::spanish::Léxico::Básico::18 Ações cotidianas
+comprar,comprar,lexico idioma::espanhol tema::acoes_cotidianas nivel::basico,idioms::spanish::Léxico::Básico::18 Ações cotidianas
+vender,vender,lexico idioma::espanhol tema::acoes_cotidianas nivel::basico,idioms::spanish::Léxico::Básico::18 Ações cotidianas
+pagar,pagar,lexico idioma::espanhol tema::acoes_cotidianas nivel::basico,idioms::spanish::Léxico::Básico::18 Ações cotidianas
+trabajar,trabalhar,lexico idioma::espanhol tema::acoes_cotidianas nivel::basico,idioms::spanish::Léxico::Básico::18 Ações cotidianas
+estudiar,estudar,lexico idioma::espanhol tema::acoes_cotidianas nivel::basico,idioms::spanish::Léxico::Básico::18 Ações cotidianas
+leer,ler,lexico idioma::espanhol tema::acoes_cotidianas nivel::basico,idioms::spanish::Léxico::Básico::18 Ações cotidianas
+escribir,escrever,lexico idioma::espanhol tema::acoes_cotidianas nivel::basico,idioms::spanish::Léxico::Básico::18 Ações cotidianas
+hablar,falar,lexico idioma::espanhol tema::acoes_cotidianas nivel::basico,idioms::spanish::Léxico::Básico::18 Ações cotidianas
+oír,ouvir,lexico idioma::espanhol tema::acoes_cotidianas nivel::basico,idioms::spanish::Léxico::Básico::18 Ações cotidianas
+escuchar,escutar com atenção,lexico idioma::espanhol tema::acoes_cotidianas nivel::basico,idioms::spanish::Léxico::Básico::18 Ações cotidianas
+ver,ver,lexico idioma::espanhol tema::acoes_cotidianas nivel::basico,idioms::spanish::Léxico::Básico::18 Ações cotidianas
+mirar,olhar,lexico idioma::espanhol tema::acoes_cotidianas nivel::basico,idioms::spanish::Léxico::Básico::18 Ações cotidianas
+caminar,caminhar,lexico idioma::espanhol tema::movimento_e_interacao nivel::intermediario,idioms::spanish::Léxico::Intermediário::19 Movimento e interação
+correr,correr,lexico idioma::espanhol tema::movimento_e_interacao nivel::intermediario,idioms::spanish::Léxico::Intermediário::19 Movimento e interação
+nadar,nadar,lexico idioma::espanhol tema::movimento_e_interacao nivel::intermediario,idioms::spanish::Léxico::Intermediário::19 Movimento e interação
+volar,voar,lexico idioma::espanhol tema::movimento_e_interacao nivel::intermediario,idioms::spanish::Léxico::Intermediário::19 Movimento e interação
+viajar,viajar,lexico idioma::espanhol tema::movimento_e_interacao nivel::intermediario,idioms::spanish::Léxico::Intermediário::19 Movimento e interação
+conducir,dirigir,lexico idioma::espanhol tema::movimento_e_interacao nivel::intermediario,idioms::spanish::Léxico::Intermediário::19 Movimento e interação
+entrar,entrar,lexico idioma::espanhol tema::movimento_e_interacao nivel::intermediario,idioms::spanish::Léxico::Intermediário::19 Movimento e interação
+salir,sair,lexico idioma::espanhol tema::movimento_e_interacao nivel::intermediario,idioms::spanish::Léxico::Intermediário::19 Movimento e interação
+llegar,chegar,lexico idioma::espanhol tema::movimento_e_interacao nivel::intermediario,idioms::spanish::Léxico::Intermediário::19 Movimento e interação
+volver,voltar,lexico idioma::espanhol tema::movimento_e_interacao nivel::intermediario,idioms::spanish::Léxico::Intermediário::19 Movimento e interação
+subir,subir (escalar),lexico idioma::espanhol tema::movimento_e_interacao nivel::intermediario,idioms::spanish::Léxico::Intermediário::19 Movimento e interação
+bajar,descer (mover para baixo),lexico idioma::espanhol tema::movimento_e_interacao nivel::intermediario,idioms::spanish::Léxico::Intermediário::19 Movimento e interação
+abrir,abrir,lexico idioma::espanhol tema::movimento_e_interacao nivel::intermediario,idioms::spanish::Léxico::Intermediário::19 Movimento e interação
+cerrar,fechar,lexico idioma::espanhol tema::movimento_e_interacao nivel::intermediario,idioms::spanish::Léxico::Intermediário::19 Movimento e interação
+sentarse,sentar-se,lexico idioma::espanhol tema::movimento_e_interacao nivel::intermediario,idioms::spanish::Léxico::Intermediário::19 Movimento e interação
+esperar,esperar (aguardar),lexico idioma::espanhol tema::movimento_e_interacao nivel::intermediario,idioms::spanish::Léxico::Intermediário::19 Movimento e interação
+ayudar,ajudar,lexico idioma::espanhol tema::movimento_e_interacao nivel::intermediario,idioms::spanish::Léxico::Intermediário::19 Movimento e interação
+pedir,pedir (solicitar),lexico idioma::espanhol tema::movimento_e_interacao nivel::intermediario,idioms::spanish::Léxico::Intermediário::19 Movimento e interação
+responder,responder,lexico idioma::espanhol tema::movimento_e_interacao nivel::intermediario,idioms::spanish::Léxico::Intermediário::19 Movimento e interação
+dar,dar,lexico idioma::espanhol tema::movimento_e_interacao nivel::intermediario,idioms::spanish::Léxico::Intermediário::19 Movimento e interação
+recibir,receber,lexico idioma::espanhol tema::movimento_e_interacao nivel::intermediario,idioms::spanish::Léxico::Intermediário::19 Movimento e interação
+traer,trazer,lexico idioma::espanhol tema::movimento_e_interacao nivel::intermediario,idioms::spanish::Léxico::Intermediário::19 Movimento e interação
+enviar,enviar,lexico idioma::espanhol tema::movimento_e_interacao nivel::intermediario,idioms::spanish::Léxico::Intermediário::19 Movimento e interação
+encontrar,encontrar (achar),lexico idioma::espanhol tema::movimento_e_interacao nivel::intermediario,idioms::spanish::Léxico::Intermediário::19 Movimento e interação
+conocer,conhecer (ter familiaridade),lexico idioma::espanhol tema::movimento_e_interacao nivel::intermediario,idioms::spanish::Léxico::Intermediário::19 Movimento e interação
+grande,grande,lexico idioma::espanhol tema::qualidades_e_descricoes nivel::basico,idioms::spanish::Léxico::Básico::20 Qualidades e descrições
+pequeño,pequeno,lexico idioma::espanhol tema::qualidades_e_descricoes nivel::basico,idioms::spanish::Léxico::Básico::20 Qualidades e descrições
+alto,alto (estatura),lexico idioma::espanhol tema::qualidades_e_descricoes nivel::basico,idioms::spanish::Léxico::Básico::20 Qualidades e descrições
+bajo,baixo (estatura),lexico idioma::espanhol tema::qualidades_e_descricoes nivel::basico,idioms::spanish::Léxico::Básico::20 Qualidades e descrições
+largo,comprido,lexico idioma::espanhol tema::qualidades_e_descricoes nivel::basico,idioms::spanish::Léxico::Básico::20 Qualidades e descrições
+breve,breve (duração ou extensão),lexico idioma::espanhol tema::qualidades_e_descricoes nivel::basico,idioms::spanish::Léxico::Básico::20 Qualidades e descrições
+nuevo,novo,lexico idioma::espanhol tema::qualidades_e_descricoes nivel::basico,idioms::spanish::Léxico::Básico::20 Qualidades e descrições
+viejo,velho,lexico idioma::espanhol tema::qualidades_e_descricoes nivel::basico,idioms::spanish::Léxico::Básico::20 Qualidades e descrições
+joven,jovem,lexico idioma::espanhol tema::qualidades_e_descricoes nivel::basico,idioms::spanish::Léxico::Básico::20 Qualidades e descrições
+bueno,bom,lexico idioma::espanhol tema::qualidades_e_descricoes nivel::basico,idioms::spanish::Léxico::Básico::20 Qualidades e descrições
+malo,ruim,lexico idioma::espanhol tema::qualidades_e_descricoes nivel::basico,idioms::spanish::Léxico::Básico::20 Qualidades e descrições
+bonito,bonito,lexico idioma::espanhol tema::qualidades_e_descricoes nivel::basico,idioms::spanish::Léxico::Básico::20 Qualidades e descrições
+feo,feio,lexico idioma::espanhol tema::qualidades_e_descricoes nivel::basico,idioms::spanish::Léxico::Básico::20 Qualidades e descrições
+fácil,fácil,lexico idioma::espanhol tema::qualidades_e_descricoes nivel::basico,idioms::spanish::Léxico::Básico::20 Qualidades e descrições
+difícil,difícil,lexico idioma::espanhol tema::qualidades_e_descricoes nivel::basico,idioms::spanish::Léxico::Básico::20 Qualidades e descrições
+rápido,rápido,lexico idioma::espanhol tema::qualidades_e_descricoes nivel::basico,idioms::spanish::Léxico::Básico::20 Qualidades e descrições
+lento,lento,lexico idioma::espanhol tema::qualidades_e_descricoes nivel::basico,idioms::spanish::Léxico::Básico::20 Qualidades e descrições
+caliente,quente,lexico idioma::espanhol tema::qualidades_e_descricoes nivel::basico,idioms::spanish::Léxico::Básico::20 Qualidades e descrições
+frío,frio (temperatura),lexico idioma::espanhol tema::qualidades_e_descricoes nivel::basico,idioms::spanish::Léxico::Básico::20 Qualidades e descrições
+lleno,cheio,lexico idioma::espanhol tema::qualidades_e_descricoes nivel::basico,idioms::spanish::Léxico::Básico::20 Qualidades e descrições
+vacío,vazio,lexico idioma::espanhol tema::qualidades_e_descricoes nivel::basico,idioms::spanish::Léxico::Básico::20 Qualidades e descrições
+fuerte,forte,lexico idioma::espanhol tema::qualidades_e_descricoes nivel::basico,idioms::spanish::Léxico::Básico::20 Qualidades e descrições
+débil,fraco,lexico idioma::espanhol tema::qualidades_e_descricoes nivel::basico,idioms::spanish::Léxico::Básico::20 Qualidades e descrições
+caro,caro,lexico idioma::espanhol tema::qualidades_e_descricoes nivel::basico,idioms::spanish::Léxico::Básico::20 Qualidades e descrições
+barato,barato,lexico idioma::espanhol tema::qualidades_e_descricoes nivel::basico,idioms::spanish::Léxico::Básico::20 Qualidades e descrições
+la alegría,alegria,lexico idioma::espanhol tema::emocoes_e_sentimentos nivel::intermediario,idioms::spanish::Léxico::Intermediário::21 Emoções e sentimentos
+la tristeza,tristeza,lexico idioma::espanhol tema::emocoes_e_sentimentos nivel::intermediario,idioms::spanish::Léxico::Intermediário::21 Emoções e sentimentos
+el miedo,medo,lexico idioma::espanhol tema::emocoes_e_sentimentos nivel::intermediario,idioms::spanish::Léxico::Intermediário::21 Emoções e sentimentos
+la ira,raiva,lexico idioma::espanhol tema::emocoes_e_sentimentos nivel::intermediario,idioms::spanish::Léxico::Intermediário::21 Emoções e sentimentos
+la sorpresa,surpresa,lexico idioma::espanhol tema::emocoes_e_sentimentos nivel::intermediario,idioms::spanish::Léxico::Intermediário::21 Emoções e sentimentos
+la vergüenza,vergonha,lexico idioma::espanhol tema::emocoes_e_sentimentos nivel::intermediario,idioms::spanish::Léxico::Intermediário::21 Emoções e sentimentos
+el orgullo,orgulho,lexico idioma::espanhol tema::emocoes_e_sentimentos nivel::intermediario,idioms::spanish::Léxico::Intermediário::21 Emoções e sentimentos
+la esperanza,esperança,lexico idioma::espanhol tema::emocoes_e_sentimentos nivel::intermediario,idioms::spanish::Léxico::Intermediário::21 Emoções e sentimentos
+el amor,amor,lexico idioma::espanhol tema::emocoes_e_sentimentos nivel::intermediario,idioms::spanish::Léxico::Intermediário::21 Emoções e sentimentos
+el odio,ódio,lexico idioma::espanhol tema::emocoes_e_sentimentos nivel::intermediario,idioms::spanish::Léxico::Intermediário::21 Emoções e sentimentos
+la ansiedad,ansiedade,lexico idioma::espanhol tema::emocoes_e_sentimentos nivel::intermediario,idioms::spanish::Léxico::Intermediário::21 Emoções e sentimentos
+la calma,calma,lexico idioma::espanhol tema::emocoes_e_sentimentos nivel::intermediario,idioms::spanish::Léxico::Intermediário::21 Emoções e sentimentos
+la confianza,confiança,lexico idioma::espanhol tema::emocoes_e_sentimentos nivel::intermediario,idioms::spanish::Léxico::Intermediário::21 Emoções e sentimentos
+la preocupación,preocupação,lexico idioma::espanhol tema::emocoes_e_sentimentos nivel::intermediario,idioms::spanish::Léxico::Intermediário::21 Emoções e sentimentos
+el entusiasmo,entusiasmo,lexico idioma::espanhol tema::emocoes_e_sentimentos nivel::intermediario,idioms::spanish::Léxico::Intermediário::21 Emoções e sentimentos
+la soledad,solidão,lexico idioma::espanhol tema::emocoes_e_sentimentos nivel::intermediario,idioms::spanish::Léxico::Intermediário::21 Emoções e sentimentos
+los celos,ciúme,lexico idioma::espanhol tema::emocoes_e_sentimentos nivel::intermediario,idioms::spanish::Léxico::Intermediário::21 Emoções e sentimentos
+la envidia,inveja,lexico idioma::espanhol tema::emocoes_e_sentimentos nivel::intermediario,idioms::spanish::Léxico::Intermediário::21 Emoções e sentimentos
+la gratitud,gratidão,lexico idioma::espanhol tema::emocoes_e_sentimentos nivel::intermediario,idioms::spanish::Léxico::Intermediário::21 Emoções e sentimentos
+la culpa,culpa,lexico idioma::espanhol tema::emocoes_e_sentimentos nivel::intermediario,idioms::spanish::Léxico::Intermediário::21 Emoções e sentimentos
+el respeto,respeito,lexico idioma::espanhol tema::emocoes_e_sentimentos nivel::intermediario,idioms::spanish::Léxico::Intermediário::21 Emoções e sentimentos
+la paciencia,paciência,lexico idioma::espanhol tema::emocoes_e_sentimentos nivel::intermediario,idioms::spanish::Léxico::Intermediário::21 Emoções e sentimentos
+el valor (coraje),coragem,lexico idioma::espanhol tema::emocoes_e_sentimentos nivel::intermediario,idioms::spanish::Léxico::Intermediário::21 Emoções e sentimentos
+el alivio,alívio,lexico idioma::espanhol tema::emocoes_e_sentimentos nivel::intermediario,idioms::spanish::Léxico::Intermediário::21 Emoções e sentimentos
+la decepción,decepção,lexico idioma::espanhol tema::emocoes_e_sentimentos nivel::intermediario,idioms::spanish::Léxico::Intermediário::21 Emoções e sentimentos
+la idea,ideia,lexico idioma::espanhol tema::ideias_e_planejamento nivel::intermediario,idioms::spanish::Léxico::Intermediário::22 Ideias e planejamento
+la opinión,opinião,lexico idioma::espanhol tema::ideias_e_planejamento nivel::intermediario,idioms::spanish::Léxico::Intermediário::22 Ideias e planejamento
+la decisión,decisão,lexico idioma::espanhol tema::ideias_e_planejamento nivel::intermediario,idioms::spanish::Léxico::Intermediário::22 Ideias e planejamento
+la elección,escolha,lexico idioma::espanhol tema::ideias_e_planejamento nivel::intermediario,idioms::spanish::Léxico::Intermediário::22 Ideias e planejamento
+el objetivo,objetivo,lexico idioma::espanhol tema::ideias_e_planejamento nivel::intermediario,idioms::spanish::Léxico::Intermediário::22 Ideias e planejamento
+el plan,plano,lexico idioma::espanhol tema::ideias_e_planejamento nivel::intermediario,idioms::spanish::Léxico::Intermediário::22 Ideias e planejamento
+la propuesta,proposta,lexico idioma::espanhol tema::ideias_e_planejamento nivel::intermediario,idioms::spanish::Léxico::Intermediário::22 Ideias e planejamento
+la solución,solução,lexico idioma::espanhol tema::ideias_e_planejamento nivel::intermediario,idioms::spanish::Léxico::Intermediário::22 Ideias e planejamento
+el problema,problema,lexico idioma::espanhol tema::ideias_e_planejamento nivel::intermediario,idioms::spanish::Léxico::Intermediário::22 Ideias e planejamento
+el motivo,motivo,lexico idioma::espanhol tema::ideias_e_planejamento nivel::intermediario,idioms::spanish::Léxico::Intermediário::22 Ideias e planejamento
+la consecuencia,consequência,lexico idioma::espanhol tema::ideias_e_planejamento nivel::intermediario,idioms::spanish::Léxico::Intermediário::22 Ideias e planejamento
+la causa,causa,lexico idioma::espanhol tema::ideias_e_planejamento nivel::intermediario,idioms::spanish::Léxico::Intermediário::22 Ideias e planejamento
+el resultado,resultado,lexico idioma::espanhol tema::ideias_e_planejamento nivel::intermediario,idioms::spanish::Léxico::Intermediário::22 Ideias e planejamento
+la ventaja,vantagem,lexico idioma::espanhol tema::ideias_e_planejamento nivel::intermediario,idioms::spanish::Léxico::Intermediário::22 Ideias e planejamento
+la desventaja,desvantagem,lexico idioma::espanhol tema::ideias_e_planejamento nivel::intermediario,idioms::spanish::Léxico::Intermediário::22 Ideias e planejamento
+el riesgo,risco,lexico idioma::espanhol tema::ideias_e_planejamento nivel::intermediario,idioms::spanish::Léxico::Intermediário::22 Ideias e planejamento
+la oportunidad,oportunidade,lexico idioma::espanhol tema::ideias_e_planejamento nivel::intermediario,idioms::spanish::Léxico::Intermediário::22 Ideias e planejamento
+la posibilidad,possibilidade,lexico idioma::espanhol tema::ideias_e_planejamento nivel::intermediario,idioms::spanish::Léxico::Intermediário::22 Ideias e planejamento
+la necesidad,necessidade,lexico idioma::espanhol tema::ideias_e_planejamento nivel::intermediario,idioms::spanish::Léxico::Intermediário::22 Ideias e planejamento
+la prioridad,prioridade,lexico idioma::espanhol tema::ideias_e_planejamento nivel::intermediario,idioms::spanish::Léxico::Intermediário::22 Ideias e planejamento
+la evidencia,evidência,lexico idioma::espanhol tema::ideias_e_planejamento nivel::intermediario,idioms::spanish::Léxico::Intermediário::22 Ideias e planejamento
+la hipótesis,hipótese,lexico idioma::espanhol tema::ideias_e_planejamento nivel::intermediario,idioms::spanish::Léxico::Intermediário::22 Ideias e planejamento
+la duda,dúvida,lexico idioma::espanhol tema::ideias_e_planejamento nivel::intermediario,idioms::spanish::Léxico::Intermediário::22 Ideias e planejamento
+el acuerdo,acordo,lexico idioma::espanhol tema::ideias_e_planejamento nivel::intermediario,idioms::spanish::Léxico::Intermediário::22 Ideias e planejamento
+el compromiso,compromisso (obrigação assumida),lexico idioma::espanhol tema::ideias_e_planejamento nivel::intermediario,idioms::spanish::Léxico::Intermediário::22 Ideias e planejamento
+rojo,vermelho,lexico idioma::espanhol tema::cores_e_dimensoes nivel::basico,idioms::spanish::Léxico::Básico::23 Cores e dimensões
+azul,azul,lexico idioma::espanhol tema::cores_e_dimensoes nivel::basico,idioms::spanish::Léxico::Básico::23 Cores e dimensões
+verde,verde,lexico idioma::espanhol tema::cores_e_dimensoes nivel::basico,idioms::spanish::Léxico::Básico::23 Cores e dimensões
+amarillo,amarelo,lexico idioma::espanhol tema::cores_e_dimensoes nivel::basico,idioms::spanish::Léxico::Básico::23 Cores e dimensões
+negro,preto,lexico idioma::espanhol tema::cores_e_dimensoes nivel::basico,idioms::spanish::Léxico::Básico::23 Cores e dimensões
+blanco,branco,lexico idioma::espanhol tema::cores_e_dimensoes nivel::basico,idioms::spanish::Léxico::Básico::23 Cores e dimensões
+gris,cinza,lexico idioma::espanhol tema::cores_e_dimensoes nivel::basico,idioms::spanish::Léxico::Básico::23 Cores e dimensões
+marrón,marrom,lexico idioma::espanhol tema::cores_e_dimensoes nivel::basico,idioms::spanish::Léxico::Básico::23 Cores e dimensões
+morado,roxo,lexico idioma::espanhol tema::cores_e_dimensoes nivel::basico,idioms::spanish::Léxico::Básico::23 Cores e dimensões
+rosado,cor-de-rosa,lexico idioma::espanhol tema::cores_e_dimensoes nivel::basico,idioms::spanish::Léxico::Básico::23 Cores e dimensões
+transparente,transparente,lexico idioma::espanhol tema::cores_e_dimensoes nivel::basico,idioms::spanish::Léxico::Básico::23 Cores e dimensões
+claro,claro (tonalidade),lexico idioma::espanhol tema::cores_e_dimensoes nivel::basico,idioms::spanish::Léxico::Básico::23 Cores e dimensões
+oscuro,escuro,lexico idioma::espanhol tema::cores_e_dimensoes nivel::basico,idioms::spanish::Léxico::Básico::23 Cores e dimensões
+ancho,largo (largura),lexico idioma::espanhol tema::cores_e_dimensoes nivel::basico,idioms::spanish::Léxico::Básico::23 Cores e dimensões
+estrecho,estreito,lexico idioma::espanhol tema::cores_e_dimensoes nivel::basico,idioms::spanish::Léxico::Básico::23 Cores e dimensões
+grueso,grosso,lexico idioma::espanhol tema::cores_e_dimensoes nivel::basico,idioms::spanish::Léxico::Básico::23 Cores e dimensões
+delgado,fino (espessura),lexico idioma::espanhol tema::cores_e_dimensoes nivel::basico,idioms::spanish::Léxico::Básico::23 Cores e dimensões
+pesado,pesado,lexico idioma::espanhol tema::cores_e_dimensoes nivel::basico,idioms::spanish::Léxico::Básico::23 Cores e dimensões
+ligero,leve (peso),lexico idioma::espanhol tema::cores_e_dimensoes nivel::basico,idioms::spanish::Léxico::Básico::23 Cores e dimensões
+redondo,redondo,lexico idioma::espanhol tema::cores_e_dimensoes nivel::basico,idioms::spanish::Léxico::Básico::23 Cores e dimensões
+cuadrado,quadrado,lexico idioma::espanhol tema::cores_e_dimensoes nivel::basico,idioms::spanish::Léxico::Básico::23 Cores e dimensões
+recto,reto,lexico idioma::espanhol tema::cores_e_dimensoes nivel::basico,idioms::spanish::Léxico::Básico::23 Cores e dimensões
+curvo,curvo,lexico idioma::espanhol tema::cores_e_dimensoes nivel::basico,idioms::spanish::Léxico::Básico::23 Cores e dimensões
+profundo,profundo,lexico idioma::espanhol tema::cores_e_dimensoes nivel::basico,idioms::spanish::Léxico::Básico::23 Cores e dimensões
+poco profundo,raso,lexico idioma::espanhol tema::cores_e_dimensoes nivel::basico,idioms::spanish::Léxico::Básico::23 Cores e dimensões
+la música,música,lexico idioma::espanhol tema::cultura_e_lazer nivel::intermediario,idioms::spanish::Léxico::Intermediário::24 Cultura e lazer
+la canción,canção,lexico idioma::espanhol tema::cultura_e_lazer nivel::intermediario,idioms::spanish::Léxico::Intermediário::24 Cultura e lazer
+la película,filme,lexico idioma::espanhol tema::cultura_e_lazer nivel::intermediario,idioms::spanish::Léxico::Intermediário::24 Cultura e lazer
+la danza,dança,lexico idioma::espanhol tema::cultura_e_lazer nivel::intermediario,idioms::spanish::Léxico::Intermediário::24 Cultura e lazer
+el arte,arte,lexico idioma::espanhol tema::cultura_e_lazer nivel::intermediario,idioms::spanish::Léxico::Intermediário::24 Cultura e lazer
+la pintura,pintura (obra artística),lexico idioma::espanhol tema::cultura_e_lazer nivel::intermediario,idioms::spanish::Léxico::Intermediário::24 Cultura e lazer
+el dibujo,desenho,lexico idioma::espanhol tema::cultura_e_lazer nivel::intermediario,idioms::spanish::Léxico::Intermediário::24 Cultura e lazer
+la escultura,escultura,lexico idioma::espanhol tema::cultura_e_lazer nivel::intermediario,idioms::spanish::Léxico::Intermediário::24 Cultura e lazer
+la novela,romance (gênero literário),lexico idioma::espanhol tema::cultura_e_lazer nivel::intermediario,idioms::spanish::Léxico::Intermediário::24 Cultura e lazer
+el poema,poema,lexico idioma::espanhol tema::cultura_e_lazer nivel::intermediario,idioms::spanish::Léxico::Intermediário::24 Cultura e lazer
+el autor,autor,lexico idioma::espanhol tema::cultura_e_lazer nivel::intermediario,idioms::spanish::Léxico::Intermediário::24 Cultura e lazer
+el actor,ator,lexico idioma::espanhol tema::cultura_e_lazer nivel::intermediario,idioms::spanish::Léxico::Intermediário::24 Cultura e lazer
+la actriz,atriz,lexico idioma::espanhol tema::cultura_e_lazer nivel::intermediario,idioms::spanish::Léxico::Intermediário::24 Cultura e lazer
+el cantante,cantor,lexico idioma::espanhol tema::cultura_e_lazer nivel::intermediario,idioms::spanish::Léxico::Intermediário::24 Cultura e lazer
+el instrumento,instrumento musical,lexico idioma::espanhol tema::cultura_e_lazer nivel::intermediario,idioms::spanish::Léxico::Intermediário::24 Cultura e lazer
+la guitarra,violão; guitarra,lexico idioma::espanhol tema::cultura_e_lazer nivel::intermediario,idioms::spanish::Léxico::Intermediário::24 Cultura e lazer
+el violín,violino,lexico idioma::espanhol tema::cultura_e_lazer nivel::intermediario,idioms::spanish::Léxico::Intermediário::24 Cultura e lazer
+el tambor,tambor,lexico idioma::espanhol tema::cultura_e_lazer nivel::intermediario,idioms::spanish::Léxico::Intermediário::24 Cultura e lazer
+el concierto,concerto,lexico idioma::espanhol tema::cultura_e_lazer nivel::intermediario,idioms::spanish::Léxico::Intermediário::24 Cultura e lazer
+el festival,festival,lexico idioma::espanhol tema::cultura_e_lazer nivel::intermediario,idioms::spanish::Léxico::Intermediário::24 Cultura e lazer
+el deporte,esporte,lexico idioma::espanhol tema::cultura_e_lazer nivel::intermediario,idioms::spanish::Léxico::Intermediário::24 Cultura e lazer
+el juego,jogo,lexico idioma::espanhol tema::cultura_e_lazer nivel::intermediario,idioms::spanish::Léxico::Intermediário::24 Cultura e lazer
+el fútbol,futebol,lexico idioma::espanhol tema::cultura_e_lazer nivel::intermediario,idioms::spanish::Léxico::Intermediário::24 Cultura e lazer
+la natación,natação,lexico idioma::espanhol tema::cultura_e_lazer nivel::intermediario,idioms::spanish::Léxico::Intermediário::24 Cultura e lazer
+el paseo,caminhada (passeio),lexico idioma::espanhol tema::cultura_e_lazer nivel::intermediario,idioms::spanish::Léxico::Intermediário::24 Cultura e lazer

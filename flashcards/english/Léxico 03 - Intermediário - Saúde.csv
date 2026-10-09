@@ -1,0 +1,31 @@
+#separator:Comma
+#html:false
+#tags column:3
+#deck:idioms::english::Léxico::Intermediário::03 Saúde
+#deck column:4
+#columns:Frente,Verso,Tags,Deck
+health,saúde,lexico idioma::ingles tema::saude nivel::intermediario,idioms::english::Léxico::Intermediário::03 Saúde
+illness,doença,lexico idioma::ingles tema::saude nivel::intermediario,idioms::english::Léxico::Intermediário::03 Saúde
+pain,dor,lexico idioma::ingles tema::saude nivel::intermediario,idioms::english::Léxico::Intermediário::03 Saúde
+fever,febre,lexico idioma::ingles tema::saude nivel::intermediario,idioms::english::Léxico::Intermediário::03 Saúde
+cough,tosse,lexico idioma::ingles tema::saude nivel::intermediario,idioms::english::Léxico::Intermediário::03 Saúde
+cold (illness),resfriado,lexico idioma::ingles tema::saude nivel::intermediario,idioms::english::Léxico::Intermediário::03 Saúde
+flu,gripe,lexico idioma::ingles tema::saude nivel::intermediario,idioms::english::Léxico::Intermediário::03 Saúde
+allergy,alergia,lexico idioma::ingles tema::saude nivel::intermediario,idioms::english::Léxico::Intermediário::03 Saúde
+wound,ferida,lexico idioma::ingles tema::saude nivel::intermediario,idioms::english::Léxico::Intermediário::03 Saúde
+medicine,remédio,lexico idioma::ingles tema::saude nivel::intermediario,idioms::english::Léxico::Intermediário::03 Saúde
+pill,comprimido,lexico idioma::ingles tema::saude nivel::intermediario,idioms::english::Léxico::Intermediário::03 Saúde
+prescription,receita médica,lexico idioma::ingles tema::saude nivel::intermediario,idioms::english::Léxico::Intermediário::03 Saúde
+treatment,tratamento,lexico idioma::ingles tema::saude nivel::intermediario,idioms::english::Léxico::Intermediário::03 Saúde
+surgery,cirurgia,lexico idioma::ingles tema::saude nivel::intermediario,idioms::english::Léxico::Intermediário::03 Saúde
+vaccine,vacina,lexico idioma::ingles tema::saude nivel::intermediario,idioms::english::Léxico::Intermediário::03 Saúde
+symptom,sintoma,lexico idioma::ingles tema::saude nivel::intermediario,idioms::english::Léxico::Intermediário::03 Saúde
+infection,infecção,lexico idioma::ingles tema::saude nivel::intermediario,idioms::english::Léxico::Intermediário::03 Saúde
+blood,sangue,lexico idioma::ingles tema::saude nivel::intermediario,idioms::english::Léxico::Intermediário::03 Saúde
+lung,pulmão,lexico idioma::ingles tema::saude nivel::intermediario,idioms::english::Léxico::Intermediário::03 Saúde
+bone,osso,lexico idioma::ingles tema::saude nivel::intermediario,idioms::english::Léxico::Intermediário::03 Saúde
+muscle,músculo,lexico idioma::ingles tema::saude nivel::intermediario,idioms::english::Léxico::Intermediário::03 Saúde
+breathing,respiração,lexico idioma::ingles tema::saude nivel::intermediario,idioms::english::Léxico::Intermediário::03 Saúde
+ambulance,ambulância,lexico idioma::ingles tema::saude nivel::intermediario,idioms::english::Léxico::Intermediário::03 Saúde
+emergency,emergência,lexico idioma::ingles tema::saude nivel::intermediario,idioms::english::Léxico::Intermediário::03 Saúde
+recovery,recuperação,lexico idioma::ingles tema::saude nivel::intermediario,idioms::english::Léxico::Intermediário::03 Saúde

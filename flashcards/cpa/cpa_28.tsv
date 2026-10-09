@@ -1,0 +1,12 @@
+#separator:Tab
+#html:true
+#tags column:3
+#deck:CPA::28 KYC e PLDFT
+#deck column:4
+#columns:Frente	Verso	Tags	Deck
+Qual é o objetivo do KYC?	Conhecer identidade, atividade, capacidade financeira, origem de recursos e propósito do relacionamento para avaliar riscos e detectar inconsistências.<br><small>Fonte: Apostila CPA, ed. janeiro/2026, p. impressa 400 (PDF 400).</small>	cpa::apostila cpa::28 tema::kyc	CPA::28 KYC e PLDFT
+Quais são as três etapas clássicas da lavagem de dinheiro?	Colocação, ocultação e integração. Primeiro os recursos entram no sistema, depois se dissimula sua origem e, por fim, retornam à economia com aparência lícita.<br><small>Fonte: Apostila CPA, ed. janeiro/2026, p. impressa 402 (PDF 402).</small>	cpa::apostila cpa::28 tema::pldft	CPA::28 KYC e PLDFT
+O que caracteriza uma operação suspeita para fins de PLDFT?	Uma operação incompatível com perfil, atividade, capacidade financeira ou padrão transacional do cliente, ou que apresente sinais previstos nas regras. A suspeita deve ser analisada e tratada conforme procedimentos.<br><small>Fonte: Apostila CPA, ed. janeiro/2026, p. impressa 405 (PDF 405).</small>	cpa::apostila cpa::28 tema::pldft tema::monitoramento	CPA::28 KYC e PLDFT
+Qual é a função do Coaf?	Recebe, examina e identifica ocorrências suspeitas de atividades ilícitas e produz inteligência financeira, além das atribuições de supervisão descritas para setores obrigados.<br><small>Fonte: Apostila CPA, ed. janeiro/2026, p. impressa 409 (PDF 409).</small>	cpa::apostila cpa::28 tema::pldft tema::coaf	CPA::28 KYC e PLDFT
+Como pessoas expostas politicamente afetam a diligência devida?	A condição exige atenção reforçada e monitoramento conforme regras aplicáveis, incluindo análise de origem de recursos e pessoas relacionadas; não significa, por si só, que haja ilícito.<br><small>Fonte: Apostila CPA, ed. janeiro/2026, p. impressa 411 (PDF 411).</small>	cpa::apostila cpa::28 tema::pldft tema::pep	CPA::28 KYC e PLDFT
+O que significa abordagem baseada em risco na PLDFT?	A instituição ajusta intensidade de identificação, diligência e monitoramento ao risco do cliente, produto, canal, operação e localização, mantendo controles proporcionais.<br><small>Fonte: Apostila CPA, ed. janeiro/2026, p. impressa 400 (PDF 400).</small>	cpa::apostila cpa::28 tema::pldft tema::risco	CPA::28 KYC e PLDFT

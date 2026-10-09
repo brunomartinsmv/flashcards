@@ -1,0 +1,249 @@
+#separator:Tab
+#html:true
+#tags column:4
+#columns:Text	Extra	Notas	Tags
+Me duele la cabeza desde {{c1::anoche}}.	A dor de cabeça começou ontem à noite.	desde + momento	saude b1 lote_2026_07_24
+Necesito {{c1::pedir una cita}} con el médico.	Preciso marcar uma consulta com o médico.	pedir una cita = marcar consulta	saude b1 lote_2026_07_24
+¿Puede {{c1::rellenar}} esta receta, por favor?	Pode aviar/preencher esta receita, por favor?	farmacia: rellenar una receta	saude b1 lote_2026_07_24
+Tomo este jarabe {{c1::cada ocho horas}}.	Tomo este xarope de oito em oito horas.	frequência de dose	saude b1 lote_2026_07_24
+Me siento {{c1::nauseabundo}} desde ayer.	Estou enjoado desde ontem.		saude b1 lote_2026_07_24
+Creo que me {{c1::irrité}} la garganta.	Acho que irritei a garganta.	pretérito	saude b1 lote_2026_07_24
+¿Esto causa {{c1::somnolencia}}?	Isso causa sonolência?	bula/efeitos	saude b1 lote_2026_07_24
+Tengo fiebre y {{c1::escalofríos}}.	Estou com febre e calafrios.		saude b1 lote_2026_07_24
+Me torcí el tobillo {{c1::al bajar}}.	Torci o tornozelo ao descer.	al + infinitivo	saude b1 lote_2026_07_24
+El médico me dijo que {{c1::hiciera}} reposo.	O médico disse que eu fizesse repouso.	subjuntivo após decir que	saude b1 lote_2026_07_24
+¿Es contagioso o {{c1::es alérgico}}?	É contagioso ou é alérgico?		saude b1 lote_2026_07_24
+No tolero bien {{c1::la penicilina}}.	Não tolero bem a penicilina.		saude b1 lote_2026_07_24
+Voy a {{c1::tomarme}} la presión.	Vou medir a minha pressão.	tomarse la presión	saude b1 lote_2026_07_24
+Siento un {{c1::pinchazo}} en el pecho.	Sinto uma pontada no peito.		saude b1 lote_2026_07_24
+Me mareé {{c1::al bajarme}} del autobús.	Fiquei tonto ao descer do ônibus.		saude b1 lote_2026_07_24
+¿Cuánto tarda en {{c1::hacer}} el efecto?	Quanto tempo demora para fazer efeito?	hacer efecto	saude b1 lote_2026_07_24
+Estoy {{c1::estreñido}} por el antibiótico.	Estou constipado por causa do antibiótico.	false friend: estreñido ≠ estranho	saude b1 lote_2026_07_24
+Me pusieron una {{c1::inyección}} en el brazo.	Me deram uma injeção no braço.		saude b1 lote_2026_07_24
+Tengo {{c1::sensibilidad}} en las muelas.	Tenho sensibilidade nos dentes.		saude b1 lote_2026_07_24
+¿Hay algún {{c1::turno}} sin cita?	Há algum horário/vaga sem consulta marcada?	turno ≈ vaga	saude b1 lote_2026_07_24
+Me duele al {{c1::tragar}}.	Dói ao engolir.		saude b1 lote_2026_07_24
+El resultado {{c1::sale}} la próxima semana.	O resultado sai na próxima semana.	salir = ser publicado	saude b1 lote_2026_07_24
+Prefiero un analgésico {{c1::de venta libre}}.	Prefiro um analgésico sem receita.		saude b1 lote_2026_07_24
+Me {{c1::zumba}} el oído derecho.	O ouvido direito está zunindo.		saude b1 lote_2026_07_24
+Tuve que {{c1::ausentarme}} por la tos.	Tive que me ausentar por causa da tosse.	ausentarse	saude b1 lote_2026_07_24
+No estoy de acuerdo {{c1::del todo}}.	Não concordo completamente.	no del todo	social b1 lote_2026_07_24
+{{c1::Discrepo}}, pero entiendo tu punto.	Discordo, mas entendo o seu ponto.		social b1 lote_2026_07_24
+No era mi intención {{c1::ofenderte}}.	Não era minha intenção te ofender.		social b1 lote_2026_07_24
+¿Podemos {{c1::hablar de}} esto con calma?	Podemos falar disso com calma?		social b1 lote_2026_07_24
+Me molesta que {{c1::sigas}} interrumpiendo.	Me incomoda que você continue interrompendo.	subjuntivo com molestar que	social b1 lote_2026_07_24
+Prefiero no {{c1::entrometerme}} en eso.	Prefiro não me intrometer nisso.		social b1 lote_2026_07_24
+{{c1::Malinterpreté}} lo que dijiste ayer.	Interpretei mal o que você disse ontem.		social b1 lote_2026_07_24
+¿Te importa si {{c1::opino}} un momento?	Você se importa se eu der minha opinião um momento?		social b1 lote_2026_07_24
+Eso me parece {{c1::poco razonable}}.	Isso me parece pouco razoável.		social b1 lote_2026_07_24
+No quiero {{c1::escalar}} la discusión.	Não quero escalar a discussão.		social b1 lote_2026_07_24
+Te pido disculpas {{c1::de verdad}}.	Peço desculpas de verdade.		social b1 lote_2026_07_24
+Dejemos este tema {{c1::de lado}}.	Vamos deixar esse assunto de lado.	dejar de lado	social b1 lote_2026_07_24
+No me {{c1::parece bien}} que hables así.	Não me parece bem que você fale assim.		social b1 lote_2026_07_24
+¿Qué quieres decir {{c1::con eso}}?	O que você quer dizer com isso?		social b1 lote_2026_07_24
+Me siento {{c1::ignorado}} cuando no me escuchas.	Me sinto ignorado quando você não me escuta.		social b1 lote_2026_07_24
+Podemos {{c1::quedar}} en algo intermedio.	Podemos combinar algo no meio-termo.	quedar en = combinar	social b1 lote_2026_07_24
+No es personal, {{c1::es una crítica}} del proceso.	Não é pessoal, é uma crítica ao processo.		social b1 lote_2026_07_24
+{{c1::Respeto}} tu frontera, gracias.	Respeito o seu limite, obrigado.		social b1 lote_2026_07_24
+¿Podrías {{c1::poner}} un ejemplo?	Você poderia dar um exemplo?	poner un ejemplo	social b1 lote_2026_07_24
+Hablo en serio: {{c1::necesito espacio}}.	Falo sério: preciso de espaço.		social b1 lote_2026_07_24
+No quiero que {{c1::lo tomes}} a mal.	Não quero que você leve a mal.	tomar a mal	social b1 lote_2026_07_24
+Cambié de opinión {{c1::después de pensarlo}}.	Mudei de ideia depois de pensar.		social b1 lote_2026_07_24
+Eso cruza un {{c1::límite}} para mí.	Isso ultrapassa um limite para mim.		social b1 lote_2026_07_24
+Vamos a {{c1::enfriarnos}} y mañana seguimos.	Vamos esfriar a cabeça e amanhã seguimos.		social b1 lote_2026_07_24
+Agradezco la franqueza, {{c1::aunque duela}}.	Agradeço a franqueza, embora doa.	aunque + subjuntivo	social b1 lote_2026_07_24
+Vine a {{c1::presentar}} un reclamo.	Vim apresentar uma reclamação.		servicos b1 lote_2026_07_24
+¿Cuáles son los {{c1::requisitos}} para el trámite?	Quais são os requisitos para o trâmite?		servicos b1 lote_2026_07_24
+Me falta una {{c1::fotocopia}} del documento.	Falta uma fotocópia do documento.		servicos b1 lote_2026_07_24
+El plazo {{c1::vence}} el viernes.	O prazo vence na sexta-feira.		servicos b1 lote_2026_07_24
+Necesito {{c1::actualizar}} mi dirección.	Preciso atualizar meu endereço.	es-419: actualizar	servicos b1 lote_2026_07_24
+¿Puedo {{c1::llenar}} el formulario en línea?	Posso preencher o formulário online?	llenar ≠ encher só	servicos b1 lote_2026_07_24
+Me dieron un {{c1::número}} de espera.	Me deram uma senha/número de espera.		servicos b1 lote_2026_07_24
+Quiero {{c1::devolver}} este producto.	Quero devolver este produto.		servicos b1 lote_2026_07_24
+Conservo la {{c1::boleta}} por si acaso.	Guardo a nota fiscal por precaução.	boleta/factura	servicos b1 lote_2026_07_24
+El envío {{c1::tarda}} tres días hábiles.	A entrega demora três dias úteis.		servicos b1 lote_2026_07_24
+¿Atienden {{c1::sin cita}} o solo con turno?	Atendem sem hora marcada ou só com agendamento?		servicos b1 lote_2026_07_24
+Me cobraron de {{c1::más}}.	Me cobraram a mais.	de más	servicos b1 lote_2026_07_24
+Quiero hablar con un {{c1::supervisor}}.	Quero falar com um supervisor.		servicos b1 lote_2026_07_24
+El sistema {{c1::rechazó}} mi solicitud.	O sistema rejeitou minha solicitação.		servicos b1 lote_2026_07_24
+¿Dónde {{c1::va}} la firma?	Onde vai a assinatura?		servicos b1 lote_2026_07_24
+Necesito una constancia {{c1::de domicilio}}.	Preciso de um comprovante de residência.		servicos b1 lote_2026_07_24
+Pagué el {{c1::arancel}} esta mañana.	Paguei a taxa esta manhã.	arancel = taxa	servicos b1 lote_2026_07_24
+El paquete está {{c1::retenido}} en aduana.	O pacote está retido na alfândega.		servicos b1 lote_2026_07_24
+Voy a {{c1::dejar asentado}} el caso por escrito.	Vou deixar o caso registrado por escrito.		servicos b1 lote_2026_07_24
+¿Pueden {{c1::desglosar}} el monto?	Podem discriminar/detalhar o valor?		servicos b1 lote_2026_07_24
+Me {{c1::di de baja}} del contrato el mes pasado.	Cancelei o contrato no mês passado.	darse de baja	servicos b1 lote_2026_07_24
+La garantía {{c1::cubre}} seis meses.	A garantia cobre seis meses.		servicos b1 lote_2026_07_24
+Exijo una {{c1::respuesta}} por escrito.	Exijo uma resposta por escrito.		servicos b1 lote_2026_07_24
+El cajero {{c1::retuvo}} mi tarjeta.	O caixa reteve meu cartão.		servicos b1 lote_2026_07_24
+Quiero {{c1::transferirme}} a otra sucursal.	Quero me transferir para outra agência.		servicos b1 lote_2026_07_24
+¿Me puede traer la {{c1::cuenta}}, por favor?	Pode trazer a conta, por favor?	já pode existir conta noutro sentido — frase distinta	restaurante b1 lote_2026_07_24
+¿Esto lleva {{c1::gluten}}?	Isso leva glúten?		restaurante b1 lote_2026_07_24
+Lo quiero {{c1::al punto}}, no muy hecho.	Quero ao ponto, não muito passado.	punto de cocción	restaurante b1 lote_2026_07_24
+¿Tienen menú {{c1::del día}}?	Vocês têm o prato/menu do dia?		restaurante b1 lote_2026_07_24
+Pedí sin cebolla y {{c1::igual vino}}.	Pedi sem cebola e mesmo assim veio.	igual = mesmo assim	restaurante b1 lote_2026_07_24
+Esto está {{c1::soso}}; ¿pueden cambiarlo?	Isto está sem sal/insosso; podem trocar?		restaurante b1 lote_2026_07_24
+¿La propina {{c1::viene}} incluida?	A gorjeta já vem incluída?		restaurante b1 lote_2026_07_24
+Para mí, {{c1::solo}} el agua.	Para mim, só a água.		restaurante b1 lote_2026_07_24
+¿Me puede {{c1::servir}} un poco más?	Pode servir um pouco mais?		restaurante b1 lote_2026_07_24
+Estamos {{c1::de paso}}; ¿hay mesa para dos?	Estamos de passagem; tem mesa para dois?		restaurante b1 lote_2026_07_24
+El plato {{c1::se veía}} más abundante.	O prato parecia mais abundante.	apariência vs realidade	restaurante b1 lote_2026_07_24
+¿Pueden {{c1::separar}} la cuenta?	Podem separar a conta?		restaurante b1 lote_2026_07_24
+Me equivoqué de {{c1::pedido}}.	Errei o pedido.		restaurante b1 lote_2026_07_24
+¿Hay opción {{c1::vegetariana}} en el menú?	Há opção vegetariana no cardápio?		restaurante b1 lote_2026_07_24
+Esto pica {{c1::demasiado}} para mí.	Isto arde/apimenta demais para mim.	picar = arder	restaurante b1 lote_2026_07_24
+Quisiera {{c1::el aderezo}} con aceite de oliva.	Gostaria do molho com azeite.		restaurante b1 lote_2026_07_24
+¿Me guarda la mesa {{c1::cinco minutos}}?	Guarda a mesa por cinco minutos?		restaurante b1 lote_2026_07_24
+La cocina ya {{c1::cerró}}.	A cozinha já fechou.		restaurante b1 lote_2026_07_24
+Voy a {{c1::repetir}} el postre.	Vou repetir a sobremesa.	repetir = pedir de novo	restaurante b1 lote_2026_07_24
+¿Aceptan {{c1::tarjeta}} o solo efectivo?	Aceitam cartão ou só dinheiro?		restaurante b1 lote_2026_07_24
+Se me {{c1::agotó}} la batería.	A bateria acabou.	agotarse	tech b1 lote_2026_07_24
+No me {{c1::acuerdo de}} la contraseña.	Não me lembro da senha.	acordarse de	tech b1 lote_2026_07_24
+El archivo no {{c1::logra}} a abrirse.	O arquivo não consegue abrir.		tech b1 lote_2026_07_24
+¿Puedes {{c1::compartir}} la pantalla?	Pode compartilhar a tela?		tech b1 lote_2026_07_24
+Perdí la {{c1::señal}} del Wi-Fi.	Perdi o sinal do Wi-Fi.		tech b1 lote_2026_07_24
+Tengo que {{c1::reiniciar}} el sistema.	Tenho que reiniciar o sistema.		tech b1 lote_2026_07_24
+El enlace {{c1::está caído}}.	O link está fora do ar.		tech b1 lote_2026_07_24
+Subí el archivo a la {{c1::nube}}.	Enviei o arquivo para a nuvem.		tech b1 lote_2026_07_24
+Me {{c1::llegó}} dos veces el mensaje.	A mensagem me chegou duas vezes.		tech b1 lote_2026_07_24
+Activa la {{c1::verificación}} de dos pasos.	Ative a verificação em duas etapas.		tech b1 lote_2026_07_24
+El micrófono {{c1::no se oye}} bien.	O microfone não se ouve bem.		tech b1 lote_2026_07_24
+Voy a {{c1::hacer}} una copia de seguridad.	Vou fazer um backup.	hacer una copia de seguridad	tech b1 lote_2026_07_24
+Se {{c1::congeló}} la ventana del navegador.	A janela do navegador travou.		tech b1 lote_2026_07_24
+¿Me puedes {{c1::adjuntar}} el archivo?	Pode anexar o arquivo?		tech b1 lote_2026_07_24
+Borré sin querer {{c1::el borrador}}.	Apaguei o rascunho sem querer.		tech b1 lote_2026_07_24
+Me {{c1::alegré}} de la noticia.	Fiquei feliz com a notícia.	alegrarse de	emocoes b1 lote_2026_07_24
+Estoy {{c1::apenado}} por lo que pasó.	Estou chateado/triste pelo que aconteceu.		emocoes b1 lote_2026_07_24
+Me da {{c1::vergüenza}} pedir ayuda.	Tenho vergonha de pedir ajuda.	dar vergüenza	emocoes b1 lote_2026_07_24
+No doy {{c1::abasto}} con tanta presión.	Não dou conta com tanta pressão.	no dar abasto	emocoes b1 lote_2026_07_24
+Me {{c1::impaciento}} cuando llega tarde.	Fico impaciente quando ele/ela chega atrasado.		emocoes b1 lote_2026_07_24
+Siento un {{c1::nudo}} raro en el estómago.	Sinto um nó estranho no estômago.		emocoes b1 lote_2026_07_24
+Estoy {{c1::indeciso}} entre dos opciones.	Estou indeciso entre duas opções.		emocoes b1 lote_2026_07_24
+Me {{c1::conmovió}} su sinceridad.	A sinceridade dele/dela me comoveu.		emocoes b1 lote_2026_07_24
+Ando {{c1::sensible}} estos días.	Ando sensível nestes dias.		emocoes b1 lote_2026_07_24
+Me {{c1::invadió}} el alivio después.	O alívio me invadiu depois.		emocoes b1 lote_2026_07_24
+Tengo {{c1::miedo}} de decepcionarlos.	Tenho medo de decepcioná-los.		emocoes b1 lote_2026_07_24
+Estoy {{c1::harto}} de esperar noticias.	Estou farto de esperar notícias.	harto de	emocoes b1 lote_2026_07_24
+Me {{c1::dolió}} el comentario.	O comentário me doeu.		emocoes b1 lote_2026_07_24
+Siento {{c1::culpa}} por no haber ido.	Sinto culpa por não ter ido.		emocoes b1 lote_2026_07_24
+Hoy amanecí {{c1::motivado}}.	Hoje acordei motivado.	amanecer + adjetivo	emocoes b1 lote_2026_07_24
+Me bajé {{c1::una parada antes}} y caminé.	Desci uma parada antes e caminhei.		cidade b1 lote_2026_07_24
+El metro va {{c1::a reventar}} a esta hora.	O metrô vai lotado a esta hora.		cidade b1 lote_2026_07_24
+¿Este colectivo {{c1::pasa}} al centro?	Este ônibus passa no centro?	colectivo (es-419)	cidade b1 lote_2026_07_24
+Hay obras; hay que {{c1::desviar}}.	Há obras; é preciso desviar.		cidade b1 lote_2026_07_24
+Pedí un viaje {{c1::por}} la app.	Pedi uma corrida pelo app.		cidade b1 lote_2026_07_24
+El conductor {{c1::frenó}} de golpe.	O motorista freou de repente.		cidade b1 lote_2026_07_24
+Quedamos {{c1::enfrente}} de la estación.	Marcamos de encontrar em frente à estação.		cidade b1 lote_2026_07_24
+El semáforo {{c1::parpadea}} en amarillo.	O semáforo pisca no amarelo.		cidade b1 lote_2026_07_24
+No hay {{c1::estacionamiento}} en esta cuadra.	Não há estacionamento nesta quadra.		cidade b1 lote_2026_07_24
+Me perdí {{c1::a pesar}} del mapa.	Me perdi apesar do mapa.	a pesar de	cidade b1 lote_2026_07_24
+El cruce está {{c1::peatonalizado}}.	O cruzamento foi pedonalizado.		cidade b1 lote_2026_07_24
+¿Cuánto {{c1::se tarda}} hasta allá?	Quanto se demora até lá?		cidade b1 lote_2026_07_24
+Tomé el sentido {{c1::contrario}}.	Peguei o sentido contrário.		cidade b1 lote_2026_07_24
+Hay un tope; {{c1::pasa}} despacio.	Há uma lombada; passe devagar.	tope = lombada (MX/latam)	cidade b1 lote_2026_07_24
+La ciclovía {{c1::empieza}} aquí.	A ciclovia começa aqui.		cidade b1 lote_2026_07_24
+Te escribo {{c1::con respecto}} de la reunión.	Escrevo a respeito da reunião.	con respecto a	trabalho b1 lote_2026_07_24
+Adjunto el archivo {{c1::solicitado}}.	Anexo o arquivo solicitado.		trabalho b1 lote_2026_07_24
+Quedo {{c1::a la espera}} de tus comentarios.	Fico no aguardo dos seus comentários.	quedar a la espera	trabalho b1 lote_2026_07_24
+El informe quedó {{c1::pendiente de revisión}}.	O relatório ficou pendente de revisão.		trabalho b1 lote_2026_07_24
+Voy a {{c1::dejar constancia de}} el punto en el acta.	Vou deixar o ponto registrado na ata.		trabalho b1 lote_2026_07_24
+¿Quién {{c1::se encarga}} de este tema?	Quem fica responsável por este tema?	encargarse de	trabalho b1 lote_2026_07_24
+Necesito tu {{c1::visto bueno}} antes de enviar.	Preciso do seu ok/aprovação antes de enviar.		trabalho b1 lote_2026_07_24
+La reunión se {{c1::aplazó}} para el jueves.	A reunião foi adiada para quinta.	aplazar	trabalho b1 lote_2026_07_24
+Te {{c1::incluyo}} en copia a Ana.	Te incluo em cópia com a Ana.		trabalho b1 lote_2026_07_24
+Esto {{c1::escapa de}} mi área.	Isto foge da minha área.	escapar de	trabalho b1 lote_2026_07_24
+Hagamos un {{c1::receso}} de cinco minutos.	Vamos fazer um intervalo de cinco minutos.		trabalho b1 lote_2026_07_24
+El cliente pidió un {{c1::adelanto}}.	O cliente pediu um adiantamento.		trabalho b1 lote_2026_07_24
+Voy a {{c1::redactar}} la propuesta.	Vou redigir a proposta.		trabalho b1 lote_2026_07_24
+Quedó {{c1::esa duda}} en el aire.	Essa dúvida ficou no ar.		trabalho b1 lote_2026_07_24
+Envíame un {{c1::resumen ejecutivo}} después.	Me envie um resumo executivo depois.		trabalho b1 lote_2026_07_24
+No puedo {{c1::comprometer}} ese plazo.	Não posso me comprometer com esse prazo.	comprometerse	trabalho b1 lote_2026_07_24
+El correo me {{c1::cayó en}} spam.	O e-mail caiu no spam.		trabalho b1 lote_2026_07_24
+Vamos a {{c1::alinear}} prioridades.	Vamos alinhar prioridades.		trabalho b1 lote_2026_07_24
+Te confirmo {{c1::por este medio}} mi asistencia.	Confirmo por este meio a minha presença.		trabalho b1 lote_2026_07_24
+Ayer {{c1::releí}} tres capítulos.	Ontem reli três capítulos.	pretérito irregular	preterito b1 lote_2026_07_24
+Cuando llegué, ya {{c1::habían cerrado}}.	Quando cheguei, já tinham fechado.	pluscuamperfecto	preterito b1 lote_2026_07_24
+Estuve {{c1::corrigiendo}} toda la tarde.	Fiquei corrigindo a tarde toda.	estar + gerundio	preterito b1 lote_2026_07_24
+De niño {{c1::vivía}} cerca del río.	Quando criança eu morava perto do rio.	imperfecto = hábito	preterito b1 lote_2026_07_24
+De pronto {{c1::se puso a}} llover.	De repente pôs-se a chover.	ponerse a	preterito b1 lote_2026_07_24
+Todavía no {{c1::había recibido}} la respuesta.	Ainda não tinha recebido a resposta.		preterito b1 lote_2026_07_24
+Ese día {{c1::salimos}} más temprano.	Naquele dia saímos mais cedo.		preterito b1 lote_2026_07_24
+Mientras cocinaba, {{c1::escuchaba}} un podcast.	Enquanto cozinhava, escutava um podcast.	imperfecto paralelo	preterito b1 lote_2026_07_24
+Nunca {{c1::había cometido}} semejante error.	Nunca tinha cometido erro semelhante.		preterito b1 lote_2026_07_24
+En cuanto {{c1::supe}}, te avisé.	Assim que soube, avisei você.	en cuanto + pretérito	preterito b1 lote_2026_07_24
+Llevaba una semana {{c1::sin dormir bien}}.	Já fazia uma semana sem dormir bem.	llevar + gerundio/sin	preterito b1 lote_2026_07_24
+Se me {{c1::pasó}} la hora.	O tempo passou sem eu perceber.	pasársele la hora	preterito b1 lote_2026_07_24
+Volví a casa y {{c1::me quedé}} dormido.	Voltei para casa e acabei dormindo.	quedarse + adj	preterito b1 lote_2026_07_24
+No {{c1::lograron}} abrirme la puerta.	Não conseguiram me abrir a porta.		preterito b1 lote_2026_07_24
+Aquella noche {{c1::charlamos}} hasta tarde.	Naquela noite conversamos até tarde.		preterito b1 lote_2026_07_24
+Espero que {{c1::llegues}} a tiempo.	Espero que você chegue a tempo.	esperar que + subjuntivo	gramatica b1 lote_2026_07_24
+Dudo que {{c1::sea}} tan barato.	Duvido que seja tão barato.	dudar que + subj	gramatica b1 lote_2026_07_24
+Cuando {{c1::termines}}, avísame.	Quando terminar, me avise.	cuando futuro → subj	gramatica b1 lote_2026_07_24
+Te lo digo {{c1::para que no}} te preocupes.	Digo isso para que você não se preocupe.	para que + subjuntivo	gramatica b1 lote_2026_07_24
+Pasé {{c1::por delante de}} tu casa sin detenerme.	Passei na frente da sua casa sem parar.	por = trajeto	gramatica b1 lote_2026_07_24
+Vine {{c1::con el fin de}} resolver el problema.	Vim com o objetivo de resolver o problema.	con el fin de ≈ para	gramatica b1 lote_2026_07_24
+Lo hice {{c1::por accidente}}.	Fiz por acidente.	por = causa	gramatica b1 lote_2026_07_24
+El informe {{c1::está}} listo; yo estoy cansado.	O relatório está pronto; eu estou cansado.	estar estados	gramatica b1 lote_2026_07_24
+Ella {{c1::es}} ingeniera civil.	Ela é engenheira civil.	ser profesión	gramatica b1 lote_2026_07_24
+No creo que {{c1::sea}} necesario.	Não acho que seja necessário.	no creer que + subj	gramatica b1 lote_2026_07_24
+Ojalá {{c1::no llueva}} mañana.	Tomara que não chova amanhã.	ojalá + subj	gramatica b1 lote_2026_07_24
+Aunque {{c1::esté cansado}}, iré.	Mesmo que eu esteja cansado, irei.	aunque + subj = hipótese	gramatica b1 lote_2026_07_24
+Quiero que me {{c1::digas}} la verdad.	Quero que você me diga a verdade.		gramatica b1 lote_2026_07_24
+Es importante que {{c1::salgamos}} temprano.	É importante que saiamos cedo.	es + adj + que + subj	gramatica b1 lote_2026_07_24
+Tal vez {{c1::tengas}} razón.	Talvez você tenha razão.	tal vez + subj	gramatica b1 lote_2026_07_24
+Me alegra que {{c1::hayas}} venido.	Fico feliz que você tenha vindo.	subjuntivo perfecto	gramatica b1 lote_2026_07_24
+Voy {{c1::por un vaso de}} agua, no por drama.	Vou buscar um copo d’água, não por drama.	ir por = buscar	gramatica b1 lote_2026_07_24
+Esto es {{c1::para ti}}.	Isto é para você.	para = destinatário	gramatica b1 lote_2026_07_24
+Como si {{c1::llevara}} años aquí.	Como se eu levasse anos aqui.	como si + imperfecto subj	gramatica b1 lote_2026_07_24
+No hay quien {{c1::entienda}} eso.	Não há quem entenda isso.	no hay quien + subj	gramatica b1 lote_2026_07_24
+"No digas {{c1::escritorio}} para ""escritório""."	Escritorio = escrivaninha; escritório = oficina.	oficina = escritório	falsos b1 lote_2026_07_24
+Pedí {{c1::una carpeta}}, no pasta.	Pedi uma pasta (arquivo), não massa.	carpeta vs pasta	falsos b1 lote_2026_07_24
+La {{c1::junta}} está en la oficina.	A reunião está no escritório.	"junta = reunião; não ""junta"" PT"	falsos b1 lote_2026_07_24
+Eso fue una {{c1::falta}}, no un crimen.	Isso foi uma falta/erro, não um crime.	falta ≠ falta PT só	falsos b1 lote_2026_07_24
+El {{c1::argumento}} del libro es aburrido.	O enredo do livro é chato.	argumento = enredo	falsos b1 lote_2026_07_24
+Voy a la {{c1::sucursal}} a sacar dinero.	Vou à agência sacar dinheiro.	sucursal = agência	falsos b1 lote_2026_07_24
+Me dio un {{c1::susto}} el precio.	O preço me deu um susto.		falsos b1 lote_2026_07_24
+Ella es muy {{c1::rara}} con los detalles.	Ela é muito estranha/particular com detalhes.	rara ≠ rare	falsos b1 lote_2026_07_24
+"No confundas {{c1::auxilio}} con ""ajuda""."	Auxilio = socorro; ajuda = ayuda.		falsos b1 lote_2026_07_24
+El {{c1::presupuesto}} llega mañana.	O orçamento chega amanhã.	presupuesto ≠ pressuposto acadêmico só	falsos b1 lote_2026_07_24
+Esa película es un {{c1::éxito}}.	Esse filme é um sucesso.	éxito ≠ êxito só formal	falsos b1 lote_2026_07_24
+Trabajo en una {{c1::empresa}} pequeña.	Trabalho numa empresa pequena.	empresa ≠ empregada	falsos b1 lote_2026_07_24
+¿Me pasas la {{c1::goma}}?	Pode me passar a borracha?	goma = borracha (ES)	falsos b1 lote_2026_07_24
+No me {{c1::acuerdo}} de su nombre.	Não me lembro do nome dele/dela.	acordarse de	chunks b1 lote_2026_07_24
+Al final me {{c1::dio}} la razón.	No fim ele/ela me deu razão.	dar la razón	chunks b1 lote_2026_07_24
+No {{c1::dejes}} de pedirme ayuda.	Não deixe de me pedir ajuda.	no dejar de + inf	chunks b1 lote_2026_07_24
+Se me {{c1::olvidó}} felicitarte.	Esqueci de te felicitar.	olvidársele	chunks b1 lote_2026_07_24
+Eso {{c1::carece}} de sentido.	Isso carece de sentido.		chunks b1 lote_2026_07_24
+Voy a {{c1::tocar}} el tema.	Vou tocar no assunto.	tocar un tema	chunks b1 lote_2026_07_24
+Me {{c1::llegó a}} enterar tarde.	Acabei ficando sabendo tarde.	llegar a + inf	chunks b1 lote_2026_07_24
+No {{c1::hubo}} más remedio que aceptar.	Não houve outro remédio senão aceitar.	no haber más remedio	chunks b1 lote_2026_07_24
+Ella {{c1::desconfió}} de que fuera fácil.	Ela desconfiou que fosse fácil.	desconfiar de que + subj	chunks b1 lote_2026_07_24
+Me {{c1::fui acostumbrando}} a la idea con el tiempo.	Fui me acostumando à ideia com o tempo.		chunks b1 lote_2026_07_24
+Eso me {{c1::resulta}} indiferente.	Isso me resulta indiferente.	resultar + adj	chunks b1 lote_2026_07_24
+No sé {{c1::cómo}} salió tan bien.	Não sei como saiu tão bem.		chunks b1 lote_2026_07_24
+Me {{c1::sacaron}} el día libre.	Me deram o dia de folga.	sacar un día libre	chunks b1 lote_2026_07_24
+Eso {{c1::queda}} a discusión.	Isso fica em discussão.		chunks b1 lote_2026_07_24
+Voy a {{c1::echar}} un vistazo.	Vou dar uma olhada.	echar un vistazo	chunks b1 lote_2026_07_24
+No {{c1::estuvo}} a la altura.	Não esteve à altura.	estar a la altura	chunks b1 lote_2026_07_24
+Me {{c1::quitó}} el sueño con el ruido.	O barulho me tirou o sono.	quitar el sueño	chunks b1 lote_2026_07_24
+¿Podemos {{c1::reprogramar}} la fecha?	Podemos remarcar a data?	reprogramar / aplazar	trabalho b1 lote_2026_07_24
+{{c1::Echo de menos}} el ruido de la ciudad.	Sinto falta do barulho da cidade.	echar de menos	chunks b1 lote_2026_07_24
+Eso no me {{c1::convence del todo}}.	Isso não me convence completamente.	convencer	chunks b1 lote_2026_07_24
+Ella está {{c1::embarazada}}; el bebé nace en octubre.	Ela está grávida; o bebê nasce em outubro.	embarazada = grávida ≠ embaraçada	falsos b1 lote_2026_07_24
+{{c1::Agarra}} el vaso con cuidado.	Pegue o copo com cuidado.	agarrar / tomar	falsos b1 lote_2026_07_24
+Hay que {{c1::tomar}} el toro por los cuernos.	É preciso pegar o touro pelos chifres.	idiom	chunks b1 lote_2026_07_24
+Al escuchar el coro, {{c1::se me pusieron los pelos de punta}}.	Ao ouvir o coro, fiquei arrepiado.	ponérsele los pelos de punta a alguien; pronome de objeto indireto + verbo no plural	musica emociones b1 chunk rosalia_lux lote_2026_08_16
+No conviene {{c1::dar por hecho}} que toda crisis de fe termina mal.	Não convém presumir que toda crise de fé termina mal.	dar por hecho que = considerar algo certo sem comprová-lo	fe emociones b2 chunk rosalia_lux lote_2026_08_16
+{{c1::Por muy sombría que sea}}, la canción conserva algo de esperanza.	Por mais sombria que seja, a música conserva algo de esperança.	por muy + adjetivo + que + subjuntivo expressa concessão	musica subjuntivo b2 estructura rosalia_lux lote_2026_08_16
+{{c1::Aunque no entendiera cada palabra}}, la mezcla de idiomas me conmovió.	Embora eu não entendesse cada palavra, a mistura de idiomas me emocionou.	aunque + imperfecto de subjuntivo: situação hipotética ou não confirmada	idiomas subjuntivo b2 estructura rosalia_lux lote_2026_08_16
+{{c1::A fin de cuentas}}, el disco trata más de lo sagrado que de la fama.	No fim das contas, o disco trata mais do sagrado do que da fama.	Conector conclusivo; alternativa: al fin y al cabo	discurso fe b2 conector rosalia_lux lote_2026_08_16
+La plataforma no me deja {{c1::subir el archivo}}.	A plataforma não me deixa enviar o arquivo.	dejar + infinitivo = permitir	tecnologia b1 chunk lote_2026_08_17
+Si te parece bien, {{c1::lo dejamos para mañana}}.	Se estiver tudo bem para você, deixamos para amanhã.	dejar algo para mañana = adiar ou combinar algo para depois	interacao b1 chunk lote_2026_08_17
+¿Podrías {{c1::aclararme este punto}} antes de la reunión?	Você poderia esclarecer este ponto para mim antes da reunião?	aclarar algo / aclararle algo a alguien	trabalho b1 regencia lote_2026_08_17
+El restaurante estaba lleno y {{c1::nos quedamos sin mesa}}.	O restaurante estava lotado e ficamos sem mesa.	quedarse sin + substantivo = ficar sem	restaurante b1 chunk lote_2026_08_17
+No me di cuenta de que {{c1::ya había vencido el plazo}}.	Não percebi que o prazo já tinha vencido.	darse cuenta de que + mais-que-perfeito	burocracia b1 pretérito lote_2026_08_17
+Si el dolor persiste, {{c1::consulta a un médico}}.	Se a dor persistir, consulte um médico.	consultar a alguien: consultar alguém; imperativo de tú	saude b1 regencia lote_2026_08_17
+Al principio me costó {{c1::acostumbrarme al cambio}}.	No começo, tive dificuldade para me acostumar com a mudança.	costar + infinitivo; acostumbrarse a algo	emocoes b1 estrutura lote_2026_08_17
+¿Dónde puedo {{c1::sacar una copia}} de este documento?	Onde posso tirar uma cópia deste documento?	sacar una copia é comum no espanhol latino-americano; regionalismo	servicos b1 chunk lote_2026_08_17
+Te lo mando {{c1::a primera hora}}.	Eu te envio logo no começo do dia.	a primera hora = no início do expediente ou do dia	trabalho b1 chunk lote_2026_08_17
+Aunque {{c1::parezca sencillo}}, requiere práctica.	Embora pareça simples, exige prática.	aunque + subjuntivo para concessão ou hipótese	subjuntivo b1 estrutura lote_2026_08_17

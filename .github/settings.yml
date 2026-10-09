@@ -1,7 +1,7 @@
 repository:
   description: >-
-    Workshop pessoal para gerar, validar e importar Lotes Cloze de idiomas
-    no Anki (ES/EN→fluência), com Process Skill, inventário e repetição espaçada.
+    Biblioteca pessoal de flashcards para Anki: idiomas, CPA e outros estudos.
+    Conteúdo preparado com auxílio de IA e compartilhado com atribuição.
   topics:
     - anki
     - flashcards
@@ -10,6 +10,8 @@ repository:
     - language-learning
     - spanish
     - english
+    - italian
+    - cpa
     - anki-decks
     - memorization
     - fluency

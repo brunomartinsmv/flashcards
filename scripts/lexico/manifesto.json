@@ -1,0 +1,89 @@
+{
+  "italian": {
+    "cartoes": 587,
+    "termos_distintos": 587,
+    "palavras_simples_distintas": 585,
+    "temas": 24,
+    "omitidos_por_presenca_em_arquivos_anteriores": [
+      {
+        "termo": "l'acqua",
+        "portugues": "água",
+        "motivo": "Já está em um arquivo anterior do idioma."
+      },
+      {
+        "termo": "il pane",
+        "portugues": "pão",
+        "motivo": "Já está em um arquivo anterior do idioma."
+      },
+      {
+        "termo": "la pasta",
+        "portugues": "massa alimentícia",
+        "motivo": "Já está em um arquivo anterior do idioma."
+      },
+      {
+        "termo": "il latte",
+        "portugues": "leite",
+        "motivo": "Já está em um arquivo anterior do idioma."
+      },
+      {
+        "termo": "il caffè",
+        "portugues": "café",
+        "motivo": "Já está em um arquivo anterior do idioma."
+      },
+      {
+        "termo": "il tè",
+        "portugues": "chá",
+        "motivo": "Já está em um arquivo anterior do idioma."
+      },
+      {
+        "termo": "la notte",
+        "portugues": "noite",
+        "motivo": "Já está em um arquivo anterior do idioma."
+      },
+      {
+        "termo": "la mattina",
+        "portugues": "manhã",
+        "motivo": "Já está em um arquivo anterior do idioma."
+      },
+      {
+        "termo": "il pomeriggio",
+        "portugues": "tarde (período)",
+        "motivo": "Já está em um arquivo anterior do idioma."
+      },
+      {
+        "termo": "oggi",
+        "portugues": "hoje",
+        "motivo": "Já está em um arquivo anterior do idioma."
+      },
+      {
+        "termo": "ieri",
+        "portugues": "ontem",
+        "motivo": "Já está em um arquivo anterior do idioma."
+      },
+      {
+        "termo": "domani",
+        "portugues": "amanhã",
+        "motivo": "Já está em um arquivo anterior do idioma."
+      },
+      {
+        "termo": "adesso",
+        "portugues": "agora",
+        "motivo": "Já está em um arquivo anterior do idioma."
+      }
+    ]
+  },
+  "spanish": {
+    "cartoes": 600,
+    "termos_distintos": 597,
+    "palavras_simples_distintas": 594,
+    "temas": 24,
+    "omitidos_por_presenca_em_arquivos_anteriores": []
+  },
+  "english": {
+    "cartoes": 600,
+    "termos_distintos": 596,
+    "palavras_simples_distintas": 592,
+    "temas": 24,
+    "omitidos_por_presenca_em_arquivos_anteriores": []
+  }
+}

@@ -1,0 +1,31 @@
+#separator:Comma
+#html:false
+#tags column:3
+#deck:idioms::english::Léxico::Básico::04 Casa
+#deck column:4
+#columns:Frente,Verso,Tags,Deck
+house,casa,lexico idioma::ingles tema::casa nivel::basico,idioms::english::Léxico::Básico::04 Casa
+apartment,apartamento,lexico idioma::ingles tema::casa nivel::basico,idioms::english::Léxico::Básico::04 Casa
+bedroom,quarto,lexico idioma::ingles tema::casa nivel::basico,idioms::english::Léxico::Básico::04 Casa
+living room,sala de estar,lexico idioma::ingles tema::casa nivel::basico,idioms::english::Léxico::Básico::04 Casa
+kitchen,cozinha,lexico idioma::ingles tema::casa nivel::basico,idioms::english::Léxico::Básico::04 Casa
+bathroom,banheiro,lexico idioma::ingles tema::casa nivel::basico,idioms::english::Léxico::Básico::04 Casa
+door,porta,lexico idioma::ingles tema::casa nivel::basico,idioms::english::Léxico::Básico::04 Casa
+window,janela,lexico idioma::ingles tema::casa nivel::basico,idioms::english::Léxico::Básico::04 Casa
+wall,parede,lexico idioma::ingles tema::casa nivel::basico,idioms::english::Léxico::Básico::04 Casa
+floor,piso,lexico idioma::ingles tema::casa nivel::basico,idioms::english::Léxico::Básico::04 Casa
+ceiling,teto interno,lexico idioma::ingles tema::casa nivel::basico,idioms::english::Léxico::Básico::04 Casa
+roof,telhado,lexico idioma::ingles tema::casa nivel::basico,idioms::english::Léxico::Básico::04 Casa
+staircase,escada,lexico idioma::ingles tema::casa nivel::basico,idioms::english::Léxico::Básico::04 Casa
+bed,cama,lexico idioma::ingles tema::casa nivel::basico,idioms::english::Léxico::Básico::04 Casa
+pillow,travesseiro,lexico idioma::ingles tema::casa nivel::basico,idioms::english::Léxico::Básico::04 Casa
+blanket,cobertor,lexico idioma::ingles tema::casa nivel::basico,idioms::english::Léxico::Básico::04 Casa
+table,mesa,lexico idioma::ingles tema::casa nivel::basico,idioms::english::Léxico::Básico::04 Casa
+chair,cadeira,lexico idioma::ingles tema::casa nivel::basico,idioms::english::Léxico::Básico::04 Casa
+sofa,sofá,lexico idioma::ingles tema::casa nivel::basico,idioms::english::Léxico::Básico::04 Casa
+wardrobe,armário,lexico idioma::ingles tema::casa nivel::basico,idioms::english::Léxico::Básico::04 Casa
+mirror,espelho,lexico idioma::ingles tema::casa nivel::basico,idioms::english::Léxico::Básico::04 Casa
+carpet,tapete,lexico idioma::ingles tema::casa nivel::basico,idioms::english::Léxico::Básico::04 Casa
+key,chave,lexico idioma::ingles tema::casa nivel::basico,idioms::english::Léxico::Básico::04 Casa
+balcony,varanda,lexico idioma::ingles tema::casa nivel::basico,idioms::english::Léxico::Básico::04 Casa
+garden,jardim,lexico idioma::ingles tema::casa nivel::basico,idioms::english::Léxico::Básico::04 Casa

@@ -1,0 +1,11 @@
+#separator:Tab
+#html:true
+#tags column:3
+#deck:CPA::05 Sistemas Price e SAC
+#deck column:4
+#columns:Frente	Verso	Tags	Deck
+Como funciona o sistema Price?	A prestação tende a ser constante, sob taxa e periodicidade constantes. No início, os juros ocupam parcela maior e a amortização é menor; com a queda do saldo, a amortização cresce.<br><small>Fonte: Apostila CPA, ed. janeiro/2026, p. impressa 84 (PDF 84).</small>	cpa::apostila cpa::05 tema::price tema::amortizacao	CPA::05 Sistemas Price e SAC
+Como se calcula cada prestação no sistema Price?	A prestação uniforme é PMT = PV × i / [1−(1+i)^−n], em que PV é o principal financiado, i a taxa por período e n o número de parcelas.<br><small>Fonte: Apostila CPA, ed. janeiro/2026, p. impressa 85 (PDF 85).</small>	cpa::apostila cpa::05 tema::price tema::formula	CPA::05 Sistemas Price e SAC
+Como funciona o SAC?	A amortização do principal é constante: A = PV/n. Como os juros incidem sobre saldo devedor decrescente, as prestações começam maiores e diminuem ao longo do tempo.<br><small>Fonte: Apostila CPA, ed. janeiro/2026, p. impressa 88 (PDF 88).</small>	cpa::apostila cpa::05 tema::sac tema::amortizacao	CPA::05 Sistemas Price e SAC
+Qual é a prestação inicial de um SAC de R$ 12.000 em 12 meses a 1% ao mês?	Amortização mensal = 12.000/12 = R$ 1.000. Juros iniciais = 1% × 12.000 = R$ 120. Primeira prestação = R$ 1.120.<br><small>Fonte: Apostila CPA, ed. janeiro/2026, p. impressa 89 (PDF 89).</small>	cpa::apostila cpa::05 tema::sac tema::calculo	CPA::05 Sistemas Price e SAC
+Como comparar Price e SAC para o mesmo principal, prazo e taxa?	Price mantém prestações niveladas; SAC amortiza o principal em parcelas iguais e reduz a prestação com o tempo. O SAC exige pagamentos iniciais maiores e, em condições iguais, tende a gerar menos juros totais.<br><small>Fonte: Apostila CPA, ed. janeiro/2026, p. impressa 84 e 88 (PDF 84 e 88).</small>	cpa::apostila cpa::05 tema::price tema::sac tema::comparacao	CPA::05 Sistemas Price e SAC

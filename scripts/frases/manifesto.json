@@ -1,0 +1,115 @@
+{
+  "fonte": "scripts/frases/frases.json",
+  "gerador": "scripts/frases/gerar_frases.py",
+  "escopo": "arquivos locais; nenhuma coleção Anki ao vivo foi alterada",
+  "direcao": "frente no idioma estudado; verso em português brasileiro",
+  "faixas": {
+    "01 Básico": 150,
+    "02 Intermediário": 150,
+    "03 Avançado": 150
+  },
+  "temas_por_faixa": {
+    "01 Rotina e organização": 30,
+    "02 Serviços compras e viagens": 30,
+    "03 Relações e comunicação": 30,
+    "04 Trabalho e colaboração": 30,
+    "05 Estudos e projetos": 30
+  },
+  "intencoes_alinhadas": 450,
+  "cartoes_total": 1350,
+  "por_idioma": {
+    "italian": {
+      "total": 450,
+      "por_nivel": {
+        "basico": 150,
+        "intermediario": 150,
+        "avancado": 150
+      },
+      "por_tema_nivel": {
+        "basico/01": 30,
+        "basico/02": 30,
+        "basico/03": 30,
+        "basico/04": 30,
+        "basico/05": 30,
+        "intermediario/01": 30,
+        "intermediario/02": 30,
+        "intermediario/03": 30,
+        "intermediario/04": 30,
+        "intermediario/05": 30,
+        "avancado/01": 30,
+        "avancado/02": 30,
+        "avancado/03": 30,
+        "avancado/04": 30,
+        "avancado/05": 30
+      }
+    },
+    "spanish": {
+      "total": 450,
+      "por_nivel": {
+        "basico": 150,
+        "intermediario": 150,
+        "avancado": 150
+      },
+      "por_tema_nivel": {
+        "basico/01": 30,
+        "basico/02": 30,
+        "basico/03": 30,
+        "basico/04": 30,
+        "basico/05": 30,
+        "intermediario/01": 30,
+        "intermediario/02": 30,
+        "intermediario/03": 30,
+        "intermediario/04": 30,
+        "intermediario/05": 30,
+        "avancado/01": 30,
+        "avancado/02": 30,
+        "avancado/03": 30,
+        "avancado/04": 30,
+        "avancado/05": 30
+      }
+    },
+    "english": {
+      "total": 450,
+      "por_nivel": {
+        "basico": 150,
+        "intermediario": 150,
+        "avancado": 150
+      },
+      "por_tema_nivel": {
+        "basico/01": 30,
+        "basico/02": 30,
+        "basico/03": 30,
+        "basico/04": 30,
+        "basico/05": 30,
+        "intermediario/01": 30,
+        "intermediario/02": 30,
+        "intermediario/03": 30,
+        "intermediario/04": 30,
+        "intermediario/05": 30,
+        "avancado/01": 30,
+        "avancado/02": 30,
+        "avancado/03": 30,
+        "avancado/04": 30,
+        "avancado/05": 30
+      }
+    }
+  },
+  "colisoes_exatas_com_frentes_locais": {
+    "italian": 0,
+    "spanish": 0,
+    "english": 0
+  },
+  "inventario_local_anterior": {
+    "spanish": {
+      "frentes_unicas_normalizadas": 652
+    },
+    "english": {
+      "frentes_unicas_normalizadas": 10
+    },
+    "italian": {
+      "frentes_unicas_normalizadas": 104
+    }
+  },
+  "arquivos_csv_por_idioma": 19,
+  "observacao": "Comparação de frentes com arquivos locais TSV/TXT preexistentes, após retirar marcação cloze/HTML e normalizar caixa e pontuação. A verificação não cobre decks remotos nem coleções Anki não exportadas."
+}

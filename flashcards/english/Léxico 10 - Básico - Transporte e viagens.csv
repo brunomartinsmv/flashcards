@@ -1,0 +1,31 @@
+#separator:Comma
+#html:false
+#tags column:3
+#deck:idioms::english::Léxico::Básico::10 Transporte e viagens
+#deck column:4
+#columns:Frente,Verso,Tags,Deck
+car,carro,lexico idioma::ingles tema::transporte_e_viagens nivel::basico,idioms::english::Léxico::Básico::10 Transporte e viagens
+bus,ônibus,lexico idioma::ingles tema::transporte_e_viagens nivel::basico,idioms::english::Léxico::Básico::10 Transporte e viagens
+train,trem,lexico idioma::ingles tema::transporte_e_viagens nivel::basico,idioms::english::Léxico::Básico::10 Transporte e viagens
+subway,metrô,lexico idioma::ingles tema::transporte_e_viagens nivel::basico,idioms::english::Léxico::Básico::10 Transporte e viagens
+bicycle,bicicleta,lexico idioma::ingles tema::transporte_e_viagens nivel::basico,idioms::english::Léxico::Básico::10 Transporte e viagens
+motorcycle,moto,lexico idioma::ingles tema::transporte_e_viagens nivel::basico,idioms::english::Léxico::Básico::10 Transporte e viagens
+truck,caminhão,lexico idioma::ingles tema::transporte_e_viagens nivel::basico,idioms::english::Léxico::Básico::10 Transporte e viagens
+airplane,avião,lexico idioma::ingles tema::transporte_e_viagens nivel::basico,idioms::english::Léxico::Básico::10 Transporte e viagens
+boat,barco,lexico idioma::ingles tema::transporte_e_viagens nivel::basico,idioms::english::Léxico::Básico::10 Transporte e viagens
+ship,navio,lexico idioma::ingles tema::transporte_e_viagens nivel::basico,idioms::english::Léxico::Básico::10 Transporte e viagens
+airport,aeroporto,lexico idioma::ingles tema::transporte_e_viagens nivel::basico,idioms::english::Léxico::Básico::10 Transporte e viagens
+station,estação,lexico idioma::ingles tema::transporte_e_viagens nivel::basico,idioms::english::Léxico::Básico::10 Transporte e viagens
+ticket,passagem (bilhete),lexico idioma::ingles tema::transporte_e_viagens nivel::basico,idioms::english::Léxico::Básico::10 Transporte e viagens
+passport,passaporte,lexico idioma::ingles tema::transporte_e_viagens nivel::basico,idioms::english::Léxico::Básico::10 Transporte e viagens
+suitcase,mala,lexico idioma::ingles tema::transporte_e_viagens nivel::basico,idioms::english::Léxico::Básico::10 Transporte e viagens
+luggage,bagagem,lexico idioma::ingles tema::transporte_e_viagens nivel::basico,idioms::english::Léxico::Básico::10 Transporte e viagens
+hotel,hotel,lexico idioma::ingles tema::transporte_e_viagens nivel::basico,idioms::english::Léxico::Básico::10 Transporte e viagens
+reservation,reserva (agendamento),lexico idioma::ingles tema::transporte_e_viagens nivel::basico,idioms::english::Léxico::Básico::10 Transporte e viagens
+trip,viagem,lexico idioma::ingles tema::transporte_e_viagens nivel::basico,idioms::english::Léxico::Básico::10 Transporte e viagens
+map,mapa,lexico idioma::ingles tema::transporte_e_viagens nivel::basico,idioms::english::Léxico::Básico::10 Transporte e viagens
+border,fronteira,lexico idioma::ingles tema::transporte_e_viagens nivel::basico,idioms::english::Léxico::Básico::10 Transporte e viagens
+destination,destino,lexico idioma::ingles tema::transporte_e_viagens nivel::basico,idioms::english::Léxico::Básico::10 Transporte e viagens
+traffic,trânsito,lexico idioma::ingles tema::transporte_e_viagens nivel::basico,idioms::english::Léxico::Básico::10 Transporte e viagens
+driver,motorista,lexico idioma::ingles tema::transporte_e_viagens nivel::basico,idioms::english::Léxico::Básico::10 Transporte e viagens
+passenger,passageiro,lexico idioma::ingles tema::transporte_e_viagens nivel::basico,idioms::english::Léxico::Básico::10 Transporte e viagens

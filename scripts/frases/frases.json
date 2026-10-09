@@ -1,0 +1,3602 @@
+[
+  {
+    "nivel": "basico",
+    "tema": "01",
+    "pt": "Preparo a mesa para o café da manhã.",
+    "it": "Apparecchio la tavola per la colazione.",
+    "es": "Pongo la mesa para el desayuno.",
+    "en": "I set the table for breakfast."
+  },
+  {
+    "nivel": "basico",
+    "tema": "01",
+    "pt": "Deixo as chaves na entrada.",
+    "it": "Lascio le chiavi all'ingresso.",
+    "es": "Dejo las llaves en la entrada.",
+    "en": "I leave my keys by the entrance."
+  },
+  {
+    "nivel": "basico",
+    "tema": "01",
+    "pt": "Hoje acordo antes das sete.",
+    "it": "Oggi mi sveglio prima delle sette.",
+    "es": "Hoy me despierto antes de las siete.",
+    "en": "I wake up before seven today."
+  },
+  {
+    "nivel": "basico",
+    "tema": "01",
+    "pt": "Abro a janela para arejar o quarto.",
+    "it": "Apro la finestra per arieggiare la stanza.",
+    "es": "Abro la ventana para ventilar la habitación.",
+    "en": "I open the window to air out the room."
+  },
+  {
+    "nivel": "basico",
+    "tema": "01",
+    "pt": "Faço uma lista do que preciso resolver.",
+    "it": "Faccio una lista delle cose da sbrigare.",
+    "es": "Hago una lista de lo que tengo que resolver.",
+    "en": "I make a list of what I need to take care of."
+  },
+  {
+    "nivel": "basico",
+    "tema": "01",
+    "pt": "O ônibus passa às oito e dez.",
+    "it": "L'autobus passa alle otto e dieci.",
+    "es": "El autobús pasa a las ocho y diez.",
+    "en": "The bus comes at 8:10."
+  },
+  {
+    "nivel": "basico",
+    "tema": "01",
+    "pt": "Levo uma garrafa de água na mochila.",
+    "it": "Porto una bottiglia d'acqua nello zaino.",
+    "es": "Llevo una botella de agua en la mochila.",
+    "en": "I carry a water bottle in my backpack."
+  },
+  {
+    "nivel": "basico",
+    "tema": "01",
+    "pt": "De manhã, tomo café sem açúcar.",
+    "it": "La mattina prendo il caffè senza zucchero.",
+    "es": "Por la mañana tomo café sin azúcar.",
+    "en": "I have my coffee without sugar in the morning."
+  },
+  {
+    "nivel": "basico",
+    "tema": "01",
+    "pt": "Lavo a louça logo depois do almoço.",
+    "it": "Lavo i piatti subito dopo pranzo.",
+    "es": "Lavo los platos justo después del almuerzo.",
+    "en": "I do the dishes right after lunch."
+  },
+  {
+    "nivel": "basico",
+    "tema": "01",
+    "pt": "A roupa limpa fica nessa gaveta.",
+    "it": "I vestiti puliti stanno in questo cassetto.",
+    "es": "La ropa limpia va en este cajón.",
+    "en": "The clean clothes go in this drawer."
+  },
+  {
+    "nivel": "basico",
+    "tema": "01",
+    "pt": "Preciso sair de casa às nove.",
+    "it": "Devo uscire di casa alle nove.",
+    "es": "Tengo que salir de casa a las nueve.",
+    "en": "I need to leave home at nine."
+  },
+  {
+    "nivel": "basico",
+    "tema": "01",
+    "pt": "Faço compras toda quarta-feira.",
+    "it": "Faccio la spesa ogni mercoledì.",
+    "es": "Hago las compras todos los miércoles.",
+    "en": "I grocery shop every Wednesday."
+  },
+  {
+    "nivel": "basico",
+    "tema": "01",
+    "pt": "Meu celular está carregando na sala.",
+    "it": "Il mio telefono è in carica in soggiorno.",
+    "es": "Mi celular se está cargando en la sala.",
+    "en": "My phone is charging in the living room."
+  },
+  {
+    "nivel": "basico",
+    "tema": "01",
+    "pt": "Guardo os recibos nesta pasta.",
+    "it": "Tengo le ricevute in questa cartella.",
+    "es": "Guardo los recibos en esta carpeta.",
+    "en": "I keep the receipts in this folder."
+  },
+  {
+    "nivel": "basico",
+    "tema": "01",
+    "pt": "Pego o elevador até o terceiro andar.",
+    "it": "Prendo l'ascensore fino al terzo piano.",
+    "es": "Tomo el ascensor hasta el tercer piso.",
+    "en": "I take the elevator to the third floor."
+  },
+  {
+    "nivel": "basico",
+    "tema": "01",
+    "pt": "Hoje trabalho de casa.",
+    "it": "Oggi lavoro da casa.",
+    "es": "Hoy trabajo desde casa.",
+    "en": "I am working from home today."
+  },
+  {
+    "nivel": "basico",
+    "tema": "01",
+    "pt": "Ponho o despertador para as seis e meia.",
+    "it": "Imposto la sveglia alle sei e mezza.",
+    "es": "Pongo la alarma a las seis y media.",
+    "en": "I set my alarm for 6:30."
+  },
+  {
+    "nivel": "basico",
+    "tema": "01",
+    "pt": "Uso uma agenda para organizar a semana.",
+    "it": "Uso un'agenda per organizzare la settimana.",
+    "es": "Uso una agenda para organizar la semana.",
+    "en": "I use a planner to organize my week."
+  },
+  {
+    "nivel": "basico",
+    "tema": "01",
+    "pt": "A reunião começa depois do almoço.",
+    "it": "La riunione inizia dopo pranzo.",
+    "es": "La reunión empieza después del almuerzo.",
+    "en": "The meeting starts after lunch."
+  },
+  {
+    "nivel": "basico",
+    "tema": "01",
+    "pt": "Tenho pouco tempo antes de sair.",
+    "it": "Ho poco tempo prima di uscire.",
+    "es": "Tengo poco tiempo antes de salir.",
+    "en": "I have little time before I leave."
+  },
+  {
+    "nivel": "basico",
+    "tema": "01",
+    "pt": "Deixo o casaco pendurado atrás da porta.",
+    "it": "Appendo il cappotto dietro la porta.",
+    "es": "Cuelgo el abrigo detrás de la puerta.",
+    "en": "I hang my coat behind the door."
+  },
+  {
+    "nivel": "basico",
+    "tema": "01",
+    "pt": "A farmácia fecha às nove da noite.",
+    "it": "La farmacia chiude alle nove di sera.",
+    "es": "La farmacia cierra a las nueve de la noche.",
+    "en": "The pharmacy closes at nine at night."
+  },
+  {
+    "nivel": "basico",
+    "tema": "01",
+    "pt": "Faço uma pausa curta no meio da tarde.",
+    "it": "Faccio una breve pausa a metà pomeriggio.",
+    "es": "Hago una pausa breve a media tarde.",
+    "en": "I take a short break mid-afternoon."
+  },
+  {
+    "nivel": "basico",
+    "tema": "01",
+    "pt": "Meu trajeto até o trabalho leva vinte minutos.",
+    "it": "Ci metto venti minuti per andare al lavoro.",
+    "es": "Tardo veinte minutos en llegar al trabajo.",
+    "en": "It takes me twenty minutes to get to work."
+  },
+  {
+    "nivel": "basico",
+    "tema": "01",
+    "pt": "Prefiro deixar tudo pronto na noite anterior.",
+    "it": "Preferisco preparare tutto la sera prima.",
+    "es": "Prefiero dejar todo listo la noche anterior.",
+    "en": "I prefer to get everything ready the night before."
+  },
+  {
+    "nivel": "basico",
+    "tema": "01",
+    "pt": "Encontro meus documentos na gaveta de cima.",
+    "it": "Trovo i documenti nel cassetto in alto.",
+    "es": "Encuentro mis documentos en el cajón de arriba.",
+    "en": "I find my documents in the top drawer."
+  },
+  {
+    "nivel": "basico",
+    "tema": "01",
+    "pt": "Hoje não preciso cozinhar.",
+    "it": "Oggi non devo cucinare.",
+    "es": "Hoy no tengo que cocinar.",
+    "en": "I don't have to cook today."
+  },
+  {
+    "nivel": "basico",
+    "tema": "01",
+    "pt": "Rego as plantas duas vezes por semana.",
+    "it": "Annaffio le piante due volte alla settimana.",
+    "es": "Riego las plantas dos veces por semana.",
+    "en": "I water the plants twice a week."
+  },
+  {
+    "nivel": "basico",
+    "tema": "01",
+    "pt": "Anoto as despesas no fim do dia.",
+    "it": "Segno le spese a fine giornata.",
+    "es": "Anoto los gastos al final del día.",
+    "en": "I write down my expenses at the end of the day."
+  },
+  {
+    "nivel": "basico",
+    "tema": "01",
+    "pt": "Antes de dormir, leio algumas páginas.",
+    "it": "Prima di dormire, leggo qualche pagina.",
+    "es": "Antes de dormir, leo unas páginas.",
+    "en": "I read a few pages before bed."
+  },
+  {
+    "nivel": "basico",
+    "tema": "02",
+    "pt": "Onde fica a estação de metrô?",
+    "it": "Dov'è la stazione della metropolitana?",
+    "es": "¿Dónde está la estación de metro?",
+    "en": "Where is the subway station?"
+  },
+  {
+    "nivel": "basico",
+    "tema": "02",
+    "pt": "Quero um café e um pão, por favor.",
+    "it": "Vorrei un caffè e un panino, per favore.",
+    "es": "Quiero un café y un pan, por favor.",
+    "en": "I'd like a coffee and a roll, please."
+  },
+  {
+    "nivel": "basico",
+    "tema": "02",
+    "pt": "Este ônibus vai para o centro?",
+    "it": "Questo autobus va in centro?",
+    "es": "¿Este autobús va al centro?",
+    "en": "Does this bus go downtown?"
+  },
+  {
+    "nivel": "basico",
+    "tema": "02",
+    "pt": "Preciso comprar um bilhete de ida.",
+    "it": "Devo comprare un biglietto di sola andata.",
+    "es": "Necesito comprar un boleto de ida.",
+    "en": "I need to buy a one-way ticket."
+  },
+  {
+    "nivel": "basico",
+    "tema": "02",
+    "pt": "A conta, por favor.",
+    "it": "Mi porta il conto, per favore?",
+    "es": "La cuenta, por favor.",
+    "en": "The check, please."
+  },
+  {
+    "nivel": "basico",
+    "tema": "02",
+    "pt": "Tem um quarto disponível para hoje?",
+    "it": "Avete una camera libera per stasera?",
+    "es": "¿Tienen una habitación disponible para hoy?",
+    "en": "Do you have a room available for tonight?"
+  },
+  {
+    "nivel": "basico",
+    "tema": "02",
+    "pt": "A que horas o museu abre?",
+    "it": "A che ora apre il museo?",
+    "es": "¿A qué hora abre el museo?",
+    "en": "What time does the museum open?"
+  },
+  {
+    "nivel": "basico",
+    "tema": "02",
+    "pt": "Posso pagar com cartão?",
+    "it": "Accettate pagamenti con carta?",
+    "es": "¿Puedo pagar con tarjeta?",
+    "en": "Can I pay by card?"
+  },
+  {
+    "nivel": "basico",
+    "tema": "02",
+    "pt": "Estou procurando a plataforma número quatro.",
+    "it": "Cerco il binario numero quattro.",
+    "es": "Estoy buscando el andén número cuatro.",
+    "en": "I'm looking for platform four."
+  },
+  {
+    "nivel": "basico",
+    "tema": "02",
+    "pt": "Este prato leva carne?",
+    "it": "Questo piatto contiene carne?",
+    "es": "¿Este plato lleva carne?",
+    "en": "Does this dish have meat in it?"
+  },
+  {
+    "nivel": "basico",
+    "tema": "02",
+    "pt": "Preciso de um recibo, por favor.",
+    "it": "Mi serve una ricevuta, per favore.",
+    "es": "Necesito un recibo, por favor.",
+    "en": "I need a receipt, please."
+  },
+  {
+    "nivel": "basico",
+    "tema": "02",
+    "pt": "A loja fica perto daqui.",
+    "it": "Il negozio è qui vicino.",
+    "es": "La tienda queda cerca de aquí.",
+    "en": "The store is nearby."
+  },
+  {
+    "nivel": "basico",
+    "tema": "02",
+    "pt": "Quero experimentar este casaco.",
+    "it": "Vorrei provare questo cappotto.",
+    "es": "Quiero probarme este abrigo.",
+    "en": "I'd like to try on this coat."
+  },
+  {
+    "nivel": "basico",
+    "tema": "02",
+    "pt": "O banheiro é no fim do corredor.",
+    "it": "Il bagno è in fondo al corridoio.",
+    "es": "El baño está al final del pasillo.",
+    "en": "The restroom is at the end of the hall."
+  },
+  {
+    "nivel": "basico",
+    "tema": "02",
+    "pt": "Pode chamar um táxi para mim?",
+    "it": "Può chiamarmi un taxi?",
+    "es": "¿Me puede pedir un taxi?",
+    "en": "Could you call me a cab?"
+  },
+  {
+    "nivel": "basico",
+    "tema": "02",
+    "pt": "Minha reserva está neste nome.",
+    "it": "La prenotazione è a questo nome.",
+    "es": "Mi reserva está a nombre de esta persona.",
+    "en": "My reservation is under this name."
+  },
+  {
+    "nivel": "basico",
+    "tema": "02",
+    "pt": "Quanto custa por noite?",
+    "it": "Quanto costa a notte?",
+    "es": "¿Cuánto cuesta por noche?",
+    "en": "How much is it per night?"
+  },
+  {
+    "nivel": "basico",
+    "tema": "02",
+    "pt": "Quero uma mesa para duas pessoas.",
+    "it": "Vorrei un tavolo per due.",
+    "es": "Quisiera una mesa para dos.",
+    "en": "I'd like a table for two."
+  },
+  {
+    "nivel": "basico",
+    "tema": "02",
+    "pt": "Este trem para no aeroporto?",
+    "it": "Questo treno ferma all'aeroporto?",
+    "es": "¿Este tren para en el aeropuerto?",
+    "en": "Does this train stop at the airport?"
+  },
+  {
+    "nivel": "basico",
+    "tema": "02",
+    "pt": "Pode indicar o caminho no mapa?",
+    "it": "Può indicarmi il percorso sulla mappa?",
+    "es": "¿Me puede señalar el camino en el mapa?",
+    "en": "Can you show me the way on the map?"
+  },
+  {
+    "nivel": "basico",
+    "tema": "02",
+    "pt": "A água é gratuita aqui?",
+    "it": "L'acqua è gratis qui?",
+    "es": "¿El agua es gratis aquí?",
+    "en": "Is water free here?"
+  },
+  {
+    "nivel": "basico",
+    "tema": "02",
+    "pt": "Preciso trocar dinheiro.",
+    "it": "Devo cambiare dei soldi.",
+    "es": "Necesito cambiar dinero.",
+    "en": "I need to exchange some money."
+  },
+  {
+    "nivel": "basico",
+    "tema": "02",
+    "pt": "Meu voo sai às onze.",
+    "it": "Il mio volo parte alle undici.",
+    "es": "Mi vuelo sale a las once.",
+    "en": "My flight leaves at eleven."
+  },
+  {
+    "nivel": "basico",
+    "tema": "02",
+    "pt": "Há desconto para estudantes?",
+    "it": "C'è uno sconto per studenti?",
+    "es": "¿Hay descuento para estudiantes?",
+    "en": "Is there a student discount?"
+  },
+  {
+    "nivel": "basico",
+    "tema": "02",
+    "pt": "Quero devolver este produto.",
+    "it": "Vorrei restituire questo prodotto.",
+    "es": "Quisiera devolver este artículo.",
+    "en": "I'd like to return this item."
+  },
+  {
+    "nivel": "basico",
+    "tema": "02",
+    "pt": "O mercado está aberto aos domingos?",
+    "it": "Il mercato è aperto la domenica?",
+    "es": "¿El mercado abre los domingos?",
+    "en": "Is the market open on Sundays?"
+  },
+  {
+    "nivel": "basico",
+    "tema": "02",
+    "pt": "Pode guardar minha mala até a tarde?",
+    "it": "Può custodire il mio bagaglio fino al pomeriggio?",
+    "es": "¿Puede guardar mi maleta hasta la tarde?",
+    "en": "Can you hold my bag until this afternoon?"
+  },
+  {
+    "nivel": "basico",
+    "tema": "02",
+    "pt": "A praia fica a dez minutos a pé.",
+    "it": "La spiaggia è a dieci minuti a piedi.",
+    "es": "La playa queda a diez minutos a pie.",
+    "en": "The beach is a ten-minute walk away."
+  },
+  {
+    "nivel": "basico",
+    "tema": "02",
+    "pt": "Quero reservar uma mesa para amanhã.",
+    "it": "Vorrei prenotare un tavolo per domani.",
+    "es": "Quiero reservar una mesa para mañana.",
+    "en": "I'd like to book a table for tomorrow."
+  },
+  {
+    "nivel": "basico",
+    "tema": "02",
+    "pt": "Meu cartão não está funcionando.",
+    "it": "La mia carta non funziona.",
+    "es": "Mi tarjeta no funciona.",
+    "en": "My card isn't working."
+  },
+  {
+    "nivel": "basico",
+    "tema": "03",
+    "pt": "Você pode falar um pouco mais devagar?",
+    "it": "Puoi parlare un po' più lentamente?",
+    "es": "¿Puedes hablar un poco más despacio?",
+    "en": "Could you speak a little more slowly?"
+  },
+  {
+    "nivel": "basico",
+    "tema": "03",
+    "pt": "Não entendi a última parte.",
+    "it": "Non ho capito l'ultima parte.",
+    "es": "No entendí la última parte.",
+    "en": "I didn't understand the last part."
+  },
+  {
+    "nivel": "basico",
+    "tema": "03",
+    "pt": "Prazer em conhecer você.",
+    "it": "Piacere di conoscerti.",
+    "es": "Mucho gusto en conocerte.",
+    "en": "Nice to meet you."
+  },
+  {
+    "nivel": "basico",
+    "tema": "03",
+    "pt": "Posso fazer uma pergunta?",
+    "it": "Posso farti una domanda?",
+    "es": "¿Puedo hacerte una pregunta?",
+    "en": "Can I ask you a question?"
+  },
+  {
+    "nivel": "basico",
+    "tema": "03",
+    "pt": "Obrigado por me avisar.",
+    "it": "Grazie per avermi avvisato.",
+    "es": "Gracias por avisarme.",
+    "en": "Thanks for letting me know."
+  },
+  {
+    "nivel": "basico",
+    "tema": "03",
+    "pt": "Prefiro conversar pessoalmente.",
+    "it": "Preferisco parlarne di persona.",
+    "es": "Prefiero hablarlo en persona.",
+    "en": "I'd rather talk in person."
+  },
+  {
+    "nivel": "basico",
+    "tema": "03",
+    "pt": "Você tem um minuto agora?",
+    "it": "Hai un minuto adesso?",
+    "es": "¿Tienes un minuto ahora?",
+    "en": "Do you have a minute now?"
+  },
+  {
+    "nivel": "basico",
+    "tema": "03",
+    "pt": "Sinto muito pelo atraso.",
+    "it": "Mi dispiace per il ritardo.",
+    "es": "Siento llegar tarde.",
+    "en": "I'm sorry I'm late."
+  },
+  {
+    "nivel": "basico",
+    "tema": "03",
+    "pt": "Pode repetir o endereço?",
+    "it": "Puoi ripetere l'indirizzo?",
+    "es": "¿Puedes repetir la dirección?",
+    "en": "Could you repeat the address?"
+  },
+  {
+    "nivel": "basico",
+    "tema": "03",
+    "pt": "Vamos conversar depois do jantar.",
+    "it": "Ne parliamo dopo cena.",
+    "es": "Hablemos después de cenar.",
+    "en": "Let's talk after dinner."
+  },
+  {
+    "nivel": "basico",
+    "tema": "03",
+    "pt": "Não se preocupe, está tudo bem.",
+    "it": "Non preoccuparti, va tutto bene.",
+    "es": "No te preocupes, todo está bien.",
+    "en": "Don't worry; it's all right."
+  },
+  {
+    "nivel": "basico",
+    "tema": "03",
+    "pt": "Fico feliz em ver você.",
+    "it": "Mi fa piacere vederti.",
+    "es": "Me alegra verte.",
+    "en": "I'm glad to see you."
+  },
+  {
+    "nivel": "basico",
+    "tema": "03",
+    "pt": "Mande uma mensagem quando chegar.",
+    "it": "Mandami un messaggio quando arrivi.",
+    "es": "Mándame un mensaje cuando llegues.",
+    "en": "Text me when you get there."
+  },
+  {
+    "nivel": "basico",
+    "tema": "03",
+    "pt": "Ele ainda não respondeu.",
+    "it": "Non ha ancora risposto.",
+    "es": "Todavía no ha contestado.",
+    "en": "He hasn't replied yet."
+  },
+  {
+    "nivel": "basico",
+    "tema": "03",
+    "pt": "Acho que estamos de acordo.",
+    "it": "Mi sembra che siamo d'accordo.",
+    "es": "Creo que estamos de acuerdo.",
+    "en": "I think we're on the same page."
+  },
+  {
+    "nivel": "basico",
+    "tema": "03",
+    "pt": "Desculpe, interrompi você.",
+    "it": "Scusa, ti ho interrotto.",
+    "es": "Perdón, te interrumpí.",
+    "en": "Sorry, I interrupted you."
+  },
+  {
+    "nivel": "basico",
+    "tema": "03",
+    "pt": "Quer sentar perto da janela?",
+    "it": "Vuoi sederti vicino alla finestra?",
+    "es": "¿Quieres sentarte junto a la ventana?",
+    "en": "Would you like to sit by the window?"
+  },
+  {
+    "nivel": "basico",
+    "tema": "03",
+    "pt": "Foi bom conversar com você.",
+    "it": "È stato bello parlare con te.",
+    "es": "Me gustó conversar contigo.",
+    "en": "It was good talking with you."
+  },
+  {
+    "nivel": "basico",
+    "tema": "03",
+    "pt": "Não consigo ir hoje à noite.",
+    "it": "Stasera non riesco a venire.",
+    "es": "No puedo ir esta noche.",
+    "en": "I can't make it tonight."
+  },
+  {
+    "nivel": "basico",
+    "tema": "03",
+    "pt": "Como você prefere ser chamado?",
+    "it": "Come preferisci che ti chiami?",
+    "es": "¿Cómo prefieres que te llame?",
+    "en": "What do you prefer to be called?"
+  },
+  {
+    "nivel": "basico",
+    "tema": "03",
+    "pt": "Posso ajudar com as sacolas?",
+    "it": "Posso aiutarti con le borse?",
+    "es": "¿Te ayudo con las bolsas?",
+    "en": "Can I help with the bags?"
+  },
+  {
+    "nivel": "basico",
+    "tema": "03",
+    "pt": "Vamos manter contato.",
+    "it": "Restiamo in contatto.",
+    "es": "Mantengámonos en contacto.",
+    "en": "Let's keep in touch."
+  },
+  {
+    "nivel": "basico",
+    "tema": "03",
+    "pt": "Ela fala três idiomas.",
+    "it": "Parla tre lingue.",
+    "es": "Ella habla tres idiomas.",
+    "en": "She speaks three languages."
+  },
+  {
+    "nivel": "basico",
+    "tema": "03",
+    "pt": "Quero ouvir sua opinião.",
+    "it": "Vorrei sentire la tua opinione.",
+    "es": "Quiero escuchar tu opinión.",
+    "en": "I want to hear your opinion."
+  },
+  {
+    "nivel": "basico",
+    "tema": "03",
+    "pt": "Prefiro não falar disso agora.",
+    "it": "Preferisco non parlarne adesso.",
+    "es": "Prefiero no hablar de eso ahora.",
+    "en": "I'd rather not talk about it right now."
+  },
+  {
+    "nivel": "basico",
+    "tema": "03",
+    "pt": "Você pode me apresentar ao seu colega?",
+    "it": "Puoi presentarmi al tuo collega?",
+    "es": "¿Puedes presentarme a tu colega?",
+    "en": "Could you introduce me to your coworker?"
+  },
+  {
+    "nivel": "basico",
+    "tema": "03",
+    "pt": "A conversa foi muito agradável.",
+    "it": "La conversazione è stata molto piacevole.",
+    "es": "La conversación fue muy agradable.",
+    "en": "That was a really nice conversation."
+  },
+  {
+    "nivel": "basico",
+    "tema": "03",
+    "pt": "Vamos combinar um horário que funcione para todos.",
+    "it": "Troviamo un orario che vada bene a tutti.",
+    "es": "Busquemos un horario que les venga bien a todos.",
+    "en": "Let's find a time that works for everyone."
+  },
+  {
+    "nivel": "basico",
+    "tema": "03",
+    "pt": "Acho que entendi o que você quis dizer.",
+    "it": "Credo di aver capito cosa intendevi.",
+    "es": "Creo que entendí lo que quisiste decir.",
+    "en": "I think I understand what you meant."
+  },
+  {
+    "nivel": "basico",
+    "tema": "03",
+    "pt": "Até amanhã, então.",
+    "it": "Allora, a domani.",
+    "es": "Entonces, hasta mañana.",
+    "en": "See you tomorrow, then."
+  },
+  {
+    "nivel": "basico",
+    "tema": "04",
+    "pt": "A reunião começa às dez.",
+    "it": "La riunione inizia alle dieci.",
+    "es": "La reunión empieza a las diez.",
+    "en": "The meeting starts at ten."
+  },
+  {
+    "nivel": "basico",
+    "tema": "04",
+    "pt": "Envio o relatório hoje.",
+    "it": "Invio il rapporto oggi.",
+    "es": "Envío el informe hoy.",
+    "en": "I'll send the report today."
+  },
+  {
+    "nivel": "basico",
+    "tema": "04",
+    "pt": "Pode revisar este e-mail?",
+    "it": "Puoi rileggere questa email?",
+    "es": "¿Puedes revisar este correo?",
+    "en": "Can you review this email?"
+  },
+  {
+    "nivel": "basico",
+    "tema": "04",
+    "pt": "Preciso de ajuda com a planilha.",
+    "it": "Ho bisogno di aiuto con il foglio di calcolo.",
+    "es": "Necesito ayuda con la hoja de cálculo.",
+    "en": "I need help with the spreadsheet."
+  },
+  {
+    "nivel": "basico",
+    "tema": "04",
+    "pt": "A equipe trabalha neste projeto.",
+    "it": "Il gruppo lavora a questo progetto.",
+    "es": "El equipo trabaja en este proyecto.",
+    "en": "The team is working on this project."
+  },
+  {
+    "nivel": "basico",
+    "tema": "04",
+    "pt": "Vou compartilhar a apresentação.",
+    "it": "Condividerò la presentazione.",
+    "es": "Voy a compartir la presentación.",
+    "en": "I'll share the presentation."
+  },
+  {
+    "nivel": "basico",
+    "tema": "04",
+    "pt": "Quem está responsável por esta tarefa?",
+    "it": "Chi è responsabile di questa attività?",
+    "es": "¿Quién está a cargo de esta tarea?",
+    "en": "Who is responsible for this task?"
+  },
+  {
+    "nivel": "basico",
+    "tema": "04",
+    "pt": "O prazo é na sexta-feira.",
+    "it": "La scadenza è venerdì.",
+    "es": "La fecha límite es el viernes.",
+    "en": "The deadline is Friday."
+  },
+  {
+    "nivel": "basico",
+    "tema": "04",
+    "pt": "Esta versão está pronta para enviar.",
+    "it": "Questa versione è pronta per essere inviata.",
+    "es": "Esta versión está lista para enviar.",
+    "en": "This version is ready to send."
+  },
+  {
+    "nivel": "basico",
+    "tema": "04",
+    "pt": "Vou anotar os principais pontos.",
+    "it": "Prenderò nota dei punti principali.",
+    "es": "Voy a anotar los puntos principales.",
+    "en": "I'll take note of the main points."
+  },
+  {
+    "nivel": "basico",
+    "tema": "04",
+    "pt": "A impressora está sem papel.",
+    "it": "La stampante è senza carta.",
+    "es": "La impresora no tiene papel.",
+    "en": "The printer is out of paper."
+  },
+  {
+    "nivel": "basico",
+    "tema": "04",
+    "pt": "Pode confirmar o horário da chamada?",
+    "it": "Puoi confermare l'orario della chiamata?",
+    "es": "¿Puedes confirmar la hora de la llamada?",
+    "en": "Can you confirm the call time?"
+  },
+  {
+    "nivel": "basico",
+    "tema": "04",
+    "pt": "Trabalho com atendimento ao cliente.",
+    "it": "Lavoro nell'assistenza clienti.",
+    "es": "Trabajo en atención al cliente.",
+    "en": "I work in customer service."
+  },
+  {
+    "nivel": "basico",
+    "tema": "04",
+    "pt": "A sala de reunião está ocupada.",
+    "it": "La sala riunioni è occupata.",
+    "es": "La sala de reuniones está ocupada.",
+    "en": "The meeting room is occupied."
+  },
+  {
+    "nivel": "basico",
+    "tema": "04",
+    "pt": "Preciso atualizar meu perfil.",
+    "it": "Devo aggiornare il mio profilo.",
+    "es": "Tengo que actualizar mi perfil.",
+    "en": "I need to update my profile."
+  },
+  {
+    "nivel": "basico",
+    "tema": "04",
+    "pt": "O arquivo está nesta pasta compartilhada.",
+    "it": "Il file è in questa cartella condivisa.",
+    "es": "El archivo está en esta carpeta compartida.",
+    "en": "The file is in this shared folder."
+  },
+  {
+    "nivel": "basico",
+    "tema": "04",
+    "pt": "Podemos começar agora.",
+    "it": "Possiamo iniziare adesso.",
+    "es": "Podemos empezar ahora.",
+    "en": "We can start now."
+  },
+  {
+    "nivel": "basico",
+    "tema": "04",
+    "pt": "A conexão está instável.",
+    "it": "La connessione è instabile.",
+    "es": "La conexión está inestable.",
+    "en": "The connection is unstable."
+  },
+  {
+    "nivel": "basico",
+    "tema": "04",
+    "pt": "Vou marcar uma conversa com a gerente.",
+    "it": "Fisserò un colloquio con la responsabile.",
+    "es": "Voy a agendar una charla con la gerente.",
+    "en": "I'll schedule a chat with the manager."
+  },
+  {
+    "nivel": "basico",
+    "tema": "04",
+    "pt": "O cliente pediu uma cópia impressa.",
+    "it": "Il cliente ha chiesto una copia cartacea.",
+    "es": "El cliente pidió una copia impresa.",
+    "en": "The client asked for a printed copy."
+  },
+  {
+    "nivel": "basico",
+    "tema": "04",
+    "pt": "Esta tarefa leva cerca de uma hora.",
+    "it": "Questa attività richiede circa un'ora.",
+    "es": "Esta tarea lleva más o menos una hora.",
+    "en": "This task takes about an hour."
+  },
+  {
+    "nivel": "basico",
+    "tema": "04",
+    "pt": "Deixe seu comentário no documento.",
+    "it": "Lascia il tuo commento nel documento.",
+    "es": "Deja tu comentario en el documento.",
+    "en": "Leave your comment in the document."
+  },
+  {
+    "nivel": "basico",
+    "tema": "04",
+    "pt": "A equipe já recebeu as instruções.",
+    "it": "Il gruppo ha già ricevuto le istruzioni.",
+    "es": "El equipo ya recibió las instrucciones.",
+    "en": "The team has already received the instructions."
+  },
+  {
+    "nivel": "basico",
+    "tema": "04",
+    "pt": "Preciso imprimir estes formulários.",
+    "it": "Devo stampare questi moduli.",
+    "es": "Necesito imprimir estos formularios.",
+    "en": "I need to print these forms."
+  },
+  {
+    "nivel": "basico",
+    "tema": "04",
+    "pt": "O sistema pede uma senha nova.",
+    "it": "Il sistema chiede una nuova password.",
+    "es": "El sistema pide una contraseña nueva.",
+    "en": "The system is asking for a new password."
+  },
+  {
+    "nivel": "basico",
+    "tema": "04",
+    "pt": "Vou responder às mensagens depois do almoço.",
+    "it": "Risponderò ai messaggi dopo pranzo.",
+    "es": "Voy a responder los mensajes después del almuerzo.",
+    "en": "I'll reply to the messages after lunch."
+  },
+  {
+    "nivel": "basico",
+    "tema": "04",
+    "pt": "A apresentação tem cinco slides.",
+    "it": "La presentazione ha cinque diapositive.",
+    "es": "La presentación tiene cinco diapositivas.",
+    "en": "The presentation has five slides."
+  },
+  {
+    "nivel": "basico",
+    "tema": "04",
+    "pt": "Por favor, inclua o departamento financeiro.",
+    "it": "Per favore, includi l'ufficio finanziario.",
+    "es": "Por favor, incluye al departamento financiero.",
+    "en": "Please include the finance department."
+  },
+  {
+    "nivel": "basico",
+    "tema": "04",
+    "pt": "Nosso escritório fica perto da estação.",
+    "it": "Il nostro ufficio è vicino alla stazione.",
+    "es": "Nuestra oficina queda cerca de la estación.",
+    "en": "Our office is near the station."
+  },
+  {
+    "nivel": "basico",
+    "tema": "04",
+    "pt": "Vou salvar uma cópia de segurança.",
+    "it": "Salverò una copia di backup.",
+    "es": "Voy a guardar una copia de respaldo.",
+    "en": "I'll save a backup copy."
+  },
+  {
+    "nivel": "basico",
+    "tema": "05",
+    "pt": "Tenho aula às oito.",
+    "it": "Ho lezione alle otto.",
+    "es": "Tengo clase a las ocho.",
+    "en": "I have class at eight."
+  },
+  {
+    "nivel": "basico",
+    "tema": "05",
+    "pt": "Preciso estudar este capítulo.",
+    "it": "Devo studiare questo capitolo.",
+    "es": "Tengo que estudiar este capítulo.",
+    "en": "I need to study this chapter."
+  },
+  {
+    "nivel": "basico",
+    "tema": "05",
+    "pt": "Onde está a biblioteca?",
+    "it": "Dov'è la biblioteca?",
+    "es": "¿Dónde está la biblioteca?",
+    "en": "Where is the library?"
+  },
+  {
+    "nivel": "basico",
+    "tema": "05",
+    "pt": "Vou pesquisar o tema hoje.",
+    "it": "Oggi farò una ricerca sull'argomento.",
+    "es": "Hoy voy a investigar el tema.",
+    "en": "I'll research the topic today."
+  },
+  {
+    "nivel": "basico",
+    "tema": "05",
+    "pt": "Este exercício é fácil.",
+    "it": "Questo esercizio è facile.",
+    "es": "Este ejercicio es fácil.",
+    "en": "This exercise is easy."
+  },
+  {
+    "nivel": "basico",
+    "tema": "05",
+    "pt": "Posso usar seu dicionário?",
+    "it": "Posso usare il tuo dizionario?",
+    "es": "¿Puedo usar tu diccionario?",
+    "en": "Can I use your dictionary?"
+  },
+  {
+    "nivel": "basico",
+    "tema": "05",
+    "pt": "A prova é na próxima semana.",
+    "it": "L'esame è la settimana prossima.",
+    "es": "El examen es la próxima semana.",
+    "en": "The exam is next week."
+  },
+  {
+    "nivel": "basico",
+    "tema": "05",
+    "pt": "Anoto as dúvidas durante a leitura.",
+    "it": "Segno i dubbi mentre leggo.",
+    "es": "Anoto mis dudas mientras leo.",
+    "en": "I write down questions as I read."
+  },
+  {
+    "nivel": "basico",
+    "tema": "05",
+    "pt": "A professora explicou a regra.",
+    "it": "L'insegnante ha spiegato la regola.",
+    "es": "La profesora explicó la regla.",
+    "en": "The teacher explained the rule."
+  },
+  {
+    "nivel": "basico",
+    "tema": "05",
+    "pt": "Meu grupo prepara um projeto sobre água.",
+    "it": "Il mio gruppo prepara un progetto sull'acqua.",
+    "es": "Mi grupo prepara un proyecto sobre el agua.",
+    "en": "My group is working on a project about water."
+  },
+  {
+    "nivel": "basico",
+    "tema": "05",
+    "pt": "Vou entregar o trabalho amanhã.",
+    "it": "Consegnerò il compito domani.",
+    "es": "Voy a entregar el trabajo mañana.",
+    "en": "I'll turn in the assignment tomorrow."
+  },
+  {
+    "nivel": "basico",
+    "tema": "05",
+    "pt": "Esta palavra aparece no texto.",
+    "it": "Questa parola compare nel testo.",
+    "es": "Esta palabra aparece en el texto.",
+    "en": "This word appears in the text."
+  },
+  {
+    "nivel": "basico",
+    "tema": "05",
+    "pt": "Preciso de mais tempo para responder.",
+    "it": "Mi serve più tempo per rispondere.",
+    "es": "Necesito más tiempo para responder.",
+    "en": "I need more time to answer."
+  },
+  {
+    "nivel": "basico",
+    "tema": "05",
+    "pt": "A aula termina ao meio-dia.",
+    "it": "La lezione finisce a mezzogiorno.",
+    "es": "La clase termina al mediodía.",
+    "en": "Class ends at noon."
+  },
+  {
+    "nivel": "basico",
+    "tema": "05",
+    "pt": "Estudo melhor em silêncio.",
+    "it": "Studio meglio in silenzio.",
+    "es": "Estudio mejor en silencio.",
+    "en": "I study better in silence."
+  },
+  {
+    "nivel": "basico",
+    "tema": "05",
+    "pt": "Quero aprender a escrever melhor.",
+    "it": "Voglio imparare a scrivere meglio.",
+    "es": "Quiero aprender a escribir mejor.",
+    "en": "I want to learn to write better."
+  },
+  {
+    "nivel": "basico",
+    "tema": "05",
+    "pt": "O arquivo contém os resultados.",
+    "it": "Il file contiene i risultati.",
+    "es": "El archivo contiene los resultados.",
+    "en": "The file contains the results."
+  },
+  {
+    "nivel": "basico",
+    "tema": "05",
+    "pt": "Vamos dividir o trabalho em partes.",
+    "it": "Dividiamo il lavoro in parti.",
+    "es": "Vamos a dividir el trabajo en partes.",
+    "en": "Let's divide the work into sections."
+  },
+  {
+    "nivel": "basico",
+    "tema": "05",
+    "pt": "Minha pesquisa ainda está no começo.",
+    "it": "La mia ricerca è ancora all'inizio.",
+    "es": "Mi investigación todavía está empezando.",
+    "en": "My research is still at an early stage."
+  },
+  {
+    "nivel": "basico",
+    "tema": "05",
+    "pt": "Preciso citar a fonte corretamente.",
+    "it": "Devo citare correttamente la fonte.",
+    "es": "Tengo que citar la fuente correctamente.",
+    "en": "I need to cite the source correctly."
+  },
+  {
+    "nivel": "basico",
+    "tema": "05",
+    "pt": "A tabela mostra três grupos.",
+    "it": "La tabella mostra tre gruppi.",
+    "es": "La tabla muestra tres grupos.",
+    "en": "The table shows three groups."
+  },
+  {
+    "nivel": "basico",
+    "tema": "05",
+    "pt": "O professor atende depois da aula.",
+    "it": "Il professore riceve dopo la lezione.",
+    "es": "El profesor atiende después de clase.",
+    "en": "The professor holds office hours after class."
+  },
+  {
+    "nivel": "basico",
+    "tema": "05",
+    "pt": "Vou baixar o artigo no computador.",
+    "it": "Scaricherò l'articolo sul computer.",
+    "es": "Voy a descargar el artículo en la computadora.",
+    "en": "I'll download the article to my computer."
+  },
+  {
+    "nivel": "basico",
+    "tema": "05",
+    "pt": "Este exemplo ajuda a entender a fórmula.",
+    "it": "Questo esempio aiuta a capire la formula.",
+    "es": "Este ejemplo ayuda a entender la fórmula.",
+    "en": "This example helps explain the formula."
+  },
+  {
+    "nivel": "basico",
+    "tema": "05",
+    "pt": "A biblioteca fecha às seis.",
+    "it": "La biblioteca chiude alle sei.",
+    "es": "La biblioteca cierra a las seis.",
+    "en": "The library closes at six."
+  },
+  {
+    "nivel": "basico",
+    "tema": "05",
+    "pt": "O grupo precisa escolher um título.",
+    "it": "Il gruppo deve scegliere un titolo.",
+    "es": "El grupo tiene que elegir un título.",
+    "en": "The group needs to choose a title."
+  },
+  {
+    "nivel": "basico",
+    "tema": "05",
+    "pt": "Faço uma pausa entre as sessões de estudo.",
+    "it": "Faccio una pausa tra una sessione di studio e l'altra.",
+    "es": "Hago una pausa entre las sesiones de estudio.",
+    "en": "I take a break between study sessions."
+  },
+  {
+    "nivel": "basico",
+    "tema": "05",
+    "pt": "A conclusão resume os principais resultados.",
+    "it": "La conclusione riassume i risultati principali.",
+    "es": "La conclusión resume los resultados principales.",
+    "en": "The conclusion summarizes the main findings."
+  },
+  {
+    "nivel": "basico",
+    "tema": "05",
+    "pt": "Vou revisar a resposta antes de enviar.",
+    "it": "Rileggerò la risposta prima di inviarla.",
+    "es": "Voy a revisar la respuesta antes de enviarla.",
+    "en": "I'll review the answer before submitting it."
+  },
+  {
+    "nivel": "basico",
+    "tema": "05",
+    "pt": "Preciso imprimir a lista de referências.",
+    "it": "Devo stampare l'elenco delle fonti.",
+    "es": "Necesito imprimir la lista de referencias.",
+    "en": "I need to print the reference list."
+  },
+  {
+    "nivel": "intermediario",
+    "tema": "01",
+    "pt": "Na semana passada, reorganizei os horários porque as manhãs estavam corridas.",
+    "it": "La settimana scorsa ho riorganizzato gli orari perché le mattine erano troppo frenetiche.",
+    "es": "La semana pasada reorganicé mis horarios porque las mañanas eran muy ajetreadas.",
+    "en": "Last week, I rearranged my schedule because mornings had become hectic."
+  },
+  {
+    "nivel": "intermediario",
+    "tema": "01",
+    "pt": "Se eu deixar a roupa separada hoje, saio mais rápido amanhã.",
+    "it": "Se preparo i vestiti stasera, domani uscirò più in fretta.",
+    "es": "Si dejo la ropa lista hoy, mañana saldré más rápido.",
+    "en": "If I lay out my clothes tonight, I'll get out the door faster tomorrow."
+  },
+  {
+    "nivel": "intermediario",
+    "tema": "01",
+    "pt": "Acabei esquecendo a carteira, então voltei para buscá-la.",
+    "it": "Ho dimenticato il portafoglio, quindi sono tornato a prenderlo.",
+    "es": "Se me olvidó la cartera, así que volví a buscarla.",
+    "en": "I forgot my wallet, so I went back to get it."
+  },
+  {
+    "nivel": "intermediario",
+    "tema": "01",
+    "pt": "Você poderia me lembrar de ligar para a clínica depois do almoço?",
+    "it": "Potresti ricordarmi di chiamare la clinica dopo pranzo?",
+    "es": "¿Podrías recordarme que llame a la clínica después del almuerzo?",
+    "en": "Could you remind me to call the clinic after lunch?"
+  },
+  {
+    "nivel": "intermediario",
+    "tema": "01",
+    "pt": "Tenho tentado dormir mais cedo, mas ainda olho o celular na cama.",
+    "it": "Cerco di andare a dormire prima, ma continuo a guardare il telefono a letto.",
+    "es": "He estado intentando acostarme más temprano, pero todavía miro el celular en la cama.",
+    "en": "I've been trying to go to bed earlier, but I still check my phone in bed."
+  },
+  {
+    "nivel": "intermediario",
+    "tema": "01",
+    "pt": "O mercado estava cheio; por isso, deixei as compras para o fim da tarde.",
+    "it": "Il supermercato era affollato, così ho rimandato la spesa al tardo pomeriggio.",
+    "es": "El supermercado estaba lleno, así que dejé las compras para el final de la tarde.",
+    "en": "The grocery store was crowded, so I put off shopping until late afternoon."
+  },
+  {
+    "nivel": "intermediario",
+    "tema": "01",
+    "pt": "Se o alarme tocar, desligue-o e levante-se logo.",
+    "it": "Se suona la sveglia, spegnila e alzati subito.",
+    "es": "Si suena la alarma, apágala y levántate enseguida.",
+    "en": "If the alarm goes off, turn it off and get up right away."
+  },
+  {
+    "nivel": "intermediario",
+    "tema": "01",
+    "pt": "Ontem preparei o almoço para dois dias e ganhei tempo.",
+    "it": "Ieri ho preparato il pranzo per due giorni e ho risparmiato tempo.",
+    "es": "Ayer preparé el almuerzo para dos días y ahorré tiempo.",
+    "en": "Yesterday, I made lunch for two days and saved time."
+  },
+  {
+    "nivel": "intermediario",
+    "tema": "01",
+    "pt": "Se chover, vou trocar a caminhada por exercícios em casa.",
+    "it": "Se piove, sostituirò la passeggiata con esercizi a casa.",
+    "es": "Si llueve, cambiaré la caminata por ejercicios en casa.",
+    "en": "If it rains, I'll swap my walk for a workout at home."
+  },
+  {
+    "nivel": "intermediario",
+    "tema": "01",
+    "pt": "Antes eu anotava tudo em papéis soltos; agora uso um aplicativo.",
+    "it": "Prima annotavo tutto su fogli sparsi; ora uso un'app.",
+    "es": "Antes anotaba todo en papeles sueltos; ahora uso una aplicación.",
+    "en": "I used to jot everything down on loose papers; now I use an app."
+  },
+  {
+    "nivel": "intermediario",
+    "tema": "01",
+    "pt": "Perdi o ônibus por cinco minutos e tive de esperar o próximo.",
+    "it": "Ho perso l'autobus per cinque minuti e ho dovuto aspettare quello dopo.",
+    "es": "Perdí el autobús por cinco minutos y tuve que esperar el siguiente.",
+    "en": "I missed the bus by five minutes and had to wait for the next one."
+  },
+  {
+    "nivel": "intermediario",
+    "tema": "01",
+    "pt": "Na próxima semana, vou testar uma rotina sem reuniões pela manhã.",
+    "it": "La prossima settimana proverò una routine senza riunioni al mattino.",
+    "es": "La próxima semana voy a probar una rutina sin reuniones por la mañana.",
+    "en": "Next week, I'll try a routine with no morning meetings."
+  },
+  {
+    "nivel": "intermediario",
+    "tema": "01",
+    "pt": "Como a lista ficou longa, priorizei as três tarefas mais urgentes.",
+    "it": "Siccome la lista era diventata lunga, ho dato la priorità alle tre cose più urgenti.",
+    "es": "Como la lista se hizo larga, prioricé las tres tareas más urgentes.",
+    "en": "Since the list had grown long, I prioritized the three most urgent tasks."
+  },
+  {
+    "nivel": "intermediario",
+    "tema": "01",
+    "pt": "Eu teria saído mais cedo se tivesse conferido o horário do trem.",
+    "it": "Sarei partito prima se avessi controllato l'orario del treno.",
+    "es": "Habría salido más temprano si hubiera revisado el horario del tren.",
+    "en": "I would have left earlier if I'd checked the train schedule."
+  },
+  {
+    "nivel": "intermediario",
+    "tema": "01",
+    "pt": "A conta de luz veio mais alta do que no mês passado.",
+    "it": "La bolletta della luce è arrivata più alta rispetto al mese scorso.",
+    "es": "La factura de la luz llegó más alta que el mes pasado.",
+    "en": "The electric bill came in higher than last month."
+  },
+  {
+    "nivel": "intermediario",
+    "tema": "01",
+    "pt": "Em vez de comprar outro caderno, vou terminar o que já comecei.",
+    "it": "Invece di comprare un altro quaderno, finirò quello che ho già iniziato.",
+    "es": "En vez de comprar otro cuaderno, voy a terminar el que ya empecé.",
+    "en": "Instead of buying another notebook, I'll finish the one I already started."
+  },
+  {
+    "nivel": "intermediario",
+    "tema": "01",
+    "pt": "Eu costumava almoçar na mesa; agora faço uma pausa longe da tela.",
+    "it": "Di solito pranzavo alla scrivania; ora faccio una pausa lontano dallo schermo.",
+    "es": "Antes solía almorzar en el escritorio; ahora descanso lejos de la pantalla.",
+    "en": "I used to eat lunch at my desk; now I take a break away from the screen."
+  },
+  {
+    "nivel": "intermediario",
+    "tema": "01",
+    "pt": "O aplicativo duplicou alguns compromissos, então apaguei as cópias.",
+    "it": "L'app ha duplicato alcuni appuntamenti, quindi ho eliminato i doppioni.",
+    "es": "La aplicación duplicó algunas citas, así que borré las repetidas.",
+    "en": "The app duplicated a few appointments, so I deleted the extras."
+  },
+  {
+    "nivel": "intermediario",
+    "tema": "01",
+    "pt": "Se eu fizer a feira no sábado, não preciso parar no mercado durante a semana.",
+    "it": "Se faccio la spesa al mercato sabato, non dovrò fermarmi al supermercato in settimana.",
+    "es": "Si voy al mercado el sábado, no tendré que pasar por el súper entre semana.",
+    "en": "If I shop at the farmers' market on Saturday, I won't need to stop at the grocery store during the week."
+  },
+  {
+    "nivel": "intermediario",
+    "tema": "01",
+    "pt": "Tenho reservado quinze minutos no fim do dia para organizar a mesa.",
+    "it": "Ho riservato quindici minuti a fine giornata per sistemare la scrivania.",
+    "es": "He reservado quince minutos al final del día para ordenar el escritorio.",
+    "en": "I've set aside fifteen minutes at the end of the day to clear my desk."
+  },
+  {
+    "nivel": "intermediario",
+    "tema": "01",
+    "pt": "Embora eu esteja com pressa, prefiro conferir o endereço antes de sair.",
+    "it": "Anche se ho fretta, preferisco controllare l'indirizzo prima di uscire.",
+    "es": "Aunque tenga prisa, prefiero revisar la dirección antes de salir.",
+    "en": "Even when I'm in a hurry, I prefer to check the address before leaving."
+  },
+  {
+    "nivel": "intermediario",
+    "tema": "01",
+    "pt": "O conserto demorou mais do que esperávamos, mas a máquina voltou a funcionar.",
+    "it": "La riparazione ha richiesto più tempo del previsto, ma la macchina è tornata a funzionare.",
+    "es": "La reparación tardó más de lo esperado, pero la máquina volvió a funcionar.",
+    "en": "The repair took longer than expected, but the machine is working again."
+  },
+  {
+    "nivel": "intermediario",
+    "tema": "01",
+    "pt": "Se você me enviar a lista, posso dividir as tarefas entre nós.",
+    "it": "Se mi mandi l'elenco, posso dividere le attività tra noi.",
+    "es": "Si me mandas la lista, puedo repartir las tareas entre nosotros.",
+    "en": "If you send me the list, I can split the tasks between us."
+  },
+  {
+    "nivel": "intermediario",
+    "tema": "01",
+    "pt": "Adiei a consulta porque o horário coincidia com uma entrega.",
+    "it": "Ho rimandato la visita perché l'orario coincideva con una consegna.",
+    "es": "Aplacé la cita porque coincidía con una entrega.",
+    "en": "I rescheduled the appointment because it overlapped with a delivery."
+  },
+  {
+    "nivel": "intermediario",
+    "tema": "01",
+    "pt": "Amanhã terei de sair mais cedo para buscar um documento.",
+    "it": "Domani dovrò uscire prima per ritirare un documento.",
+    "es": "Mañana tendré que salir más temprano para recoger un documento.",
+    "en": "Tomorrow I'll have to leave early to pick up a document."
+  },
+  {
+    "nivel": "intermediario",
+    "tema": "01",
+    "pt": "Quando mudei de apartamento, perdi a rotina por algumas semanas.",
+    "it": "Quando ho cambiato appartamento, per alcune settimane ho perso la mia routine.",
+    "es": "Cuando me mudé de departamento, perdí mi rutina durante unas semanas.",
+    "en": "When I moved apartments, I fell out of my routine for a few weeks."
+  },
+  {
+    "nivel": "intermediario",
+    "tema": "01",
+    "pt": "Por mais que eu planeje o dia, sempre aparece um imprevisto.",
+    "it": "Per quanto pianifichi la giornata, salta sempre fuori un imprevisto.",
+    "es": "Por mucho que planifique el día, siempre surge algo imprevisto.",
+    "en": "No matter how much I plan my day, something unexpected always comes up."
+  },
+  {
+    "nivel": "intermediario",
+    "tema": "01",
+    "pt": "O despertador não tocou porque a bateria acabou durante a noite.",
+    "it": "La sveglia non è suonata perché la batteria si è scaricata durante la notte.",
+    "es": "La alarma no sonó porque se le acabó la batería durante la noche.",
+    "en": "My alarm didn't go off because its battery died overnight."
+  },
+  {
+    "nivel": "intermediario",
+    "tema": "01",
+    "pt": "Decidi preparar a bolsa na noite anterior para não esquecer o crachá.",
+    "it": "Ho deciso di preparare la borsa la sera prima per non dimenticare il badge.",
+    "es": "Decidí preparar la bolsa la noche anterior para no olvidar la credencial.",
+    "en": "I decided to pack my bag the night before so I wouldn't forget my ID badge."
+  },
+  {
+    "nivel": "intermediario",
+    "tema": "01",
+    "pt": "Apesar do atraso, consegui terminar as tarefas essenciais antes do jantar.",
+    "it": "Nonostante il ritardo, sono riuscito a finire le attività essenziali prima di cena.",
+    "es": "A pesar del retraso, logré terminar las tareas esenciales antes de cenar.",
+    "en": "Despite the delay, I managed to finish the essential tasks before dinner."
+  },
+  {
+    "nivel": "intermediario",
+    "tema": "02",
+    "pt": "O trem atrasou, então pedi à recepção que avisasse o hotel.",
+    "it": "Il treno era in ritardo, così ho chiesto alla reception di avvisare l'hotel.",
+    "es": "El tren se retrasó, así que le pedí a recepción que avisara al hotel.",
+    "en": "The train was delayed, so I asked the front desk to let the hotel know."
+  },
+  {
+    "nivel": "intermediario",
+    "tema": "02",
+    "pt": "Se a mala não chegar hoje, a companhia vai entregá-la no endereço do hotel.",
+    "it": "Se il bagaglio non arriva oggi, la compagnia lo consegnerà all'indirizzo dell'hotel.",
+    "es": "Si la maleta no llega hoy, la aerolínea la entregará en el hotel.",
+    "en": "If the bag doesn't arrive today, the airline will deliver it to the hotel."
+  },
+  {
+    "nivel": "intermediario",
+    "tema": "02",
+    "pt": "O quarto era menor do que nas fotos, mas a localização compensava.",
+    "it": "La camera era più piccola di quanto sembrasse nelle foto, ma la posizione compensava.",
+    "es": "La habitación era más pequeña de lo que parecía en las fotos, pero la ubicación lo compensaba.",
+    "en": "The room was smaller than it looked in the photos, but the location made up for it."
+  },
+  {
+    "nivel": "intermediario",
+    "tema": "02",
+    "pt": "Eu teria pegado o ônibus anterior se soubesse que haveria trânsito.",
+    "it": "Avrei preso l'autobus prima se avessi saputo che ci sarebbe stato traffico.",
+    "es": "Habría tomado el autobús anterior si hubiera sabido que habría tráfico.",
+    "en": "I would have taken the earlier bus if I'd known there would be traffic."
+  },
+  {
+    "nivel": "intermediario",
+    "tema": "02",
+    "pt": "Embora o preço parecesse bom, a bagagem não estava incluída.",
+    "it": "Anche se il prezzo sembrava conveniente, il bagaglio non era incluso.",
+    "es": "Aunque el precio parecía bueno, el equipaje no estaba incluido.",
+    "en": "Even though the fare looked good, baggage wasn't included."
+  },
+  {
+    "nivel": "intermediario",
+    "tema": "02",
+    "pt": "Poderia confirmar se o café da manhã está incluído na diária?",
+    "it": "Potrebbe confermarmi se la colazione è inclusa nel prezzo della camera?",
+    "es": "¿Podría confirmarme si el desayuno está incluido en la tarifa?",
+    "en": "Could you confirm whether breakfast is included in the room rate?"
+  },
+  {
+    "nivel": "intermediario",
+    "tema": "02",
+    "pt": "O cartão foi recusado; posso tentar outro meio de pagamento?",
+    "it": "La carta è stata rifiutata; posso provare un altro metodo di pagamento?",
+    "es": "Rechazaron la tarjeta; ¿puedo probar con otro medio de pago?",
+    "en": "My card was declined; can I try another payment method?"
+  },
+  {
+    "nivel": "intermediario",
+    "tema": "02",
+    "pt": "Se comprarmos as passagens com antecedência, talvez consigamos assentos juntos.",
+    "it": "Se compriamo i biglietti in anticipo, forse riusciamo a sederci vicini.",
+    "es": "Si compramos los boletos con anticipación, quizá consigamos asientos juntos.",
+    "en": "If we buy the tickets ahead of time, we may be able to sit together."
+  },
+  {
+    "nivel": "intermediario",
+    "tema": "02",
+    "pt": "O atendente explicou que a promoção não valia para produtos em liquidação.",
+    "it": "L'addetto ha spiegato che la promozione non valeva per i prodotti in saldo.",
+    "es": "El empleado explicó que la promoción no aplicaba a los productos rebajados.",
+    "en": "The clerk explained that the promotion didn't apply to sale items."
+  },
+  {
+    "nivel": "intermediario",
+    "tema": "02",
+    "pt": "Eu preferiria uma mesa afastada da porta, se houver alguma disponível.",
+    "it": "Preferirei un tavolo lontano dalla porta, se ce n'è uno libero.",
+    "es": "Preferiría una mesa lejos de la puerta, si hay alguna disponible.",
+    "en": "I'd prefer a table away from the door, if one is available."
+  },
+  {
+    "nivel": "intermediario",
+    "tema": "02",
+    "pt": "O mapa dizia que eram dez minutos a pé, mas levamos quase meia hora.",
+    "it": "La mappa indicava dieci minuti a piedi, ma ci abbiamo messo quasi mezz'ora.",
+    "es": "El mapa decía que eran diez minutos a pie, pero tardamos casi media hora.",
+    "en": "The map said it was a ten-minute walk, but it took us almost half an hour."
+  },
+  {
+    "nivel": "intermediario",
+    "tema": "02",
+    "pt": "Como o voo foi cancelado, remarcamos para a primeira conexão disponível.",
+    "it": "Dato che il volo è stato cancellato, abbiamo riprenotato il primo collegamento disponibile.",
+    "es": "Como cancelaron el vuelo, cambiamos la reserva al primer enlace disponible.",
+    "en": "Since the flight was canceled, we rebooked the earliest available connection."
+  },
+  {
+    "nivel": "intermediario",
+    "tema": "02",
+    "pt": "A etiqueta indicava um preço diferente do que apareceu no caixa.",
+    "it": "L'etichetta indicava un prezzo diverso da quello apparso alla cassa.",
+    "es": "La etiqueta indicaba un precio distinto del que apareció en la caja.",
+    "en": "The tag showed a different price from the one at checkout."
+  },
+  {
+    "nivel": "intermediario",
+    "tema": "02",
+    "pt": "Você poderia verificar se há uma alternativa sem lactose?",
+    "it": "Potrebbe controllare se c'è un'alternativa senza lattosio?",
+    "es": "¿Podría revisar si hay una opción sin lactosa?",
+    "en": "Could you check whether there's a lactose-free option?"
+  },
+  {
+    "nivel": "intermediario",
+    "tema": "02",
+    "pt": "Se perdermos essa conexão, teremos de passar a noite no aeroporto.",
+    "it": "Se perdiamo questa coincidenza, dovremo passare la notte in aeroporto.",
+    "es": "Si perdemos esta conexión, tendremos que pasar la noche en el aeropuerto.",
+    "en": "If we miss this connection, we'll have to spend the night at the airport."
+  },
+  {
+    "nivel": "intermediario",
+    "tema": "02",
+    "pt": "Na volta, descobri que a loja aceitava a troca em qualquer filial.",
+    "it": "Al ritorno ho scoperto che il negozio accettava il cambio in qualsiasi sede.",
+    "es": "Al volver, descubrí que la tienda aceptaba el cambio en cualquier sucursal.",
+    "en": "When I got back, I found out the store would accept an exchange at any location."
+  },
+  {
+    "nivel": "intermediario",
+    "tema": "02",
+    "pt": "Embora o passeio fosse caro, o guia adaptou o trajeto para o nosso grupo.",
+    "it": "Anche se l'escursione era costosa, la guida ha adattato il percorso al nostro gruppo.",
+    "es": "Aunque el recorrido era caro, el guía adaptó la ruta para nuestro grupo.",
+    "en": "Although the tour was expensive, the guide tailored the route to our group."
+  },
+  {
+    "nivel": "intermediario",
+    "tema": "02",
+    "pt": "A tarifa mais barata não permite alteração; a outra custa um pouco mais.",
+    "it": "La tariffa più economica non consente modifiche; l'altra costa un po' di più.",
+    "es": "La tarifa más barata no permite cambios; la otra cuesta un poco más.",
+    "en": "The cheaper fare doesn't allow changes; the other one costs a little more."
+  },
+  {
+    "nivel": "intermediario",
+    "tema": "02",
+    "pt": "Eu reservaria diretamente com o hotel se a política de cancelamento fosse mais clara.",
+    "it": "Prenoterei direttamente con l'hotel se la politica di cancellazione fosse più chiara.",
+    "es": "Reservaría directamente con el hotel si la política de cancelación fuera más clara.",
+    "en": "I'd book directly with the hotel if the cancellation policy were clearer."
+  },
+  {
+    "nivel": "intermediario",
+    "tema": "02",
+    "pt": "O restaurante nos acomodou, apesar de termos chegado sem reserva.",
+    "it": "Il ristorante ci ha trovato un posto, anche se eravamo arrivati senza prenotazione.",
+    "es": "El restaurante nos hizo un espacio aunque llegamos sin reserva.",
+    "en": "The restaurant squeezed us in even though we didn't have a reservation."
+  },
+  {
+    "nivel": "intermediario",
+    "tema": "02",
+    "pt": "Se a taxa de serviço já estiver incluída, podemos pagar a conta.",
+    "it": "Se il servizio è già incluso, possiamo pagare il conto.",
+    "es": "Si el servicio ya está incluido, podemos pagar la cuenta.",
+    "en": "If the service charge is already included, we can pay the bill."
+  },
+  {
+    "nivel": "intermediario",
+    "tema": "02",
+    "pt": "Se o preço final incluir a taxa de serviço, pode fechar a conta.",
+    "it": "Se il prezzo finale include il servizio, può chiudere il conto.",
+    "es": "Si el precio final incluye el servicio, puede cerrar la cuenta.",
+    "en": "If the service charge is included in the final price, you can close out the bill."
+  },
+  {
+    "nivel": "intermediario",
+    "tema": "02",
+    "pt": "O guia sugeriu sair cedo para evitar a fila na entrada.",
+    "it": "La guida ha suggerito di partire presto per evitare la fila all'ingresso.",
+    "es": "El guía sugirió salir temprano para evitar la fila de entrada.",
+    "en": "The guide suggested leaving early to avoid the line at the entrance."
+  },
+  {
+    "nivel": "intermediario",
+    "tema": "02",
+    "pt": "A conexão caiu durante o pagamento, então conferi se a cobrança foi registrada.",
+    "it": "La connessione è saltata durante il pagamento, quindi ho controllato se l'addebito era stato registrato.",
+    "es": "Se cayó la conexión durante el pago, así que revisé si se había registrado el cargo.",
+    "en": "The connection dropped during payment, so I checked whether the charge had gone through."
+  },
+  {
+    "nivel": "intermediario",
+    "tema": "02",
+    "pt": "Você consegue me dizer quanto custa despachar uma mala extra?",
+    "it": "Riesci a dirmi quanto costa imbarcare un bagaglio in più?",
+    "es": "¿Me puedes decir cuánto cuesta documentar una maleta adicional?",
+    "en": "Can you tell me how much it costs to check an extra bag?"
+  },
+  {
+    "nivel": "intermediario",
+    "tema": "02",
+    "pt": "Trocamos o passeio de sábado por um que começava mais cedo.",
+    "it": "Abbiamo cambiato l'escursione di sabato con una che iniziava prima.",
+    "es": "Cambiamos el recorrido del sábado por uno que empezaba más temprano.",
+    "en": "We swapped Saturday's tour for one that started earlier."
+  },
+  {
+    "nivel": "intermediario",
+    "tema": "02",
+    "pt": "A atendente autorizou a devolução depois que mostrei o comprovante.",
+    "it": "L'addetta ha autorizzato il reso dopo che le ho mostrato la ricevuta.",
+    "es": "La empleada autorizó la devolución después de que le mostré el comprobante.",
+    "en": "The clerk approved the return after I showed her the receipt."
+  },
+  {
+    "nivel": "intermediario",
+    "tema": "02",
+    "pt": "Se o ônibus não passar até as seis, peço um carro por aplicativo.",
+    "it": "Se l'autobus non passa entro le sei, chiederò un'auto con l'app.",
+    "es": "Si el autobús no pasa antes de las seis, pediré un auto por aplicación.",
+    "en": "If the bus hasn't come by six, I'll call a rideshare."
+  },
+  {
+    "nivel": "intermediario",
+    "tema": "02",
+    "pt": "O prato veio frio, embora tivéssemos pedido há poucos minutos.",
+    "it": "Il piatto è arrivato freddo, anche se avevamo ordinato pochi minuti prima.",
+    "es": "El plato llegó frío aunque lo habíamos pedido hacía pocos minutos.",
+    "en": "The dish came out cold even though we'd only ordered a few minutes earlier."
+  },
+  {
+    "nivel": "intermediario",
+    "tema": "02",
+    "pt": "A recepção guardou nossas malas até o quarto ficar pronto.",
+    "it": "La reception ha tenuto i nostri bagagli finché la camera non è stata pronta.",
+    "es": "En recepción guardaron nuestras maletas hasta que estuvo lista la habitación.",
+    "en": "The front desk held our bags until the room was ready."
+  },
+  {
+    "nivel": "intermediario",
+    "tema": "03",
+    "pt": "Eu não respondi antes porque queria pensar com calma no que você disse.",
+    "it": "Non ho risposto prima perché volevo riflettere con calma su quello che hai detto.",
+    "es": "No contesté antes porque quería pensar con calma en lo que dijiste.",
+    "en": "I didn't reply sooner because I wanted to think carefully about what you said."
+  },
+  {
+    "nivel": "intermediario",
+    "tema": "03",
+    "pt": "Se você tivesse me avisado, eu teria reservado um lugar para você.",
+    "it": "Se me l'avessi detto, ti avrei tenuto un posto.",
+    "es": "Si me hubieras avisado, te habría reservado un lugar.",
+    "en": "If you'd let me know, I would have saved you a seat."
+  },
+  {
+    "nivel": "intermediario",
+    "tema": "03",
+    "pt": "Fiquei contente que você tenha conseguido resolver aquilo.",
+    "it": "Sono contento che tu sia riuscito a risolvere la cosa.",
+    "es": "Me alegra que hayas podido resolverlo.",
+    "en": "I'm glad you were able to sort that out."
+  },
+  {
+    "nivel": "intermediario",
+    "tema": "03",
+    "pt": "Ela explicou o motivo, embora ainda não concorde com a decisão.",
+    "it": "Ha spiegato il motivo, anche se non è ancora d'accordo con la decisione.",
+    "es": "Explicó el motivo, aunque todavía no está de acuerdo con la decisión.",
+    "en": "She explained why, though she still doesn't agree with the decision."
+  },
+  {
+    "nivel": "intermediario",
+    "tema": "03",
+    "pt": "Você poderia me dizer se prefere conversar hoje ou amanhã?",
+    "it": "Potresti dirmi se preferisci parlarne oggi o domani?",
+    "es": "¿Podrías decirme si prefieres hablarlo hoy o mañana?",
+    "en": "Could you let me know whether you'd rather talk today or tomorrow?"
+  },
+  {
+    "nivel": "intermediario",
+    "tema": "03",
+    "pt": "Eu teria entendido melhor se você tivesse dado um exemplo concreto.",
+    "it": "Avrei capito meglio se avessi fatto un esempio concreto.",
+    "es": "Lo habría entendido mejor si hubieras dado un ejemplo concreto.",
+    "en": "I would have understood it better if you'd given a specific example."
+  },
+  {
+    "nivel": "intermediario",
+    "tema": "03",
+    "pt": "Por mais que eu respeite sua escolha, preciso explicar minha preocupação.",
+    "it": "Per quanto rispetti la tua scelta, devo spiegarti la mia preoccupazione.",
+    "es": "Aunque respeto tu decisión, necesito explicarte mi preocupación.",
+    "en": "Much as I respect your choice, I need to explain my concern."
+  },
+  {
+    "nivel": "intermediario",
+    "tema": "03",
+    "pt": "Como ninguém confirmou o horário, achei melhor perguntar de novo.",
+    "it": "Dato che nessuno ha confermato l'orario, ho pensato fosse meglio chiedere di nuovo.",
+    "es": "Como nadie confirmó la hora, pensé que era mejor volver a preguntar.",
+    "en": "Since no one confirmed the time, I thought I'd check again."
+  },
+  {
+    "nivel": "intermediario",
+    "tema": "03",
+    "pt": "Não quero pressionar você; só preciso saber se ainda posso contar com você.",
+    "it": "Non voglio metterti pressione; ho solo bisogno di sapere se posso ancora contare su di te.",
+    "es": "No quiero presionarte; solo necesito saber si todavía cuento contigo.",
+    "en": "I don't want to pressure you; I just need to know whether I can still count on you."
+  },
+  {
+    "nivel": "intermediario",
+    "tema": "03",
+    "pt": "Ela teria aceitado o convite se não estivesse viajando naquela semana.",
+    "it": "Avrebbe accettato l'invito se non fosse stata in viaggio quella settimana.",
+    "es": "Habría aceptado la invitación si no hubiera estado de viaje esa semana.",
+    "en": "She would have accepted the invitation if she hadn't been traveling that week."
+  },
+  {
+    "nivel": "intermediario",
+    "tema": "03",
+    "pt": "Embora a conversa tenha sido difícil, saímos com um acordo provisório.",
+    "it": "Anche se la conversazione è stata difficile, siamo arrivati a un accordo provvisorio.",
+    "es": "Aunque la conversación fue difícil, llegamos a un acuerdo provisional.",
+    "en": "Although the conversation was difficult, we came away with a tentative agreement."
+  },
+  {
+    "nivel": "intermediario",
+    "tema": "03",
+    "pt": "Eu entendi que você estava ocupado, mas um aviso teria evitado a confusão.",
+    "it": "Ho capito che eri occupato, ma un messaggio avrebbe evitato la confusione.",
+    "es": "Entendí que estabas ocupado, pero un aviso habría evitado la confusión.",
+    "en": "I understood that you were busy, but a heads-up would have prevented the mix-up."
+  },
+  {
+    "nivel": "intermediario",
+    "tema": "03",
+    "pt": "Se a intenção era brincar, o comentário não soou assim para mim.",
+    "it": "Se volevi scherzare, a me il commento non è sembrato tale.",
+    "es": "Si querías hacer una broma, a mí no me sonó así el comentario.",
+    "en": "If you meant it as a joke, it didn't come across that way to me."
+  },
+  {
+    "nivel": "intermediario",
+    "tema": "03",
+    "pt": "Eu preferiria que você me avisasse antes de compartilhar a mensagem.",
+    "it": "Preferirei che mi avvisassi prima di condividere il messaggio.",
+    "es": "Preferiría que me avisaras antes de compartir el mensaje.",
+    "en": "I'd prefer it if you let me know before sharing the message."
+  },
+  {
+    "nivel": "intermediario",
+    "tema": "03",
+    "pt": "Depois que esclarecemos o mal-entendido, retomamos o assunto sem pressa.",
+    "it": "Dopo aver chiarito il malinteso, abbiamo ripreso il discorso senza fretta.",
+    "es": "Después de aclarar el malentendido, retomamos el tema sin apuro.",
+    "en": "Once we cleared up the misunderstanding, we picked up the conversation without rushing."
+  },
+  {
+    "nivel": "intermediario",
+    "tema": "03",
+    "pt": "Você tem razão em parte; ainda assim, há outro ponto que precisamos considerar.",
+    "it": "In parte hai ragione; tuttavia, c'è un altro aspetto da considerare.",
+    "es": "En parte tienes razón; aun así, hay otro punto que debemos considerar.",
+    "en": "You have a point; still, there's another issue we need to consider."
+  },
+  {
+    "nivel": "intermediario",
+    "tema": "03",
+    "pt": "Eu não teria interpretado a mensagem desse jeito se tivesse visto o contexto.",
+    "it": "Non avrei interpretato il messaggio così se avessi visto il contesto.",
+    "es": "No habría interpretado el mensaje así si hubiera visto el contexto.",
+    "en": "I wouldn't have read the message that way if I'd seen the context."
+  },
+  {
+    "nivel": "intermediario",
+    "tema": "03",
+    "pt": "Como você mencionou que estava cansada, deixei para perguntar depois.",
+    "it": "Visto che avevi detto di essere stanca, ho rimandato la domanda.",
+    "es": "Como mencionaste que estabas cansada, preferí preguntarte después.",
+    "en": "Since you said you were tired, I held off on asking."
+  },
+  {
+    "nivel": "intermediario",
+    "tema": "03",
+    "pt": "Se eu estiver entendendo errado, por favor me corrija.",
+    "it": "Se ho capito male, correggimi pure.",
+    "es": "Si lo estoy entendiendo mal, corrígeme, por favor.",
+    "en": "Please correct me if I'm reading this wrong."
+  },
+  {
+    "nivel": "intermediario",
+    "tema": "03",
+    "pt": "Não foi minha intenção soar ríspido; eu estava tentando ser direto.",
+    "it": "Non volevo sembrare brusco; cercavo solo di essere diretto.",
+    "es": "No quise sonar brusco; intentaba ser directo.",
+    "en": "I didn't mean to sound abrupt; I was trying to be direct."
+  },
+  {
+    "nivel": "intermediario",
+    "tema": "03",
+    "pt": "Eu teria preferido receber essa notícia pessoalmente, mas agradeço por contar.",
+    "it": "Avrei preferito saperlo di persona, ma ti ringrazio per avermelo detto.",
+    "es": "Habría preferido enterarme en persona, pero agradezco que me lo contaras.",
+    "en": "I would have preferred to hear it in person, but I appreciate you telling me."
+  },
+  {
+    "nivel": "intermediario",
+    "tema": "03",
+    "pt": "Mesmo que não cheguemos a um consenso, podemos manter o respeito.",
+    "it": "Anche se non arriviamo a un accordo, possiamo continuare a rispettarci.",
+    "es": "Aunque no lleguemos a un acuerdo, podemos mantener el respeto.",
+    "en": "Even if we don't reach an agreement, we can keep things respectful."
+  },
+  {
+    "nivel": "intermediario",
+    "tema": "03",
+    "pt": "Você comentou que talvez mudasse de planos; isso ainda está de pé?",
+    "it": "Avevi detto che forse avresti cambiato programma; è ancora così?",
+    "es": "Comentaste que quizá cambiarías de planes; ¿sigue en pie?",
+    "en": "You mentioned you might change your plans; is that still happening?"
+  },
+  {
+    "nivel": "intermediario",
+    "tema": "03",
+    "pt": "Eu aceitaria o convite, contanto que pudéssemos voltar antes da meia-noite.",
+    "it": "Accetterei l'invito, a patto che potessimo rientrare prima di mezzanotte.",
+    "es": "Aceptaría la invitación siempre que pudiéramos volver antes de la medianoche.",
+    "en": "I'd accept the invitation as long as we could be back before midnight."
+  },
+  {
+    "nivel": "intermediario",
+    "tema": "03",
+    "pt": "Em vez de presumir que ela ficou ofendida, vou perguntar como recebeu a notícia.",
+    "it": "Invece di dare per scontato che si sia offesa, le chiederò come ha preso la notizia.",
+    "es": "En vez de suponer que se molestó, le preguntaré cómo recibió la noticia.",
+    "en": "Rather than assume she was offended, I'll ask how she took the news."
+  },
+  {
+    "nivel": "intermediario",
+    "tema": "03",
+    "pt": "Ele ouviu sem interromper, o que tornou a conversa mais produtiva.",
+    "it": "Ha ascoltato senza interrompermi, e questo ha reso la conversazione più costruttiva.",
+    "es": "Escuchó sin interrumpir, y eso hizo que la conversación fuera más productiva.",
+    "en": "He listened without interrupting, which made the conversation more productive."
+  },
+  {
+    "nivel": "intermediario",
+    "tema": "03",
+    "pt": "Eu sei que você está tentando ajudar; só preciso de um pouco de espaço.",
+    "it": "So che stai cercando di aiutarmi; ho solo bisogno di un po' di spazio.",
+    "es": "Sé que intentas ayudar; solo necesito un poco de espacio.",
+    "en": "I know you're trying to help; I just need a little space."
+  },
+  {
+    "nivel": "intermediario",
+    "tema": "03",
+    "pt": "Caso não consiga chegar a tempo, me avise para eu ajustar o plano.",
+    "it": "Se non riesci ad arrivare in orario, avvisami così posso modificare il piano.",
+    "es": "Si no alcanzas a llegar a tiempo, avísame para que pueda ajustar el plan.",
+    "en": "If you can't get here on time, let me know so I can adjust the plan."
+  },
+  {
+    "nivel": "intermediario",
+    "tema": "03",
+    "pt": "Apesar de termos opiniões diferentes, trabalhamos bem juntos.",
+    "it": "Nonostante le nostre opinioni diverse, lavoriamo bene insieme.",
+    "es": "Aunque tenemos opiniones distintas, trabajamos bien juntos.",
+    "en": "Despite our differences of opinion, we work well together."
+  },
+  {
+    "nivel": "intermediario",
+    "tema": "03",
+    "pt": "Se eu tivesse percebido que você estava desconfortável, teria mudado de assunto.",
+    "it": "Se mi fossi accorto che eri a disagio, avrei cambiato argomento.",
+    "es": "Si me hubiera dado cuenta de que te sentías incómodo, habría cambiado de tema.",
+    "en": "If I'd realized you were uncomfortable, I would have changed the subject."
+  },
+  {
+    "nivel": "intermediario",
+    "tema": "04",
+    "pt": "O cliente mudou o escopo ontem, então revisei o cronograma com a equipe.",
+    "it": "Il cliente ha cambiato l'ambito ieri, quindi ho rivisto il calendario con il gruppo.",
+    "es": "El cliente cambió el alcance ayer, así que revisé el cronograma con el equipo.",
+    "en": "The client changed the scope yesterday, so I reviewed the timeline with the team."
+  },
+  {
+    "nivel": "intermediario",
+    "tema": "04",
+    "pt": "Se a gerente aprovar o orçamento, começaremos a implantação na segunda-feira.",
+    "it": "Se la responsabile approva il budget, inizieremo l'implementazione lunedì.",
+    "es": "Si la gerente aprueba el presupuesto, empezaremos la implementación el lunes.",
+    "en": "If the manager approves the budget, we'll start the rollout on Monday."
+  },
+  {
+    "nivel": "intermediario",
+    "tema": "04",
+    "pt": "Eu teria enviado a proposta ontem se o jurídico tivesse devolvido o contrato.",
+    "it": "Avrei inviato la proposta ieri se l'ufficio legale avesse restituito il contratto.",
+    "es": "Habría enviado la propuesta ayer si el área legal hubiera devuelto el contrato.",
+    "en": "I would have sent the proposal yesterday if Legal had returned the contract."
+  },
+  {
+    "nivel": "intermediario",
+    "tema": "04",
+    "pt": "Embora o fornecedor tenha reduzido o preço, o prazo ficou inviável.",
+    "it": "Anche se il fornitore ha ridotto il prezzo, i tempi sono diventati impossibili.",
+    "es": "Aunque el proveedor bajó el precio, el plazo se volvió inviable.",
+    "en": "Although the vendor lowered the price, the timeline became unworkable."
+  },
+  {
+    "nivel": "intermediario",
+    "tema": "04",
+    "pt": "Você poderia compartilhar a versão com as alterações destacadas?",
+    "it": "Potresti condividere la versione con le modifiche evidenziate?",
+    "es": "¿Podrías compartir la versión con los cambios resaltados?",
+    "en": "Could you share the version with the changes highlighted?"
+  },
+  {
+    "nivel": "intermediario",
+    "tema": "04",
+    "pt": "A reunião se estendeu porque não definimos quem tomaria a decisão final.",
+    "it": "La riunione si è prolungata perché non avevamo definito chi avrebbe preso la decisione finale.",
+    "es": "La reunión se alargó porque no definimos quién tomaría la decisión final.",
+    "en": "The meeting ran long because we hadn't decided who would make the final call."
+  },
+  {
+    "nivel": "intermediario",
+    "tema": "04",
+    "pt": "Se a equipe terminar os testes hoje, publicaremos a atualização amanhã.",
+    "it": "Se il gruppo finisce i test oggi, pubblicheremo l'aggiornamento domani.",
+    "es": "Si el equipo termina las pruebas hoy, publicaremos la actualización mañana.",
+    "en": "If the team finishes testing today, we'll release the update tomorrow."
+  },
+  {
+    "nivel": "intermediario",
+    "tema": "04",
+    "pt": "O relatório foi devolvido porque os números não batiam com a planilha.",
+    "it": "Il rapporto è stato restituito perché i numeri non coincidevano con il foglio di calcolo.",
+    "es": "Devolvieron el informe porque las cifras no coincidían con la hoja de cálculo.",
+    "en": "The report was sent back because the figures didn't match the spreadsheet."
+  },
+  {
+    "nivel": "intermediario",
+    "tema": "04",
+    "pt": "Em vez de marcar outra reunião, resolvemos a pendência por mensagem.",
+    "it": "Invece di fissare un'altra riunione, abbiamo risolto la questione con un messaggio.",
+    "es": "En vez de agendar otra reunión, resolvimos el pendiente por mensaje.",
+    "en": "Rather than schedule another meeting, we settled the open item over chat."
+  },
+  {
+    "nivel": "intermediario",
+    "tema": "04",
+    "pt": "Eu sugeriria adiar o lançamento até termos os dados completos.",
+    "it": "Suggerirei di rinviare il lancio finché non avremo tutti i dati.",
+    "es": "Sugeriría posponer el lanzamiento hasta tener todos los datos.",
+    "en": "I'd suggest delaying the launch until we have the full data set."
+  },
+  {
+    "nivel": "intermediario",
+    "tema": "04",
+    "pt": "A colega percebeu uma falha que havia passado despercebida na revisão inicial.",
+    "it": "La collega ha notato un errore che era sfuggito alla revisione iniziale.",
+    "es": "La colega detectó un error que había pasado inadvertido en la revisión inicial.",
+    "en": "My colleague caught an issue that had slipped through the first review."
+  },
+  {
+    "nivel": "intermediario",
+    "tema": "04",
+    "pt": "Se o sistema voltar a cair, acionaremos o plano de contingência.",
+    "it": "Se il sistema dovesse bloccarsi di nuovo, attiveremo il piano di emergenza.",
+    "es": "Si el sistema vuelve a fallar, activaremos el plan de contingencia.",
+    "en": "If the system goes down again, we'll activate the contingency plan."
+  },
+  {
+    "nivel": "intermediario",
+    "tema": "04",
+    "pt": "Apesar da pressão, ninguém pulou a etapa de conferência.",
+    "it": "Nonostante la pressione, nessuno ha saltato la fase di verifica.",
+    "es": "A pesar de la presión, nadie se saltó la etapa de revisión.",
+    "en": "Despite the pressure, no one skipped the verification step."
+  },
+  {
+    "nivel": "intermediario",
+    "tema": "04",
+    "pt": "O fornecedor confirmou a entrega, mas ainda não informou o horário.",
+    "it": "Il fornitore ha confermato la consegna, ma non ha ancora comunicato l'orario.",
+    "es": "El proveedor confirmó la entrega, pero todavía no informó la hora.",
+    "en": "The vendor confirmed delivery but hasn't given us a time yet."
+  },
+  {
+    "nivel": "intermediario",
+    "tema": "04",
+    "pt": "Poderíamos redistribuir as tarefas se duas pessoas ficarem sobrecarregadas.",
+    "it": "Potremmo ridistribuire le attività se due persone si trovano sovraccariche.",
+    "es": "Podríamos redistribuir las tareas si dos personas quedan sobrecargadas.",
+    "en": "We could redistribute the tasks if two people end up overloaded."
+  },
+  {
+    "nivel": "intermediario",
+    "tema": "04",
+    "pt": "O novo fluxo reduziu o retrabalho, embora exija mais conferências no início.",
+    "it": "Il nuovo flusso ha ridotto il lavoro da rifare, anche se richiede più controlli all'inizio.",
+    "es": "El nuevo flujo redujo el retrabajo, aunque exige más revisiones al principio.",
+    "en": "The new workflow cut rework, though it requires more checks up front."
+  },
+  {
+    "nivel": "intermediario",
+    "tema": "04",
+    "pt": "A diretora pediu que resumíssemos os riscos em uma página.",
+    "it": "La direttrice ha chiesto che riassumessimo i rischi in una pagina.",
+    "es": "La directora pidió que resumiéramos los riesgos en una página.",
+    "en": "The director asked us to summarize the risks on one page."
+  },
+  {
+    "nivel": "intermediario",
+    "tema": "04",
+    "pt": "Se tivéssemos validado o arquivo antes, não precisaríamos refazer a importação.",
+    "it": "Se avessimo convalidato il file prima, non avremmo dovuto ripetere l'importazione.",
+    "es": "Si hubiéramos validado el archivo antes, no tendríamos que repetir la importación.",
+    "en": "If we'd validated the file earlier, we wouldn't have had to rerun the import."
+  },
+  {
+    "nivel": "intermediario",
+    "tema": "04",
+    "pt": "A proposta é mais barata, mas transfere para nós o suporte técnico.",
+    "it": "La proposta costa meno, ma trasferisce a noi l'assistenza tecnica.",
+    "es": "La propuesta es más barata, pero nos traslada el soporte técnico.",
+    "en": "The proposal costs less, but it shifts technical support to us."
+  },
+  {
+    "nivel": "intermediario",
+    "tema": "04",
+    "pt": "Embora o prazo seja curto, dá para entregar uma versão reduzida com segurança.",
+    "it": "Anche se i tempi sono stretti, possiamo consegnare una versione ridotta senza rischi.",
+    "es": "Aunque el plazo es corto, podemos entregar una versión reducida sin riesgos.",
+    "en": "Even with the tight deadline, we can safely deliver a reduced version."
+  },
+  {
+    "nivel": "intermediario",
+    "tema": "04",
+    "pt": "Eu não avançaria sem registrar quem aprovou a mudança e quando.",
+    "it": "Non procederei senza registrare chi ha approvato la modifica e quando.",
+    "es": "No avanzaría sin dejar constancia de quién aprobó el cambio y cuándo.",
+    "en": "I wouldn't move forward without documenting who approved the change and when."
+  },
+  {
+    "nivel": "intermediario",
+    "tema": "04",
+    "pt": "A equipe resolveu a divergência comparando os requisitos com o contrato.",
+    "it": "Il gruppo ha risolto la divergenza confrontando i requisiti con il contratto.",
+    "es": "El equipo resolvió la discrepancia al comparar los requisitos con el contrato.",
+    "en": "The team resolved the discrepancy by comparing the requirements with the contract."
+  },
+  {
+    "nivel": "intermediario",
+    "tema": "04",
+    "pt": "Eu teria preferido receber os comentários em um único documento.",
+    "it": "Avrei preferito ricevere i commenti in un unico documento.",
+    "es": "Habría preferido recibir los comentarios en un solo documento.",
+    "en": "I would have preferred to receive the comments in one document."
+  },
+  {
+    "nivel": "intermediario",
+    "tema": "04",
+    "pt": "Se o cronograma continuar apertado, teremos de negociar uma entrega parcial.",
+    "it": "Se il calendario resta così serrato, dovremo negoziare una consegna parziale.",
+    "es": "Si el cronograma sigue tan ajustado, tendremos que negociar una entrega parcial.",
+    "en": "If the schedule stays this tight, we'll have to negotiate a partial delivery."
+  },
+  {
+    "nivel": "intermediario",
+    "tema": "04",
+    "pt": "A atualização corrigiu o erro, mas criou um problema de compatibilidade.",
+    "it": "L'aggiornamento ha corretto l'errore, ma ha creato un problema di compatibilità.",
+    "es": "La actualización corrigió el error, pero creó un problema de compatibilidad.",
+    "en": "The update fixed the bug but introduced a compatibility issue."
+  },
+  {
+    "nivel": "intermediario",
+    "tema": "04",
+    "pt": "Como o responsável estava de férias, a aprovação ficou para a semana seguinte.",
+    "it": "Poiché la persona responsabile era in ferie, l'approvazione è slittata alla settimana seguente.",
+    "es": "Como la persona responsable estaba de vacaciones, la aprobación quedó para la semana siguiente.",
+    "en": "Since the person in charge was on vacation, approval slipped to the following week."
+  },
+  {
+    "nivel": "intermediario",
+    "tema": "04",
+    "pt": "Se você enviar o arquivo até meio-dia, consigo incluí-lo no pacote de hoje.",
+    "it": "Se mi invii il file entro mezzogiorno, riesco a inserirlo nel pacchetto di oggi.",
+    "es": "Si envías el archivo antes del mediodía, puedo incluirlo en el paquete de hoy.",
+    "en": "If you send the file by noon, I can include it in today's packet."
+  },
+  {
+    "nivel": "intermediario",
+    "tema": "04",
+    "pt": "O resumo ficou claro, ainda que alguns detalhes técnicos tenham sido omitidos.",
+    "it": "Il riepilogo è chiaro, anche se sono stati omessi alcuni dettagli tecnici.",
+    "es": "El resumen quedó claro, aunque se omitieron algunos detalles técnicos.",
+    "en": "The summary is clear, even if it leaves out some technical details."
+  },
+  {
+    "nivel": "intermediario",
+    "tema": "04",
+    "pt": "A analista encontrou uma alternativa que atende aos dois requisitos.",
+    "it": "L'analista ha trovato un'alternativa che soddisfa entrambi i requisiti.",
+    "es": "La analista encontró una alternativa que cumple con los dos requisitos.",
+    "en": "The analyst found an option that meets both requirements."
+  },
+  {
+    "nivel": "intermediario",
+    "tema": "04",
+    "pt": "Depois de negociar o escopo, mantivemos o custo e estendemos o prazo.",
+    "it": "Dopo aver negoziato l'ambito, abbiamo mantenuto il costo e prorogato i tempi.",
+    "es": "Después de negociar el alcance, mantuvimos el costo y ampliamos el plazo.",
+    "en": "After negotiating the scope, we kept the cost the same and extended the timeline."
+  },
+  {
+    "nivel": "intermediario",
+    "tema": "05",
+    "pt": "O experimento não confirmou a hipótese, embora os dados fossem consistentes.",
+    "it": "L'esperimento non ha confermato l'ipotesi, nonostante i dati fossero coerenti.",
+    "es": "El experimento no confirmó la hipótesis, aunque los datos fueran consistentes.",
+    "en": "The experiment did not support the hypothesis, even though the data were consistent."
+  },
+  {
+    "nivel": "intermediario",
+    "tema": "05",
+    "pt": "Se eu tivesse começado a revisão antes, teria encontrado a referência faltante.",
+    "it": "Se avessi iniziato prima la revisione, avrei trovato il riferimento mancante.",
+    "es": "Si hubiera empezado la revisión antes, habría encontrado la referencia que faltaba.",
+    "en": "If I'd started reviewing earlier, I would have found the missing reference."
+  },
+  {
+    "nivel": "intermediario",
+    "tema": "05",
+    "pt": "O capítulo ficou mais claro depois que substituímos os termos técnicos por exemplos.",
+    "it": "Il capitolo è diventato più chiaro dopo aver sostituito i termini tecnici con degli esempi.",
+    "es": "El capítulo quedó más claro después de sustituir los términos técnicos por ejemplos.",
+    "en": "The chapter became clearer after we replaced the technical terms with examples."
+  },
+  {
+    "nivel": "intermediario",
+    "tema": "05",
+    "pt": "Você poderia explicar por que esse resultado difere do estudo anterior?",
+    "it": "Potresti spiegare perché questo risultato è diverso dallo studio precedente?",
+    "es": "¿Podrías explicar por qué este resultado difiere del estudio anterior?",
+    "en": "Could you explain why this result differs from the earlier study?"
+  },
+  {
+    "nivel": "intermediario",
+    "tema": "05",
+    "pt": "A turma teve menos dificuldade quando resolvemos um exercício juntos.",
+    "it": "La classe ha avuto meno difficoltà quando abbiamo svolto insieme un esercizio.",
+    "es": "Al grupo le costó menos cuando resolvimos un ejercicio juntos.",
+    "en": "The class struggled less once we worked through an exercise together."
+  },
+  {
+    "nivel": "intermediario",
+    "tema": "05",
+    "pt": "Se a amostra fosse maior, talvez a estimativa fosse mais estável.",
+    "it": "Se il campione fosse più grande, forse la stima sarebbe più stabile.",
+    "es": "Si la muestra fuera mayor, quizá la estimación sería más estable.",
+    "en": "If the sample were larger, the estimate might be more stable."
+  },
+  {
+    "nivel": "intermediario",
+    "tema": "05",
+    "pt": "A orientadora devolveu o rascunho com observações na margem.",
+    "it": "La relatrice ha restituito la bozza con commenti a margine.",
+    "es": "La asesora devolvió el borrador con comentarios en los márgenes.",
+    "en": "My advisor returned the draft with notes in the margins."
+  },
+  {
+    "nivel": "intermediario",
+    "tema": "05",
+    "pt": "Embora a bibliografia esteja extensa, ainda falta uma fonte recente.",
+    "it": "Anche se la bibliografia è ampia, manca ancora una fonte recente.",
+    "es": "Aunque la bibliografía es extensa, todavía falta una fuente reciente.",
+    "en": "Although the bibliography is extensive, one recent source is still missing."
+  },
+  {
+    "nivel": "intermediario",
+    "tema": "05",
+    "pt": "Trocamos a ordem das seções para apresentar primeiro o problema.",
+    "it": "Abbiamo cambiato l'ordine delle sezioni per presentare prima il problema.",
+    "es": "Cambiamos el orden de las secciones para presentar primero el problema.",
+    "en": "We rearranged the sections to introduce the problem first."
+  },
+  {
+    "nivel": "intermediario",
+    "tema": "05",
+    "pt": "Eu teria escolhido outro método se o objetivo fosse comparar grupos.",
+    "it": "Avrei scelto un altro metodo se l'obiettivo fosse stato confrontare i gruppi.",
+    "es": "Habría elegido otro método si el objetivo hubiera sido comparar grupos.",
+    "en": "I would have chosen a different method if the goal had been to compare groups."
+  },
+  {
+    "nivel": "intermediario",
+    "tema": "05",
+    "pt": "O professor sugeriu reduzir a pergunta de pesquisa antes de coletar dados.",
+    "it": "Il docente ha suggerito di restringere la domanda di ricerca prima di raccogliere i dati.",
+    "es": "El profesor sugirió acotar la pregunta de investigación antes de recopilar datos.",
+    "en": "The professor suggested narrowing the research question before collecting data."
+  },
+  {
+    "nivel": "intermediario",
+    "tema": "05",
+    "pt": "Se você enviar o gráfico em alta resolução, consigo ler os rótulos.",
+    "it": "Se mi mandi il grafico ad alta risoluzione, riesco a leggere le etichette.",
+    "es": "Si envías la gráfica en alta resolución, podré leer las etiquetas.",
+    "en": "If you send the chart in high resolution, I can read the labels."
+  },
+  {
+    "nivel": "intermediario",
+    "tema": "05",
+    "pt": "A conclusão vai além do que os resultados permitem afirmar.",
+    "it": "La conclusione va oltre ciò che i risultati consentono di affermare.",
+    "es": "La conclusión va más allá de lo que permiten afirmar los resultados.",
+    "en": "The conclusion goes beyond what the results allow us to claim."
+  },
+  {
+    "nivel": "intermediario",
+    "tema": "05",
+    "pt": "Mesmo que a análise seja exploratória, precisamos explicar como selecionamos os dados.",
+    "it": "Anche se l'analisi è esplorativa, dobbiamo spiegare come abbiamo selezionato i dati.",
+    "es": "Aunque el análisis sea exploratorio, debemos explicar cómo seleccionamos los datos.",
+    "en": "Even if the analysis is exploratory, we need to explain how we selected the data."
+  },
+  {
+    "nivel": "intermediario",
+    "tema": "05",
+    "pt": "O artigo usa uma definição diferente para o mesmo indicador.",
+    "it": "L'articolo usa una definizione diversa per lo stesso indicatore.",
+    "es": "El artículo usa una definición distinta para el mismo indicador.",
+    "en": "The paper uses a different definition for the same measure."
+  },
+  {
+    "nivel": "intermediario",
+    "tema": "05",
+    "pt": "Se a banca pedir um exemplo, vou começar pelo caso mais simples.",
+    "it": "Se la commissione chiede un esempio, inizierò dal caso più semplice.",
+    "es": "Si el tribunal pide un ejemplo, empezaré por el caso más sencillo.",
+    "en": "If the committee asks for an example, I'll start with the simplest case."
+  },
+  {
+    "nivel": "intermediario",
+    "tema": "05",
+    "pt": "O prazo foi prorrogado para que os grupos pudessem revisar as referências.",
+    "it": "La scadenza è stata prorogata per permettere ai gruppi di rivedere le fonti.",
+    "es": "Ampliaron el plazo para que los grupos pudieran revisar las referencias.",
+    "en": "The deadline was extended so the groups could review their references."
+  },
+  {
+    "nivel": "intermediario",
+    "tema": "05",
+    "pt": "A comparação faz sentido, desde que usemos o mesmo período de observação.",
+    "it": "Il confronto è sensato, a condizione che usiamo lo stesso periodo di osservazione.",
+    "es": "La comparación tiene sentido, siempre que usemos el mismo período de observación.",
+    "en": "The comparison is meaningful as long as we use the same observation period."
+  },
+  {
+    "nivel": "intermediario",
+    "tema": "05",
+    "pt": "Eu não teria entendido a fórmula sem o exemplo numérico do apêndice.",
+    "it": "Non avrei capito la formula senza l'esempio numerico dell'appendice.",
+    "es": "No habría entendido la fórmula sin el ejemplo numérico del apéndice.",
+    "en": "I wouldn't have understood the formula without the numerical example in the appendix."
+  },
+  {
+    "nivel": "intermediario",
+    "tema": "05",
+    "pt": "Embora a média tenha aumentado, a dispersão também ficou maior.",
+    "it": "Anche se la media è aumentata, è aumentata anche la dispersione.",
+    "es": "Aunque el promedio aumentó, la dispersión también fue mayor.",
+    "en": "Although the average increased, the spread also became wider."
+  },
+  {
+    "nivel": "intermediario",
+    "tema": "05",
+    "pt": "A versão traduzida perdeu uma distinção que o texto original mantém.",
+    "it": "La versione tradotta ha perso una distinzione presente nel testo originale.",
+    "es": "La versión traducida perdió una distinción que mantiene el texto original.",
+    "en": "The translation lost a distinction that the original text preserves."
+  },
+  {
+    "nivel": "intermediario",
+    "tema": "05",
+    "pt": "Se terminarmos a análise até quinta, apresentaremos os resultados na aula.",
+    "it": "Se finiamo l'analisi entro giovedì, presenteremo i risultati a lezione.",
+    "es": "Si terminamos el análisis para el jueves, presentaremos los resultados en clase.",
+    "en": "If we finish the analysis by Thursday, we'll present the results in class."
+  },
+  {
+    "nivel": "intermediario",
+    "tema": "05",
+    "pt": "O grupo dividiu a leitura, mas todos revisaram a síntese final.",
+    "it": "Il gruppo ha diviso le letture, ma tutti hanno rivisto la sintesi finale.",
+    "es": "El grupo repartió las lecturas, pero todos revisaron la síntesis final.",
+    "en": "The group split up the reading, but everyone reviewed the final summary."
+  },
+  {
+    "nivel": "intermediario",
+    "tema": "05",
+    "pt": "Por mais que o modelo se ajuste aos dados, isso não prova causalidade.",
+    "it": "Per quanto il modello si adatti ai dati, non dimostra un rapporto causale.",
+    "es": "Por mucho que el modelo se ajuste a los datos, eso no demuestra causalidad.",
+    "en": "However well the model fits the data, that does not establish causation."
+  },
+  {
+    "nivel": "intermediario",
+    "tema": "05",
+    "pt": "Eu preferiria receber comentários específicos em vez de uma avaliação geral.",
+    "it": "Preferirei ricevere commenti specifici invece di una valutazione generica.",
+    "es": "Preferiría recibir comentarios específicos en lugar de una evaluación general.",
+    "en": "I'd rather receive specific feedback than a general assessment."
+  },
+  {
+    "nivel": "intermediario",
+    "tema": "05",
+    "pt": "Como a plataforma caiu, entregamos o trabalho por e-mail dentro do prazo.",
+    "it": "Poiché la piattaforma si è bloccata, abbiamo inviato il compito via email entro la scadenza.",
+    "es": "Como se cayó la plataforma, entregamos el trabajo por correo dentro del plazo.",
+    "en": "Since the platform went down, we submitted the assignment by email before the deadline."
+  },
+  {
+    "nivel": "intermediario",
+    "tema": "05",
+    "pt": "A hipótese alternativa explica melhor os dados que observamos.",
+    "it": "L'ipotesi alternativa spiega meglio i dati che abbiamo osservato.",
+    "es": "La hipótesis alternativa explica mejor los datos que observamos.",
+    "en": "The alternative hypothesis better explains the data we observed."
+  },
+  {
+    "nivel": "intermediario",
+    "tema": "05",
+    "pt": "Se você tivesse indicado as páginas, eu teria localizado a citação mais rápido.",
+    "it": "Se avessi indicato le pagine, avrei trovato la citazione più in fretta.",
+    "es": "Si hubieras indicado las páginas, habría localizado la cita más rápido.",
+    "en": "If you'd included the page numbers, I would have found the quote faster."
+  },
+  {
+    "nivel": "intermediario",
+    "tema": "05",
+    "pt": "A revisão por pares apontou uma inconsistência entre o método e a tabela.",
+    "it": "La revisione paritaria ha segnalato un'incoerenza tra il metodo e la tabella.",
+    "es": "La revisión por pares señaló una inconsistencia entre el método y la tabla.",
+    "en": "Peer review flagged an inconsistency between the method and the table."
+  },
+  {
+    "nivel": "intermediario",
+    "tema": "05",
+    "pt": "Mesmo com menos páginas, a nova versão responde às perguntas principais.",
+    "it": "Pur avendo meno pagine, la nuova versione risponde alle domande principali.",
+    "es": "Aunque tiene menos páginas, la nueva versión responde a las preguntas principales.",
+    "en": "Even though it's shorter, the new version answers the main questions."
+  },
+  {
+    "nivel": "avancado",
+    "tema": "01",
+    "pt": "Eu reorganizaria a semana em torno dos compromissos fixos, deixando margem para o que surgir.",
+    "it": "Riorganizzerei la settimana partendo dagli impegni fissi, lasciando spazio agli imprevisti.",
+    "es": "Reorganizaría la semana a partir de los compromisos fijos y dejaría margen para lo que surja.",
+    "en": "I'd build the week around fixed commitments and leave room for whatever comes up."
+  },
+  {
+    "nivel": "avancado",
+    "tema": "01",
+    "pt": "Se eu não tivesse bloqueado a manhã para escrever, teria aceitado reuniões demais.",
+    "it": "Se non avessi riservato la mattina alla scrittura, avrei accettato troppe riunioni.",
+    "es": "Si no hubiera reservado la mañana para escribir, habría aceptado demasiadas reuniones.",
+    "en": "If I hadn't blocked off the morning for writing, I would have taken on too many meetings."
+  },
+  {
+    "nivel": "avancado",
+    "tema": "01",
+    "pt": "Por mais organizada que esteja a agenda, não dá para prever cada contratempo.",
+    "it": "Per quanto sia ordinata l'agenda, non si può prevedere ogni imprevisto.",
+    "es": "Por muy organizada que esté la agenda, no se puede prever cada contratiempo.",
+    "en": "No matter how carefully the calendar is organized, you can't plan for every setback."
+  },
+  {
+    "nivel": "avancado",
+    "tema": "01",
+    "pt": "Eu deixaria essa tarefa para amanhã, a menos que dependa de alguém que só está disponível hoje.",
+    "it": "Rimanderei questa attività a domani, a meno che non dipenda da qualcuno disponibile solo oggi.",
+    "es": "Dejaría esa tarea para mañana, a menos que dependa de alguien que solo está disponible hoy.",
+    "en": "I'd leave that task until tomorrow unless it depends on someone who's only available today."
+  },
+  {
+    "nivel": "avancado",
+    "tema": "01",
+    "pt": "Embora eu tente manter uma rotina, prefiro não transformar cada intervalo em tempo produtivo.",
+    "it": "Anche se cerco di mantenere una routine, preferisco non riempire ogni pausa con qualcosa di produttivo.",
+    "es": "Aunque intento mantener una rutina, prefiero no convertir cada pausa en tiempo productivo.",
+    "en": "Even though I try to keep a routine, I don't want to turn every break into productive time."
+  },
+  {
+    "nivel": "avancado",
+    "tema": "01",
+    "pt": "Se você pudesse mudar uma coisa na sua manhã, o que escolheria?",
+    "it": "Se potessi cambiare una cosa della tua mattina, cosa sceglieresti?",
+    "es": "Si pudieras cambiar una cosa de tu mañana, ¿qué elegirías?",
+    "en": "If you could change one thing about your morning, what would you choose?"
+  },
+  {
+    "nivel": "avancado",
+    "tema": "01",
+    "pt": "Eu teria saído com mais calma se não tivesse tentado encaixar uma última tarefa.",
+    "it": "Sarei uscito con più calma se non avessi cercato di infilare un'ultima attività.",
+    "es": "Habría salido con más calma si no hubiera intentado meter una última tarea.",
+    "en": "I would have left more calmly if I hadn't tried to squeeze in one last task."
+  },
+  {
+    "nivel": "avancado",
+    "tema": "01",
+    "pt": "Mesmo que a lista esteja completa, ainda pode valer a pena rever as prioridades.",
+    "it": "Anche se la lista è completa, può comunque valere la pena rivedere le priorità.",
+    "es": "Aunque la lista esté completa, quizá valga la pena revisar las prioridades.",
+    "en": "Even if the list is complete, it may still be worth revisiting the priorities."
+  },
+  {
+    "nivel": "avancado",
+    "tema": "01",
+    "pt": "Se eu soubesse que a entrega seria antecipada, teria reservado a tarde de ontem.",
+    "it": "Se avessi saputo che la consegna sarebbe stata anticipata, avrei tenuto libero il pomeriggio di ieri.",
+    "es": "Si hubiera sabido que adelantarían la entrega, habría reservado la tarde de ayer.",
+    "en": "Had I known the delivery was being brought forward, I would have kept yesterday afternoon free."
+  },
+  {
+    "nivel": "avancado",
+    "tema": "01",
+    "pt": "Em vez de tentar recuperar cada minuto, vou aceitar que hoje o ritmo será outro.",
+    "it": "Invece di cercare di recuperare ogni minuto, accetterò che oggi il ritmo sarà diverso.",
+    "es": "En vez de intentar recuperar cada minuto, aceptaré que hoy el ritmo será distinto.",
+    "en": "Rather than trying to make up every lost minute, I'll accept that today will run at a different pace."
+  },
+  {
+    "nivel": "avancado",
+    "tema": "01",
+    "pt": "Eu costumo deixar tarefas simples para os horários em que minha concentração cai.",
+    "it": "Di solito lascio le attività più semplici per i momenti in cui mi concentro meno.",
+    "es": "Suelo dejar las tareas sencillas para los momentos en que me cuesta concentrarme.",
+    "en": "I tend to save simpler tasks for the times when my focus dips."
+  },
+  {
+    "nivel": "avancado",
+    "tema": "01",
+    "pt": "Se o compromisso fosse realmente urgente, alguém teria ligado em vez de mandar só um e-mail.",
+    "it": "Se l'impegno fosse davvero urgente, qualcuno avrebbe chiamato invece di mandare solo un'email.",
+    "es": "Si el asunto fuera realmente urgente, alguien habría llamado en vez de mandar solo un correo.",
+    "en": "If it were truly urgent, someone would have called instead of sending only an email."
+  },
+  {
+    "nivel": "avancado",
+    "tema": "01",
+    "pt": "Embora eu prefira resolver as coisas logo, às vezes esperar evita uma decisão apressada.",
+    "it": "Anche se preferisco sbrigare subito le cose, a volte aspettare evita una decisione affrettata.",
+    "es": "Aunque prefiero resolver las cosas cuanto antes, a veces esperar evita una decisión precipitada.",
+    "en": "Though I prefer to get things done right away, waiting can prevent a rushed decision."
+  },
+  {
+    "nivel": "avancado",
+    "tema": "01",
+    "pt": "Eu tinha planejado uma noite tranquila; acabou que precisei acompanhar uma entrega atrasada.",
+    "it": "Avevo programmato una serata tranquilla, ma alla fine ho dovuto seguire una consegna in ritardo.",
+    "es": "Había planeado una noche tranquila, pero al final tuve que estar pendiente de una entrega atrasada.",
+    "en": "I'd planned a quiet evening, but I ended up tracking a late delivery."
+  },
+  {
+    "nivel": "avancado",
+    "tema": "01",
+    "pt": "Se a semana continuar nesse ritmo, vou cancelar o que puder ser remarcado.",
+    "it": "Se la settimana continua a questo ritmo, annullerò gli impegni che si possono spostare.",
+    "es": "Si la semana sigue a este ritmo, cancelaré lo que se pueda reprogramar.",
+    "en": "If the week keeps going at this pace, I'll cancel whatever can be rescheduled."
+  },
+  {
+    "nivel": "avancado",
+    "tema": "01",
+    "pt": "Por mais que eu tente prever os gastos, sempre aparece alguma despesa inesperada.",
+    "it": "Per quanto cerchi di prevedere le spese, salta sempre fuori qualche costo imprevisto.",
+    "es": "Por más que intente prever los gastos, siempre surge algún gasto inesperado.",
+    "en": "No matter how carefully I budget, some unexpected expense always crops up."
+  },
+  {
+    "nivel": "avancado",
+    "tema": "01",
+    "pt": "Eu poderia ter economizado tempo se tivesse agrupado os recados por região.",
+    "it": "Avrei risparmiato tempo se avessi raggruppato le commissioni per zona.",
+    "es": "Habría ahorrado tiempo si hubiera agrupado los mandados por zona.",
+    "en": "I could have saved time if I'd grouped my errands by area."
+  },
+  {
+    "nivel": "avancado",
+    "tema": "01",
+    "pt": "Mesmo com a agenda vazia, prefiro não marcar algo em cima da hora.",
+    "it": "Anche con l'agenda vuota, preferisco non fissare impegni all'ultimo minuto.",
+    "es": "Aunque tenga la agenda libre, prefiero no agendar algo a última hora.",
+    "en": "Even with an open calendar, I prefer not to make plans at the last minute."
+  },
+  {
+    "nivel": "avancado",
+    "tema": "01",
+    "pt": "Se eu deixar tudo para domingo, vou começar a semana já cansado.",
+    "it": "Se rimando tutto a domenica, inizierò la settimana già stanco.",
+    "es": "Si dejo todo para el domingo, empezaré la semana ya cansado.",
+    "en": "If I leave everything until Sunday, I'll start the week already worn out."
+  },
+  {
+    "nivel": "avancado",
+    "tema": "01",
+    "pt": "Eu não teria perdido a consulta se tivesse recebido a confirmação no endereço certo.",
+    "it": "Non avrei saltato l'appuntamento se avessi ricevuto la conferma all'indirizzo giusto.",
+    "es": "No habría faltado a la cita si hubiera recibido la confirmación en la dirección correcta.",
+    "en": "I wouldn't have missed the appointment if the confirmation had gone to the right address."
+  },
+  {
+    "nivel": "avancado",
+    "tema": "01",
+    "pt": "Por mais tarde que eu termine hoje, vou separar alguns minutos para desacelerar antes de dormir.",
+    "it": "Anche se finirò tardi oggi, mi prenderò qualche minuto per staccare prima di dormire.",
+    "es": "Por tarde que termine hoy, me tomaré unos minutos para desconectarme antes de dormir.",
+    "en": "However late I finish today, I'll take a few minutes to wind down before bed."
+  },
+  {
+    "nivel": "avancado",
+    "tema": "01",
+    "pt": "Se a entrega puder esperar até segunda, não faz sentido pagar pelo envio expresso.",
+    "it": "Se la consegna può aspettare fino a lunedì, non ha senso pagare la spedizione express.",
+    "es": "Si la entrega puede esperar hasta el lunes, no tiene sentido pagar el envío exprés.",
+    "en": "If the delivery can wait until Monday, there's no point paying for express shipping."
+  },
+  {
+    "nivel": "avancado",
+    "tema": "01",
+    "pt": "Eu teria preferido cuidar disso antes, mas a informação só chegou no fim do expediente.",
+    "it": "Avrei preferito occuparmene prima, ma l'informazione è arrivata solo a fine giornata.",
+    "es": "Habría preferido encargarme de esto antes, pero la información llegó hasta el final de la jornada.",
+    "en": "I would have liked to handle this sooner, but the information didn't come through until the end of the day."
+  },
+  {
+    "nivel": "avancado",
+    "tema": "01",
+    "pt": "Embora o trajeto mais curto pareça melhor no mapa, ele costuma ter mais trânsito.",
+    "it": "Anche se il percorso più breve sembra migliore sulla mappa, di solito c'è più traffico.",
+    "es": "Aunque la ruta más corta parezca mejor en el mapa, suele tener más tráfico.",
+    "en": "Although the shorter route looks better on the map, it usually has more traffic."
+  },
+  {
+    "nivel": "avancado",
+    "tema": "01",
+    "pt": "Se eu tivesse guardado o comprovante, a contestação da cobrança seria mais simples.",
+    "it": "Se avessi conservato la ricevuta, contestare l'addebito sarebbe stato più semplice.",
+    "es": "Si hubiera guardado el comprobante, reclamar el cargo habría sido más sencillo.",
+    "en": "If I'd kept the receipt, disputing the charge would have been easier."
+  },
+  {
+    "nivel": "avancado",
+    "tema": "01",
+    "pt": "Eu tento manter uma noite livre, ainda que isso signifique dizer não a alguns convites.",
+    "it": "Cerco di tenere libera una sera, anche se questo significa rifiutare qualche invito.",
+    "es": "Intento dejar una noche libre, aunque eso signifique decir que no a algunas invitaciones.",
+    "en": "I try to keep one evening free, even if that means turning down a few invitations."
+  },
+  {
+    "nivel": "avancado",
+    "tema": "01",
+    "pt": "Caso o reparo demore mais do que prometeram, precisaremos combinar outra solução.",
+    "it": "Se la riparazione richiede più tempo di quanto promesso, dovremo trovare un'altra soluzione.",
+    "es": "Si la reparación tarda más de lo que prometieron, tendremos que buscar otra solución.",
+    "en": "If the repair takes longer than promised, we'll need to work out another solution."
+  },
+  {
+    "nivel": "avancado",
+    "tema": "01",
+    "pt": "Eu teria levado o carregador se soubesse que ficaríamos fora até tão tarde.",
+    "it": "Avrei portato il caricabatterie se avessi saputo che saremmo rimasti fuori così a lungo.",
+    "es": "Habría llevado el cargador si hubiera sabido que estaríamos fuera hasta tan tarde.",
+    "en": "I would have brought the charger if I'd known we'd be out so late."
+  },
+  {
+    "nivel": "avancado",
+    "tema": "01",
+    "pt": "Ainda que eu não consiga cumprir toda a lista, quero terminar o que depende só de mim.",
+    "it": "Anche se non riesco a completare tutta la lista, voglio finire ciò che dipende solo da me.",
+    "es": "Aunque no logre completar toda la lista, quiero terminar lo que depende solo de mí.",
+    "en": "Even if I can't get through the whole list, I want to finish what depends only on me."
+  },
+  {
+    "nivel": "avancado",
+    "tema": "01",
+    "pt": "Se eu tivesse protegido melhor esse horário, não estaria tentando recuperar o atraso agora.",
+    "it": "Se avessi protetto meglio quell'orario, ora non starei cercando di recuperare il ritardo.",
+    "es": "Si hubiera protegido mejor ese horario, ahora no estaría intentando recuperar el atraso.",
+    "en": "If I'd protected that time better, I wouldn't be trying to catch up now."
+  },
+  {
+    "nivel": "avancado",
+    "tema": "02",
+    "pt": "Se a tarifa permitir alterações, eu reservaria agora e decidiria os detalhes depois.",
+    "it": "Se la tariffa consente modifiche, prenoterei adesso e definirei i dettagli in seguito.",
+    "es": "Si la tarifa permite cambios, reservaría ahora y decidiría los detalles después.",
+    "en": "If the fare allows changes, I'd book now and sort out the details later."
+  },
+  {
+    "nivel": "avancado",
+    "tema": "02",
+    "pt": "A menos que o hotel confirme por escrito, eu não contaria com o transfer gratuito.",
+    "it": "A meno che l'hotel non lo confermi per iscritto, non farei affidamento sulla navetta gratuita.",
+    "es": "A menos que el hotel lo confirme por escrito, no contaría con el traslado gratis.",
+    "en": "Unless the hotel confirms it in writing, I wouldn't count on the free shuttle."
+  },
+  {
+    "nivel": "avancado",
+    "tema": "02",
+    "pt": "Embora a conexão seja mais curta, a passagem mais cara inclui bagagem e escolha de assento.",
+    "it": "Anche se lo scalo è più breve, il biglietto più caro include bagaglio e scelta del posto.",
+    "es": "Aunque la escala es más corta, el boleto más caro incluye equipaje y selección de asiento.",
+    "en": "Although the connection is shorter, the more expensive ticket includes baggage and seat selection."
+  },
+  {
+    "nivel": "avancado",
+    "tema": "02",
+    "pt": "Eu teria contestado a cobrança no balcão se soubesse que o prazo era tão curto.",
+    "it": "Avrei contestato l'addebito allo sportello se avessi saputo che la scadenza era così vicina.",
+    "es": "Habría reclamado el cargo en el mostrador si hubiera sabido que el plazo era tan corto.",
+    "en": "I would have disputed the charge at the counter if I'd known the deadline was so close."
+  },
+  {
+    "nivel": "avancado",
+    "tema": "02",
+    "pt": "Por mais lotada que esteja a estação, não atravesse os trilhos para ganhar tempo.",
+    "it": "Per quanto sia affollata la stazione, non attraversare i binari per fare prima.",
+    "es": "Por llena que esté la estación, no cruces las vías para ganar tiempo.",
+    "en": "No matter how crowded the station is, don't cross the tracks to save time."
+  },
+  {
+    "nivel": "avancado",
+    "tema": "02",
+    "pt": "Se o menu não indicar os ingredientes, pergunte antes de fazer o pedido.",
+    "it": "Se il menu non indica gli ingredienti, chiedi prima di ordinare.",
+    "es": "Si el menú no indica los ingredientes, pregunta antes de pedir.",
+    "en": "If the menu doesn't list the ingredients, ask before ordering."
+  },
+  {
+    "nivel": "avancado",
+    "tema": "02",
+    "pt": "O atendente ofereceu crédito na loja; eu preferia receber o reembolso no cartão.",
+    "it": "L'addetto ha offerto un buono, ma preferivo il rimborso sulla carta.",
+    "es": "El empleado ofreció un crédito en la tienda; yo prefería el reembolso a la tarjeta.",
+    "en": "The clerk offered store credit; I'd rather have the refund on my card."
+  },
+  {
+    "nivel": "avancado",
+    "tema": "02",
+    "pt": "Eu reservaria uma mesa no terraço, contanto que houvesse cobertura caso chovesse.",
+    "it": "Prenoterei un tavolo in terrazza, a patto che ci sia una copertura in caso di pioggia.",
+    "es": "Reservaría una mesa en la terraza, siempre que haya techo por si llueve.",
+    "en": "I'd book a patio table as long as there's cover in case it rains."
+  },
+  {
+    "nivel": "avancado",
+    "tema": "02",
+    "pt": "Embora o passeio tenha sido anunciado como acessível, havia degraus na entrada do barco.",
+    "it": "Anche se l'escursione era pubblicizzata come accessibile, c'erano gradini per salire sulla barca.",
+    "es": "Aunque anunciaban el recorrido como accesible, había escalones para subir al barco.",
+    "en": "Although the tour was advertised as accessible, there were steps to board the boat."
+  },
+  {
+    "nivel": "avancado",
+    "tema": "02",
+    "pt": "Se tivéssemos comprado o bilhete flexível, poderíamos ter embarcado no trem seguinte.",
+    "it": "Se avessimo comprato il biglietto flessibile, avremmo potuto prendere il treno successivo.",
+    "es": "Si hubiéramos comprado el boleto flexible, habríamos podido tomar el siguiente tren.",
+    "en": "If we'd bought a flexible ticket, we could have taken the next train."
+  },
+  {
+    "nivel": "avancado",
+    "tema": "02",
+    "pt": "A política parece simples, mas a taxa de limpeza só aparece na etapa final.",
+    "it": "La politica sembra semplice, ma il costo delle pulizie compare solo alla fine.",
+    "es": "La política parece sencilla, pero el cargo de limpieza solo aparece al final.",
+    "en": "The policy looks simple, but the cleaning fee doesn't show up until the last step."
+  },
+  {
+    "nivel": "avancado",
+    "tema": "02",
+    "pt": "Eu não me importaria de pagar um pouco mais se a conexão fosse direta.",
+    "it": "Non mi dispiacerebbe pagare un po' di più se il collegamento fosse diretto.",
+    "es": "No me importaría pagar un poco más si el vuelo fuera directo.",
+    "en": "I wouldn't mind paying a bit more if the connection were nonstop."
+  },
+  {
+    "nivel": "avancado",
+    "tema": "02",
+    "pt": "Mesmo que o quarto esteja pronto, prefiro deixar as malas guardadas até o check-in.",
+    "it": "Anche se la camera è pronta, preferisco lasciare i bagagli in deposito fino al check-in.",
+    "es": "Aunque la habitación esté lista, prefiero dejar las maletas guardadas hasta el registro.",
+    "en": "Even if the room is ready, I'd rather leave the bags in storage until check-in."
+  },
+  {
+    "nivel": "avancado",
+    "tema": "02",
+    "pt": "Se a loja não aceitar a devolução, vou pedir que explique por que a política não se aplica.",
+    "it": "Se il negozio non accetta il reso, chiederò di spiegare perché la politica non si applica.",
+    "es": "Si la tienda no acepta la devolución, pediré que me expliquen por qué no aplica la política.",
+    "en": "If the store won't take the return, I'll ask them to explain why the policy doesn't apply."
+  },
+  {
+    "nivel": "avancado",
+    "tema": "02",
+    "pt": "Eu teria escolhido uma mesa interna se tivesse previsto o barulho da rua.",
+    "it": "Avrei scelto il tavolo all'interno se avessi previsto il rumore della strada.",
+    "es": "Habría elegido una mesa adentro si hubiera previsto el ruido de la calle.",
+    "en": "I would have chosen an indoor table if I'd expected the street noise."
+  },
+  {
+    "nivel": "avancado",
+    "tema": "02",
+    "pt": "A reserva está no meu sobrenome, embora a confirmação tenha sido enviada ao endereço da empresa.",
+    "it": "La prenotazione è a nome mio, anche se la conferma è stata inviata all'indirizzo aziendale.",
+    "es": "La reserva está a nombre mío, aunque la confirmación se envió al correo de la empresa.",
+    "en": "The reservation is under my last name, though the confirmation went to my work email."
+  },
+  {
+    "nivel": "avancado",
+    "tema": "02",
+    "pt": "Por mais conveniente que seja o câmbio do aeroporto, vale comparar a taxa antes de trocar.",
+    "it": "Per quanto sia comodo il cambio in aeroporto, conviene confrontare il tasso prima di cambiare.",
+    "es": "Por conveniente que sea el cambio del aeropuerto, conviene comparar la tasa antes de cambiar dinero.",
+    "en": "However convenient the airport exchange counter is, it's worth comparing the rate first."
+  },
+  {
+    "nivel": "avancado",
+    "tema": "02",
+    "pt": "Se o trem atrasar de novo, gostaria de saber quais despesas a empresa reembolsa.",
+    "it": "Se il treno fa di nuovo ritardo, vorrei sapere quali spese rimborsa la compagnia.",
+    "es": "Si el tren vuelve a retrasarse, quisiera saber qué gastos reembolsa la empresa.",
+    "en": "If the train is delayed again, I'd like to know which expenses the company will reimburse."
+  },
+  {
+    "nivel": "avancado",
+    "tema": "02",
+    "pt": "O preço anunciado era por pessoa, não pelo quarto inteiro.",
+    "it": "Il prezzo pubblicizzato era a persona, non per l'intera camera.",
+    "es": "El precio anunciado era por persona, no por toda la habitación.",
+    "en": "The advertised price was per person, not for the whole room."
+  },
+  {
+    "nivel": "avancado",
+    "tema": "02",
+    "pt": "Eu teria pedido uma mesa mais cedo se soubesse que o restaurante fechava a cozinha às nove.",
+    "it": "Avrei chiesto un tavolo prima se avessi saputo che il ristorante chiudeva la cucina alle nove.",
+    "es": "Habría pedido una mesa más temprano si hubiera sabido que el restaurante cerraba la cocina a las nueve.",
+    "en": "I would have asked for a table earlier if I'd known the kitchen closed at nine."
+  },
+  {
+    "nivel": "avancado",
+    "tema": "02",
+    "pt": "Embora a bagagem tenha chegado no mesmo dia, a alça estava danificada.",
+    "it": "Anche se il bagaglio è arrivato lo stesso giorno, la maniglia era danneggiata.",
+    "es": "Aunque el equipaje llegó el mismo día, el asa estaba dañada.",
+    "en": "Although the luggage arrived the same day, the handle was damaged."
+  },
+  {
+    "nivel": "avancado",
+    "tema": "02",
+    "pt": "Se a operadora não corrigir a fatura, contestarei o valor por escrito.",
+    "it": "Se l'operatore non corregge la fattura, contesterò l'importo per iscritto.",
+    "es": "Si la compañía no corrige la factura, reclamaré el monto por escrito.",
+    "en": "If the provider doesn't correct the bill, I'll dispute the amount in writing."
+  },
+  {
+    "nivel": "avancado",
+    "tema": "02",
+    "pt": "O guia adaptou a visita para evitar as escadas, sem encurtar o percurso.",
+    "it": "La guida ha adattato la visita per evitare le scale senza accorciare il percorso.",
+    "es": "El guía adaptó la visita para evitar las escaleras sin acortar el recorrido.",
+    "en": "The guide adjusted the tour to avoid the stairs without shortening it."
+  },
+  {
+    "nivel": "avancado",
+    "tema": "02",
+    "pt": "Eu escolheria a pousada mais distante se o transporte noturno fosse confiável.",
+    "it": "Sceglierei l'alloggio più lontano se i trasporti notturni fossero affidabili.",
+    "es": "Elegiría el alojamiento más lejos si el transporte nocturno fuera confiable.",
+    "en": "I'd choose the farther inn if nighttime transit were reliable."
+  },
+  {
+    "nivel": "avancado",
+    "tema": "02",
+    "pt": "A taxa de serviço já estava incluída, então não acrescentamos outra gorjeta automática.",
+    "it": "Il servizio era già incluso, quindi non abbiamo aggiunto un'altra mancia automaticamente.",
+    "es": "El servicio ya estaba incluido, así que no agregamos otra propina automática.",
+    "en": "The service charge was already included, so we didn't add another automatic tip."
+  },
+  {
+    "nivel": "avancado",
+    "tema": "02",
+    "pt": "Mesmo que o voo seja remarcado sem custo, talvez percamos a conexão internacional.",
+    "it": "Anche se il volo viene riprogrammato senza costi, potremmo perdere la coincidenza internazionale.",
+    "es": "Aunque cambien el vuelo sin costo, quizá perdamos la conexión internacional.",
+    "en": "Even if they rebook the flight for free, we may miss the international connection."
+  },
+  {
+    "nivel": "avancado",
+    "tema": "02",
+    "pt": "Se eu tivesse percebido a diferença entre as tarifas, teria escolhido a opção reembolsável.",
+    "it": "Se avessi notato la differenza tra le tariffe, avrei scelto quella rimborsabile.",
+    "es": "Si hubiera notado la diferencia entre las tarifas, habría elegido la opción reembolsable.",
+    "en": "If I'd noticed the difference between the fares, I would have chosen the refundable option."
+  },
+  {
+    "nivel": "avancado",
+    "tema": "02",
+    "pt": "Por mais que a atendente tenha tentado ajudar, ela não podia autorizar a exceção.",
+    "it": "Per quanto l'addetta abbia cercato di aiutare, non poteva autorizzare l'eccezione.",
+    "es": "Por más que la empleada intentó ayudar, no podía autorizar la excepción.",
+    "en": "As much as the clerk tried to help, she couldn't authorize the exception."
+  },
+  {
+    "nivel": "avancado",
+    "tema": "02",
+    "pt": "Eu pediria que separassem o valor da comida e das bebidas para dividirmos a conta corretamente.",
+    "it": "Chiederei di separare l'importo del cibo e delle bevande per dividere il conto correttamente.",
+    "es": "Pediría que separaran el costo de la comida y las bebidas para dividir bien la cuenta.",
+    "en": "I'd ask them to split out the food and drinks so we could divide the bill fairly."
+  },
+  {
+    "nivel": "avancado",
+    "tema": "02",
+    "pt": "Se a política mudar depois da reserva, a confirmação original deve esclarecer quais regras valem.",
+    "it": "Se la politica cambia dopo la prenotazione, la conferma originale dovrebbe chiarire quali regole valgono.",
+    "es": "Si la política cambia después de reservar, la confirmación original debería aclarar qué reglas aplican.",
+    "en": "If the policy changes after booking, the original confirmation should clarify which rules apply."
+  },
+  {
+    "nivel": "avancado",
+    "tema": "03",
+    "pt": "Se a intenção era minimizar o impacto, teria sido melhor conversar conosco antes do anúncio.",
+    "it": "Se l'obiettivo era ridurre al minimo l'impatto, sarebbe stato meglio parlarne con noi prima dell'annuncio.",
+    "es": "Si la intención era reducir el impacto al mínimo, habría sido mejor hablar con nosotros antes del anuncio.",
+    "en": "If the goal was to minimize the impact, it would have been better to talk with us before the announcement."
+  },
+  {
+    "nivel": "avancado",
+    "tema": "03",
+    "pt": "Eu entendo sua ressalva; ainda assim, gostaria de saber o que faria você se sentir mais à vontade.",
+    "it": "Capisco la tua riserva; vorrei comunque sapere cosa ti farebbe sentire più a tuo agio.",
+    "es": "Entiendo tu reparo; aun así, me gustaría saber qué te haría sentir más a gusto.",
+    "en": "I understand your hesitation; I'd still like to know what would make you feel more comfortable."
+  },
+  {
+    "nivel": "avancado",
+    "tema": "03",
+    "pt": "Mesmo que eu discorde da conclusão, reconheço que você considerou os dois lados.",
+    "it": "Anche se non condivido la conclusione, riconosco che hai considerato entrambi i punti di vista.",
+    "es": "Aunque no comparta la conclusión, reconozco que tomaste en cuenta los dos lados.",
+    "en": "Even if I disagree with the conclusion, I recognize that you considered both sides."
+  },
+  {
+    "nivel": "avancado",
+    "tema": "03",
+    "pt": "Se tivéssemos conversado sem pressa, talvez não tivéssemos levado a crítica para o lado pessoal.",
+    "it": "Se ne avessimo parlato con calma, forse non avremmo preso sul personale la critica.",
+    "es": "Si hubiéramos hablado con calma, quizá no nos habríamos tomado la crítica como algo personal.",
+    "en": "If we'd talked it through calmly, we might not have taken the criticism personally."
+  },
+  {
+    "nivel": "avancado",
+    "tema": "03",
+    "pt": "Não quero colocar palavras na sua boca; estou tentando entender o que você quis dizer.",
+    "it": "Non voglio metterti in bocca parole che non hai detto; sto cercando di capire cosa intendevi.",
+    "es": "No quiero poner palabras en tu boca; intento entender qué quisiste decir.",
+    "en": "I don't want to put words in your mouth; I'm trying to understand what you meant."
+  },
+  {
+    "nivel": "avancado",
+    "tema": "03",
+    "pt": "Por mais delicado que seja o assunto, prefiro que falemos com franqueza.",
+    "it": "Per quanto sia delicato l'argomento, preferisco parlarne con franchezza.",
+    "es": "Por delicado que sea el tema, prefiero que hablemos con franqueza.",
+    "en": "As delicate as the subject is, I'd rather we speak candidly."
+  },
+  {
+    "nivel": "avancado",
+    "tema": "03",
+    "pt": "Se eu estivesse no seu lugar, pediria um tempo antes de responder.",
+    "it": "Se fossi al tuo posto, mi prenderei un po' di tempo prima di rispondere.",
+    "es": "Si estuviera en tu lugar, me tomaría un tiempo antes de responder.",
+    "en": "If I were in your shoes, I'd take some time before replying."
+  },
+  {
+    "nivel": "avancado",
+    "tema": "03",
+    "pt": "Embora a proposta tenha boas intenções, ela pode soar como uma cobrança.",
+    "it": "Anche se la proposta nasce da buone intenzioni, potrebbe sembrare una pretesa.",
+    "es": "Aunque la propuesta tenga buenas intenciones, puede sonar a exigencia.",
+    "en": "Although the suggestion is well-intentioned, it could come across as a demand."
+  },
+  {
+    "nivel": "avancado",
+    "tema": "03",
+    "pt": "Eu teria levantado a questão na reunião se soubesse que você esperava minha opinião.",
+    "it": "Avrei sollevato la questione durante la riunione se avessi saputo che aspettavi un mio parere.",
+    "es": "Habría planteado el tema en la reunión si hubiera sabido que esperabas mi opinión.",
+    "en": "I would have raised the issue in the meeting if I'd known you wanted my input."
+  },
+  {
+    "nivel": "avancado",
+    "tema": "03",
+    "pt": "Vamos deixar claro o que cada um espera, para não voltar ao mesmo mal-entendido.",
+    "it": "Chiariamo cosa si aspetta ciascuno, così evitiamo di ripetere lo stesso malinteso.",
+    "es": "Dejemos claro qué espera cada quien para no repetir el mismo malentendido.",
+    "en": "Let's make clear what each of us expects so we don't repeat the same misunderstanding."
+  },
+  {
+    "nivel": "avancado",
+    "tema": "03",
+    "pt": "Eu consigo entender por que isso a incomodou, ainda que não tenha percebido na hora.",
+    "it": "Capisco perché ti abbia dato fastidio, anche se non me ne sono accorto sul momento.",
+    "es": "Entiendo por qué te molestó, aunque no me di cuenta en el momento.",
+    "en": "I can see why that bothered you, even though I didn't realize it at the time."
+  },
+  {
+    "nivel": "avancado",
+    "tema": "03",
+    "pt": "Se preferir não responder agora, tudo bem; retomamos quando fizer sentido.",
+    "it": "Se preferisci non rispondere adesso, va bene; ne riparleremo quando sarà il momento.",
+    "es": "Si prefieres no responder ahora, está bien; lo retomamos cuando tenga sentido.",
+    "en": "If you'd rather not answer now, that's fine; we can come back to it when it makes sense."
+  },
+  {
+    "nivel": "avancado",
+    "tema": "03",
+    "pt": "Ainda que a decisão tenha sido difícil, não acho justo responsabilizar uma pessoa só.",
+    "it": "Anche se la decisione è stata difficile, non mi sembra giusto attribuirne la responsabilità a una sola persona.",
+    "es": "Aunque la decisión fue difícil, no me parece justo responsabilizar a una sola persona.",
+    "en": "Even though the decision was difficult, I don't think it's fair to place the blame on one person."
+  },
+  {
+    "nivel": "avancado",
+    "tema": "03",
+    "pt": "Eu poderia ter formulado melhor o pedido; não queria dar a impressão de que estava cobrando.",
+    "it": "Avrei potuto formulare meglio la richiesta; non volevo dare l'impressione di pretendere qualcosa.",
+    "es": "Podría haber expresado mejor la petición; no quería dar la impresión de que estaba exigiendo algo.",
+    "en": "I could have phrased the request better; I didn't mean to make it sound like I was pressing you."
+  },
+  {
+    "nivel": "avancado",
+    "tema": "03",
+    "pt": "Se a conversa ficar tensa, podemos fazer uma pausa e voltar ao ponto principal.",
+    "it": "Se la conversazione si fa tesa, possiamo fare una pausa e tornare al punto principale.",
+    "es": "Si la conversación se tensa, podemos hacer una pausa y volver al punto principal.",
+    "en": "If the conversation gets tense, we can take a break and return to the main point."
+  },
+  {
+    "nivel": "avancado",
+    "tema": "03",
+    "pt": "Ela aceitou o pedido de desculpas, mas pediu que eu não repetisse aquilo.",
+    "it": "Ha accettato le scuse, ma mi ha chiesto di non ripetere una cosa del genere.",
+    "es": "Aceptó las disculpas, pero me pidió que no volviera a hacer eso.",
+    "en": "She accepted the apology but asked me not to do that again."
+  },
+  {
+    "nivel": "avancado",
+    "tema": "03",
+    "pt": "Por mais que eu valorize a sinceridade, o momento e o tom também importam.",
+    "it": "Per quanto apprezzi la sincerità, contano anche il momento e il tono.",
+    "es": "Por mucho que valore la sinceridad, el momento y el tono también importan.",
+    "en": "Much as I value honesty, timing and tone matter too."
+  },
+  {
+    "nivel": "avancado",
+    "tema": "03",
+    "pt": "Se ele tivesse mencionado essa limitação antes, teríamos ajustado as expectativas.",
+    "it": "Se avesse menzionato prima quel limite, avremmo adeguato le aspettative.",
+    "es": "Si hubiera mencionado esa limitación antes, habríamos ajustado las expectativas.",
+    "en": "If he'd mentioned that limitation earlier, we would have adjusted our expectations."
+  },
+  {
+    "nivel": "avancado",
+    "tema": "03",
+    "pt": "Eu preferiria não falar por ela; talvez seja melhor perguntar diretamente.",
+    "it": "Preferirei non parlare a suo nome; forse è meglio chiederlo direttamente.",
+    "es": "Preferiría no hablar por ella; quizá sea mejor preguntarle directamente.",
+    "en": "I'd rather not speak for her; it may be better to ask her directly."
+  },
+  {
+    "nivel": "avancado",
+    "tema": "03",
+    "pt": "Embora ele tenha pedido discrição, não posso prometer que o assunto ficará entre nós.",
+    "it": "Anche se ha chiesto discrezione, non posso promettere che la cosa resterà tra noi.",
+    "es": "Aunque pidió discreción, no puedo prometer que el asunto quede entre nosotros.",
+    "en": "Though he asked me to be discreet, I can't promise the matter will stay between us."
+  },
+  {
+    "nivel": "avancado",
+    "tema": "03",
+    "pt": "Se eu tivesse escutado até o fim, teria percebido que a proposta era outra.",
+    "it": "Se avessi ascoltato fino alla fine, avrei capito che la proposta era diversa.",
+    "es": "Si hubiera escuchado hasta el final, habría notado que la propuesta era otra.",
+    "en": "If I had listened to the whole thing, I would have realized it was a different proposal."
+  },
+  {
+    "nivel": "avancado",
+    "tema": "03",
+    "pt": "Não é que eu não confie em você; é que preciso confirmar os detalhes antes de concordar.",
+    "it": "Non è che non mi fidi di te; ho solo bisogno di verificare i dettagli prima di accettare.",
+    "es": "No es que no confíe en ti; necesito confirmar los detalles antes de aceptar.",
+    "en": "It's not that I don't trust you; I need to confirm the details before agreeing."
+  },
+  {
+    "nivel": "avancado",
+    "tema": "03",
+    "pt": "Mesmo que você tenha razão sobre os fatos, a forma de apresentar o ponto pode mudar a reação.",
+    "it": "Anche se hai ragione sui fatti, il modo in cui esponi il punto può cambiare la reazione.",
+    "es": "Aunque tengas razón en los hechos, la forma de plantear el punto puede cambiar la reacción.",
+    "en": "Even if you're right on the facts, how you make the point can change the response."
+  },
+  {
+    "nivel": "avancado",
+    "tema": "03",
+    "pt": "Eu não teria insistido se soubesse que aquele limite era importante para você.",
+    "it": "Non avrei insistito se avessi saputo che quel limite era importante per te.",
+    "es": "No habría insistido si hubiera sabido que ese límite era importante para ti.",
+    "en": "I wouldn't have pushed if I'd known that boundary mattered to you."
+  },
+  {
+    "nivel": "avancado",
+    "tema": "03",
+    "pt": "Caso a gente volte a discutir isso, queria combinar um jeito de interromper sem aumentar o tom.",
+    "it": "Se torniamo a discuterne, vorrei concordare un modo per fermarci senza alzare la voce.",
+    "es": "Si volvemos a discutirlo, quisiera que acordáramos cómo parar sin subir el tono.",
+    "en": "If we revisit this, I'd like us to agree on a way to pause without raising our voices."
+  },
+  {
+    "nivel": "avancado",
+    "tema": "03",
+    "pt": "A conversa não resolveu tudo, mas ao menos deixou as diferenças mais claras.",
+    "it": "La conversazione non ha risolto tutto, ma almeno ha chiarito meglio le differenze.",
+    "es": "La conversación no resolvió todo, pero al menos dejó más claras las diferencias.",
+    "en": "The conversation didn't resolve everything, but at least it clarified where we differ."
+  },
+  {
+    "nivel": "avancado",
+    "tema": "03",
+    "pt": "Eu gostaria que você me dissesse quando uma brincadeira passar do limite.",
+    "it": "Vorrei che mi dicessi quando una battuta supera il limite.",
+    "es": "Me gustaría que me dijeras cuándo una broma cruza el límite.",
+    "en": "I'd like you to tell me when a joke crosses the line."
+  },
+  {
+    "nivel": "avancado",
+    "tema": "03",
+    "pt": "Se a intenção não era excluir ninguém, vale reconhecer como a decisão foi recebida.",
+    "it": "Se l'intenzione non era escludere nessuno, vale la pena riconoscere come è stata percepita la decisione.",
+    "es": "Si la intención no era excluir a nadie, conviene reconocer cómo se recibió la decisión.",
+    "en": "If the intent wasn't to leave anyone out, it's still worth acknowledging how the decision landed."
+  },
+  {
+    "nivel": "avancado",
+    "tema": "03",
+    "pt": "Eu entendo que você veja isso de outro modo; minha experiência foi diferente.",
+    "it": "Capisco che tu la veda diversamente; la mia esperienza è stata un'altra.",
+    "es": "Entiendo que lo veas de otra manera; mi experiencia fue distinta.",
+    "en": "I understand that you see it differently; my experience was different."
+  },
+  {
+    "nivel": "avancado",
+    "tema": "03",
+    "pt": "Ainda que não possamos mudar o que aconteceu, podemos decidir como seguir daqui.",
+    "it": "Anche se non possiamo cambiare quello che è successo, possiamo decidere come andare avanti.",
+    "es": "Aunque no podamos cambiar lo que pasó, podemos decidir cómo seguir adelante.",
+    "en": "Even though we can't change what happened, we can decide how to move forward."
+  },
+  {
+    "nivel": "avancado",
+    "tema": "04",
+    "pt": "Se reduzirmos o escopo agora, conseguimos manter a data sem comprometer a etapa de testes.",
+    "it": "Se riduciamo l'ambito adesso, possiamo rispettare la data senza compromettere i test.",
+    "es": "Si reducimos el alcance ahora, podemos mantener la fecha sin comprometer las pruebas.",
+    "en": "If we trim the scope now, we can keep the date without compromising testing."
+  },
+  {
+    "nivel": "avancado",
+    "tema": "04",
+    "pt": "Eu não recomendaria aprovar o orçamento até o fornecedor discriminar os custos recorrentes.",
+    "it": "Non consiglierei di approvare il budget finché il fornitore non avrà dettagliato i costi ricorrenti.",
+    "es": "No recomendaría aprobar el presupuesto hasta que el proveedor desglose los costos recurrentes.",
+    "en": "I wouldn't recommend approving the budget until the vendor breaks out the recurring costs."
+  },
+  {
+    "nivel": "avancado",
+    "tema": "04",
+    "pt": "Embora a solução seja tecnicamente sólida, sua manutenção dependeria de uma única pessoa.",
+    "it": "Anche se la soluzione è tecnicamente valida, la manutenzione dipenderebbe da una sola persona.",
+    "es": "Aunque la solución es técnicamente sólida, su mantenimiento dependería de una sola persona.",
+    "en": "While the solution is technically sound, its maintenance would depend on one person."
+  },
+  {
+    "nivel": "avancado",
+    "tema": "04",
+    "pt": "Se o cliente não tiver objeção, eu registraria essa exceção no aditivo contratual.",
+    "it": "Se il cliente non ha obiezioni, registrerei questa eccezione nell'appendice al contratto.",
+    "es": "Si el cliente no tiene objeciones, dejaría registrada esta excepción en el anexo del contrato.",
+    "en": "If the client has no objection, I'd document this exception in the contract addendum."
+  },
+  {
+    "nivel": "avancado",
+    "tema": "04",
+    "pt": "Poderíamos aceitar o prazo menor, desde que a validação fique sob responsabilidade do fornecedor.",
+    "it": "Potremmo accettare tempi più stretti, a condizione che la convalida sia a carico del fornitore.",
+    "es": "Podríamos aceptar el plazo más corto, siempre que el proveedor se encargue de la validación.",
+    "en": "We could accept the shorter timeline provided the vendor owns the validation."
+  },
+  {
+    "nivel": "avancado",
+    "tema": "04",
+    "pt": "Eu teria escalado o bloqueio antes se soubesse que a equipe não tinha acesso ao ambiente.",
+    "it": "Avrei segnalato prima il blocco ai responsabili se avessi saputo che il gruppo non aveva accesso all'ambiente.",
+    "es": "Habría escalado el bloqueo antes si hubiera sabido que el equipo no tenía acceso al entorno.",
+    "en": "I would have escalated the blocker sooner if I'd known the team couldn't access the environment."
+  },
+  {
+    "nivel": "avancado",
+    "tema": "04",
+    "pt": "Por mais que a estimativa pareça conservadora, ela se baseia em entregas anteriores.",
+    "it": "Per quanto la stima sembri prudente, si basa su consegne precedenti.",
+    "es": "Por conservadora que parezca la estimación, se basa en entregas anteriores.",
+    "en": "As conservative as the estimate may seem, it's based on previous deliveries."
+  },
+  {
+    "nivel": "avancado",
+    "tema": "04",
+    "pt": "A proposta resolve o gargalo atual, embora deixe a integração com o sistema legado para depois.",
+    "it": "La proposta risolve il collo di bottiglia attuale, anche se rimanda l'integrazione con il sistema legacy.",
+    "es": "La propuesta resuelve el cuello de botella actual, aunque deja para después la integración con el sistema anterior.",
+    "en": "The proposal addresses the current bottleneck, though it leaves integration with the legacy system for later."
+  },
+  {
+    "nivel": "avancado",
+    "tema": "04",
+    "pt": "Se tivéssemos definido os critérios de aceite no início, a discussão seria mais objetiva.",
+    "it": "Se avessimo definito i criteri di accettazione all'inizio, la discussione sarebbe più concreta.",
+    "es": "Si hubiéramos definido los criterios de aceptación al principio, la discusión sería más objetiva.",
+    "en": "If we'd defined the acceptance criteria up front, the discussion would be more concrete."
+  },
+  {
+    "nivel": "avancado",
+    "tema": "04",
+    "pt": "Eu sugeriria dividir o pagamento por marcos, em vez de antecipar o valor integral.",
+    "it": "Suggerirei di suddividere il pagamento per fasi invece di versare subito l'intero importo.",
+    "es": "Sugeriría dividir el pago por hitos en vez de adelantar el monto completo.",
+    "en": "I'd suggest tying payments to milestones instead of paying the full amount up front."
+  },
+  {
+    "nivel": "avancado",
+    "tema": "04",
+    "pt": "Embora o indicador tenha melhorado, ainda está abaixo do limite acordado.",
+    "it": "Anche se l'indicatore è migliorato, è ancora al di sotto della soglia concordata.",
+    "es": "Aunque el indicador mejoró, todavía está por debajo del límite acordado.",
+    "en": "Although the metric improved, it is still below the agreed threshold."
+  },
+  {
+    "nivel": "avancado",
+    "tema": "04",
+    "pt": "Se aceitarmos essa mudança sem rever a equipe, o risco de atraso ficará maior.",
+    "it": "Se accettiamo questa modifica senza rivedere il personale, aumenterà il rischio di ritardo.",
+    "es": "Si aceptamos este cambio sin revisar el equipo, aumentará el riesgo de retraso.",
+    "en": "If we accept this change without revisiting staffing, the risk of delay will go up."
+  },
+  {
+    "nivel": "avancado",
+    "tema": "04",
+    "pt": "O fornecedor assumiu a falha e apresentou um plano de correção com etapas verificáveis.",
+    "it": "Il fornitore ha riconosciuto il problema e presentato un piano di correzione con fasi verificabili.",
+    "es": "El proveedor reconoció la falla y presentó un plan de corrección con etapas verificables.",
+    "en": "The vendor owned the failure and presented a fix plan with verifiable milestones."
+  },
+  {
+    "nivel": "avancado",
+    "tema": "04",
+    "pt": "Eu não trataria essa estimativa como compromisso até confirmarmos as dependências externas.",
+    "it": "Non considererei questa stima un impegno finché non avremo confermato le dipendenze esterne.",
+    "es": "No trataría esta estimación como un compromiso hasta confirmar las dependencias externas.",
+    "en": "I wouldn't treat that estimate as a commitment until we confirm the external dependencies."
+  },
+  {
+    "nivel": "avancado",
+    "tema": "04",
+    "pt": "Mesmo que a equipe consiga acelerar, não há margem para repetir a homologação.",
+    "it": "Anche se il gruppo riesce ad accelerare, non c'è tempo per ripetere il collaudo.",
+    "es": "Aunque el equipo logre acelerar, no hay margen para repetir la validación.",
+    "en": "Even if the team can move faster, there is no room to repeat acceptance testing."
+  },
+  {
+    "nivel": "avancado",
+    "tema": "04",
+    "pt": "Se você estiver de acordo, envio duas opções com custos e riscos lado a lado.",
+    "it": "Se sei d'accordo, invio due opzioni con costi e rischi a confronto.",
+    "es": "Si estás de acuerdo, envío dos opciones con costos y riesgos en paralelo.",
+    "en": "If you're on board, I'll send two options with costs and risks side by side."
+  },
+  {
+    "nivel": "avancado",
+    "tema": "04",
+    "pt": "Eu aceitaria a extensão, contanto que o novo cronograma inclua uma revisão intermediária.",
+    "it": "Accetterei la proroga, a patto che il nuovo calendario includa una verifica intermedia.",
+    "es": "Aceptaría la extensión, siempre que el nuevo cronograma incluya una revisión intermedia.",
+    "en": "I'd accept the extension as long as the new schedule includes a midpoint review."
+  },
+  {
+    "nivel": "avancado",
+    "tema": "04",
+    "pt": "A equipe não deveria absorver esse custo, já que a alteração partiu do cliente.",
+    "it": "Il gruppo non dovrebbe farsi carico di questo costo, dato che la modifica è partita dal cliente.",
+    "es": "El equipo no debería asumir este costo, ya que el cambio lo pidió el cliente.",
+    "en": "The team shouldn't absorb that cost, since the client requested the change."
+  },
+  {
+    "nivel": "avancado",
+    "tema": "04",
+    "pt": "Por mais atraente que seja automatizar tudo, ainda precisamos de uma revisão humana para exceções.",
+    "it": "Per quanto sia allettante automatizzare tutto, serve ancora una verifica umana per le eccezioni.",
+    "es": "Por atractivo que sea automatizarlo todo, todavía necesitamos una revisión humana para las excepciones.",
+    "en": "As appealing as full automation is, exceptions still need human review."
+  },
+  {
+    "nivel": "avancado",
+    "tema": "04",
+    "pt": "Se o jurídico tivesse recebido a minuta na semana passada, talvez já tivéssemos assinado.",
+    "it": "Se l'ufficio legale avesse ricevuto la bozza la settimana scorsa, forse avremmo già firmato.",
+    "es": "Si el área legal hubiera recibido el borrador la semana pasada, quizá ya habríamos firmado.",
+    "en": "If Legal had received the draft last week, we might have signed by now."
+  },
+  {
+    "nivel": "avancado",
+    "tema": "04",
+    "pt": "Não estou contestando o objetivo; quero garantir que o plano caiba na capacidade atual.",
+    "it": "Non metto in discussione l'obiettivo; voglio assicurarmi che il piano rientri nella capacità attuale.",
+    "es": "No cuestiono el objetivo; quiero asegurarme de que el plan quepa en la capacidad actual.",
+    "en": "I'm not challenging the goal; I want to make sure the plan fits our current capacity."
+  },
+  {
+    "nivel": "avancado",
+    "tema": "04",
+    "pt": "Embora os dois fornecedores atendam aos requisitos, um deles oferece suporte local.",
+    "it": "Anche se entrambi i fornitori soddisfano i requisiti, uno offre assistenza sul posto.",
+    "es": "Aunque ambos proveedores cumplen los requisitos, uno ofrece soporte local.",
+    "en": "Both vendors meet the requirements, but one offers on-site support."
+  },
+  {
+    "nivel": "avancado",
+    "tema": "04",
+    "pt": "Eu pediria uma semana adicional, não para ampliar o escopo, mas para fechar os testes pendentes.",
+    "it": "Chiederei una settimana in più, non per ampliare l'ambito, ma per completare i test in sospeso.",
+    "es": "Pediría una semana más, no para ampliar el alcance, sino para terminar las pruebas pendientes.",
+    "en": "I'd ask for one more week, not to expand scope but to finish the outstanding tests."
+  },
+  {
+    "nivel": "avancado",
+    "tema": "04",
+    "pt": "Se mantivermos o desconto, precisamos limitar claramente o suporte incluído.",
+    "it": "Se manteniamo lo sconto, dobbiamo definire con chiarezza l'assistenza inclusa.",
+    "es": "Si mantenemos el descuento, tenemos que limitar claramente el soporte incluido.",
+    "en": "If we keep the discount, we need to spell out exactly what support is included."
+  },
+  {
+    "nivel": "avancado",
+    "tema": "04",
+    "pt": "A reunião terminou sem decisão, mas ao menos identificamos quem precisa ser consultado.",
+    "it": "La riunione è finita senza una decisione, ma almeno abbiamo individuato chi va consultato.",
+    "es": "La reunión terminó sin una decisión, pero al menos identificamos a quién hay que consultar.",
+    "en": "We left the meeting without a decision, but at least we identified who needs to be consulted."
+  },
+  {
+    "nivel": "avancado",
+    "tema": "04",
+    "pt": "Se a prioridade mudar, podemos deslocar o analista para a frente mais urgente.",
+    "it": "Se cambia la priorità, possiamo assegnare l'analista all'attività più urgente.",
+    "es": "Si cambia la prioridad, podemos asignar al analista al frente más urgente.",
+    "en": "If priorities shift, we can move the analyst to the most urgent workstream."
+  },
+  {
+    "nivel": "avancado",
+    "tema": "04",
+    "pt": "Ainda que o fornecedor cumpra o prazo, a documentação precisa chegar antes da auditoria.",
+    "it": "Anche se il fornitore rispetta i tempi, la documentazione deve arrivare prima della verifica.",
+    "es": "Aunque el proveedor cumpla el plazo, la documentación tiene que llegar antes de la auditoría.",
+    "en": "Even if the vendor meets the deadline, the documentation must arrive before the audit."
+  },
+  {
+    "nivel": "avancado",
+    "tema": "04",
+    "pt": "Eu teria preferido negociar o escopo antes de discutir quem absorveria o custo.",
+    "it": "Avrei preferito negoziare l'ambito prima di discutere chi avrebbe sostenuto il costo.",
+    "es": "Habría preferido negociar el alcance antes de discutir quién asumiría el costo.",
+    "en": "I would have preferred to negotiate scope before discussing who would absorb the cost."
+  },
+  {
+    "nivel": "avancado",
+    "tema": "04",
+    "pt": "Se não houver consenso até amanhã, registraremos as opções e pediremos uma decisão à diretoria.",
+    "it": "Se non troviamo un accordo entro domani, registreremo le opzioni e chiederemo una decisione alla direzione.",
+    "es": "Si no hay consenso para mañana, documentaremos las opciones y pediremos una decisión a la dirección.",
+    "en": "If we can't reach consensus by tomorrow, we'll document the options and ask leadership to decide."
+  },
+  {
+    "nivel": "avancado",
+    "tema": "04",
+    "pt": "O ganho estimado compensa o investimento apenas se mantivermos o volume projetado.",
+    "it": "Il vantaggio stimato compensa l'investimento solo se manteniamo il volume previsto.",
+    "es": "El beneficio estimado compensa la inversión solo si mantenemos el volumen proyectado.",
+    "en": "The projected gain justifies the investment only if we maintain the expected volume."
+  },
+  {
+    "nivel": "avancado",
+    "tema": "05",
+    "pt": "Se tratarmos correlação como causalidade, a conclusão ficará mais forte do que os dados permitem.",
+    "it": "Se trattiamo la correlazione come causalità, la conclusione sarà più forte di quanto i dati consentano.",
+    "es": "Si tratamos la correlación como causalidad, la conclusión será más contundente de lo que permiten los datos.",
+    "en": "If we treat correlation as causation, our conclusion will go beyond what the data support."
+  },
+  {
+    "nivel": "avancado",
+    "tema": "05",
+    "pt": "Por mais elegante que seja a demonstração, precisamos verificar cada hipótese usada.",
+    "it": "Per quanto sia elegante la dimostrazione, dobbiamo verificare ogni ipotesi adottata.",
+    "es": "Por elegante que sea la demostración, tenemos que verificar cada supuesto que utiliza.",
+    "en": "However elegant the proof is, we need to check every assumption behind it."
+  },
+  {
+    "nivel": "avancado",
+    "tema": "05",
+    "pt": "Eu teria interpretado o gráfico de outra forma se a escala não começasse em um valor tão alto.",
+    "it": "Avrei interpretato il grafico diversamente se la scala non partisse da un valore così alto.",
+    "es": "Habría interpretado la gráfica de otra manera si la escala no empezara en un valor tan alto.",
+    "en": "I would have read the chart differently if the scale hadn't started so high."
+  },
+  {
+    "nivel": "avancado",
+    "tema": "05",
+    "pt": "Embora a hipótese seja plausível, o desenho do estudo não permite distingui-la das alternativas.",
+    "it": "Anche se l'ipotesi è plausibile, il disegno dello studio non consente di distinguerla dalle alternative.",
+    "es": "Aunque la hipótesis sea plausible, el diseño del estudio no permite distinguirla de las alternativas.",
+    "en": "Although the hypothesis is plausible, the study design can't distinguish it from the alternatives."
+  },
+  {
+    "nivel": "avancado",
+    "tema": "05",
+    "pt": "Se você aceitar a premissa por enquanto, verá por que a estimativa muda tanto.",
+    "it": "Se accetti per il momento la premessa, capirai perché la stima cambia così tanto.",
+    "es": "Si aceptas la premisa por ahora, verás por qué cambia tanto la estimación.",
+    "en": "If you grant the premise for now, you'll see why the estimate changes so much."
+  },
+  {
+    "nivel": "avancado",
+    "tema": "05",
+    "pt": "O resultado é robusto a pequenas mudanças na especificação, mas não a dados ausentes.",
+    "it": "Il risultato regge a piccole modifiche della specifica, ma non ai dati mancanti.",
+    "es": "El resultado resiste pequeños cambios en la especificación, pero no los datos faltantes.",
+    "en": "The result is robust to small changes in the specification, but not to missing data."
+  },
+  {
+    "nivel": "avancado",
+    "tema": "05",
+    "pt": "Se o argumento dependesse apenas desse caso, eu não o consideraria conclusivo.",
+    "it": "Se l'argomento dipendesse solo da questo caso, non lo considererei conclusivo.",
+    "es": "Si el argumento dependiera solo de este caso, no lo consideraría concluyente.",
+    "en": "If the argument rested on this case alone, I wouldn't consider it conclusive."
+  },
+  {
+    "nivel": "avancado",
+    "tema": "05",
+    "pt": "A revisão não rejeita o método; pede que justifiquemos por que ele se ajusta à pergunta.",
+    "it": "La revisione non respinge il metodo; chiede di motivare perché sia adatto alla domanda.",
+    "es": "La revisión no descarta el método; pide justificar por qué se ajusta a la pregunta.",
+    "en": "The review isn't rejecting the method; it asks us to explain why it fits the research question."
+  },
+  {
+    "nivel": "avancado",
+    "tema": "05",
+    "pt": "Eu manteria essa ressalva no resumo, ainda que ela torne a conclusão menos categórica.",
+    "it": "Manterrei questa precisazione nell'abstract, anche se rende la conclusione meno netta.",
+    "es": "Mantendría esta salvedad en el resumen, aunque haga menos tajante la conclusión.",
+    "en": "I'd keep that qualification in the abstract, even if it makes the conclusion less definitive."
+  },
+  {
+    "nivel": "avancado",
+    "tema": "05",
+    "pt": "Tivesse a amostra sido recrutada de outra forma, talvez a distribuição fosse diferente.",
+    "it": "Se il campione fosse stato reclutato diversamente, forse la distribuzione sarebbe cambiata.",
+    "es": "Si la muestra se hubiera reclutado de otra manera, quizá la distribución habría sido distinta.",
+    "en": "Had the sample been recruited differently, the distribution might have looked different."
+  },
+  {
+    "nivel": "avancado",
+    "tema": "05",
+    "pt": "Não é que os dados contradigam a teoria; eles simplesmente não a testam diretamente.",
+    "it": "Non è che i dati contraddicano la teoria; semplicemente non la mettono alla prova in modo diretto.",
+    "es": "No es que los datos contradigan la teoría; simplemente no la ponen a prueba de forma directa.",
+    "en": "It's not that the data contradict the theory; they simply don't test it directly."
+  },
+  {
+    "nivel": "avancado",
+    "tema": "05",
+    "pt": "Embora as estimativas apontem na mesma direção, os intervalos ainda se sobrepõem.",
+    "it": "Anche se le stime indicano la stessa direzione, gli intervalli si sovrappongono ancora.",
+    "es": "Aunque las estimaciones apuntan en la misma dirección, los intervalos todavía se traslapan.",
+    "en": "Although the estimates point in the same direction, the intervals still overlap."
+  },
+  {
+    "nivel": "avancado",
+    "tema": "05",
+    "pt": "Se tivéssemos pré-registrado a análise, seria mais fácil separar as hipóteses originais das exploratórias.",
+    "it": "Se avessimo preregistrato l'analisi, sarebbe stato più facile distinguere le ipotesi iniziali da quelle esplorative.",
+    "es": "Si hubiéramos prerregistrado el análisis, sería más fácil separar las hipótesis iniciales de las exploratorias.",
+    "en": "If we'd preregistered the analysis, it would be easier to distinguish the original hypotheses from the exploratory ones."
+  },
+  {
+    "nivel": "avancado",
+    "tema": "05",
+    "pt": "Eu não chamaria a diferença de relevante sem mostrar também sua magnitude prática.",
+    "it": "Non definirei rilevante la differenza senza mostrarne anche l'entità pratica.",
+    "es": "No llamaría relevante a la diferencia sin mostrar también su magnitud práctica.",
+    "en": "I wouldn't call the difference meaningful without also showing its practical size."
+  },
+  {
+    "nivel": "avancado",
+    "tema": "05",
+    "pt": "Por mais convincente que pareça a narrativa, vale conferir se ela surgiu depois de vermos os resultados.",
+    "it": "Per quanto la spiegazione sembri convincente, conviene verificare se è stata formulata dopo aver visto i risultati.",
+    "es": "Por convincente que parezca la explicación, conviene comprobar si surgió después de ver los resultados.",
+    "en": "As convincing as the story sounds, we should check whether it was developed after seeing the results."
+  },
+  {
+    "nivel": "avancado",
+    "tema": "05",
+    "pt": "Se a variável foi medida com erro, o efeito pode estar subestimado.",
+    "it": "Se la variabile è stata misurata con errore, l'effetto potrebbe essere sottostimato.",
+    "es": "Si la variable se midió con error, el efecto podría estar subestimado.",
+    "en": "If the variable was measured with error, the effect may be underestimated."
+  },
+  {
+    "nivel": "avancado",
+    "tema": "05",
+    "pt": "Ainda que a diferença seja estatisticamente detectável, isso não significa que seja importante na prática.",
+    "it": "Anche se la differenza è statisticamente rilevabile, non significa che sia importante nella pratica.",
+    "es": "Aunque la diferencia sea estadísticamente detectable, eso no significa que sea importante en la práctica.",
+    "en": "Even if the difference is statistically detectable, that doesn't make it practically important."
+  },
+  {
+    "nivel": "avancado",
+    "tema": "05",
+    "pt": "Eu reformularia a pergunta para que a resposta não dependa de uma definição implícita.",
+    "it": "Riformulerei la domanda in modo che la risposta non dipenda da una definizione implicita.",
+    "es": "Reformularía la pregunta para que la respuesta no dependa de una definición implícita.",
+    "en": "I'd rephrase the question so the answer doesn't hinge on an unstated definition."
+  },
+  {
+    "nivel": "avancado",
+    "tema": "05",
+    "pt": "O revisor parece confundir ausência de evidência com evidência de ausência.",
+    "it": "Il revisore sembra confondere l'assenza di prove con la prova dell'assenza.",
+    "es": "El revisor parece confundir la falta de evidencia con evidencia de que algo no existe.",
+    "en": "The reviewer seems to be confusing a lack of evidence with evidence of absence."
+  },
+  {
+    "nivel": "avancado",
+    "tema": "05",
+    "pt": "Se o resultado depender de uma única observação extrema, devemos mostrar essa sensibilidade com clareza.",
+    "it": "Se il risultato dipende da una sola osservazione estrema, dobbiamo mostrare chiaramente questa sensibilità.",
+    "es": "Si el resultado depende de una sola observación extrema, debemos mostrar claramente esa sensibilidad.",
+    "en": "If the result depends on a single extreme observation, we should make that sensitivity clear."
+  },
+  {
+    "nivel": "avancado",
+    "tema": "05",
+    "pt": "Em vez de descartar a discrepância, podemos usá-la para delimitar quando o modelo funciona.",
+    "it": "Invece di ignorare la discrepanza, possiamo usarla per precisare quando il modello funziona.",
+    "es": "En vez de descartar la discrepancia, podemos usarla para delimitar cuándo funciona el modelo.",
+    "en": "Rather than dismiss the discrepancy, we can use it to pin down when the model works."
+  },
+  {
+    "nivel": "avancado",
+    "tema": "05",
+    "pt": "Se repetirmos a análise com outra janela temporal, veremos se o padrão persiste.",
+    "it": "Se ripetiamo l'analisi con un'altra finestra temporale, vedremo se lo stesso andamento persiste.",
+    "es": "Si repetimos el análisis con otra ventana temporal, veremos si persiste el patrón.",
+    "en": "If we rerun the analysis with a different time window, we'll see whether the pattern holds."
+  },
+  {
+    "nivel": "avancado",
+    "tema": "05",
+    "pt": "A síntese é útil, desde que não apague diferenças entre os estudos incluídos.",
+    "it": "La sintesi è utile, a condizione che non cancelli le differenze tra gli studi inclusi.",
+    "es": "La síntesis es útil, siempre que no borre las diferencias entre los estudios incluidos.",
+    "en": "The synthesis is useful as long as it doesn't flatten differences among the studies."
+  },
+  {
+    "nivel": "avancado",
+    "tema": "05",
+    "pt": "Eu teria deixado o termo em inglês se a tradução sugerida apagasse essa distinção conceitual.",
+    "it": "Avrei lasciato il termine in inglese se la traduzione proposta avesse cancellato questa distinzione concettuale.",
+    "es": "Habría dejado el término en inglés si la traducción propuesta borrara esta distinción conceptual.",
+    "en": "I would have kept the English term if the suggested translation erased that conceptual distinction."
+  },
+  {
+    "nivel": "avancado",
+    "tema": "05",
+    "pt": "Embora a tabela seja autoexplicativa para nós, ela pode não ser para quem lê o artigo pela primeira vez.",
+    "it": "Anche se la tabella è chiara per noi, potrebbe non esserlo per chi legge l'articolo per la prima volta.",
+    "es": "Aunque la tabla sea clara para nosotros, quizá no lo sea para quien lea el artículo por primera vez.",
+    "en": "Although the table is clear to us, it may not be clear to a first-time reader."
+  },
+  {
+    "nivel": "avancado",
+    "tema": "05",
+    "pt": "Se o estudo tivesse incluído um grupo de comparação, poderíamos avaliar melhor a mudança observada.",
+    "it": "Se lo studio avesse incluso un gruppo di confronto, avremmo potuto valutare meglio il cambiamento osservato.",
+    "es": "Si el estudio hubiera incluido un grupo de comparación, podríamos haber evaluado mejor el cambio observado.",
+    "en": "If the study had included a comparison group, we could have assessed the observed change more carefully."
+  },
+  {
+    "nivel": "avancado",
+    "tema": "05",
+    "pt": "A crítica é pertinente, mas não invalida o resultado; limita o alcance da interpretação.",
+    "it": "La critica è pertinente, ma non invalida il risultato; ne limita la portata interpretativa.",
+    "es": "La crítica es pertinente, pero no invalida el resultado; limita el alcance de la interpretación.",
+    "en": "The criticism is valid, but it doesn't invalidate the result; it limits how far we can interpret it."
+  },
+  {
+    "nivel": "avancado",
+    "tema": "05",
+    "pt": "Caso os autores tenham usado outro critério de exclusão, a comparação não será direta.",
+    "it": "Se gli autori hanno usato un altro criterio di esclusione, il confronto non sarà diretto.",
+    "es": "Si los autores usaron otro criterio de exclusión, la comparación no será directa.",
+    "en": "If the authors used a different exclusion criterion, the comparison won't be direct."
+  },
+  {
+    "nivel": "avancado",
+    "tema": "05",
+    "pt": "Se eu tivesse citado a limitação junto da estimativa, talvez a conclusão não parecesse tão ampla.",
+    "it": "Se avessi citato il limite insieme alla stima, forse la conclusione non sarebbe sembrata così ampia.",
+    "es": "Si hubiera mencionado la limitación junto con la estimación, quizá la conclusión no parecería tan amplia.",
+    "en": "If I'd mentioned the limitation alongside the estimate, the conclusion might not have sounded so broad."
+  },
+  {
+    "nivel": "avancado",
+    "tema": "05",
+    "pt": "O estudo sugere uma hipótese promissora; confirmar o mecanismo exigiria outro desenho experimental.",
+    "it": "Lo studio suggerisce un'ipotesi promettente; per confermare il meccanismo servirebbe un altro disegno sperimentale.",
+    "es": "El estudio plantea una hipótesis prometedora; confirmar el mecanismo requeriría otro diseño experimental.",
+    "en": "The study raises a promising hypothesis; confirming the mechanism would require a different experimental design."
+  }
+]
