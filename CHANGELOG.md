@@ -7,7 +7,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [1.1.0] - 2026-10-08
+## [2.0.0] - 2026-10-09
+
+Versão major: o repositório passou de workshop de idiomas para biblioteca pessoal de flashcards, com licenciamento novo (CC BY 4.0 nos cartões e na documentação autoral desta versão; Apache 2.0 nos scripts e materiais anteriores).
 
 ### Added
 
@@ -91,8 +93,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Portuguese spelling and diacritics in the README.
 
-[Unreleased]: https://github.com/brunomartinsmv/flashcards/compare/v1.1.0...HEAD
+[Unreleased]: https://github.com/brunomartinsmv/flashcards/compare/v2.0.0...HEAD
+[2.0.0]: https://github.com/brunomartinsmv/flashcards/compare/v1.0.0...v2.0.0
 [1.0.0]: https://github.com/brunomartinsmv/flashcards/compare/v0.1.0...v1.0.0
 [0.1.0]: https://github.com/brunomartinsmv/flashcards/releases/tag/v0.1.0
-
-[1.1.0]: https://github.com/brunomartinsmv/flashcards/compare/v1.0.0...v1.1.0
