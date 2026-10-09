@@ -100,13 +100,6 @@ Graduated-interval recall is a type of spaced repetition published by [Paul Pims
 
 ### References
 
-### Further reading
-
-  * Kail, R. V., & Cavanaugh J. C. (2007). "Spaced Retrieval". _Human Development: A Life-Span View_ (5th ed.). Belmont, CA: Wadsworth.
-  * Wozniak, Piotr (February 1999). ["Effective learning: Twenty rules of formulating knowledge"](https://www.supermemo.com/en/archives1990-2015/articles/20rules). – advice on making flashcards for spaced repetition.
-
-### Referências
-
 1. <a id="sr-cite_note-1"></a> [↑](#sr-cite_ref-1) Smolen, Paul; Zhang, Yili; Byrne, John H. (January 25, 2016). ["The right time to learn: mechanisms and optimization of spaced learning"](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5126970). _Nature Reviews Neuroscience_. **17** (2): 77–88\. [arXiv](https://en.wikipedia.org/wiki/ArXiv_\(identifier\) "ArXiv \(identifier\)"):[1606.08370](https://arxiv.org/abs/1606.08370). [Bibcode](https://en.wikipedia.org/wiki/Bibcode_\(identifier\) "Bibcode \(identifier\)"):[2016arXiv160608370S](https://ui.adsabs.harvard.edu/abs/2016arXiv160608370S). [doi](https://en.wikipedia.org/wiki/Doi_\(identifier\) "Doi \(identifier\)"):[10.1038/nrn.2015.18](https://doi.org/10.1038%2Fnrn.2015.18). [PMC](https://en.wikipedia.org/wiki/PMC_\(identifier\) "PMC \(identifier\)") [5126970](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5126970). [PMID](https://en.wikipedia.org/wiki/PMID_\(identifier\) "PMID \(identifier\)") [26806627](https://pubmed.ncbi.nlm.nih.gov/26806627).
 2. <a id="sr-cite_note-2"></a> [↑](#sr-cite_ref-2) EditorialTeam. ["Why We Can't Remember What We Learn and What To Do About It"](https://interactive.wharton.upenn.edu/learning-insights/why-we-cant-remember-what-we-learn-and-what-to-do-about-it/). _Wharton Interactive_. Wharton. Retrieved December 3, 2023.
 3. <a id="sr-cite_note-Oren-2014-3"></a> [↑](#sr-cite_ref-Oren-2014_3-0) Oren, Shiri; Willerton, Charlene; Small, Jeff (February 2014). "Effects of Spaced Retrieval Training on Semantic Memory in Alzheimer's Disease: A Systematic Review". _Journal of Speech, Language, and Hearing Research_. **57** (1): 247–270\. [doi](https://en.wikipedia.org/wiki/Doi_\(identifier\) "Doi \(identifier\)"):[10.1044/1092-4388(2013/12-0352)](https://doi.org/10.1044%2F1092-4388%282013%2F12-0352%29). [ISSN](https://en.wikipedia.org/wiki/ISSN_\(identifier\) "ISSN \(identifier\)") [1092-4388](https://search.worldcat.org/issn/1092-4388). [PMID](https://en.wikipedia.org/wiki/PMID_\(identifier\) "PMID \(identifier\)") [24023380](https://pubmed.ncbi.nlm.nih.gov/24023380).
@@ -150,6 +143,11 @@ Graduated-interval recall is a type of spaced repetition published by [Paul Pims
 41. <a id="sr-cite_note-41"></a> [↑](#sr-cite_ref-41) Cohen, Andrew S. (May 12, 2015) [2010]. ["Confidence-Based Repetition (CBR)"](https://web.archive.org/web/20201129231203/https://www.brainscape.com/blog/2010/01/confidence-based-repetition-cbr/). _Brainscape.com_. Archived from [the original](https://www.brainscape.com/blog/2010/01/confidence-based-repetition-cbr/) on November 29, 2020.
 42. <a id="sr-cite_note-42"></a> [↑](#sr-cite_ref-42) Cohen, Andrew S. (July 15, 2008). ["Brainscape's 'Confidence-Based Repetition' Methodology"](https://web.archive.org/web/20201104102529/https://www.brainscape.com/images/cms/research/Confidence-Based_Repetition.pdf) (PDF). _Brainscape.com_. Archived from [the original](https://www.brainscape.com/images/cms/research/Confidence-Based_Repetition.pdf) (PDF) on November 4, 2020.
 43. <a id="sr-cite_note-43"></a> [↑](#sr-cite_ref-43) Pimsleur, Paul (February 1967). "A Memory Schedule". _The Modern Language Journal_. **51** (2). Blackwell Publishing: 73–75\. [doi](https://en.wikipedia.org/wiki/Doi_\(identifier\) "Doi \(identifier\)"):[10.2307/321812](https://doi.org/10.2307%2F321812). [JSTOR](https://en.wikipedia.org/wiki/JSTOR_\(identifier\) "JSTOR \(identifier\)") [321812](https://www.jstor.org/stable/321812).
+
+### Further reading
+
+  * Kail, R. V., & Cavanaugh J. C. (2007). "Spaced Retrieval". _Human Development: A Life-Span View_ (5th ed.). Belmont, CA: Wadsworth.
+  * Wozniak, Piotr (February 1999). ["Effective learning: Twenty rules of formulating knowledge"](https://www.supermemo.com/en/archives1990-2015/articles/20rules). – advice on making flashcards for spaced repetition.
 
 ## Memory
 
@@ -571,7 +569,7 @@ How does your memory work? – Lisa Genzel ( Radboud University )
   * [](https://en.wikipedia.org/wiki/File:Wikibooks-logo.svg)**[Textbooks](https://en.wikibooks.org/wiki/Special:Search/Memory)** from Wikibooks
   * [](https://en.wikipedia.org/wiki/File:Wikiversity_logo_2017.svg)**[Resources](https://en.wikiversity.org/wiki/Memory_\(biological\) "v:Memory \(biological\)")** from Wikiversity
 
-### Referências
+### References
 
 1. <a id="mem-cite_note-1"></a> [↑](#mem-cite_ref-1) Sherwood L (1 January 2015). [_Human Physiology: From Cells to Systems_](https://books.google.com/books?id=_i5BBAAAQBAJ&pg=PT189). Cengage Learning. pp. 157–162\. [ISBN](https://en.wikipedia.org/wiki/ISBN_\(identifier\) "ISBN \(identifier\)") [978-1-305-44551-2](https://en.wikipedia.org/wiki/Special:BookSources/978-1-305-44551-2).
 2. <a id="mem-cite_note-Eysenck_2012-2"></a> [↑](#mem-cite_ref-Eysenck_2012_2-0) Eysenck M (2012). _Attention and Arousal: Cognition and Performance_. Berlin, Heidelberg: Springer Berlin Heidelberg. [ISBN](https://en.wikipedia.org/wiki/ISBN_\(identifier\) "ISBN \(identifier\)") [978-3-642-68390-9](https://en.wikipedia.org/wiki/Special:BookSources/978-3-642-68390-9). [OCLC](https://en.wikipedia.org/wiki/OCLC_\(identifier\) "OCLC \(identifier\)") [858929786](https://search.worldcat.org/oclc/858929786).
