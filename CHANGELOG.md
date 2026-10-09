@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+
+- Páginas da Wikipedia sobre repetição espaçada e memória convertidas para `archive/spaced-repetition/docs/wikipedia.md`.
+
 ## [2.0.0] - 2026-10-09
 
 Versão major: o repositório passou de workshop de idiomas para biblioteca pessoal de flashcards, com licenciamento novo (CC BY 4.0 nos cartões e na documentação autoral desta versão; Apache 2.0 nos scripts e materiais anteriores).
