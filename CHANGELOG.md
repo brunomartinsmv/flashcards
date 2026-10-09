@@ -26,6 +26,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Fixed
 
+- Corte de IMA-B 5 / IMA-B 5+ alinhado à metodologia ANBIMA (inferior vs igual ou superior a 5 anos).
+- Distinção Ibovespa × IBrX corrigida: ambos ponderam por free float; negociabilidade na seleção e tetos no Ibovespa.
+- Condicional `se` preservada nas traduções do cartão do alarme; inglês de `com mais calma` passado para `more calmly`.
 - Isenção de CPR restringida às condições da Lei 11.033/2004, art. 3º, V, e da Lei 8.929/1994, art. 2º, § 2º.
 - Tags `idioma::italiano`, `idioma::espanhol` e `idioma::ingles` unificadas entre os geradores de frases e de léxico.
 - Reserva hoteleira em italiano e espanhol passada para `a nome mio` e `a nombre mío`.

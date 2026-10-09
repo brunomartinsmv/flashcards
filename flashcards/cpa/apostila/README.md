@@ -32,6 +32,10 @@ O cartão que lista investimentos de renda fixa isentos para pessoa física mant
 
 O cartão de quórum de instalação de assembleia de fundos esclarece que a assembleia geral se instala com a presença de qualquer número de cotistas ([Resolução CVM 175, art. 74](https://conteudo.cvm.gov.br/export/sites/cvm/legislacao/resolucoes/anexos/100/resol175consolid.pdf)), reservando o piso de 5% das cotas emitidas ao direito de solicitar sua convocação.
 
+O cartão de IMA-B 5 e IMA-B 5+ corrige o corte de cinco anos: IMA-B 5 tem prazo inferior a 5 anos (mais títulos em migração); IMA-B 5+ tem prazo igual ou superior a 5 anos, conforme a [metodologia IMA da ANBIMA](https://www.anbima.com.br/data/files/87/A0/F0/E7/E3FBC91067D089C9BA2BA2A8/Metodologia_IMA_mar26.pdf).
+
+O cartão Ibovespa × IBrX corrige a ponderação: os dois usam valor de mercado do free float; a negociabilidade entra na seleção, e o Ibovespa adiciona tetos de peso ([metodologia Ibovespa](https://www.b3.com.br/data/files/9C/15/76/F6/3F6947102255C247AC094EA8/IBOV-Metodologia-pt-br__Novo_.pdf) e [IBrX 100](https://www.b3.com.br/data/files/CA/41/5A/43/96D947102255C247AC094EA8/IBXX-Metodologia-pt-br__Modelo_Novo_.pdf), B3).
+
 Valores tributários, limites e outras regras regulatórias aparecem identificados como "Segundo a apostila (edição janeiro/2026)". A coleção não verifica se esses dados continuam vigentes. Use a edição indicada como material de estudo, não como confirmação de regra atual.
 
 Taxas e prazos foram escritos com unidade explícita. Exemplos numéricos derivados de fórmulas da apostila foram recalculados. Quando uma fórmula ou figura não apareceu na extração textual, a página do PDF foi renderizada para conferência antes de incluir o cartão.

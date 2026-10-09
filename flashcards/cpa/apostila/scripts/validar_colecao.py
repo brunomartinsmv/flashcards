@@ -74,6 +74,12 @@ assert 'liquidação financeira' in cpr
 assert 'negociada no mercado financeiro' in cpr
 assert 'art. 2º, § 2º' in cpr
 assert '181 a 360' in answers['Qual o montante de R$ 1.500 aplicados por 6 meses a 1,4% ao mês?']
+ima = answers['Quais segmentos de renda fixa o IMA-B 5 e o IMA-B 5+ representam?']
+assert 'inferior a 5 anos' in ima
+assert 'igual ou superior a 5 anos' in ima
+ibov = answers['Como diferem Ibovespa e IBrX segundo a apostila?']
+assert 'ambos ponderam pelo valor de mercado do free float' in ibov
+assert 'IBrX 100 seleciona os 100 ativos de maior IN' in ibov
 assert 'Resolução CVM 175' in answers['Qual é o quórum de instalação da assembleia de cotistas de fundos (Resolução CVM 175)?']
 assert all(not any(c in path.name for c in '<>:"\\|?*') for path in BASE.glob('*.csv'))
 

@@ -1251,9 +1251,9 @@
     "nivel": "intermediario",
     "tema": "01",
     "pt": "Se o alarme tocar, desligue-o e levante-se logo.",
-    "it": "Quando suona la sveglia, spegnila e alzati subito.",
-    "es": "Cuando suene la alarma, apágala y levántate enseguida.",
-    "en": "When the alarm goes off, turn it off and get up right away."
+    "it": "Se suona la sveglia, spegnila e alzati subito.",
+    "es": "Si suena la alarma, apágala y levántate enseguida.",
+    "en": "If the alarm goes off, turn it off and get up right away."
   },
   {
     "nivel": "intermediario",
@@ -2453,7 +2453,7 @@
     "pt": "Eu teria saído com mais calma se não tivesse tentado encaixar uma última tarefa.",
     "it": "Sarei uscito con più calma se non avessi cercato di infilare un'ultima attività.",
     "es": "Habría salido con más calma si no hubiera intentado meter una última tarea.",
-    "en": "I would have left in a better frame of mind if I hadn't tried to squeeze in one last task."
+    "en": "I would have left more calmly if I hadn't tried to squeeze in one last task."
   },
   {
     "nivel": "avancado",
