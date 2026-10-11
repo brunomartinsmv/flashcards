@@ -1,0 +1,22 @@
+{
+  "modo": "ferramenta integrada image_gen",
+  "data_local": "2026-10-10",
+  "imagens": [
+    {
+      "arquivo": "media/ml_knn.png",
+      "prompt": "Use case: scientific-educational. Asset type: original raster educational figure for Portuguese Anki cards. Create a clean square textbook illustration, white background, large readable text. Title exactly \"k-NN: voto dos vizinhos\". A 2D scatter diagram with horizontal axis \"x1\" and vertical axis \"x2\", no numeric ticks needed. A black star query at center. Exactly three nearest labeled points, two blue circles labeled \"A\" and one orange square labeled \"B\", lie within a dotted circular neighborhood of the star. All other blue circles and orange squares are clearly far outside. Legend: blue circle \"Classe A\", orange square \"Classe B\", black star \"Novo ponto\". Subtitle exactly \"k = 3\". Do not print the predicted class or voting result. Enough space to distinguish all shapes. Scientifically illustrative, not experimental data. No photorealism, no decorative text, no watermark."
+    },
+    {
+      "arquivo": "media/ml_arvore.png",
+      "prompt": "White background raster textbook illustration for Portuguese Anki. Title \"Árvore de decisão\". Exactly three boxes: top root \"Chuva prevista > 5 mm?\", left branch \"Não\" to leaf \"Irrigar\", right branch \"Sim\" to leaf \"Não irrigar\". Large correct readable text, small watercolor farm below. Hypothetical rule. No other boxes or arrows."
+    },
+    {
+      "arquivo": "media/ml_clusters.png",
+      "prompt": "Raster educational scatterplot for Anki, white background. Title \"Segmentação de clientes\". x axis \"Compras por mês\" ticks 0,5,10,15,20; y axis \"Gasto mensal (R$)\" ticks 0,500,1000,1500,2000. Three clearly separated clusters, blue low x low y, orange x15 y500, purple x10 y1700. Matching colored X at each center. Legend \"X: centroide\". No cluster labels. Illustrative synthetic data, readable typography."
+    },
+    {
+      "arquivo": "media/ml_reforco.png",
+      "prompt": "Raster educational diagram white background Portuguese Anki. Title \"Aprendizado por reforço\". Left box friendly wheeled robot labeled \"Agente\". Right box small maze labeled \"Ambiente\". Exactly two arrows: top LEFT TO RIGHT labeled \"Ação\"; bottom RIGHT TO LEFT labeled \"Novo estado e recompensa\". Clear visible arrowheads. Large readable text, clean illustration."
+    }
+  ]
+}

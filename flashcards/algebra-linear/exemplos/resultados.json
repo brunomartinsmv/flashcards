@@ -1,0 +1,133 @@
+{
+  "calculados": {
+    "al_soma": [
+      4,
+      1
+    ],
+    "al_escalar": [
+      -2,
+      6
+    ],
+    "al_combinacao": [
+      2,
+      3
+    ],
+    "al_produto_interno": 11,
+    "al_norma": 5.0,
+    "al_unitario": [
+      0.6,
+      0.8
+    ],
+    "al_angulo": 90.0,
+    "al_distancia": 5.0,
+    "al_dimensao_produto": [
+      2,
+      4
+    ],
+    "al_ax": [
+      11.0,
+      4.0
+    ],
+    "al_ab": [
+      [
+        4.0,
+        6.0
+      ],
+      [
+        1.0,
+        3.0
+      ]
+    ],
+    "al_transposta": [
+      [
+        1,
+        4
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        3,
+        6
+      ]
+    ],
+    "al_traco": 5,
+    "al_rotacao": [
+      -1,
+      2
+    ],
+    "al_sistema": [
+      2.0,
+      1.0
+    ],
+    "al_posto": 1,
+    "al_inversa": [
+      [
+        0.5,
+        0.0
+      ],
+      [
+        0.0,
+        0.25
+      ]
+    ],
+    "al_determinante": -2.0000000000000004,
+    "al_coordenadas": [
+      1.0,
+      1.0
+    ],
+    "al_nulidade": 2,
+    "al_projecao": [
+      3.0,
+      0.0
+    ],
+    "al_projecao_diagonal": [
+      1.0,
+      1.0
+    ],
+    "al_gram_schmidt": [
+      0.0,
+      1.0
+    ],
+    "al_minimos_constante": 2.0,
+    "al_minimos_reta": [
+      0.9999999999999997,
+      0.9999999999999998
+    ],
+    "al_pseudoinversa": [
+      [
+        0.5,
+        0.0
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "al_autovalor": 2,
+    "al_autovalores": [
+      1.0,
+      3.0
+    ],
+    "al_forma_quadratica": 14,
+    "al_singulares": [
+      3.0,
+      1.0
+    ],
+    "al_svd_truncada": [
+      [
+        3.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "al_erro_svd": 1.0,
+    "al_condicao": 1000.0
+  },
+  "verificados": 33,
+  "numpy": "1.26.4"
+}

@@ -1,0 +1,25 @@
+{
+  "calculados": {
+    "fund_z": 2.0,
+    "fund_classe_rara": [
+      0.99,
+      0.0
+    ],
+    "fund_precision_recall": [
+      0.8,
+      0.6666666666666666
+    ],
+    "fund_mae": 2.5,
+    "fund_preco": 170000,
+    "fund_limiar": 0,
+    "fund_grade": 60,
+    "fund_batches": 10,
+    "fund_retorno": 4.0,
+    "fund_qlearning": 4.3,
+    "fund_divisao": [
+      150,
+      30
+    ]
+  },
+  "verificados": 11
+}

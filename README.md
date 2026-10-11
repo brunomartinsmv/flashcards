@@ -12,6 +12,8 @@ Os cartões refletem minhas escolhas de assunto, a forma como prefiro perguntar 
 | Espanhol | 600 cartões de léxico, 450 frases e lotes anteriores Basic e Cloze | [Espanhol](flashcards/spanish/README.md) |
 | Inglês | 600 cartões de léxico, 450 frases e lotes anteriores Cloze | [Inglês](flashcards/english/README.md) |
 | CPA | 317 notas da apostila em 27 temas e quatro coleções anteriores | [CPA](flashcards/cpa/README.md) |
+| Machine learning | 539 cartões em 26 estudos, quatro figuras, seis experiências e 136 exemplos numéricos verificados | [Machine learning](flashcards/machine-learning/README.md) |
+| Álgebra linear | 120 cartões em seis estudos e 33 exercícios numéricos verificados | [Álgebra linear](flashcards/algebra-linear/README.md) |
 | Consolidados antigos | Lotes anteriores reunidos por idioma e modelo | [Consolidados](flashcards/consolidados/README.md) |
 
 Esses números descrevem os arquivos distribuídos. As versões por tema e os arquivos completos repetem a mesma coleção; não devem ser somados nem importados juntos.

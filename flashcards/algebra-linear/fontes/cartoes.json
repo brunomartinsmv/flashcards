@@ -1,0 +1,878 @@
+{
+  "modulos": [
+    {
+      "numero": 1,
+      "tema": "Vetores operações e geometria",
+      "nivel": "basico",
+      "fonte": "https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/",
+      "cartoes": [
+        {
+          "frente": "O que é um vetor em R² ou R³?",
+          "verso": "Uma lista ordenada de duas ou três coordenadas. Pode representar posição, deslocamento ou atributos, conforme o contexto.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "Qual é a diferença entre escalar e vetor?",
+          "verso": "Um escalar é um número que pode multiplicar um vetor. Um vetor tem componentes e operações próprias no espaço considerado.",
+          "tipo": "comparacao"
+        },
+        {
+          "frente": "Como somar dois vetores da mesma dimensão?",
+          "verso": "Somar componentes correspondentes. Vetores de dimensões diferentes não podem ser somados nessa operação usual.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "Quanto vale [1,2]+[3,-1]?",
+          "verso": "Somar coordenadas: [1+3,2-1]=[4,1].",
+          "tipo": "exercicio",
+          "verificacao_nucleo": {
+            "id": "al_soma",
+            "esperado": [
+              4,
+              1
+            ]
+          }
+        },
+        {
+          "frente": "O que multiplicar um vetor por um escalar altera?",
+          "verso": "Multiplica cada componente. Pode mudar comprimento e sentido; multiplicar por zero dá o vetor nulo.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "Quanto vale -2×[1,-3]?",
+          "verso": "[-2×1,-2×(-3)]=[-2,6].",
+          "tipo": "exercicio",
+          "verificacao_nucleo": {
+            "id": "al_escalar",
+            "esperado": [
+              -2,
+              6
+            ]
+          }
+        },
+        {
+          "frente": "O que é uma combinação linear de vetores?",
+          "verso": "Uma soma de vetores multiplicados por escalares, como a×u+b×v. Os coeficientes podem ser positivos, negativos ou zero.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "Para u=[1,0] e v=[0,1], quanto vale 2u+3v?",
+          "verso": "2×[1,0]+3×[0,1]=[2,3].",
+          "tipo": "exercicio",
+          "verificacao_nucleo": {
+            "id": "al_combinacao",
+            "esperado": [
+              2,
+              3
+            ]
+          }
+        },
+        {
+          "frente": "Como calcular produto interno euclidiano entre vetores reais?",
+          "verso": "Somar produtos das componentes correspondentes: u^T v. O resultado é um escalar.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "Qual é o produto interno de [1,2] e [3,4]?",
+          "verso": "1×3+2×4=11.",
+          "tipo": "exercicio",
+          "verificacao_nucleo": {
+            "id": "al_produto_interno",
+            "esperado": 11
+          }
+        },
+        {
+          "frente": "Como calcular a norma euclidiana de um vetor?",
+          "verso": "Raiz da soma dos quadrados das componentes. Ela mede comprimento no produto interno euclidiano.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "Qual é a norma euclidiana de [3,4]?",
+          "verso": "√(3²+4²)=5.",
+          "tipo": "exercicio",
+          "verificacao_nucleo": {
+            "id": "al_norma",
+            "esperado": 5
+          }
+        },
+        {
+          "frente": "O que significa normalizar um vetor não nulo?",
+          "verso": "Dividir pela sua norma para obter norma 1 e preservar sua direção. O vetor nulo não tem direção para essa normalização.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "Qual é o vetor unitário na direção de [3,4]?",
+          "verso": "Dividir por 5: [0,6;0,8].",
+          "tipo": "exercicio",
+          "verificacao_nucleo": {
+            "id": "al_unitario",
+            "esperado": [
+              0.6,
+              0.8
+            ]
+          }
+        },
+        {
+          "frente": "Como relacionar produto interno e ângulo entre vetores não nulos?",
+          "verso": "cos(theta)=(u^T v)/(norma(u)×norma(v)). O ângulo depende do produto interno adotado.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "Qual é o ângulo entre [1,0] e [0,1] em graus?",
+          "verso": "Produto interno zero e normas 1. cos(theta)=0, então theta=90°.",
+          "tipo": "exercicio",
+          "verificacao_nucleo": {
+            "id": "al_angulo",
+            "esperado": 90
+          }
+        },
+        {
+          "frente": "Quando dois vetores são ortogonais no produto interno euclidiano?",
+          "verso": "Quando seu produto interno é zero. O vetor nulo é ortogonal a todos, mas não define um ângulo por normalização.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "Como calcular a distância euclidiana entre dois pontos?",
+          "verso": "Calcular a norma da diferença dos vetores de coordenadas.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "Qual é a distância entre [1,1] e [4,5]?",
+          "verso": "Diferença [3,4]; norma=5.",
+          "tipo": "exercicio",
+          "verificacao_nucleo": {
+            "id": "al_distancia",
+            "esperado": 5
+          }
+        },
+        {
+          "frente": "Por que as coordenadas de um vetor dependem da escolha de base?",
+          "verso": "O mesmo vetor geométrico pode ter coordenadas diferentes em bases diferentes. As coordenadas precisam ser interpretadas junto da base.",
+          "tipo": "conceito"
+        }
+      ]
+    },
+    {
+      "numero": 2,
+      "tema": "Matrizes operações e transformações",
+      "nivel": "basico",
+      "fonte": "https://numpy.org/doc/stable/reference/routines.linalg.html",
+      "cartoes": [
+        {
+          "frente": "Como interpretar as dimensões m×n de uma matriz?",
+          "verso": "m é o número de linhas e n o de colunas. Declare a orientação dos dados antes de operar.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "Em uma matriz A de tamanho m×n, o que A_ij identifica?",
+          "verso": "A entrada da linha i e coluna j. A notação matemática costuma começar em 1; índices de arrays Python começam em 0.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "Como somar duas matrizes?",
+          "verso": "Somar entradas correspondentes, desde que as dimensões sejam iguais.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "Qual é a diferença entre multiplicação matricial e elemento a elemento?",
+          "verso": "Produto matricial combina linhas com colunas. Produto elemento a elemento multiplica entradas correspondentes; não representa a mesma operação.",
+          "tipo": "comparacao"
+        },
+        {
+          "frente": "Quando o produto AB está definido e qual é seu tamanho?",
+          "verso": "Se A é m×n e B é n×p, AB é m×p. As dimensões internas precisam coincidir.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "A tem tamanho 2×3 e B tem tamanho 3×4. Qual é o tamanho de AB?",
+          "verso": "2×4. Há duas linhas de saída e quatro colunas.",
+          "tipo": "exercicio",
+          "verificacao_nucleo": {
+            "id": "al_dimensao_produto",
+            "esperado": [
+              2,
+              4
+            ]
+          }
+        },
+        {
+          "frente": "Como calcular uma entrada do produto AB?",
+          "verso": "A entrada (i,j) é a soma dos produtos da linha i de A pela coluna j de B.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "Para A=[[1,2],[0,1]] e x=[3,4], quanto vale Ax?",
+          "verso": "Primeira coordenada 1×3+2×4=11; segunda 0×3+1×4=4. Ax=[11,4].",
+          "tipo": "exercicio",
+          "verificacao_nucleo": {
+            "id": "al_ax",
+            "esperado": [
+              11,
+              4
+            ]
+          }
+        },
+        {
+          "frente": "Para A=[[1,2],[0,1]] e B=[[2,0],[1,3]], quanto vale AB?",
+          "verso": "Combinar linhas e colunas: AB=[[4,6],[1,3]].",
+          "tipo": "exercicio",
+          "verificacao_nucleo": {
+            "id": "al_ab",
+            "esperado": [
+              [
+                4,
+                6
+              ],
+              [
+                1,
+                3
+              ]
+            ]
+          }
+        },
+        {
+          "frente": "O produto de matrizes é comutativo em geral?",
+          "verso": "Não. AB pode diferir de BA, e um dos produtos pode nem estar definido. A ordem representa a ordem das transformações.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "O que uma matriz identidade faz ao multiplicar um vetor?",
+          "verso": "Mantém o vetor: Ix=x. A identidade deve ter dimensão compatível.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "O que a matriz transposta A^T faz?",
+          "verso": "Troca linhas por colunas. Uma matriz m×n passa a n×m.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "Qual é a transposta de [[1,2,3],[4,5,6]]?",
+          "verso": "[[1,4],[2,5],[3,6]].",
+          "tipo": "exercicio",
+          "verificacao_nucleo": {
+            "id": "al_transposta",
+            "esperado": [
+              [
+                1,
+                4
+              ],
+              [
+                2,
+                5
+              ],
+              [
+                3,
+                6
+              ]
+            ]
+          }
+        },
+        {
+          "frente": "Quando uma matriz real é simétrica?",
+          "verso": "Quando A=A^T. Ela precisa ser quadrada.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "O que é o traço de uma matriz quadrada?",
+          "verso": "A soma das entradas da diagonal principal. É igual à soma dos autovalores contados com multiplicidade.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "Qual é o traço de [[2,5],[1,3]]?",
+          "verso": "2+3=5.",
+          "tipo": "exercicio",
+          "verificacao_nucleo": {
+            "id": "al_traco",
+            "esperado": 5
+          }
+        },
+        {
+          "frente": "O que uma matriz diagonal faz ao transformar um vetor?",
+          "verso": "Multiplica cada coordenada por uma entrada diagonal, sem misturar coordenadas na base usada.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "Que matriz em R² gira vetores 90° no sentido anti-horário?",
+          "verso": "[[0,-1],[1,0]]. Ela leva [x,y] a [-y,x].",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "Ao aplicar [[0,-1],[1,0]] a [2,1], qual é o resultado?",
+          "verso": "[-1,2]. A rotação preserva a norma euclidiana.",
+          "tipo": "exercicio",
+          "verificacao_nucleo": {
+            "id": "al_rotacao",
+            "esperado": [
+              -1,
+              2
+            ]
+          }
+        },
+        {
+          "frente": "Como interpretar as colunas de uma matriz como transformação?",
+          "verso": "Cada coluna mostra a imagem de um vetor da base canônica. A imagem de qualquer vetor é a combinação dessas colunas pelas coordenadas.",
+          "tipo": "conceito"
+        }
+      ]
+    },
+    {
+      "numero": 3,
+      "tema": "Sistemas lineares posto e inversa",
+      "nivel": "basico",
+      "fonte": "https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/",
+      "cartoes": [
+        {
+          "frente": "Como escrever um sistema linear na forma matricial?",
+          "verso": "Agrupar coeficientes em A, incógnitas em x e termos conhecidos em b, formando Ax=b.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "O que uma matriz aumentada [A b] organiza?",
+          "verso": "Os coeficientes e o vetor de termos conhecidos para aplicar eliminação ao sistema.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "Quais operações elementares de linha preservam soluções de um sistema?",
+          "verso": "Trocar linhas, multiplicar uma linha por escalar não nulo e somar a uma linha um múltiplo de outra.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "Como funciona eliminação de Gauss?",
+          "verso": "Usa operações de linha para obter uma forma escalonada. Depois resolve as equações compatíveis por substituição.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "O que é um pivô em uma forma escalonada?",
+          "verso": "A primeira entrada não nula de uma linha, após organizar a eliminação. Pivôs identificam variáveis básicas e ajudam a determinar posto.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "Qual é a diferença entre variável básica e livre?",
+          "verso": "Uma variável básica corresponde a coluna com pivô. Variáveis livres podem parametrizar as soluções de um sistema compatível.",
+          "tipo": "comparacao"
+        },
+        {
+          "frente": "Resolva x+y=3 e x-y=1.",
+          "verso": "Somando: 2x=4, então x=2. Substituindo: y=1. Solução [2,1].",
+          "tipo": "exercicio",
+          "verificacao_nucleo": {
+            "id": "al_sistema",
+            "esperado": [
+              2,
+              1
+            ]
+          }
+        },
+        {
+          "frente": "O que uma linha reduzida 0=5 indica?",
+          "verso": "Incompatibilidade. O sistema não tem solução.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "O que determina compatibilidade em termos de posto?",
+          "verso": "Ax=b é compatível se posto(A)=posto([A b]). Se o posto comum é o número de incógnitas, a solução é única.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "O que é o posto de uma matriz?",
+          "verso": "Dimensão do espaço de suas colunas, igual à dimensão do espaço de suas linhas. Representa a quantidade de direções linearmente independentes.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "Qual é o posto de [[1,2],[2,4]]?",
+          "verso": "1. A segunda linha e a segunda coluna são múltiplos das primeiras.",
+          "tipo": "exercicio",
+          "verificacao_nucleo": {
+            "id": "al_posto",
+            "esperado": 1
+          }
+        },
+        {
+          "frente": "O que significa uma matriz quadrada ser inversível?",
+          "verso": "Existe A^(-1) com A^(-1)A=AA^(-1)=I. Isso equivale a posto completo e solução única para cada vetor b.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "Qual é a inversa de diag(2,4)?",
+          "verso": "É a matriz diagonal com entradas 1/2 e 1/4. Multiplicá-la por diag(2,4) dá a identidade.",
+          "tipo": "exercicio",
+          "verificacao_nucleo": {
+            "id": "al_inversa",
+            "esperado": [
+              [
+                0.5,
+                0
+              ],
+              [
+                0,
+                0.25
+              ]
+            ]
+          }
+        },
+        {
+          "frente": "Como calcular o determinante de [[a,b],[c,d]]?",
+          "verso": "ad-bc. Determinante zero indica singularidade para uma matriz quadrada.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "Qual é o determinante de [[1,2],[3,4]]?",
+          "verso": "1×4-2×3=-2. A matriz é inversível porque o determinante não é zero.",
+          "tipo": "exercicio",
+          "verificacao_nucleo": {
+            "id": "al_determinante",
+            "esperado": -2
+          }
+        },
+        {
+          "frente": "O que o determinante representa geometricamente?",
+          "verso": "Fator orientado de escala de volume da transformação quadrada. O valor absoluto mede a escala; sinal negativo inverte orientação.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "Por que resolver Ax=b diretamente costuma ser preferível a calcular A^(-1)b?",
+          "verso": "Uma rotina de solução aproveita fatorações e costuma evitar custo e erro de formar a inversa explicitamente. A escolha depende da estrutura de A.",
+          "tipo": "configuracao"
+        },
+        {
+          "frente": "O que uma fatoração LU facilita?",
+          "verso": "Resolver sistemas usando matrizes triangulares. Pivotamento pode exigir uma matriz de permutação além de L e U.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "Um sistema com duas incógnitas e equação única x+y=3 tem que conjunto de soluções?",
+          "verso": "x=t e y=3-t, para qualquer real t. Há uma direção livre e infinitas soluções.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "O que muda entre solução exata e numérica de um sistema?",
+          "verso": "A numérica usa precisão finita. Erros de arredondamento e condicionamento podem afetar o resultado, mesmo quando há solução matemática única.",
+          "tipo": "conceito"
+        }
+      ]
+    },
+    {
+      "numero": 4,
+      "tema": "Espaços vetoriais bases e núcleo",
+      "nivel": "intermediario",
+      "fonte": "https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/",
+      "cartoes": [
+        {
+          "frente": "O que caracteriza um espaço vetorial sobre os reais?",
+          "verso": "Um conjunto com soma e multiplicação por escalares que obedecem aos axiomas. Não se limita a setas; pode incluir matrizes e funções.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "Como reconhecer um subespaço de R^n?",
+          "verso": "Verificar que contém o vetor nulo e é fechado por soma e multiplicação por escalar.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "A reta y=2x em R² é um subespaço?",
+          "verso": "Sim. Contém zero e somas e múltiplos de pontos nela continuam satisfazendo y=2x.",
+          "tipo": "caso"
+        },
+        {
+          "frente": "A reta y=2x+1 em R² é um subespaço?",
+          "verso": "Não. Ela não contém o vetor nulo. É uma reta afim, não um subespaço vetorial.",
+          "tipo": "caso"
+        },
+        {
+          "frente": "O que span ou espaço gerado por vetores significa?",
+          "verso": "O conjunto de todas as combinações lineares desses vetores.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "O que span([1,0],[0,1]) gera em R²?",
+          "verso": "Todo R². Qualquer [a,b] pode ser escrito a[1,0]+b[0,1].",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "Quando um conjunto de vetores é linearmente independente?",
+          "verso": "Quando a combinação linear igual a zero só ocorre com todos os coeficientes zero.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "Por que [1,2] e [2,4] são linearmente dependentes?",
+          "verso": "O segundo é duas vezes o primeiro; 2[1,2]-[2,4]=0 com coeficientes não nulos.",
+          "tipo": "caso"
+        },
+        {
+          "frente": "O que uma base de um espaço vetorial precisa satisfazer?",
+          "verso": "Gerar o espaço e ser linearmente independente. Cada vetor tem coordenadas únicas nessa base.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "O que dimensão significa em um espaço de dimensão finita?",
+          "verso": "O número de vetores de qualquer base do espaço.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "Se B tem colunas [1,1] e [1,-1], quais são as coordenadas de [2,0] nessa base?",
+          "verso": "Resolver Bc=[2,0]. As coordenadas são [1,1], pois [1,1]+[1,-1]=[2,0].",
+          "tipo": "exercicio",
+          "verificacao_nucleo": {
+            "id": "al_coordenadas",
+            "esperado": [
+              1,
+              1
+            ]
+          }
+        },
+        {
+          "frente": "O que o espaço coluna de A representa?",
+          "verso": "As combinações lineares das colunas de A, equivalentes às imagens Ax. Ax=b é compatível exatamente quando b está nesse espaço.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "O que o núcleo de uma transformação matricial A contém?",
+          "verso": "Os vetores x que satisfazem Ax=0. É um subespaço do domínio.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "Descreva o núcleo de A=[[1,1]].",
+          "verso": "A condição é x1+x2=0. Núcleo=span([1,-1]), uma reta de dimensão 1.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "O que o teorema posto-nulidade afirma para A com n colunas?",
+          "verso": "posto(A)+dimensão(núcleo(A))=n.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "Uma matriz com cinco colunas tem posto 3. Qual é sua nulidade?",
+          "verso": "5-3=2. Existem duas direções independentes no núcleo.",
+          "tipo": "exercicio",
+          "verificacao_nucleo": {
+            "id": "al_nulidade",
+            "esperado": 2
+          }
+        },
+        {
+          "frente": "Como distinguir injetividade e sobrejetividade de uma transformação linear?",
+          "verso": "Injetiva não colapsa vetores distintos, equivalente a núcleo zero. Sobrejetiva alcança todo o contradomínio declarado, equivalente a imagem igual a ele.",
+          "tipo": "comparacao"
+        },
+        {
+          "frente": "O que significa uma transformação ser linear?",
+          "verso": "T(au+bv)=aT(u)+bT(v). Em particular, T(0)=0.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "Uma transformação T(x)=Ax+b com b diferente de zero é linear?",
+          "verso": "Não. É afim, pois T(0)=b e não zero. A parte Ax é linear.",
+          "tipo": "caso"
+        },
+        {
+          "frente": "Como conferir se um vetor pertence a um espaço gerado?",
+          "verso": "Montar uma matriz com os geradores como colunas e verificar se o sistema para os coeficientes é compatível.",
+          "tipo": "configuracao"
+        }
+      ]
+    },
+    {
+      "numero": 5,
+      "tema": "Ortogonalidade projeções e mínimos quadrados",
+      "nivel": "intermediario",
+      "fonte": "https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/",
+      "cartoes": [
+        {
+          "frente": "O que uma base ortonormal reúne?",
+          "verso": "Vetores mutuamente ortogonais com norma 1. Eles precisam também gerar o espaço considerado para formar uma base.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "Como obter coordenadas em uma base ortonormal?",
+          "verso": "Se x pertence ao espaço dessa base, seu coeficiente na direção q_i é q_i^T x. Para um x fora do espaço gerado, os mesmos produtos dão os coeficientes da projeção ortogonal. Não se aplica diretamente a uma base arbitrária.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "Como projetar x sobre a reta gerada por um vetor não nulo u?",
+          "verso": "proj_u(x)=[(u^T x)/(u^T u)]u. É o ponto da reta mais próximo de x na distância euclidiana.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "Qual é a projeção de [3,4] sobre a reta gerada por [1,0]?",
+          "verso": "Coeficiente 3. Projeção=[3,0]; componente residual=[0,4].",
+          "tipo": "exercicio",
+          "verificacao_nucleo": {
+            "id": "al_projecao",
+            "esperado": [
+              3,
+              0
+            ]
+          }
+        },
+        {
+          "frente": "Que propriedade o resíduo x-proj_u(x) satisfaz?",
+          "verso": "É ortogonal a u no produto interno usado na projeção.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "Para u=[1,1] e x=[2,0], qual é a projeção de x sobre span(u)?",
+          "verso": "u^T x=2 e u^T u=2. Projeção=1×[1,1]=[1,1].",
+          "tipo": "exercicio",
+          "verificacao_nucleo": {
+            "id": "al_projecao_diagonal",
+            "esperado": [
+              1,
+              1
+            ]
+          }
+        },
+        {
+          "frente": "Como escrever a projeção sobre colunas ortonormais de Q?",
+          "verso": "P=QQ^T e projeção de x=Px. As colunas de Q precisam ser ortonormais.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "Que identidades uma matriz de projeção ortogonal P satisfaz?",
+          "verso": "P²=P e P^T=P. Aplicar a mesma projeção novamente não muda o resultado.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "O que Gram-Schmidt constrói a partir de vetores independentes?",
+          "verso": "Subtrai projeções sobre as direções anteriores e normaliza para obter vetores ortonormais. Implementações numéricas precisam de cuidado com estabilidade.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "Depois de remover de [1,1] sua projeção sobre [1,0], que vetor resta?",
+          "verso": "Projeção=[1,0]. Resíduo=[0,1], já com norma 1.",
+          "tipo": "exercicio",
+          "verificacao_nucleo": {
+            "id": "al_gram_schmidt",
+            "esperado": [
+              0,
+              1
+            ]
+          }
+        },
+        {
+          "frente": "O que uma fatoração QR expressa?",
+          "verso": "A=QR, com colunas ortonormais em Q e R triangular superior na forma reduzida usual. As dimensões dependem da forma escolhida.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "Qual é o problema de mínimos quadrados lineares?",
+          "verso": "Encontrar x que minimiza a norma quadrática de Ax-b, quando um ajuste exato pode não existir.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "Quais são as equações normais de mínimos quadrados?",
+          "verso": "A^T A x=A^T b. Se A tem colunas independentes, a solução é única. QR ou SVD costumam ser melhores rotinas numéricas que formar a inversa de A^T A.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "Qual constante minimiza a soma dos erros quadráticos para [1,2,3]?",
+          "verso": "A média 2. É o ajuste de um modelo com apenas intercepto.",
+          "tipo": "exercicio",
+          "verificacao_nucleo": {
+            "id": "al_minimos_constante",
+            "esperado": 2
+          }
+        },
+        {
+          "frente": "Para A=[[1,0],[1,1],[1,2]] e b=[1,2,3], quais coeficientes mínimos quadrados ajustam b?",
+          "verso": "[1,1]. O modelo é b previsto=1+1×t, com t=[0,1,2], e o resíduo é zero.",
+          "tipo": "exercicio",
+          "verificacao_nucleo": {
+            "id": "al_minimos_reta",
+            "esperado": [
+              1,
+              1
+            ]
+          }
+        },
+        {
+          "frente": "O que o resíduo de mínimos quadrados satisfaz no ponto ótimo?",
+          "verso": "A^T(b-Ax)=0. Portanto, ele é ortogonal ao espaço coluna de A.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "O que a pseudoinversa permite quando A é singular ou retangular?",
+          "verso": "Construir uma solução de mínimos quadrados de menor norma, sob a definição de Moore-Penrose. Não é uma inversa comum.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "Qual é a pseudoinversa de diag(2,0)?",
+          "verso": "diag(1/2,0). Ela inverte a direção não nula e mantém zero na direção sem informação.",
+          "tipo": "exercicio",
+          "verificacao_nucleo": {
+            "id": "al_pseudoinversa",
+            "esperado": [
+              [
+                0.5,
+                0
+              ],
+              [
+                0,
+                0
+              ]
+            ]
+          }
+        },
+        {
+          "frente": "Como Ridge modifica as equações normais quando todos os coeficientes de x são penalizados?",
+          "verso": "Para coeficientes penalizados por lambda×norma(x)², usar (A^T A+lambda I)x=A^T b. Um intercepto não penalizado exige tratamento específico.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "Qual é a ligação entre projeção e regressão linear?",
+          "verso": "As previsões de mínimos quadrados são a projeção de b sobre o espaço coluna da matriz de desenho, na geometria euclidiana do ajuste usual.",
+          "tipo": "conceito"
+        }
+      ]
+    },
+    {
+      "numero": 6,
+      "tema": "Autovalores SVD e aplicações",
+      "nivel": "intermediario",
+      "fonte": "https://numpy.org/doc/stable/reference/routines.linalg.html",
+      "cartoes": [
+        {
+          "frente": "O que define autovetor e autovalor de uma matriz quadrada?",
+          "verso": "Av=lambda v, com v não nulo. A transformação mantém a direção do autovetor, podendo mudar escala e sentido.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "Para A=diag(2,3) e v=[1,0], qual é o autovalor associado?",
+          "verso": "Av=[2,0]=2v. Autovalor lambda=2.",
+          "tipo": "exercicio",
+          "verificacao_nucleo": {
+            "id": "al_autovalor",
+            "esperado": 2
+          }
+        },
+        {
+          "frente": "Como encontrar autovalores pelo polinômio característico?",
+          "verso": "Resolver det(A-lambda I)=0. Para matrizes grandes, usar rotinas numéricas adequadas em vez de expandir determinantes.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "Quais são os autovalores de [[2,1],[1,2]], em ordem crescente?",
+          "verso": "1 e 3. Direções correspondentes incluem [1,-1] e [1,1].",
+          "tipo": "exercicio",
+          "verificacao_nucleo": {
+            "id": "al_autovalores",
+            "esperado": [
+              1,
+              3
+            ]
+          }
+        },
+        {
+          "frente": "O que significa diagonalizar A?",
+          "verso": "Escrever A=V D V^(-1), com D diagonal de autovalores e colunas de V autovetores independentes. Nem toda matriz quadrada é diagonalizável.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "O que o teorema espectral garante para matrizes reais simétricas?",
+          "verso": "Autovalores reais e uma base ortonormal de autovetores. Então A=Q D Q^T.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "Quando uma matriz real simétrica é definida positiva?",
+          "verso": "Quando x^T A x>0 para todo x não nulo. Isso equivale a todos os autovalores positivos.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "Com A=diag(2,3) e x=[1,2], quanto vale x^T A x?",
+          "verso": "2×1²+3×2²=14, positivo para esse vetor. Para provar positividade definida, é preciso a condição para todos os não nulos.",
+          "tipo": "exercicio",
+          "verificacao_nucleo": {
+            "id": "al_forma_quadratica",
+            "esperado": 14
+          }
+        },
+        {
+          "frente": "Como usar autovalores para analisar potências de uma matriz diagonalizável?",
+          "verso": "Se A=V D V^(-1), então A^k=V D^k V^(-1). Os autovalores controlam crescimento e decaimento nas direções próprias.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "O que uma decomposição SVD escreve para uma matriz real?",
+          "verso": "A=U Sigma V^T, com bases ortonormais e valores singulares não negativos. Existe também para matrizes retangulares.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "Qual é a ligação entre valores singulares de A e autovalores de A^T A?",
+          "verso": "Os valores singulares são raízes quadradas dos autovalores não negativos de A^T A.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "Quais são os valores singulares de diag(3,1), em ordem decrescente?",
+          "verso": "3 e 1. A matriz já está na forma diagonal com entradas positivas.",
+          "tipo": "exercicio",
+          "verificacao_nucleo": {
+            "id": "al_singulares",
+            "esperado": [
+              3,
+              1
+            ]
+          }
+        },
+        {
+          "frente": "O que truncar a SVD em k componentes produz?",
+          "verso": "Uma aproximação de posto no máximo k. Reter os maiores valores singulares minimiza o erro em normas usuais, como Frobenius e espectral.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "Qual é a aproximação de posto 1 da SVD de diag(3,1)?",
+          "verso": "Retém o valor singular 3 e descarta 1: diag(3,0).",
+          "tipo": "exercicio",
+          "verificacao_nucleo": {
+            "id": "al_svd_truncada",
+            "esperado": [
+              [
+                3,
+                0
+              ],
+              [
+                0,
+                0
+              ]
+            ]
+          }
+        },
+        {
+          "frente": "Qual é o erro de Frobenius dessa aproximação diag(3,0) a diag(3,1)?",
+          "verso": "A diferença é diag(0,1). Raiz da soma dos quadrados das entradas=1.",
+          "tipo": "exercicio",
+          "verificacao_nucleo": {
+            "id": "al_erro_svd",
+            "esperado": 1
+          }
+        },
+        {
+          "frente": "Como calcular o número de condição na norma 2 de uma matriz inversível?",
+          "verso": "kappa_2=sigma_max/sigma_min. Um valor alto indica potencial amplificação de pequenas perturbações; não determina sozinho o erro efetivo de uma conta.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "Qual é o número de condição na norma 2 da matriz diagonal com entradas 1 e 0,001?",
+          "verso": "1/0,001=1000. As duas entradas diagonais são 1 e 0,001.",
+          "tipo": "exercicio",
+          "verificacao_nucleo": {
+            "id": "al_condicao",
+            "esperado": 1000
+          }
+        },
+        {
+          "frente": "Como a SVD se conecta ao PCA dos dados centrados?",
+          "verso": "Para X com n>1 observações nas linhas e variáveis centradas nas colunas, X=U Sigma V^T. Os autovalores não nulos da covariância amostral são sigma²/(n-1), e as colunas de V dão as direções principais.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "Por que os sinais de autovetores e vetores singulares podem mudar entre programas?",
+          "verso": "v e -v representam a mesma direção. A reconstrução pode ser equivalente apesar de sinais diferentes; autovalores repetidos também permitem bases diferentes.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "Quando usar eigh em vez de eig em uma matriz real simétrica?",
+          "verso": "eigh aproveita simetria e retorna autovalores reais com autovetores ortonormais. Verificar se a matriz satisfaz a estrutura exigida.",
+          "tipo": "configuracao"
+        }
+      ]
+    }
+  ]
+}

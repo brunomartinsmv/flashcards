@@ -1,0 +1,63 @@
+name: Study decks
+
+on:
+  pull_request:
+    paths:
+      - 'flashcards/machine-learning/**'
+      - 'flashcards/algebra-linear/**'
+      - 'scripts/validar_importacao_anki.py'
+      - 'tests/test_study_decks.py'
+      - '.github/workflows/study-decks.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'flashcards/machine-learning/**'
+      - 'flashcards/algebra-linear/**'
+      - 'scripts/validar_importacao_anki.py'
+      - 'tests/test_study_decks.py'
+      - '.github/workflows/study-decks.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.11'
+      - name: Install dependencies
+        run: python -m pip install -r flashcards/machine-learning/exemplos/requirements.txt anki==2.1.66
+      - name: Validate shipped decks and packages
+        run: |
+          python flashcards/machine-learning/scripts/validar_colecao.py
+          python flashcards/algebra-linear/scripts/validar_colecao.py
+          python -m unittest discover -s tests -p 'test_study_decks.py' -v
+      - name: Recalculate examples and test Anki in an isolated copy
+        run: |
+          study_work="$RUNNER_TEMP/study-decks"
+          mkdir -p "$study_work/flashcards" "$study_work/scripts"
+          cp -R flashcards/machine-learning flashcards/algebra-linear "$study_work/flashcards/"
+          cp scripts/validar_importacao_anki.py "$study_work/scripts/"
+          cd "$study_work"
+          python flashcards/machine-learning/exemplos/exemplos.py
+          python flashcards/machine-learning/exemplos/fundamentos.py
+          python flashcards/machine-learning/exemplos/metricas.py
+          python flashcards/machine-learning/exemplos/nucleo_estatistico.py
+          python flashcards/algebra-linear/exemplos/algebra.py
+          python flashcards/machine-learning/scripts/gerar_colecao.py
+          python flashcards/algebra-linear/scripts/gerar_colecao.py
+          python scripts/validar_importacao_anki.py
+          python flashcards/machine-learning/scripts/gerar_colecao.py
+          python flashcards/algebra-linear/scripts/gerar_colecao.py
+          python flashcards/machine-learning/scripts/validar_colecao.py
+          python flashcards/algebra-linear/scripts/validar_colecao.py
+          python flashcards/machine-learning/scripts/gerar_colecao.py
+          python flashcards/algebra-linear/scripts/gerar_colecao.py
+          python flashcards/machine-learning/scripts/validar_colecao.py
+          python flashcards/algebra-linear/scripts/validar_colecao.py
