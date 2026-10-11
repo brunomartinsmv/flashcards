@@ -1,0 +1,42 @@
+{
+  "calculados": {
+    "prob_uniao": 0.6,
+    "prob_marginal": 0.5,
+    "prob_total": 0.35000000000000003,
+    "prob_uniforme": 0.3,
+    "prob_variancia_soma": 17,
+    "prob_sem_reposicao": 0.30000000000000004,
+    "inf_eqm": 7,
+    "inf_mle": 0.8,
+    "inf_t": 5.196152422706632,
+    "inf_chi2": 0.0,
+    "inf_anova": 27.0,
+    "ts_diferenca": [
+      3,
+      -1,
+      4
+    ],
+    "ts_sazonal": [
+      9,
+      9,
+      9
+    ],
+    "ts_ar1": 3.0,
+    "ts_ar2": 2.5,
+    "ts_suavizacao": 12.0,
+    "mv_correlacao": 0.3333333333333333,
+    "mv_mahalanobis": 1.4142135623730951,
+    "mv_pca": 0.9,
+    "bayes_parametros": [
+      8,
+      4
+    ],
+    "bayes_media": 0.6666666666666666,
+    "bayes_variancia": 0.017094017094017096,
+    "bayes_preditiva": 0.6666666666666666,
+    "bayes_map": 0.7
+  },
+  "verificados": 24,
+  "numpy": "1.26.4",
+  "scipy": "1.13.1"
+}

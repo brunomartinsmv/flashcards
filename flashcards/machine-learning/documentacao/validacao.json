@@ -1,0 +1,29 @@
+{
+  "cartoes": 539,
+  "modulos": 26,
+  "imagens": 4,
+  "cartoes_complemento": 250,
+  "cartoes_novo_nucleo": 100,
+  "exemplos_nucleo_verificados": 24,
+  "exemplos_fundamentos_verificados": 11,
+  "metricas_perdas_indicadores": 83,
+  "exemplos_numericos_verificados": 101,
+  "cartoes_com_imagem": 7,
+  "tipos": {
+    "conceito": 244,
+    "comparacao": 49,
+    "caso": 39,
+    "configuracao": 66,
+    "exercicio": 141
+  },
+  "integridade_zip": "OK",
+  "csv_equivalente_tsv": true,
+  "importacao_no_anki": "motor 2.1.66 em banco temporário; interface gráfica e perfil pessoal não usados",
+  "revisao_visual_imagens": "realizada na criação",
+  "sha256": {
+    "ml_arvore.png": "9e67197c058a269e45836465b654504ca07181d78ce98c735347143fd60a45bf",
+    "ml_clusters.png": "21e2ecf5e0707673b94d8fceba5e078ca6d05a031af5fb306fd1ba4262bc56b9",
+    "ml_knn.png": "ae4c0dbb2cc66c04ba6082a211a345d1de75485854265dccc03099493190fd22",
+    "ml_reforco.png": "e7a074a76f08bc645b211670f9b9440e2faf3d981d6efa2f93c2b0e07ca4d6f8"
+  }
+}

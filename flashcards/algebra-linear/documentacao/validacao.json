@@ -1,0 +1,15 @@
+{
+  "cartoes": 120,
+  "modulos": 6,
+  "exemplos_numericos_verificados": 33,
+  "tipos": {
+    "conceito": 76,
+    "comparacao": 4,
+    "exercicio": 33,
+    "configuracao": 3,
+    "caso": 4
+  },
+  "csv_equivalente_tsv": true,
+  "integridade_zip": "OK",
+  "importacao_no_anki": "motor 2.1.66 em banco temporário; interface gráfica e perfil pessoal não usados"
+}

@@ -1,0 +1,1924 @@
+{
+  "modulos": [
+    {
+      "numero": 13,
+      "tema": "Estatística descritiva e associação",
+      "nivel": "basico",
+      "fonte": "https://www.itl.nist.gov/div898/handbook/eda/section3/eda35.htm",
+      "cartoes": [
+        {
+          "frente": "Qual é a diferença entre população e amostra?",
+          "verso": "População é o conjunto sobre o qual se quer concluir. Amostra é a parte observada; a maneira de selecioná-la limita a conclusão.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "Qual é a diferença entre estatística descritiva e inferência?",
+          "verso": "Descritiva resume os dados observados. Inferência estima propriedades de uma população com incerteza e hipóteses de amostragem.",
+          "tipo": "comparacao"
+        },
+        {
+          "frente": "Como calcular a média aritmética e quando ela fica sensível a extremos?",
+          "verso": "Somar os valores e dividir por n. Um valor extremo afeta a soma e pode deslocar muito a média.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "Qual é a média de [2, 4, 6]?",
+          "verso": "Média = (2 + 4 + 6) / 3 = 4.",
+          "tipo": "exercicio",
+          "verificacao": {
+            "id": "media",
+            "esperado": 4.0
+          }
+        },
+        {
+          "frente": "Como encontrar a mediana de uma amostra ordenada?",
+          "verso": "Com n ímpar, usar o valor central. Com n par, usar a média dos dois centrais. A mediana é menos sensível a extremos que a média.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "Qual é a mediana de [1, 2, 3, 100]?",
+          "verso": "Os dois centrais são 2 e 3. Mediana = 2,5; a média seria 26,5.",
+          "tipo": "exercicio",
+          "verificacao": {
+            "id": "mediana",
+            "esperado": 2.5
+          }
+        },
+        {
+          "frente": "O que é moda e ela precisa ser única?",
+          "verso": "É o valor mais frequente. Pode haver mais de uma moda; para dados contínuos, agrupamentos do histograma influenciam a moda estimada.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "Qual é a diferença entre variância populacional e amostral?",
+          "verso": "Na população observada, dividir a soma dos desvios quadráticos por n. Na estimativa amostral usual, dividir por n - 1.",
+          "tipo": "comparacao"
+        },
+        {
+          "frente": "Qual é a variância amostral de [2, 4, 6]?",
+          "verso": "Média 4; soma dos desvios quadráticos = 4 + 0 + 4 = 8. s² = 8 / (3 - 1) = 4.",
+          "tipo": "exercicio",
+          "verificacao": {
+            "id": "variancia",
+            "esperado": 4.0
+          }
+        },
+        {
+          "frente": "O que o desvio padrão mede e qual é sua unidade?",
+          "verso": "É a raiz da variância e mede dispersão. Tem a mesma unidade dos dados; variância tem a unidade ao quadrado.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "Com variância amostral 4, qual é o desvio padrão?",
+          "verso": "s = √4 = 2.",
+          "tipo": "exercicio",
+          "verificacao": {
+            "id": "desvio",
+            "esperado": 2.0
+          }
+        },
+        {
+          "frente": "Como calcular amplitude e por que ela é instável?",
+          "verso": "Máximo menos mínimo. Depende só dos extremos e tende a crescer com o tamanho da amostra.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "O que é um quantil e por que seu valor pode variar entre programas?",
+          "verso": "É um ponto associado a uma proporção acumulada dos dados. Métodos de interpolação e convenções amostrais podem produzir valores diferentes.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "Como calcular o intervalo interquartil IQR?",
+          "verso": "IQR = Q3 - Q1. Resume a dispersão dos 50% centrais e reduz a influência das caudas.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "Com Q1=10 e Q3=18, qual é o IQR?",
+          "verso": "IQR = 18 - 10 = 8. Os quartis já foram fornecidos; não há escolha de interpolação neste exercício.",
+          "tipo": "exercicio",
+          "verificacao": {
+            "id": "iqr",
+            "esperado": 8.0
+          }
+        },
+        {
+          "frente": "O que é MAD na estatística descritiva?",
+          "verso": "Mediana dos desvios absolutos em relação à mediana dos dados. Não confundir com o erro absoluto médio de previsão.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "Qual é o MAD não escalado de [1, 2, 3, 100]?",
+          "verso": "Mediana 2,5. Desvios [1,5; 0,5; 0,5; 97,5]; mediana dos desvios = 1.",
+          "tipo": "exercicio",
+          "verificacao": {
+            "id": "mad",
+            "esperado": 1.0
+          }
+        },
+        {
+          "frente": "O que assimetria e curtose descrevem?",
+          "verso": "Assimetria descreve desequilíbrio das caudas. Curtose caracteriza peso de caudas pela padronização do quarto momento; declarar se é curtose ou excesso de curtose.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "Como interpretar o coeficiente de variação?",
+          "verso": "CV = desvio padrão / média. É adimensional; faz sentido sobretudo em escala de razão com média positiva, distante de zero.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "Média 50 e desvio 10 dão qual coeficiente de variação?",
+          "verso": "CV = 10 / 50 = 0,2 = 20%.",
+          "tipo": "exercicio",
+          "verificacao": {
+            "id": "cv",
+            "esperado": 0.2
+          }
+        },
+        {
+          "frente": "Qual é a diferença entre covariância e correlação de Pearson?",
+          "verso": "Covariância depende das unidades. Pearson padroniza a covariância pelos desvios e mede associação linear entre -1 e 1.",
+          "tipo": "comparacao"
+        },
+        {
+          "frente": "Pearson igual a zero significa independência?",
+          "verso": "Não em geral. Pode existir dependência não linear, como Y = X² com X simétrico em torno de zero.",
+          "tipo": "caso"
+        },
+        {
+          "frente": "O que a correlação de Spearman mede?",
+          "verso": "Associação monotônica entre postos. Pode detectar uma relação crescente não linear, mas não demonstra causalidade.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "Para X=[1,2,3] e Y=[2,4,6], quanto valem Pearson e Spearman?",
+          "verso": "Ambos valem 1. A relação é linear crescente perfeita e preserva a ordem dos valores.",
+          "tipo": "exercicio",
+          "verificacao": {
+            "id": "correlacao",
+            "esperado": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "numero": 14,
+      "tema": "Probabilidade distribuições e Bayes",
+      "nivel": "basico",
+      "fonte": "https://docs.scipy.org/doc/scipy/reference/stats.html",
+      "cartoes": [
+        {
+          "frente": "O que é uma variável aleatória discreta e uma contínua?",
+          "verso": "Discreta concentra probabilidades em um conjunto finito ou contável de valores, como número de falhas. Nos modelos contínuos com densidade, probabilidades vêm de integrais em intervalos, e cada ponto isolado tem probabilidade zero.",
+          "tipo": "comparacao"
+        },
+        {
+          "frente": "O que P(A dado B) significa e como calcular?",
+          "verso": "Probabilidade de A entre os casos em que B ocorre. P(A dado B) = P(A e B) / P(B), se P(B) > 0.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "Entre 20 dias chuvosos, 5 tiveram raios. Qual é P(raios dado chuva) nessa amostra?",
+          "verso": "5 / 20 = 0,25. É uma frequência condicional amostral, não uma probabilidade universal.",
+          "tipo": "exercicio",
+          "verificacao": {
+            "id": "condicional",
+            "esperado": 0.25
+          }
+        },
+        {
+          "frente": "Quando dois eventos são independentes?",
+          "verso": "Quando P(A e B) = P(A) × P(B). Independência não é o mesmo que eventos mutuamente exclusivos.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "Eventos independentes têm P(A)=0,2 e P(B)=0,3. Quanto vale P(A e B)?",
+          "verso": "0,2 × 0,3 = 0,06.",
+          "tipo": "exercicio",
+          "verificacao": {
+            "id": "independencia",
+            "esperado": 0.06
+          }
+        },
+        {
+          "frente": "Qual é a fórmula de Bayes para dois eventos?",
+          "verso": "P(A dado B) = P(B dado A) × P(A) / P(B), com P(B) > 0. Ela atualiza uma probabilidade a partir de nova informação.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "Um evento ocorre em 1% dos casos; detector tem sensibilidade 90% e falso positivo 10%. Quanto vale P(evento dado alerta)?",
+          "verso": "0,9 × 0,01 / [0,9 × 0,01 + 0,1 × 0,99] = 0,08333, cerca de 8,33%. A frequência rara reduz a precisão dos alertas.",
+          "tipo": "exercicio",
+          "verificacao": {
+            "id": "bayes",
+            "esperado": 0.08333333333333333
+          }
+        },
+        {
+          "frente": "O que esperança E[X] representa?",
+          "verso": "Uma média ponderada pelos valores e suas probabilidades. Não precisa ser um resultado possível de uma única observação.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "X vale 0 com probabilidade 0,7 e 10 com probabilidade 0,3. Qual é E[X]?",
+          "verso": "E[X] = 0 × 0,7 + 10 × 0,3 = 3.",
+          "tipo": "exercicio",
+          "verificacao": {
+            "id": "esperanca",
+            "esperado": 3.0
+          }
+        },
+        {
+          "frente": "O que a distribuição Bernoulli modela?",
+          "verso": "Uma variável 0 ou 1 com probabilidade p de sucesso. Esperança p e variância p × (1 - p).",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "O que a distribuição binomial modela?",
+          "verso": "Número de sucessos em n ensaios Bernoulli independentes com o mesmo p. Esperança n × p.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "Em 10 ensaios independentes com p=0,2, qual é o número esperado de sucessos?",
+          "verso": "E[X] = 10 × 0,2 = 2. Não significa que sempre haverá dois sucessos.",
+          "tipo": "exercicio",
+          "verificacao": {
+            "id": "binomial",
+            "esperado": 2.0
+          }
+        },
+        {
+          "frente": "O que a distribuição de Poisson modela?",
+          "verso": "Contagens em um intervalo sob uma taxa e hipóteses apropriadas de ocorrência. Na Poisson, média e variância são iguais a lambda.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "O que caracteriza uma distribuição normal?",
+          "verso": "É simétrica e definida por média e desvio padrão. Sob normalidade, cerca de 95% dos valores ficam entre média ± 1,96 desvios.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "A normalidade das entradas é necessária para toda técnica de machine learning?",
+          "verso": "Não. As hipóteses dependem do modelo e da análise; padronização também não torna os dados normais.",
+          "tipo": "caso"
+        },
+        {
+          "frente": "O que o teorema central do limite afirma no caso clássico?",
+          "verso": "Para observações iid com média finita e variância finita positiva, √n×(média amostral-média populacional)/desvio populacional converge em distribuição para a normal padrão. A aproximação em uma amostra finita depende da distribuição.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "O que é verossimilhança?",
+          "verso": "A compatibilidade dos dados observados com diferentes parâmetros do modelo. Como função dos parâmetros, não é automaticamente uma probabilidade sobre eles.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "Qual é a diferença entre priori e posterior em Bayes?",
+          "verso": "Priori descreve a incerteza antes dos dados. Posterior combina priori e verossimilhança após observar os dados.",
+          "tipo": "comparacao"
+        },
+        {
+          "frente": "O que entropia mede em uma variável categórica?",
+          "verso": "H = -soma p × log(p). Mede incerteza da distribuição; a base do log define a unidade, como bits para base 2.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "Uma moeda justa tem qual entropia em bits?",
+          "verso": "H = -2 × 0,5 × log2(0,5) = 1 bit.",
+          "tipo": "exercicio",
+          "verificacao": {
+            "id": "entropia",
+            "esperado": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "numero": 15,
+      "tema": "Inferência intervalos e comparação de modelos",
+      "nivel": "intermediario",
+      "fonte": "https://docs.scipy.org/doc/scipy/reference/stats.html",
+      "cartoes": [
+        {
+          "frente": "Qual é a diferença entre desvio padrão e erro padrão da média?",
+          "verso": "Desvio descreve dispersão das observações. Erro padrão estima a incerteza da média; no caso independente usual, SE = s / √n.",
+          "tipo": "comparacao"
+        },
+        {
+          "frente": "Uma amostra independente tem s=10 e n=25. Qual é o erro padrão da média?",
+          "verso": "SE = 10 / √25 = 2.",
+          "tipo": "exercicio",
+          "verificacao": {
+            "id": "erro_padrao",
+            "esperado": 2.0
+          }
+        },
+        {
+          "frente": "Como interpretar um intervalo de confiança frequentista de 95%?",
+          "verso": "Em repetições do mesmo procedimento, cerca de 95% dos intervalos cobrem o parâmetro fixo, sob as hipóteses. Não atribui 95% de probabilidade ao parâmetro nesse intervalo específico.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "Média 50 e erro padrão 2 dão qual limite superior no IC normal aproximado de 95%?",
+          "verso": "50 + 1,96 × 2 = 53,92; o intervalo completo é [46,08; 53,92]. Usar t ou outro método quando as condições pedirem.",
+          "tipo": "exercicio",
+          "verificacao": {
+            "id": "ic_superior",
+            "esperado": 53.92
+          }
+        },
+        {
+          "frente": "O que um intervalo de credibilidade bayesiano de 95% significa?",
+          "verso": "Sob o modelo e a priori adotados, o intervalo contém 95% da probabilidade posterior do parâmetro.",
+          "tipo": "comparacao"
+        },
+        {
+          "frente": "Qual é a diferença entre hipótese nula e alternativa?",
+          "verso": "A nula especifica uma condição de referência, como diferença média zero. A alternativa define o desvio investigado.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "Como interpretar um p-valor?",
+          "verso": "Sob a hipótese nula e o modelo do teste, é a probabilidade de um resultado tão extremo quanto o observado ou mais, segundo a estatística escolhida.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "Um p-valor 0,03 significa 3% de probabilidade de a hipótese nula ser verdadeira?",
+          "verso": "Não. Ele condiciona na hipótese nula; não calcula a probabilidade posterior dessa hipótese.",
+          "tipo": "caso"
+        },
+        {
+          "frente": "Qual é a diferença entre erro tipo I e tipo II?",
+          "verso": "Tipo I rejeita uma nula verdadeira. Tipo II não rejeita uma nula falsa em uma alternativa específica.",
+          "tipo": "comparacao"
+        },
+        {
+          "frente": "O que é poder estatístico?",
+          "verso": "Probabilidade de rejeitar a nula sob uma alternativa específica. Poder = 1 - beta; depende de efeito, variabilidade, n e procedimento.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "Beta=0,2 corresponde a qual poder?",
+          "verso": "1 - 0,2 = 0,8, ou 80%, para a alternativa e o teste considerados.",
+          "tipo": "exercicio",
+          "verificacao": {
+            "id": "poder",
+            "esperado": 0.8
+          }
+        },
+        {
+          "frente": "Significância estatística demonstra importância prática?",
+          "verso": "Não. Um efeito pequeno pode ser significativo em amostras grandes. Relatar magnitude, unidade e incerteza junto do teste.",
+          "tipo": "caso"
+        },
+        {
+          "frente": "O que um teste t pareado compara?",
+          "verso": "A média das diferenças entre observações pareadas. A inferência exige um modelo adequado para essas diferenças, incluindo independência entre pares.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "Qual é a vantagem do teste t de Welch em relação ao t com variância combinada?",
+          "verso": "Não exige igualdade das variâncias populacionais entre dois grupos independentes. As outras hipóteses e o desenho continuam relevantes.",
+          "tipo": "comparacao"
+        },
+        {
+          "frente": "Como funciona bootstrap para estimar incerteza?",
+          "verso": "Reamostra as unidades observadas com reposição e recalcula a estatística. A unidade reamostrada precisa refletir a dependência dos dados.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "Como adaptar bootstrap para uma série temporal dependente?",
+          "verso": "Considerar reamostragem em blocos ou outro método adequado à dependência. Sortear linhas individualmente pode subestimar incerteza.",
+          "tipo": "configuracao"
+        },
+        {
+          "frente": "Como comparar dois modelos com bootstrap pareado?",
+          "verso": "Usar os mesmos índices reamostrados para as previsões de ambos e calcular a diferença de métrica em cada réplica.",
+          "tipo": "configuracao"
+        },
+        {
+          "frente": "O que um teste de permutação precisa para ser válido?",
+          "verso": "Uma hipótese que justifique permutar os rótulos ou diferenças conforme o desenho, preservando grupos e dependências relevantes.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "Qual é o risco de testar muitas hipóteses sem ajuste?",
+          "verso": "Aumentar a chance de encontrar resultados positivos por acaso. Declarar o conjunto de testes e uma correção compatível com o objetivo.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "Como Bonferroni ajusta um limiar alpha para m testes?",
+          "verso": "Usa alpha / m para controlar a probabilidade de ao menos uma rejeição falsa na família, sob as condições dos testes.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "Com alpha=0,05 e 10 testes, qual é o limiar de Bonferroni?",
+          "verso": "0,05 / 10 = 0,005 por teste.",
+          "tipo": "exercicio",
+          "verificacao": {
+            "id": "bonferroni",
+            "esperado": 0.005
+          }
+        },
+        {
+          "frente": "O que Benjamini-Hochberg procura controlar?",
+          "verso": "A taxa esperada de descobertas falsas entre as rejeições, sob suas condições de validade. Não é a mesma garantia de Bonferroni.",
+          "tipo": "comparacao"
+        },
+        {
+          "frente": "Por que não tratar os escores dos folds como amostras independentes em um teste t simples?",
+          "verso": "Os conjuntos de treino se sobrepõem e geram dependência. Escolher um desenho de comparação que reconheça essa estrutura.",
+          "tipo": "caso"
+        },
+        {
+          "frente": "Como interpretar tamanho de efeito padronizado, como Cohen d?",
+          "verso": "Expressa uma diferença de médias em unidades de dispersão, com definição dependente do desenho. Não substitui diferença na unidade original e intervalo de incerteza.",
+          "tipo": "conceito"
+        }
+      ]
+    },
+    {
+      "numero": 16,
+      "tema": "Métricas de regressão e perdas",
+      "nivel": "intermediario",
+      "fonte": "https://scikit-learn.org/stable/modules/model_evaluation.html",
+      "cartoes": [
+        {
+          "frente": "Como interpretar e calcular MAE (erro absoluto médio)?",
+          "verso": "MAE = média de abs(ŷ - y). Menor é melhor; mantém a unidade do alvo e dá peso linear ao tamanho do erro.",
+          "tipo": "conceito",
+          "metrica": "MAE (erro absoluto médio)"
+        },
+        {
+          "frente": "Para y=[2,4] e ŷ=[3,2], calcule o MAE.",
+          "verso": "Erros absolutos [1,2]. MAE = (1 + 2) / 2 = 1,5.",
+          "tipo": "exercicio",
+          "metrica": "MAE (erro absoluto médio)",
+          "verificacao": {
+            "id": "mae",
+            "esperado": 1.5
+          }
+        },
+        {
+          "frente": "Como interpretar e calcular MSE (erro quadrático médio)?",
+          "verso": "MSE = média de (ŷ - y)². Menor é melhor; a unidade é a do alvo ao quadrado e erros grandes recebem mais peso.",
+          "tipo": "conceito",
+          "metrica": "MSE (erro quadrático médio)"
+        },
+        {
+          "frente": "Para y=[2,4] e ŷ=[3,2], calcule o MSE.",
+          "verso": "Erros [1,-2], quadrados [1,4]. MSE = 5 / 2 = 2,5.",
+          "tipo": "exercicio",
+          "metrica": "MSE (erro quadrático médio)",
+          "verificacao": {
+            "id": "mse",
+            "esperado": 2.5
+          }
+        },
+        {
+          "frente": "Como interpretar e calcular RMSE (raiz do erro quadrático médio)?",
+          "verso": "RMSE = √MSE. Menor é melhor; mantém a unidade do alvo. Comparar no mesmo conjunto e com a mesma agregação.",
+          "tipo": "conceito",
+          "metrica": "RMSE (raiz do erro quadrático médio)"
+        },
+        {
+          "frente": "Para y=[2,4] e ŷ=[3,2], calcule o RMSE.",
+          "verso": "RMSE = √[(1² + (-2)²)/2] = √2,5 ≈ 1,5811.",
+          "tipo": "exercicio",
+          "metrica": "RMSE (raiz do erro quadrático médio)",
+          "verificacao": {
+            "id": "rmse",
+            "esperado": 1.5811388300841898
+          }
+        },
+        {
+          "frente": "Como interpretar e calcular MedAE (mediana do erro absoluto)?",
+          "verso": "MedAE = mediana de abs(ŷ - y). Menor é melhor; resume o erro típico com menos influência de extremos, mas pode esconder erros de cauda.",
+          "tipo": "conceito",
+          "metrica": "MedAE (mediana do erro absoluto)"
+        },
+        {
+          "frente": "Com erros absolutos [1,2,100], quanto vale MedAE?",
+          "verso": "A mediana é 2. O erro extremo 100 não desloca a mediana como deslocaria a média.",
+          "tipo": "exercicio",
+          "metrica": "MedAE (mediana do erro absoluto)",
+          "verificacao": {
+            "id": "medae",
+            "esperado": 2
+          }
+        },
+        {
+          "frente": "Como interpretar e calcular erro absoluto máximo?",
+          "verso": "Máximo de abs(ŷ - y). Menor é melhor; descreve o pior erro observado e é sensível a extremos e ao tamanho da amostra.",
+          "tipo": "conceito",
+          "metrica": "erro absoluto máximo"
+        },
+        {
+          "frente": "Para y=[2,4] e ŷ=[3,2], qual é o erro absoluto máximo?",
+          "verso": "max([1,2]) = 2.",
+          "tipo": "exercicio",
+          "metrica": "erro absoluto máximo",
+          "verificacao": {
+            "id": "max_error",
+            "esperado": 2
+          }
+        },
+        {
+          "frente": "Como interpretar e calcular viés médio de previsão (ME)?",
+          "verso": "Aqui ME = média de (ŷ - y). Positivo indica superestimação média; negativo, subestimação. Perto de zero não implica erros pequenos, pois sinais podem cancelar.",
+          "tipo": "conceito",
+          "metrica": "viés médio de previsão (ME)"
+        },
+        {
+          "frente": "Para y=[2,4] e ŷ=[3,2], qual é o ME na convenção ŷ - y?",
+          "verso": "ME = (1 - 2) / 2 = -0,5. Há subestimação média de 0,5 unidade.",
+          "tipo": "exercicio",
+          "metrica": "viés médio de previsão (ME)",
+          "verificacao": {
+            "id": "me",
+            "esperado": -0.5
+          }
+        },
+        {
+          "frente": "Como interpretar e calcular MAPE (erro percentual absoluto médio)?",
+          "verso": "MAPE = média de abs((ŷ - y)/y), com y diferente de zero. Menor é melhor; multiplicar por 100 para porcentagem. É instável perto de zero; scikit-learn retorna fração.",
+          "tipo": "conceito",
+          "metrica": "MAPE (erro percentual absoluto médio)"
+        },
+        {
+          "frente": "Para y=[2,4] e ŷ=[3,2], quanto vale MAPE em fração e porcentagem?",
+          "verso": "(1/2 + 2/4) / 2 = 0,5, ou 50%. Não usar essa fórmula quando algum y for zero.",
+          "tipo": "exercicio",
+          "metrica": "MAPE (erro percentual absoluto médio)",
+          "verificacao": {
+            "id": "mape",
+            "esperado": 0.5
+          }
+        },
+        {
+          "frente": "Como interpretar e calcular sMAPE na convenção de 0 a 200%?",
+          "verso": "sMAPE = média de 2 × abs(ŷ-y)/(abs(y)+abs(ŷ)), vezes 100 em %. Há outras convenções; y=ŷ=0 exige regra declarada e valores pequenos continuam problemáticos.",
+          "tipo": "conceito",
+          "metrica": "sMAPE na convenção de 0 a 200%",
+          "fonte": "https://otexts.com/fpp3/accuracy.html"
+        },
+        {
+          "frente": "Com y=[2,4] e ŷ=[3,2], qual é o sMAPE sem multiplicar por 100?",
+          "verso": "[2×1/5 + 2×2/6] / 2 = 0,53333. Nesta convenção, corresponde a 53,33%.",
+          "tipo": "exercicio",
+          "metrica": "sMAPE na convenção de 0 a 200%",
+          "fonte": "https://otexts.com/fpp3/accuracy.html",
+          "verificacao": {
+            "id": "smape",
+            "esperado": 0.5333333333333333
+          }
+        },
+        {
+          "frente": "Como interpretar e calcular WAPE (erro absoluto percentual agregado)?",
+          "verso": "WAPE = soma abs(ŷ-y) / soma abs(y). Menor é melhor; o denominador precisa ser positivo. Agrega pelo volume e pode esconder falhas nos valores pequenos.",
+          "tipo": "conceito",
+          "metrica": "WAPE (erro absoluto percentual agregado)",
+          "fonte": "https://robjhyndman.com/hyndsight/wape.html"
+        },
+        {
+          "frente": "Para y=[2,4] e ŷ=[3,2], qual é o WAPE?",
+          "verso": "(1 + 2) / (2 + 4) = 0,5 = 50%.",
+          "tipo": "exercicio",
+          "metrica": "WAPE (erro absoluto percentual agregado)",
+          "fonte": "https://robjhyndman.com/hyndsight/wape.html",
+          "verificacao": {
+            "id": "wape",
+            "esperado": 0.5
+          }
+        },
+        {
+          "frente": "Como interpretar e calcular R² (coeficiente de determinação)?",
+          "verso": "R² = 1 - SSE/SST, com SST = soma (y-média(y))². Maior é melhor, máximo 1; pode ser negativo. Alvo constante deixa a fórmula indefinida; bibliotecas podem aplicar convenções.",
+          "tipo": "conceito",
+          "metrica": "R² (coeficiente de determinação)"
+        },
+        {
+          "frente": "Para y=[2,4] e ŷ=[3,2], quanto vale R²?",
+          "verso": "Média observada 3; SST=1+1=2; SSE=1+4=5. R² = 1 - 5/2 = -1,5.",
+          "tipo": "exercicio",
+          "metrica": "R² (coeficiente de determinação)",
+          "verificacao": {
+            "id": "r2",
+            "esperado": -1.5
+          }
+        },
+        {
+          "frente": "Como interpretar e calcular R² ajustado na regressão linear clássica?",
+          "verso": "R² ajustado = 1 - (1-R²)(n-1)/(n-p-1), com p regressores e intercepto. Penaliza complexidade nesse contexto; não substitui avaliação fora do treino.",
+          "tipo": "conceito",
+          "metrica": "R² ajustado na regressão linear clássica",
+          "fonte": "https://www.statsmodels.org/stable/generated/statsmodels.regression.linear_model.RegressionResults.rsquared_adj.html"
+        },
+        {
+          "frente": "Com R²=0,8, n=10 e p=2, calcule R² ajustado.",
+          "verso": "1 - 0,2 × 9/7 = 0,742857. É preciso n > p + 1.",
+          "tipo": "exercicio",
+          "metrica": "R² ajustado na regressão linear clássica",
+          "fonte": "https://www.statsmodels.org/stable/generated/statsmodels.regression.linear_model.RegressionResults.rsquared_adj.html",
+          "verificacao": {
+            "id": "r2_ajustado",
+            "esperado": 0.7428571428571429
+          }
+        },
+        {
+          "frente": "Como interpretar e calcular variância explicada (EV)?",
+          "verso": "EV = 1 - Var(y-ŷ)/Var(y). Maior é melhor; pode ignorar um deslocamento constante que R² penaliza. Alvo constante exige convenção.",
+          "tipo": "conceito",
+          "metrica": "variância explicada (EV)"
+        },
+        {
+          "frente": "Se ŷ=y+10 para um alvo não constante, qual é a variância explicada?",
+          "verso": "O resíduo é constante, então Var(y-ŷ)=0 e EV=1. Apesar disso, há viés de +10 em todas as previsões.",
+          "tipo": "exercicio",
+          "metrica": "variância explicada (EV)",
+          "verificacao": {
+            "id": "ev",
+            "esperado": 1
+          }
+        },
+        {
+          "frente": "Como interpretar e calcular MSLE e RMSLE?",
+          "verso": "MSLE = média de [ln(1+ŷ)-ln(1+y)]², para alvos e previsões não negativos. RMSLE é sua raiz. Menor é melhor; a transformação muda o peso dos erros.",
+          "tipo": "conceito",
+          "metrica": "MSLE e RMSLE"
+        },
+        {
+          "frente": "Para uma observação y=1 e ŷ=3, qual é o RMSLE?",
+          "verso": "abs(ln(4)-ln(2)) = ln(2) ≈ 0,693147. O MSLE correspondente é cerca de 0,480453.",
+          "tipo": "exercicio",
+          "metrica": "MSLE e RMSLE",
+          "verificacao": {
+            "id": "rmsle",
+            "esperado": 0.6931471805599453
+          }
+        },
+        {
+          "frente": "Como interpretar e calcular pinball loss (perda de quantil)?",
+          "verso": "Com u=y-q, usar tau×u se u≥0 e (tau-1)×u se u<0. Tirar a média; menor é melhor. Tau alto penaliza mais a subestimação.",
+          "tipo": "conceito",
+          "metrica": "pinball loss (perda de quantil)"
+        },
+        {
+          "frente": "Para tau=0,9, y=10 e quantil previsto q=8, quanto vale a pinball loss?",
+          "verso": "u=2 positivo. Perda = 0,9 × 2 = 1,8. Se q fosse 12, seria 0,1 × 2 = 0,2.",
+          "tipo": "exercicio",
+          "metrica": "pinball loss (perda de quantil)",
+          "verificacao": {
+            "id": "pinball",
+            "esperado": 1.8
+          }
+        },
+        {
+          "frente": "Como interpretar e calcular desvio médio de Poisson?",
+          "verso": "Média de 2×[y ln(y/ŷ) - y + ŷ], com y≥0 e ŷ>0; definir y ln(y/ŷ)=0 quando y=0. Menor é melhor; útil para alvos de contagem sob modelo apropriado.",
+          "tipo": "conceito",
+          "metrica": "desvio médio de Poisson"
+        },
+        {
+          "frente": "Para y=2 e ŷ=1, calcule o desvio de Poisson.",
+          "verso": "2 × [2 ln(2) - 2 + 1] ≈ 0,772589.",
+          "tipo": "exercicio",
+          "metrica": "desvio médio de Poisson",
+          "verificacao": {
+            "id": "poisson",
+            "esperado": 0.7725887222397811
+          }
+        },
+        {
+          "frente": "Como interpretar e calcular desvio médio de Gamma?",
+          "verso": "Média de 2×[(y-ŷ)/ŷ - ln(y/ŷ)], com y>0 e ŷ>0. Menor é melhor; avalia erros relativos para alvos positivos sob um modelo Gamma.",
+          "tipo": "conceito",
+          "metrica": "desvio médio de Gamma"
+        },
+        {
+          "frente": "Para y=2 e ŷ=1, calcule o desvio de Gamma.",
+          "verso": "2 × [1 - ln(2)] ≈ 0,613706.",
+          "tipo": "exercicio",
+          "metrica": "desvio médio de Gamma",
+          "verificacao": {
+            "id": "gamma",
+            "esperado": 0.6137056388801094
+          }
+        },
+        {
+          "frente": "Como interpretar e calcular desvio de Tweedie?",
+          "verso": "Uma família de perdas com power que define variância e domínio. Power=0 dá erro quadrático, power=1 Poisson e power=2 Gamma. Menor é melhor, respeitando o domínio escolhido.",
+          "tipo": "conceito",
+          "metrica": "desvio de Tweedie"
+        },
+        {
+          "frente": "Para y=[2,4] e ŷ=[3,2], qual é o desvio médio Tweedie com power=0?",
+          "verso": "Power=0 corresponde a MSE. Resultado = (1+4)/2 = 2,5.",
+          "tipo": "exercicio",
+          "metrica": "desvio de Tweedie",
+          "verificacao": {
+            "id": "tweedie",
+            "esperado": 2.5
+          }
+        },
+        {
+          "frente": "Como interpretar e calcular perda de Huber?",
+          "verso": "Para resíduo u e delta>0: 0,5u² se abs(u)≤delta; delta×(abs(u)-0,5delta) fora disso. Combina penalização quadrática perto de zero e linear na cauda.",
+          "tipo": "conceito",
+          "metrica": "perda de Huber",
+          "fonte": "https://docs.scipy.org/doc/scipy/reference/generated/scipy.special.huber.html"
+        },
+        {
+          "frente": "Com resíduos [1,-2] e delta=1, qual é a perda média de Huber?",
+          "verso": "Perdas [0,5; 1×(2-0,5)=1,5]. Média = 1. Esta é a fórmula de Huber declarada, não toda convenção de estimadores chamados Huber.",
+          "tipo": "exercicio",
+          "metrica": "perda de Huber",
+          "fonte": "https://docs.scipy.org/doc/scipy/reference/generated/scipy.special.huber.html",
+          "verificacao": {
+            "id": "huber",
+            "esperado": 1
+          }
+        },
+        {
+          "frente": "Como escolher uma constante ótima sob MAE ou MSE?",
+          "verso": "No conjunto considerado, a mediana minimiza a soma de erros absolutos; a média minimiza a soma dos erros quadráticos. A métrica define o objetivo estimado.",
+          "tipo": "comparacao"
+        },
+        {
+          "frente": "O que verificar ao usar MAPE em precipitação diária?",
+          "verso": "Dias sem chuva têm y=0 e dias com chuva mínima podem dominar razões. Considerar métricas na unidade original ou escaladas com denominador válido.",
+          "tipo": "caso"
+        },
+        {
+          "frente": "Por que não comparar RMSE de alvos com unidades diferentes diretamente?",
+          "verso": "Uma métrica de 10 reais e outra de 10 graus descrevem problemas distintos. Uma normalização precisa de denominador e objetivo declarados.",
+          "tipo": "caso"
+        }
+      ]
+    },
+    {
+      "numero": 17,
+      "tema": "Métricas de classificação binária",
+      "nivel": "intermediario",
+      "fonte": "https://scikit-learn.org/stable/modules/model_evaluation.html",
+      "cartoes": [
+        {
+          "frente": "Como ler TP TN FP e FN em uma matriz de confusão?",
+          "verso": "TP acerta positivos; TN acerta negativos; FP prevê positivo quando era negativo; FN prevê negativo quando era positivo. Declare qual classe é positiva.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "Qual é a ordem padrão da matriz binária do scikit-learn com labels=[0,1]?",
+          "verso": "Linhas são classes reais e colunas previstas. A matriz fica [[TN,FP],[FN,TP]]. Usar labels explicitamente evita ambiguidade.",
+          "tipo": "configuracao"
+        },
+        {
+          "frente": "O que fazer quando uma métrica tem denominador zero?",
+          "verso": "Reportar que ela é indefinida matematicamente e declarar a convenção de implementação, como zero_division. Não confundir zero convencional com desempenho observado.",
+          "tipo": "configuracao"
+        },
+        {
+          "frente": "Como interpretar e calcular acurácia?",
+          "verso": "(TP+TN)/N. Maior é melhor; mede a proporção de decisões corretas. Pode ocultar falhas da classe rara.",
+          "tipo": "conceito",
+          "metrica": "acurácia"
+        },
+        {
+          "frente": "Com TP=30, FN=10, FP=5 e TN=55, qual é a acurácia?",
+          "verso": "(30+55)/100 = 0,85 = 85%.",
+          "tipo": "exercicio",
+          "metrica": "acurácia",
+          "verificacao": {
+            "id": "accuracy",
+            "esperado": 0.85
+          }
+        },
+        {
+          "frente": "Como interpretar e calcular precision (precisão dos positivos)?",
+          "verso": "TP/(TP+FP). Maior é melhor; entre os positivos previstos, mede quantos são reais. Não confundir com precisão de uma medição.",
+          "tipo": "conceito",
+          "metrica": "precision (precisão dos positivos)"
+        },
+        {
+          "frente": "Com TP=30, FN=10, FP=5 e TN=55, calcule precision.",
+          "verso": "30/(30+5) = 0,857143, cerca de 85,71%.",
+          "tipo": "exercicio",
+          "metrica": "precision (precisão dos positivos)",
+          "verificacao": {
+            "id": "precision",
+            "esperado": 0.8571428571428571
+          }
+        },
+        {
+          "frente": "Como interpretar e calcular recall ou sensibilidade?",
+          "verso": "TP/(TP+FN). Maior é melhor; mede a fração de positivos reais detectados. Também chamado taxa de verdadeiros positivos.",
+          "tipo": "conceito",
+          "metrica": "recall ou sensibilidade"
+        },
+        {
+          "frente": "Com TP=30, FN=10, FP=5 e TN=55, calcule recall.",
+          "verso": "30/(30+10)=0,75 = 75%.",
+          "tipo": "exercicio",
+          "metrica": "recall ou sensibilidade",
+          "verificacao": {
+            "id": "recall",
+            "esperado": 0.75
+          }
+        },
+        {
+          "frente": "Como interpretar e calcular especificidade?",
+          "verso": "TN/(TN+FP). Maior é melhor; mede a fração de negativos reais identificados corretamente.",
+          "tipo": "conceito",
+          "metrica": "especificidade"
+        },
+        {
+          "frente": "Com TP=30, FN=10, FP=5 e TN=55, calcule especificidade.",
+          "verso": "55/(55+5)=0,916667, cerca de 91,67%.",
+          "tipo": "exercicio",
+          "metrica": "especificidade",
+          "verificacao": {
+            "id": "specificity",
+            "esperado": 0.9166666666666666
+          }
+        },
+        {
+          "frente": "Como interpretar e calcular valor preditivo negativo (NPV)?",
+          "verso": "TN/(TN+FN). Maior é melhor; entre os negativos previstos, mede quantos são negativos reais. Depende da distribuição da população avaliada.",
+          "tipo": "conceito",
+          "metrica": "valor preditivo negativo (NPV)"
+        },
+        {
+          "frente": "Com TP=30, FN=10, FP=5 e TN=55, calcule NPV.",
+          "verso": "55/(55+10)=0,846154, cerca de 84,62%.",
+          "tipo": "exercicio",
+          "metrica": "valor preditivo negativo (NPV)",
+          "verificacao": {
+            "id": "npv",
+            "esperado": 0.8461538461538461
+          }
+        },
+        {
+          "frente": "Como interpretar e calcular taxa de falsos positivos (FPR)?",
+          "verso": "FP/(FP+TN) = 1-especificidade. Menor é melhor; usa como denominador os negativos reais, não os alertas.",
+          "tipo": "conceito",
+          "metrica": "taxa de falsos positivos (FPR)"
+        },
+        {
+          "frente": "Com TP=30, FN=10, FP=5 e TN=55, calcule FPR.",
+          "verso": "5/(5+55)=0,083333, cerca de 8,33%.",
+          "tipo": "exercicio",
+          "metrica": "taxa de falsos positivos (FPR)",
+          "verificacao": {
+            "id": "fpr",
+            "esperado": 0.08333333333333333
+          }
+        },
+        {
+          "frente": "Como interpretar e calcular taxa de falsos negativos (FNR)?",
+          "verso": "FN/(FN+TP) = 1-recall. Menor é melhor; mede a proporção de eventos positivos perdidos.",
+          "tipo": "conceito",
+          "metrica": "taxa de falsos negativos (FNR)"
+        },
+        {
+          "frente": "Com TP=30, FN=10, FP=5 e TN=55, calcule FNR.",
+          "verso": "10/(10+30)=0,25 = 25%.",
+          "tipo": "exercicio",
+          "metrica": "taxa de falsos negativos (FNR)",
+          "verificacao": {
+            "id": "fnr",
+            "esperado": 0.25
+          }
+        },
+        {
+          "frente": "Como interpretar e calcular taxa de descobertas falsas entre alertas (FDR)?",
+          "verso": "FP/(TP+FP) = 1-precision. Menor é melhor; é a fração de alertas incorretos. Na verificação meteorológica, essa razão também é chamada FAR. Aqui a razão observada entre alertas difere da FDR da inferência múltipla, definida como a esperança da proporção de rejeições falsas.",
+          "tipo": "conceito",
+          "metrica": "taxa de descobertas falsas entre alertas (FDR)"
+        },
+        {
+          "frente": "Com TP=30, FN=10, FP=5 e TN=55, calcule a fração de alertas falsos.",
+          "verso": "5/(30+5)=0,142857, cerca de 14,29%. O denominador difere do FPR.",
+          "tipo": "exercicio",
+          "metrica": "taxa de descobertas falsas entre alertas (FDR)",
+          "verificacao": {
+            "id": "fdr",
+            "esperado": 0.14285714285714285
+          }
+        },
+        {
+          "frente": "Como interpretar e calcular acurácia balanceada?",
+          "verso": "No caso binário, (sensibilidade+especificidade)/2. Maior é melhor; dá o mesmo peso às duas classes. Na multiclasse, é a média dos recalls por classe.",
+          "tipo": "conceito",
+          "metrica": "acurácia balanceada"
+        },
+        {
+          "frente": "Com TP=30, FN=10, FP=5 e TN=55, calcule a acurácia balanceada.",
+          "verso": "(0,75+0,916667)/2 = 0,833333.",
+          "tipo": "exercicio",
+          "metrica": "acurácia balanceada",
+          "verificacao": {
+            "id": "balanced_accuracy",
+            "esperado": 0.8333333333333333
+          }
+        },
+        {
+          "frente": "Como interpretar e calcular F1-score?",
+          "verso": "F1 = 2TP/(2TP+FP+FN), quando o denominador é positivo. Maior é melhor; combina precision e recall, ignorando TN.",
+          "tipo": "conceito",
+          "metrica": "F1-score"
+        },
+        {
+          "frente": "Com TP=30, FN=10, FP=5 e TN=55, calcule F1.",
+          "verso": "60/(60+5+10) = 0,8.",
+          "tipo": "exercicio",
+          "metrica": "F1-score",
+          "verificacao": {
+            "id": "f1",
+            "esperado": 0.8
+          }
+        },
+        {
+          "frente": "Como interpretar e calcular F-beta?",
+          "verso": "Fβ = (1+β²)×precision×recall/(β²×precision+recall). β>1 prioriza recall e β<1 prioriza precision; não equivale diretamente a um custo monetário.",
+          "tipo": "conceito",
+          "metrica": "F-beta"
+        },
+        {
+          "frente": "Com TP=30, FN=10, FP=5 e TN=55, calcule F2.",
+          "verso": "F2 = 5TP/(5TP+4FN+FP) = 150/195 ≈ 0,769231.",
+          "tipo": "exercicio",
+          "metrica": "F-beta",
+          "verificacao": {
+            "id": "f2",
+            "esperado": 0.7692307692307693
+          }
+        },
+        {
+          "frente": "Como interpretar e calcular MCC (coeficiente de Matthews)?",
+          "verso": "MCC = (TP×TN-FP×FN)/√[(TP+FP)(TP+FN)(TN+FP)(TN+FN)]. Entre -1 e 1 quando definido; maior é melhor e usa as quatro células.",
+          "tipo": "conceito",
+          "metrica": "MCC (coeficiente de Matthews)"
+        },
+        {
+          "frente": "Com TP=30, FN=10, FP=5 e TN=55, calcule MCC.",
+          "verso": "1600/√5460000 ≈ 0,684737. Denominadores degenerados exigem convenção.",
+          "tipo": "exercicio",
+          "metrica": "MCC (coeficiente de Matthews)",
+          "verificacao": {
+            "id": "mcc",
+            "esperado": 0.6847367880174607
+          }
+        },
+        {
+          "frente": "Como interpretar e calcular kappa de Cohen?",
+          "verso": "Kappa = (p_observado-p_esperado)/(1-p_esperado). Ajusta concordância por uma referência das marginais; pode ser negativo e é sensível à prevalência.",
+          "tipo": "conceito",
+          "metrica": "kappa de Cohen"
+        },
+        {
+          "frente": "Com TP=30, FN=10, FP=5 e TN=55, calcule kappa.",
+          "verso": "p_observado=0,85; p_esperado=0,4×0,35+0,6×0,65=0,53. Kappa = 0,32/0,47 ≈ 0,680851.",
+          "tipo": "exercicio",
+          "metrica": "kappa de Cohen",
+          "verificacao": {
+            "id": "kappa",
+            "esperado": 0.6808510638297872
+          }
+        },
+        {
+          "frente": "Como interpretar e calcular prevalência e suporte da classe positiva?",
+          "verso": "Prevalência=(TP+FN)/N; suporte=TP+FN. Descrevem os dados, não a qualidade do modelo. Registrar ambos ajuda a interpretar outras métricas.",
+          "tipo": "conceito",
+          "metrica": "prevalência e suporte da classe positiva"
+        },
+        {
+          "frente": "Com TP=30, FN=10, FP=5 e TN=55, qual é a prevalência positiva?",
+          "verso": "40/100=0,4 = 40%. O suporte positivo é 40 casos.",
+          "tipo": "exercicio",
+          "metrica": "prevalência e suporte da classe positiva",
+          "verificacao": {
+            "id": "prevalence",
+            "esperado": 0.4
+          }
+        },
+        {
+          "frente": "Como interpretar e calcular custo médio dos erros?",
+          "verso": "(c_FP×FP+c_FN×FN)/N, na convenção de custo zero para acertos. Menor é melhor; custos precisam representar a decisão e ser escolhidos antes do teste.",
+          "tipo": "conceito",
+          "metrica": "custo médio dos erros"
+        },
+        {
+          "frente": "Com TP=30, FN=10, FP=5 e TN=55, custo FP=2 e FN=10, qual é o custo médio?",
+          "verso": "(2×5+10×10)/100 = 1,1 unidade de custo por caso.",
+          "tipo": "exercicio",
+          "metrica": "custo médio dos erros",
+          "verificacao": {
+            "id": "cost",
+            "esperado": 1.1
+          }
+        },
+        {
+          "frente": "Por que uma métrica de classificação depende do limiar escolhido?",
+          "verso": "Mudar o limiar altera quais casos viram positivos e muda TP, FP, FN e TN. Escolher o limiar no desenvolvimento, conforme o objetivo.",
+          "tipo": "conceito"
+        }
+      ]
+    },
+    {
+      "numero": 18,
+      "tema": "Curvas probabilidades e múltiplas classes",
+      "nivel": "avancado",
+      "fonte": "https://scikit-learn.org/stable/modules/model_evaluation.html",
+      "cartoes": [
+        {
+          "frente": "Como interpretar e calcular ROC-AUC?",
+          "verso": "Área sob TPR versus FPR ao variar o limiar. Com duas classes e escores contínuos, equivale à probabilidade de ordenar um positivo acima de um negativo, com meio crédito para empates. Maior é melhor; não mede calibração.",
+          "tipo": "conceito",
+          "metrica": "ROC-AUC"
+        },
+        {
+          "frente": "Positivos têm escores [0,9;0,6] e negativos [0,8;0,2]. Qual é o ROC-AUC?",
+          "verso": "Dos quatro pares positivo-negativo, três estão ordenados corretamente. AUC=3/4=0,75.",
+          "tipo": "exercicio",
+          "metrica": "ROC-AUC",
+          "verificacao": {
+            "id": "roc_auc",
+            "esperado": 0.75
+          }
+        },
+        {
+          "frente": "Como interpretar e calcular PR-AUC por integração trapezoidal?",
+          "verso": "Área sob precision versus recall com uma regra de integração declarada. Maior é melhor no mesmo contexto; prevalência afeta a interpretação e a regra pode diferir de Average Precision.",
+          "tipo": "conceito",
+          "metrica": "PR-AUC por integração trapezoidal"
+        },
+        {
+          "frente": "Uma curva PR tem pontos (recall,precision): (0,1), (0,5;1), (0,5;0,5), (1;2/3). Qual é a área trapezoidal?",
+          "verso": "Primeiro trecho: 0,5×(1+1)/2=0,5. Trecho vertical: zero. Último: 0,5×(0,5+2/3)/2=0,291667. Total=0,791667.",
+          "tipo": "exercicio",
+          "metrica": "PR-AUC por integração trapezoidal",
+          "verificacao": {
+            "id": "pr_auc",
+            "esperado": 0.7916666666666666
+          }
+        },
+        {
+          "frente": "Como interpretar e calcular Average Precision (AP)?",
+          "verso": "AP = soma dos aumentos de recall vezes a precision correspondente. Resume a curva PR sem interpolação trapezoidal; maior é melhor. Não chamar toda PR-AUC de AP.",
+          "tipo": "conceito",
+          "metrica": "Average Precision (AP)"
+        },
+        {
+          "frente": "No ranking de relevância [1,0,1], qual é Average Precision sem empates?",
+          "verso": "Os positivos estão nas posições 1 e 3. AP=(precision@1+precision@3)/2 = (1+2/3)/2=0,833333.",
+          "tipo": "exercicio",
+          "metrica": "Average Precision (AP)",
+          "verificacao": {
+            "id": "ap",
+            "esperado": 0.8333333333333333
+          }
+        },
+        {
+          "frente": "Como interpretar e calcular log loss ou entropia cruzada?",
+          "verso": "Na classificação binária, média de -[y ln(p)+(1-y)ln(1-p)]. Menor é melhor; penaliza fortemente previsões confiantes erradas. p precisa ser probabilidade da classe positiva.",
+          "tipo": "conceito",
+          "metrica": "log loss ou entropia cruzada"
+        },
+        {
+          "frente": "Com y=[1,0] e p=[0,8;0,3], qual é a log loss usando log natural?",
+          "verso": "-[ln(0,8)+ln(0,7)]/2 ≈ 0,289909.",
+          "tipo": "exercicio",
+          "metrica": "log loss ou entropia cruzada",
+          "verificacao": {
+            "id": "log_loss",
+            "esperado": 0.2899092476264711
+          }
+        },
+        {
+          "frente": "Como interpretar e calcular Brier score binário?",
+          "verso": "Média de (p-y)² para p da classe positiva e y em {0,1}. Menor é melhor, entre 0 e 1 nesta convenção; avalia probabilidades e não só calibração.",
+          "tipo": "conceito",
+          "metrica": "Brier score binário"
+        },
+        {
+          "frente": "Com y=[1,0] e p=[0,8;0,3], qual é o Brier score?",
+          "verso": "[(0,8-1)²+(0,3-0)²]/2 = (0,04+0,09)/2 = 0,065.",
+          "tipo": "exercicio",
+          "metrica": "Brier score binário",
+          "verificacao": {
+            "id": "brier",
+            "esperado": 0.065
+          }
+        },
+        {
+          "frente": "Como interpretar e calcular Brier skill score (BSS)?",
+          "verso": "BSS=1-Brier_modelo/Brier_referência, com referência de escore positivo. Maior é melhor; 1 é perfeito, 0 empata e negativo perde para a referência.",
+          "tipo": "conceito",
+          "metrica": "Brier skill score (BSS)"
+        },
+        {
+          "frente": "Brier do modelo 0,065 e da referência 0,25 dão qual BSS?",
+          "verso": "1-0,065/0,25=0,74. A referência precisa ter sido definida antes da avaliação.",
+          "tipo": "exercicio",
+          "metrica": "Brier skill score (BSS)",
+          "verificacao": {
+            "id": "bss",
+            "esperado": 0.74
+          }
+        },
+        {
+          "frente": "Como interpretar e calcular ECE binário por faixas de probabilidade positiva?",
+          "verso": "ECE=soma (n_bin/N)×abs(média(p)_bin-frequência_positiva_bin). Menor é melhor; depende das faixas e da variante. Não é equivalente a Brier nem uma medida universal de calibração.",
+          "tipo": "conceito",
+          "metrica": "ECE binário por faixas de probabilidade positiva",
+          "fonte": "https://arxiv.org/abs/1706.04599"
+        },
+        {
+          "frente": "Em um único bin, dez previsões têm média p=0,8 e seis eventos positivos. Qual é o ECE binário?",
+          "verso": "Peso do bin 1; frequência=6/10=0,6. ECE=abs(0,8-0,6)=0,2.",
+          "tipo": "exercicio",
+          "metrica": "ECE binário por faixas de probabilidade positiva",
+          "fonte": "https://arxiv.org/abs/1706.04599",
+          "verificacao": {
+            "id": "ece",
+            "esperado": 0.2
+          }
+        },
+        {
+          "frente": "Como interpretar e calcular log loss multiclasse?",
+          "verso": "Média de -ln(p_da_classe_real). Menor é melhor; cada vetor deve ter probabilidades válidas para todas as classes, na ordem correta.",
+          "tipo": "conceito",
+          "metrica": "log loss multiclasse"
+        },
+        {
+          "frente": "Para classes A,B,C, probabilidades [0,1;0,7;0,2] e alvo B, qual é a log loss?",
+          "verso": "-ln(0,7) ≈ 0,356675. As probabilidades somam 1.",
+          "tipo": "exercicio",
+          "metrica": "log loss multiclasse",
+          "verificacao": {
+            "id": "multiclass_log_loss",
+            "esperado": 0.35667494393873245
+          }
+        },
+        {
+          "frente": "Como interpretar e calcular top-k accuracy?",
+          "verso": "Fração de amostras cuja classe real aparece entre as k maiores probabilidades ou escores. Maior é melhor; declarar k e a regra para empates.",
+          "tipo": "conceito",
+          "metrica": "top-k accuracy"
+        },
+        {
+          "frente": "Classes A,B,C têm probabilidades [0,6;0,3;0,1] e a real é B. Quanto vale top-2 accuracy nesse único caso?",
+          "verso": "B está entre as duas maiores probabilidades. Top-2 accuracy=1; top-1 seria 0.",
+          "tipo": "exercicio",
+          "metrica": "top-k accuracy",
+          "verificacao": {
+            "id": "top_k",
+            "esperado": 1
+          }
+        },
+        {
+          "frente": "Como interpretar e calcular recall macro?",
+          "verso": "Calcula recall por classe e tira média sem pesar pelo suporte. Maior é melhor; cada classe recebe o mesmo peso, inclusive as raras.",
+          "tipo": "conceito",
+          "metrica": "recall macro"
+        },
+        {
+          "frente": "Matriz real×previsto [[8,2],[1,1]] tem qual recall macro?",
+          "verso": "Recall da classe 0=8/10=0,8; da classe 1=1/2=0,5. Média=0,65.",
+          "tipo": "exercicio",
+          "metrica": "recall macro",
+          "verificacao": {
+            "id": "macro_recall",
+            "esperado": 0.65
+          }
+        },
+        {
+          "frente": "Como interpretar e calcular F1 macro?",
+          "verso": "Média dos F1 calculados separadamente por classe. Não é em geral o F1 da precision macro e do recall macro. Maior é melhor.",
+          "tipo": "conceito",
+          "metrica": "F1 macro"
+        },
+        {
+          "frente": "Na matriz [[8,2],[1,1]], calcule F1 macro.",
+          "verso": "F1 classe 0=16/19≈0,842105; classe 1=2/5=0,4. Média≈0,621053.",
+          "tipo": "exercicio",
+          "metrica": "F1 macro",
+          "verificacao": {
+            "id": "macro_f1",
+            "esperado": 0.6210526315789473
+          }
+        },
+        {
+          "frente": "Como interpretar e calcular F1 weighted?",
+          "verso": "Média dos F1 por classe ponderada pelo suporte real. Maior é melhor, mas a classe frequente pode dominar o resultado.",
+          "tipo": "conceito",
+          "metrica": "F1 weighted"
+        },
+        {
+          "frente": "Na matriz [[8,2],[1,1]], calcule F1 weighted.",
+          "verso": "Suportes 10 e 2. (10×16/19+2×0,4)/12 ≈ 0,768421.",
+          "tipo": "exercicio",
+          "metrica": "F1 weighted",
+          "verificacao": {
+            "id": "weighted_f1",
+            "esperado": 0.7684210526315789
+          }
+        },
+        {
+          "frente": "Como interpretar e calcular F1 micro?",
+          "verso": "Soma TP, FP e FN entre classes antes de calcular F1. Em classificação de rótulo único com todas as classes, coincide com acurácia.",
+          "tipo": "conceito",
+          "metrica": "F1 micro"
+        },
+        {
+          "frente": "Na matriz [[8,2],[1,1]], qual é o F1 micro com ambas as classes incluídas?",
+          "verso": "Há nove acertos em 12 casos. F1 micro=9/12=0,75, igual à acurácia nessa configuração.",
+          "tipo": "exercicio",
+          "metrica": "F1 micro",
+          "verificacao": {
+            "id": "micro_f1",
+            "esperado": 0.75
+          }
+        },
+        {
+          "frente": "Como interpretar e calcular Jaccard ou intersection-over-union (IoU)?",
+          "verso": "Tamanho da interseção dividido pelo da união. Para positivos binários: TP/(TP+FP+FN). Maior é melhor; união vazia exige regra declarada.",
+          "tipo": "conceito",
+          "metrica": "Jaccard ou intersection-over-union (IoU)"
+        },
+        {
+          "frente": "Se rótulos verdadeiros são {A,B} e previstos {B,C}, quanto vale Jaccard?",
+          "verso": "Interseção={B}, tamanho 1; união={A,B,C}, tamanho 3. Jaccard=1/3≈0,333333.",
+          "tipo": "exercicio",
+          "metrica": "Jaccard ou intersection-over-union (IoU)",
+          "verificacao": {
+            "id": "jaccard",
+            "esperado": 0.3333333333333333
+          }
+        },
+        {
+          "frente": "Como interpretar e calcular Hamming loss multirrótulo?",
+          "verso": "Fração de decisões de rótulo incorretas entre todas as amostras e todos os rótulos. Menor é melhor; muitos rótulos ausentes podem tornar o valor pequeno.",
+          "tipo": "conceito",
+          "metrica": "Hamming loss multirrótulo"
+        },
+        {
+          "frente": "Y=[[1,1,0],[0,1,0]] e previsão [[1,0,0],[0,1,1]]. Qual é Hamming loss?",
+          "verso": "Há duas decisões incorretas entre seis. Hamming loss=2/6=0,333333.",
+          "tipo": "exercicio",
+          "metrica": "Hamming loss multirrótulo",
+          "verificacao": {
+            "id": "hamming",
+            "esperado": 0.3333333333333333
+          }
+        },
+        {
+          "frente": "Como interpretar e calcular subset accuracy ou exact match multirrótulo?",
+          "verso": "Fração de amostras em que o conjunto inteiro de rótulos coincide. Maior é melhor; qualquer rótulo errado torna a amostra incorreta.",
+          "tipo": "conceito",
+          "metrica": "subset accuracy ou exact match multirrótulo"
+        },
+        {
+          "frente": "Y=[[1,1,0],[0,1,0]] e previsão [[1,0,0],[0,1,1]]. Qual é subset accuracy?",
+          "verso": "Ambas as amostras têm pelo menos um rótulo errado. Resultado=0/2=0.",
+          "tipo": "exercicio",
+          "metrica": "subset accuracy ou exact match multirrótulo",
+          "verificacao": {
+            "id": "subset_accuracy",
+            "esperado": 0
+          }
+        },
+        {
+          "frente": "Como interpretar e calcular F1 samples multirrótulo?",
+          "verso": "Calcula F1 para o conjunto de rótulos de cada amostra e depois tira média. Difere da agregação por classe e exige convenção para conjuntos vazios.",
+          "tipo": "conceito",
+          "metrica": "F1 samples multirrótulo"
+        },
+        {
+          "frente": "Y=[[1,1,0],[0,1,0]] e previsão [[1,0,0],[0,1,1]]. Qual é F1 samples?",
+          "verso": "Na primeira amostra, TP=1,FN=1,FP=0: F1=2/3. Na segunda, TP=1,FN=0,FP=1: F1=2/3. Média=2/3.",
+          "tipo": "exercicio",
+          "metrica": "F1 samples multirrótulo",
+          "verificacao": {
+            "id": "samples_f1",
+            "esperado": 0.6666666666666666
+          }
+        },
+        {
+          "frente": "Por que ROC-AUC alto pode coexistir com precision baixa em alertas raros?",
+          "verso": "AUC avalia ordenação ao longo de limiares. Em uma classe muito rara, mesmo FPR pequeno pode produzir muitos alertas falsos no limiar de uso.",
+          "tipo": "caso"
+        },
+        {
+          "frente": "Como comparar curvas PR entre populações com prevalências diferentes?",
+          "verso": "Registrar a prevalência e evitar atribuir toda mudança ao modelo. Precision depende de quantos positivos e negativos compõem a avaliação.",
+          "tipo": "caso"
+        },
+        {
+          "frente": "O que verificar em um diagrama de confiabilidade?",
+          "verso": "Comparar média de probabilidade com frequência observada em cada faixa e informar contagem e incerteza. Faixas pouco povoadas são instáveis.",
+          "tipo": "conceito"
+        }
+      ]
+    },
+    {
+      "numero": 19,
+      "tema": "Métricas de agrupamento",
+      "nivel": "avancado",
+      "fonte": "https://scikit-learn.org/stable/modules/clustering.html",
+      "cartoes": [
+        {
+          "frente": "Como interpretar e calcular silhouette?",
+          "verso": "Para uma amostra, s=(b-a)/max(a,b): a é distância média ao próprio grupo, b ao grupo vizinho mais próximo. Média entre amostras; maior é melhor, entre -1 e 1. Depende da distância e favorece separações compactas.",
+          "tipo": "conceito",
+          "metrica": "silhouette"
+        },
+        {
+          "frente": "Uma amostra tem a=2 e b=5. Qual é seu silhouette?",
+          "verso": "(5-2)/5=0,6. Um ponto em grupo unitário exige a convenção da implementação.",
+          "tipo": "exercicio",
+          "metrica": "silhouette",
+          "verificacao": {
+            "id": "silhouette",
+            "esperado": 0.6
+          }
+        },
+        {
+          "frente": "Como interpretar e calcular Davies-Bouldin (DB)?",
+          "verso": "DB=média_i max_j≠i[(S_i+S_j)/M_ij], com dispersão S e distância entre centros M. Menor é melhor; depende de grupos compactos e da geometria escolhida.",
+          "tipo": "conceito",
+          "metrica": "Davies-Bouldin (DB)"
+        },
+        {
+          "frente": "Dois grupos têm dispersões 1 e 2 e centros separados por 6. Qual é DB?",
+          "verso": "Só há um outro grupo para cada centro. Razão=(1+2)/6=0,5 para ambos; média=0,5.",
+          "tipo": "exercicio",
+          "metrica": "Davies-Bouldin (DB)",
+          "verificacao": {
+            "id": "db",
+            "esperado": 0.5
+          }
+        },
+        {
+          "frente": "Como interpretar e calcular Calinski-Harabasz (CH)?",
+          "verso": "CH=[B/(k-1)]/[W/(n-k)], com dispersão entre grupos B e interna W. Maior é melhor; exige 1<k<n e favorece certas geometrias.",
+          "tipo": "conceito",
+          "metrica": "Calinski-Harabasz (CH)"
+        },
+        {
+          "frente": "Com B=100, W=20, n=12 e k=2, qual é CH?",
+          "verso": "[100/(2-1)]/[20/(12-2)]=100/2=50.",
+          "tipo": "exercicio",
+          "metrica": "Calinski-Harabasz (CH)",
+          "verificacao": {
+            "id": "ch",
+            "esperado": 50
+          }
+        },
+        {
+          "frente": "Como interpretar e calcular inércia do k-means?",
+          "verso": "Soma das distâncias quadráticas dos pontos aos centroides. Menor é melhor com k e escala fixos. Aumentar k tende a reduzir a inércia, então ela não basta para escolher grupos.",
+          "tipo": "conceito",
+          "metrica": "inércia do k-means"
+        },
+        {
+          "frente": "Pontos 0 e 2 em um grupo com centroide 1 têm qual inércia?",
+          "verso": "(0-1)²+(2-1)²=2.",
+          "tipo": "exercicio",
+          "metrica": "inércia do k-means",
+          "verificacao": {
+            "id": "inertia",
+            "esperado": 2
+          }
+        },
+        {
+          "frente": "Como interpretar e calcular Rand Index (RI)?",
+          "verso": "Fração de pares sobre os quais as partições concordam: juntos em ambas ou separados em ambas. Maior é melhor; não desconta concordância esperada por acaso.",
+          "tipo": "conceito",
+          "metrica": "Rand Index (RI)"
+        },
+        {
+          "frente": "Referência [0,0,1,1] e grupos [0,1,0,1]. Qual é RI?",
+          "verso": "Há seis pares; só dois são separados em ambas as partições. RI=2/6=1/3.",
+          "tipo": "exercicio",
+          "metrica": "Rand Index (RI)",
+          "verificacao": {
+            "id": "ri",
+            "esperado": 0.3333333333333333
+          }
+        },
+        {
+          "frente": "Como interpretar e calcular Adjusted Rand Index (ARI)?",
+          "verso": "(concordância_observada-esperada)/(máxima-esperada) usando pares e marginais. 1 indica partições iguais até permutação, perto de 0 indica referência de acaso, e pode ser negativo.",
+          "tipo": "conceito",
+          "metrica": "Adjusted Rand Index (ARI)"
+        },
+        {
+          "frente": "Referência [0,0,1,1] e grupos [0,1,0,1]. Qual é ARI?",
+          "verso": "Cada célula da tabela de contingência tem um caso. Ajustando a contagem de pares pelas marginais, ARI=-0,5.",
+          "tipo": "exercicio",
+          "metrica": "Adjusted Rand Index (ARI)",
+          "verificacao": {
+            "id": "ari",
+            "esperado": -0.5
+          }
+        },
+        {
+          "frente": "Como interpretar e calcular Normalized Mutual Information (NMI)?",
+          "verso": "Normaliza a informação mútua entre partições por suas entropias, conforme uma convenção como média aritmética. Vai de 0 a 1; não desconta automaticamente o efeito do acaso.",
+          "tipo": "conceito",
+          "metrica": "Normalized Mutual Information (NMI)"
+        },
+        {
+          "frente": "Referência [0,0,1,1] e grupos [0,1,0,1] têm qual NMI com média aritmética?",
+          "verso": "Cada grupo tem a mesma mistura de classes, sem informação sobre a referência. NMI=0.",
+          "tipo": "exercicio",
+          "metrica": "Normalized Mutual Information (NMI)",
+          "verificacao": {
+            "id": "nmi",
+            "esperado": 0
+          }
+        },
+        {
+          "frente": "Como interpretar e calcular Adjusted Mutual Information (AMI)?",
+          "verso": "Ajusta informação mútua pela expectativa de acaso e por uma normalização declarada. 1 para partições equivalentes; pode ser negativo. Não usar rótulos de cluster como números contínuos.",
+          "tipo": "conceito",
+          "metrica": "Adjusted Mutual Information (AMI)"
+        },
+        {
+          "frente": "Referência [0,0,1,1] e grupos [1,1,0,0] têm qual AMI?",
+          "verso": "As partições são idênticas após trocar os nomes dos grupos. AMI=1.",
+          "tipo": "exercicio",
+          "metrica": "Adjusted Mutual Information (AMI)",
+          "verificacao": {
+            "id": "ami",
+            "esperado": 1
+          }
+        },
+        {
+          "frente": "Como interpretar e calcular homogeneidade de grupos?",
+          "verso": "1-H(classes dado grupos)/H(classes), com convenções para entropia zero. Maior é melhor; vale 1 quando cada grupo contém apenas uma classe de referência. Pode favorecer fragmentação.",
+          "tipo": "conceito",
+          "metrica": "homogeneidade de grupos"
+        },
+        {
+          "frente": "Referência [0,0,1,1] e grupos [0,1,2,3] têm qual homogeneidade?",
+          "verso": "Cada grupo unitário contém só uma classe. Homogeneidade=1, apesar da fragmentação.",
+          "tipo": "exercicio",
+          "metrica": "homogeneidade de grupos",
+          "verificacao": {
+            "id": "homogeneity",
+            "esperado": 1
+          }
+        },
+        {
+          "frente": "Como interpretar e calcular completude de grupos?",
+          "verso": "1-H(grupos dado classes)/H(grupos), com convenções para entropia zero. Maior é melhor; vale 1 quando cada classe de referência fica toda no mesmo grupo. Pode favorecer juntar tudo.",
+          "tipo": "conceito",
+          "metrica": "completude de grupos"
+        },
+        {
+          "frente": "Referência [0,0,1,1] e grupos [0,0,0,0] têm qual completude?",
+          "verso": "Cada classe fica inteira no único grupo. Completude=1, apesar de as classes estarem misturadas.",
+          "tipo": "exercicio",
+          "metrica": "completude de grupos",
+          "verificacao": {
+            "id": "completeness",
+            "esperado": 1
+          }
+        },
+        {
+          "frente": "Como interpretar e calcular V-measure?",
+          "verso": "Média harmônica de homogeneidade h e completude c na versão beta=1: 2hc/(h+c). Maior é melhor, entre 0 e 1; depende de rótulos de referência.",
+          "tipo": "conceito",
+          "metrica": "V-measure"
+        },
+        {
+          "frente": "Se h=1 e c=0,5, qual é V-measure com beta=1?",
+          "verso": "2×1×0,5/(1+0,5)=2/3≈0,666667.",
+          "tipo": "exercicio",
+          "metrica": "V-measure",
+          "verificacao": {
+            "id": "v_measure",
+            "esperado": 0.6666666666666666
+          }
+        },
+        {
+          "frente": "Como interpretar e calcular pureza de grupos?",
+          "verso": "Somar o número de casos da classe mais frequente de cada grupo e dividir por N. Maior é melhor, mas criar grupos unitários garante pureza 1 sem revelar estrutura útil.",
+          "tipo": "conceito",
+          "metrica": "pureza de grupos"
+        },
+        {
+          "frente": "Dois grupos contêm classes [A,A,B] e [B,B,A]. Qual é a pureza?",
+          "verso": "A maioria de cada grupo tem dois casos. Pureza=(2+2)/6=2/3.",
+          "tipo": "exercicio",
+          "metrica": "pureza de grupos",
+          "verificacao": {
+            "id": "purity",
+            "esperado": 0.6666666666666666
+          }
+        },
+        {
+          "frente": "Qual é a diferença entre métricas internas e externas de agrupamento?",
+          "verso": "Internas usam features e grupos, como silhouette. Externas comparam grupos com rótulos de referência, como ARI e AMI. Sem referência válida, não há avaliação externa.",
+          "tipo": "comparacao"
+        },
+        {
+          "frente": "Como tratar ruído do DBSCAN ao comparar agrupamentos?",
+          "verso": "Declarar se pontos de ruído entram na avaliação e como são representados. Tratar todo ruído como um grupo pode mudar o significado das métricas.",
+          "tipo": "configuracao"
+        }
+      ]
+    },
+    {
+      "numero": 20,
+      "tema": "Métricas de ranking e recomendação",
+      "nivel": "avancado",
+      "fonte": "https://scikit-learn.org/stable/modules/model_evaluation.html",
+      "cartoes": [
+        {
+          "frente": "Como interpretar e calcular precision@k?",
+          "verso": "Número de itens relevantes entre os primeiros k dividido por k. Maior é melhor; fixar k e definir relevância. Não mede o que ficou abaixo do corte.",
+          "tipo": "conceito",
+          "metrica": "precision@k"
+        },
+        {
+          "frente": "Nos três primeiros resultados, relevância [1,0,1]. Qual é precision@3?",
+          "verso": "Dois relevantes entre três. Precision@3=2/3≈0,666667.",
+          "tipo": "exercicio",
+          "metrica": "precision@k",
+          "verificacao": {
+            "id": "precision_k",
+            "esperado": 0.6666666666666666
+          }
+        },
+        {
+          "frente": "Como interpretar e calcular recall@k?",
+          "verso": "Número de relevantes recuperados nos primeiros k dividido pelo total de relevantes da consulta. Maior é melhor; exige conhecer ou estimar esse total.",
+          "tipo": "conceito",
+          "metrica": "recall@k"
+        },
+        {
+          "frente": "Há quatro itens relevantes no total e dois aparecem no top-3. Qual é recall@3?",
+          "verso": "2/4=0,5. O denominador é o total relevante, não k.",
+          "tipo": "exercicio",
+          "metrica": "recall@k",
+          "verificacao": {
+            "id": "recall_k",
+            "esperado": 0.5
+          }
+        },
+        {
+          "frente": "Como interpretar e calcular hit rate@k?",
+          "verso": "Fração de consultas ou usuários com pelo menos um relevante no top-k. Maior é melhor; ignora quantos relevantes aparecem e sua posição dentro do corte.",
+          "tipo": "conceito",
+          "metrica": "hit rate@k"
+        },
+        {
+          "frente": "Três usuários recebem top-3: dois têm pelo menos um item relevante. Qual é hit rate@3?",
+          "verso": "2/3≈0,666667. Declarar como tratar usuários sem relevantes conhecidos.",
+          "tipo": "exercicio",
+          "metrica": "hit rate@k",
+          "verificacao": {
+            "id": "hit_rate",
+            "esperado": 0.6666666666666666
+          }
+        },
+        {
+          "frente": "Como interpretar e calcular MRR (mean reciprocal rank)?",
+          "verso": "Média de 1/rank_do_primeiro_relevante entre consultas; usar zero quando nenhum é encontrado na lista avaliada. Maior é melhor; ignora relevantes posteriores.",
+          "tipo": "conceito",
+          "metrica": "MRR (mean reciprocal rank)"
+        },
+        {
+          "frente": "Em duas consultas, o primeiro relevante aparece nas posições 2 e 4. Qual é MRR?",
+          "verso": "(1/2+1/4)/2=0,375. As posições começam em 1.",
+          "tipo": "exercicio",
+          "metrica": "MRR (mean reciprocal rank)",
+          "verificacao": {
+            "id": "mrr",
+            "esperado": 0.375
+          }
+        },
+        {
+          "frente": "Como interpretar e calcular MAP (mean average precision)?",
+          "verso": "Média de AP entre consultas, com relevância binária e convenção declarada para listas truncadas e consultas sem relevantes. Maior é melhor.",
+          "tipo": "conceito",
+          "metrica": "MAP (mean average precision)"
+        },
+        {
+          "frente": "Duas consultas têm listas completas de relevância [1,0,1] e [0,1,0]. Qual é MAP?",
+          "verso": "AP1=(1+2/3)/2=5/6; AP2=1/2. MAP=(5/6+1/2)/2=2/3.",
+          "tipo": "exercicio",
+          "metrica": "MAP (mean average precision)",
+          "verificacao": {
+            "id": "map",
+            "esperado": 0.6666666666666666
+          }
+        },
+        {
+          "frente": "Como interpretar e calcular NDCG@k com ganho linear?",
+          "verso": "DCG@k=soma relevância_i/log2(i+1), começando i=1. NDCG=DCG/IDCG, a ordenação ideal. Maior é melhor; declarar ganho linear ou exponencial e casos sem relevância.",
+          "tipo": "conceito",
+          "metrica": "NDCG@k com ganho linear"
+        },
+        {
+          "frente": "Duas posições têm relevância [0,1]. Qual é NDCG@2 com ganho linear?",
+          "verso": "DCG=1/log2(3)≈0,63093. A ordem ideal [1,0] tem IDCG=1; NDCG≈0,63093.",
+          "tipo": "exercicio",
+          "metrica": "NDCG@k com ganho linear",
+          "verificacao": {
+            "id": "ndcg",
+            "esperado": 0.6309297535714575
+          }
+        },
+        {
+          "frente": "Como interpretar e calcular label ranking loss?",
+          "verso": "Fração de pares relevante-não relevante ordenados incorretamente por amostra. Menor é melhor; usar convenções da biblioteca para empates e casos degenerados.",
+          "tipo": "conceito",
+          "metrica": "label ranking loss"
+        },
+        {
+          "frente": "Rótulos verdadeiros [1,0,1] e escores [0,9;0,8;0,6] dão qual ranking loss?",
+          "verso": "Há dois pares relevante-não relevante. O terceiro rótulo relevante fica abaixo do segundo, não relevante: um erro em dois, perda=0,5.",
+          "tipo": "exercicio",
+          "metrica": "label ranking loss",
+          "verificacao": {
+            "id": "ranking_loss",
+            "esperado": 0.5
+          }
+        },
+        {
+          "frente": "Como interpretar e calcular coverage error em ranking multirrótulo?",
+          "verso": "Número médio de posições necessárias para incluir todos os rótulos relevantes. Menor é melhor; o mínimo depende de quantos relevantes existem, e empates exigem convenção.",
+          "tipo": "conceito",
+          "metrica": "coverage error em ranking multirrótulo"
+        },
+        {
+          "frente": "Rótulos verdadeiros [1,0,1] e escores [0,9;0,8;0,6] têm qual coverage error?",
+          "verso": "O último relevante aparece na posição 3. São necessárias três posições; coverage error=3 no caso sem empates.",
+          "tipo": "exercicio",
+          "metrica": "coverage error em ranking multirrótulo",
+          "verificacao": {
+            "id": "coverage_error",
+            "esperado": 3
+          }
+        },
+        {
+          "frente": "Como interpretar e calcular LRAP (label ranking average precision)?",
+          "verso": "Para cada rótulo relevante, mede a fração de relevantes entre rótulos de escore pelo menos tão alto; depois tira médias por amostra e no conjunto. Maior é melhor.",
+          "tipo": "conceito",
+          "metrica": "LRAP (label ranking average precision)"
+        },
+        {
+          "frente": "Rótulos [1,0,1] com escores [0,9;0,8;0,6] têm qual LRAP?",
+          "verso": "Para o primeiro relevante, razão=1/1. Para o segundo relevante, razão=2/3. Média=(1+2/3)/2=5/6.",
+          "tipo": "exercicio",
+          "metrica": "LRAP (label ranking average precision)",
+          "verificacao": {
+            "id": "lrap",
+            "esperado": 0.8333333333333333
+          }
+        },
+        {
+          "frente": "Por que uma boa métrica de ranking offline não garante efeito no uso real?",
+          "verso": "Rótulos e itens observados dependem da exposição e da coleta. Avaliar posição, novidade, disponibilidade e objetivo real de uso, além da ordenação histórica.",
+          "tipo": "caso"
+        }
+      ]
+    },
+    {
+      "numero": 21,
+      "tema": "Métricas temporais probabilísticas e de reforço",
+      "nivel": "avancado",
+      "fonte": "https://otexts.com/fpp3/accuracy.html",
+      "cartoes": [
+        {
+          "frente": "Como interpretar e calcular MASE (erro absoluto médio escalado)?",
+          "verso": "MASE=MAE_teste/média_treino abs(y_t-y_(t-m)), com m sazonal declarado e denominador positivo. Menor é melhor; <1 indica erro abaixo da escala ingênua calculada no treino.",
+          "tipo": "conceito",
+          "metrica": "MASE (erro absoluto médio escalado)"
+        },
+        {
+          "frente": "Treino [1,3,2], m=1 e MAE de teste 1,5. Quanto vale MASE?",
+          "verso": "Escala=(abs(3-1)+abs(2-3))/2=1,5. MASE=1,5/1,5=1. Não é uma comparação direta com erro da baseline no mesmo teste.",
+          "tipo": "exercicio",
+          "metrica": "MASE (erro absoluto médio escalado)",
+          "verificacao": {
+            "id": "mase",
+            "esperado": 1
+          }
+        },
+        {
+          "frente": "Como interpretar e calcular RMSSE (raiz do erro quadrático escalado)?",
+          "verso": "RMSSE=√[MSE_teste/média_treino (y_t-y_(t-m))²], com denominador positivo. Menor é melhor; reportar m e o período da escala.",
+          "tipo": "conceito",
+          "metrica": "RMSSE (raiz do erro quadrático escalado)"
+        },
+        {
+          "frente": "Treino [1,3,2], m=1 e MSE de teste 2,5 dão qual RMSSE?",
+          "verso": "Escala quadrática=(2²+(-1)²)/2=2,5. RMSSE=√(2,5/2,5)=1.",
+          "tipo": "exercicio",
+          "metrica": "RMSSE (raiz do erro quadrático escalado)",
+          "verificacao": {
+            "id": "rmsse",
+            "esperado": 1
+          }
+        },
+        {
+          "frente": "Como interpretar e calcular skill score para uma perda?",
+          "verso": "Skill=1-perda_modelo/perda_referência, com perda de referência positiva. Maior é melhor; 0 empata e valor negativo perde. Não aplicar a fórmula indiscriminadamente a qualquer escore.",
+          "tipo": "conceito",
+          "metrica": "skill score para uma perda"
+        },
+        {
+          "frente": "MAE do modelo 3 e da baseline 5 no mesmo teste dão qual skill?",
+          "verso": "1-3/5=0,4, ou redução relativa de erro de 40%.",
+          "tipo": "exercicio",
+          "metrica": "skill score para uma perda",
+          "verificacao": {
+            "id": "skill",
+            "esperado": 0.4
+          }
+        },
+        {
+          "frente": "Como interpretar e calcular POD (probabilidade de detecção de eventos)?",
+          "verso": "POD=acertos/(acertos+eventos_perdidos), equivalente ao recall positivo. Maior é melhor; declarar evento, limiar e janela.",
+          "tipo": "conceito",
+          "metrica": "POD (probabilidade de detecção de eventos)",
+          "fonte": "https://pysteps.readthedocs.io/en/stable/generated/pysteps.verification.detcatscores.det_cat_fct.html"
+        },
+        {
+          "frente": "De 40 eventos de chuva, 30 foram previstos. Qual é POD?",
+          "verso": "30/40=0,75. São dez eventos perdidos.",
+          "tipo": "exercicio",
+          "metrica": "POD (probabilidade de detecção de eventos)",
+          "fonte": "https://pysteps.readthedocs.io/en/stable/generated/pysteps.verification.detcatscores.det_cat_fct.html",
+          "verificacao": {
+            "id": "pod",
+            "esperado": 0.75
+          }
+        },
+        {
+          "frente": "Como interpretar e calcular CSI ou threat score?",
+          "verso": "CSI=TP/(TP+FP+FN), equivalente a Jaccard binário. Maior é melhor; exclui negativos corretamente previstos e depende da frequência de eventos.",
+          "tipo": "conceito",
+          "metrica": "CSI ou threat score",
+          "fonte": "https://pysteps.readthedocs.io/en/stable/generated/pysteps.verification.detcatscores.det_cat_fct.html"
+        },
+        {
+          "frente": "Com TP=30, FP=5 e FN=10, qual é CSI?",
+          "verso": "30/(30+5+10)=2/3≈0,666667.",
+          "tipo": "exercicio",
+          "metrica": "CSI ou threat score",
+          "fonte": "https://pysteps.readthedocs.io/en/stable/generated/pysteps.verification.detcatscores.det_cat_fct.html",
+          "verificacao": {
+            "id": "csi",
+            "esperado": 0.6666666666666666
+          }
+        },
+        {
+          "frente": "Como interpretar e calcular ETS (equitable threat score)?",
+          "verso": "ETS=(TP-H_r)/(TP+FP+FN-H_r), com H_r=(TP+FP)(TP+FN)/N. Desconta acertos esperados por acaso nessa referência; maior é melhor quando definido.",
+          "tipo": "conceito",
+          "metrica": "ETS (equitable threat score)",
+          "fonte": "https://pysteps.readthedocs.io/en/stable/generated/pysteps.verification.detcatscores.det_cat_fct.html"
+        },
+        {
+          "frente": "Com TP=30, FN=10, FP=5, TN=55 e N=100, calcule ETS.",
+          "verso": "H_r=35×40/100=14. ETS=(30-14)/(30+5+10-14)=16/31≈0,516129.",
+          "tipo": "exercicio",
+          "metrica": "ETS (equitable threat score)",
+          "fonte": "https://pysteps.readthedocs.io/en/stable/generated/pysteps.verification.detcatscores.det_cat_fct.html",
+          "verificacao": {
+            "id": "ets",
+            "esperado": 0.5161290322580645
+          }
+        },
+        {
+          "frente": "Como interpretar e calcular cobertura empírica de intervalos (PICP)?",
+          "verso": "Fração de observações em que L≤y≤U. Comparar com a cobertura nominal; aumentar cobertura por intervalos enormes não demonstra qualidade.",
+          "tipo": "conceito",
+          "metrica": "cobertura empírica de intervalos (PICP)",
+          "fonte": "https://otexts.com/fpp3/distaccuracy.html"
+        },
+        {
+          "frente": "Nove de dez valores estão dentro de seus intervalos previstos. Qual é PICP?",
+          "verso": "9/10=0,9 = 90%. A amostra pequena não comprova uma garantia de cobertura futura.",
+          "tipo": "exercicio",
+          "metrica": "cobertura empírica de intervalos (PICP)",
+          "fonte": "https://otexts.com/fpp3/distaccuracy.html",
+          "verificacao": {
+            "id": "picp",
+            "esperado": 0.9
+          }
+        },
+        {
+          "frente": "Como interpretar e calcular largura média de intervalos (MPIW)?",
+          "verso": "Média de U-L. Menor indica intervalos mais estreitos, mas só é útil junto de cobertura e objetivo nominal. Tem a unidade do alvo.",
+          "tipo": "conceito",
+          "metrica": "largura média de intervalos (MPIW)",
+          "fonte": "https://otexts.com/fpp3/distaccuracy.html"
+        },
+        {
+          "frente": "Intervalos [0,2] e [3,7] têm qual largura média?",
+          "verso": "Larguras 2 e 4. MPIW=(2+4)/2=3.",
+          "tipo": "exercicio",
+          "metrica": "largura média de intervalos (MPIW)",
+          "fonte": "https://otexts.com/fpp3/distaccuracy.html",
+          "verificacao": {
+            "id": "mpiw",
+            "esperado": 3
+          }
+        },
+        {
+          "frente": "Como interpretar e calcular interval score ou escore de Winkler?",
+          "verso": "Para cobertura 1-alpha: (U-L)+(2/alpha)(L-y) se y<L ou +(2/alpha)(y-U) se y>U. Sem termo extra dentro do intervalo. Menor é melhor; declarar alpha.",
+          "tipo": "conceito",
+          "metrica": "interval score ou escore de Winkler",
+          "fonte": "https://otexts.com/fpp3/distaccuracy.html"
+        },
+        {
+          "frente": "Intervalo de 80% [2,6] e observado y=8 dão qual interval score?",
+          "verso": "alpha=0,2. Largura 4, excesso 2. Escore=4+(2/0,2)×2=24.",
+          "tipo": "exercicio",
+          "metrica": "interval score ou escore de Winkler",
+          "fonte": "https://otexts.com/fpp3/distaccuracy.html",
+          "verificacao": {
+            "id": "interval_score",
+            "esperado": 24
+          }
+        },
+        {
+          "frente": "Como interpretar e calcular CRPS para uma distribuição preditiva?",
+          "verso": "CRPS=integral [F(z)-1(y≤z)]² dz. Menor é melhor; avalia toda a distribuição e mantém a unidade do alvo. Para uma distribuição degenerada, equivale ao erro absoluto.",
+          "tipo": "conceito",
+          "metrica": "CRPS para uma distribuição preditiva",
+          "fonte": "https://otexts.com/fpp3/distaccuracy.html"
+        },
+        {
+          "frente": "Toda a massa preditiva está em 3 e o observado é 5. Quanto vale CRPS?",
+          "verso": "Para previsão determinística, CRPS=abs(3-5)=2. Para distribuições não degeneradas, usar a integral ou estimador apropriado.",
+          "tipo": "exercicio",
+          "metrica": "CRPS para uma distribuição preditiva",
+          "fonte": "https://otexts.com/fpp3/distaccuracy.html",
+          "verificacao": {
+            "id": "crps",
+            "esperado": 2
+          }
+        },
+        {
+          "frente": "Como interpretar e calcular retorno médio por episódio em reforço?",
+          "verso": "Média dos retornos dos episódios de avaliação. Maior é melhor no objetivo de maximização adotado; declarar desconto, horizonte, sementes e política de avaliação.",
+          "tipo": "conceito",
+          "metrica": "retorno médio por episódio em reforço",
+          "fonte": "https://spinningup.openai.com/en/latest/spinningup/rl_intro.html"
+        },
+        {
+          "frente": "Três episódios têm retornos [1,3,2]. Qual é o retorno médio?",
+          "verso": "(1+3+2)/3=2. Também relatar dispersão e número de episódios.",
+          "tipo": "exercicio",
+          "metrica": "retorno médio por episódio em reforço",
+          "fonte": "https://spinningup.openai.com/en/latest/spinningup/rl_intro.html",
+          "verificacao": {
+            "id": "return_mean",
+            "esperado": 2
+          }
+        },
+        {
+          "frente": "Como interpretar e calcular taxa de sucesso em reforço?",
+          "verso": "Episódios que cumprem o critério de sucesso divididos pelo total avaliado. Maior é melhor; o critério e o limite de passos precisam ser definidos.",
+          "tipo": "conceito",
+          "metrica": "taxa de sucesso em reforço",
+          "fonte": "https://spinningup.openai.com/en/latest/spinningup/rl_intro.html"
+        },
+        {
+          "frente": "Em 20 episódios, o agente chega ao objetivo em 15. Qual é a taxa de sucesso?",
+          "verso": "15/20=0,75 = 75%. A recompensa média pode responder a uma pergunta diferente.",
+          "tipo": "exercicio",
+          "metrica": "taxa de sucesso em reforço",
+          "fonte": "https://spinningup.openai.com/en/latest/spinningup/rl_intro.html",
+          "verificacao": {
+            "id": "success_rate",
+            "esperado": 0.75
+          }
+        },
+        {
+          "frente": "Como avaliar uma previsão de série temporal em vários horizontes?",
+          "verso": "Separar resultados por horizonte, usar origens de previsão válidas e declarar agregação. Uma média única pode esconder degradação nos horizontes longos.",
+          "tipo": "configuracao"
+        },
+        {
+          "frente": "Por que MASE e RMSSE ficam indefinidos em uma série de treino constante?",
+          "verso": "Os erros da referência ingênua no treino são todos zero. Não dividir por zero nem esconder o problema com um epsilon sem declarar a mudança.",
+          "tipo": "caso"
+        },
+        {
+          "frente": "Por que avaliar intervalos só pela cobertura é insuficiente?",
+          "verso": "Um intervalo enorme pode cobrir tudo sem informar. Avaliar cobertura e largura, ou uma perda que penalize ambas como interval score.",
+          "tipo": "caso"
+        }
+      ]
+    }
+  ]
+}

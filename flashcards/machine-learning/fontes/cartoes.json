@@ -1,0 +1,1146 @@
+{
+  "modulos": [
+    {
+      "numero": 1,
+      "tema": "Fundamentos e tipos de aprendizado",
+      "nivel": "basico",
+      "fonte": "https://scikit-learn.org/stable/user_guide.html",
+      "cartoes": [
+        {
+          "frente": "O que significa um modelo aprender com dados?",
+          "verso": "Ajustar uma regra a partir de exemplos para realizar uma tarefa. O desempenho precisa ser avaliado em dados que não participaram do ajuste.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "O que é uma amostra em machine learning?",
+          "verso": "Uma observação, como um imóvel, uma imagem ou uma medição em determinado instante. A unidade da amostra define como separar treino e teste.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "O que são features ou variáveis de entrada?",
+          "verso": "Informações que o modelo recebe para prever ou organizar dados. Para um imóvel, podem ser área e número de quartos.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "O que é o alvo y no aprendizado supervisionado?",
+          "verso": "O resultado conhecido usado para ensinar o modelo, como preço ou classe. Ele não deve aparecer entre as entradas da própria previsão.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "Como funciona o aprendizado supervisionado?",
+          "verso": "O modelo recebe entradas X e alvos y conhecidos, ajusta seus parâmetros e depois prevê y para novas entradas.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "Como distinguir classificação de regressão pelo alvo?",
+          "verso": "Classificação prevê categorias, como spam ou normal. Regressão prevê valores numéricos, como temperatura.",
+          "tipo": "comparacao"
+        },
+        {
+          "frente": "Como funciona o aprendizado não supervisionado?",
+          "verso": "Busca estrutura nas entradas sem receber um alvo de referência para cada amostra. Agrupamento e redução de dimensionalidade são exemplos.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "O que é aprendizado semissupervisionado?",
+          "verso": "Combina poucas amostras rotuladas com muitas sem rótulo. Os rótulos inferidos podem estar errados e precisam de avaliação independente.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "O que é aprendizado autossupervisionado?",
+          "verso": "Constrói uma tarefa a partir dos próprios dados, como prever partes ocultadas de um texto. Essa tarefa fornece o sinal de treinamento.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "Qual é a ideia central do aprendizado por reforço?",
+          "verso": "Um agente escolhe ações, recebe recompensas e aprende uma política para melhorar o retorno ao longo das interações.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "Deep learning é um tipo separado de supervisionado e não supervisionado?",
+          "verso": "Não. Usa redes neurais com várias camadas e pode participar de tarefas supervisionadas, autossupervisionadas ou de reforço.",
+          "tipo": "comparacao"
+        },
+        {
+          "frente": "Como distinguir parâmetro de hiperparâmetro?",
+          "verso": "Parâmetro é aprendido, como um coeficiente. Hiperparâmetro configura o aprendizado, como profundidade máxima ou taxa de aprendizado.",
+          "tipo": "comparacao"
+        },
+        {
+          "frente": "Qual é a diferença entre treinamento e inferência?",
+          "verso": "Treinamento ajusta parâmetros com exemplos. Inferência aplica o modelo ajustado a novas entradas.",
+          "tipo": "comparacao"
+        },
+        {
+          "frente": "O que significa generalização?",
+          "verso": "Manter desempenho útil em observações novas que representem o uso esperado. Um bom resultado no treino não comprova generalização.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "Prever chuva amanhã com medições de hoje é que tipo de tarefa?",
+          "verso": "Se o alvo for chuva em milímetros, regressão. Se for chover ou não chover, classificação.",
+          "tipo": "caso"
+        }
+      ]
+    },
+    {
+      "numero": 2,
+      "tema": "Preparação de dados e pipelines",
+      "nivel": "basico",
+      "fonte": "https://scikit-learn.org/stable/modules/preprocessing.html",
+      "cartoes": [
+        {
+          "frente": "Por que separar treino e teste antes de preparar os dados?",
+          "verso": "Estatísticas calculadas com o teste podem influenciar o modelo e produzir uma avaliação otimista.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "Como preencher valores numéricos ausentes sem vazar informação?",
+          "verso": "Ajustar o preenchimento, por exemplo a mediana, apenas no treino. Aplicar essa mesma regra à validação e ao teste.",
+          "tipo": "configuracao"
+        },
+        {
+          "frente": "O que o StandardScaler faz?",
+          "verso": "Calcula z = (x - média do treino) / desvio do treino para cada variável. Centra e escala, mas não transforma uma distribuição em normal.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "Quando padronizar costuma ser relevante?",
+          "verso": "Em métodos que dependem de distância, penalização ou gradiente, como k-NN, SVM e redes neurais.",
+          "tipo": "configuracao"
+        },
+        {
+          "frente": "Qual é a diferença entre StandardScaler e MinMaxScaler?",
+          "verso": "StandardScaler usa média e desvio. MinMaxScaler usa mínimo e máximo do treino; novos valores podem cair fora do intervalo configurado.",
+          "tipo": "comparacao"
+        },
+        {
+          "frente": "Como representar uma categoria sem ordem, como cidade?",
+          "verso": "One-hot encoding cria indicadores por categoria. Atribuir números arbitrários pode inventar uma ordem ou distância.",
+          "tipo": "configuracao"
+        },
+        {
+          "frente": "Quando uma codificação ordinal faz sentido?",
+          "verso": "Quando existe uma ordem real, como baixo, médio e alto. O modelo ainda pode interpretar diferenças numéricas como distâncias.",
+          "tipo": "configuracao"
+        },
+        {
+          "frente": "Para que serve handle_unknown='ignore' no OneHotEncoder?",
+          "verso": "Permite transformar categorias não vistas no ajuste. Elas recebem zeros no bloco correspondente; isso não garante boa previsão para elas.",
+          "tipo": "configuracao"
+        },
+        {
+          "frente": "O que um Pipeline organiza no scikit-learn?",
+          "verso": "Encadeia transformações e estimador. Na validação cruzada, ajusta as transformações dentro de cada treino quando o pipeline é o objeto avaliado.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "Para que serve ColumnTransformer?",
+          "verso": "Aplica tratamentos diferentes a grupos de colunas, como escala nas numéricas e one-hot nas categóricas.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "Qual é o risco de usar informação coletada depois do evento previsto?",
+          "verso": "Ela não estará disponível na inferência e pode revelar o alvo. Exemplo: usar o motivo de cancelamento para prever quem vai cancelar.",
+          "tipo": "caso"
+        },
+        {
+          "frente": "Como definir uma feature de média móvel para prever o próximo dia?",
+          "verso": "Usar apenas observações disponíveis até o instante da previsão. Excluir valores do futuro e respeitar o atraso de publicação dos dados.",
+          "tipo": "caso"
+        },
+        {
+          "frente": "Uma renda tem média 3000 e desvio 1000 no treino. Qual é o z de 5000?",
+          "verso": "z = (5000 - 3000) / 1000 = 2. Esse valor está dois desvios acima da média do treino.",
+          "tipo": "exercicio",
+          "verificacao_fundamentos": {
+            "id": "fund_z",
+            "esperado": 2
+          }
+        },
+        {
+          "frente": "Como escolher o tratamento de um outlier?",
+          "verso": "Investigar se é erro ou evento real. Corrigir erro comprovado; para evento real, considerar transformação ou método robusto sem apagar casos por conveniência.",
+          "tipo": "caso"
+        },
+        {
+          "frente": "Por que a engenharia de features também entra na validação?",
+          "verso": "Se uma transformação aprende com os dados ou é escolhida pelo desempenho, ela faz parte do processo de seleção e pode superajustar.",
+          "tipo": "conceito"
+        }
+      ]
+    },
+    {
+      "numero": 3,
+      "tema": "Validação e métricas",
+      "nivel": "intermediario",
+      "fonte": "https://scikit-learn.org/stable/modules/model_evaluation.html",
+      "cartoes": [
+        {
+          "frente": "Qual é o papel de treino, validação e teste?",
+          "verso": "Treino ajusta parâmetros. Validação orienta escolhas. Teste mede o procedimento final em dados reservados.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "O que é uma baseline?",
+          "verso": "Um método simples de referência. Pode prever a média para regressão ou a classe mais frequente para classificação.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "Quando uma divisão aleatória de treino e teste é inadequada?",
+          "verso": "Quando há tempo, grupos ou dependência espacial relevantes. Dados relacionados em lados diferentes podem tornar a avaliação otimista.",
+          "tipo": "caso"
+        },
+        {
+          "frente": "Como validar uma previsão temporal?",
+          "verso": "Treinar em períodos anteriores e validar em posteriores. Considerar uma lacuna entre períodos quando janelas ou atrasos geram sobreposição.",
+          "tipo": "configuracao"
+        },
+        {
+          "frente": "Quando usar GroupKFold?",
+          "verso": "Quando observações da mesma entidade, como paciente ou estação, precisam ficar no mesmo lado da divisão.",
+          "tipo": "configuracao"
+        },
+        {
+          "frente": "O que a validação cruzada estratificada preserva aproximadamente?",
+          "verso": "A proporção de classes em cada fold. Isso não resolve dependência entre pessoas, locais ou instantes.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "O que significa overfitting?",
+          "verso": "Aprender particularidades do treino que não se repetem fora dele. Uma diferença grande entre desempenho de treino e validação é um sinal possível.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "O que significa underfitting?",
+          "verso": "O modelo não representa relações relevantes e vai mal até no treino. Pode faltar capacidade, informação ou um ajuste adequado.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "Como calcular MAE?",
+          "verso": "Calcular a média de abs(y - previsão). Sua unidade é a mesma do alvo.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "Por que RMSE penaliza erros grandes mais que MAE?",
+          "verso": "Eleva os erros ao quadrado antes de tirar a média e a raiz. Erros grandes ganham peso maior.",
+          "tipo": "comparacao"
+        },
+        {
+          "frente": "O que significa R² negativo no conjunto de avaliação?",
+          "verso": "O erro quadrático supera o de prever a média dos alvos desse conjunto. R² não é uma porcentagem de acertos.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "Qual é a diferença entre precision e recall?",
+          "verso": "Precision = TP / (TP + FP). Recall = TP / (TP + FN). A primeira avalia os positivos previstos; a segunda, os positivos reais.",
+          "tipo": "comparacao"
+        },
+        {
+          "frente": "Qual é a fórmula de F1?",
+          "verso": "F1 = 2TP/(2TP+FP+FN), quando esse denominador é positivo. Equivale à média harmônica de precision e recall quando ambas permitem essa expressão. Se TP=FP=FN=0, declarar a convenção adotada.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "Em 1000 casos, só 10 são positivos. Prever sempre negativo dá qual acurácia e recall?",
+          "verso": "Acurácia = 990 / 1000 = 99%. Recall positivo = 0 / 10 = 0. A acurácia esconde a falha de detecção.",
+          "tipo": "exercicio",
+          "verificacao_fundamentos": {
+            "id": "fund_classe_rara",
+            "esperado": [
+              0.99,
+              0
+            ]
+          }
+        },
+        {
+          "frente": "Um detector tem TP=8, FP=2 e FN=4. Calcule precision e recall.",
+          "verso": "Precision = 8 / 10 = 0,80. Recall = 8 / 12 ≈ 0,667.",
+          "tipo": "exercicio",
+          "verificacao_fundamentos": {
+            "id": "fund_precision_recall",
+            "esperado": [
+              0.8,
+              0.6666666666666666
+            ]
+          }
+        },
+        {
+          "frente": "Observados [10, 20] e previstos [12, 17]. Qual é o MAE?",
+          "verso": "Erros absolutos 2 e 3. MAE = (2 + 3) / 2 = 2,5.",
+          "tipo": "exercicio",
+          "verificacao_fundamentos": {
+            "id": "fund_mae",
+            "esperado": 2.5
+          }
+        },
+        {
+          "frente": "Para que serve ajustar o limiar de classificação?",
+          "verso": "Controlar a decisão feita a partir de um escore ou probabilidade. Escolher o limiar na validação conforme o custo dos erros.",
+          "tipo": "configuracao"
+        },
+        {
+          "frente": "O que mede uma curva precision-recall?",
+          "verso": "A relação entre precision e recall ao variar o limiar. É útil para examinar a detecção da classe positiva, especialmente quando ela é rara.",
+          "tipo": "conceito"
+        }
+      ]
+    },
+    {
+      "numero": 4,
+      "tema": "Regressões e regularização",
+      "nivel": "intermediario",
+      "fonte": "https://scikit-learn.org/stable/modules/linear_model.html",
+      "cartoes": [
+        {
+          "frente": "Qual é a forma da regressão linear com duas entradas?",
+          "verso": "ŷ = b + w1 × x1 + w2 × x2. O treinamento estima o intercepto b e os coeficientes w.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "O que mínimos quadrados minimiza?",
+          "verso": "A soma dos resíduos ao quadrado entre valores observados e previstos.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "Na equação preço = 50000 + 2000 × área, quanto vale a previsão para 60 m²?",
+          "verso": "50000 + 2000 × 60 = 170000. É uma previsão do exemplo, sem intervalo de incerteza.",
+          "tipo": "exercicio",
+          "verificacao_fundamentos": {
+            "id": "fund_preco",
+            "esperado": 170000
+          }
+        },
+        {
+          "frente": "O que um coeficiente linear descreve?",
+          "verso": "A variação prevista do alvo por unidade da entrada, mantendo as outras entradas fixas. Isso não demonstra efeito causal.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "O que Ridge acrescenta à regressão?",
+          "verso": "Uma penalização L2 nos coeficientes, que reduz sua magnitude e pode estabilizar estimativas com entradas correlacionadas.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "Como alpha afeta Ridge?",
+          "verso": "Um alpha maior aumenta a penalização. Escolher seu valor pela validação e padronizar entradas quando escalas são diferentes.",
+          "tipo": "configuracao"
+        },
+        {
+          "frente": "Qual é a ideia do Lasso?",
+          "verso": "Usa penalização L1, que pode levar alguns coeficientes exatamente a zero e gerar um modelo esparso.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "Quando considerar Elastic Net?",
+          "verso": "Quando se quer combinar penalizações L1 e L2, por exemplo com muitas entradas correlacionadas.",
+          "tipo": "configuracao"
+        },
+        {
+          "frente": "Qual é o papel de l1_ratio no ElasticNet?",
+          "verso": "Controla a mistura das penalizações. l1_ratio=1 corresponde a L1; valores entre 0 e 1 combinam L1 e L2.",
+          "tipo": "configuracao"
+        },
+        {
+          "frente": "Regressão polinomial deixa de ser linear nos parâmetros?",
+          "verso": "Não. Termos como x² são novas features, mas os coeficientes continuam entrando linearmente no modelo.",
+          "tipo": "comparacao"
+        },
+        {
+          "frente": "Qual é o risco de aumentar muito o grau polinomial?",
+          "verso": "Criar uma função flexível demais para a quantidade e o ruído dos dados, com pior generalização.",
+          "tipo": "configuracao"
+        },
+        {
+          "frente": "Por que regressão logística é usada para classificação?",
+          "verso": "Transforma um escore linear em probabilidade de classe. No caso binário, usa a função sigmoide.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "Uma regressão logística produz p=0,7. Com limiar 0,8, qual classe prevê?",
+          "verso": "A negativa, se a regra for prever positiva quando p ≥ 0,8. A probabilidade permanece 0,7.",
+          "tipo": "exercicio",
+          "verificacao_fundamentos": {
+            "id": "fund_limiar",
+            "esperado": 0
+          }
+        },
+        {
+          "frente": "Como C controla a regularização em regressão logística?",
+          "verso": "C é o inverso da força de regularização. Menor C costuma significar penalização mais forte.",
+          "tipo": "configuracao"
+        },
+        {
+          "frente": "O que verificar antes de interpretar coeficientes regularizados?",
+          "verso": "Escala das variáveis, codificação e correlação entre entradas. Magnitudes sem esse contexto podem induzir conclusões erradas.",
+          "tipo": "caso"
+        }
+      ]
+    },
+    {
+      "numero": 5,
+      "tema": "Vizinhos SVM e Naive Bayes",
+      "nivel": "intermediario",
+      "fonte": "https://scikit-learn.org/stable/modules/neighbors.html",
+      "cartoes": [
+        {
+          "frente": "Como k-NN faz uma classificação?",
+          "verso": "Localiza os k exemplos mais próximos e agrega seus rótulos por votação, eventualmente ponderada pela distância.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "Como k-NN faz regressão?",
+          "verso": "Agrega os alvos numéricos dos vizinhos, em geral por média simples ou ponderada.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "Como configurar o número de vizinhos no scikit-learn?",
+          "verso": "Usar n_neighbors. Comparar valores na validação com a escala e a distância definidas no pipeline.",
+          "tipo": "configuracao"
+        },
+        {
+          "frente": "O que costuma acontecer com k muito pequeno no k-NN?",
+          "verso": "A previsão fica sensível ao ruído local. Aumentar k suaviza, mas um valor muito alto pode apagar diferenças relevantes.",
+          "tipo": "configuracao"
+        },
+        {
+          "frente": "Para que serve weights='distance' no k-NN?",
+          "verso": "Dá maior peso aos vizinhos mais próximos em vez de usar pesos iguais.",
+          "tipo": "configuracao"
+        },
+        {
+          "frente": "Na figura de k-NN, qual classe o novo ponto recebe com voto uniforme?",
+          "verso": "Classe A. Entre os três vizinhos dentro do círculo, dois pertencem a A e um a B.",
+          "tipo": "exercicio",
+          "imagem": "ml_knn.png"
+        },
+        {
+          "frente": "Por que distância perde utilidade com muitas features irrelevantes?",
+          "verso": "Dimensões sem sinal podem dominar a distância e reduzir o contraste entre vizinhos. Seleção de features e representação devem ser avaliadas.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "Qual é a ideia de uma SVM de classificação?",
+          "verso": "Buscar uma fronteira com margem ampla, equilibrando margem e penalização de violações.",
+          "tipo": "conceito",
+          "fonte": "https://scikit-learn.org/stable/modules/svm.html"
+        },
+        {
+          "frente": "Como o kernel ajuda uma SVM?",
+          "verso": "Define semelhanças equivalentes a uma representação em outro espaço, permitindo fronteiras não lineares sem construir todas as features explicitamente.",
+          "tipo": "conceito",
+          "fonte": "https://scikit-learn.org/stable/modules/svm.html"
+        },
+        {
+          "frente": "Qual é o efeito de C em uma SVM?",
+          "verso": "Maior C penaliza mais as violações no treino. Menor C permite mais violações em troca de regularização maior.",
+          "tipo": "configuracao",
+          "fonte": "https://scikit-learn.org/stable/modules/svm.html"
+        },
+        {
+          "frente": "O que gamma controla no kernel RBF?",
+          "verso": "O alcance da influência dos exemplos. Gamma alto produz influência mais local e pode gerar fronteiras muito complexas.",
+          "tipo": "configuracao",
+          "fonte": "https://scikit-learn.org/stable/modules/svm.html"
+        },
+        {
+          "frente": "Qual é uma configuração inicial ilustrativa para SVM RBF?",
+          "verso": "StandardScaler seguido de SVC(kernel='rbf', C=1, gamma='scale'). Os valores são ponto de partida, não uma configuração ótima.",
+          "tipo": "configuracao",
+          "fonte": "https://scikit-learn.org/stable/modules/svm.html"
+        },
+        {
+          "frente": "Qual é a hipótese simplificadora do Naive Bayes?",
+          "verso": "As features são condicionalmente independentes dado o rótulo. Essa hipótese pode ser aproximada e ainda produzir um classificador útil.",
+          "tipo": "conceito",
+          "fonte": "https://scikit-learn.org/stable/modules/naive_bayes.html"
+        },
+        {
+          "frente": "Quando considerar MultinomialNB em vez de GaussianNB?",
+          "verso": "Para contagens ou representações textuais não negativas. GaussianNB modela cada feature contínua com uma distribuição normal por classe.",
+          "tipo": "comparacao",
+          "fonte": "https://scikit-learn.org/stable/modules/naive_bayes.html"
+        },
+        {
+          "frente": "Para que serve alpha no MultinomialNB?",
+          "verso": "Suaviza as estimativas para evitar probabilidades nulas para eventos pouco observados.",
+          "tipo": "configuracao",
+          "fonte": "https://scikit-learn.org/stable/modules/naive_bayes.html"
+        }
+      ]
+    },
+    {
+      "numero": 6,
+      "tema": "Árvores florestas e boosting",
+      "nivel": "intermediario",
+      "fonte": "https://scikit-learn.org/stable/modules/ensemble.html",
+      "cartoes": [
+        {
+          "frente": "Como uma árvore de decisão prevê?",
+          "verso": "Aplica testes sucessivos às entradas até alcançar uma folha. A folha define uma classe ou um valor numérico.",
+          "tipo": "conceito",
+          "fonte": "https://scikit-learn.org/stable/modules/tree.html"
+        },
+        {
+          "frente": "Na árvore ilustrada, com previsão de chuva de 8 mm, qual folha é alcançada?",
+          "verso": "Não irrigar, pois 8 > 5. A figura representa uma regra fictícia para estudar árvores, não uma recomendação agronômica.",
+          "tipo": "exercicio",
+          "imagem": "ml_arvore.png",
+          "fonte": "https://scikit-learn.org/stable/modules/tree.html"
+        },
+        {
+          "frente": "Como max_depth controla uma árvore?",
+          "verso": "Limita a quantidade de níveis de divisão. Uma árvore menos profunda tende a ser mais simples.",
+          "tipo": "configuracao",
+          "fonte": "https://scikit-learn.org/stable/modules/tree.html"
+        },
+        {
+          "frente": "O que min_samples_leaf restringe?",
+          "verso": "O número mínimo de exemplos em cada folha. Aumentá-lo evita folhas sustentadas por poucos casos.",
+          "tipo": "configuracao"
+        },
+        {
+          "frente": "O que ccp_alpha controla em uma árvore?",
+          "verso": "A intensidade da poda por custo-complexidade. Valores maiores favorecem árvores menores.",
+          "tipo": "configuracao",
+          "fonte": "https://scikit-learn.org/stable/modules/tree.html"
+        },
+        {
+          "frente": "Árvores exigem StandardScaler para calcular suas divisões?",
+          "verso": "Em geral, não. Divisões por limiar não dependem da comparação direta entre escalas de features diferentes.",
+          "tipo": "comparacao"
+        },
+        {
+          "frente": "Qual é a ideia do bagging?",
+          "verso": "Treinar modelos em amostras reamostradas e combinar previsões, reduzindo variância quando os erros não são idênticos.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "O que distingue Random Forest de uma única árvore?",
+          "verso": "Combina várias árvores com aleatoriedade nas amostras e nas features consideradas nas divisões.",
+          "tipo": "comparacao"
+        },
+        {
+          "frente": "O que n_estimators controla em Random Forest?",
+          "verso": "A quantidade de árvores. Mais árvores podem estabilizar a agregação, com custo maior de treinamento e inferência.",
+          "tipo": "configuracao"
+        },
+        {
+          "frente": "O que max_features controla em Random Forest?",
+          "verso": "Quantas features são candidatas em cada divisão. Mudar esse valor altera a diversidade e a força das árvores.",
+          "tipo": "configuracao"
+        },
+        {
+          "frente": "O que é avaliação out-of-bag em uma floresta com bootstrap?",
+          "verso": "Avaliar cada amostra usando árvores que não a receberam no sorteio. Isso não substitui automaticamente um teste temporal ou por grupos.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "Como gradient boosting constrói um conjunto de modelos?",
+          "verso": "Adiciona modelos sequencialmente para melhorar a função de perda do conjunto, usando a direção dada pelo gradiente negativo.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "Como combinar learning_rate e número de etapas no boosting?",
+          "verso": "Taxa menor reduz a contribuição de cada etapa e costuma exigir mais etapas. Comparar a combinação na validação.",
+          "tipo": "configuracao"
+        },
+        {
+          "frente": "Qual é o papel de early stopping no boosting?",
+          "verso": "Interromper novas etapas quando um critério de validação deixa de melhorar. A divisão usada precisa representar a tarefa.",
+          "tipo": "configuracao"
+        },
+        {
+          "frente": "Qual é a diferença entre voting e stacking?",
+          "verso": "Voting agrega diretamente previsões. Stacking treina um segundo modelo para combiná-las, usando previsões fora do treino de cada modelo base.",
+          "tipo": "comparacao"
+        },
+        {
+          "frente": "XGBoost LightGBM e CatBoost são o mesmo algoritmo?",
+          "verso": "Não. São bibliotecas com implementações e recursos próprios de boosting de árvores. Comparar suporte a dados, custo e validação antes de escolher.",
+          "tipo": "comparacao"
+        }
+      ]
+    },
+    {
+      "numero": 7,
+      "tema": "Agrupamento redução e anomalias",
+      "nivel": "intermediario",
+      "fonte": "https://scikit-learn.org/stable/modules/clustering.html",
+      "cartoes": [
+        {
+          "frente": "Qual é a diferença entre k-NN e k-means?",
+          "verso": "k-NN usa vizinhos para prever com exemplos rotulados. K-means agrupa pontos sem rótulos e aprende k centroides.",
+          "tipo": "comparacao"
+        },
+        {
+          "frente": "Como k-means atualiza seus grupos?",
+          "verso": "Alterna entre atribuir pontos ao centroide mais próximo e recalcular cada centroide como a média dos pontos atribuídos.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "O que n_clusters configura em KMeans?",
+          "verso": "A quantidade de grupos a procurar. Ela deve ser escolhida considerando validação do agrupamento e utilidade para o problema.",
+          "tipo": "configuracao"
+        },
+        {
+          "frente": "Para que serve n_init em KMeans?",
+          "verso": "Executa múltiplas inicializações e retém a solução com menor inércia. Exemplo inicial: n_clusters=3, n_init=10, random_state=42.",
+          "tipo": "configuracao"
+        },
+        {
+          "frente": "O que a inércia mede no k-means?",
+          "verso": "A soma das distâncias quadráticas dos pontos aos seus centroides. Ela tende a diminuir com mais grupos e não basta para escolher k.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "Por que padronizar gasto e frequência antes de k-means?",
+          "verso": "Sem ajuste de escala, valores em reais podem dominar distâncias sobre valores de contagem. A escala deve refletir o significado da tarefa.",
+          "tipo": "caso"
+        },
+        {
+          "frente": "Na figura dos clientes, que perfil tem o grupo roxo?",
+          "verso": "Gasto mensal alto e frequência de compras intermediária. Esse agrupamento ilustrativo não prova preferência, renda ou motivo de compra.",
+          "tipo": "exercicio",
+          "imagem": "ml_clusters.png"
+        },
+        {
+          "frente": "Que limitação de k-means aparece em grupos curvos ou com densidades distintas?",
+          "verso": "A distância aos centroides favorece grupos compactos. Formas alongadas ou densidades muito diferentes podem ser mal representadas.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "Como DBSCAN identifica grupos?",
+          "verso": "Conecta regiões densas por vizinhança e marca pontos sem suporte suficiente como ruído.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "O que eps e min_samples controlam no DBSCAN?",
+          "verso": "eps define o raio da vizinhança. min_samples define o suporte necessário para um ponto central, incluindo o próprio ponto no scikit-learn.",
+          "tipo": "configuracao"
+        },
+        {
+          "frente": "Como funciona agrupamento hierárquico aglomerativo?",
+          "verso": "Começa com grupos pequenos e une os mais próximos conforme um critério de ligação, construindo uma hierarquia.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "Qual é a ideia de PCA?",
+          "verso": "Encontrar direções ortogonais de maior variância e projetar os dados nelas. As componentes são combinações lineares das features.",
+          "tipo": "conceito",
+          "fonte": "https://scikit-learn.org/stable/modules/decomposition.html"
+        },
+        {
+          "frente": "PCA seleciona diretamente algumas colunas originais?",
+          "verso": "Não. Cria componentes a partir de combinações das colunas. Seleção de features mantém um subconjunto das entradas originais.",
+          "tipo": "comparacao",
+          "fonte": "https://scikit-learn.org/stable/modules/decomposition.html"
+        },
+        {
+          "frente": "Como n_components=0.95 configura PCA?",
+          "verso": "Retém componentes suficientes para atingir pelo menos 95% da variância explicada, em uma configuração de solver compatível.",
+          "tipo": "configuracao",
+          "fonte": "https://scikit-learn.org/stable/modules/decomposition.html"
+        },
+        {
+          "frente": "Por que um mapa t-SNE ou UMAP não comprova classes separadas?",
+          "verso": "A projeção pode distorcer relações e muda com a configuração. Distâncias e espaços entre grupos precisam de interpretação cuidadosa.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "Qual é a ideia do Isolation Forest?",
+          "verso": "Isolar observações por divisões aleatórias. Observações que exigem caminhos mais curtos tendem a ser consideradas mais anômalas.",
+          "tipo": "conceito",
+          "fonte": "https://scikit-learn.org/stable/modules/outlier_detection.html"
+        }
+      ]
+    },
+    {
+      "numero": 8,
+      "tema": "Ajuste de hiperparâmetros e seleção",
+      "nivel": "avancado",
+      "fonte": "https://scikit-learn.org/stable/modules/grid_search.html",
+      "cartoes": [
+        {
+          "frente": "Como GridSearchCV escolhe uma configuração?",
+          "verso": "Avalia todas as combinações da grade por validação cruzada e seleciona a melhor segundo a métrica definida.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "Como RandomizedSearchCV difere de GridSearchCV?",
+          "verso": "Amostra um número definido de configurações de distribuições ou listas. Permite limitar o custo sem testar toda a grade.",
+          "tipo": "comparacao"
+        },
+        {
+          "frente": "Como nomear um hiperparâmetro de etapa em um Pipeline?",
+          "verso": "Usar nome_da_etapa__parametro. Exemplo: modelo__max_depth para uma etapa chamada modelo.",
+          "tipo": "configuracao"
+        },
+        {
+          "frente": "Por que usar uma grade logarítmica para C ou alpha?",
+          "verso": "Ordens de magnitude podem importar mais que pequenos incrementos. Exemplo ilustrativo: [0.01, 0.1, 1, 10, 100].",
+          "tipo": "configuracao"
+        },
+        {
+          "frente": "Uma grade tem 3 valores de C e 4 de gamma com 5 folds. Quantos ajustes de validação são feitos?",
+          "verso": "3 × 4 × 5 = 60. Se refit=True, há também um ajuste final da melhor configuração no conjunto de desenvolvimento.",
+          "tipo": "exercicio",
+          "verificacao_fundamentos": {
+            "id": "fund_grade",
+            "esperado": 60
+          }
+        },
+        {
+          "frente": "Por que o scikit-learn usa neg_mean_absolute_error na busca?",
+          "verso": "Os escores seguem a convenção de que maior é melhor. O MAE é negado; -2 é melhor que -5.",
+          "tipo": "configuracao"
+        },
+        {
+          "frente": "Como usar a métrica certa em uma busca de hiperparâmetros?",
+          "verso": "Escolher scoring conforme a tarefa. Para classes raras, avaliar a classe positiva e o custo dos erros; para regressão, usar unidade e objetivo do alvo.",
+          "tipo": "configuracao"
+        },
+        {
+          "frente": "O que é validação cruzada aninhada?",
+          "verso": "Um ciclo interno escolhe configurações; um externo avalia o procedimento de seleção em dados que o ciclo interno não viu.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "Por que escolher features antes de todos os folds pode vazar informação?",
+          "verso": "A seleção já consultou dados que serão tratados como validação. Seleção aprendida deve ocorrer dentro de cada treino.",
+          "tipo": "caso"
+        },
+        {
+          "frente": "O que uma curva de aprendizado compara?",
+          "verso": "Desempenho de treino e validação para diferentes tamanhos de treino. Ajuda a investigar falta de dados, viés e variância.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "Uma curva tem treino muito bom e validação ruim. O que investigar?",
+          "verso": "Complexidade excessiva, vazamento, desvio entre conjuntos e representatividade dos dados. O padrão sozinho não identifica uma causa única.",
+          "tipo": "caso"
+        },
+        {
+          "frente": "Por que repetir buscas olhando sempre o mesmo teste é um problema?",
+          "verso": "As escolhas passam a se adaptar ao teste. Ele deixa de representar uma avaliação independente do procedimento final.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "O que random_state resolve e o que não resolve?",
+          "verso": "Controla fontes específicas de aleatoriedade. Não garante igualdade entre versões, hardware, bibliotecas ou todos os algoritmos.",
+          "tipo": "configuracao"
+        },
+        {
+          "frente": "Como aplicar early stopping sem consultar o teste?",
+          "verso": "Reservar uma validação dentro do desenvolvimento ou usar um procedimento de validação adequado. Manter o teste fora da decisão de parada.",
+          "tipo": "configuracao"
+        },
+        {
+          "frente": "Qual é o papel de um orçamento de busca?",
+          "verso": "Limitar configurações, folds e tempo para tornar a comparação viável. Registrar esse orçamento ajuda a comparar procedimentos.",
+          "tipo": "configuracao"
+        }
+      ]
+    },
+    {
+      "numero": 9,
+      "tema": "Redes neurais e deep learning",
+      "nivel": "avancado",
+      "fonte": "https://docs.pytorch.org/tutorials/beginner/basics/optimization_tutorial.html",
+      "cartoes": [
+        {
+          "frente": "O que um neurônio artificial calcula?",
+          "verso": "Uma combinação ponderada das entradas mais um viés, seguida de uma função de ativação.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "Por que usar ativações não lineares entre camadas?",
+          "verso": "Sem elas, a composição de camadas afins continua equivalente a uma única transformação afim.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "O que uma MLP representa?",
+          "verso": "Uma rede com camadas densas, em que neurônios recebem combinações das saídas anteriores. Pode resolver classificação ou regressão.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "Como uma rede aprende por backpropagation?",
+          "verso": "Calcula gradientes da perda em relação aos parâmetros pela regra da cadeia. Um otimizador usa esses gradientes para atualizar os parâmetros.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "O que learning rate ou taxa de aprendizado controla?",
+          "verso": "O tamanho das atualizações feitas pelo otimizador. Taxa muito alta pode desestabilizar; muito baixa pode tornar o aprendizado lento.",
+          "tipo": "configuracao"
+        },
+        {
+          "frente": "Qual é a diferença entre época e batch?",
+          "verso": "Batch é um grupo de amostras usado em uma atualização. Época corresponde a uma passagem pelo conjunto de treino.",
+          "tipo": "comparacao"
+        },
+        {
+          "frente": "Há 1000 amostras e batch de 100. Quantas atualizações por época, sem descarte de amostras?",
+          "verso": "1000 / 100 = 10 atualizações. Cada batch participa de uma atualização do otimizador.",
+          "tipo": "exercicio",
+          "verificacao_fundamentos": {
+            "id": "fund_batches",
+            "esperado": 10
+          }
+        },
+        {
+          "frente": "Qual é a diferença entre SGD e Adam?",
+          "verso": "SGD segue gradientes, podendo usar momentum. Adam ajusta a escala das atualizações com estimativas dos momentos dos gradientes.",
+          "tipo": "comparacao"
+        },
+        {
+          "frente": "Para que serve dropout?",
+          "verso": "Durante o treino, zera aleatoriamente algumas ativações para regularizar. Na inferência usual, não faz esse sorteio.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "O que weight decay procura controlar?",
+          "verso": "Penalizar ou reduzir pesos para regularizar o modelo. Sua relação com L2 depende do otimizador e de como a atualização é implementada.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "Qual é uma configuração inicial ilustrativa de MLPClassifier?",
+          "verso": "hidden_layer_sizes=(32, 16), activation='relu', alpha=0.001, learning_rate_init=0.001 e max_iter=500, com padronização e validação.",
+          "tipo": "configuracao",
+          "fonte": "https://scikit-learn.org/stable/modules/neural_networks_supervised.html"
+        },
+        {
+          "frente": "Por que CNNs são usadas em imagens?",
+          "verso": "Filtros compartilham pesos e exploram relações locais. Isso reduz parâmetros em comparação com ligar todos os pixels a todos os neurônios.",
+          "tipo": "conceito",
+          "fonte": "https://docs.pytorch.org/tutorials/beginner/blitz/cifar10_tutorial.html"
+        },
+        {
+          "frente": "Que estrutura uma RNN explora?",
+          "verso": "Uma sequência, usando um estado que se atualiza entre passos. LSTM e GRU ajudam a lidar com dificuldades de memória e gradiente.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "Qual é a ideia de atenção em um Transformer?",
+          "verso": "Combinar representações dando pesos dependentes do conteúdo a diferentes posições. A arquitetura precisa representar a ordem das posições quando ela importa.",
+          "tipo": "conceito",
+          "fonte": "https://arxiv.org/abs/1706.03762"
+        },
+        {
+          "frente": "Qual é a diferença entre embedding e one-hot?",
+          "verso": "One-hot indica identidade com um vetor esparso. Embedding representa o item por um vetor denso aprendido, cuja geometria depende do treinamento.",
+          "tipo": "comparacao"
+        },
+        {
+          "frente": "O que transfer learning reaproveita?",
+          "verso": "Representações ou pesos de um modelo treinado em outra tarefa. Pode congelar partes ou reajustá-las com novos dados.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "Qual é a diferença entre congelar uma camada e fazer fine-tuning?",
+          "verso": "Congelar mantém seus pesos fixos. Fine-tuning permite atualizá-los no novo treino, normalmente com taxa de aprendizado cuidadosamente escolhida.",
+          "tipo": "comparacao"
+        },
+        {
+          "frente": "O que um autoencoder aprende a fazer?",
+          "verso": "Codificar uma entrada e reconstruí-la. Uma representação comprimida pode ser útil, mas baixo erro de reconstrução não garante utilidade em outra tarefa.",
+          "tipo": "conceito"
+        }
+      ]
+    },
+    {
+      "numero": 10,
+      "tema": "Aprendizado por reforço",
+      "nivel": "avancado",
+      "fonte": "https://spinningup.openai.com/en/latest/spinningup/rl_intro.html",
+      "cartoes": [
+        {
+          "frente": "Na figura de reforço, o que o agente envia e o que recebe?",
+          "verso": "Envia uma ação ao ambiente. Recebe informação do novo estado e a recompensa.",
+          "tipo": "exercicio",
+          "imagem": "ml_reforco.png"
+        },
+        {
+          "frente": "O que é estado em aprendizado por reforço?",
+          "verso": "Uma descrição da situação usada para decidir. A observação disponível ao agente pode ser apenas parte do estado real.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "O que é uma política em aprendizado por reforço?",
+          "verso": "Uma regra que escolhe ações com base no estado ou observação. Pode ser determinística ou probabilística.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "Qual é a diferença entre recompensa e retorno?",
+          "verso": "Recompensa é o sinal de um passo. Retorno acumula recompensas ao longo de passos, podendo aplicar desconto.",
+          "tipo": "comparacao"
+        },
+        {
+          "frente": "O que gamma controla no retorno descontado?",
+          "verso": "O peso relativo das recompensas futuras. Gamma próximo de 1 valoriza horizontes mais longos; gamma=0 considera só a recompensa imediata.",
+          "tipo": "configuracao"
+        },
+        {
+          "frente": "Com recompensas 2 e 4 e gamma=0,5, qual é o retorno de dois passos?",
+          "verso": "G = 2 + 0,5 × 4 = 4. O exemplo termina após esses dois passos.",
+          "tipo": "exercicio",
+          "verificacao_fundamentos": {
+            "id": "fund_retorno",
+            "esperado": 4
+          }
+        },
+        {
+          "frente": "Qual é o conflito entre exploração e aproveitamento?",
+          "verso": "Explorar testa ações pouco conhecidas. Aproveitar escolhe ações que já parecem boas. Explorar pouco pode manter uma política ruim.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "Como epsilon-greedy escolhe uma ação?",
+          "verso": "Com probabilidade epsilon, explora por uma escolha aleatória. No restante, escolhe uma ação de maior valor estimado.",
+          "tipo": "configuracao"
+        },
+        {
+          "frente": "O que Q(s,a) representa?",
+          "verso": "Uma estimativa do retorno esperado ao executar a ação a no estado s e seguir a política considerada depois.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "Qual é a atualização do Q-learning tabular em um passo não terminal?",
+          "verso": "Q(s,a) ← Q(s,a) + alpha × [r + gamma × max Q(s',a') - Q(s,a)]. No terminal, o termo de valor futuro é zero.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "Q atual é 2, alpha=0,5, r=3, gamma=0,9 e máximo Q futuro=4. Qual é o novo Q?",
+          "verso": "Alvo = 3 + 0,9 × 4 = 6,6. Novo Q = 2 + 0,5 × (6,6 - 2) = 4,3.",
+          "tipo": "exercicio",
+          "verificacao_fundamentos": {
+            "id": "fund_qlearning",
+            "esperado": 4.3
+          }
+        },
+        {
+          "frente": "Como DQN difere de Q-learning tabular?",
+          "verso": "Usa uma rede neural para aproximar valores Q. Replay de experiências e rede alvo ajudam a estabilizar o aprendizado.",
+          "tipo": "comparacao"
+        },
+        {
+          "frente": "Qual é a ideia de policy gradient?",
+          "verso": "Ajustar diretamente os parâmetros da política para aumentar o retorno esperado estimado a partir de interações.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "Qual é a ideia de actor-critic?",
+          "verso": "Um actor escolhe ações e um critic estima valores para orientar a atualização da política.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "Por que uma recompensa mal definida pode gerar comportamento ruim?",
+          "verso": "O agente pode maximizar o sinal disponível sem cumprir o objetivo real. Recompensa e avaliação precisam incluir o comportamento desejado.",
+          "tipo": "caso"
+        }
+      ]
+    },
+    {
+      "numero": 11,
+      "tema": "Interpretação incerteza e uso do modelo",
+      "nivel": "avancado",
+      "fonte": "https://scikit-learn.org/stable/inspection.html",
+      "cartoes": [
+        {
+          "frente": "Como funciona importância por permutação?",
+          "verso": "Embaralha uma feature e mede quanto o desempenho piora. O resultado depende do modelo, da métrica e dos dados de avaliação.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "Por que features correlacionadas complicam a importância por permutação?",
+          "verso": "Uma pode substituir informação da outra. Embaralhar apenas uma pode mostrar pouca perda mesmo quando ambas carregam sinal.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "Importância de árvore por impureza pode ter qual viés?",
+          "verso": "Pode favorecer features com muitas divisões possíveis. Conferir também importância fora do treino e o significado das entradas.",
+          "tipo": "conceito"
+        },
+        {
+          "frente": "O que um valor SHAP procura atribuir?",
+          "verso": "Uma contribuição de feature para uma previsão em relação a uma referência. A interpretação depende do explicador e das hipóteses sobre os dados.",
+          "tipo": "conceito",
+          "fonte": "https://shap.readthedocs.io/en/latest/"
+        },
+        {
+          "frente": "SHAP ou um coeficiente alto demonstra causalidade?",
+          "verso": "Não. Explica aspectos do modelo ou associação. Causalidade exige hipóteses e desenho de análise próprios.",
+          "tipo": "caso",
+          "fonte": "https://shap.readthedocs.io/en/latest/"
+        },
+        {
+          "frente": "O que é calibração de probabilidades?",
+          "verso": "Correspondência entre probabilidades previstas e frequências observadas. Entre muitos casos previstos com 0,8, espera-se cerca de 80% positivos se houver calibração.",
+          "tipo": "conceito",
+          "fonte": "https://scikit-learn.org/stable/modules/calibration.html"
+        },
+        {
+          "frente": "Como calibrar sem contaminar a avaliação?",
+          "verso": "Ajustar o calibrador com previsões fora do treino do modelo ou com conjunto separado. Reservar dados independentes para avaliar o resultado.",
+          "tipo": "configuracao",
+          "fonte": "https://scikit-learn.org/stable/modules/calibration.html"
+        },
+        {
+          "frente": "Qual é a diferença entre incerteza aleatória e epistêmica?",
+          "verso": "Aleatória vem da variabilidade do processo ou observação. Epistêmica vem da falta de conhecimento ou dados sobre o modelo.",
+          "tipo": "comparacao"
+        },
+        {
+          "frente": "O que um intervalo de previsão tenta cobrir?",
+          "verso": "Um futuro valor observado, incluindo variabilidade dos resultados. Um intervalo de confiança para a média responde outra pergunta.",
+          "tipo": "comparacao"
+        },
+        {
+          "frente": "Qual é a ideia da previsão conformal?",
+          "verso": "Usar escores de calibração para construir conjuntos ou intervalos com cobertura marginal sob hipóteses como permutabilidade das observações.",
+          "tipo": "conceito",
+          "fonte": "https://arxiv.org/abs/2107.07511"
+        },
+        {
+          "frente": "A cobertura conformal marginal garante a mesma cobertura para todo subgrupo?",
+          "verso": "Não. A garantia marginal não implica garantia para cada perfil, região ou instante, e depende das hipóteses do procedimento.",
+          "tipo": "conceito",
+          "fonte": "https://arxiv.org/abs/2107.07511"
+        },
+        {
+          "frente": "Qual é a diferença entre data drift e concept drift?",
+          "verso": "Data drift muda a distribuição das entradas. Concept drift muda a relação entre entradas e alvo.",
+          "tipo": "comparacao"
+        },
+        {
+          "frente": "O que monitorar depois de colocar um modelo em uso?",
+          "verso": "Distribuições das entradas, erros quando os alvos chegarem, calibração e desempenho por grupos relevantes, além de falhas e custo operacional.",
+          "tipo": "configuracao"
+        },
+        {
+          "frente": "Como comparar resultados de duas versões de forma rastreável?",
+          "verso": "Registrar dados e divisão, código, dependências, configuração, sementes e métricas. Usar o mesmo protocolo de avaliação para a comparação.",
+          "tipo": "configuracao"
+        },
+        {
+          "frente": "Por que balancear classes não substitui avaliação por grupo?",
+          "verso": "O balanceamento trata a distribuição de classes. Falhas em regiões ou perfis específicos podem continuar escondidas na métrica agregada.",
+          "tipo": "caso"
+        }
+      ]
+    },
+    {
+      "numero": 12,
+      "tema": "Exemplos práticos e decisões de configuração",
+      "nivel": "avancado",
+      "fonte": "https://scikit-learn.org/stable/common_pitfalls.html",
+      "cartoes": [
+        {
+          "frente": "No exemplo de imóveis, qual baseline deve acompanhar Ridge?",
+          "verso": "DummyRegressor(strategy='mean'), ajustado no treino e avaliado no mesmo teste. A comparação mostra se o modelo melhora a previsão constante.",
+          "tipo": "caso",
+          "fonte": "local:exemplos/exemplos.py"
+        },
+        {
+          "frente": "No exemplo de cancelamento, por que usar Pipeline com StandardScaler?",
+          "verso": "Para ajustar a escala só no treino, inclusive dentro dos folds da busca, e aplicar a mesma transformação a novas entradas.",
+          "tipo": "caso",
+          "fonte": "local:exemplos/exemplos.py"
+        },
+        {
+          "frente": "No exemplo de cancelamento, como buscar C sem tocar no teste?",
+          "verso": "Reservar o teste antes da busca. Executar GridSearchCV com StratifiedKFold apenas no conjunto de desenvolvimento.",
+          "tipo": "configuracao",
+          "fonte": "local:exemplos/exemplos.py"
+        },
+        {
+          "frente": "No exemplo de clientes, os números 0 1 e 2 dos clusters representam classes reais?",
+          "verso": "Não. São identificadores arbitrários e podem ser permutados entre ajustes. O significado vem das características dos grupos.",
+          "tipo": "caso",
+          "fonte": "local:exemplos/exemplos.py"
+        },
+        {
+          "frente": "Como avaliar clusters sintéticos com rótulos de geração conhecidos?",
+          "verso": "Usar uma medida como Adjusted Rand Index para comparar partições. Em dados reais, esses rótulos de referência podem não existir.",
+          "tipo": "caso",
+          "fonte": "local:exemplos/exemplos.py"
+        },
+        {
+          "frente": "No exemplo de redução, em que dados ajustar PCA?",
+          "verso": "No treino do pipeline. Transformar o teste com componentes já aprendidas e comparar o efeito na tarefa final.",
+          "tipo": "caso",
+          "fonte": "local:exemplos/exemplos.py"
+        },
+        {
+          "frente": "Na figura de k-NN, o que mudaria ao usar weights='distance'?",
+          "verso": "O resultado dependeria das distâncias, e a maioria por contagem deixaria de ser suficiente. O exercício de voto usa pesos iguais.",
+          "tipo": "caso",
+          "imagem": "ml_knn.png",
+          "fonte": "local:exemplos/exemplos.py"
+        },
+        {
+          "frente": "Na árvore ilustrada, previsão de exatamente 5 mm segue qual ramo?",
+          "verso": "Não, pois 5 > 5 é falso. A folha alcançada é Irrigar na regra fictícia.",
+          "tipo": "exercicio",
+          "imagem": "ml_arvore.png",
+          "fonte": "local:exemplos/exemplos.py"
+        },
+        {
+          "frente": "Na figura dos clientes, por que os eixos originais não bastam para escolher a distância?",
+          "verso": "Gasto e contagem têm unidades e escalas diferentes. O exemplo executável padroniza os dados antes de k-means.",
+          "tipo": "caso",
+          "imagem": "ml_clusters.png",
+          "fonte": "local:exemplos/exemplos.py"
+        },
+        {
+          "frente": "Um histórico diário tem 180 dias e teste nos últimos 30. Como separar?",
+          "verso": "Treinar nos primeiros 150 e testar nos 30 finais. A configuração e a validação também precisam respeitar a ordem temporal.",
+          "tipo": "exercicio",
+          "fonte": "local:exemplos/exemplos.py",
+          "verificacao_fundamentos": {
+            "id": "fund_divisao",
+            "esperado": [
+              150,
+              30
+            ]
+          }
+        },
+        {
+          "frente": "Um dataset tem cinco medições por pessoa. Qual erro uma divisão por linha pode causar?",
+          "verso": "Medições da mesma pessoa aparecem no treino e teste. Para generalizar a novas pessoas, separar por identificador de pessoa.",
+          "tipo": "caso",
+          "fonte": "local:exemplos/exemplos.py"
+        },
+        {
+          "frente": "Ao prever vendas de amanhã, posso usar a venda registrada amanhã como feature?",
+          "verso": "Não. Essa informação não existe no momento da previsão e contém o próprio resultado futuro.",
+          "tipo": "caso",
+          "fonte": "local:exemplos/exemplos.py"
+        },
+        {
+          "frente": "No exemplo de Q-learning, como impedir bootstrap após terminar o episódio?",
+          "verso": "Usar valor futuro zero quando o estado seguinte é terminal. Não somar gamma × máximo Q nesse caso.",
+          "tipo": "configuracao",
+          "fonte": "local:exemplos/exemplos.py"
+        },
+        {
+          "frente": "Como selecionar entre regressão logística e Random Forest para o mesmo problema?",
+          "verso": "Comparar pipelines no mesmo protocolo, com métricas e orçamento definidos. Considerar calibração, custo e interpretação junto do desempenho.",
+          "tipo": "caso",
+          "fonte": "local:exemplos/exemplos.py"
+        },
+        {
+          "frente": "Um modelo tem melhor média em cinco folds por uma diferença pequena. Isso encerra a comparação?",
+          "verso": "Não necessariamente. Verificar dispersão, pareamento dos folds, custo e estabilidade. Os folds não são replicações totalmente independentes.",
+          "tipo": "caso",
+          "fonte": "local:exemplos/exemplos.py"
+        },
+        {
+          "frente": "Qual é o próximo passo depois de obter bons resultados nos exemplos sintéticos?",
+          "verso": "Definir um problema real, disponibilidade das entradas e protocolo de avaliação. Métricas sintéticas não comprovam desempenho no uso real.",
+          "tipo": "caso",
+          "fonte": "local:exemplos/exemplos.py"
+        }
+      ]
+    }
+  ]
+}
