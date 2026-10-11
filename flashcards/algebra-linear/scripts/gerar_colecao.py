@@ -41,9 +41,13 @@ def write_deck(path, rows, delimiter):
         csv.writer(stream, delimiter=delimiter, lineterminator="\n").writerows(rows)
 
 
+def thematic_paths(modules):
+    return [ROOT / f'{m["numero"]:02d} - {m["tema"]}.csv' for m in modules]
+
+
 def package_paths():
     paths = [ROOT / '00 - Álgebra linear completo.tsv', ROOT / "README.md", ROOT / "INDICE.md", ROOT / "ESTUDAR.html"]
-    paths.extend(ROOT.glob("[0-9][0-9] - *.csv"))
+    paths.extend(thematic_paths(load_modules()))
     for directory in ["fontes", "exemplos", "scripts", "documentacao"]:
         paths.extend(p for p in (ROOT / directory).rglob("*") if p.is_file() and "__pycache__" not in p.parts)
     return sorted(paths)
@@ -51,6 +55,10 @@ def package_paths():
 
 def main():
     modules = load_modules()
+    unexpected = set(ROOT.glob("[0-9][0-9] - *.csv")) - set(thematic_paths(modules))
+    if unexpected:
+        names = ", ".join(p.name for p in sorted(unexpected))
+        raise ValueError("CSVs fora da fonte editorial: " + names)
     all_rows = []
     index = ["# Ordem de estudo", "", "| Estudo | Tema | Cartões | Nível |", "| --- | --- | ---: | --- |"]
     for module in modules:

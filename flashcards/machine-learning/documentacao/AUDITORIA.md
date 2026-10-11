@@ -29,3 +29,11 @@ As páginas de estudo foram conferidas no navegador: busca, contagem e abertura 
 As referências estão em `fontes/REFERENCIAS.md`, `fontes/REFERENCIAS_NUCLEO.md` e na coleção de álgebra linear. Fórmulas e condições foram comparadas com o manual do Anki, a documentação de scikit-learn, SciPy, NumPy e statsmodels, o curso 18.06 do MIT, Forecasting: Principles and Practice e Bayes Rules!. Os versos apontam para as fontes específicas quando disponíveis.
 
 A coleção é introdutória e inclui apresentações conceituais de técnicas que ainda não têm ajustes executáveis próprios, como MANOVA, CCA, ARIMA e MCMC. Demonstrações, projetos com dados reais e diagnóstico de modelos ficam para expansões futuras.
+
+## Correções após a revisão do PR
+
+Em 11/10/2026, a revisão do Codex apontou dois casos de expansão. Os geradores agora montam a lista de CSVs a partir dos módulos atuais e rejeitam arquivos numerados que ficaram fora da fonte editorial, preservando-os. O teste de importação dos CSVs também usa os TSVs completos como referência, para não aceitar uma coleção maior só porque todos os CSVs foram importados.
+
+A página de ML encaminha qualquer imagem para `media/`, independentemente do prefixo no nome. O validador confere essas referências e decodifica entidades HTML nos nomes dos arquivos. Os testes incluem um nome com espaços, acento e `&`.
+
+A suíte passou de quatro para oito testes. Os casos de CSV obsoleto e referência de imagem foram reproduzidos no commit anterior e passam após a correção. O conteúdo dos cartões e as imagens existentes permaneceram iguais.

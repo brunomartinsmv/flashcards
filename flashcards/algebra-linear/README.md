@@ -14,6 +14,8 @@ Abra [ESTUDAR.html](ESTUDAR.html) no navegador para buscar perguntas e revelar r
 
 ## Conferência e manutenção
 
+O gerador lista os CSVs pela fonte editorial e interrompe a execução se houver um CSV numerado de um módulo antigo ou desconhecido. Ele preserva esses arquivos. Ao renomear ou remover um módulo, guarde o CSV anterior fora da pasta de importação antes de gerar novamente.
+
 [exemplos/algebra.py](exemplos/algebra.py) recalcula 33 exercícios com NumPy, incluindo projeções, sistemas, mínimos quadrados e SVD. [Resultados](exemplos/resultados.json) registram os valores e a versão usada. Instale, em um ambiente separado se necessário, a dependência de [exemplos/requirements.txt](exemplos/requirements.txt).
 
 ```sh

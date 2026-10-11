@@ -6,7 +6,7 @@ import json
 import zipfile
 from collections import Counter
 import numpy as np
-from gerar_colecao import ROOT, load_modules, render_card, package_paths
+from gerar_colecao import ROOT, load_modules, render_card, package_paths, thematic_paths
 
 
 def read_deck(path, delimiter):
@@ -19,6 +19,7 @@ def read_deck(path, delimiter):
 
 def main():
     modules = load_modules()
+    assert set(ROOT.glob("[0-9][0-9] - *.csv")) == set(thematic_paths(modules)), "CSVs divergentes da fonte editorial."
     expected = [render_card(m, c) for m in modules for c in m['cartoes']]
     actual = read_deck(ROOT / '00 - Álgebra linear completo.tsv', '\t')
     assert actual == expected

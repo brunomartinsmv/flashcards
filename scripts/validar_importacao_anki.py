@@ -49,8 +49,8 @@ def verify_notes(collection, expected):
     return image_cards
 
 
-def scenario(files, supplements=()):
-    expected = [row for path in files for row in read_rows(path)]
+def scenario(files, supplements=(), expected_files=None):
+    expected = [row for path in (expected_files if expected_files is not None else files) for row in read_rows(path)]
     assert len(expected) == len({r[0] for r in expected}), 'Frentes repetidas entre coleções.'
     with TemporaryDirectory(prefix='flashcards-anki-') as directory:
         collection = Collection(str(Path(directory) / 'collection.anki2'))
@@ -76,7 +76,8 @@ def main():
               'tipo':'motor Anki em bancos temporários; sem interface gráfica e sem perfil pessoal',
               'tsv':scenario([ML/'00 - Machine learning completo.tsv', AL/'00 - Álgebra linear completo.tsv'],
                              [ML/'00 - Estatística e métricas complemento.tsv', ML/'00 - Probabilidade inferência e modelos complemento.tsv']),
-              'csv':scenario(sorted(ML.glob('[0-9][0-9] - *.csv')) + sorted(AL.glob('[0-9][0-9] - *.csv')))}
+              'csv':scenario(sorted(ML.glob('[0-9][0-9] - *.csv')) + sorted(AL.glob('[0-9][0-9] - *.csv')),
+                             expected_files=[ML/'00 - Machine learning completo.tsv', AL/'00 - Álgebra linear completo.tsv'])}
     inputs = [*ML.glob("[0-9][0-9] - *.csv"), *AL.glob("[0-9][0-9] - *.csv"), *ML.glob("*.tsv"), *AL.glob("*.tsv")]
     report["sha256_arquivos"] = {str(p.relative_to(ROOT)):hashlib.sha256(p.read_bytes()).hexdigest() for p in sorted(inputs)}
     for root in [ML, AL]:

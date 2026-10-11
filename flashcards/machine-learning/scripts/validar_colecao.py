@@ -2,6 +2,7 @@
 
 import csv
 import hashlib
+import html
 import io
 import json
 import re
@@ -11,7 +12,7 @@ from pathlib import Path
 
 import numpy as np
 
-from gerar_colecao import ROOT, load_modules, render_card, package_paths
+from gerar_colecao import ROOT, load_modules, render_card, package_paths, thematic_paths
 
 
 def read_deck(path, delimiter):
@@ -24,6 +25,7 @@ def read_deck(path, delimiter):
 
 def main():
     data = {"modulos": load_modules()}
+    assert set(ROOT.glob("[0-9][0-9] - *.csv")) == set(thematic_paths(data["modulos"])), "CSVs divergentes da fonte editorial."
     expected = [render_card(m, c) for m in data["modulos"] for c in m["cartoes"]]
     actual = read_deck(ROOT / "00 - Machine learning completo.tsv", "\t")
     assert actual == expected, "O TSV completo diverge da fonte editorial."
@@ -64,7 +66,9 @@ def main():
     for name in metric_names:
         cards = [c for m in data["modulos"] for c in m["cartoes"] if c.get("metrica") == name]
         assert any(c["tipo"] == "conceito" for c in cards) and any(c["tipo"] == "exercicio" and "verificacao" in c for c in cards), name
-    image_refs = [name for row in actual for name in re.findall(r'<img src="([^"]+)"', row[0])]
+    image_refs = [html.unescape(name) for row in actual for name in re.findall(r'<img src="([^"]+)"', row[0])]
+    study_refs = [html.unescape(name) for name in re.findall(r'<img src="([^"]+)"', (ROOT / "ESTUDAR.html").read_text(encoding="utf-8"))]
+    assert study_refs == ["media/" + name for name in image_refs], "Referências de imagem inválidas na página de estudo."
     images = sorted((ROOT / "media").glob("*.png"))
     assert set(image_refs) == {p.name for p in images}, "Imagem ausente ou não usada."
     for path in images:

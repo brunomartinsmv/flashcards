@@ -51,6 +51,8 @@ A [auditoria da primeira edição](documentacao/AUDITORIA.md) registra correçõ
 
 ## Fontes e manutenção
 
+O gerador lista os CSVs pela fonte editorial e interrompe a execução se houver um CSV numerado de um módulo antigo ou desconhecido. Ele preserva esses arquivos. Ao renomear ou remover um módulo, guarde o CSV anterior fora da pasta de importação antes de gerar novamente.
+
 [fontes/cartoes.json](fontes/cartoes.json) guarda os 189 cartões iniciais, e [fontes/estatistica_metricas.json](fontes/estatistica_metricas.json) guarda o complemento. [fontes/nucleo_estatistico.json](fontes/nucleo_estatistico.json) guarda os 100 cartões dos estudos 22 a 26. Os três arquivos são fontes editoriais editáveis. Os versos apontam para documentação técnica ou para o script autoral nos casos práticos. [Referências](fontes/REFERENCIAS.md) e [prompts das imagens](fontes/prompts_imagens.json) documentam a origem. A geração usou o modo integrado da skill imagegen; os PNGs finais estão em [media/](media/).
 
 ```sh
