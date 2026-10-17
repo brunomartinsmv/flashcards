@@ -762,7 +762,7 @@
       "fonte": "https://scikit-learn.org/stable/modules/model_evaluation.html",
       "cartoes": [
         {
-          "frente": "Como ler TP TN FP e FN em uma matriz de confusão?",
+          "frente": "Como ler TP, TN, FP e FN em uma matriz de confusão?",
           "verso": "TP acerta positivos; TN acerta negativos; FP prevê positivo quando era negativo; FN prevê negativo quando era positivo. Declare qual classe é positiva.",
           "tipo": "conceito"
         },

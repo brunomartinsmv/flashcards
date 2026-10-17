@@ -556,7 +556,7 @@
           "tipo": "comparacao"
         },
         {
-          "frente": "XGBoost LightGBM e CatBoost são o mesmo algoritmo?",
+          "frente": "XGBoost, LightGBM e CatBoost são o mesmo algoritmo?",
           "verso": "Não. São bibliotecas com implementações e recursos próprios de boosting de árvores. Comparar suporte a dados, custo e validação antes de escolher.",
           "tipo": "comparacao"
         }
@@ -1053,7 +1053,7 @@
           "fonte": "local:exemplos/exemplos.py"
         },
         {
-          "frente": "No exemplo de clientes, os números 0 1 e 2 dos clusters representam classes reais?",
+          "frente": "No exemplo de clientes, os números 0, 1 e 2 dos clusters representam classes reais?",
           "verso": "Não. São identificadores arbitrários e podem ser permutados entre ajustes. O significado vem das características dos grupos.",
           "tipo": "caso",
           "fonte": "local:exemplos/exemplos.py"
@@ -1072,14 +1072,14 @@
         },
         {
           "frente": "Na figura de k-NN, o que mudaria ao usar weights='distance'?",
-          "verso": "O resultado dependeria das distâncias, e a maioria por contagem deixaria de ser suficiente. O exercício de voto usa pesos iguais.",
+          "verso": "Cada vizinho passaria a votar com peso proporcional a 1/distância. Na figura, os três vizinhos estão a distâncias parecidas do novo ponto, então os dois de A ainda somam mais peso e a classe continua A. Um ponto B bem mais próximo poderia inverter o voto.",
           "tipo": "caso",
           "imagem": "ml_knn.png",
           "fonte": "local:exemplos/exemplos.py"
         },
         {
           "frente": "Na árvore ilustrada, previsão de exatamente 5 mm segue qual ramo?",
-          "verso": "Não, pois 5 > 5 é falso. A folha alcançada é Irrigar na regra fictícia.",
+          "verso": "O ramo Não, pois 5 > 5 é falso. A folha alcançada é Irrigar na regra fictícia.",
           "tipo": "exercicio",
           "imagem": "ml_arvore.png",
           "fonte": "local:exemplos/exemplos.py"

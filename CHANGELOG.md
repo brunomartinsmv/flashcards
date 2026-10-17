@@ -11,6 +11,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Páginas da Wikipedia sobre repetição espaçada e memória convertidas para `archive/spaced-repetition/docs/wikipedia.md`.
 
+### Fixed
+
+- CPA: páginas citadas corrigidas em 31 cartões cuja referência apontava para outro assunto, como blockchain, subadquirente, sandbox, come-cotas, fundos, previdência, PIB e risco climático.
+- CPA: quatro cartões sem base na apostila foram substituídos por conteúdo da própria apostila. IPCA × INPC virou IPCA × IGP-M, PIB nominal × real virou valor agregado, análise fundamentalista × técnica virou aluguel de ações e blockchain permissionada virou DeFi. Risco de concentração agora reflete o que a apostila diz sobre fundos de ações.
+- CPA: respostas vagas passam a trazer os dados da apostila, como o limite de R$ 20.000,00 em vendas mensais de ações, a garantia do FGCoop, as datas e alíquotas do come-cotas e a definição de subadquirente. O cartão sobre cliente que insiste em operação inadequada cita a Resolução CVM 30, art. 7º.
+- Machine learning: vírgulas faltantes em cinco frentes; respostas mais claras nos exercícios de k-NN ponderado e da árvore com chuva de 5 mm.
+- Idiomas: `a nombre de esta persona` corrigido para `a este nombre`; conexão de voo em espanhol e italiano (`conexión`, `coincidenza`); `llegó hasta` substituído por `solo llegó`; frente inglesa do despertador mais natural; `pepper` e `pan` especificados como `bell pepper` e `frying pan`.
+
 ## [2.0.0] - 2026-10-09
 
 Versão major: o repositório passou de workshop de idiomas para biblioteca pessoal de flashcards, com licenciamento novo (CC BY 4.0 nos cartões e na documentação autoral desta versão; Apache 2.0 nos scripts e materiais anteriores).

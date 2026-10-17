@@ -272,7 +272,7 @@
           "tipo": "conceito"
         },
         {
-          "frente": "Como distinguir tendência sazonalidade e ciclo?",
+          "frente": "Como distinguir tendência, sazonalidade e ciclo?",
           "verso": "Tendência é mudança de longo prazo; sazonalidade repete um padrão associado a período conhecido; ciclos têm duração mais variável.",
           "tipo": "comparacao"
         },
@@ -361,7 +361,7 @@
           "tipo": "comparacao"
         },
         {
-          "frente": "O que p d e q configuram em ARIMA(p,d,q)?",
+          "frente": "O que p, d e q configuram em ARIMA(p,d,q)?",
           "verso": "p é a ordem autorregressiva, d o número de diferenças e q a ordem de médias móveis dos erros. A escolha precisa de diagnóstico e avaliação fora do treino.",
           "tipo": "configuracao"
         },
