@@ -36,6 +36,8 @@ O cartão de IMA-B 5 e IMA-B 5+ corrige o corte de cinco anos: IMA-B 5 tem prazo
 
 O cartão Ibovespa × IBrX corrige a ponderação: os dois usam valor de mercado do free float; a negociabilidade entra na seleção, e o Ibovespa adiciona tetos de peso ([metodologia Ibovespa](https://www.b3.com.br/data/files/9C/15/76/F6/3F6947102255C247AC094EA8/IBOV-Metodologia-pt-br__Novo_.pdf) e [IBrX 100](https://www.b3.com.br/data/files/CA/41/5A/43/96D947102255C247AC094EA8/IBXX-Metodologia-pt-br__Modelo_Novo_.pdf), B3).
 
+O cartão sobre cliente que insiste em operação incompatível com o perfil usa as vedações da apostila e complementa o procedimento com a [Resolução CVM 30, art. 7º](https://conteudo.cvm.gov.br/export/sites/cvm/legislacao/resolucoes/anexos/001/resol030consolid.pdf): antes da primeira operação, alertar o cliente sobre a inadequação e obter declaração expressa de ciência.
+
 Valores tributários, limites e outras regras regulatórias aparecem identificados como "Segundo a apostila (edição janeiro/2026)". A coleção não verifica se esses dados continuam vigentes. Use a edição indicada como material de estudo, não como confirmação de regra atual.
 
 Taxas e prazos foram escritos com unidade explícita. Exemplos numéricos derivados de fórmulas da apostila foram recalculados. Quando uma fórmula ou figura não apareceu na extração textual, a página do PDF foi renderizada para conferência antes de incluir o cartão.

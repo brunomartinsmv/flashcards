@@ -110,7 +110,7 @@ fork,garfo,lexico idioma::ingles tema::cozinha_e_utensilios nivel::basico,idioms
 knife,faca,lexico idioma::ingles tema::cozinha_e_utensilios nivel::basico,idioms::english::Léxico::Básico::05 Cozinha e utensílios
 spoon,colher,lexico idioma::ingles tema::cozinha_e_utensilios nivel::basico,idioms::english::Léxico::Básico::05 Cozinha e utensílios
 pot,panela,lexico idioma::ingles tema::cozinha_e_utensilios nivel::basico,idioms::english::Léxico::Básico::05 Cozinha e utensílios
-pan,frigideira,lexico idioma::ingles tema::cozinha_e_utensilios nivel::basico,idioms::english::Léxico::Básico::05 Cozinha e utensílios
+frying pan,frigideira,lexico idioma::ingles tema::cozinha_e_utensilios nivel::basico,idioms::english::Léxico::Básico::05 Cozinha e utensílios
 oven,forno,lexico idioma::ingles tema::cozinha_e_utensilios nivel::basico,idioms::english::Léxico::Básico::05 Cozinha e utensílios
 stove,fogão,lexico idioma::ingles tema::cozinha_e_utensilios nivel::basico,idioms::english::Léxico::Básico::05 Cozinha e utensílios
 refrigerator,geladeira,lexico idioma::ingles tema::cozinha_e_utensilios nivel::basico,idioms::english::Léxico::Básico::05 Cozinha e utensílios
@@ -174,7 +174,7 @@ onion,cebola,lexico idioma::ingles tema::frutas_e_vegetais nivel::basico,idioms:
 garlic,alho,lexico idioma::ingles tema::frutas_e_vegetais nivel::basico,idioms::english::Léxico::Básico::07 Frutas e vegetais
 lettuce,alface,lexico idioma::ingles tema::frutas_e_vegetais nivel::basico,idioms::english::Léxico::Básico::07 Frutas e vegetais
 cucumber,pepino,lexico idioma::ingles tema::frutas_e_vegetais nivel::basico,idioms::english::Léxico::Básico::07 Frutas e vegetais
-pepper,pimentão,lexico idioma::ingles tema::frutas_e_vegetais nivel::basico,idioms::english::Léxico::Básico::07 Frutas e vegetais
+bell pepper,pimentão,lexico idioma::ingles tema::frutas_e_vegetais nivel::basico,idioms::english::Léxico::Básico::07 Frutas e vegetais
 eggplant,berinjela,lexico idioma::ingles tema::frutas_e_vegetais nivel::basico,idioms::english::Léxico::Básico::07 Frutas e vegetais
 pumpkin,abóbora,lexico idioma::ingles tema::frutas_e_vegetais nivel::basico,idioms::english::Léxico::Básico::07 Frutas e vegetais
 bean,feijão (grão),lexico idioma::ingles tema::frutas_e_vegetais nivel::basico,idioms::english::Léxico::Básico::07 Frutas e vegetais
