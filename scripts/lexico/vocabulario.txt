@@ -110,7 +110,7 @@ garfo|la forchetta|el tenedor|fork
 faca|il coltello|el cuchillo|knife
 colher|il cucchiaio|la cuchara|spoon
 panela|la pentola|la olla|pot
-frigideira|la padella|la sartén|pan
+frigideira|la padella|la sartén|frying pan
 forno|il forno|el horno|oven
 fogão|il fornello|la estufa|stove
 geladeira|il frigorifero|el refrigerador|refrigerator
@@ -176,7 +176,7 @@ cebola|la cipolla|la cebolla|onion
 alho|l'aglio|el ajo|garlic
 alface|la lattuga|la lechuga|lettuce
 pepino|il cetriolo|el pepino|cucumber
-pimentão|il peperone|el pimiento|pepper
+pimentão|il peperone|el pimiento|bell pepper
 berinjela|la melanzana|la berenjena|eggplant
 abóbora|la zucca|la calabaza|pumpkin
 feijão (grão)|il fagiolo|el frijol|bean

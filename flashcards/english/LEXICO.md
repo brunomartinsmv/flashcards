@@ -1,6 +1,6 @@
 # Léxico de inglês
 
-600 cartões, com 592 palavras simples distintas, em 24 temas. Frente no idioma estudado; verso em português.
+600 cartões, com 590 palavras simples distintas, em 24 temas. Frente no idioma estudado; verso em português.
 
 Escolha os CSVs por tema ou `Léxico - Completo.csv`. Os dois formatos contêm os mesmos cartões. A coluna especial Deck cria os subdecks na importação dos cartões novos. Use um tipo de nota Basic específico deste idioma, com Frente e Verso. O Anki identifica notas pelo primeiro campo no mesmo tipo; italiano e espanhol compartilham frentes como `la casa` e `verde`.
 

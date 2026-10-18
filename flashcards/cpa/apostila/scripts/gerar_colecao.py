@@ -42,36 +42,36 @@ add(5,[
 ('Como comparar Price e SAC para o mesmo principal, prazo e taxa?','Price mantém prestações niveladas; SAC amortiza o principal em parcelas iguais e reduz a prestação com o tempo. O SAC exige pagamentos iniciais maiores e, em condições iguais, tende a gerar menos juros totais.','84,88','price sac comparacao'),
 ])
 add(6,[
-('O que representa o WACC?','É o custo médio ponderado das fontes de financiamento da empresa, combinando capital próprio e de terceiros segundo seus pesos. Serve como referência de custo de capital.','95','wacc'),
+('O que representa o WACC?','É o custo médio ponderado das fontes de financiamento da empresa, combinando capital próprio e de terceiros segundo seus pesos. Serve como referência de custo de capital.','94','wacc'),
 ('Como calcular o custo médio ponderado de capital?','WACC = (PL/V)×Ke + (D/V)×Kd×(1−T), quando o custo da dívida é ajustado pelo benefício fiscal; V = PL + D. Use pesos e premissas consistentes com o problema.','95','wacc formula'),
-('O que mede a duration de Macaulay?','O prazo médio ponderado dos fluxos de caixa de um título, usando como pesos os valores presentes de cada fluxo. Um título com cupons pode ter duration menor que seu vencimento.','96','duration'),
+('O que mede a duration de Macaulay?','O prazo médio ponderado dos fluxos de caixa de um título, usando como pesos os valores presentes de cada fluxo. Um título com cupons pode ter duration menor que seu vencimento.','95','duration'),
 ('Como interpretar a relação entre juros de mercado e preço de um título prefixado?','Em geral, se a taxa de mercado sobe, o preço presente dos fluxos cai; se a taxa cai, o preço sobe. A duration ajuda a estimar a sensibilidade do preço.','99','duration juros'),
 ('O que é desconto bancário simples?','É a antecipação de um valor futuro mediante desconto calculado antes do vencimento. No desconto comercial simples, D = N×d×t e o valor liberado é N−D, com taxa e prazo na mesma base.','102','desconto formula'),
 ('Como usar o VPL para decidir sobre um investimento?','Desconte os fluxos futuros pela taxa mínima requerida e some o investimento inicial: VPL = Σ FC_t/(1+k)^t. VPL positivo indica criação de valor sob as premissas adotadas.','112','investimentos vpl'),
 ('O que significa a TIR de um projeto?','É a taxa que zera o VPL dos fluxos de caixa. A decisão exige comparação com a taxa mínima atrativa e cautela quando há fluxos não convencionais ou projetos mutuamente excludentes.','104','investimentos tir'),
-('O que o payback descontado acrescenta ao payback simples?','Desconta os fluxos pela taxa requerida antes de acumular os valores até recuperar o investimento inicial. Considera valor do dinheiro no tempo, embora ignore fluxos posteriores à recuperação.','115','payback'),
+('O que o payback descontado acrescenta ao payback simples?','Desconta os fluxos pela taxa requerida antes de acumular os valores até recuperar o investimento inicial. Considera valor do dinheiro no tempo, embora ignore fluxos posteriores à recuperação.','114,115','payback'),
 ])
 add(7,[
-('O que o PIB mede pela ótica da produção?','O valor dos bens e serviços finais produzidos dentro do território econômico em determinado período, evitando dupla contagem de insumos intermediários.','124','pib'),
+('O que o PIB mede pela ótica da produção?','Pela ótica da oferta (produção), somam-se os valores agregados de agropecuária, indústria e serviços, ou seja, a produção de cada setor menos os insumos que ele consome. Assim nenhum item é contado duas vezes. Pela metodologia do IBGE, somam-se também os impostos líquidos de subsídios sobre produtos: PIB = valor adicionado bruto dos setores + impostos líquidos sobre produtos.','123,124','pib'),
 ('Qual é a diferença entre inflação de demanda e de custos?','A inflação de demanda decorre de procura agregada acima da capacidade de oferta. A inflação de custos surge quando aumentos de custos de produção pressionam preços.','125','inflacao'),
 ('Como distinguir Selic Meta de Selic Over?','Selic Meta é a taxa definida como objetivo de política pelo Copom. Selic Over é a taxa efetiva média das operações compromissadas de um dia lastreadas em títulos públicos.','127','selic copom'),
 ('Como uma alta da Selic tende a afetar consumo e inflação?','Crédito e custo de oportunidade tendem a subir, o que pode conter consumo e demanda; com defasagem, isso ajuda a reduzir pressão inflacionária. O efeito não é imediato nem mecânico.','133','politica monetaria'),
 ('Quais instrumentos clássicos o Banco Central usa para administrar liquidez?','Operações de mercado aberto, recolhimentos compulsórios e redesconto são instrumentos descritos na apostila para influenciar liquidez e condições monetárias.','136','politica monetaria'),
 ('O que diferencia política fiscal de política monetária?','Política fiscal atua por receitas e despesas públicas. Política monetária atua sobre juros, moeda e liquidez, sob condução do Banco Central.','135','politicas economicas'),
-('Como uma depreciação cambial afeta importações e exportações?','A moeda estrangeira fica mais cara em moeda local: importações tendem a encarecer e exportadores podem receber mais moeda local por receitas externas, dependendo de custos e contratos.','147','cambio'),
+('Como uma depreciação cambial afeta importações e exportações?','A moeda estrangeira fica mais cara em moeda local: importações tendem a encarecer e exportadores podem receber mais moeda local por receitas externas, dependendo de custos e contratos.','147,148','cambio'),
 ])
 add(9,[
 ('Quais são as três formas usuais de remuneração da renda fixa?','Prefixada, pós-fixada e híbrida. A prefixada define taxa nominal; a pós-fixada acompanha um indexador; a híbrida combina indexador e componente prefixado.','154','renda_fixa remuneracao'),
 ('O que é preço unitário (PU) de um título?','É o preço de negociação do título em uma data. O PU reflete o valor presente dos fluxos futuros segundo as condições de mercado.','155','renda_fixa pu'),
-('O que acontece com o preço de um título prefixado quando a taxa de mercado sobe?','O preço tende a cair, pois os fluxos fixos passam a ser descontados por uma taxa maior. Se mantido até o vencimento, o fluxo contratado permanece, ressalvados riscos do emissor e condições do título.','157','tesouro precificacao'),
+('O que acontece com o preço de um título prefixado quando a taxa de mercado sobe?','O preço tende a cair, pois os fluxos fixos passam a ser descontados por uma taxa maior. Se mantido até o vencimento, o fluxo contratado permanece, ressalvados riscos do emissor e condições do título.','156,157','tesouro precificacao'),
 ('Como se caracteriza o Tesouro Selic?','É título público pós-fixado ligado à taxa Selic. Em geral apresenta menor oscilação de preço que títulos prefixados ou indexados à inflação, mas pode haver variação e custos de resgate.','159','tesouro selic'),
 ('Como se caracteriza um título público indexado ao IPCA?','Combina atualização pela inflação medida pelo IPCA e taxa real prefixada, podendo pagar cupons ou concentrar o pagamento no vencimento, conforme o título.','161','tesouro ipca'),
 ])
 add(10,[
 ('O que é um CDB?','Título de dívida emitido por banco para captar recursos. A remuneração e o vencimento seguem as condições da emissão; o investidor assume risco de crédito do emissor.','167','titulos_bancarios cdb'),
-('Como diferenciar CDB, LCI e LCA pela finalidade?','CDB capta recursos de forma geral. LCI se relaciona ao financiamento imobiliário e LCA ao agronegócio, conforme a estrutura legal descrita na apostila.','168','titulos_bancarios'),
+('Como diferenciar CDB, LCI e LCA pela finalidade?','CDB capta recursos de forma geral. LCI se relaciona ao financiamento imobiliário e LCA ao agronegócio, conforme a estrutura legal descrita na apostila.','167,169,170','titulos_bancarios'),
 ('O que o FGC protege e como se aplica o limite?','Segundo a apostila (edição janeiro/2026), a garantia ordinária cobre produtos elegíveis até R$ 250 mil por CPF/CNPJ por instituição ou conglomerado, sujeita ao teto global de R$ 1 milhão a cada quatro anos.','177','fgc garantias'),
-('Como o FGCoop se relaciona com depósitos em cooperativas?','É mecanismo garantidor de créditos elegíveis mantidos em cooperativas associadas, com cobertura e limites definidos pelo regulamento aplicável, conforme apresentados na apostila.','180','fgcoop garantias'),
+('Como o FGCoop se relaciona com depósitos em cooperativas?','O FGCoop protege depositantes e investidores de cooperativas de crédito em caso de intervenção, liquidação ou falência. Segundo a apostila (edição janeiro/2026), a cobertura é semelhante à do FGC, com garantia ordinária de até R$ 250 mil por CPF/CNPJ por instituição associada. Ao contrário do FGC, não oferece DPGE. As listas não são idênticas: pelo Banco Central, a LCD é coberta pelo FGC, mas não pelo FGCoop, e o teto global de R$ 1 milhão a cada quatro anos é regra do FGC.','180,181','fgcoop garantias'),
 ('Qual risco permanece em uma debênture?','O investidor permanece exposto ao risco de crédito da companhia emissora, além de riscos de mercado e liquidez. Garantias da emissão não eliminam esses riscos.','182','titulos_corporativos debenture'),
 ])
 add(11,[
@@ -91,7 +91,7 @@ add(13,[
 ('O que representa um índice de ações?','Uma carteira teórica que resume o desempenho de um conjunto definido de ativos segundo metodologia própria. Não é, por si só, um investimento diretamente detido.','221','indices'),
 ('O que o Ibovespa procura representar?','O desempenho médio das ações de maior negociabilidade e representatividade do mercado acionário brasileiro, segundo critérios e metodologia do índice.','223','indices ibovespa'),
 ('Como a apostila caracteriza a tributação de operações comuns e day trade em ações?','Segundo a apostila (edição janeiro/2026), operações comuns e day trade têm alíquotas e apuração distintas; o investidor deve separar resultados, compensar prejuízos conforme as regras e recolher o imposto devido.','230','tributacao renda_variavel'),
-('Como funciona a isenção mensal de IR em vendas de ações no mercado à vista?','Segundo a apostila (edição janeiro/2026), há isenção para pessoa física em vendas mensais de ações até o limite indicado no material, restrita às operações elegíveis e sem incluir day trade.','231','tributacao renda_variavel'),
+('Como funciona a isenção mensal de IR em vendas de ações no mercado à vista?','Segundo a apostila (edição janeiro/2026), a pessoa física fica isenta quando o total de vendas de ações no mercado à vista no mês é de até R$ 20.000,00. O limite considera o valor das vendas, não o lucro. A isenção não vale para day trade.','231','tributacao renda_variavel'),
 ])
 add(14,[
 ('O que é um fundo de investimento?','Uma comunhão de recursos organizada como condomínio, destinada à aplicação coletiva em ativos conforme política de investimento e regulamento.','236','fundos estrutura'),
@@ -106,7 +106,7 @@ add(15,[
 ('Para que serve a assembleia de cotistas?','Delibera sobre matérias relevantes do fundo, como alterações de regulamento e substituição de prestadores, conforme regras de convocação, quórum e competência.','256','fundos assembleia'),
 ('Como a taxa de administração difere da taxa de performance?','A taxa de administração remunera serviços de administração e gestão. A taxa de performance, quando prevista, remunera desempenho que supera o parâmetro e as condições definidos no regulamento.','266','fundos taxas'),
 ('O que é um FIF?','Fundo de Investimento Financeiro, categoria que reúne fundos com carteiras financeiras submetidas às regras e limites próprios descritos na regulamentação.','272','fif'),
-('O que caracteriza um fundo cambial?','Mantém exposição relevante a variação de moeda estrangeira ou cupom cambial, conforme os limites regulatórios e a política do fundo.','276','fif'),
+('O que caracteriza um fundo cambial?','Mantém exposição relevante a variação de moeda estrangeira ou cupom cambial, conforme os limites regulatórios e a política do fundo.','279,280','fif'),
 ])
 add(16,[
 ('O que é um FII?','Fundo fechado que investe em ativos ligados ao setor imobiliário, como imóveis, recebíveis imobiliários ou cotas de outros fundos, conforme sua política.','281','fii'),
@@ -115,14 +115,14 @@ add(16,[
 ])
 add(17,[
 ('O que ocorre na fase de diferimento de um plano de previdência?','É a fase de acumulação, quando o participante realiza contribuições e os recursos são investidos antes do início do recebimento do benefício.','288','previdencia diferimento'),
-('O que ocorre na fase de benefício?','O participante passa a receber renda ou resgates conforme a modalidade contratada; regras de reversibilidade, prazo e saldo dependem do plano e da opção escolhida.','296','previdencia beneficio'),
-('Qual é a principal diferença tributária entre PGBL e VGBL no resgate?','Segundo a apostila (edição janeiro/2026), no PGBL o IR incide sobre o valor total resgatado ou recebido; no VGBL incide sobre os rendimentos.','303','previdencia pgbl vgbl'),
-('Para quem o PGBL pode ser mais adequado na declaração?','Em geral, para quem usa declaração completa, contribui para regime oficial e atende aos limites de dedução apresentados na apostila (edição janeiro/2026). A dedução reduz a base agora, com tributação posterior prevista.','304','previdencia pgbl'),
+('O que ocorre na fase de benefício?','O participante passa a receber renda ou resgates conforme a modalidade contratada; regras de reversibilidade, prazo e saldo dependem do plano e da opção escolhida.','289','previdencia beneficio'),
+('Qual é a principal diferença tributária entre PGBL e VGBL no resgate?','Segundo a apostila (edição janeiro/2026), no PGBL o IR incide sobre o valor total resgatado ou recebido; no VGBL incide sobre os rendimentos.','305,306','previdencia pgbl vgbl'),
+('Para quem o PGBL pode ser mais adequado na declaração?','Em geral, para quem usa declaração completa, contribui para regime oficial e atende aos limites de dedução apresentados na apostila (edição janeiro/2026). A dedução reduz a base agora, com tributação posterior prevista.','306','previdencia pgbl'),
 ('Para quem o VGBL pode ser mais adequado?','Pode ser adequado a quem usa declaração simplificada, não aproveita a dedução do PGBL ou investe além do limite dedutível, pois a tributação recai sobre rendimentos, segundo a apostila (edição janeiro/2026).','305','previdencia vgbl'),
 ])
 add(18,[
 ('Como os regimes progressivo e regressivo de previdência diferem?','Segundo a apostila (edição janeiro/2026), o progressivo usa tabela associada à renda tributável e pode envolver ajuste anual; o regressivo reduz alíquotas conforme o prazo de acumulação de cada contribuição.','308','previdencia tributacao'),
-('Por que o prazo de cada contribuição importa no regime regressivo?','Porque a alíquota é determinada pelo tempo de permanência de cada aporte, não simplesmente pela idade do plano ou pela data do primeiro depósito.','309','previdencia regressivo'),
+('Por que o prazo de cada contribuição importa no regime regressivo?','Porque a alíquota é determinada pelo tempo de permanência de cada aporte, não simplesmente pela idade do plano ou pela data do primeiro depósito.','310','previdencia regressivo'),
 ('O que caracteriza crédito consignado?','Empréstimo com parcelas descontadas diretamente de salário, benefício ou remuneração elegível, reduzindo risco de inadimplência, mas comprometendo renda futura.','318','credito consignado'),
 ('Como funciona o crédito rotativo do cartão?','É financiamento do saldo não pago integralmente na fatura. Em geral tem custo elevado; a apostila recomenda evitar seu uso recorrente e comparar alternativas de liquidação.','317','credito cartao'),
 ])
@@ -137,7 +137,7 @@ add(22,[
 ('O que é prêmio de seguro?','É o valor pago pelo segurado ou estipulante à seguradora para contratar a cobertura. Seu cálculo considera risco, coberturas e condições do contrato.','338','seguros'),
 ('O que é franquia em um seguro?','É a parcela do prejuízo que permanece a cargo do segurado em eventos cobertos, quando prevista no contrato.','338','seguros franquia'),
 ('Qual é a diferença entre seguradora e corretora?','A seguradora assume os riscos cobertos e paga indenizações conforme o contrato. A corretora intermedeia a contratação e orienta o cliente, sem assumir o risco segurado.','339','seguros participantes'),
-('Por que revisar exclusões e carências antes de contratar?','Elas delimitam quando a cobertura não opera ou só começa após certo prazo. O cliente precisa comparar essas condições com sua necessidade de proteção.','340','seguros cobertura'),
+('Por que revisar exclusões e carências antes de contratar?','Elas delimitam quando a cobertura não opera ou só começa após certo prazo. O cliente precisa comparar essas condições com sua necessidade de proteção.','338','seguros cobertura'),
 ])
 add(23,[
 ('Como o ciclo de vida ajuda a organizar o planejamento financeiro?','Relaciona objetivos, renda, responsabilidades e horizonte de cada fase, ajudando a priorizar acumulação, proteção e uso de recursos conforme as necessidades mudam.','349','planejamento ciclo_vida'),
@@ -147,7 +147,7 @@ add(23,[
 ])
 add(24,[
 ('O que avaliar antes de recomendar novo crédito a um cliente?','Renda recorrente, dívidas existentes, valor e prazo das parcelas, capacidade de pagamento, garantias e efeito sobre objetivos e orçamento.','354','credito capacidade'),
-('Como medir o comprometimento de renda com dívidas?','Some as parcelas e obrigações financeiras do período, divida pela renda líquida recorrente do mesmo período e multiplique por 100. Avalie junto a estabilidade da renda e despesas essenciais.','355','credito calculo'),
+('Como medir o comprometimento de renda com dívidas?','Some as parcelas e obrigações financeiras do período, divida pela renda líquida recorrente do mesmo período e multiplique por 100. Avalie junto a estabilidade da renda e despesas essenciais.','358','credito calculo'),
 ('Quando uma dívida pode ser uma ferramenta financeira?','Quando financia um objetivo compatível com a capacidade de pagamento e o custo/benefício, sem comprometer despesas essenciais nem gerar endividamento insustentável.','357','dividas credito'),
 ('Qual é uma estratégia para reorganizar dívidas caras?','Mapear saldo, taxa e prazo; priorizar renegociação ou substituição de linhas de custo alto por crédito mais barato, desde que a nova operação reduza custo total e caiba no orçamento.','359','dividas'),
 ('Por que a amortização antecipada deve ser comparada ao investimento alternativo?','A economia de juros da dívida deve ser confrontada com o retorno líquido, risco, liquidez e impostos da aplicação alternativa, além da preservação de reserva adequada.','364','credito amortizacao'),
@@ -168,7 +168,7 @@ add(26,[
 add(27,[
 ('Que princípios devem orientar a conduta ética no mercado financeiro?','Honestidade, equidade, diligência, independência, transparência, competência e preservação do sigilo, conforme o dever aplicável ao profissional.','394','etica'),
 ('O que significa suitability?','Processo de verificar se produto, serviço ou operação é compatível com objetivos, situação financeira e conhecimento/experiência do cliente, além de seu perfil de risco.','395','suitability api'),
-('O que fazer quando o cliente insiste em operação incompatível com seu perfil?','Explicar a incompatibilidade e os riscos, seguir os procedimentos de alerta e registro previstos e não apresentar a operação como adequada. As regras específicas determinam quando a execução pode ocorrer.','397','suitability'),
+('O que fazer quando o cliente insiste em operação incompatível com seu perfil?','A apostila veda recomendar produto inadequado ao perfil, sem informações suficientes ou com perfil desatualizado. Se o cliente ordenar a operação assim mesmo, a instituição deve, antes da primeira operação com aquela categoria de ativo, alertá-lo da inadequação e das causas e obter declaração expressa de ciência. Referência complementar: <a href="https://conteudo.cvm.gov.br/export/sites/cvm/legislacao/resolucoes/anexos/001/resol030consolid.pdf">Resolução CVM 30, art. 7º</a>.','62,64','suitability'),
 ('Como a escuta ativa melhora o atendimento?','Ajuda a identificar objetivos, restrições e compreensão do cliente antes de propor soluções, permitindo explicar alternativas em linguagem adequada e confirmar entendimento.','398','atendimento'),
 ])
 add(28,[
@@ -189,12 +189,12 @@ add(31,[
 ('O que significam os pilares ambiental, social e de governança em ESG?','Ambiental trata de impactos e riscos sobre recursos e clima; social abrange relações com trabalhadores, clientes e comunidades; governança examina direção, controles, ética e direitos.','423','esg pilares'),
 ('O que é engajamento acionário em estratégia ESG?','Uso ativo de direitos de acionista para dialogar com a companhia e influenciar suas práticas e decisões socioambientais ou de governança.','425','esg engajamento'),
 ('Como um fundo pode integrar fatores ESG à análise de investimentos?','Pode incorporar riscos e oportunidades ESG à seleção e gestão dos ativos, com critérios, dados e objetivos definidos e divulgados ao investidor.','426','esg investimentos'),
-('Qual é a diferença entre risco climático físico e de transição?','Risco físico decorre de eventos e mudanças climáticas que afetam ativos e operações. Risco de transição surge de mudanças regulatórias, tecnológicas, de mercado ou reputacionais ligadas à economia de baixo carbono.','429','esg risco_climatico'),
+('Qual é a diferença entre risco climático físico e de transição?','Risco físico vem de intempéries frequentes e severas ou de alterações ambientais de longo prazo, como secas, enchentes e aumento do nível do mar. Risco de transição vem do processo de transição para uma economia de baixo carbono: mudanças em legislação, tecnologia ou oferta e demanda que afetem negativamente a instituição.','428,429','esg risco_climatico'),
 ('O que caracteriza um título verde?','Instrumento cujos recursos são destinados a projetos ambientais elegíveis e cujo uso e reporte seguem critérios divulgados na emissão.','430','esg titulos'),
 ])
 add(32,[
-('Como funciona um blockchain?','É um registro distribuído em que transações são agrupadas em blocos ligados criptograficamente; participantes validam atualizações segundo regras de consenso da rede.','434','blockchain'),
-('Como diferenciar blockchain permissionada de pública?','Em rede pública, participação e validação seguem regras abertas; em rede permissionada, acesso ou validação são restritos a participantes autorizados.','434','blockchain redes'),
+('Como funciona um blockchain?','Segundo a apostila, é uma tecnologia de registro distribuído: um livro de registros digital e comunitário em que cada transação fica anotada e é validada pela própria rede, sem depender de uma única instituição. Traz transparência, imutabilidade, segurança por criptografia e desintermediação.','433,443','blockchain'),
+('Como as finanças descentralizadas (DeFi) diferem do sistema financeiro tradicional?','No sistema tradicional, bancos e corretoras intermediam as operações. No DeFi, as operações ocorrem diretamente entre usuários, por contratos inteligentes que executam o que foi acordado. Exemplo: um empréstimo tomado de outro investidor, sem banco no meio. O contrato executa automaticamente o prazo, o pagamento de juros ao credor e a liquidação da garantia, mas isso não elimina o risco: a garantia pode não cobrir a dívida.','434','blockchain defi'),
 ('O que é tokenização?','Representação digital de direitos ou ativos por tokens registrados em uma infraestrutura tecnológica. O token não elimina direitos legais, riscos do ativo ou necessidade de regras de custódia.','435','tokenizacao'),
 ('O que é um criptoativo?','Ativo digital que pode ser transferido e registrado por tecnologias criptográficas e de registro distribuído. Suas características, direitos e riscos variam entre projetos.','437','criptoativos'),
 ('Qual é a diferença entre hot wallet e cold wallet?','Hot wallet fica conectada à internet e facilita transações, mas amplia exposição online. Cold wallet mantém chaves fora de conexão contínua, reduzindo certos riscos e exigindo cuidado físico e operacional.','438','criptoativos custodia'),
@@ -203,8 +203,8 @@ add(32,[
 ])
 add(33,[
 ('O que é uma fintech?','Empresa que usa tecnologia para oferecer ou apoiar serviços financeiros, podendo atuar em pagamentos, crédito, investimentos ou outras atividades sujeitas a regras específicas.','448','fintechs'),
-('O que diferencia SCD de SEP na concessão de crédito?','Segundo a apostila (edição janeiro/2026), a SCD realiza operações de crédito com recursos próprios dentro do modelo autorizado; a SEP conecta credores e devedores em empréstimos entre pessoas, sem usar capital próprio para emprestar.','452','fintechs credito'),
-('Como funciona o sandbox regulatório?','Permite testar inovação em ambiente delimitado e supervisionado, com participantes, prazos, escopo e salvaguardas definidos pelo regulador.','450','fintechs sandbox'),
+('O que diferencia SCD de SEP na concessão de crédito?','Segundo a apostila (edição janeiro/2026), a SCD realiza operações de crédito com recursos próprios dentro do modelo autorizado; a SEP conecta credores e devedores em empréstimos entre pessoas, sem usar capital próprio para emprestar.','450,451','fintechs credito'),
+('Como funciona o sandbox regulatório?','Permite testar inovação em ambiente delimitado e supervisionado, com participantes, prazos, escopo e salvaguardas definidos pelo regulador.','449,450','fintechs sandbox'),
 ('O que é Open Finance?','Compartilhamento padronizado de dados e serviços financeiros entre instituições autorizadas, mediante consentimento do cliente e controles de segurança previstos no arranjo.','455','open_finance'),
 ('O que acrescentam Open Investment e Open Insurance?','Ampliam o compartilhamento consentido de dados e serviços para os segmentos de investimentos e seguros, permitindo integração e comparação entre provedores conforme o escopo autorizado.','457','open_investment open_insurance'),
 ('Para que serve um prompt em uma ferramenta de IA generativa?','É a instrução que delimita tarefa, contexto, formato e critérios da resposta. Instruções claras e contexto suficiente tendem a produzir saídas mais úteis, que ainda precisam de verificação.','460','ia prompt'),
@@ -218,22 +218,22 @@ add(3,[
 ])
 add(7,[
 ('O que é o fluxo circular da renda?','Modelo que mostra a interação entre famílias, empresas, governo e demais setores: famílias oferecem fatores e consomem; empresas produzem e remuneram fatores.','118','pib economia'),
-('Como calcular o PIB pela ótica da despesa?','Somam-se consumo das famílias, investimento, gastos do governo e exportações líquidas: PIB = C + I + G + (X−M).','124','pib formula'),
+('Como calcular o PIB pela ótica da despesa?','Somam-se consumo das famílias, investimento, gastos do governo e exportações líquidas: PIB = C + I + G + (X−M).','123','pib formula'),
 ('Como uma política fiscal expansionista pode afetar a demanda agregada?','Aumento de gastos ou redução de tributos tende a elevar a demanda no curto prazo, mas pode ampliar déficit e pressão inflacionária conforme o contexto.','139','politica fiscal'),
 ('O que é elasticidade-preço da demanda?','Mede a variação percentual da quantidade demandada diante de uma variação percentual do preço. Quanto maior o valor absoluto, maior a sensibilidade da quantidade ao preço.','122','economia elasticidade'),
 ])
 add(10,[
-('O que é uma Letra Financeira?','Título de captação bancária de prazo mais longo, com condições de remuneração e resgate previstas na emissão; deve-se avaliar liquidez, emissor e eventual ausência de garantia ordinária.','170','titulos_bancarios lf'),
+('O que é uma Letra Financeira?','Título de captação bancária de prazo mais longo, com condições de remuneração e resgate previstas na emissão; deve-se avaliar liquidez, emissor e eventual ausência de garantia ordinária.','171','titulos_bancarios lf'),
 ('O que diferencia uma debênture incentivada de uma debênture comum para a pessoa física?','Segundo a apostila (edição janeiro/2026), a incentivada financia projetos prioritários e pode ter tratamento tributário favorecido para pessoa física, conforme requisitos legais. O risco de crédito do emissor permanece.','182','titulos_corporativos tributacao'),
 ])
 add(12,[
 ('O que é tag along?','Mecanismo que estende a acionistas minoritários condições de venda de ações em caso de alienação de controle, conforme percentual e regras aplicáveis.','203','governanca tag_along'),
-('O que é direito de subscrição?','Preferência de acionistas para adquirir novas ações em aumento de capital, na proporção e no prazo definidos, preservando sua participação se exercerem o direito.','210','acoes subscricao'),
-('Como diferenciar análise fundamentalista de análise técnica?','A fundamentalista avalia fundamentos econômicos, financeiros e perspectivas do emissor. A técnica analisa padrões de preços e volumes para estudar comportamento de mercado.','218','acoes analise'),
+('O que é direito de subscrição?','Preferência de acionistas para adquirir novas ações em aumento de capital, na proporção e no prazo definidos, preservando sua participação se exercerem o direito.','213','acoes subscricao'),
+('Como funciona o aluguel de ações e quem recebe os proventos durante o contrato?','O locador (doador) empresta suas ações ao locatário (tomador), que paga uma taxa de aluguel definida pelo mercado e devolve os papéis no prazo acordado. O aluguel viabiliza a venda descoberta. A apostila diz que o doador continua com direito a dividendos, bonificações e direitos de subscrição. Pelas regras da B3, porém, a titularidade passa temporariamente ao tomador, que fica com o direito de voto. O doador recebe reembolsos equivalentes aos proventos ou as ações com a quantidade ajustada.','218','acoes aluguel'),
 ])
 add(14,[
-('O que é um fundo aberto?','Fundo em que, conforme regulamento, cotistas podem solicitar aplicações e resgates; a liquidez depende dos prazos e condições estabelecidos.','247','fundos aberto'),
-('O que significa come-cotas?','Segundo a apostila (edição janeiro/2026), é antecipação periódica do IR em determinados fundos, realizada por redução de cotas, observadas as exceções e regras tributárias de cada classe.','252','fundos tributacao'),
+('O que é um fundo aberto?','Fundo em que, conforme regulamento, cotistas podem solicitar aplicações e resgates; a liquidez depende dos prazos e condições estabelecidos.','241','fundos aberto'),
+('O que significa come-cotas?','Segundo a apostila (edição janeiro/2026), é a antecipação do IR nos fundos de curto e de longo prazo, no último dia útil de maio e de novembro. O administrador resgata cotas no valor do imposto, à alíquota de 20% (curto prazo) ou 15% (longo prazo). Fundos de ações não têm come-cotas.','284','fundos tributacao'),
 ])
 add(16,[
 ('Como diferenciar FII de imóvel mantido diretamente?','A cota de FII representa participação em carteira coletiva e pode ter negociação e distribuição de rendimentos conforme o fundo. Não confere propriedade direta de um imóvel específico ao cotista.','281','fii'),
@@ -243,7 +243,7 @@ add(18,[
 ])
 add(21,[
 ('O que é alienação fiduciária em financiamento imobiliário?','Garantia em que a propriedade resolúvel do bem é transferida ao credor até a quitação, enquanto o devedor mantém a posse direta conforme o contrato.','327','credito_imobiliario garantia'),
-('O que é subadquirente em pagamentos?','Prestador que habilita estabelecimentos a aceitar pagamentos eletrônicos, conectando o lojista a credenciadores e arranjos de pagamento e facilitando captura e liquidação.','336','servicos_bancarios pagamentos'),
+('O que é subadquirente em pagamentos?','Intermediário entre o estabelecimento e o adquirente (credenciador). Usa a infraestrutura de um credenciador para oferecer adesão simples e rápida, sobretudo a pequenos negócios. A apostila diz que ele não tem contrato direto com a bandeira. Pela regulação do Banco Central, porém, o subcredenciador participa do arranjo e o instituidor firma contrato com ele. O que o diferencia do credenciador é que ele não é credor do emissor na liquidação.','453,454','servicos_bancarios pagamentos'),
 ])
 add(22,[
 ('O que é indenização de seguro?','Valor ou prestação que a seguradora paga ao beneficiário ou segurado quando ocorre evento coberto e são atendidas as condições contratuais.','340','seguros indenizacao'),
@@ -252,11 +252,11 @@ add(25,[
 ('Como interpretar um índice de endividamento de 40% dos ativos?','Se calculado como passivos/ativos, indica que 40% do valor dos ativos está financiado por obrigações; o restante corresponde ao patrimônio líquido, sob essa identidade contábil.','379','indicadores endividamento'),
 ])
 add(28,[
-('O que significa abordagem baseada em risco na PLDFT?','A instituição ajusta intensidade de identificação, diligência e monitoramento ao risco do cliente, produto, canal, operação e localização, mantendo controles proporcionais.','400','pldft risco'),
+('O que significa abordagem baseada em risco na PLDFT?','A instituição ajusta intensidade de identificação, diligência e monitoramento ao risco do cliente, produto, canal, operação e localização, mantendo controles proporcionais.','407','pldft risco'),
 ])
 add(31,[
 ('O que diferencia investimento sustentável de simples rotulagem ESG?','Uma estratégia sustentável explicita objetivo, critérios, processo de seleção e monitoramento de resultados. O rótulo isolado não demonstra impacto nem qualidade da análise.','430','esg investimentos'),
-('O que é greenwashing?','Apresentar produto, empresa ou atividade como ambientalmente sustentável sem evidência ou consistência suficiente entre alegações, critérios e práticas.','431','esg greenwashing'),
+('O que é greenwashing?','Apresentar produto, empresa ou atividade como ambientalmente sustentável sem evidência ou consistência suficiente entre alegações, critérios e práticas.','430','esg greenwashing'),
 ('O que são títulos sociais e sustentáveis?','Títulos sociais destinam recursos a projetos com benefícios sociais; títulos sustentáveis combinam usos ambientais e sociais, com critérios e prestação de contas da emissão.','430','esg titulos'),
 ])
 add(32,[
@@ -317,7 +317,7 @@ add(6,[
 ('Como calcular a duration de Macaulay?','Some cada fluxo de caixa descontado multiplicado pelo período em que será recebido e divida pela soma dos valores presentes: D = Σ[t×PV(FC_t)]/ΣPV(FC_t).','96','duration formula'),
 ('Qual é a duration aproximada do título de R$1.000, cupom anual de 8%, vencimento em 5 anos e yield de 6%?','Recalculando os fluxos da apostila: R$80 nos anos 1 a 4 e R$1.080 no ano 5, descontados a 6% a.a., dão PV total de R$1.084,25 e soma ponderada de R$4.708,04; duration = 4.708,04/1.084,25 ≈ 4,34 anos.','97','duration calculo'),
 ('O que estima a duration modificada de 4,10?','A aproximação é que o preço varia cerca de −4,10% quando a taxa sobe 1 ponto percentual, ou +4,10% quando cai 1 ponto, para pequenas mudanças e mantidas as demais condições.','99','duration modificada'),
-('Como imunizar uma obrigação de 5 anos com títulos de duration 3 e 8 anos?','Iguale a duration da carteira a 5 anos: 3wA+8wB=5 e wA+wB=1. Resulta em 60% no título A e 40% no B.','101','duration imunizacao calculo'),
+('Como imunizar uma obrigação de 5 anos com títulos de duration 3 e 8 anos?','Iguale a duration da carteira a 5 anos: 3wA+8wB=5 e wA+wB=1. Resulta em 60% no título A e 40% no B.','100,101','duration imunizacao calculo'),
 ('Como diferem desconto racional e desconto comercial simples?','Racional “por dentro” calcula juros sobre o valor atual: VP=N/(1+i×n). Comercial “por fora” calcula D=N×d×n sobre o nominal e libera N−D antes de tarifas/tributos.','102','desconto'),
 ('Quanto libera o desconto comercial de R$20.000 por 3 meses a 2% ao mês antes de tarifas?','Desconto = 20.000×0,02×3=R$1.200; valor líquido antes de outros custos = R$18.800. No exemplo bancário, TAC e IOF reduzem ainda mais o valor.','103','desconto calculo'),
 ('Como interpretar a TMA em uma decisão de investimento?','É o retorno mínimo exigido pelo investidor ou o custo de oportunidade/capital usado para comparar o projeto. Projeto com retorno abaixo da TMA não atende ao mínimo requerido.','110','investimentos tma'),
@@ -327,14 +327,14 @@ add(6,[
 ])
 add(3,[
 ('Como diferenciar risco de inadimplência e risco de degradação da qualidade de crédito?','Inadimplência é o não pagamento de uma obrigação. A deterioração da qualidade de crédito pode surgir antes, com piora de rating, indicadores financeiros ou capacidade de pagamento do devedor.','43','riscos credito'),
-('Como a apostila define risco de concentração?','Perda potencial ampliada pela exposição excessiva a um mesmo emissor, setor, contraparte, região ou fator de risco; limites e diversificação ajudam a reduzir essa dependência.','44','riscos concentracao'),
+('O que a apostila diz sobre risco de concentração em fundos de ações?','Segundo a apostila (edição janeiro/2026), os ativos de ações desses fundos não têm limite de concentração por emissor. O gestor pode concentrar a carteira em poucas empresas se o regulamento previr essa possibilidade e o termo de adesão alertar o cotista sobre o risco de concentração.','278','riscos concentracao'),
 ('O que significa risco sistemático?','Risco ligado a fatores amplos que afetam o mercado e não é eliminado apenas pela diversificação de ativos dentro daquele mercado.','44','riscos mercado'),
 ])
 add(7,[
 ('Como se diferenciam mercados monetário, de crédito e de capitais?','O monetário administra liquidez e operações de curto prazo; o de crédito intermedeia empréstimos; o de capitais canaliza recursos por valores mobiliários, com investidor assumindo risco do emissor.','120','economia mercados'),
-('Como se distinguem PIB nominal e PIB real?','PIB nominal usa preços correntes do período. PIB real desconta o efeito da variação de preços para permitir comparação de volume produzido ao longo do tempo.','124','pib'),
-('Qual é a diferença entre IPCA e INPC segundo a apostila?','Ambos são índices de preços calculados pelo IBGE, mas cobrem populações e cestas com recortes diferentes; IPCA é referência central do regime de metas de inflação e o INPC foca famílias de menor renda.','131','inflacao indicadores'),
-('O que é inflação acumulada em doze meses?','Variação composta do índice de preços nos últimos doze meses, calculada multiplicando os fatores mensais e subtraindo 1; não é a soma simples das taxas mensais.','125','inflacao calculo'),
+('Uma indústria compra R$ 1.000 de matéria-prima e vende o produto por R$ 1.800. Quanto ela acrescenta ao PIB?','R$ 800, o valor agregado (R$ 1.800 − R$ 1.000). O PIB desconta os insumos intermediários para não contar a matéria-prima duas vezes.','123','pib'),
+('Como a apostila diferencia IPCA e IGP-M?','O IPCA é o índice oficial de inflação, calculado pelo IBGE, referência da meta de inflação; cobre famílias com renda de 1 a 40 salários-mínimos em áreas urbanas, com coleta do dia 1 ao 30. O IGP-M é calculado pela FGV: 60% IPA (atacado), 30% IPC e 10% INCC, com coleta do dia 21 do mês anterior ao dia 20. Por pesar mais o atacado, é o índice mais afetado pelo câmbio.','124,126','inflacao indicadores'),
+('O que é inflação acumulada em doze meses?','Variação composta do índice de preços nos últimos doze meses, calculada multiplicando os fatores mensais e subtraindo 1; não é a soma simples das taxas mensais.','77','inflacao calculo'),
 ('Qual é o papel do Copom na definição da Selic?','O Copom decide a meta da taxa Selic em reuniões periódicas, considerando perspectivas e riscos para a inflação; a decisão busca orientar condições monetárias.','130','copom selic'),
 ('Como diferem política monetária expansionista e contracionista?','A expansionista busca ampliar liquidez e atividade, por exemplo reduzindo juros; a contracionista restringe condições financeiras para conter pressões inflacionárias, por exemplo elevando juros.','137','politica monetaria'),
 ('O que é resultado primário do setor público?','Diferença entre receitas e despesas não financeiras do governo; não inclui juros da dívida no cálculo primário, segundo a definição apresentada na apostila.','139','politica fiscal'),
@@ -363,13 +363,13 @@ add(13,[
 ('Qual é a alíquota indicada pela apostila para ganho em operações comuns com ações?','Segundo a apostila (edição janeiro/2026), a alíquota é 15% sobre o ganho líquido em operações comuns, sujeita às regras de apuração e isenções descritas.','232','tributacao renda_variavel'),
 ('Qual é a alíquota indicada para day trade?','Segundo a apostila (edição janeiro/2026), day trade é tributado a 20%, com retenção na fonte de 1% sobre o lucro como antecipação.','230','tributacao renda_variavel'),
 ('Como se compensam prejuízos de day trade?','Segundo a apostila (edição janeiro/2026), prejuízos de day trade compensam ganhos de day trade; não se misturam livremente com prejuízos de operações comuns.','235','tributacao compensacao'),
-('A isenção por vendas mensais de ações também vale para day trade?','Não. Segundo a apostila (edição janeiro/2026), não há isenção de IR para day trade, mesmo quando o valor de vendas é inferior ao limite de operações comuns.','234','tributacao renda_variavel'),
+('A isenção por vendas mensais de ações também vale para day trade?','Não. Segundo a apostila (edição janeiro/2026), não há isenção de IR para day trade, mesmo quando as vendas do mês ficam abaixo de R$ 20.000,00, o limite das operações comuns.','234','tributacao renda_variavel'),
 ])
 add(14,[
 ('Como diferem classes abertas e fechadas de fundos?','Na classe aberta, o cotista pode pedir resgate conforme prazos do regulamento. Na classe fechada, em regra não há resgate a qualquer momento; a saída ocorre por amortização, liquidação ou negociação de cotas, conforme documentos.','241','fundos classes'),
 ('O que significa cota de abertura e cota de fechamento?','Cota de abertura usa patrimônio de referência no início do dia e é usada em fundos de baixa volatilidade conforme regras; cota de fechamento reflete valores apurados ao fim do dia e movimentos de mercado.','244','fundos cotas'),
 ('O que pode acontecer se o fundo fechar para resgates por falta de liquidez?','Em situações excepcionais, o administrador pode suspender resgates e adotar procedimentos previstos na regulamentação e no regulamento, comunicando os cotistas e protegendo tratamento equitativo.','245','fundos liquidez'),
-('O que é fundo multimercado?','Classe que pode combinar diferentes fatores de risco e estratégias, como juros, câmbio e ações, conforme política e limites do regulamento. Maior flexibilidade também exige entender riscos e alavancagem.','246','fundos fif'),
+('O que é fundo multimercado?','Classe que pode combinar diferentes fatores de risco e estratégias, como juros, câmbio e ações, conforme política e limites do regulamento. Maior flexibilidade também exige entender riscos e alavancagem.','281','fundos fif'),
 ('O que significa alavancagem em um fundo?','Assumir exposição ou risco superior ao patrimônio líquido do fundo, geralmente por derivativos; perdas podem ser ampliadas e exigir recursos adicionais conforme estrutura e limites.','258','fundos riscos'),
 ])
 add(15,[

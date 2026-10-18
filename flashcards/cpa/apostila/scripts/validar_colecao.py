@@ -87,7 +87,13 @@ assert 'igual ou superior a 5 anos' in ima
 ibov = answers['Como diferem Ibovespa e IBrX segundo a apostila?']
 assert 'ambos ponderam pelo valor de mercado do free float' in ibov
 assert 'IBrX 100 seleciona os 100 ativos de maior IN' in ibov
-assert 'Como a apostila define risco de concentração?' in answers
+concentration = answers['O que a apostila diz sobre risco de concentração em fundos de ações?']
+assert 'p. impressa 278' in concentration and 'termo de adesão' in concentration
+assert 'Como a apostila define risco de concentração?' not in answers
+assert 'Qual é a diferença entre IPCA e INPC segundo a apostila?' not in answers
+assert 'IGP-M' in answers['Como a apostila diferencia IPCA e IGP-M?']
+assert 'R$ 20.000,00' in answers['Como funciona a isenção mensal de IR em vendas de ações no mercado à vista?']
+assert 'art. 7º' in answers['O que fazer quando o cliente insiste em operação incompatível com seu perfil?']
 assert 'Como a apostila define um arranjo de pagamento?' in answers
 assert 'O que é risco de concentração?' not in answers
 assert 'O que é um arranjo de pagamento?' not in answers

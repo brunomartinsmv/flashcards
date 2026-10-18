@@ -21,7 +21,7 @@
     "pt": "Hoje acordo antes das sete.",
     "it": "Oggi mi sveglio prima delle sette.",
     "es": "Hoy me despierto antes de las siete.",
-    "en": "I wake up before seven today."
+    "en": "Today I'm waking up before seven."
   },
   {
     "nivel": "basico",
@@ -364,7 +364,7 @@
     "tema": "02",
     "pt": "Minha reserva está neste nome.",
     "it": "La prenotazione è a questo nome.",
-    "es": "Mi reserva está a nombre de esta persona.",
+    "es": "Mi reserva está a este nombre.",
     "en": "My reservation is under this name."
   },
   {
@@ -1531,8 +1531,8 @@
     "nivel": "intermediario",
     "tema": "02",
     "pt": "Como o voo foi cancelado, remarcamos para a primeira conexão disponível.",
-    "it": "Dato che il volo è stato cancellato, abbiamo riprenotato il primo collegamento disponibile.",
-    "es": "Como cancelaron el vuelo, cambiamos la reserva al primer enlace disponible.",
+    "it": "Dato che il volo è stato cancellato, abbiamo riprenotato la prima coincidenza disponibile.",
+    "es": "Como cancelaron el vuelo, cambiamos la reserva a la primera conexión disponible.",
     "en": "Since the flight was canceled, we rebooked the earliest available connection."
   },
   {
@@ -2580,7 +2580,7 @@
     "tema": "01",
     "pt": "Eu teria preferido cuidar disso antes, mas a informação só chegou no fim do expediente.",
     "it": "Avrei preferito occuparmene prima, ma l'informazione è arrivata solo a fine giornata.",
-    "es": "Habría preferido encargarme de esto antes, pero la información llegó hasta el final de la jornada.",
+    "es": "Habría preferido encargarme de esto antes, pero la información solo llegó al final de la jornada.",
     "en": "I would have liked to handle this sooner, but the information didn't come through until the end of the day."
   },
   {
