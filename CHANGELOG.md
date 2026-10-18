@@ -16,8 +16,33 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - CPA: páginas citadas corrigidas em 31 cartões cuja referência apontava para outro assunto, como blockchain, subadquirente, sandbox, come-cotas, fundos, previdência, PIB e risco climático.
 - CPA: quatro cartões sem base na apostila foram substituídos por conteúdo da própria apostila. IPCA × INPC virou IPCA × IGP-M, PIB nominal × real virou valor agregado, análise fundamentalista × técnica virou aluguel de ações e blockchain permissionada virou DeFi. Risco de concentração agora reflete o que a apostila diz sobre fundos de ações.
 - CPA: respostas vagas passam a trazer os dados da apostila, como o limite de R$ 20.000,00 em vendas mensais de ações, a garantia do FGCoop, as datas e alíquotas do come-cotas e a definição de subadquirente. O cartão sobre cliente que insiste em operação inadequada cita a Resolução CVM 30, art. 7º.
+- CPA: cinco cartões complementam a apostila onde ela simplifica. No aluguel de ações, a titularidade passa ao tomador, e o doador recebe reembolsos equivalentes aos proventos (B3). O subcredenciador participa do arranjo, mas não é credor do emissor (Banco Central). O FGCoop não cobre LCD e não tem o teto global do FGC (Banco Central). O PIB pela ótica da produção soma valor adicionado e impostos líquidos sobre produtos (IBGE). No exemplo de empréstimo DeFi, a devolução não é garantida.
 - Machine learning: vírgulas faltantes em cinco frentes; respostas mais claras nos exercícios de k-NN ponderado e da árvore com chuva de 5 mm.
-- Idiomas: `a nombre de esta persona` corrigido para `a este nombre`; conexão de voo em espanhol e italiano (`conexión`, `coincidenza`); `llegó hasta` substituído por `solo llegó`; frente inglesa do despertador mais natural; `pepper` e `pan` especificados como `bell pepper` e `frying pan`.
+- Idiomas: `a nombre de esta persona` corrigido para `a este nombre`; conexão de voo em espanhol e italiano (`conexión`, `coincidenza`); `llegó hasta` substituído por `solo llegó`; frente inglesa do despertador mais natural (`Today I'm waking up before seven.`); `pepper` e `pan` especificados como `bell pepper` e `frying pan`.
+
+### Migração
+
+O Anki identifica notas Basic pela frente. Ao reimportar com "atualizar notas existentes", as frentes abaixo entram como notas novas, e a versão antiga continua no deck. Para manter o histórico de revisão, antes de importar procure a frente antiga no navegador do Anki e troque-a pela nova. Se preferir, importe e depois exclua a nota antiga.
+
+| Deck | Frente antiga | Frente nova |
+| --- | --- | --- |
+| `CPA::03 Riscos, mitigação e autorregulação` | Como a apostila define risco de concentração? | O que a apostila diz sobre risco de concentração em fundos de ações? |
+| `CPA::07 PIB, inflação, Selic e políticas econômicas` | Como se distinguem PIB nominal e PIB real? | Uma indústria compra R$ 1.000 de matéria-prima e vende o produto por R$ 1.800. Quanto ela acrescenta ao PIB? |
+| `CPA::07 PIB, inflação, Selic e políticas econômicas` | Qual é a diferença entre IPCA e INPC segundo a apostila? | Como a apostila diferencia IPCA e IGP-M? |
+| `CPA::12 Oferta pública, governança e ações` | Como diferenciar análise fundamentalista de análise técnica? | Como funciona o aluguel de ações e quem recebe os proventos durante o contrato? |
+| `CPA::32 Blockchain, criptoativos, tokenização e smart contracts` | Como diferenciar blockchain permissionada de pública? | Como as finanças descentralizadas (DeFi) diferem do sistema financeiro tradicional? |
+| `idioms::english::Frases::01 Básico::01 Rotina e organização` | I wake up before seven today. | Today I'm waking up before seven. |
+| `idioms::english::Léxico::Básico::05 Cozinha e utensílios` | pan | frying pan |
+| `idioms::english::Léxico::Básico::07 Frutas e vegetais` | pepper | bell pepper |
+| `idioms::italian::Frases::02 Intermediário::02 Serviços compras e viagens` | Dato che il volo è stato cancellato, abbiamo riprenotato il primo collegamento disponibile. | Dato che il volo è stato cancellato, abbiamo riprenotato la prima coincidenza disponibile. |
+| `Machine learning::17 Métricas de classificação binária` | Como ler TP TN FP e FN em uma matriz de confusão? | Como ler TP, TN, FP e FN em uma matriz de confusão? |
+| `Machine learning::06 Árvores florestas e boosting` | XGBoost LightGBM e CatBoost são o mesmo algoritmo? | XGBoost, LightGBM e CatBoost são o mesmo algoritmo? |
+| `Machine learning::12 Exemplos práticos e decisões de configuração` | No exemplo de clientes, os números 0 1 e 2 dos clusters representam classes reais? | No exemplo de clientes, os números 0, 1 e 2 dos clusters representam classes reais? |
+| `Machine learning::24 Séries temporais modelos e diagnóstico` | Como distinguir tendência sazonalidade e ciclo? | Como distinguir tendência, sazonalidade e ciclo? |
+| `Machine learning::24 Séries temporais modelos e diagnóstico` | O que p d e q configuram em ARIMA(p,d,q)? | O que p, d e q configuram em ARIMA(p,d,q)? |
+| `idioms::spanish::Frases::01 Básico::02 Serviços compras e viagens` | Mi reserva está a nombre de esta persona. | Mi reserva está a este nombre. |
+| `idioms::spanish::Frases::02 Intermediário::02 Serviços compras e viagens` | Como cancelaron el vuelo, cambiamos la reserva al primer enlace disponible. | Como cancelaron el vuelo, cambiamos la reserva a la primera conexión disponible. |
+| `idioms::spanish::Frases::03 Avançado::01 Rotina e organização` | Habría preferido encargarme de esto antes, pero la información llegó hasta el final de la jornada. | Habría preferido encargarme de esto antes, pero la información solo llegó al final de la jornada. |
 
 ## [2.0.0] - 2026-10-09
 

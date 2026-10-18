@@ -38,6 +38,16 @@ O cartão Ibovespa × IBrX corrige a ponderação: os dois usam valor de mercado
 
 O cartão sobre cliente que insiste em operação incompatível com o perfil usa as vedações da apostila e complementa o procedimento com a [Resolução CVM 30, art. 7º](https://conteudo.cvm.gov.br/export/sites/cvm/legislacao/resolucoes/anexos/001/resol030consolid.pdf): antes da primeira operação, alertar o cliente sobre a inadequação e obter declaração expressa de ciência.
 
+O cartão de aluguel de ações mantém o direito econômico do doador aos proventos, como na apostila, e corrige a titularidade: durante o empréstimo, as ações passam ao tomador, que fica com o voto, e o doador recebe reembolsos equivalentes ou ações com quantidade ajustada ([perguntas frequentes da B3](https://www.b3.com.br/pt_br/produtos-e-servicos/emprestimo-de-ativos/renda-variavel/perguntas-frequentes/)).
+
+O cartão de subadquirente registra a simplificação da apostila ("sem contrato direto com a bandeira") e a regra do Banco Central: o subcredenciador participa do arranjo e firma contrato com o instituidor. A diferença em relação ao credenciador é que ele não é credor do emissor na liquidação ([Resolução BCB 150/2021, art. 2º](https://www.bcb.gov.br/meubc/faqs/p/os-subcredenciadores-sao-regulados-e-fiscalizados-pelo-banco-central)).
+
+O cartão do FGCoop mantém o limite ordinário da apostila e não iguala as listas: pelo Banco Central, a LCD é coberta pelo [FGC](https://www.bcb.gov.br/meubc/faqs/p/depositos-e-investimentos-garantidos-pelo-fgc), mas não pelo [FGCoop](https://www.bcb.gov.br/meubc/faqs/p/depositos-e-investimentos-garantidos-pelo-fgcoop), e o teto global de R$ 1 milhão a cada quatro anos é regra do FGC.
+
+O cartão do PIB pela ótica da produção usa o valor agregado de cada setor, como no exemplo da apostila, e completa a identidade do [IBGE](https://www.ibge.gov.br/estatisticas/economicas/contas-nacionais/9054-contas-regionais-do-brasil.html): valor adicionado bruto mais impostos líquidos de subsídios sobre produtos.
+
+O cartão de DeFi não repete que o contrato "garante" a devolução do empréstimo. O contrato automatiza prazo, juros e liquidação da garantia, mas a garantia pode não cobrir a dívida ([BIS](https://www.bis.org/publ/qtrpdf/r_qt2112b.htm)).
+
 Valores tributários, limites e outras regras regulatórias aparecem identificados como "Segundo a apostila (edição janeiro/2026)". A coleção não verifica se esses dados continuam vigentes. Use a edição indicada como material de estudo, não como confirmação de regra atual.
 
 Taxas e prazos foram escritos com unidade explícita. Exemplos numéricos derivados de fórmulas da apostila foram recalculados. Quando uma fórmula ou figura não apareceu na extração textual, a página do PDF foi renderizada para conferência antes de incluir o cartão.
